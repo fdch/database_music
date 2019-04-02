@@ -1,0 +1,9 @@
+# Directories
+.tmp
+
+# Files
+*.dia
+*~
+
+# MacOS stuff
+.DS_Store

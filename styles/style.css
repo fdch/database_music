@@ -1,0 +1,40 @@
+/*
+
+
+	THIS FILE BELONGS TO WAVES
+
+	CASCADE STYLESHEET FOR INDEX.HTML
+
+
+*/
+body {
+	color:burlywood;
+	background-color:black;
+	padding:0 5%;
+	font-family:Helvetica;
+}
+strong {
+	color:orange;
+	font-size:1.1em;
+}
+blockquote{
+	/*margin-left:2in;*/
+}
+h1,h2,h3 {
+	color:#ce8d2d;
+}
+ol {
+  counter-reset: item
+}
+li {
+  display: block
+}
+li:before {
+  content: counters(item, ".") " ";
+  counter-increment: item;
+  color:orange;
+  font-size:1.1em;
+}
+a{
+	color:orange;
+}

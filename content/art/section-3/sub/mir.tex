@@ -1,0 +1,42 @@
+%you might want to include at some point the idea that databases in general are used to teach computers about the world, and to get them to to do things that humans can do, but not computers.
+
+In \gls{mir}, the database is \textit{in front} of the programmer, \textit{next} to the computer. This practice combines \gls{ir} with Music Theory, and it has been present in academia for a while, most generally within Electrical Engineering departments. The objective of \gls{mir} is to obtain useful information from the analysis of sound signals. That is, \gls{mir} seeks to represent a complex signal with a small number of data points, thus defining a a navigable `information space,' which is, quite literally, the discretized space of the database.
+
+\img{mir}{png}{0.3}{
+	Diagram of database performance in \gls{mir} practices. The database is visibly next to the computer, and the two bottom arrows indicate the intervention of the human operator.
+}
+
+For instance, out of sound file containing millions of samples, information space reduces these points to a database of few `descriptors' that point to certain `features' of the sound file. A descriptor is, in essence, a small amount of data that identifies other larger data. In this case, a feature descriptor relates to the values of a certain characteristics of the analyzed audio file, such as spectral centroid, brightness, flatness, etc. 
+
+Over the 18 years of the \gls{ismir} conference, more than thirty databases of this sort have been publicly created and released, as a means to classify millions of songs and musical genres. This type of database navigation has been used to perform automatic tasks such as categorization for recommendation systems \parencite{DBLP:journals/corr/abs-0812-4235}, track separation or instrument recognition, and score transcriptions, among other uses (see below). A recent emphasis in open source database creation has gained momentum \parencite{DBLP:conf/ismir/FonsecaPFFBFOPS17}, such as the \gls{freesound} database, or \gls{cmam}'s \gls{telemeta}, both collaborative database systems: the former for general use, the latter for ethno-musicological pursposes. Before sound and audio descriptor databases, however, music notation databases have been developed with a variety of file formats, such as \gls{midi}, \gls{musicxml}, the Humdrum \texttt{**kern} data format \parencite{DBLP:conf/ismir/Sapp05}, \gls{guido}, to name a few. For an extensive guide on musical representations, see \parencite{Selfridge-Field:1997:BMH:275928}. Some examples of these notation databases can be the Polish folksong database in the \gls{esac} format, the electronic library for musical scores \gls{musedata}, the \gls{rism} database, the Kern Scores database,\footnote{\url{http://kern.ccarh.org/}} among others. In turn, these databases have been a fruitful area of exploration in Computational Musicology \parencite{DBLP:conf/iciso/Yokl11}, for which toolkits such as \gls{mit}'s \gls{music21} have been developed. The \gls{marsyas} library and the \gls{essentia} libraries are some examples of programs written with \gls{mir} techniques for a variety of purposes rooted in audio analysis and synthesis. There different applications of databases are endless and so varied that would extend the scope of this study.\footnote{For example, consider the \gls{mimo} database, a project dedicated to the cataloguing of musical instruments, and how it was used for the statistical tracking of the evolution of the violin based on pattern recognition of its shapes \parencite{2018arXiv180802848P}}
+
+In the following section, more specific uses of these and other audio databases will be mentioned. Some of the uses that \gls{mir} has given to the database have been:
+
+\begin{itemize}
+\item to create digital libraries \parencite{DBLP:conf/ismir/Dunn00}
+\item to store actual music notation \parencite{DBLP:conf/ismir/Good00}
+\item for audio classification and clustering \parencite{ilprints489, DBLP:conf/ismir/HomburgMMMW05}
+\item for the evaluation of multiple-source, fundamental frequency estimation algorithms \parencite{DBLP:conf/ismir/YehBR07}
+\item to describe performance expression \parencite{DBLP:conf/ismir/HashidaMK08}
+\item for genre recognition and classification \parencite{Tza02:Mus, DBLP:conf/icmc/XuZY05, DBLP:conf/ismir/SillaKK08, icmc/bbp2372.2010.003, DBLP:journals/corr/abs-1803-04652, DBLP:journals/corr/WangH17a, DBLP:journals/corr/MitraS14,2010NJPh:12e3030C, DBLP:journals/corr/abs-0812-4235}
+\item for structural analysis \parencite{DBLP:conf/ismir/SmithBFRD11}
+\item for contextual music listening pattern detection using social media \parencite{DBLP:conf/ismir/HaugerSKT13}
+\item to train models for phoneme detection \parencite{DBLP:conf/ismir/ProutskovaRWC12}
+\item for schenkerian analysis \parencite{DBLP:conf/ismir/Kirlin14}
+\item for tonal music analysis using \gls{gttm} \parencite{DBLP:conf/ismir/HamanakaHT14}
+\item for counterpoint analysis \parencite{DBLP:conf/ismir/AntilaC14}
+\item for emotion recognition and color associations in the listener \parencite{DBLP:conf/ismir/PesekGPSGSPM14}
+\item for multimodal mood prediction \parencite{DBLP:journals/corr/abs-1809-07276}
+\item for melody \parencite{DBLP:conf/ismir/BittnerSTMCB14} and singing voice \parencite{DBLP:journals/corr/abs-1711-00048} extraction
+\item for harmonic analysis \parencite{DBLP:conf/ismir/DevaneyACN15}
+\item for the evaluation of tempo estimation and key detection algorithms \parencite{DBLP:conf/ismir/KneesFHVBHG15}
+\item for orchestration \parencite{DBLP:conf/ismir/CrestelEHM17}
+\item for computational musicology\footnote{Within musicology, an early use of the database can be found in the digitization of the Bridgman file by Hèléne Charnassé in 1980 \parencite{icmc/bbp2372.1980.051}, which consisted of the extensive annotations made by Madame Bridgman in the Paris Bibliothéque Nationale, of Renaissance polyphonic music from 1420-1520} \parencite{DBLP:conf/ismir/Parada-Cabaleiro17}
+\item for forensic analysis as a complement of video analysis \parencite{serizel:hal-01393959}
+\item for training and evaluating chord transcription algorithms \parencite{DBLP:conf/ismir/EremenkoDBS18}
+\item for training querying methods such as humming \parencite{DBLP:journals/corr/Brzezinski-SpiczakDLP13, DBLP:journals/corr/NagaviB14, DBLP:journals/corr/abs-1301-1894}
+\item for multi-instrument recognition \parencite{DBLP:conf/ismir/HumphreyDM18}
+\item for adversarial audio synthesis \parencite{2018arXiv180204208D}
+\end{itemize}
+
+For further reference, the following citations point to different audio databases which have been created over the years: \parencite{DBLP:conf/ismir/GotoHNO02, DBLP:conf/ismir/GotoHNO03, DBLP:conf/ismir/WustC04, DBLP:conf/ismir/MaxwellE08, DBLP:conf/ismir/Bertin-MahieuxEWL11, DBLP:conf/ismir/Karaosmanoglu12, Jaimovich:2012, Mital:2013, bbortz:2015, jjaimovich:2015,Nort2016,  DBLP:conf/ismir/DefferrardBVB17, DBLP:conf/ismir/VigliensoniF17, DBLP:conf/ismir/Meseguer-Brocal18, DBLP:conf/ismir/DonahueMM18, DBLP:conf/ismir/XiBPYB18, DBLP:conf/ismir/WilkinsSWP18}.

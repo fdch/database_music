@@ -1,0 +1,177 @@
+I propose now to extend the concept of \textit{abstract data types} to the concept of database \textit{models}. Database models are the realm of data structures. These models, to be described below, constitute the abstract ways in which data can be organized within a database system. \gls{dbms}s, in turn, are a specific type of software aimed at organizations, website design, server architectures, company management, among other uses in the business sector. Since an analysis of these systems falls outside the scope of this study, I provide a glimpse of the structure of the models without entering in their implementation. Figure \ref{tab:dbmodels} shows a development timeline that serves as a context for the appearance of these models. Their emergence over the years goes hand in hand with hardware and programming language development. Further, several implementations of these models depended on specific language development such as \gls{ddl} for structural specification of data, and a \gls{dml} for accessing and updating data \parencite[4]{DBLP:books/aw/AbiteboulHV95}. 
+
+Angles and Gutierrez name the three most important aspects a database model should address: ``a set of data structure types, a set of operators or inference rules, and a set of integrity rules'' \parencite[2]{2008:graph/anglesgutierrez/survey}. Operators can be understood as the set of routines that constitute the query language and data manipulation. Integrity rules can be understood as data constraints preventing redundancy or inconsistencies, and checking routines preventing false queries. In a similar way, for Serge Abiteboul a database model ``provides the means for specifying particular data structures, for constraining the data sets associated with these structures, and for manipulating the data'' \parencite[28]{DBLP:books/aw/AbiteboulHV95}. However, data manipulation (operators) and constraints (integrity) are built around the data structure, which is why, Angles and Gutierrez continue, ``several proposals for [database] models only define the data structures, sometimes omitting operators and/or integrity rules'' \parencite[2]{2008:graph/anglesgutierrez/survey}. 
+
+In essence, all \gls{dbms}s share the same function: provide access to a database. This access, however, is restricted by the imperatives of the model. Database models have been thought of as collections of conceptual tools to represent real-world entities and their relationships \parencite[1]{2008:graph/anglesgutierrez/survey}. In this sense, the models are fit to achieve a level of specificity and efficiency that is integrated with the notions of economic success. That is to say, the quality of database access has a direct influence on the operational level of businesses. For example, if the database system in charge of airline reservations fails to update an entry or does not restrict duplicates, this might result in either empty airplanes or double-booking, an economic loss that might result in a company going out of business. In relation to data structure design within \gls{caac} software, Christopher Ariza \parencite{Ari05:Ano} claims that design choices ``determines the interaction of software components and the nature of internal system processing'' \parencite[18]{Ari05:Ano}. Luckily, a failed database access in music might perhaps come as a minimal performative `bump' that can be otherwise forgotten. However, it is imperative that these models are analyzed because of the continuum between data structures and database models, and because of the internal relations that resonate from these structures to the implementations of computer music software. Therefore, to a certain extent, database models and computer music software share the resonance of data structures, and belong to their realm.
+
+% 
+% 
+% EH:
+% It seems to me profoundly important for you to explain
+% the nature of these distinct models. 
+% What distinguishes the relational from the network? 
+% Can networks be interconnected? 
+% Does the semantic have any aspects of hierarchy or network? Etc
+
+
+
+
+\subsubsection{Hierarchical}
+\label{model:hierarchical}
+
+\img{hierarchical}{png}{0.2}{Diagram of the hierarchical model}
+
+The hierarchical model was developed at \gls{ibm} during the early 1960s, in conjunction with other American manufacturing conglomerates for \gls{nasa}'s Project Apollo, resulting in \gls{ims} \parencite{2000-database-ims}. The hierarchical model is closely linked to the architecture of data within a computer. Therefore, it interprets records as collections of single-value fields that are interconnected by way of paths. Records can have type definitions, which determine the fields it contains. As a rule of this structure, a child record can be linked upwards to only one parent record and downwards to many child records. The structure stems from a single `root' record, which is the initial parent-less record that begins any traversing of the structure for retrieval.
+
+This model is useful for nesting structures such as directory trees and path structures in most operating systems today. Their use within database systems was eclipsed by the relational model during the 1980s, but it resurfaced through relational-type implementations of hierarchical models, and with the appearance of semi-structured model in the late 1990s \see{model:semistructured}.
+
+\subsubsection{Network}
+\label{model:network}
+
+\img{network}{png}{0.2}{Diagram of the network model}
+
+Invented by Charles Bachman in 1959 and published at the \gls{codasyl}, the network model is a way of representing objects as nodes in a graph whose relationships can be represented as arcs. The programming language \gls{cobol} was designed for the implementation of network databases. The nodes in these networks are known as `records,' and their relationships form `sets' that have one-to-many relationships in between records, that is, one `owner' and multiple `members.' The main feature of a network model is that these relationships are not bounded to any hierarchical or lattice-like structures, providing a more natural way of record relation. Structurally, each node has an identity called a database `key' which corresponds to the pointer to the physical address of the record on disk. This is how the network model maintains a close relationship between data structures and traversing: keys can thus be used to implement linked lists and trees for record navigation, allowing for very fast retrieval speeds due to the interlocking of the physical implementation and the internal logic of node identity and access.
+
+\paragraph{Navigational Paradigm}  The advent of disk-based database systems, in contrast to magnetic tape or punched card systems, enabled a different way of thinking database navigation. Working for General Electric's \gls{ids}, Bachman \parencite{Bachman:1973:PN:355611.362534} later conceptualized and implemented a navigational paradigm within the networked model. Abandoning the ``memory-centered view'' of database system development, Bachman called for programmers ``to accept the challenge and opportunity of navigation within an \textit{n}-dimensional data space'' \parencite[657]{Bachman:1973:PN:355611.362534}. Therefore, he proposed data records and attributes as \textit{n}-dimensional space. This means that a database can be traversed not only by accessing the first element and then moving sequentially to the `next' record. Secondary data keys could be made into sets for navigation starting from any of its members. In other words, given a database with records and attributes, all attributes can become a new dimension thus making retrieval times much more efficient. Navigating through a database within this paradigm is achieved by following record relationships instead of record order in physical storage. Therefore, with the navigational paradigm, a new level of abstraction was thus given to database management systems, resulting in better and more efficient database retrieval.
+
+The navigational paradigm was implemented not only in network model, also in the hierarchical model, and it is still used today. Like I described with hierarchical databases, the navigational paradigm was eclipsed by the relational model, but after the 1990s, they re-emerged with non-relational databases. For example, since \gls{dom} websites contains a hierarchicalstructure, they can be accessed using this navigational paradigm.
+
+\subsubsection{Relational}
+\label{model:relational}
+
+\img{relational}{png}{0.2}{Diagram of the relational model}
+
+The relational model was first designed by E. F. Codd \parencite{Codd:1970:RMD:362384.362685, Codd72relationalcompleteness}. Its main feature is the table-like organization of data, together with a separation between the physical level of data storage and the query language. These features allowed, on the one hand simple data visualizations, and on the other highly complex data manipulations by way of an algebra-based query language. Data is placed into uniquely identified rows (records) which can have multiple columns (attributes). A table thus becomes a relation. The main difference between the navigational and the relational paradigms, can be seen in the way users formulate queries. In the former, users specify which steps need to be made in order to arrive at a certain record. In the latter, users specify what needs to be found in terms of an algebraic expression. The query language developed for relational databases is \gls{sql}. In recent years, object relational database have emerged such as \gls{sqlobject}, intepreting relations as classes in the object-oriented programming paradigm.
+
+\subsubsection{Non-Relational}
+\label{model:nonrelational}
+
+This is a more general type of database models where the internal structure is different from the tabular kind that the relational model presents \see{model:relational}, and they are generally referred to as \gls{nosql}. Within this class or group of non-relational models, some examples can be: Key-Value databases, which are centered on associative arrays (hash tables) such as python dictionaries; semi-structured databases \see{model:semistructured}, also called document-oriented databases such as \gls{xml}, \gls{yaml}, and \gls{json}; graph databases and mixed graph models such as the way in which the World Wide Web convention (W3C) structures websites, with a URL as a `name' and their content as a `graph' \see{model:graph}; object databases \see{model:object}; and database systems using combinations of different models.
+
+\subsubsection{Graph}
+\label{model:graph}
+
+In their survey of graph-modelled databases, Angles and Gutierrez \parencite{2008:graph/anglesgutierrez/survey} date the beginning of graph databases to the early 1980s, in conjunction with object-oriented databases. This model interprets records as `nodes' and connections as `edges.' Therefore, visualizations as graphs, as well as operations stemming from the mathematical theory of graphs, are features of the model. The visual programming paradigm takes advantage of graph representations of their object-oriented programming structure. In this sense, computer music software like OpenMusic, PWGL, Pure Data, \gls{max/msp}, Kyma, among others, present their objects as a directed graph on a canvas.
+
+\subsubsection{Object}
+\label{model:object}
+
+\img{object}{png}{0.2}{Diagram of the object model}
+
+These databases combine the object-oriented programming paradigm with database concepts. On one side, each record is treated as an object, with capability to store variables (attributes) and functions (methods) that the object can perform. This way, when an object is instantiated in the form of a record, all the attributes and methods become available to itself and to other objects, provided these are setup in a `public' way, and so different interactions can occur throughout the database. Some programming languages are directly object-oriented, from which certain databases were created \see{tab:dbmodels}. From 2004, the open source community has been developing open source object databases that are easily accessible in several object-oriented languages.
+
+\subsubsection{Semi-structured}
+\label{model:semistructured}
+
+\img{semistructured}{png}{0.3}{Diagram of the semi-structured model}
+
+\begin{quote}
+	We call here semi-structured data this data that is (from a particular viewpoint) neither raw data nor strictly typed, i.e., not table-oriented as in a relational model or sorted-graph as in object databases. \parencite{Abiteboul:semistructured:96}
+\end{quote}
+
+Abiteboul \parencite{Abiteboul:semistructured:96} comments that given the amount of data that has grown in non-standard structures, a new way of accessing data has emerged. Furthermore, access to data can take place from a variety of different platforms such as browsers, query languages, application-specific interfaces, etc., making the process of obtaining useful information increasingly more difficult since these platforms call for specifically tailored methods and languages. Abiteboul claims, therefore, that first there is a need to extract the non-standard structure from the data, so that it can be traversed afterwards. These databases constitute the semi-structured model. Some examples of this model include \gls{xml} databases, \gls{json} files, \gls{yaml} files, among others \parencite{Buneman:1997:SD:263661.263675}. A well known database of this kind is the \gls{imdb}.
+
+\subsubsection{Pure Data as Database System}
+\label{model:puredata}
+
+While not technically a database system, Pure Data comprises (internally) a limited amount of data structures that are, nonetheless, different between each other. These structures are, in turn, arrays, linked lists, and symbol tables built as a layer of the C programming language. In terms of database models, Pure Data is mostly hierarchical when it comes to canvases. The windowing system that has a `root', and multiple `subcanvases' that can be (almost) infinitely nested. These canvases, while being hierarchic, are traversed as in the navigational model, either for a specific keyword (a query from the `find' menu), or, most importantly, for signal processing. Besides this hierarchical structure, another important aspect of the \gls{gui} level is that it displays visually connected boxes with cords. Therefore, it is quite literally a directed graph where objects are nodes and edges are assigned to a node's inlets and outlets. The \texttt{.pd} file format, written in an application-specific language, is structured in such a way that elements on a graph are listed from top to bottom until the end of the list is reached. After this, the connections between objects inlets and outlets are subsequently listed. This graph model, however, comes out of Pure Data's internal design as an object-oriented program. Its core functionality depends on class instantiation. Every internal and external is a class made of C data structures with its own methods, that can be loaded in memory at run time and instantiated any time afterwards. Furthermore, Pure Data is already a networked environment, since in order to effectively `patch' using the graphical interface, a network is established between Pure Data instance and the Tcl/Tk graphical interface. Added to this, the network capacity that Pure Data comes with, that is, the \texttt{pdsend} and \texttt{pdreceive} objects that support creation of endless \gls{tcp/ip} connection sockets, literally exploding the concept of a hierarchical patch into the non-hierarchic, networked model. 
+
+A common warning that Pure Data developers have to announce is that if you open a listening port and share your port number, anyone can connect to that port, without any restriction whatsoever.\footnote{Miller Puckette suggested this during an open discussion at \obj{PdCon16}} This internet connectivity exposes users to one another in very direct ways, allowing system modifications that if used maliciously could potentially have detrimental effects. It can be argued that this loophole is a reflection of the internal openness of the source code itself. This openness enables programmers to create and load externals, but also to change the program itself. While changing something from the source code can be detrimental for the overall program, in being open, Pure Data prevents any definition to reach completion. An small gap, therefore, is left opened exposing users to the source, and to each other in a networked community.
+
+Pure Data is just one example of many open and non-open source computer music softwares that expose such a plethora of database models for the user. Database models are what makes the realm of data structures reach any databaser: what touches any computer user that has ever pressed a key.
+
+
+\begin{landscape}
+\begin{table}
+\begin{tabular}{ l | p{2cm} | p{4.5cm} | p{12.5cm}}
+
+Year \
+& Model \
+& Designer \
+& Implementation
+
+\tabularnewline
+\hline
+
+1959 \
+& Hierarchical \
+& \gls{ibm} \
+& \gls{ims}
+
+\tabularnewline
+\hline
+
+1960s \
+& Network; Navigational \
+& \gls{codasyl}; General Electric; \gls{hp}; \gls{unisys} \
+& \gls{ids}; \gls{idms}; \gls{rdm}; \gls{turboimage}; \gls{os_2200}; \gls{nosql}
+
+\tabularnewline
+\hline
+
+1960s & \
+Deductive & \
+J. Minker; L. Kuhns
+
+\tabularnewline
+\hline
+
+1960s \
+& Non-relational \
+& \gls{apache}; \gls{sparsity}; \
+& \gls{mongodb}; \gls{redis}; \gls{cassandra}; \gls{sparksee}; \gls{nosql}
+
+\tabularnewline
+\hline
+
+1970s \
+& Relational \
+& E.F. Codd; P. Chen (1976) \
+& \gls{mysql}; \gls{oracle}; \gls{postgresql}; \gls{access}; \gls{sqlite} 
+
+\tabularnewline
+\hline
+
+1975 \
+& Semantic model \
+& U.S. Air force; J.H. ter Bekke (1991) \
+& \gls{xplain}
+
+\tabularnewline
+\hline
+
+1980 \
+& Graph \
+& \gls{oracle}; \gls{apache}; Amazon \
+& \gls{neo4j}; Oracle Spatial and Graph; \gls{arangodb}; Amazon Neptune; \gls{boost}; \gls{networkx}
+
+\tabularnewline
+\hline
+
+1985 \
+& Object \
+& Brown University; Texas Instruments; Bell Labs; \gls{apache} \
+& GemStone (\gls{smalltalk}); Gbase (\gls{lisp}); \gls{couchdb}; \gls{sqlobject}
+
+\tabularnewline
+\hline
+
+1990s \
+& Semi-Structured \
+& W3C \
+& \gls{xml}; \gls{sedna}
+
+\tabularnewline
+\hline
+
+1995 \
+& In-Memory \
+& Oracle; Sybase; Exasol AG; VMWare \
+& TimesTen; \gls{ase}; \gls{sap_hana}; EXASolution; WebDNA
+
+\end{tabular}
+
+\caption{Database model development timeline with examples.}
+\label{tab:dbmodels}
+\end{table}
+\end{landscape}

@@ -1,0 +1,19 @@
+Data structures are the building blocks upon which the entire database model is designed. A data structure is a way to organize data so that a set of element operations are possible, such as \texttt{ADD}, \texttt{REMOVE}, \texttt{GET}, \texttt{SET}, \texttt{FIND}, etc. Data structures can be thought of in two ways: either implemented or as interfaces, what is also known as \textit{abstract data types}:
+
+\begin{quote}
+	An interface tells us nothing about how the data structure implements these operations; it only provides a list of supported operations along with specifications about what types of arguments each operation accepts and the value returned by each operation. \parencite[18]{ods-cpp}
+\end{quote}
+
+In other words, the abstract data type represents the idea of the structure. When abstract data types are implemented in code, the speed and efficiency of the data structure can be physically evaluated. An implementation of this sort includes ``the internal representation of the data structure as well as the definitions of the algorithms that implement the operations supported by the data structure'' \parencite[18]{ods-cpp}. Because of the consequences that design has on computational performance, data structures have constituted a focal research point in the database and computer science communities.
+
+
+\paragraph{Array data structure}
+Arrays constitute one of the oldest and most basic data structures. They are contiguously stored, same-type data elements referenced to by indices. Most programming languages have implemented arrays. Most realtime software loads sound files or images to working memory as an array (or a buffer) of contiguous samples or pixels. Arrays are use less resources when reading than when writing, since accessing their elements is achieved by pointers, but editing demands copying large portions of the array back and forth.
+
+\paragraph{Linked Lists}
+\label{computer:linked}
+One important technical shift in the use of data structures came with the concept of linked lists. A linked list is collection of data (usually a symbol table), with pointers to the `previous' and/or `next' item on the list. They are built to maintain an ordered sequence of elements. This functionality was only available after the FORTRAN '77 programming language (1977) and later it became integrated in the C programming language \parencite{kernighan_c_1978}. They differ from arrays since they can hold multiple data types (including arrays and other data structures), and they are accessed by traversing the list using the `previous' and `next' pointers. In the programs developed during the \gls{sssp} and \gls{camp} years, linked lists were used in the (then very recent) C programming language. \citeauthor{icmc/bbp2372.1985.040} \parencite{icmc/bbp2372.1985.040} also used linked lists to represent melodies within an automated composition system. \citeauthor{Row92:Int} used linked lists in his \texttt{Event} data structures of his interactive music system \textit{Cypher} \see{computer:cypher} \parencite{Row92:Int}.
+
+\paragraph{Sequences}
+\label{computer:audacity}
+\citeauthor{crowley98} claims, however, that neither linked lists nor arrays are suitable for large text sequences, since linked lists take up too much memory, and arrays are slow because they requires too much data movement. Nonetheless, he argues, ``they provide useful base cases on which to build more complex sequence data structures'' \parencite{crowley98}. In fact, data structures are generally built from arrays and linked lists. For example, in designing \textit{Audacity}, Mazzoni and Dannenberg \parencite{icmc/bbp2372.2001.051} implemented the concept of sequences, into a set of small arrays whose pointers were traversed in a linked list. Large audio files were loaded and edited at very fast processing times.

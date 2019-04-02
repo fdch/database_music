@@ -1,0 +1,937 @@
+@inproceedings{ilprints986,
+       booktitle = {Conference on Inovative Data Systems Research (CIDR 2011)},
+           month = 1,
+           title = {Answering Queries using Humans, Algorithms and Databases},
+          author = {Aditya Parameswaran and Neoklis Polyzotis},
+       publisher = {Stanford InfoLab},
+            year = {2011},
+        keywords = {human computation, declarative queries, crowdsourcing, asking humans, vision},
+             url = {http://ilpubs.stanford.edu:8090/986/},
+        abstract = {For some problems, human assistance is needed in addition to automated (algorithmic) computation. In sharp contrast to existing data management approaches, where human input is either ad-hoc or is never used, we describe the design of the first declarative language involving human-computable functions, standard relational operators, as well as algorithmic computation. We consider the challenges involved in optimizing queries posed in this language, in particular, the tradeoffs between uncertainty, cost and performance, as well as combination of human and algorithmic evidence. We believe that the vision laid out in this paper can act as a road-map for a new area of data management research where human computation is routinely used in data analytics.}
+}
+
+@inproceedings{ilprints976,
+       booktitle = {MUD},
+           title = {Generalized Uncertain Databases: First Steps},
+          author = {Parag Agrawal and Jennifer Widom},
+       publisher = {Stanford InfoLab},
+            year = {2010},
+             url = {http://ilpubs.stanford.edu:8090/976/},
+        abstract = {Existing uncertain databases have difficulty managing data when exact confidence values or probabilities are not available. Confidence values may be known imprecisely or coarsely, or even be missing altogether. We propose a generalized uncertain database that can manage data with such incomplete knowledge of uncertainty. We develop a semantics for generalized uncertain databases based on Dempster-Shafer theory. We propose a representation scheme for generalized uncertain databases that generalizes the Trio representation. Our approach builds upon Trio's query processing techniques to extend them to operate on generalized uncertain databases.}
+}
+
+@inproceedings{ilprints916,
+       booktitle = {SIGMOD 2009},
+           month = 6,
+           title = {Asynchronous View Maintenance for VLSD Databases},
+          author = {Parag Agrawal and Adam Silberstein and Brian F. Cooper and Utkarsh Srivastava and Raghu Ramakrishnan},
+       publisher = {Stanford InfoLab},
+            year = {2009},
+             url = {http://ilpubs.stanford.edu:8090/916/},
+        abstract = {The query models of the recent generation of very large scale distributed (VLSD) shared-nothing data storage systems, including our own PNUTS and others (e.g. BigTable, Dynamo, Cassandra, etc.) are intentionally simple, focusing
+on simple lookups and scans and trading query expressiveness for massive scale. Indexes and views can expand the query expressiveness of such systems by materializing more complex access paths and query results. In this paper, we examine mechanisms to implement indexes and views in a massive scale distributed database. For web applications, minimizing update latencies is critical, so we advocate deferring the work of maintaining views and indexes as much as possible. We examine the design space, and conclude that two types of view implementations, called remote view tables (RVTs) and local view tables (LVTs), provide a good tradeoff between system throughput and minimizing view staleness. We describe how to construct and maintain such view tables, and how they can be used to implement indexes, group-by-aggregate views, equijoin views and selection views. We also introduce and analyze a consistency model that makes it easier for application developers to cope with the impact of deferred view maintenance. An empirical evaluation quantifies the maintenance costs of our views, and shows that they can significantly improve the cost of evaluating complex queries.}
+}
+
+@inproceedings{ilprints925,
+       booktitle = {Management of Uncertain Data (MUD)},
+           title = {Outerjoins in Uncertain Databases},
+          author = {Robert Ikeda and Jennifer Widom},
+       publisher = {Stanford InfoLab},
+            year = {2009},
+             url = {http://ilpubs.stanford.edu:8090/925/},
+        abstract = {We consider the problem of incorporating outerjoins into uncertain databases. We motivate why outerjoins are useful, but tricky, in uncertain databases, arguing that standard possible-worlds semantics may be inappropriate for outerjoins. We explore a variety of alternative semantics through a running example, and we briefly discuss implementation considerations.}
+}
+
+@techreport{ilprints935,
+            type = {Technical Report},
+           title = {Conversational Databases: Explaining Structured Queries to Users},
+          author = {Georgia Koutrika and Alkis Simitsis and Yannis Ioannidis},
+       publisher = {Stanford InfoLab},
+            year = {2009},
+     institution = {Stanford University},
+             url = {http://ilpubs.stanford.edu:8090/935/},
+        abstract = {Many applications offer a form-based environment for na\"{\i}ve users for accessing databases without being familiar with the database schema or a structured query language. 
+Do-It-Yourself, database-driven web application platforms empower non-programmers to rapidly create applications.
+Users interactions are translated to structured queries and executed. However, as a user is unlikely to know the underlying semantic connections among the fields presented in a form, it is often useful to provide her with
+some feedback about the queries built without exposing her to the underlying query language, in order to assist her in forming queries correctly.
+Explaining  queries may be also useful for users who explicitly use a structured query language for verification or debugging purposes.
+In this paper, we take a graph-based approach to the query translation problem. We represent various forms of structured queries as directed graphs and we annotate the graph edges with template labels using an extensible template mechanism. We present different graph traversal strategies for efficiently exploring these graphs and composing textual query descriptions.
+Finally, we present experimental results for the efficiency and effectiveness of the proposed methods.}
+}
+
+@inproceedings{ilprints820,
+       booktitle = {Alberto Mendelzon Workshop on Foundations of Data Management},
+           month = 11,
+           title = {Schema Design for Uncertain Databases},
+          author = {Anish Das Sarma and Jeffrey Ullman and Jennifer Widom},
+       publisher = {Stanford InfoLab},
+            year = {2007},
+        keywords = {dependency theory; uncertain data;},
+             url = {http://ilpubs.stanford.edu:8090/820/},
+        abstract = {We address schema design in uncertain databases such as are found in Trio. Since uncertain data is relational in nature, decomposition becomes a key issue in design. Decomposition relies on dependency theory, and primarily on functional dependencies. We study the theory of functional dependencies (FDs) for uncertain relations. We define several kinds of {\em horizonal} FDs and {\em vertical} FDs, each of which is consistent with conventional FDs when an uncertain relation doesn't contain any uncertainty. In addition to standard forms of decompositions allowed by ordinary relations, our FDs allow more complex decompositions specific to uncertain data. First we give a sound and complete axiomatization of horizontal and vertical FDs. Next we show how our theory of FDs can be used for lossless decomposition of uncertain relations. We then present algorithms and complexity results for three fundamental problems with respect to FDs over ordinary and uncertain relations: (1) {\em Testing} whether a relation instance satisfies an FD; (2) {\em Finding} all FDs satisfied by a relation instance; and (3) {\em Inferring} all FDs that hold in the result of a query over uncertain relations with FDs. Finally, we look at keys as a special case of FDs, and briefly consider uncertain data that contains {\em confidence} values.}
+}
+
+@techreport{ilprints809,
+          number = {2007-23},
+           month = 6,
+          author = {Thomas Feder and Vignesh Ganapathy and Hector Garcia-Molina and Rajeev Motwani and Dilys Thomas},
+           title = {Distributing Data For Secure Database Services},
+            type = {Technical Report},
+       publisher = {Stanford},
+     institution = {Stanford InfoLab},
+            year = {2007},
+        keywords = {Data Privacy, Distributed Databases},
+             url = {http://ilpubs.stanford.edu:8090/809/},
+        abstract = {The advent of database services has resulted in privacy concerns  on the part of the client storing data with third party database service providers. Previous approaches to enabling such a service have been based on data encryption, causing a large overhead in query processing. A distributed architecture for secure database services is proposed as a solution to this problem where data was stored at multiple sites. The distributed architecture provides both privacy as well as fault tolerance to the client. In this paper we provide algorithms for (1)distributing data: our results include hardness of approximation results and hence a heuristic greedy hill climbing algorithm for the distribution problem (2) partitioning the query at the client to queries for the various sites is done by a bottom up state based algorithm we provide. Finally the results at the sites are integrated to obtain the answer at the client. We provide an experimental validation and performance study of our algorithms .}
+}
+
+@article{ilprints826,
+           month = 6,
+           title = {Making Aggregation Work in Uncertain and Probabilistic Databases},
+          author = {Raghotham Murthy and Robert Ikeda and Jennifer Widom},
+       publisher = {Stanford},
+            year = {2007},
+        keywords = {Trio, Aggregations, TriQL, Probabilistic Databases, Uncertain Databases},
+             url = {http://ilpubs.stanford.edu:8090/826/},
+        abstract = {We describe how aggregation is handled in the \emph{Trio} system for uncertain and probabilistic data. Because ``exact'' aggregation in uncertain databases can produce exponentially-sized results, we provide three alternatives: a {\em low} bound on the aggregate value, a {\em high} bound on the value, and the {\em expected} value. These variants return a single result instead of a set of possible results, and they are generally efficient to compute for both full-table and grouped aggregation queries. We provide formal definitions and semantics and a description of our implementation for single-table aggregation queries. We study the performance and scalability of our algorithms through experiments over a large synthetic data set. We also provide some preliminary results on aggregations over joins.}
+}
+
+@techreport{ilprints800,
+          number = {2007-15},
+           month = 3,
+          author = {Anish Das Sarma and Martin Theobald and Jennifer Widom},
+           title = {Exploiting Lineage for Confidence Computation in Uncertain and Probabilistic Databases},
+            type = {Technical Report},
+       publisher = {Stanford},
+     institution = {Stanford InfoLab},
+            year = {2007},
+             url = {http://ilpubs.stanford.edu:8090/800/},
+        abstract = {We study the problem of computing query results with confidence values in {\em ULDBs}: relational databases with {\em uncertainty} and {\em lineage}. ULDBs, which subsume {\em probabilistic databases}, offer an alternative {\em decoupled} method of computing confidence values: Instead of computing confidences during query processing, compute them afterwards based on lineage. This approach enables a wider space of query plans, and it permits selective computations when not all confidence values are needed. This paper develops a suite of algorithms and optimizations for a broad class of relational queries on ULDBs. We provide confidence computation algorithms for single data items, as well as efficient batch algorithms to compute confidences for an entire relation or database. All algorithms incorporate memoization to avoid redundant computations, and they have been implemented in the {\em Trio} prototype ULDB database system. Performance characteristics and scalability of the algorithms are demonstrated through experimental results over a large synthetic dataset.}
+}
+
+@techreport{ilprints811,
+          number = {2007-26},
+            type = {Technical Report},
+           title = {Databases with Uncertainty and Lineage},
+          author = {Omar Benjelloun and Anish Das Sarma and Alon Halevy and Martin Theobald and Jennifer Widom},
+       publisher = {Stanford InfoLab},
+            year = {2007},
+     institution = {Stanford InfoLab},
+        keywords = {Uncertainty in Databases; Lineage; Provenance; Probabilistic data management},
+             url = {http://ilpubs.stanford.edu:8090/811/},
+        abstract = {This paper introduces ULDBs, an extension of relational databases with simple yet expressive constructs for representing and manipulating both lineage and uncertainty. Uncertain data and data lineage are two important areas of data management that have been considered extensively in isolation, however many applications require the features in tandem. Fundamentally, lineage enables simple and consistent representation of uncertain data, it correlates uncertainty in query results with uncertainty in the input data, and query processing with lineage and uncertainty together presents computational benefits over treating them separately.   We show that the ULDB representation is complete, and that it permits straightforward implementation of many relational operations. We define two notions of ULDB minimality ' data-minimal and lineage-minimal ' and study minimization of ULDB representations under both notions. With lineage, derived relations are no longer self-contained: their uncertainty depends on uncertainty in the base data. We provide an algorithm for the new operation of extracting a database subset in the presence of interconnected uncertainty. We also show how ULDBs enable a new approach to query processing in probabilistic databases. Finally, we describe the current state of the Trio system, our implementation of ULDBs under development at Stanford.}
+}
+
+@inproceedings{ilprints659,
+       booktitle = {The Second Biennial Conference on Innovative Data Systems Research (CIDR 2005)},
+           title = {Two Can Keep a Secret: A Distributed Architecture for Secure Database Services},
+          author = {Gagan Aggarwal and Mayank Bawa and Prasanna Ganesan and Hector Garcia-Molina and Krishnaram Kenthapadi and Rajeev Motwani and Utkarsh Srivastava and Dilys Thomas and Ying Xu},
+            year = {2005},
+         journal = {CIDR 2005},
+             url = {http://ilpubs.stanford.edu:8090/659/},
+        abstract = {Recent trends towards database outsourcing, as well as concerns and laws governing data privacy, have led to great interest in enabling secure database services. Previous approaches to enabling such a service have been based on data encryption, causing a large overhead in query processing. We propose a new, distributed architecture that allows an organization to outsource its data management to {\em two} untrusted servers while preserving data privacy. We show how the presence of two servers enables efficient partitioning of data so that the contents at any one server are guaranteed not to breach data privacy. We show how to optimize and execute queries in this architecture, and discuss new challenges that emerge in designing the database schema.}
+}
+
+@techreport{ilprints703,
+          number = {2005-39},
+          author = {Omar Benjelloun and Anish Das Sarma and Alon Halevy and Jennifer Widom},
+            note = {A previous version of the paper was titled: "The Symbiosis of Lineage and Uncertainty"},
+           title = {ULDBs: Databases with Uncertainty and Lineage},
+            type = {Technical Report},
+       publisher = {Stanford},
+            year = {2005},
+     institution = {Stanford InfoLab},
+         journal = {Technical Report},
+        keywords = {Data uncertainty, lineage (provenance); data modeling; probabilistic databases;},
+             url = {http://ilpubs.stanford.edu:8090/703/},
+        abstract = {This paper introduces \uldb s, an extension of relational databases with simple yet expressive constructs for representing and manipulating both {\em lineage} and {\em uncertainty}. Uncertain data and data lineage are two important areas of data management that have been considered extensively but in isolation, however many applications require the features in tandem. Fundamentally, lineage enables simple and consistent representation of uncertain data, it correlates uncertainty in query results with uncertainty in the input data, and query processing with lineage and uncertainty together presents computational benefits over treating them separately. We show that the \uldb\ representation is {\em complete}, and that it permits straightforward implementation of many relational operations. We define two notions of \uldb\ minimality---{\em data-minimal} and {\em lineage-minimal}---and study minimization of \uldb\ representations under both notions. With lineage, derived relations are no longer self-contained: their uncertainty depends on uncertainty in the base data. We provide algorithms for the new operation of extracting a database subset in the presence of interconnected uncertainty. Finally, we show how \uldbs enable a new approach to query processing in probabilistic databases. \uldb s form the basis of the {\em Trio} system, under development at Stanford.}
+}
+
+@techreport{ilprints577,
+          number = {2003-13},
+           month = 2,
+          author = {Qi Su and Jennifer Widom},
+           title = {Indexing Relational Database Content Offline for Efficient Keyword-Based Search},
+            type = {Technical Report},
+       publisher = {Stanford},
+     institution = {Stanford InfoLab},
+            year = {2003},
+        keywords = {keyword search, information retrieval, text database},
+             url = {http://ilpubs.stanford.edu:8090/577/},
+        abstract = {Information Retrieval systems such as web search engines offer convenient keyword-based search interfaces. In contrast, relational database systems require the user to learn SQL and to know the schema of the underlying  data even to pose simple searches. We propose an architecture that supports highly efficient keyword-based search over relational databases:  A relational database is "crawled" in advance, text-indexing virtual documents that correspond to interconnected database content. At query time, the text index supports keyword-based searches with instantaneous  response, identifying database objects corresponding to the virtual documents matching the query. Our system, EKSO, creates virtual documents from joining relational tuples and uses the DB2 Net Search Extender for  indexing and keyword-search processing. Experimental results show that index size is manageable, query response time is indeed instantaneous, and database updates (which are propagated incrementally as recomputed virtual  documents to the text index) do not significantly hinder query performance. We also present a user study confirming the superiority of keyword-based search over SQL for a wide range of database retrieval tasks.}
+}
+
+@techreport{ilprints489,
+          number = {2001-14},
+            type = {Technical Report},
+           title = {Music Database Retrieval Based on Spectral Similarity},
+          author = {Cheng Yang},
+       publisher = {Stanford},
+            year = {2001},
+     institution = {Stanford InfoLab},
+        keywords = {content-based music retrieval; raw audio; spectral similarity; dynamic programming matching; linearity filtering.},
+             url = {http://ilpubs.stanford.edu:8090/489/},
+        abstract = {We present an efficient algorithm to retrieve similar music pieces from an audio database.  The algorithm tries to capture the intuitive notion of similarity perceived by human: two pieces are similar if they are fully or partially based on the same score, even if they are performed by different people or at different speed. Each audio file is pre-processed to identify local peaks in signal power.  A spectral vector is extracted near each peak, and a list of such spectral vectors forms our intermediate representation of a music piece.  A database of such intermediate representations is constructed, and two pieces are matched against each other based on a specially-defined distance function.  Matching results are then filtered according to some linearity criteria to select the best result to a user query.}
+}
+
+@techreport{ilprints438,
+          number = {2000-17},
+            type = {Technical Report},
+           title = {Better Static Rule Analysis for Active Database Systems},
+          author = {E. Baralis and J. Widom},
+       publisher = {Stanford InfoLab},
+            year = {2000},
+     institution = {Stanford InfoLab},
+             url = {http://ilpubs.stanford.edu:8090/438/},
+        abstract = {Rules in active database systems can be very diffcult to program, due to the unstructured and unpredictable nature of rule processing. We provide static analysis techniques for predicting whether a given rule set is guaranteed to terminate, and whether rule execution is confluent (guaranteed to have a unique final Our methods are based on previous techniques for analyzing rules in active database systems. We improve considerably on the previous techniques by providing analysis criteria that are much less conservative: our methods often determine that a rule set will terminate or is confluent when previous methods could not make this determination. Our improved analysis is based on a "propagation" algorithm, which uses an extended relational algebra to accurately determine when the action of one rule can affect the condition of another, and to determine when rule actions commute. We consider both Condition-Action rules and Event-Condition-Action rules, making our approach widely applicable to relational active database rule languages.}
+}
+
+@techreport{ilprints460,
+          number = {2000-3},
+            type = {Technical Report},
+           title = {SST: An algorithm for searching sequence databases in time proportional to the logarithm of the database size},
+          author = {E. Giladi and M. Walker and J. Wang and W. Volkmuth},
+       publisher = {Stanford InfoLab},
+            year = {2000},
+     institution = {Stanford InfoLab},
+        keywords = {DNA sequence database, tree structure, vector quantization},
+             url = {http://ilpubs.stanford.edu:8090/460/},
+        abstract = {W e have developed an algorithm, called SST (Sequence Search T that searches database of DNA sequences for near exact matches, in time proportional to the logarithm of the database size n. In SST, we partition each sequence into fragments of fixed length called "windows" using multiple offsets. Each window is mapped into a vector of dimension 4 k which contains the frequency of occurrence of its component k-tuples, with k a parameter typically in the range 4  6. Then we create a tree-structured index of the windows in vector space, using tree structured vector quantization (TSVW e identify the nearest-neighbors of a query sequence by partitioning the query into windows and searching the tree-structured index for nearest neighbor windows in the database. This yields an O(log n) complexity for the search. SST is most effective for applications in which the target sequences show a high degree of similarity to the query sequence, such as assembling shotgun sequences or matching ESTs to genomic sequence. The algorithm is also an effective filtration method. Specifically , it can be used as a preprocessing step for other search methods to reduce the complexity of searching one large database against another. F or the problem of identifying overlapping fragments in the assembly of 120,000 fragments from a 1.5 megabase genomic sequence, SST is 17 to 35 times faster than BLAST when we consider both building and searching the tree. F or searching alone (i.e., after building the tree SST is 50 to 100 times faster than BLAST.}
+}
+
+@techreport{ilprints419,
+          number = {1999-63},
+           month = 7,
+          author = {Luis Gravano and Hector Garcia-Molina},
+            note = {Previous number = SIDL-WP-1999-0109. This working paper was originally published in April 1995.  },
+           title = {Generalizing GlOSS to Vector-Space Databases and Broker Hierarchies},
+            type = {Working Paper},
+       publisher = {Stanford InfoLab},
+            year = {1999},
+     institution = {Stanford InfoLab},
+             url = {http://ilpubs.stanford.edu:8090/419/},
+        abstract = {As large numbers of text databases have become available on the Internet, it is getting harder to locate the right sources for given queries. In this paper we present gGlOSS, a generalized Glossary-Of-Servers Server, that keeps statistics on the available databases to estimate which databases are the potentially most useful for a given query. gGlOSS extends our previous work, which focused on databases using the boolean model of document retrieval, to cover databases using the more sophisticated vector-space retrieval model. We evaluate our new techniques using real-user queries and 53 databases. Finally, we further generalize our approach by showing how to build a hierarchy of gGlOSS brokers. The top level of the hierarchy is so small it could be widely replicated, even at end-user workstations. }
+}
+
+@techreport{ilprints396,
+          number = {1999-40},
+          author = {J. Cho and H. Garcia-Molina},
+       booktitle = {SIGMOD},
+           title = {Synchronizing a database to Improve Freshness},
+            type = {Technical Report},
+       publisher = {Stanford InfoLab},
+     institution = {Stanford University},
+            year = {1999},
+        keywords = {Web, database, warehousing, synchronization, refresh},
+             url = {http://ilpubs.stanford.edu:8090/396/},
+        abstract = {In this paper we study how to refresh a local copy of an autonomous data source to maintain the copy up-to-date. As the size of the data grows, it becomes more difficult to maintain the copy "fresh," making it crucial to synchronize the copy effectively. We define two freshness metrics, change models of the underlying data, and synchronization policies. We analytically study how effective the various policies are. We also experimentally verify our analysis, based on data collected from 270 web sites for more than 4 months, and we show that our new policy improves the "freshness" very significantly compared to current policies in use.}
+}
+
+@techreport{ilprints400,
+          number = {1999-44},
+            type = {Technical Report},
+           title = {WSQ/DSQ: A Practical Approach for Combined Querying of Databases and the Web},
+          author = {R. Goldman and J. Widom},
+       publisher = {Stanford},
+            year = {1999},
+     institution = {Stanford InfoLab},
+             url = {http://ilpubs.stanford.edu:8090/400/},
+        abstract = {We present WSQ/DSQ (pronounced "wisk-disk"), a new approach for combining the query facilities of traditional databases with existing search engines on the Web.  WSQ, for Web-Supported (Database) Queries, leverages results from Web searches to enhance SQL queries over a relational database.  DSQ, for Database-Supported (Web) Queries, uses information stored in the database to enhance and explain Web searches.  This paper focuses primarily on WSQ, describing a simple, low-overhead way to support WSQ in a relational DBMS, and demonstrating the utility of WSQ with a number of interesting queries and results. The queries supported by WSQ are enabled by two virtual tables, whose tuples represent Web search results generated dynamically during query execution.  WSQ query execution may involve many high-latency calls to one or more search engines, during which the query processor is idle.  We present a lightweight technique called asynchronous iteration that can be integrated easily into a standard sequential query processor to enable concurrency between query processing and multiple Web search requests.  Asynchronous iteration has broader applications than WSQ alone, and it opens up many interesting query optimization issues.  We have developed a prototype implementation of WSQ by extending a DBMS with virtual tables and asynchronous iteration; performance results are reported.}
+}
+
+@inproceedings{ilprints321,
+       booktitle = {24rd International Conference on Very Large Data Bases (VLDB 1998)},
+           title = {Proximity search in databases.},
+          author = {R. Goldman and N. Shivakumar and S. Venkatasubramanian and H. Garcia-Molina},
+            year = {1998},
+        keywords = {Lore, graph databases, semistructured data, keyword search},
+             url = {http://ilpubs.stanford.edu:8090/321/},
+        abstract = {An information retrieval (IR) engine can rank documents based on textual proximity of keywords within each document. In this paper we apply this notion to search across an entire database for objects that are "near" other relevant objects. Proximity search enables simple "focusing" queries based on general relationships among objects, helpful for interactive query sessions. We view the database as a graph, with data in vertices (objects) and relationships indicated by edges. Proximity is defined based on shortest paths between objects. We have implemented a prototype search engine that uses this model to enable keyword searches over databases, and we have found it very effective for quickly finding relevant information. Computing the distance between objects in a graph stored on disk can be very expensive. Hence, we show how to build compact indexes that allow us to quickly find the distance between objects at search time. Experiments show that our algorithms are effcient and scale well.}
+}
+
+@techreport{ilprints346,
+          number = {1998-50},
+            type = {Technical Report},
+           title = {Interactive Query and Search in Semistructured Databases},
+          author = {R. Goldman and J. Widom},
+       publisher = {Stanford},
+            year = {1998},
+     institution = {Stanford InfoLab},
+        keywords = {semistructured, OEM, DataGuide},
+             url = {http://ilpubs.stanford.edu:8090/346/},
+        abstract = {Semistructured graph-based databases have been proposed as well-suited stores for World-Wide Web data. Yet so far, languages for querying such data are too complex for casual Web users. Further, proposed query approaches do not take advantage of the interactivity of typical Web sessions--users are proficient at iteratively refining their Web explorations. In this paper we propose a new model for interactively querying and searching semistructured databases.  Users can begin with a simple keyword search, dynamically browse the structure of the result, and then submit further refining queries. Enabling this model exposes new requirements of a semistructured database that are not apparent under traditional database uses. We demonstrate the importance of efficient keyword search, structural summaries of query results, and support for inverse pointers. We also describe some preliminary solutions to these technical issues.}
+}
+
+@techreport{ilprints324,
+          number = {1998-30},
+            type = {Technical Report},
+           title = {Wave-Indices: Indexing Evolving Databases},
+          author = {N. Shivakumar and H. Garcia-Molina},
+       publisher = {Stanford InfoLab},
+            year = {1998},
+     institution = {Stanford InfoLab},
+        keywords = {indexing, sliding windows, SCAM, search engines},
+             url = {http://ilpubs.stanford.edu:8090/324/},
+        abstract = {In many applications, new data is being generated every day. Often an index of the data of a past window of days is required to answer queries effciently. For example, in a warehouse one may need an index on the sales records of the last week for effcient data mining, or in a Web service one may provide an index of Netnews articles of the past month. In this paper, we propose a variety of wave indices where the data of a new day can be effciently added, and old data can be quickly expired, to maintain the required window. We compare these schemes based on several system performance measures, such as storage, query response time, and maintenance work, as well as on their simplicity and ease of coding. Keywords: Indexing, sliding windows, temporal databases Note to Referees: This paper is an extended version of a prior conference publication in ACM SIGMOD'97 with the same title. The material has been extended significantly.}
+}
+
+@techreport{ilprints311,
+          number = {1998-19},
+          author = {R. Yerneni and Y. Papakonstantinou and S. Abiteboul and H. Garcia-Molina},
+       booktitle = {In citation},
+           title = {Fusion Queries over Internet Databases},
+            type = {Technical Report},
+       publisher = {Stanford InfoLab},
+     institution = {Stanford InfoLab},
+            year = {1998},
+             url = {http://ilpubs.stanford.edu:8090/311/},
+        abstract = {Fusion queries search for information integrated from distributed, autonomous sources over the Internet. We investigate techniques for effcienprocessing of fusion queries. First, we focus on a very wide class of query plans that capture the spirit of many techniques usually in existing systems. We show how to effciently find good query plans within this large class. We provide additional heuristics that, by considering plans outside our target class of plans, yield further performance improvements.}
+}
+
+@article{ilprints261,
+          volume = {26},
+          number = {3},
+           month = 9,
+          author = {J. McHugh and S. Abiteboul and R. Goldman and D. Quass and J. Widom},
+       booktitle = {SIGMOD},
+           title = {Lore: A Database Management System for Semistructured Data},
+            year = {1997},
+         journal = {SIGMOD Record},
+           pages = {54--66},
+        keywords = {Semistructured Databases, Implementation Report, Heterogeneous Databases},
+             url = {http://ilpubs.stanford.edu:8090/261/},
+        abstract = {Lore (for Lightweight Object Repository) is a DBMS designed specifically for managing semistructured information. Implementing Lore has required rethinking all aspects of a DBMS, including storage management, indexing, query processing and optimization, and user interfaces. This paper provides an overview of these aspects of the Lore system, as well as other novel features such as dynamic structural summaries and seamless access to data from external sources.}
+}
+
+@techreport{ilprints244,
+          number = {1997-32},
+            type = {Technical Report},
+           title = {Querying Documents in Object Databases},
+          author = {S. Abiteboul and S. Cluet and V. Christophides and T. Milo and G. Moerkotte and J. Sim\'eon},
+       publisher = {Stanford InfoLab},
+            year = {1997},
+     institution = {Stanford University},
+        keywords = {SGML, object database, semistructured, document},
+             url = {http://ilpubs.stanford.edu:8090/244/},
+        abstract = {We consider the problem of storing and accessing documents (SGML and HTML, in particular) using database technology . T o specify the database image of documents, we use structuring schemas that consist in grammars annotated with database programs. T o query documents, we introduce an extension of OQL, the ODMG standard query language for ob ject databases. Our extension (named OQL-doc) allows to query documents without a precise knowledge of their structure using in particular generalized path expressions and pattern matching. This allows us to introduce in a declarative language (in the style of SQL or navigational and information retriev al styles of accessing data. Query processing in the context of documents and path expressions leads to challenging implementation issues. W e extend an ob ject algebra with new operators to deal with generalized path expressions. W e then consider two essential complementary optimization techniques: 1. we show that almost standard database optimization techniques can be used to answer queries without having to load the entire document into the database. 2. we also consider the interaction of full-text indexes (e.g., inverted files) with standard database collection indexes (e.g., B-trees) that provide important speedup. The paper is an overview of a research pro ject at INRIA-Rocquencourt. Some particular aspects are detailed in [ACM93, CACS94, ACM95, CCM96].}
+}
+
+@techreport{ilprints228,
+          number = {1997-18},
+            type = {Technical Report},
+           title = {Change Management in Heterogeneous Semistructured Databases (Demonstration Description)},
+          author = {S. Chawathe and V. Gossain and X. Liu and J. Widom and S. Abiteboul},
+       publisher = {Stanford InfoLab},
+            year = {1997},
+     institution = {Stanford InfoLab},
+        keywords = {C3 project, semistructured databases, heterogeneous databases, change management, differencing, querying changes, subscriptions},
+             url = {http://ilpubs.stanford.edu:8090/228/},
+        abstract = {This paper describes the design and implementation of the Stanford C3 system for managing change in an environment of heterogeneous, semistructured databases (e.g., web sites, legacy information systems with proprietary interfaces, news feeds, etc.).  In particular, users can (1) detect and browse changes in such databases using the TDIFF component, (2) store and query historical data using the CORE component, and (3) subscribe to be notified when changes of a certain kind occur, using the QSS component.  We use wrapper and mediator technology from the Tsimmis project to interface with diverse data sources, and the Lore system as a store for semistructured data.  The TDIFF component uses tree-differencing algorithms for detecting changes in semistructured data.  The CORE component implements the Delta-OEM (DOEM) data model and the Change Lorel (Chorel) query language.  The QSS component ties together a variety of change detection and change reporting mechanisms in a common framework.}
+}
+
+@techreport{ilprints245,
+          number = {1997-33},
+            type = {Technical Report},
+           title = {Evolving Databases: An Application to Electronic Commerce},
+          author = {B. Fordham and S. Abiteboul and Y. Yesha},
+       publisher = {Stanford InfoLab},
+            year = {1997},
+     institution = {Stanford InfoLab},
+        keywords = {electronic commerce, negotiation, shopping model, evolving algebra},
+             url = {http://ilpubs.stanford.edu:8090/245/},
+        abstract = {Many complex and dynamic database applications such as product modeling and negotiation monitoring require a number of features that have been adopted in semantic models and databases such as active rules, constraints, inheritance, etc. Unfortunately, each feature has largely been considered in isolation. Furthermore, in a commercial negotiation, participants staking their financial well-beings will never accept a system they cannot gain a precise behavioral understanding of. We attack these problems with a rich and extensible database model, evolving databases, with a clear and precise semantics based on evolving algebras [5]. We also briefly describe a prototype implementation of the model [12]. The first contribution of this paper is a rich and extensible database model primarily aimed at capturing rapidly changing environments. We describe electronic commerce negotiation using this evolving database (EDB 1 ) that captures the state of traded products, of negotiators, and the accepted laws governing the particular negotiation. We use the term evolving to stress the extremely dynamic of a negotiation. Negotiators should be able to change the product descriptions, orders, and even protocols of negotiation on the fly (e.g., by introducing a mediator in case of Although we will focus the presentation in this paper on the singularly interesting domain of commercial negotiations, the model is clearly not limited to such applications. An EDB is built using extensible sets of domain features and entities that are described by instances of these domain features. For instance, constraint could be a domain feature and salary > 100K an instance for this feature. Some of the DFs are quite generic capturing: attribute/value pairs (as in a product relationships between these entities, active rules (e.g., to modify a quoted price when the product description c NIST; CS Department, UMBC y CS Department, Stanford University. On leave from INRIA-Rocquencourt, France z NASA-CESDIS;}
+}
+
+@techreport{ilprints264,
+          number = {1997-50},
+            type = {Technical Report},
+           title = {DataGuides:  Enabling Query Formulation and Optimization in Semistructured Databases},
+          author = {R. Goldman and J. Widom},
+       publisher = {Stanford},
+            year = {1997},
+     institution = {Stanford InfoLab},
+             url = {http://ilpubs.stanford.edu:8090/264/},
+        abstract = {In F7Times-ItalicF7S38semistructured databases there is no schema fixed in advance.  To provide the benefits of a schema in such environments, we introduce DataGuides: concise and accurate structural summaries ofsemistructured databases.  DataGuides serve as dynamic schemas, generated from the database; they areuseful for browsing database structure, formulating queries, storing information such as statistics andsample values, and enabling query optimization.  This paper presents the theoretical foundations of DataGuides along with algorithms for their creation and incremental maintenance.  We provideperformance results based on our implementation of DataGuides in the Lore DBMS for semistructureddata.  We also describe the use of DataGuides in Lore, both in the user interface to enable structurebrowsing and query formulation, and as a means of guiding the query processor and optimizing queryexecution.F5S58}
+}
+
+@inproceedings{ilprints232,
+       booktitle = {23rd International Conference on Very Large Data Bases (VLDB 1997)},
+           title = {DataGuides: Enabling Query Formulation and Optimization in Semistructured Databases.},
+          author = {R. Goldman and J. Widom},
+            year = {1997},
+        keywords = {semistructured database, DataGuides, OEM, object exchange model},
+             url = {http://ilpubs.stanford.edu:8090/232/},
+        abstract = {In semistructured databases there is no schema fixed in advance. To provide the benefits of a schema in such environments, we introduce DataGuides: concise and accurate structural summaries of semistructured databases. DataGuides serve as dynamic schemas, generated from the database; they are useful for browsing database structure, formulating queries, storing information such as statistics and sample values, and enabling query optimization. This paper presents the theoretical foundations of DataGuides along with an algorithm for their creation and an overview of incremental maintenance. We provide performance results based on our implementation of DataGuides in the Lore DBMS for semistructured data. We also describe the use of DataGuides in Lore, both in the user interface to enable structure browsing and query formulation, and as a means of guiding the query processor and optimizing query execution.}
+}
+
+@techreport{ilprints240,
+          number = {1997-29},
+            type = {Technical Report},
+           title = {Browsing Object Databases Through the Web},
+          author = {J. Hammer and R. Aranha and K. Ireland},
+       publisher = {Stanford},
+            year = {1997},
+     institution = {Stanford InfoLab},
+        keywords = {World-Wide Web, Object Browsing, Object-Oriented Databases, Stateful Connections and Transactions, Dynamic Formatting},
+             url = {http://ilpubs.stanford.edu:8090/240/}
+}
+
+@inproceedings{ilprints254,
+       booktitle = {13th International Conference on Data Engineering (ICDE 1997)},
+           title = {Physical Database Design in Data Warehousing},
+          author = {W. Labio and D. Quass and B. Adelberg},
+            year = {1997},
+        keywords = {Data Warehousing, Views, Physical Database Design},
+             url = {http://ilpubs.stanford.edu:8090/254/},
+        abstract = {Data warehouses collect copies of information from remote sources into a single database. Since the remote data is cached at the warehouse, it appears as local relations to the users of the warehouse. To improve query response time, the warehouse administrator will often materialize views dened on the local relations to support common or complicated queries. Unfortunately, the requirement to keep the views consistent with the local relations creates additional overhead when the remote sources change. The warehouse is often kept only loosely consistent with the sources: it is periodically refreshed with changes sent from the source. When this happens, the warehouse is taken off-line until the local relations and materialized views can be updated. Clearly, the users would prefer as little down time as possible. Often the down time can be reduced by adding carefully selected materialized views or indexes to the physical schema. This paper studies how to select the sets of supporting views and of indexes to materialize to minimize the down time. We call this the view index selection (VIS) problem. We present an A* search based solution to the problem as well as rules of thumb. We also perform additional experiments to understand the space-time tradeoff as it applies to data warehouses.}
+}
+
+@inproceedings{ilprints273,
+       booktitle = {ACM International Conference on Management of Data (SIGMOD 1997) },
+           title = {Wave-Indices: Indexing Evolving Databases},
+          author = {N. Shivakumar and H. Garcia-Molina},
+            year = {1997},
+        keywords = {indexing, sliding windows, SCAM, search engines},
+             url = {http://ilpubs.stanford.edu:8090/273/},
+        abstract = {In many applications, new data is being generated every day. Often an index of the data of a past window of days is required to answer queries effciently. For example, in a warehouse one may need an index on the sales records of the last week for effcient data mining, or in a Web service one may provide an index of Netnews articles of the past month. In this paper, we propose a variety of wave indices where the data of a new day can be effciently added, and old data can be quickly expired, to maintain the required window. We compare these schemes based on several system performance measures, such as storage, query response time, and maintenance work, as well as on their simplicity and ease of coding}
+}
+
+@techreport{ilprints148,
+          number = {1996-22},
+            type = {Technical Report},
+           title = {Temporal versus First-Order Logic to Query Temporal Databases},
+          author = {S. Abiteboul and L. Herr and J. Bussche},
+       publisher = {Stanford InfoLab},
+            year = {1996},
+     institution = {Stanford InfoLab},
+             url = {http://ilpubs.stanford.edu:8090/148/},
+        abstract = {A database history can be modeled as a (finite) sequence of instances discretely ordered by time. Similarly, the behavior of a system such as an operating system or a reactive system can be modeled by an infinite such sequence. One can view the sequence as one single database where each relation has an additional column holding the time instant of validity of each tuple. The temporal database can then be queried using standard relational calculus (first-order logic) on this "timestamp" representation. One may alternatively use an implicit access to time and express queries in temporal logic. It is known that these two approaches yield the same expressive power in the propositional case. Their comparison in the predicate/database context remained open. We prove here that there are first-order logic queries on the timestamp representation that are not expressible in (extended) temporal logic. The proof technique is novel and is based on communication complexity. On leave from INRIA-Rocquencourt y Work performed while on leave at INRIA-Rocquencourt. Post-doctoral research fellow of the Belgian National Fund for Scientific Research. Contact address: Jan Van den Bussche, Informatica , UIA, Universiteitsplein 1, B-2610 Antwerpen, Belgium. E-mail: vdbuss@uia.ua.ac.be.}
+}
+
+@inproceedings{ilprints199,
+       booktitle = {Proceedings of 4th International Conference on Parallel and Distributed Information Systems (PDIS'96)},
+           title = {dSCAM: Finding Document Copies across Multiple Databases},
+          author = {H. Garcia-Molina and L. Gravano and N. Shivakumar},
+            year = {1996},
+             url = {http://ilpubs.stanford.edu:8090/199/},
+        abstract = {The advent of the Internet has made the illegal dissemination of copyrighted material easy. An important problem is how to automatically detect when a "new" digital document is "suspiciously close" to existing ones. The SCAM project at Stanford University has addressed this problem when there is a single registered-document database. However, in practice, text documents may appear in many autonomous databases, and one would like to discover copies without having to exhaustively search in all databases. Our approach, dSCAM, is a distributed sion of SCAM that keeps succinct metainformation about the contents of the available document databases. Given a suspicious document S, dSCAM uses its information to prune all databases that cannot contain any document that is close enough to S, and hence the search can focus on the remaining sites. We also study how to query the remaining databases so as to minimize different querying costs. We empirically study the pruning and searching schemes, using a collection of 50 databases and two sets of test documents}
+}
+
+@inproceedings{ilprints176,
+       booktitle = {First IFCIS International Conference on Cooperative Information Systems (CoopIS'96)},
+           title = {Integrity Constraint Checking in Federated Databases},
+          author = {P. Grefen and J. Widom},
+            year = {1996},
+        keywords = {distributed database, heterogeneous database},
+             url = {http://ilpubs.stanford.edu:8090/176/},
+        abstract = {A federated database is comprised of multiple interconnected databases that cooperate in an autonomous fashion. Global integrity constraints are very useful in federated databases, but the lack of global queries, global transaction mechanisms, and global concurrency control renders traditional constraint management techniques inapplicable. This paper presents a threefold contribution to integrity constraint checking in federated databases: (1) The problem of constraint checking in a federated database environment is clearly formulated. (2) A family of cooperative protocols for constraint checking is presented. (3) The differences across protocols in the family are analyzed with respect to system requirements, properties guaranteed, and costs involved. Thus, we provide a suite of options with protocols for various environments with specific system capabilities and integrity requirements}
+}
+
+@techreport{ilprints168,
+          number = {1996-40},
+            type = {Technical Report},
+           title = {Physical Database Design for Data Warehousing},
+          author = {W. Labio and D. Quass and B. Adelberg},
+       publisher = {Stanford InfoLab},
+            year = {1996},
+     institution = {Stanford InfoLab},
+             url = {http://ilpubs.stanford.edu:8090/168/},
+        abstract = {Data warehouses collect copies of information from remote sources into a single database. Since the remote data is cached at the warehouse, it appears as local relations to the users of the warehouse. To improve query response time, the warehouse administrator (WHA) will often materialize views defined on the local relations to support common or complicated Unfortunately, the requirement to keep the views consistent with the local relations creates additional overhead when the remote sources change. The warehouse is often kept only loosely consistent with the sources: it is periodically refreshed with changes sent from the source. When this happens, the warehouse is taken off-line until the local relations and materialized views can be updated. Clearly, the users would prefer as little down time as possible. Often the down time can be reduced by adding carefully selected materialized views or indexes to the physical schema. This paper studies how to select the sets of supporting views and of indexes to materialize to minimize the down time. We call this the view index selection (VIS) problem. We present an A* search based solution to the problem as well as rules of thumb. We also perform additional experiments to understand the space-time tradeoff as it applies to data warehouses. Keywords: data warehouses, materialized views, view maintenance, index selection, and physical database design, A*.}
+}
+
+@inproceedings{ilprints165,
+       booktitle = {AAAI Proceedings, 1996},
+           title = {The Database Approach to Knowledge Representation},
+          author = {J. Ullman},
+            year = {1996},
+             url = {http://ilpubs.stanford.edu:8090/165/},
+        abstract = {The database theory community, centered around the PODS (Principles of Database Systems) conference has had a long-term interest in logic as a way to represent "data," "information," and "knowledge" (take your pick on the term -- it boils down to facts or atoms and rules, usually Horn The approach of this community has been "slow and steady," preferring to build up carefully from simple special cases to more general ideas, always paying attention to how effciently we can process queries and perform other operations on the facts and rules. A powerful theory has developed, and it is beginning to have some impact on applications, especially information-integration engines. }
+}
+
+@techreport{ilprints164,
+          number = {1996-37},
+            type = {Technical Report},
+           title = {Integrating Heterogeneous Databases: Lazy or Eager?},
+          author = {J. Widom},
+       publisher = {Stanford InfoLab},
+            year = {1996},
+     institution = {Stanford InfoLab},
+        keywords = {overview},
+             url = {http://ilpubs.stanford.edu:8090/164/},
+        abstract = {Providing integrated access to multiple, distributed, heterogeneous, autonomous databases and other information sources is a topic that has been studied in the database research community for well over a decade. There has been a surge of work in the area recently, due primarily to increased demand from customers ("real" customers as well as funding Nevertheless, despite the longevity of the subfield and the current large population of researchers working in the area, no winning solution or even consensus of approach has emerged. In the research community, most approaches to solving the data integration problem are based very roughly on the following two-step process: 1. Accept a query, determine the appropriate set of information sources to answer the query, and generate the appropriate subqueries or commands for each information source. 2. Obtain results from the information sources, perform appropriate translation, filtering, and merging of the information, and return the final answer to the user or application (hereafter called the client).}
+}
+
+@techreport{ilprints175,
+          number = {1996-47},
+            type = {Technical Report},
+           title = {The Starburst Active Database Rule System},
+          author = {J. Widom},
+       publisher = {Stanford InfoLab},
+            year = {1996},
+     institution = {Stanford InfoLab},
+        keywords = {active database systems, database production rules, extensible database systems, expert database systems},
+             url = {http://ilpubs.stanford.edu:8090/175/},
+        abstract = {This paper describes our development of the Starburst Rule System, an activdatabase rules facility integrated into the Starburst extensible relational database system at the IBM Almaden Research Center. The Starburst rule language is based on arbitrary database state transitions rather than tupleor statement-level changes, yielding a clear and flexible execution semantics. The rule system has been implemented completely. Its rapid implementation was facilitated by the extensibility features of Starburst, and rule management and rule processing is integrated into all aspects of database processing. }
+}
+
+@techreport{ilprints201,
+          number = {1996-70},
+            type = {Technical Report},
+           title = {Incremental Loading of Object Databases},
+          author = {J. Wiener and J. Naughton},
+       publisher = {Stanford InfoLab},
+            year = {1996},
+     institution = {Stanford InfoLab},
+             url = {http://ilpubs.stanford.edu:8090/201/},
+        abstract = {Object-oriented and object-relational databases (OODB) need to be able to load the vast quantities of data that OODB users bring to them. Loading OODB data is significantly more complicated than loading relational data due to the presence of relationships, or references, in the data. In our previous work, we presented algorithms for loading new objects that only share relationships with other new objects. However, it is frequently the case that new objects need to share relationships with objects already in database. In this paper we propose using queries within the load data file to identify the existing objects and suggest using parameterized functions to designate similar queries. We then propose a novel evaluation strategy for the queries that defers evaluation until all the queries can be evaluated together. All of the instantiations of a single query function can then be treated as a join between the parameters and the collection over which the function ranges, rather than evaluated as individual queries. We implement both traditional one-query-at-a-time evaluation strategies and our new strategy in a load algorithm for the Shore persistent object repository and present a performance study showing that the new strategy is at least an order of magnitude better when there are many relationships to objects already in the database}
+}
+
+@techreport{ilprints89,
+          volume = {20},
+          number = {1995-22},
+           month = 3,
+          author = {A. Aiken and J. Hellerstein and J. Widom},
+       booktitle = {TODS, March 1995},
+            type = {Technical Report},
+           title = {Static Analysis Techniques for Predicting the Behavior of Database Production Rules},
+       publisher = {Stanford InfoLab},
+            year = {1995},
+     institution = {Stanford University},
+         journal = {ACM Transactions on Database Systems (TODS)},
+        keywords = {active database, Starburst},
+             url = {http://ilpubs.stanford.edu:8090/89/},
+        abstract = {Methods are given for statically analyzing sets of database production rules to determine if the rules are (1) guaranteed to terminate, (2) guaranteed to produce a unique final database state, and (3) guaranteed to produce a unique stream of observable actions. If the analysis determines that one of these properties is not guaranteed, it isolates the rules responsible for the problem and determines criteria that, if satisfied, guarantee the property. The analysis methods are presented in the context of the Starburst Rule System.}
+}
+
+@techreport{ilprints78,
+          number = {1995-12},
+          author = {B. Adelberg and B. Kao and H. Garcia-Molina},
+       booktitle = {International Conference on Extending Database Technology, EDBT'96},
+           title = {Database Support for Efficiently Maintained Derived Data},
+            type = {Technical Report},
+       publisher = {Stanford InfoLab},
+     institution = {Stanford Infolab},
+            year = {1995},
+             url = {http://ilpubs.stanford.edu:8090/78/},
+        abstract = {Derived data is maintained in a database system to correlate and summarize base data which record real world facts. As base data changes, derived data needs to be recomputed. A high performance system should execute all these updates and recomputations in a timely fashion so that the data remains fresh and useful, while at the same time executing user transactions quickly. This paper studies the intricate balance between recomputing derived data and transaction execution. Our focus is on effcient recomputation strategies -- how and when recomputations should be done to reduce their cost without jeopardizing data timeliness. We propose the Forced Delay recomputation algorithm and show how it can exploit update locality to improve both data freshness and transaction response time. Keywords: derived data, view maintenance, active database system, transaction scheduling, update locality.}
+}
+
+@techreport{ilprints90,
+          number = {1995-23},
+          author = {E. Baralis and J. Widom},
+       booktitle = {Second International Workshop on Rules in Database Systems (RIDS)},
+           title = {Using Delta Relations to Optimize Condition Evaluation in Active Databases},
+            type = {Technical Report},
+       publisher = {Stanford InfoLab},
+     institution = {Stanford Infolab},
+            year = {1995},
+             url = {http://ilpubs.stanford.edu:8090/90/},
+        abstract = {We give a method for improving the effciency of condition evaluation during rule processing in active database systems. The method derives, from a rule condition, two new conditions that can be used in place of the original condition when a previous value (true or false) of the original condition is known. The derived conditions are generally more effcient to evaluate than the original condition because they are incremental--they replace references to entire database relations by references to delta relations, which typically are much smaller. Delta relations are accessible to rule conditions in almost all current active database systems, making this optimization broadly applicable. We describe an attribute grammar based approach that we have used to implement our condition rewriting technique.}
+}
+
+@inproceedings{ilprints106,
+       booktitle = {21th International Conference on Very Large Data Bases (VLDB 1995)},
+           title = {Generalizing GlOSS to Vector-Space Databases and Broker Hierarchies},
+          author = {L. Gravano and H. Garcia-Molina},
+            year = {1995},
+             url = {http://ilpubs.stanford.edu:8090/106/},
+        abstract = {As large numbers of text databases have become available on the Internet, it is harder to locate the right sources for given queries. In this paper we present gGlOSS, a generalized Glossary-Of-Servers Server, that keeps statistics on the available databases to estimate which databases are the potentially most useful for a given query. gGlOSS extends our previous work [1], which focused on databases using the boolean model of document retrieval, to cover databases using the more sophisticated vector-space retrieval model. We evaluate our new techniques using real-user queries and 53 databases. Finally, we further generalize our approach by showing how to build a hierarchy of gGlOSS brokers. The top level of the hierarchy is so small it could be widely replicated, even at end-user workstations. This research was sponsored by the Advanced Research Projects Agency (ARPA) of the Department of Defense under Grant No. MDA972-92-J-1029 with the Corporation for National Research Initiatives The views and conclusions contained in this document are those of the authors and should not be interpreted as necessarily representing the offcial policies or endorsement, either expressed or implied, of ARPA, the U.S. Government or CNRI. This work was supported by an equipment grant from IBM Corporation. Permission to copy without fee all or part of this material is granted provided that the copies are not made or distributed for direct commercial advantage, the VLDB copyright notice and the title of the publication and its date appear, and notice is given that copying is by permission of the Very Large Data Base Endowment. To copy otherwise, or to republish, requires a fee and/or special permission from the Endowment. Proceedings of the 21st VLDB Conference Z urich, Switzerland, 1995}
+}
+
+@techreport{ilprints105,
+          number = {1995-37},
+          author = {L. Gravano and H. Garcia-Molina},
+       booktitle = {VLDB},
+           title = {Generalizing GlOSS to Vector-Space Databases and Broker Hierarchies},
+            type = {Technical Report},
+       publisher = {Stanford InfoLab},
+     institution = {Stanford Infolab},
+            year = {1995},
+             url = {http://ilpubs.stanford.edu:8090/105/},
+        abstract = {As large numbers of text databases have become available on the Internet, it is getting harder to locate the right sources for given queries. In this paper we present gGlOSS, a generalized Glossary-Of-Servers Server, that keeps statistics on the available databases to estimate which databases are the potentially most useful for a given query. gGlOSS extends our previous work [GGMT94a], which focused on databases using the boolean model of document retrieval, to cover databases using the more sophisticated vector-space retrieval model. We evaluate our new techniques using real-user queries and 53 databases. Finally, we further generalize our approach by showing how to build a hierarchy of gGlOSS brokers. The top level of the hierarchy is so small it could be widely replicated, even at end-user workstations. Keywords: resource discovery, database selection, vector-space retrieval model, information retrieval, text databases}
+}
+
+@techreport{ilprints80,
+          number = {1995-14},
+            type = {Technical Report},
+           title = {A Survey of Research in Deductive Database Systems},
+          author = {R. Ramakrishnan and J. Ullman},
+       publisher = {Stanford InfoLab},
+            year = {1995},
+     institution = {Stanford Infolab},
+             url = {http://ilpubs.stanford.edu:8090/80/},
+        abstract = {The area of deductive databases has matured in recent years, and it now seems appropriate to reflect upon what has been achieved and what the future holds. In this paper, we provide an overview of the area and briefly describe a number of projects that have led to implemented systems.}
+}
+
+@techreport{ilprints81,
+          number = {1995-15},
+          author = {A. Silberschatz and M. Stonebraker and J. Ullman},
+       booktitle = {SIGMOD},
+           title = {Database Research: Achievements and Opportunities into the 21st Century},
+            type = {Technical Report},
+       publisher = {Stanford InfoLab},
+     institution = {Stanford InfoLab},
+            year = {1995},
+             url = {http://ilpubs.stanford.edu:8090/81/},
+        abstract = {Database Research: Achievements and Opportunities Into the 21st Century Avi Silberschatz, Mike Stonebraker, Jeff Ullman, editors Report of an NSF Workshop on the Future of Database Systems Research, May 26 27, 1995 1 1 Introduction In February of 1990, a group of database researchers met to examine the prospects for future database research efforts. The resulting report (Silberschatz et al. [1990]) was instrumental in bringing to the public's attention both the significance of prior database research and the number of challenging and important problems that lay ahead. We shall not repeat here the major points made in that report concerning the historical development of relational database systems and transaction management. Rather the reader is encouraged to consult either that report or an on-line document (Gray each of which discusses these and other historical achievements of database research. In May of 1995, a second workshop was convened to consider anew the prospects for database research, and this paper reports on our findings. 2 The following points summarize the conclusions of this forum.  The database research community plays a foundational role in creating the technological infrastructure from which database advancements evolve.  Next-generation database applications enabled by the explosion of digitized information over the last five years will require the solution to significant new research problems. These problems are grouped in this report into the following broad areas: support for multimedia objects, distribution of information, new database applications, workflow and transaction management, and ease of database management and use.  A new research mandate for the database community is provided by the technology developments of the recent past -- the explosions in hardware capability, hardware capacity, and communication (including the internet or "web" and mobile comm There is a heightened need for governmental and industrial support of basic data}
+}
+
+@techreport{ilprints67,
+          volume = {17},
+          number = {1994-33},
+           month = 6,
+          author = {S. Chawathe and H. Garcia-Molina and J. Widom},
+           title = {Flexible Constraint Management for Autonomous Distributed Databases},
+            type = {Technical Report},
+       publisher = {Stanford InfoLab},
+            year = {1994},
+     institution = {Stanford Infolab},
+         journal = {Data Engineering Bulletin},
+        keywords = {constraint management, autonomous systems, heterogeneous systems},
+             url = {http://ilpubs.stanford.edu:8090/67/},
+        abstract = {When databases inter-operate, integrity constraints arise naturally. For example, consider a flight reservation application that multiple airline databases. Airline A reserves a block of X seats from airline B. If A sells many seats from this block, it tries to increase X. For correctness, the value of X recorded in A's database must be the same as that recorded in B's database; this is a simple distributed copy constraint. However, the databases in the above example are owned by independent airlines and are therefore autonomous. Typically, the database of one airline will not participate in distributed transactions with other airlines, nor will it allow other airlines to lock its data. This renders traditional constraint management techniques unusable in this scenario. Our work addresses constraint management in such autonomous and heterogeneous environments. In an autonomous environment that does not support locking and transactional primitives, it is not possible to make "strong" guarantees of constraint satisfaction, such as a guarantee that a constraint is always true or that transactions always read consistent data. We therefore investigate and formalize weaker notions of constraint maintenance. Using our framework it will be possible, for example, to guarantee that a constraint is satisfied provided there have been no "recent" updates to pertinent data, or that a constraint holds from 8am to 5pm everyday. Such weaker notions of constraint satisfaction requires modeling time, and consequently, time is explicit in our framework. Most previous work in database constraint management has focused on centralized (for e.g., [?]) or tightly-coupled and homogeneous distributed databases (for e.g., [1],}
+}
+
+@inproceedings{ilprints47,
+       booktitle = {ACM International Conference on Management of Data (SIGMOD 1995)},
+           title = {Applying Update Streams in a Soft Real-Time Database System},
+          author = {B. Adelberg and H. Garcia-Molina and B. Kao},
+            year = {1994},
+             url = {http://ilpubs.stanford.edu:8090/47/},
+        abstract = {Many papers have examined how to effciently export a materialized view but to our knowledge none have studied how to effciently import one. To import a view, i.e., to install a stream of updates, a real-time database system must process new updates in a timely fashion to keep the database "fresh," but at the same time must process transactions and ensure they meet their time constraints. In this paper, we discuss the various properties of updates and views (including staleness) that affect this tradeoff. We also examine, through simulation, four algorithms for scheduling transactions and installing updates in a soft real-time database. Keywords: soft real-time, temporal databases, materialized views, updates.}
+}
+
+@techreport{ilprints51,
+          number = {1993-18},
+            type = {Technical Report},
+           title = {An Algebraic Approach to Rule Analysis in Expert Database Systems},
+          author = {E. Baralis and J. Widom},
+       publisher = {Stanford},
+            year = {1994},
+     institution = {Stanford Infolab},
+        keywords = {active database, static analysis},
+             url = {http://ilpubs.stanford.edu:8090/51/},
+        abstract = {Expert database systems extend the functionality of conventional database systems by providing a facility for creating and automatically executing Condition-Action rules. While Condition-Action rules in database systems are very powerful, they also can be very diffcult to program, due to the unstructured and unpredictable nature of rule processing. We provide methods for static analysis of Condition-Action rules; our methods determine whether a given rule set is guaranteed to terminate, and whether rule execution is confluent (has a guaranteed unique final Our methods are based on previous methods for analyzing rules in active database systems. We improve considerably on the previous methods by providing analysis criteria that are much less conservative: our methods often determine that a rule set will terminate or is confluent when previous methods could not. Our improved analysis is based on a "propagation" algorithm, which uses a formal approach based on an extended relational algebra to accurately determine when the action of one rule can affect the condition of another. Our algebraic approach yields methods that are applicable to a broad class of expert database rule languages.}
+}
+
+@inproceedings{ilprints52,
+       booktitle = {20th International Conference on Very Large Data Bases, (VLDB 1994)},
+           title = {An Algebraic Approach to Rule Analysis in Expert Database Systems},
+          author = {E. Baralis and J. Widom},
+            year = {1994},
+        keywords = {active database, static analysis},
+             url = {http://ilpubs.stanford.edu:8090/52/},
+        abstract = {Expert database systems extend the functionality of conventional database systems by providing a facility for creating and automatically executing Condition-Action rules. While Condition-Action rules in database systems are very powerful, they also can be very diffcult to program, due to the unstructured and unpredictable nature of rule processing. We provide methods for static analysis of Condition-Action rules; our methods determine whether a given rule set is guaranteed to terminate, and whether rule execution is confluent (has a guaranteed unique final Our methods are based on previous methods for analyzing rules in active database systems. We improve considerably on the previous methods by providing analysis criteria that are much less conservative: our methods often determine that a rule set will terminate or is confluent when previous methods could not. Our improved analysis is based on a "propagation" algorithm, which uses a formal approach based on an extended relational algebra to accurately determine when the action of one rule can affect the condition of another. Our algebraic approach yields methods that are applicable to a broad class of expert database rule languages.}
+}
+
+@techreport{ilprints54,
+          number = {1994-20},
+          author = {U. Dayal and E. Hanson and J. Widom},
+       booktitle = {Modern Database Systems: The Object Model, Interoperability, and Beyond},
+          editor = {Won Kim},
+           title = {Active Database Systems},
+            type = {Technical Report},
+       publisher = {Stanford InfoLab},
+            year = {1994},
+     institution = {Stanford Infolab},
+        keywords = {overview, survey},
+             url = {http://ilpubs.stanford.edu:8090/54/},
+        abstract = {Integrating a production rules facility into a database system provides a uniform mechanism for a number of advanced database features including integrity constraint enforcement, derived data maintenance, triggers, alerters, protection, version control, and others. In addition, a database system with rule processing capabilities provides a useful platform for large and effcient knowledge-base and expert systems. Database systems with production rules are referred to as active database systems, and the of active database systems has indeed been active. This chapter summarizes current work in active database systems; topics covered include active database rule models and languages, rule execution semantics, and implementation issues. 0}
+}
+
+@inproceedings{ilprints61,
+       booktitle = {ACM International Conference on Management of Data (SIGMOD 1994)},
+           title = {The Effectiveness of GlOSS for the Text-Database Discovery Problem},
+          author = {L. Gravano and H. Garcia-Molina and A. Tomasic},
+            year = {1994},
+             url = {http://ilpubs.stanford.edu:8090/61/},
+        abstract = {The popularity of on-line document databases has led to a new problem: finding which text databases (out of many candidate choices) are the most relevant to a user. Identifying the relevant databases for a given query is the text database discovery problem. The first part of this paper presents a practical solution based on estimating the result size of a query and a database. The method is termed GlOSS Glossary of Servers Server. The second part of this paper evaluates the effectiveness of GlOSS based on a trace of real user queries. In addition, we analyze the storage cost of our approach.}
+}
+
+@techreport{ilprints62,
+          number = {1994-29},
+            type = {Technical Report},
+           title = {Precision and Recall of GlOSS Estimators for Database Discovery},
+          author = {L. Gravano and H. Garcia-Molina and A. Tomasic},
+       publisher = {Stanford University},
+            year = {1994},
+     institution = {Stanford Infolab},
+             url = {http://ilpubs.stanford.edu:8090/62/},
+        abstract = {The availability of large numbers of network information sources has led to a new problem: finding which text databases (out of perhaps thousands of choices) are the most relevant to a query. We call this the text-database discovery problem. Our solution to this problem, GlOSS Glossary-Of-Servers Server, keeps statistics on the available databases to decide which ones are potentially useful for a given query. In this paper we present different query-result size estimators for GlOSS and we evaluate them with metrics based on the precision and recall concepts of text-document information-retrieval theory. Our generalization of these metrics uses different notions of the set of relevant databases to define different query semantics.}
+}
+
+@inproceedings{ilprints64,
+       booktitle = {Third International Conference on Parallel and Distributed Information Systems (PDIS 1994)},
+           title = {Precision and Recall of GlOSS Estimators for Database Discovery},
+          author = {L. Gravano and H. Garcia-Molina and A. Tomasic},
+            year = {1994},
+             url = {http://ilpubs.stanford.edu:8090/64/},
+        abstract = {Precision and Recall of GlOSS Estimators for Database Discovery Luis Gravano H ector Garc  a-Molina Anthony Tomasic Computer Science Department Stanford University Stanford, CA 94305-2140 fgravano,hector,tomasicg@cs.stanford.edu 1 Overview On-line information vendors offer access to multiple databases. In addition, the advent of a variety of INTERNET tools [1, 2] has provided easy, distributed access to many more databases. The result is thousands of text databases from which a user may choose for a given information need (a user This paper, an abridged version of [3], presents a framework for (and analyzes a solution to) this problem, which we call the text-database discovery problem (see [3] for a survey of related wOur solution to the text-database discovery problem is to build a service that can suggest potentially good databases to search. A user's query will go through two steps: first, the query is presented to our server (dubbed GlOSS, for Glossary-Of-Servers Server) to select a set of promising databases to search. During the second step, the query is actually evaluated at the chosen databases. GlOSS gives a hint of what databases might be useful for the user's query, based on word-frequency information for each database. This information indicates, for each database and each keyword in the database vocabulary, how many documents at that database actually contain the keyword, for each field designator (Sections 2 and For example, a Computer-Science library could report that "Knuth" (keyword) occurs as an author (field designator) in 180 documents, the keyword "computer," in the title of 25,548 documents, and so on. This information is orders of magnitude smaller than a full index (see [4]) since for each keyword fielddesignation pair we only need to keep its frequency, not the identities of the documents that contain it. To evaluate the set of databases that GlOSS returns for a given query, Section 4 presents a framework based on the precision and recall me}
+}
+
+@inproceedings{ilprints68,
+       booktitle = {ACM International Conference on Management of Data (SIGMOD 1994)},
+           title = {The effectiveness of GlOSS for the text-database discovery problem.},
+          author = {Luis Gravano and Hector Garcia-Molina and Anthony Tomasic},
+            year = {1994},
+         journal = {SigMod94},
+             url = {http://ilpubs.stanford.edu:8090/68/},
+        abstract = {The popularity of on-line document databases has led to a new problem: finding which text databases (out or many candidate choices) are the most relevant to a user. Identifying the relevant databases for a given query is the  text database discovery problem. The first part of this paper presents a practical solution based on estimating the result size of a query and a database. The method is termed GLOSS-Glossary of Servers Server. The second part of this paper evaluates the effectiveness of GLOSS based on a trace of real user queries. In addition, we analyze the storage  cost of our approach.}
+}
+
+@techreport{ilprints57,
+            type = {Technical Report},
+           title = {Protocols for Integrity Constraint Checking in Federated Databases},
+          author = {P. Grefen and J. Widom},
+       publisher = {Stanford University},
+            year = {1994},
+     institution = {Stanford University},
+        keywords = {distributed database, heterogeneous database},
+             url = {http://ilpubs.stanford.edu:8090/57/},
+        abstract = {A federated database is comprised of multiple interconnected database systems that primarily operate independently but cooperate to a certain extent. Global integrity constraints can be very useful in federated databases, but the lack of global queries, global transaction mechanisms, and global concurrency control renders traditional constraint management techniques inapplicable. This paper presents a threefold contribution to integrity constraint checking in federated databases: (1) The problem of constraint checking in a federated database environment is clearly formulated. (2) A family of protocols for constraint checking is presented. (3) The differences across protocols in the family are analyzed with respect to system requirements, properties guaranteed by the protocols, and processing and communication costs. Thus, our work yields a suite of options from which a protocol can be chosen to suit the system capabilities and integrity requirements of a particular federated database environment.}
+}
+
+@techreport{ilprints44,
+          number = {1994-11},
+            type = {Technical Report},
+           title = {Resolving Semantic Heterogeneity in a Federation of Autonomous, Heterogeneous database Systems.},
+          author = {J. Hammer},
+       publisher = {Stanford},
+            year = {1994},
+     institution = {Stanford Infolab},
+        keywords = {Federated, heterogeneous, semantic, resolution, lexicon, integration},
+             url = {http://ilpubs.stanford.edu:8090/44/},
+        abstract = {Resolving Semantic Heterogeneity in a Federation of Autonomous, Heterogeneous Database Systems by Joachim HammerA Dissertation Presented to the F ACULTY OF THE GRADUATE SCHOOL UNIVERSITY OF SOUTHERN CALIFORNIA In Partial Fulfillment of the Requirements for the Degree DOCTOR OF PHILOSOPHY (Computer Science) August 1994 Copyright 1994 Joachim Hammer}
+}
+
+@inproceedings{ilprints45,
+       booktitle = {27th Hawaii International Conference on System Sciences},
+           title = {An Intelligent System for Identifying and Integrating Non-Local Objects in Federated Database Systems},
+          author = {J. Hammer and D. McLeod and A. Si},
+            year = {1994},
+        keywords = {Federated, semantic, integration, resolution, dictionary, broker},
+             url = {http://ilpubs.stanford.edu:8090/45/},
+        abstract = {Support for interoperability among autonomous, heterogeneous database systems is emerging as a key information management problem for the 1990s. A key challenge for achieving interoperability among multiple database systems is to provide capabilities to allow information units and resources to be flexibly and dynamically combined and interconnected while at the same time, preserve the investment in and autonomy of each existing system. This research specifically focuses on two key aspects of this: (1) how to discover the location and content of relevant, non-local information units, and (2) how to identify and resolve the semantic heterogeneity that exists between related information in different database components. We demonstrate and evaluate our approach using the Remote-Exchange experimental prototype system, which supports information sharing and exchange from the above perspe}
+}
+
+@techreport{ilprints48,
+          number = {1994-15},
+          author = {J. Ullman},
+            note = {A corrected version of a paper that appeared in "Computers as Our Better Partners" (H. Yamada, Y. Kambayashi, and S. Ohta, eds.) pp. 216--225, World Scientific, Singapore, 1994.},
+           title = {Assigning an Appropriate Meaning to Database Logic With Negation},
+            type = {Technical Report},
+       publisher = {Stanford University},
+     institution = {Stanford Infolab},
+            year = {1994},
+             url = {http://ilpubs.stanford.edu:8090/48/},
+        abstract = {Deductive database systems -- that is, database systems with a query language based on logical rules -- must allow negated subgoals in rules to express an adequate range of queries. Adherence to classical deductive logic rarely offers the intuitively correct meaning of the rules. Thus, a variety of approaches to defining the "right" meaning of such rules have been developed. In this paper we survey the principal approaches, including stratified negation, well-founded negation, stable-model semantics, and modularly stratified semantics. }
+}
+
+@techreport{ilprints72,
+          number = {1994-6},
+          author = {T. Yan},
+       booktitle = {VLDB},
+           title = {Integrating a Structured-Text Retrieval System with an Object- Oriented Database System},
+            type = {Technical Report},
+       publisher = {Stanford InfoLab},
+     institution = {Stanford Infolab},
+            year = {1994},
+             url = {http://ilpubs.stanford.edu:8090/72/},
+        abstract = {We describe the integration of a structured-text retrieval system (TextMachine) into an object-oriented database system (OpOur approach is a light-weight one, using the external function capability of the database system to encapsulate the text retrieval system as an external information source. Yet, we are able to provide a tight integration in the query language and processing; the user can access the text retrieval system using a standard database query language. The effcient and effective retrieval of structured text performed by the text retrieval system is seamlessly combined with the rich modeling and general-purpose querying capabilities of the database system, resulting in an integrated system with querying power beyond those of the underlying systems. The integrated system also provides uniform access to textual data in the text retrieval system and structured data in the database system, thereby achieving information fusion. We discuss the design and implementation of our prototype system, and address issues such as the proper framework for external integration, the modeling of complex categorization and structure hierarchies of documents (under automatic document schema impand techniques to reduce the performance overhead of accessing an external source.}
+}
+
+@techreport{ilprints25,
+          number = {1993-18},
+           month = 6,
+          author = {E. Hanson and J. Widom},
+           title = {An Overview of Production Rules in Database Systems},
+            type = {Technical Report},
+       publisher = {Stanford InfoLab},
+            year = {1993},
+     institution = {Stanford University},
+         journal = {The Knowledge Engineering Review},
+        keywords = {active database, survey},
+             url = {http://ilpubs.stanford.edu:8090/25/},
+        abstract = {Database researchers have recognized that integrating a production rules facility into a database system provides a uniform mechanism for a number of advanced database features including integrity constraint enforcement, derived data maintenance, triggers, protection, version control, and others. In addition, a database system with rule processing capabilities provides a useful platform for large and effcient knowledge-base and expert systems. Database systems with production rules are referred to as active database systems, and the field of active database systems has indeed been active. This paper summarizes current work in active database systems and suggests future research directions. Topics covered include database rule languages, rule processing semantics, and implementation issues. 0}
+}
+
+@techreport{ilprints28,
+          number = {1993-20},
+            type = {Technical Report},
+           title = {Using Delta Relations to Optimize Condition Evaluation in Active Databases},
+          author = {E. Baralis and J. Widom},
+       publisher = {Stanford},
+            year = {1993},
+     institution = {Stanford University},
+             url = {http://ilpubs.stanford.edu:8090/28/},
+        abstract = {We give a method for improving the effciency of condition evaluation during rule processing in active database systems. The method derives, from a rule condition, two improved conditions that can be used in place of the original condition when a previous value (true or false) of the original condition is known. The derived conditions are more effcient the original condition because they replace references to entire database relations by references to delta relations, which typically are much smaller. Delta relations are accessible to rule conditions in almost all current active database systems, making this optimization broadly applicable. We specify an implementation of our rewriting method based on attribute grammars.}
+}
+
+@techreport{ilprints32,
+          number = {1993-24},
+          author = {S. Chawathe and H. Garcia-Molina and J. Widom},
+       booktitle = {ICDE},
+           title = {Constraint Management in Loosely Coupled Distributed Databases},
+            type = {Technical Report},
+       publisher = {Stanford InfoLab},
+     institution = {Stanford University},
+            year = {1993},
+        keywords = {constraint management, autonomous systems, heterogeneous systems},
+             url = {http://ilpubs.stanford.edu:8090/32/},
+        abstract = {We provide a framework for managing integrity constraints that span multiple databases in loosely coupled, heterogeneous environments. Our framework enables the formal description of (1) interfaces provided by a database for the data items involved in multi-database constraints; (2) strategies for monitoring and maintaining multi-database constraints; (3) guarantees regarding the consistency of multi-database constraints. With our approach one can define "relaxed" constraints that only hold at certain times or under certain conditions. Such constraints appear often in practice and cannot be handled effectively by conventional, transaction-based approaches. We also describe a toolkit, based on our framework, for enforcing constraints over heterogeneous systems. The toolkit includes a general-purpose, distributed constraint manager that can be easily configured to a given environment and constraints. A first version of the toolkit has been implemented and is under evaluation.}
+}
+
+@incollection{ilprints23,
+       booktitle = {Distributed Object Management.},
+          editor = {M.T. Ozsu and U. Dayal and P. Valduriez},
+           title = {An Approach to Behavior Sharing in Federated Database Systems},
+          author = {D. Fang and J. Hammer and D. McLeod},
+       publisher = {Morgan Kaufman},
+            year = {1993},
+        keywords = {RPC, sharing, method, behavior, schema, evolution},
+             url = {http://ilpubs.stanford.edu:8090/23/},
+        abstract = {An approach and mechanism to support the sharing of behavior among the component database systems in a federation is described. In the context of a functional object-based database model, a technique to support intercomponent behavior as well as inter-component information unit sharing is presented. An experimental implementation of the behavior sharing mechanism and algorithms is examined, and its practical utility and effectiveness are assessed. This work is couched in the framework of the Remote-Exchange research project and experimental system.}
+}
+
+@techreport{ilprints29,
+          number = {1993-21},
+          author = {L. Gravano and H. Garcia-Molina and A. Tomasic},
+       booktitle = {SIGMOD},
+           title = {The Efficacy of GlOSS for the Text Database Discovery Problem},
+            type = {Technical Report},
+       publisher = {Stanford InfoLab},
+     institution = {Stanford University},
+            year = {1993},
+             url = {http://ilpubs.stanford.edu:8090/29/},
+        abstract = {The popularity of information retrieval has led users to a new problem: finding which text databases (out of thousands of candidate choices) are the most relevant to a user. Answering a given query with a list of relevant databases is the text database discovery problem. The first part of this paper presents a practical method for attacking this problem based on estimating the result size of a query and a database. The method is termed GlOSS-Glossary of Servers Server. The second part of this paper evaluates GlOSS using four different semantics to answer a user's queries. Real users' queries were used in the experiments. We also describe several variations of GlOSS and compare their effcacy. In addition, we analyze the storage cost of our approach to the problem.}
+}
+
+@inproceedings{ilprints20,
+       booktitle = {ACM SIGMOD International Conference on Management of Data (SIGMOD 1993)},
+           title = {Local Verification of Global Integrity Constraints in Distributed Databases},
+          author = {A. Gupta and J. Widom},
+            year = {1993},
+             url = {http://ilpubs.stanford.edu:8090/20/},
+        abstract = {We present an optimization for integrity constraint verification in distributed databases. The optimization allows a global constraint, i.e. a constraint spanning multiple databases, to be verified by accessing data at a single database, eliminating the cost of accessing remote data. The optimization is based on an algorithm that takes as input a global constraint and data to be inserted into a local database. The algorithm produces a local condition such that if the local data satisfies this condition then, based on the previous satisfaction of the global constraint, the global constraint is still satisfied. If the local data does not satisfy the condition, then a conventional global verification procedure is required.}
+}
+
+@techreport{ilprints21,
+          number = {1993-14},
+            type = {Technical Report},
+           title = {An Approach to Resolving Semantic Heterogeneity in a Federation of Autonomous, Heterogeneous Database Systems},
+          author = {J. Hammer and D. McLeod},
+       publisher = {Stanford InfoLab},
+            year = {1993},
+     institution = {Stanford University},
+        keywords = {Federated, heterogeneous, semantic, integration, resolution, lexicon},
+             url = {http://ilpubs.stanford.edu:8090/21/},
+        abstract = {An approach to accommodating semantic heterogeneity in a federation of interoperable, autonomous, heterogeneous databases is presented. A mechanism is described for identifying and resolving semantic heterogeneity while at the same time honoring the autonomy of the database components that participate in the federation. A minimal, common data model is introduced as the basis for describing sharable information, and a three-pronged facility for determining the relationships between information units (objects) is developed. Our approach serves as a basis for the sharing of related concepts through (partial) schema unification without the need for a global view of the data that is stored in the different components. The mechanism presented here can be seen in contrast with more traditional approaches such as "integrated databases" or "distributed databases". An experimental prototype implementation has been constructed within the framework of the Remote-Exchange experimental system. Keywords: Autonomy, federation, heterogeneous databases, interoperability, resolution, semantic heterogeneity.}
+}
+
+@techreport{ilprints39,
+          number = {1993-6},
+          author = {B. Kao and H. Garcia-Molina},
+       booktitle = {NATO Advanced Study Institute on Real-Time Computing. },
+           title = {An Overview of Real-Time Database Systems},
+            type = {Technical Report},
+       publisher = {Stanford InfoLab},
+     institution = {Stanford University},
+            year = {1993},
+             url = {http://ilpubs.stanford.edu:8090/39/},
+        abstract = {AN OVER VIEW OF REAL-TIME DA T ABASE SYSTEMS Ben Kao 1;2 and Hector Garcia-Molina 2 1 Princeton University, Princeton NJ 08544, USA 2 Stanford University, Stanford CA 94305, USA 1 Introduction Traditionally, real-time systems manage their data (e.g. chamber temperature, aircraft locations) in application dependent structures. As real-time systems evolve, their applications become more complex and require access to more data. It thus becomes necessary to manage the data in a systematic and organized fashion. Database management systems provide tools for such organization, so in recent years there has been interest in "merging" database and real-time technology. The resulting integrated system, which provides database operations with real-time constraints is generally called a real-time database system (RTDBS) [1]. Like a conventional database system, a RTDBS functions as a repository of data, provides effcient storage, and performs retrieval and manipulation of information. However, as a part of a real-time system, whose "tasks" are associated with time constraints, a RTDBS, has the added burden of ensuring some degree of confidence in meeting the system's timing requirements. Example applications that handle large amounts of data and have stringent timing requirements include telephone switching (e.g. translating an 800 number into an actual numbradar tracking and others. Arbitrage trading, for example, involves trading commodities in different markets at different prices. Since price discrepancies are usually short-lived, automated searching and processing of large amounts of trading information are very desirable. In order to capitalize on the opportunities, buy-sell decisions have to be made promptly, often with a time constraint so that the financial overhead in performing the trade actions are well compensated by the benefit resulting from the trade. As another example, a radar surveillance system detects aircraft "images" or "radar signatures". These images ar}
+}
+
+@inproceedings{ilprints36,
+       booktitle = {ACM SIGMOD International Conference on Management of Data (SIGMOD 1993)},
+           title = {Caching and Database Scaling in Distributed Shared-Nothing Information Retrieval Systems},
+          author = {A. Tomasic and H. Garcia-Molina},
+            year = {1993},
+             url = {http://ilpubs.stanford.edu:8090/36/},
+        abstract = {A common class of existing information retrieval system provides access to abstracts. For example Stanford University, through its FOLIO system, provides access to the INSPEC database of abstracts of the literature on physics, computer science, electrical engineering, etc. In this paper this database is studied by using a trace-driven simulation. We focus on physical index design, inverted index caching, and database scaling in a distributed shared-nothing system. All three issues are shown to have a strong effect on response time and throughput. Database scaling is explored in two ways. One way assumes an "optimal" configuration for a single host and then linearly scales the database by duplicating the host architecture as needed. The second way determines the optimal number of hosts given a fixed database size.}
+}
+
+@inproceedings{ilprints26,
+       booktitle = {Rules in Database Systems. Proceedings of the 1st International Workshop on Rules in Database Systems. Published in Workshops in Computing, Springer 1994   },
+           title = {Deductive and Active Databases: Two Paradigms or Ends of a Spectrum?},
+          author = {J. Widom},
+            year = {1993},
+        keywords = {survey},
+             url = {http://ilpubs.stanford.edu:8090/26/},
+        abstract = {This position paper considers several existing relational database rule languages with a focus on exploring the fundamental differences between deductive and active databases. We find that deductive and active databases do not form two discernible classes, but rather they delineate two ends of a spectrum of database rule languages. We claim that this spectrum corresponds to a notion of abstraction level, with deductive rule languages at a higher level and active rule languages at a lower level.}
+}
+
+@inproceedings{ilprints13,
+       booktitle = {SIGMOD},
+           title = {Behavior of Database Production Rules: Termination, Confluence, and Observable Determinism},
+          author = {A. Aiken and J. Hellerstein and J. Widom},
+            year = {1992},
+        keywords = {active database, static analysis, Starburst},
+             url = {http://ilpubs.stanford.edu:8090/13/},
+        abstract = {Static analysis methods are en for determining whether arbitrary sets of database production rules are (1) guaranteed to terminate; (2) guaranteed to produce a unique final database state; (3) guaranteed to produce a unique stream of observable actions. When the analysis determines that one of these properties is not guaranteed, it isolates the rules responsible for the problem and determines criteria that, if satisfied, guarantee the property. The analysis methods are presented in the context of the Starburst Rule System; they will form the basis of an interactive development environment for Starburst rule programmers.}
+}
+
+@inproceedings{ilprints15,
+       booktitle = {VLDB},
+           title = {Production Rules in Parallel and Distributed Database Environments},
+          author = {S. Ceri and J. Widom},
+            year = {1992},
+        keywords = {active database, consistency, Starburst},
+             url = {http://ilpubs.stanford.edu:8090/15/},
+        abstract = {In most database systems with production rule facilities, rules respond to operations on centralized data and rule processing is performed in a centralized, sequential fashion. In parallel and distributed database environments, for maximum autonomy it is desirable for rule processing to occur separately at each site (or noresponding to operations on data at that site. However, since rules at one site may read or modify data and interact with rules at other sites, independent rule processing at each site may be impossible or incorrect. We describe mechanisms that allow rule processing to occur separately at each site and guarantee correctness: parallel or distributed rule processing is provably equivalent to rule processing in the corresponding centralized environment. Our mechanisms include locking schemes, communication protocols, and rule restrictions. Based on a given parallel or distributed environment and desired level of transparency, the mechanisms may be combined or may be used independently.}
+}
+
+@techreport{ilprints12,
+          number = {1992-4},
+          author = {D. Fang and J. Hammer and D. McLeod},
+           title = {A Mechanism and Experimental System for Function-Based Sharing in Federated Databases},
+            type = {Technical Report},
+       publisher = {Stanford InfoLab},
+            year = {1992},
+     institution = {Stanford University},
+         journal = {Interoperable Database Systems (DS-5) (A-25)},
+           pages = {239--253},
+        keywords = {RPC, sharing, function, behavior, schema, evolution},
+             url = {http://ilpubs.stanford.edu:8090/12/},
+        abstract = {A function-based approach and mechanism to support sharing among the component database systems in a federation is described. In the context of a functional object-based database model, a technique to support inter-component information unit and behavior sharing is presented. An experimental system that implements the function-based sharing mechanism is described, its underlying algorithms are outlined, and its practical utility and effectiveness are assessed. This work is couched in the framework of the Remote-Exchange research project and experimental system. Keyword Codes: H.2.5. Keywords: Heterogeneous Databases}
+}
+
+@inproceedings{ilprints6,
+       booktitle = {IEEE Spring Compcon},
+           title = {Remote-Exchange: An Approach to Controlled Sharing among Autonomous, Heterogeneous Database Systems},
+          author = {D. Fang and J. Hammer and D. McLeod and A. Si},
+            year = {1991},
+        keywords = {Integration, heterogeneity, schema, sharing, resolution},
+             url = {http://ilpubs.stanford.edu:8090/6/},
+        abstract = {This short paper describes several aspects of the Remote Exchange project at USC, which focuses on an approach and experimental system for the controlled sharing and exchange of information among autonomous, heterogeneous database systems. The spectrum of heterogeneity which may exist among the components in a federation of database systems is examined, and an approach to accommodating such heterogeneity is described. An overview of the Remote Exchange experimental system is provided, including the top level architecture, sharing mechanism, and sharing "advisor".}
+}
+
+@inproceedings{ilprints4,
+       booktitle = {SIGMOD},
+           title = {Set-Oriented Production Rules in Relational Database Systems},
+          author = {J. Widom and S. Finkelstein},
+            year = {1990},
+        keywords = {active database, Starburst},
+             url = {http://ilpubs.stanford.edu:8090/4/},
+        abstract = {We propose incorporating a production rules facility into a relational database system. Such a facility allows definition of database operations that are automatically executed whenever certain conditions are met. In keeping with the set-oriented approach of relational data manipulation languages, our production rules are also set-oriented--they are triggered by sets of changes to the database and may perform sets of changes. The condition and action parts of our production rules may refer to the current state of the database as well as to the sets of changes triggering the rules. We define a syntax for production rule definition as an extension to SQL. A model of system behavior is used to give an exact semantics for production rule execution, taking into account externally-generated operations, selftriggering rules, and simultaneous triggering of multiple rules.}
+}
+
+@techreport{ilprints1057,
+            type = {Technical Report},
+           title = {Efficient Parsing-based Keyword Search over Databases},
+          author = {Aditya Parameswaran and Raghav Kaushik and Arvind Arasu},
+       publisher = {Stanford InfoLab},
+     institution = {Stanford University},
+             url = {http://ilpubs.stanford.edu:8090/1057/},
+        abstract = {We study a parsing-based semantics for keyword search over databases that relies on parsing the search query using a grammar. The parsing-based semantics is often used to override the traditional ?bag-of-words? semantics in web search and enterprise search scenarios. Compared to the ?bag-of-words? semantics, the parsing-based semantics is richer and more customizable. While a formalism for parsing-based semantics for keyword search has been proposed in prior work and ad-hoc implementations exist, the problem of designing ef?cient algorithms to support the semantics is largely unstudied. In this paper, we present a suite of ef?cient algorithms and auxiliary indexes for this problem. Our algorithms work for a broad classes of grammars used in practice, and cover a variety of database matching functions (set- and substring-containment, approximate and exact equality) and scoring functions to ?lter and rank different parses. We formally analyze the running time complexity of our algorithms and provide a thorough empirical evaluation over real-world data to show that our algorithms scale well with the size of the database and grammar}
+}
+
+@techreport{ilprints1076,
+            type = {Technical Report},
+           title = {SeeDB: Visualizing Database Queries Efficiently},
+          author = {Aditya Parameswaran and Neoklis Polyzotis and Hector Garcia-Molina},
+       publisher = {Stanford InfoLab},
+     institution = {Stanford University},
+        keywords = {visualization, deviation, anomaly, vision, SeeDB},
+             url = {http://ilpubs.stanford.edu:8090/1076/},
+        abstract = {Data scientists rely on visualizations to interpret the data returned by queries, but finding the right visualization remains a manual task that is often laborious. We propose a DBMS that partially automates the task of finding the right visualizations for a query. In a nutshell, given an input query Q, the new DBMS optimizer will explore not only the space of physical plans for Q, but also the space of possible visualizations for the results of Q. The output will comprise a recommendation of potentially "interesting" or "useful" visualizations, where each visualization is coupled with a suitable query execution plan. We discuss the technical challenges in building this system and outline an agenda for future research.}
+}
