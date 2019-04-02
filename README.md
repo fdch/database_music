@@ -1,26 +1,118 @@
 
-# Database Music: A History, Technology, and Aesthetics of the Database in Music Composition
+# Database Music
 
-### Main text
+## A History, Technology, and Aesthetics of the Database in Music Composition
 
-- HTML version: [online/index.html](online/index.html)
+---
 
-- PDF version: [output/main.pdf](main.pdf)
+Federico Nicolás Cámara Halac
 
-- DOCX version: [output/main.docx](main.docx)
+All Rights Reserved, CEST
+
+A
+
+dissertation
+
+submitted
+
+in
+
+partial
+
+fulfillment
+
+of
+
+the
+
+requirements
+
+for
+
+the
+
+degree
+
+of
+
+Doctor
+
+of
+
+Philosophy
+
+Department
+
+of
+
+Music
+
+New
+
+York
+
+University
+
+May,
+
+2019
+
+### Advisor
+
+Jaime Oliver La Rosa
+
+### Readers
+
+Elizabeth
+
+Hoffman
+
+(NYU
+
+GSAS)
+
+Martin
+
+Daughtry
+
+(NYU
+
+GSAS)
+
+William
+
+Brent
+
+(American
+
+University)
+
+Robert
+
+Rowe
+
+(NYU
+
+Steinhardt)
+
+---
+
+### Versions
+
+- HTML : [https://fdch.github.io/database_music](https://fdch.github.io/database_music)
+
+- PDF  : [https://fdch.github.io/database_music/main.pdf](https://fdch.github.io/database_music/main.pdf)
+
+- DOCX : [https://fdch.github.io/database_music/main.docx](https://fdch.github.io/database_music/main.docx)
 
 ### Outline
 
-- outline CSV: [output/main.csv](main.csv)
+- outline TXT: [https://fdch.github.io/database_music/outline.txt](https://fdch.github.io/database_music/outline.txt)
 
-- outline TXT: [output/outline.txt](outline.txt)
+- outline CSV: [https://fdch.github.io/database_music/main.csv](https://fdch.github.io/database_music/main.csv)
 
 ### Log
 
-- author: Federico Nicolás Cámara Halac
+- Word count: 53369 (4)
 
-- date: Tue Apr  2 19:11:30 CEST 2019
-
-- total words: 53369
-
-- word changes: 4
+- Last updated: Tue Apr  2 19:41:26 CEST 2019

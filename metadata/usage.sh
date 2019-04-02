@@ -6,7 +6,7 @@ OPTIONS:
 [1] -m --concat  concatenate <.tex> files in <content/*.tex> into <${NAME}.tex>
 [2] -l --compile compile latex file and output <${NAME}.pdf>
 [3] -c --count   count words and output <${NAME}.csv> with more data
-[4] -p --pandoc  convert <${NAME}.tex> into <$HTMLTGT> and <${NAME}.docx>
+[4] -p --pandoc  convert <${NAME}.tex> into html and docx
 [5] -t --tidy    place temporary files in <.tmp> and all output in <output>
 [6] -r --reset   run updating glossaries (getgloss) and structures (getstruct)
 [7] -f --fresh   run updating only structures (getstruct)
