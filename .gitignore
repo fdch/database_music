@@ -2,8 +2,8 @@
 .tmp
 
 # Files
-*.dia
-*~
+img/*
+!*.png
 
 # MacOS stuff
 .DS_Store

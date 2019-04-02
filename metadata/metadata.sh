@@ -9,7 +9,7 @@ COMMITTEE=(
 	"Robert Rowe (NYU Steinhardt)"
 )
 DATE=`date`
-YEAR=`echo "$DATE" |cut -f6 -d' '`
+YEAR=`date +%Y`
 DEGREE="Doctor of Philosophy"
 DEPT="Department of Music"
 UNIVERSITY="New York University"

@@ -359,35 +359,35 @@ function compile_latex()
 
 function make_readme()
 {
-	local pdf="$ONLINE/${NAME}.pdf"
-	local doc="$ONLINE/${NAME}.docx"
-	local csv="$ONLINE/${NAME}.csv"
-	local out="$ONLINE/outline.txt"
+	local pdf="${NAME}.pdf"
+	local doc="${NAME}.docx"
+	local csv="${NAME}.csv"
+	local out="outline.txt"
 
 	printf "\n%s\n" "# $TITLE"
 	printf "\n%s\n" "## $ST"
 	printf "\n%s\n" "---"
 	printf "\n%s\n" "$AUTHOR"
 	printf "\n%s\n" "$COPYRIGHT"
-	for i in ${DISSHEADER[@]}
+	for i in "${DISSHEADER[@]}"
 	do
 		printf "\n%s\n" "$i"
 	done
 	printf "\n%s\n" "### Advisor"
 	printf "\n%s\n" "$ADVISOR"
 	printf "\n%s\n" "### Readers"
-	for i in ${COMMITTEE[@]}
+	for i in "${COMMITTEE[@]}"
 	do
 		printf "\n%s\n" "$i"
 	done
 	printf "\n%s\n" "---"
 	printf "\n%s\n" "### Versions"
-	printf "\n%s\n" "- HTML : [$ONLINE]($ONLINE)"
-	printf "\n%s\n" "- PDF  : [$pdf]($pdf)"
-	printf "\n%s\n" "- DOCX : [$doc]($doc)"
+	printf "\n%s\n" "- HTML : [$ONLINE/online]($ONLINE/online)"
+	printf "\n%s\n" "- PDF  : [$pdf](output/$pdf)"
+	printf "\n%s\n" "- DOCX : [$doc](output/$doc)"
 	printf "\n%s\n" "### Outline"
-	printf "\n%s\n" "- outline TXT: [$out]($out)"
-	printf "\n%s\n" "- outline CSV: [$csv]($csv)"
+	printf "\n%s\n" "- outline TXT: [$out](output/$out)"
+	printf "\n%s\n" "- outline CSV: [$csv](output/$csv)"
 	printf "\n%s\n" "### Log"
 	printf "\n%s\n" "- Word count: $TOTALWORDS ($NEWWORDS)"
 	printf "\n%s\n" "- Last updated: $DATE"

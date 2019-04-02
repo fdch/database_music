@@ -7,55 +7,19 @@
 
 Federico Nicolás Cámara Halac
 
-All Rights Reserved, CEST
+All Rights Reserved, 2019
 
-A
+A dissertation submitted in partial fulfillment
 
-dissertation
+of the requirements for the degree of
 
-submitted
+Doctor of Philosophy
 
-in
+Department of Music
 
-partial
+New York University
 
-fulfillment
-
-of
-
-the
-
-requirements
-
-for
-
-the
-
-degree
-
-of
-
-Doctor
-
-of
-
-Philosophy
-
-Department
-
-of
-
-Music
-
-New
-
-York
-
-University
-
-May,
-
-2019
+May, 2019
 
 ### Advisor
 
@@ -63,56 +27,32 @@ Jaime Oliver La Rosa
 
 ### Readers
 
-Elizabeth
+Elizabeth Hoffman (NYU GSAS)
 
-Hoffman
+Martin Daughtry (NYU GSAS)
 
-(NYU
+William Brent (American University)
 
-GSAS)
-
-Martin
-
-Daughtry
-
-(NYU
-
-GSAS)
-
-William
-
-Brent
-
-(American
-
-University)
-
-Robert
-
-Rowe
-
-(NYU
-
-Steinhardt)
+Robert Rowe (NYU Steinhardt)
 
 ---
 
 ### Versions
 
-- HTML : [https://fdch.github.io/database_music](https://fdch.github.io/database_music)
+- HTML : [https://fdch.github.io/database_music/online](https://fdch.github.io/database_music/online)
 
-- PDF  : [https://fdch.github.io/database_music/main.pdf](https://fdch.github.io/database_music/main.pdf)
+- PDF  : [main.pdf](output/main.pdf)
 
-- DOCX : [https://fdch.github.io/database_music/main.docx](https://fdch.github.io/database_music/main.docx)
+- DOCX : [main.docx](output/main.docx)
 
 ### Outline
 
-- outline TXT: [https://fdch.github.io/database_music/outline.txt](https://fdch.github.io/database_music/outline.txt)
+- outline TXT: [outline.txt](output/outline.txt)
 
-- outline CSV: [https://fdch.github.io/database_music/main.csv](https://fdch.github.io/database_music/main.csv)
+- outline CSV: [main.csv](output/main.csv)
 
 ### Log
 
 - Word count: 53369 (4)
 
-- Last updated: Tue Apr  2 19:41:26 CEST 2019
+- Last updated: Tue Apr  2 19:57:12 CEST 2019
