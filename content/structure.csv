@@ -1,6 +1,6 @@
 filename,title,target
-abstract,"Abstract",500
-introduction,"Introduction",10000
-art,"Database Art",30000
-aesthetics,"Database Aesthetics",30000
-conclusion,"Conclusion",10000
+part-0,"Abstract",500
+part-1,"Introduction",10000
+part-2,"Database Art",30000
+part-3,"Database Aesthetics",30000
+part-4,"Conclusion",10000

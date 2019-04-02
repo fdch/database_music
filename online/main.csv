@@ -1,47 +1,47 @@
 words,title,path
-425   	Abstract            	content/abstract/abstract.tex
-3149  	Introduction        	content/introduction/abstract.tex
-172   	Database Art        	content/art/abstract.tex
-0     	The Database In New Media Theory	content/art/section-1/sub/abstract.tex
-415   	Database As Form    	content/art/section-1/sub/new_media.tex
-905   	A Semiotic Trap     	content/art/section-1/sub/semiotics.tex
-553   	Digital Convergence 	content/art/section-1/sub/convergence.tex
-638   	Bodiless Information	content/art/section-1/sub/bodiless_information.tex
-512   	Embodying Databasing	content/art/section-1/sub/embodiment.tex
-313   	Filtering And Framing	content/art/section-1/sub/framing.tex
-211   	Database As Aesthetics	content/art/section-1/sub/database_aesthetics.tex
-295   	Databasing: Database As Performance	content/art/section-1/sub/generated.tex
-0     	Databasing And The History Of Databases	content/art/section-2/sub/abstract.tex
-2116  	Databasing: Structure, Time, Writing, And Architecture	content/art/section-2/sub/databasing.tex
-925   	A Database Tree     	content/art/section-2/sub/programming.tex
-541   	The Realm Of Data Structures	content/art/section-2/sub/models.tex
-2381  	A Brief History Of Database Models	content/art/section-2/sub/descriptions.tex
-359   	Databasing Sound: Applications Of Databases In Sound	content/art/section-3/sub/abstract.tex
-895   	Music Information Retrieval	content/art/section-3/sub/mir.tex
-2055  	Sonification        	content/art/section-3/sub/sonification.tex
-5038  	Computer Music      	content/art/section-3/sub/computer_music.tex
-2439  	Applications        	content/art/section-3/sub/applications.tex
-795   	Database Aesthetics 	content/aesthetics/abstract.tex
-0     	Listening Databases 	content/aesthetics/section-1/sub/abstract.tex
-1463  	The Resonance Of A Return	content/aesthetics/section-1/sub/resonance_of_a_return.tex
-1501  	Resonant Network    	content/aesthetics/section-1/sub/network.tex
-1353  	The Unworking Network	content/aesthetics/section-1/sub/inoperativity.tex
-0     	Databases And Memory	content/aesthetics/section-2/sub/abstract.tex
-1685  	Interlude: Embodied Memory	content/aesthetics/section-2/sub/funeslude.tex
-1561  	The Effraction Of The Trace	content/aesthetics/section-2/sub/human.tex
-1810  	The Archontic Principle	content/aesthetics/section-2/sub/archontic.tex
-2309  	The Spectral Database	content/aesthetics/section-2/sub/spectrality.tex
-0     	Performativity Of Databases	content/aesthetics/section-3/sub/abstract.tex
-1236  	Gendered Database   	content/aesthetics/section-3/sub/gender.tex
-892   	Towards The Limits  	content/aesthetics/section-3/sub/limits.tex
-1964  	Contingencies Of Style	content/aesthetics/section-3/sub/style.tex
-1249  	A Specter Of Authority	content/aesthetics/section-3/sub/authority.tex
-0     	Rethinking Composition	content/aesthetics/section-4/sub/abstract.tex
-1232  	Interlude: Hyperbolic Reactions	content/aesthetics/section-4/sub/performance.tex
-1603  	Working Composition 	content/aesthetics/section-4/sub/organic.tex
-1418  	The Composer As Navigator	content/aesthetics/section-4/sub/practice.tex
-2785  	The Database As Performer	content/aesthetics/section-4/sub/improv.tex
-1901  	The Severed Object Of Music	content/aesthetics/section-4/sub/music.tex
-1924  	Anarchy And The Unwork	content/aesthetics/section-4/sub/anarchy.tex
-347   	[Wip] Work In Progress	content/aesthetics/section-4/sub/worker.tex
-4     	Conclusion          	content/conclusion/abstract.tex
+425   	Abstract            	content/part-0/abstract.tex
+3149  	Introduction        	content/part-1/abstract.tex
+172   	Database Art        	content/part-2/abstract.tex
+0     	The Database In New Media Theory	content/part-2/section-1/sub/abstract.tex
+415   	Database As Form    	content/part-2/section-1/sub/new_media.tex
+905   	A Semiotic Trap     	content/part-2/section-1/sub/semiotics.tex
+553   	Digital Convergence 	content/part-2/section-1/sub/convergence.tex
+638   	Bodiless Information	content/part-2/section-1/sub/bodiless_information.tex
+512   	Embodying Databasing	content/part-2/section-1/sub/embodiment.tex
+313   	Filtering And Framing	content/part-2/section-1/sub/framing.tex
+211   	Database As Aesthetics	content/part-2/section-1/sub/database_aesthetics.tex
+295   	Databasing: Database As Performance	content/part-2/section-1/sub/generated.tex
+0     	Databasing And The History Of Databases	content/part-2/section-2/sub/abstract.tex
+2116  	Databasing: Structure, Time, Writing, And Architecture	content/part-2/section-2/sub/databasing.tex
+925   	A Database Tree     	content/part-2/section-2/sub/programming.tex
+541   	The Realm Of Data Structures	content/part-2/section-2/sub/models.tex
+2381  	A Brief History Of Database Models	content/part-2/section-2/sub/descriptions.tex
+359   	Databasing Sound: Applications Of Databases In Sound	content/part-2/section-3/sub/abstract.tex
+895   	Music Information Retrieval	content/part-2/section-3/sub/mir.tex
+2055  	Sonification        	content/part-2/section-3/sub/sonification.tex
+5038  	Computer Music      	content/part-2/section-3/sub/computer_music.tex
+2439  	Applications        	content/part-2/section-3/sub/applications.tex
+795   	Database Aesthetics 	content/part-3/abstract.tex
+0     	Listening Databases 	content/part-3/section-1/sub/abstract.tex
+1463  	The Resonance Of A Return	content/part-3/section-1/sub/resonance_of_a_return.tex
+1501  	Resonant Network    	content/part-3/section-1/sub/network.tex
+1353  	The Unworking Network	content/part-3/section-1/sub/inoperativity.tex
+0     	Databases And Memory	content/part-3/section-2/sub/abstract.tex
+1685  	Interlude: Embodied Memory	content/part-3/section-2/sub/funeslude.tex
+1561  	The Effraction Of The Trace	content/part-3/section-2/sub/human.tex
+1810  	The Archontic Principle	content/part-3/section-2/sub/archontic.tex
+2309  	The Spectral Database	content/part-3/section-2/sub/spectrality.tex
+0     	Performativity Of Databases	content/part-3/section-3/sub/abstract.tex
+1236  	Gendered Database   	content/part-3/section-3/sub/gender.tex
+892   	Towards The Limits  	content/part-3/section-3/sub/limits.tex
+1964  	Contingencies Of Style	content/part-3/section-3/sub/style.tex
+1249  	A Specter Of Authority	content/part-3/section-3/sub/authority.tex
+0     	Rethinking Composition	content/part-3/section-4/sub/abstract.tex
+1232  	Interlude: Hyperbolic Reactions	content/part-3/section-4/sub/performance.tex
+1603  	Working Composition 	content/part-3/section-4/sub/organic.tex
+1418  	The Composer As Navigator	content/part-3/section-4/sub/practice.tex
+2785  	The Database As Performer	content/part-3/section-4/sub/improv.tex
+1901  	The Severed Object Of Music	content/part-3/section-4/sub/music.tex
+1924  	Anarchy And The Unwork	content/part-3/section-4/sub/anarchy.tex
+347   	[Wip] Work In Progress	content/part-3/section-4/sub/worker.tex
+4     	Conclusion          	content/part-4/abstract.tex
