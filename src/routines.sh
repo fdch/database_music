@@ -422,7 +422,7 @@ function tidy_up()
 {
 	mv ${ROOTDIR}/${NAME}.{pdf,tex,bib,csv,docx,html} ${OUTDIR}
 	rsync ${OUTDIR}/${NAME}.csv ${OUTDIR}/outline.txt $DISSDIR
-	mv ${ROOTDIR}/${NAME}.* ${TMPDIR}
+	mv ${ROOTDIR}/${NAME}.* texput.log ${TMPDIR}
 }
 
 function count_words()
