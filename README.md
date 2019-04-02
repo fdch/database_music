@@ -17,13 +17,9 @@ A dissertation submitted in partial fulfillment of the requirements for the degr
 Jaime Oliver La Rosa
 
 ### Committee
-
 - Elizabeth Hoffman (NYU GSAS)
-
 - Martin Daughtry (NYU GSAS)
-
 - William Brent (American University)
-
 - Robert Rowe (NYU Steinhardt)
 
 ---
@@ -31,15 +27,15 @@ Jaime Oliver La Rosa
 ## Read
 
 ### Versions
-- HTML : [https://fdch.github.io/database_music/online](https://fdch.github.io/database_music/online)
-- PDF  : [main.pdf](output/main.pdf)
-- DOCX : [main.docx](output/main.docx)
-- git  : [https://github.com/fdch/database_music](https://github.com/fdch/database_music)
+- [website (html)](https://fdch.github.io/database_music/online)
+- [print (pdf)](output/main.pdf)
+- [print (docx)](output/main.docx)
+- [code repository](https://github.com/fdch/database_music)
 
 ### Outline
-- outline TXT: [outline.txt](output/outline.txt)
-- outline CSV: [main.csv](output/main.csv)
+- [toc (txt)](output/outline.txt)
+- [toc (csv)](output/main.csv)
 
 ### Log
 - Word count: 53369 (4)
-- Last updated: Tue Apr  2 20:09:34 CEST 2019
+- Last updated: Tue Apr  2 20:16:03 CEST 2019
