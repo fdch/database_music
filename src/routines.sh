@@ -421,7 +421,6 @@ function make_html()
 	pandoc $STLDIR/extramacro.tex $MAINTEX $PANDOCFLAGS -o ${NAME}.html
 	# pandoc $MAINTEX $PANDOCFLAGS -o ${NAME}.html
 	sed -e "s|$IMGDIR|../img|g; s|$STLDIR|../styles|g" ${NAME}.html > ${DISSDIR}/index.html
-	mv ${NAME}.html .tmp # just place original html file on the temp dir
 }
 
 function make_docx()
@@ -429,6 +428,7 @@ function make_docx()
 	print_comment "make_docx(): Making docx..."
 	pandoc ${NAME}.html -f html -t docx -o ${ROOTDIR}/${NAME}.docx
 	rsync ${NAME}.docx $DISSDIR
+	mv ${NAME}.html .tmp # just place original html file on the temp dir
 }
 
 function tidy_up()
