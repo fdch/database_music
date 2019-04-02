@@ -33,6 +33,7 @@
 	bookmarksnumbered=false, 
 	bookmarksopen=false, 
 	breaklinks=true, 
+	hidelinks,
 	colorlinks=false,
 	linkbordercolor={white},
 ]{hyperref}
@@ -920,7 +921,7 @@ A data structure is a set of data types kept generally in contiguous slots in me
 
 \begin{flushleft}
 \small
-\begin{lstlisting}[caption={An example of a data structure in the programming language C. It is named \texttt{Person}, and it holds two variables: \texttt{age} and \texttt{name}, respectively a positive integer and a string of up to 128 characters.},captionpos=b,label=lst:person]
+\begin{lstlisting}[caption={An example of a data structure in the programming language C. It is named \texttt{Person}, and it holds two variables: \texttt{age} and \texttt{name}, respectively a positive integer and a string of up to 128 characters.},captionpos=b,label={lst:person}]
 typedef struct Person {
 	unsigned char age;
 	char name[128];
@@ -949,7 +950,7 @@ I have proposed that memory and its storing of instructions and information what
 
 \begin{flushleft}
 \small
-\begin{lstlisting}[caption={Pseudocode showing a routine whose next value depends on the present value.},captionpos=b,label=lst:neumann]
+\begin{lstlisting}[caption={Pseudocode showing a routine whose next value depends on the present value.},captionpos=b,label={lst:neumann}]
 present = 0
 next = 0
 iteration {

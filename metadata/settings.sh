@@ -26,10 +26,10 @@ hyperrefparams="
 	bookmarksnumbered=false, 
 	bookmarksopen=false, 
 	breaklinks=true, 
+	hidelinks,
 	colorlinks=false,
 	linkbordercolor={white},
 "
-	# hidelinks=false,
 	# linkcolor={red!50!blue},
 	# citecolor={blue!50!black},
 	# urlcolor={red!50!black}

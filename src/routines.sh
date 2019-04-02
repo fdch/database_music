@@ -201,7 +201,7 @@ function make_frontmatter()
 	printf "%s\n" "\frontmatter"
 	make_title
 	make_copyright
-	make_page "FRONTISPIECE" "\\includegraphics[width=1\\textwidth]{$DBTREE}"
+	make_page "FRONTISPIECE" "\\includegraphics[width=1\\textwidth]{$FRONTIMG}"
 	make_page "BLANK" "\\clearpage"
 	make_extra
 
@@ -400,7 +400,7 @@ function make_readme()
 
 function make_index()
 {
-	print_comment "make_index(): Making diss/index.html..."
+	print_comment "make_index(): Making README.md ..."
 
 	local title="\"${TITLE//' '/_}\""
 	local flags="-s -f markdown -t html --metadata pagetitle=$title"
