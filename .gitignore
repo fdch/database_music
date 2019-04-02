@@ -5,5 +5,7 @@
 img/*
 !*.png
 
+*.log
+
 # MacOS stuff
 .DS_Store

@@ -5,9 +5,15 @@
 
 ---
 
+### Author
+
 Federico Nicolás Cámara Halac
 
+### Copyright
+
 All Rights Reserved, 2019
+
+### Header
 
 A dissertation submitted in partial fulfillment
 
@@ -25,7 +31,7 @@ May, 2019
 
 Jaime Oliver La Rosa
 
-### Readers
+### Committee
 
 Elizabeth Hoffman (NYU GSAS)
 
@@ -37,6 +43,8 @@ Robert Rowe (NYU Steinhardt)
 
 ---
 
+## Read
+
 ### Versions
 
 - HTML : [https://fdch.github.io/database_music/online](https://fdch.github.io/database_music/online)
@@ -44,6 +52,8 @@ Robert Rowe (NYU Steinhardt)
 - PDF  : [main.pdf](output/main.pdf)
 
 - DOCX : [main.docx](output/main.docx)
+
+- git  : [https://github.com/fdch/database_music](https://github.com/fdch/database_music)
 
 ### Outline
 
@@ -55,4 +65,4 @@ Robert Rowe (NYU Steinhardt)
 
 - Word count: 53369 (4)
 
-- Last updated: Tue Apr  2 20:00:21 CEST 2019
+- Last updated: Tue Apr  2 20:06:03 CEST 2019

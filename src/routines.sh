@@ -367,30 +367,35 @@ function make_readme()
 	printf "\n%s\n" "# $TITLE"
 	printf "\n%s\n" "## $ST"
 	printf "\n%s\n" "---"
-	printf "\n%s\n" "$AUTHOR"
-	printf "\n%s\n" "$COPYRIGHT"
+	printf "\n%s\n" "### Author"
+	printf "%s\n" "- $AUTHOR"
+	printf "\n%s\n" "### Copyright"
+	printf "%s\n" "- $COPYRIGHT"
+	printf "\n%s\n" "### Header"
 	for i in "${DISSHEADER[@]}"
 	do
-		printf "\n%s\n" "$i"
+		printf "%s\n" "$i"
 	done
 	printf "\n%s\n" "### Advisor"
-	printf "\n%s\n" "$ADVISOR"
-	printf "\n%s\n" "### Readers"
+	printf "%s\n" "- $ADVISOR"
+	printf "\n%s\n" "### Committee"
 	for i in "${COMMITTEE[@]}"
 	do
-		printf "\n%s\n" "$i"
+		printf "\n%s\n" "- $i"
 	done
 	printf "\n%s\n" "---"
+	printf "\n%s\n" "## Read"
 	printf "\n%s\n" "### Versions"
-	printf "\n%s\n" "- HTML : [$ONLINE/online]($ONLINE/online)"
-	printf "\n%s\n" "- PDF  : [$pdf](output/$pdf)"
-	printf "\n%s\n" "- DOCX : [$doc](output/$doc)"
+	printf "%s\n" "- HTML : [$ONLINE/online]($ONLINE/online)"
+	printf "%s\n" "- PDF  : [$pdf](output/$pdf)"
+	printf "%s\n" "- DOCX : [$doc](output/$doc)"
+	printf "%s\n" "- git  : [$REPO]($REPO)"
 	printf "\n%s\n" "### Outline"
-	printf "\n%s\n" "- outline TXT: [$out](output/$out)"
-	printf "\n%s\n" "- outline CSV: [$csv](output/$csv)"
+	printf "%s\n" "- outline TXT: [$out](output/$out)"
+	printf "%s\n" "- outline CSV: [$csv](output/$csv)"
 	printf "\n%s\n" "### Log"
-	printf "\n%s\n" "- Word count: $TOTALWORDS ($NEWWORDS)"
-	printf "\n%s\n" "- Last updated: $DATE"
+	printf "%s\n" "- Word count: $TOTALWORDS ($NEWWORDS)"
+	printf "%s\n" "- Last updated: $DATE"
 }
 
 function make_index()
@@ -435,7 +440,7 @@ function tidy_up()
 {
 	mv ${ROOTDIR}/${NAME}.{pdf,tex,bib,csv,docx} ${OUTDIR}
 	rsync ${OUTDIR}/${NAME}.csv ${OUTDIR}/outline.txt $DISSDIR
-	mv ${ROOTDIR}/${NAME}.* texput.log ${TMPDIR}
+	mv ${ROOTDIR}/${NAME}.* ${TMPDIR}
 }
 
 function count_words()
@@ -550,7 +555,7 @@ function main()
 	compare
 	open "output/${NAME}.pdf"
 	make_index
-	print_comment "Updating repo"
+	print_comment "Updating $REPO"
 	# cd $DISSDIR/..
 	git add .
 	git commit -m "update"

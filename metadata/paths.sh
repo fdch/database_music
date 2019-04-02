@@ -18,5 +18,6 @@ OUTDIR=$ROOTDIR/output
 WCFILE=$ROOTDIR/main.csv
 DBTREE=$IMGDIR/dbtree.jpg
 
+REPO=https://github.com/fdch/database_music
 ONLINE=https://fdch.github.io/database_music
 ONLINEO=$ONLINE/output
