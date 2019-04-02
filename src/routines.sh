@@ -368,16 +368,16 @@ function make_readme()
 	printf "\n%s\n" "## $ST"
 	printf "\n%s\n" "---"
 	printf "\n%s\n" "### Author"
-	printf "%s\n" "- $AUTHOR"
+	printf "%s\n" "$AUTHOR"
 	printf "\n%s\n" "### Copyright"
-	printf "%s\n" "- $COPYRIGHT"
+	printf "%s\n" "$COPYRIGHT"
 	printf "\n%s\n" "### Header"
 	for i in "${DISSHEADER[@]}"
 	do
-		printf "%s\n" "$i"
+		printf "%s " "$i"
 	done
 	printf "\n%s\n" "### Advisor"
-	printf "%s\n" "- $ADVISOR"
+	printf "%s\n" "$ADVISOR"
 	printf "\n%s\n" "### Committee"
 	for i in "${COMMITTEE[@]}"
 	do
