@@ -22,8 +22,8 @@ STRUCT=(
 "section" content/part-2/section-3/sub/abstract.tex "Databasing Sound: Applications Of Databases In Sound" 359
 "subsection" content/part-2/section-3/sub/mir.tex "Music Information Retrieval" 895
 "subsection" content/part-2/section-3/sub/sonification.tex "Sonification" 2055
-"subsection" content/part-2/section-3/sub/computer_music.tex "Computer Music" 4181
-"subsection" content/part-2/section-3/sub/applications.tex "Applications" 3315
+"subsection" content/part-2/section-3/sub/computer_music.tex "Computer Music" 4192
+"subsection" content/part-2/section-3/sub/applications.tex "Applications" 3575
 "chapter" content/part-3/abstract.tex "Database Aesthetics" 795
 "section" content/part-3/section-1/sub/abstract.tex "Listening Databases" 0
 "subsection" content/part-3/section-1/sub/resonance_of_a_return.tex "The Resonance Of A Return" 1463

@@ -19,8 +19,8 @@ Database Art 172
 	Databasing Sound: Applications of databases in sound 359
 		Music Information Retrieval 895 35%
 		Sonification 2055 82%
-		Computer Music 4181 167%
-		Applications 3315 132%
+		Computer Music 4192 167%
+		Applications 3575 143%
 Database Aesthetics 795
 	Listening Databases 0
 		The Resonance of a Return 1463 58%
