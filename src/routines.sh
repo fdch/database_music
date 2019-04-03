@@ -540,6 +540,15 @@ function compare()
 	NEWWORDS=$((w[0]-${w[1]}))
 }
 
+function update_repo()
+{
+	print_comment "Updating $REPO"
+	# cd $DISSDIR/..
+	git add .
+	git commit -m "update"
+	git push
+	# cd  $ROOTDIR
+}
 
 
 function main()
@@ -555,11 +564,6 @@ function main()
 	compare
 	open "output/${NAME}.pdf"
 	make_index
-	print_comment "Updating $REPO"
-	# cd $DISSDIR/..
-	git add .
-	git commit -m "update"
-	git push
-	# cd  $ROOTDIR
+	update_repo
 	print_comment "... finished with main()"
 }

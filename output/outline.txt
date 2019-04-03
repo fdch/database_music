@@ -7,20 +7,20 @@ Database Art 172
 		A Semiotic Trap 905 72%
 		Digital Convergence 553 44%
 		Bodiless Information 638 51%
-		Embodying Databasing 512 40%
+		Embodying Databasing 580 46%
 		Filtering and Framing 313 25%
 		Database as Aesthetics 211 16%
 		Databasing: Database as Performance 295 23%
 	Databasing and the History of Databases 0
-		Databasing: structure, time, writing, and architecture 2116 84%
+		Databasing: the performance of the database 2067 82%
 		A Database Tree 925 37%
 		The Realm of Data Structures 541 21%
 		A Brief History of Database Models 2381 95%
 	Databasing Sound: Applications of databases in sound 359
 		Music Information Retrieval 895 35%
 		Sonification 2055 82%
-		Computer Music 5038 201%
-		Applications 2439 97%
+		Computer Music 4181 167%
+		Applications 3315 132%
 Database Aesthetics 795
 	Listening Databases 0
 		The Resonance of a Return 1463 58%
