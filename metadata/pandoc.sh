@@ -12,10 +12,6 @@ PANDOCFLAGS="\
 
 --toc --toc-depth=4 \
 
---metadata pagetitle=index \
-
---css=$PANDOCSTYLE \
-
 --bibliography=$MAINBIB \
 
 --csl=$PANDOCBIBTYPE \

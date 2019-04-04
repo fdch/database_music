@@ -423,7 +423,7 @@ function make_html()
 
 	#	extramacro.tex capitalizes \gls{} entries
 	#	pandoc does not read glossaries!
-	pandoc $STLDIR/extramacro.tex $MAINTEX $PANDOCFLAGS -o ${NAME}.html
+	pandoc $STLDIR/extramacro.tex $MAINTEX $PANDOCFLAGS --metadata pagetitle="\"${TITLE//' '/_}\"" --css=$PANDOCSTYLE -o ${NAME}.html
 	# pandoc $MAINTEX $PANDOCFLAGS -o ${NAME}.html
 	sed -e "s|$IMGDIR|../img|g; s|$STLDIR|../styles|g" ${NAME}.html > ${DISSDIR}/index.html
 }
@@ -431,15 +431,14 @@ function make_html()
 function make_docx()
 {
 	print_comment "make_docx(): Making docx..."
-	pandoc ${NAME}.html -f html -t docx -o ${ROOTDIR}/${NAME}.docx
-	rsync ${NAME}.docx $DISSDIR
+	pandoc $MAINTEX $PANDOCFLAGS -f latex -t docx -o ${ROOTDIR}/${NAME}.docx
+	# pandoc ${NAME}.html -f html -t docx -o ${ROOTDIR}/${NAME}.docx
 	mv ${NAME}.html .tmp # just place original html file on the temp dir
 }
 
 function tidy_up()
 {
 	mv ${ROOTDIR}/${NAME}.{pdf,tex,bib,csv,docx} ${OUTDIR}
-	rsync ${OUTDIR}/${NAME}.csv ${OUTDIR}/outline.txt $DISSDIR
 	mv ${ROOTDIR}/${NAME}.* ${TMPDIR}
 }
 
