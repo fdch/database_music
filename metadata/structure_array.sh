@@ -20,10 +20,10 @@ STRUCT=(
 "subsection" content/part-2/section-2/sub/models.tex "The Realm Of Data Structures" 541
 "subsection" content/part-2/section-2/sub/descriptions.tex "A Brief History Of Database Models" 2381
 "section" content/part-2/section-3/sub/abstract.tex "Databasing Sound: Applications Of Databases In Sound" 359
-"subsection" content/part-2/section-3/sub/mir.tex "Music Information Retrieval" 895
-"subsection" content/part-2/section-3/sub/sonification.tex "Sonification" 2055
-"subsection" content/part-2/section-3/sub/computer_music.tex "Computer Music" 4192
-"subsection" content/part-2/section-3/sub/applications.tex "Applications" 3575
+"subsection" content/part-2/section-3/sub/mir.tex "Music Information Retrieval" 988
+"subsection" content/part-2/section-3/sub/sonification.tex "Sonification" 2017
+"subsection" content/part-2/section-3/sub/computer_music.tex "Computer Music" 5392
+"subsection" content/part-2/section-3/sub/applications.tex "Applications" 3205
 "chapter" content/part-3/abstract.tex "Database Aesthetics" 795
 "section" content/part-3/section-1/sub/abstract.tex "Listening Databases" 0
 "subsection" content/part-3/section-1/sub/resonance_of_a_return.tex "The Resonance Of A Return" 1463
@@ -44,7 +44,7 @@ STRUCT=(
 "subsection" content/part-3/section-4/sub/organic.tex "Working Composition" 1603
 "subsection" content/part-3/section-4/sub/practice.tex "The Composer As Navigator" 1418
 "subsection" content/part-3/section-4/sub/improv.tex "The Database As Performer" 2785
-"subsection" content/part-3/section-4/sub/music.tex "The Severed Object Of Music" 1901
+"subsection" content/part-3/section-4/sub/music.tex "The Severed Object Of Music" 1974
 "subsection" content/part-3/section-4/sub/anarchy.tex "Anarchy And The Unwork" 1924
 "subsection" content/part-3/section-4/sub/worker.tex "[Wip] Work In Progress" 347
 "chapter*" content/part-4/abstract.tex "Conclusion" 4

@@ -129,6 +129,7 @@ XPlain,xplain
 YAML,yaml
 Access,access
 Apache,apache
+AudioGuide,audioguide
 BOOST,boost
 CAAC,caac
 Cassandra,cassandra
@@ -143,6 +144,7 @@ GUI,gui
 GUIDO,guido
 HMSL,hmsl
 IBM-7090,ibm-7090
+Looperman,looperman
 Marsyas,marsyas
 MIMO,mimo
 MuseData,musedata
@@ -164,4 +166,5 @@ Sparksee,sparksee
 Sparsity,sparsity
 SQLObject,sqlobject
 Telemeta,telemeta
+UbuWeb,ubuweb
 Unisys,unisys

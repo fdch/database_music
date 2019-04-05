@@ -17,10 +17,10 @@ words,title,path
 541   	The Realm Of Data Structures	content/part-2/section-2/sub/models.tex
 2381  	A Brief History Of Database Models	content/part-2/section-2/sub/descriptions.tex
 359   	Databasing Sound: Applications Of Databases In Sound	content/part-2/section-3/sub/abstract.tex
-895   	Music Information Retrieval	content/part-2/section-3/sub/mir.tex
-2055  	Sonification        	content/part-2/section-3/sub/sonification.tex
-4192  	Computer Music      	content/part-2/section-3/sub/computer_music.tex
-3575  	Applications        	content/part-2/section-3/sub/applications.tex
+988   	Music Information Retrieval	content/part-2/section-3/sub/mir.tex
+2017  	Sonification        	content/part-2/section-3/sub/sonification.tex
+5392  	Computer Music      	content/part-2/section-3/sub/computer_music.tex
+3205  	Applications        	content/part-2/section-3/sub/applications.tex
 795   	Database Aesthetics 	content/part-3/abstract.tex
 0     	Listening Databases 	content/part-3/section-1/sub/abstract.tex
 1463  	The Resonance Of A Return	content/part-3/section-1/sub/resonance_of_a_return.tex
@@ -41,7 +41,7 @@ words,title,path
 1603  	Working Composition 	content/part-3/section-4/sub/organic.tex
 1418  	The Composer As Navigator	content/part-3/section-4/sub/practice.tex
 2785  	The Database As Performer	content/part-3/section-4/sub/improv.tex
-1901  	The Severed Object Of Music	content/part-3/section-4/sub/music.tex
+1974  	The Severed Object Of Music	content/part-3/section-4/sub/music.tex
 1924  	Anarchy And The Unwork	content/part-3/section-4/sub/anarchy.tex
 347   	[Wip] Work In Progress	content/part-3/section-4/sub/worker.tex
 4     	Conclusion          	content/part-4/abstract.tex
