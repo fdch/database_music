@@ -23,7 +23,7 @@ STRUCT=(
 "subsection" content/part-2/section-3/sub/mir.tex "Music Information Retrieval" 988
 "subsection" content/part-2/section-3/sub/sonification.tex "Sonification" 2017
 "subsection" content/part-2/section-3/sub/computer_music.tex "Computer Music" 5392
-"subsection" content/part-2/section-3/sub/applications.tex "Applications" 3205
+"subsection" content/part-2/section-3/sub/applications.tex "Applications" 3130
 "chapter" content/part-3/abstract.tex "Database Aesthetics" 795
 "section" content/part-3/section-1/sub/abstract.tex "Listening Databases" 0
 "subsection" content/part-3/section-1/sub/resonance_of_a_return.tex "The Resonance Of A Return" 1463
