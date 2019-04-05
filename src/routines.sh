@@ -433,7 +433,7 @@ function make_docx()
 	print_comment "make_docx(): Making docx..."
 	pandoc $MAINTEX $PANDOCFLAGS -f latex -t docx -o ${ROOTDIR}/${NAME}.docx
 	# pandoc ${NAME}.html -f html -t docx -o ${ROOTDIR}/${NAME}.docx
-	mv ${NAME}.html .tmp # just place original html file on the temp dir
+	mv ${NAME}.html $TMPDIR # just place original html file on the temp dir
 }
 
 function tidy_up()

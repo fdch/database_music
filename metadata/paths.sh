@@ -12,7 +12,7 @@ STLDIR=$ROOTDIR/styles
 BIBPATH=$ROOTDIR/bibliography
 FMTDIR=$ROOTDIR/frontmatter
 GLOSSARY=$ROOTDIR/glossary/ # slash needed
-TMPDIR=$ROOTDIR/.tmp
+TMPDIR=$ROOTDIR/temp
 OUTDIR=$ROOTDIR/output
 #	FILES
 WCFILE=$ROOTDIR/main.csv

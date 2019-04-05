@@ -1,100 +1,200 @@
-One of the central concepts of the object-oriented programming is extensibility. The list of objects that can be added to the main program tends to grow exponentially as a function of its use. Furthermore, for open-source programs like Pure Data and Supercollider the case is more extreme, since every user has access to the source code. Thus, a list covering all extensions would require a research project of its own. However, I would like to focus on those extensions that enable further and more specific use of databases in the context of music composition. In addition to program extensions, I will also provide some examples of the artistic possibilities that the type of data structure access that is provided to composers by means of computer music software sets forth. The following examples provide a glimpse of the major trends.
-
-\subsubsection{Music Notation Software}
-\label{computer:notation}
-
-\paragraph{DARMS}
-Other programming approaches for music notation software were developed during the 1980s, specifically using the \gls{darms} notation project. The \gls{darms} project started in 1963 by Stefan Bauer-Mengelberg and it is one of the first programming languages for music engraving \parencite{icmc/bbp2372.1983.002, 10.2307/30204239}. Peter J. Clements \parencite{icmc/bbp2372.1980.020} joined together the \gls{darms} data structures with those used in Max Mathews' synthesis program MUSIC V, in a first attempt to obtain sonic feedback out of a notation system. However, Clements' attempt was not as successful as Leeland Smith's famous \gls{score} \parencite{smith1971}. Smith's program consisted of a character scanner interpreting rhythmically complex musical input into MUSIC V output. Thus, it was an intermediary between music notation and computer music synthesis. With the appearance of vector graphics in the 1970s, however, \gls{score} shifted solely to music printing and later became commercially available with the appearance of the 	PostScript format in the 1980s.\footnote{\gls{score} is one of the earliest music engraving softwares still in use today by major publishing houses \parencite{scoremus}.}
-
-\paragraph{Score-11}
-Alexander Brinkman \parencite{icmc/bbp2372.1981.018} modelled Smith's input format into \textit{Score-11}, adapting it to Barry Vercoe's \gls{music-11}. Written in Pascal, \textit{Score-11} used circular linked lists traversed by an interpreter to produce \gls{music-11}-formatted output. Thus, the user creates a text file with blocks dedicated to individual instruments, and specifies parameters such as rhythm, pitch, movement (glissandi, crescendo), amplitude, etc., that are then re-formatted to fit the less musically-oriented notation of the \gls{music-n} programs. Brinkman argues that such a software would result in faster and less arduous performance on the composer's end.\footnote{A crescendo over several hundred very short notes requires several hundred different amplitude values representing the increasing volume. \textit{Typing in several hundred note statements each with a slightly larger amplitude number would take forever}. If the computer could be instructed to gradually increase the amplitude value over twenty seconds then \textit{life would be much simpler}. This is the type of job that a note list preprocessor is designed to accomplish. \im \parencite{score11manual}} Brinkman emphasized, as well, on the program's extensibility by users, and it inspired Mikel Kuehn's recent \textit{nGen} program which is a version of Brinkman's program for the currently available Csound \parencite{csoundMethods}. Brinkman, however, designed an interpreter for the \gls{darms} language \parencite{icmc/bbp2372.1983.002}, which became useful for obtaining computable data structures for automated music analysis \parencite{icmc/bbp2372.1984.033}. 
-
-\paragraph{Note Processor}
-J. Stephen Dydo \parencite{icmc/bbp2372.1987.045} worked on an interface to the \gls{darms} language called the \textit{Note Processor}, which became one of the earliest commercially available music notation systems. Dydo's data structures, however, were not publicly released when he presented his software at the \gls{icmc} in 1987. He later released it commercially in the early 1990s at a significantly lower price than other notation software such as \textit{Finale} which is still available today by MakeMusic, Inc. \parencite{10.2307/941442,10.2307/940555}.
-
-\paragraph{TTree}
-Another approach to music notation was carried out at \gls{ccrma}, when Glendon Diener \parencite{icmc/bbp2372.1988.020, 10.2307/3680043} deviced a ``pure structure'' devoted to the ``hierarchical organization of musical objects into musical scores:'' the \textit{TTree} \parencite[184]{icmc/bbp2372.1988.020}. Stemming from his PhD research on formal languages in music theory \parencite{diener1985}, this data structure was based in the hierarchic structures of the \gls{sssp} project. The change Diener introduced to these structures was their capability of sustaining links between not only the previous and the next data records, but to the `parent' or `child' data records to which it was related. This is known as `inheritance,' and it enabled ``any event in the [structure] to communicate with any other event'' \parencite[188]{icmc/bbp2372.1988.020}.
-
-\paragraph{N\textit{u}tation}
-While Diener implemented this data structure in the object-oriented programming language \gls{smalltalk}, he later developed it into \textit{Nutation} \parencite{DBLP:conf/icmc/Diener92}, a visual programming environment for music notation. \textit{Nutation} was written in \gls{objective-c}, and it combined the previously developed \textit{TTree} structure with glyphs and a music synthesis toolkit called \textit{Music Kit} that the \gls{next} computer provided. This resulted in an extremely malleable \gls{cac} environment, which enabled fast manipulation and sonic feedback at the cost of limiting timbre to a predefined, hardware-specific set of digital instruments. 
-
-\paragraph{Theoretical Performance}
-What notation software is most often criticised for is the way in which sonic feedback often comes to be equiparated to (human) music performance. When Leeland Smith presented \gls{score} as ``not a `performer's' instrument, but rather a `musician's' instrument,'' for example, he claimed that ''theoretically, any performance, clearly conceived in the mind, can be realized on [the computer]'' \parencite[14]{smith1971}. It is indeed a fact that computers can offer automated tasks to an unimaginable extent. However, to translate this type of automation into music composition and performance, results in a disembodied music conception. In other words, an algorithmically generated stream of notes may result in physically impossible tasks for a performer, or for the listener. This is the point of inflexion when envisioning goes beyond the threshold of embodiment. It can be argued, however, that further developments in musical performance techniques can be achieved by pushing the limits of bodily skills. Nonetheless, what I am stressing here is the extent to which music composition can be reconfigured by the possibilities data structures have brought to the field.
-
-\paragraph{Graphic Notation}
-\label{graphic_scores}
-In order to include graphic scores for electronic music within the Pure Data, Puckette implemented a data structure deriving from those of the C programming language, which can be used in relation to any type of data: ``yhe underlying idea is to allow the user to display any kind of data he or she wants to, associating it in any way with the display'' \parencite[184]{DBLP:conf/icmc/Puckette02}. Puckette contextualized his research with the \textit{Animal} project by Lindemann and de Cecco which allowed users to ``graphically draw pictures which define complex data objects'' \parencite{DBLP:conf/icmc/Lindemann90a}, three cases of graphic scores used to model electroacoustic music: Stockhausen's \textit{Kontakte} and \textit{Studio II}, Yuasa's \textit{Towards the Midnight Sun}, and Xenakis' \textit{Mycenae Alpha}, and the \gls{sssp}'s user-defined features for graphical representations. Puckette's philosophy, as I have mentioned earlier, was aimed at detaching music software from music concepts, leaving these aesthetic decisions to the user. To this end, anything within the canvas can be customizable, and there is no notion of time assigned to canvas coordinates. However, Puckette provided the user with a sorting function, ``on the assumption that users might often want to use Pd data collections as x-ordered sequences'' \parencite[185]{DBLP:conf/icmc/Puckette02}. In fact, this is the only sorting function within Pure Data, and it is the same function that sorts the patch `graph,' only now made accesible to the user. A common and elementary database routine (\texttt{sort}) that emerged to the program's surface because of traditional music notation practices.
-
-\subsubsection{Sound Synthesis}
-\label{applications:synthesis}
-
-\paragraph{Concatenative}
-Diemo Schwarz developed the concept of data-driven concatenative sound synthesis in his PhD thesis at \gls{ircam} \parencite{Schwarz2000, icmc/bbp2372.2003.099, Sch06:How}. By segmenting a large database of source sounds into units, a selection algorithim can be used to find any given target by looking for ``the units that match best the sound or musical phrase to be synthesised'' \parencite{Sch06:How}. In contrast to rule-based approaches in which sound synthesis is arrived at by models of the sound signal, concatenative synthesis is data-driven. That is to say, by joining together recorded samples, Scwharz approached a data-driven model for sound synthesis that preserves even the smallest details of the signal. Scwharz designed \gls{catart} as a concatenative synthesis toolkit \parencite{Sch06:Rea}, and later contextualized `information space' as a musical instrument in itself \parencite{Schwarz:2012}
-
-\paragraph{Morphing}
-Ryoho Kobayashi \parencite{icmc/bbp2372.2003.052} used a database of \gls{stft} analysed sounds in a very original way. Upon calculating the distances between the results of these analysis he was able to define a database of similarity between his original database which he then re-synthesized. Kawahara \parencite{Kawahara:2004} demonstrated the morphing techniques of his software \gls{straight} \parencite{icmc/bbp2372.1999.411} by analysing the \gls{rwc} database. 
-
-\paragraph{Ornaments}
-Christopher Ariza \parencite{icmc/bbp2372.2003.030} was able to implement a model for heterophonic texture by pitch-tracking the highly ornamented music of the Csángó\footnote{``The Csángó, in some cases a Szekler ethnic group, are found in eastern Transylvania (Kalotaszeg), the Gyimes valley, and Moldavia'' \parencite{icmc/bbp2372.2003.030}.} music into a database that enabled him to present a data structure of the ornament. While not strictly used as computer synthesis, his implementation of analysis and subsequent algorithmic rule extraction can be thought of as a form of analysis-based sound generation.
-
-\subsubsection{Navigation}
-\label{applications:navigation}
-
-\paragraph{Hysteresis}
-Insook Choi \parencite{icmc/bbp2372.2000.146} designed an interactive installation at the Dorsky Gallery in NYC, in which she prototyped a ``sensory information retrieval system where the acquisition of information is an acquisition of an experience'' \parencite{icmc/bbp2372.2000.146}.\footnote{A video of the installation can be seen here: \url{https://vimeo.com/23086026}, the artist website can be accessed here: \url{http://insookchoi.com}} By creating what she termed a \textit{sensorial network} made out of a database of semantic units describing speeches by famous leaders, she enabled participants of the installation to explore the information space of the database of audio recordings by walking. A motion tracking system using computer vision enabled the users to traverse the database, not in an event-triggering fashion (interpreting space as a boolean switch for each audio file), but in such a way that the sound was modulated as a function of the different `clouds' of pixel data where values gradually changed as participants moved across the sensing area: ``pixels do not switch on and off, they fade in and out forming clusters in the 2D camera plane according to the degree of movement projected from the corresponding floor positions'' \parencite{icmc/bbp2372.2000.146}. Furthermore, she included hysteresis, that is, the recorded history of the observer's interaction with a system within the system, thus enabling condition-dependent events to occur as participants' interaction lasted longer.
-
-\paragraph{Involuntary Navigation}
-Robert Hamilton \parencite{icmc/bbp2372.2006.123} used bioinformatic data taken from galvanic skin sensors attached to a cellist's toes within a live performance environment. The \gls{gsr} activity was correlated with intervallic distance between adjacent musical notes in a score ---i.e., a database of cell nodes: short fragments of pitch phrases--- previously written by the composer. However, such score, according to Hamilton, acts as a ``filter for the autonomic control signals generated by the performer'' \parencite[601]{icmc/bbp2372.2006.123}. What this means is that the music fragment database, involuntarily navigated by the performer, becomes a parameter against which the live-generated and voluntarily performed score is eventually built upon.
-
-\paragraph{Similarities}
-Loviscach \parencite{Loviscach2008} proposed data mining of sound libraries for music synthesizers in order to obtain statistical analysis that was used for the creation of intelligent parameter settings. Christian Frisson \parencite{Frisson2010} managed to navigate a database by way of similarities between the elements using a very fast interface prototyped in Pure Data. Frisson's PhD dissertation \parencite{Frisson2015} provides an overview of multimedia browsing by similarity, and his approach in building a new multimedia manager is centered on open-source tools for audio and video information retrieval. Cartwright and Pardo \parencite{mcartwright:2014} implemented querying of a database of computer synthesizer parameter presets by vocal input, enabling users to mimic sounds with their voices in order to obtain the parameter setup needed for the synthetic instrument to generate a similar sound.
-
-\paragraph{Geolocations}
-Park et al \parencite{icmc/bbp2372.2010.002} created an interface called \textit{COMPath}\footnote{\url{https://sihwapark.com/COMPath}} (Composition Path) which enabled users to draw paths on a map, sonifying data points which represented information (e.g., traffic, weather, culture events) along the points of the path. They used major commercial web services (e.g, Amazon, Google, and Yahoo) offering public \glspl{api} so that each geo-location inputted on the path acted as queries. The returned data from these services was then mixed together (\textit{data mashup}) and mapped with a virtual synthesized via \gls{midi}.
-
-\paragraph{\obj{timbreID}}
-William Brent's research on timbre analysis \parencite{Brent/2010/phdthesis} developed into a timbre description library for Pure Data called \texit{timbreID} \parencite{icmc/bbp2372.2010.044}. Within this library, users are able to analyze sound files using most available timbre descriptors. In his dissertation he explored the relationships between perceptual dimensions of percussive timbre and those obtained by the timbre description algorithms in \textit{timbreID}. He concluded that in order to identify percussion timbres, the \gls{bfcc} performed on multiple successive analysis windows was the most efficient way to do so. Thus, a database of percussive sounds could be navigated by performing this type of analysis, enabling a fast and \gls{cpu}-inexpensive content-based querying. Since Brent's \textit{timbreID} library enables users not only to analyze sounds and store the resulting descriptors in a database, but also to cluster them within the database, it allows for a variety of applications of which ony one of them is concatenative synthesis.
+The computer music software race that took place at the level of data structures has moved from music to media in an attempt to generalize applicability by maximizing stylistic potentials. To a certain extent, this motion can be understood as an axis between sound and music data structures. On one hand there is music tradition with its notational baggage. On the other, sound synthesis and programming, with its multi-stylistic promise grounded on the more general use of media. In any case, the shape that this motion takes is given by the composer-programmer's needs, ideas, and implementations. The computer music scene today builds on these struggles, and continues to propose novel approaches that reconfigure the practice. In this section, I provide a glimpse of the many shapes that this reconfiguration has taken, some in the form of artistic ventures, program extensions, and some as innovative research. In any case, these examples point to moments in which data structure design changed computer music.
 
 
-\subsubsection{Performance}
-\label{application:performance}
 
-\paragraph{Query-by-content}
-Melucci and Orio \parencite{icmc/bbp2372.1999.355} proposed a \gls{mir} system aimed at query-by-content navigation of a musical collection based on melodic segmentation. In their research, they implemented a \gls{lbdm} to perform the automatic segmentation of melodic information taken from \gls{midi} files of Baroque, Classical and Romantic music. They then proceeded to normalize and index the melodic phrases into separate files for querying.
+% in the same spirit how do you modify this very brief paragraph to explain what it means that the information space is a musical instrument? How does Diemo perform his work? how to you move from smith's disembodied databse instrument to diemo's embodied performance of the database?
+% 
+% 
+% why are these in this particular order? to get out of list mode you need to explain why we are reading what we are reading. you might preface these to examples with a paragraph that says: 
 
-\paragraph{DJs}
-Hugues Vinet's \gls{cuidado} project, which developed into the \textit{Semantic Hi-Fi} system at \gls{ircam} \parencite{DBLP:conf/ismir/VinetHP02, DBLP:conf/icmc/VinetHP02, DBLP:conf/icmc/Vinet05}, consists of a database system aimed at content-based querying of audio files. Vinet's project enabled \glspl{dj} to browse through files, apply beat-synchronized transitions between them, and many other automated tasks during performance. Gerard Assayag and Shlomo Dubnov's \gls{omax} was another \gls{ircam} project dedicated to real-time co-improvisation. This project was based on a dictionary ``universal prediction algorithm that provides a very general and flexible approach to machine learning in the domain of musical style'' \parencite{DBLP:conf/icmc/AssayagDD99}. \gls{omax} later was extended to video and audio features \parencite{DBLP:conf/icmc/BlochD08}. Norman and Amatriain \parencite{icmc/bbp2372.2007.117} developed another performance oriented interface called \textit{Data Jockey}. It consisted of a software with an integrated capability to generate databases of audio file descriptors, together with beat recognition and synchronization, that the user could query by content, tags or metadata.
+% Modern uses of databases in computer music take the general form of a corpus of sounds from which descriptors are obtained and then used to create sounds
+% .... 
 
-\paragraph{Networked Systems}
-Nakamoto and Kuhara \parencite{Nakamoto2007} deviced a networked performance system using a \gls{mysql} database to store and retrieve vocal parts enabling users to sing together in canon form. Price and Rebelo \parencite{Price2008} developed an installation that consisted of an interface to a database of percussive sounds. In their project, they used a \gls{max/msp} library called \textit{net.loadbang-SQL} to query and import data for the communication with \gls{sql} databases. This database contained information from some audio descriptors such as brightness, noisiness, and loudness of the beginning of each analyzed sound file. In this way, the users were able to navigate a bank of percussion timbres based on basic spectral content. 
+% Try to theorize while you write. 
+% 
+% show the 
 
-\paragraph{Shingling}
-Price and Rebelo had based their research on the concepts set forth by the \textit{Semantic Hi-Fi} project, and on Casey and Grierson's \textit{SoundSpotter} \parencite{DBLP:conf/icmc/CaseyG07}, the latter a software system dedicate to real-time matching of audio or video input. The underlying concept of \textit{SoundSpotter} was that of audio input as control, that is, given the spectral similarities between the incoming signal from a microphone, a database of audio segments was navigated. In other words, the user selected fragments of a large bank of audio files by means of sound. This approach, paired with a very low latency engine that, provided real-time capabilities. The innovation of their approach resided in a joint use of a similarity matching technique called audio shingling with \gls{lfcc} for pitch information.\footnote{``Audio Shingling is a technique for similarity matching that concatenates audio feature vectors into a sequence of vectors, and matches the entire sequence'' \parencite{DBLP:conf/icmc/CaseyG07}. `` Shingles are a popular way to detect duplicate web pages and to look for copies of images. Shingles are one way to determine if a new web page discovered by a web crawl is already in the database'' \parencite{DBLP:conf/ismir/CaseyS06}.}
+% flexibility of design and the 
 
-\paragraph{Live Electronics}
-Benjamin Carey \parencite{Carey:2012} integrated a database within a real-time improvisation system designed in \gls{max/msp}. Liu et al \parencite{Liu:2013} created an audiovisual environment for live data exploration. They implemented simultaneous sonifications and visualizations of networked database queries made by participants using \gls{ios} devices. Carthach, Jorda and Herrera \parencite{Nuannicode225in2016}, for example, implemented a model for real-time rhythmic concatenative synthesis. Vogl and Knees \parencite{rvogl:2017} trained a computer model using a database of commercially available drum rhythm patterns in order to provide an intelligent algorithm for the variation of drum patterns intended for \gls{edm}.
+% variety of models employed by artists using databases
 
 
-\subsubsection{Gesture}
-\label{application:gesture}
 
-\paragraph{Sensor Data}
-Schoner et al \parencite{DBLP:conf/icmc/SchonerCDG98} proposed an intermediate synthesis technique between sampling and physical modeling, by training a computer model with sensor data of a violin performer paired with its respective sound signal. The resulting data-driven inference was carried out by \gls{cwm}, a technique ``based on probability density estimation of a joint set of feature (control) and target (spectral/audio) data'' \parencite{DBLP:conf/icmc/SchonerCDG98}. Kawahara's above mentioned \gls{straight} system \parencite{icmc/bbp2372.1999.411} utilizes sensor data such as breath input, head movement, and finger positioning, so as to enhance the sound analysis engine of the system, thus achieving more degrees of freedom when carrying out the sound synthesis. At \gls{ccrma}, Serafin et al \parencite{icmc/bbp2372.2001.071} managed to invert the concept of physical modeling by estimating violin bow position, pressure, and speed using \gls{lpc} coefficients of violin audio recordings. 
+% Many composers and artists have turned to using gestural control to build and traverse databses.. gesture is also represented as data structure./.. gesture acquisition is information retrieval. etc… Frame the list below:
 
-\paragraph{Drums}
-Schloss and Driessen \parencite{icmc/bbp2372.2001.103} used audio analysis to obtain gesture features from the non-audio signals obtained from the \textit{Radio Drum}. This instrument consists of a mallet as controller within three-dimensional space. It was built at Bell Labs by Max Mathews in the late 1980s \parencite{icmc/bbp2372.2001.103}. Schloss and Driessen searched for peak detection in the incoming signal to determine mallet (air) strokes. Later, Schloss et al \parencite{DBLP:conf/icmc/JonesLS07} created a dataset of hand drumming gestures using data from a two-dimensional pressure sensor that could be compared to the membrane of a drum. Their intention was to provide physical model designers with a collection of six techniques of hand drumming, recorded as matrices at a slow rate (100 Hz, the maximum rate of the sensor) suitable for non-real-time synthesis by way of interpolation into a waveguide mesh (a model for physical modeling of wave propagation).
 
-\paragraph{Gesture Datasets}
-Andrew Schmeder \parencite{icmc/bbp2372.2009.005}, stemming from the research at \gls{cnmat} on the \gls{osc} format, proposed a \gls{postgresql} database for efficient storage and retrieval of gestural data aimed for real-time application. Schmeder's paper presents a technical overview of database practices, focusing on relational databases. Young and Deshmane \parencite{Young2007} created a web-accessible database of gestural and audio data concerning violin bow strokes. 
+\subsubsection{Corpus-based}
+{
+	\paragraph{Concatenative}
 
-\paragraph{Multimodal Datasets}
-Hochenbaum, Kapur and Wright \parencite{Hochenbaum2010} developed a gestural and audio joint database that enabled identification of a given performer between a group of performers, gaining insight on musical performance itself. Caramiaux, Bevilacqua and Schnell \parencite{Caramiaux2011} proposed a query-by-content type of database navigation by way of gestural input. They used gesture-to-sound matching techniques based on the similarities of temporal evolution between the gesture query and the sound target. Garcia et al \parencite{Garcia2011} constructed a multimodal database of sound and sensor data (blowing pressure on a recorder) for the purpose of designing a synthesis model for recorders with different blowing profiles. Visi et al \parencite{fvisi:2017} also designed a multimodal database, using sensor information from listening subjects who were asked to move as if creating the sound, resulting in an innovative way to train a computer model for gestural-based synthesis.
+	Diemo Schwarz developed the concept of data-driven concatenative sound synthesis in his PhD thesis at \gls{ircam} \parencite{Schwarz2000, icmc/bbp2372.2003.099, Sch06:How}. By segmenting a large database of source sounds into units, a selection algorithim is used to find any given target by looking for ``units that match best the sound or musical phrase to be synthesised'' \parencite{Sch06:How}. In contrast to rule-based approaches in which sound synthesis is arrived at by models of the sound signal, concatenative synthesis is data-driven. That is to say, by joining together recorded samples, Scwharz obtained a model for sound synthesis that preserves even the smallest details of the input signal.
 
+	\paragraph{Alternative approaches to concatenation}
+
+	\citeauthor{icmc/bbp2372.2003.052} \parencite{icmc/bbp2372.2003.052} used a database of \gls{stft} analysed sounds in a very original way. Upon calculating the distances between the results of these analysis he was able to define a database of similarity between his original database which he then re-synthesized. \citeauthor{Nuannicode225in2016} \parencite{Nuannicode225in2016} implemented a model for real-time rhythmic concatenative synthesis. 
+
+	\paragraph{Orchestration}
+	``a new tool for computer-aided orchestration, with which composers can specify a target sound and replicate it with a given, pre-determined orchestra'' \parencite{gregoire_carpentier_2006_849343}
+	two paradigms:
+	``must be reasonably small and understandable to a composer.''
+	``as interactive as possible, giving the user full control of each step of the orchestration process.''
+
+	\paragraph{Software Libraries}
+
+	Scwharz designed \gls{catart} as a concatenative synthesis toolkit \parencite{Sch06:Rea}, and later contextualized `information space' as a musical instrument in itself \parencite{diemo_schwarz_2009_849679, Schwarz:2012}.
+
+	Andrew Schmeder \parencite{icmc/bbp2372.2009.005}, stemming from the research at \gls{cnmat} on the \gls{osc} format, proposed a real-time application for efficient storage and retrieval of gestural data using the relational model offered by the \gls{postgresql} \gls{dbms}. 
+
+	One of the central concepts of the object-oriented programming is extensibility. The list of objects that can be added to the main program tends to grow exponentially as a function of its use. Furthermore, for open-source programs like Pure Data or SuperCollider the case is even more extreme, since every user has access to the source code. A list covering all extensions would require a research project of its own. However, I would like to focus on those extensions that enable further and more specific use of databases in the context of music composition. William Brent's research on timbre analysis \parencite{Brent/2010/phdthesis} developed into a timbre description library for Pure Data called \obj{timbreID}\parencite{icmc/bbp2372.2010.044}. Within this library, users are able to analyze sound files using most available timbre descriptors. In his dissertation he explored the relationships between perceptual dimensions of percussive timbre and those obtained by the timbre description algorithms in \textit{timbreID}. He concluded that in order to identify percussion timbres, the \gls{bfcc} performed on multiple successive analysis windows was the most efficient way to do so. Thus, a database of percussive sounds could be navigated by performing this type of analysis, enabling a fast and \gls{cpu}-inexpensive content-based querying. Since Brent's \textit{timbreID} library enables users not only to analyze sounds and store the resulting descriptors in a database, but also to cluster them within the database, it allows for a variety of applications of which ony one of them is concatenative synthesis.
+
+	% For concatenative
+	% bob sturm's \parencite {Stu04:Mat}
+	% hackbarth's \gls{audioguide} 
+	% For music analysis, descritpion and synthesis
+	\gls{essentia} \parencite{DBLP:conf/ismir/BogdanovWGGHMRSZS13}
+}
+\subsubsection{Training}
+{
+	\paragraph{Interactive Systems}
+	\label{computer:cypher}
+
+	\citeauthor{Row92:Int}'s interactive music system \textit{Cypher} is an object-oriented program aimed at machine listening and composition in real-time \parencite{Row92:Int}. It is constituted by two \gls{midi}-based interconnected agents, a \textit{listener} and a \textit{player}. The player outputs musical material that results from generative or transforming processes on the (machine) listened input. The listener interprets incoming streams of \gls{midi} data with \gls{mir} techniques (central pitch detection, beat tracking, among others) grouping \texttt{Note}s into larger \texttt{Event}s, and then into larger musical phrases. Both \texttt{Note} and \texttt{Event} are objects with specific data structure: the former closely linked to the \gls{midi} message, the latter forming a circular linked list that enables traversing between neighbouring \texttt{Event}s. Attached to these \texttt{Event}s, however, reside intermediary agents that each store musical information that is locally relevant to the parent \texttt{Event}. The attached information, therefore, is fundamental to the system: ``The feature space representation \dots tends to treat parameters of the sound-pressure waves carrying musical percepts as central. Register, loudness, and density are all primary components of the representation'' \parencite[Chapter~7]{Row92:Int}. This constitutes Rowe's implementation of the object-oriented model. Upon deciding which analytical model to apply to the \textit{listener} agent, however, Rowe finds a coexistence of two virtually opposing models for music analysis: a hierarchical one (Shenker, Forte, Lerdahl) and a networked one (Narmour). While extending an analysis of database models to music theory is beyond the scope of this study, it is interesting to note how the versatility of the object model can integrate two very different ways of thinking musical relationships: ``Cypher's listener and player are organized hierarchically, though these hierarchies tend toward Narmour's network ideas rather than the more strictly structured trees of Lerdahl and Jackendoff'' \parencite[Chapter~4.3]{Row92:Int}. 
+
+
+	\citeauthor{DBLP:conf/icmc/SchonerCDG98} \parencite{DBLP:conf/icmc/SchonerCDG98} proposed an intermediate synthesis technique between sampling and physical modeling, by training a computational model with sensor data of a violin performer paired with its respective sound signal. The resulting data-driven inference was implemented with a technique called \gls{cwm}, ``based on probability density estimation of a joint set of feature (control) and target (spectral/audio) data'' \parencite{DBLP:conf/icmc/SchonerCDG98}. 
+
+	\citeauthor{DBLP:conf/icmc/AssayagDD99}'s \gls{omax} was an \gls{ircam} project dedicated to real-time co-improvisation. This project was based on a dictionary ``universal prediction algorithm that provides a very general and flexible approach to machine learning in the domain of musical style'' \parencite{DBLP:conf/icmc/AssayagDD99}. \gls{omax} later was extended to video and audio features \parencite{DBLP:conf/icmc/BlochD08}.
+
+	Loviscach \parencite{Loviscach2008} proposed data mining of sound libraries for music synthesizers in order to obtain statistical analysis that was used for the creation of intelligent parameter settings. 
+
+	Vogl and Knees \parencite{rvogl:2017} trained a computer model using a database of commercially available drum rhythm patterns in order to provide an intelligent algorithm for the variation of drum patterns intended for \gls{edm}.
+
+}
+
+\subsubsection{Querying Methods}
+{
+	\paragraph{Query-by-content}
+	One of the innovations that brought together \gls{mir} is high-level audio feature analysis. This enabled computers to understand keywords such as `bright', `sharp', `dark', `metallic', etc., that would describe timbral content of audio files. When applied to database queries, these keywords relating to content enable `query-by-content' database searches. Today, many online databases such as \gls{freesound} or \gls{looperman} already enable this type of querying. Among earlier systems that included these types are the \gls{cuidado} project at \gls{ircam} \parencite{DBLP:conf/ismir/VinetHP02, DBLP:conf/icmc/VinetHP02, DBLP:conf/icmc/Vinet05} consisted of a database system aimed at content-based querying of audio files. \citeauthor{DBLP:conf/ismir/VinetHP02}'s project enabled \glspl{dj} to browse through files, apply beat-synchronized transitions between them, and many other automated tasks during performance. \gls{cuidado} later developed into the \textit{Semantic Hi-Fi} project and influenced subsequent software, such as \textit{Data Jockey} \parencite{icmc/bbp2372.2007.117}. Besides other \gls{mir} techniques such as beat recognition and synchronization, with this software \citeauthor{icmc/bbp2372.2007.117} enabled users generation of personalized audio description databases that could be queried by tags and metadata, but most importantly by content.
+
+	\paragraph{Similarities}
+	Real-time uses of content-based querying result in a much different approach. Instead of typing the descriptive keyword, users would be able to input sounds (by singing or by providing any other sample array) in order to obtain a target sound file from an audio database. These systems generally use spectral similarities between the incoming signal from a microphone to obtain matches from a database of audio segments. Concatenative syntesis uses this type of technique but for the single purpose of sample concatenation (at the analysis frame level). In this sense, concatenative synthesis is really a real-time query-by-content engine feeding a granular synthesis engine. Therefore, the difference between concatenative synthesis and content-based-queries is a matter of scale (samples as opposed to sound files) and in the use (new sample combinations as opposed to previously stored sound files). In this sense, a different type of performativity was enabled with systems with query-by-content in live contexts. For example, \citeauthor{DBLP:conf/icmc/CaseyG07}'s \textit{SoundSpotter} \parencite{DBLP:conf/icmc/CaseyG07} was a software system dedicate to real-time matching of audio-visual streams by using audio input as feed for an audio shingling algorithm based on \glspl{lfcc}.\footnote{``Audio Shingling is a technique for similarity matching that concatenates audio feature vectors into a sequence of vectors, and matches the entire sequence'' \parencite{DBLP:conf/icmc/CaseyG07}. ``Shingles are a popular way to detect duplicate web pages and to look for copies of images. Shingles are one way to determine if a new web page discovered by a web crawl is already in the database'' \parencite{DBLP:conf/ismir/CaseyS06}.}
+
+
+	Navigating a database by way of similarities appeared in contexts other than performance workstations, as is the case with \citeauthor{Price2008} \parencite{Price2008}. Based on both the \textit{Semantic Hi-Fi} and \textit{SoundSpotter} projects, they developed an installation with an interface to a relational database of percussive sounds.\footnote{In their project, they used a \gls{max/msp} library called \textit{net.loadbang-SQL} to query and import data for the communication with \gls{sql} databases.} This database contained information from some audio descriptors such as brightness, noisiness, and loudness of the beginning of each analyzed sound file. The participants were able to navigate a bank of percussion timbres based on basic spectral content. Frisson's PhD dissertation \parencite{Frisson2015} provides an overview of multimedia browsing by similarity.
+
+	\paragraph{Hybrid Queries}
+	Some authors have managed to conjugate disparate database uses by hybridizing the queries. In this sense, \citeauthor{Caramiaux2011} \parencite{Caramiaux2011} proposed gestural input for the query-by-content method. In this sense, they used gesture-to-sound matching techniques based on the similarities of temporal evolution between the gesture query and the sound target. Another case is \citeauthor{mcartwright:2014}'s preset query-by-voice \parencite{mcartwright:2014}, where a database of computer synthesis parameters can be queried by vocal input. Thus, they enabled users to mimic sounds with their voices in order to obtain a target parameter that would approach the analyzed vocal sound. These modal translations represent only some of the many examples in the literature.
+}
+\subsubsection{Traversing}
+{
+	Given that querying methods have resulted in novel ways to approach information space within databases, many authors have proposed their own approaches towards navigating this space. Like browsing, or surfing the Internet, database traversing is a form of navigation across the \textit{n}-dimentional space that databases have to offer. Despite their differences, the approaches I refer to now point to the hybrid qualities that data can take when used in performance, specifically in terms of the mixed use of data coming from multiple sensing mechanism, and the networked quality that reconfigures music performance and composition.
+
+	\paragraph{Sensorial Networks}
+	\citeauthor{icmc/bbp2372.2000.146} \parencite{Cho00:Voi, icmc/bbp2372.2000.146} designed the interactive installation at the Dorsky Gallery in NYC where she distributed a `sensorial network' with a sound file database of speeches by famous leaders along the installation space. A motion tracking computer vision algorithm enabled sounds to be modulated as a function of the different `clouds' of pixel data where values gradually changed as participants moved across the sensing area: ``pixels do not switch on and off, they fade in and out forming clusters in the 2D camera plane according to the degree of movement projected from the corresponding floor positions'' \parencite{icmc/bbp2372.2000.146}. In this sense, participants were able to walk the database itself. In addition to this tracking system, however, she included hysteresis within the system. Thus, the recorded history of the participant's interaction with the system enabled condition-dependent events to occur as participants' interaction lasted longer. Within this installation, the artist prototyped a ``sensory information retrieval system where the acquisition of information is an acquisition of an experience'' \parencite{icmc/bbp2372.2000.146}.
+
+	\paragraph{Involuntary Navigation}
+	\citeauthor{icmc/bbp2372.2006.123} \parencite{icmc/bbp2372.2006.123} used bioinformatic data taken from galvanic skin sensors attached to a cellist's toes within a live performance environment. The \gls{gsr} activity was correlated with intervallic distance between adjacent musical notes in a database of `cell nodes' previously written by the composer. However, such score acted as a ``filter for the autonomic control signals generated by the performer'' \parencite[601]{icmc/bbp2372.2006.123}. What this means is that the music fragment database, involuntarily navigated by the performer, becomes a parameter for a live-generated score. The performer is thus embedded within a convoluted networked loop that goes throuth voluntary and involuntary agents that intertwine composition, interaction, and performance.
+
+	\paragraph{Networked Collaborations}
+	\citeauthor{Nakamoto2007} \parencite{Nakamoto2007} devised a networked performance system using a \gls{mysql} database to store and retrieve vocal parts enabling performers to sing together in canon form from distant locations. Telematic performances have spawned ever since Internet connectivity enabled networked audio and video feeds. \citeauthor{icmc/bbp2372.2014.046} \parencite{icmc/bbp2372.2014.046}, however, considers that the listener's body within telematic electroacoustic concerts has been traditionally left out. Therefore, in he devised a set of parameter constraints within these performances, based on musicians who were used as baseline. His argument was grounded on an affective approach towards networked performance. 
+
+	\paragraph{Mobile Devices}
+	The mobility that networks enabled can be represented in the work of 
+	\citeauthor{Liu:2013} \parencite{Liu:2013}, who created an audiovisual environment for live data exploration that implemented simultaneous sonifications and visualizations of networked database queries made by participants using \gls{ios} devices. \citeauthor{btaylor:2014} \parencite{btaylor:2014} also implemented a centralized database within their platform for mobile-device performance, so that user-created interfaces could be saved and shared. Composer Ryan Carter's work \textit{On the expressive potential of suboptimal speakers} \parencite{Rya17:OnT} gives each member of the audience their own instrument through their cellphones. By accessing a website that loads custom synthesizers made with the Web Audio \gls{api}, the audience becomes the performer. While the title of the work refers to the potentials and the ubiquity of small transducers, the `score' of the work lives on a server and travels wirelessly to the audience.
+
+	\paragraph{Live Coding}
+	Live coding has now a long history and it can be said that it constitutes a fair portion of the computer music scene today. In terms of database performance, the practice of live coding in audio or in video, constitutes a cutting edge that exposes both computer technology and art performance in simultaneity. For a more general overview on live coding, see \parencite{nickcollinsphd, Col03:Liv, Nilson2007, Zmo15:Liv}. In this brief section, I would like to point to the work of \citeauthor{croberts:2014} \parencite{croberts:2014}, who implemented within Gibber (a real-time live coding web-based environment) a centralized database for the storage and quick access of digital instruments that can be prototyped in the environment. This type of on-the-spot database system enables shared access to sound files that have potential use throughout the performance. By means of a networked database, two or more players can grab and record sounds from different locations. Another case of networked situations in live coding is \citeauthor{nime18-Xambo-b}'s system that incorporates content based searches (query-by-humming, query-by-tapping) of various \gls{cc} sound databases such as \gls{freesound} or to user-defined databases \parencite{nime18-Xambo-b}.
+}
 \subsubsection{Resource Sharing}
-\label{application:sharing}
+{
+	\paragraph{Graphic Scores}
+	\label{graphic_scores}
+	In order to include graphic scores for electronic music within the Pure Data, Puckette implemented a data structure deriving from those of the C programming language, which can be used in relation to any type of data: ``the underlying idea is to allow the user to display any kind of data he or she wants to, associating it in any way with the display'' \parencite[184]{DBLP:conf/icmc/Puckette02}. Puckette contextualized his research with the \textit{Animal} project by Lindemann and de Cecco which allowed users to ``graphically draw pictures which define complex data objects'' \parencite{DBLP:conf/icmc/Lindemann90a}, three cases of graphic scores used to model electroacoustic music: Stockhausen's \textit{Kontakte} and \textit{Studio II}, Yuasa's \textit{Towards the Midnight Sun}, and Xenakis' \textit{Mycenae Alpha}, and the \gls{sssp}'s user-defined features for graphical representations. Puckette's philosophy, as I have mentioned earlier, was aimed at detaching music software from music concepts, leaving these aesthetic decisions to the user. To this end, anything within the canvas can be customizable, and there is no notion of time assigned to canvas coordinates. However, Puckette provided the user with a sorting function, ``on the assumption that users might often want to use Pd data collections as x-ordered sequences'' \parencite[185]{DBLP:conf/icmc/Puckette02}. In fact, this is the only sorting function within Pure Data, and it is the same function that sorts the patch `graph,' only now made accesible to the user. A common and elementary database routine (\texttt{sort}) that emerged to the program's surface because of traditional music notation practices.
 
-\paragraph{Formats}
-Important research has been done in file formats suitable for data interchange. For example, the \gls{sdif} and the \gls{gdif}, widely used in audio analysis software like \gls{spear}, OpenMusic \parencite{icmc/bbp2372.2004.004}, among others. Bresson and Schumacher \parencite{icmc/bbp2372.2004.004} used \gls{sdif} format for the encoding and interchange of spatialization data. Bullock and Frisk \parencite{icmc/bbp2372.2009.012} implemented within their Integra project a data format for sharing between different multimedia environments. Based on previous work on file formats\footnote{Important references for their research were the following file formats: \gls{sdif}, \gls{gdif}, \gls{metrixml} (developed by Amatriain in \parencite{Amatriain/2004/phdthesis}), and the \gls{smil}.}, they developed the \gls{ixd} format which is capable of containing sequences, tags and meta-data, and presets. Their argument for an \gls{xml} format resided in the semantic richness that can be allocated in opposition to the binary format only readable by machines. 
+	\paragraph{Formats}
+	The \gls{sdif} and the \gls{gdif}, widely used in audio analysis software like \gls{spear}, OpenMusic \parencite{icmc/bbp2372.2004.004,kristian_nymoen_2011_849865}, among others. 
 
-\paragraph{Live Coding}
-Roberts et al \parencite{croberts:2014} implemented within Gibber (a real-time live coding web-based environment) a centralized database for the storage and quick access of digital instruments that can be prototyped in the environment. Taylor et al \parencite{btaylor:2014} also implemented a centralized database within their platform for mobile-device performance, so that user-created interfaces could be saved and shared. Xambó et al \parencite{nime18-Xambo-b} provided a live coding system within SuperCollider to enable access to \gls{cc} sound databases, such as \gls{freesound} or user-made databases, enabling content-based querying by pitch or tapping.
+	\citeauthor{icmc/bbp2372.2004.004} \parencite{icmc/bbp2372.2004.004} used the \gls{sdif} format for spatialization data. 
+
+	\citeauthor{icmc/bbp2372.2009.012} \parencite{icmc/bbp2372.2009.012} implemented within their \textit{Integra} project a data format for sharing between different multimedia environments. Based on previous work on file formats, they developed the \gls{ixd} format which is capable of containing sequences, tags and meta-data, and presets. Their argument for a semi-structured model resided in the semantic richness that can be allocated in opposition to the binary format only readable by machines. To this end, the implemented their specifications using the \gls{xml} language. Further formats are \gls{metrixml}, developed by Amatriain in \parencite{Amatriain/2004/phdthesis}), \gls{smil}, and the \texttt{.timid} file used within \obj{timbreID}.
+
+
+	\paragraph{Datasets}
+
+	\citeauthor{DBLP:conf/icmc/JonesLS07} \parencite{DBLP:conf/icmc/JonesLS07} created a dataset of hand drumming gestures using data from a two-dimensional pressure sensor that could be compared to the membrane of a drum. Their intention was to provide physical model designers with a collection of six techniques of hand drumming, recorded as matrices at a slow rate (100 Hz, the maximum rate of the sensor) suitable for non-real-time synthesis by way of interpolation into a waveguide mesh (a model for physical modeling of wave propagation).
+
+	Young and Deshmane \parencite{Young2007} created a web-accessible database of gestural and audio data concerning violin bow strokes. 
+
+	\citeauthor{Hochenbaum2010} \parencite{Hochenbaum2010} developed a gestural and audio joint database that enabled identification of a given performer between a group of performers, gaining insight on musical performance itself.
+
+	\citeauthor{Garcia2011} \parencite{Garcia2011} constructed a multimodal database of sound and sensor data (blowing pressure on a recorder) for the purpose of designing a synthesis model for recorders with different blowing profiles. \citeauthor{fvisi:2017} \parencite{fvisi:2017} also designed a multimodal database, using sensor information from listening subjects who were asked to move as if creating the sound, resulting in an innovative way to train a computer model for gestural-based synthesis.
+
+	Audio databases such as \gls{freesound} or \gls{looperman} have been growing exponentially, as well as their use within live performances and interactive systems \parencite{nuno_n_correia_2010_849729}. However, audio description and tagging continued to be an unsolved issue for \citeauthor{gerard_roma_2012_850102}. Therefore, they analyzed automatic data-clustering techniques and the extent to which they could reshape classification within open access databases \parencite{gerard_roma_2012_850102}.
+
+
+}
+\subsubsection{Intersections}
+{
+	\citeauthor{icmc/bbp2372.1999.411} used sensor data such as breath input, head movement, and finger positioning to enhance the sound analysis engine of the \gls{straight} system, thus achieving more degrees of freedom when carrying out the sound synthesis \parencite{icmc/bbp2372.1999.411}.\footnote{Later, \citeauthor{Kawahara:2004} demonstrated the morphing techniques of his software using the \gls{rwc} dataset \parencite{Kawahara:2004}.} 
+
+
+	At \gls{ccrma}, \citeauthor{icmc/bbp2372.2001.071} \parencite{icmc/bbp2372.2001.071} managed to invert the concept of physical modeling by estimating violin bow position, pressure, and speed using \gls{lpc} coefficients of violin audio recordings. 
+
+
+	Schloss and Driessen \parencite{icmc/bbp2372.2001.103} used audio analysis to obtain gesture features from the non-audio signals obtained from the \textit{Radio Drum}, an instrument built at Bell Labs by Max Mathews in the late 1980s that uses a mallet as controller within three-dimensional space \parencite{DBLP:conf/icmc/Boie89}. Schloss and Driessen searched for peak detection in the incoming signal to determine mallet (air) strokes. 
+
+
+	Christopher Ariza \parencite{icmc/bbp2372.2003.030} was able to implement a model for heterophonic texture by pitch-tracking the highly ornamented music of the Csángó\footnote{``The Csángó, in some cases a Szekler ethnic group, are found in eastern Transylvania (Kalotaszeg), the Gyimes valley, and Moldavia'' \parencite{icmc/bbp2372.2003.030}.} music into a database that enabled him to present a data structure of the ornament. While not strictly used as computer synthesis, his implementation of analysis and subsequent algorithmic rule extraction can be thought of as a form of analysis-based sound generation.
+}
+
+% CLOSE THE SECTION! 
+% Why did we just read this list????? 
+% what did you prove? contribute? gain? by listing it? 
+% Even more if this is the end of a large section. 
+% You need to close each section and say what you think you just did, 
+% what argument did you advance? 
+% what proposition did you just put forward and 
+% substantiate it with historical evidence?
+% 
+% 
+% 
+% I know this list reflects work, but 
+% to every list there is always an exception, an omission, a counterlist, etc.
+% so lists are hard and problematic. 
+% 
+% You need to make sure you know 
+%  
+% why you are choosing the list items you are choosing and that needs to be 
+% reflected in your writing. Futhermore, you 
+% 
+% must acknowledge that this is not intended to be a comprehensive list.
+% 
+% moreover you need to 
+%  
+% explain what is the criteria to be included in this list, 
+% what things didn’t make it in there, etc. 
+%  
+% Once you figure out these criteria you might realize that 
+% you might want to expand on some things and maybe 
+% leave out others that are included as of now. 
+% 
+% 
+% 
+% Finally, it is a little late for this, but I wonder if work in 
+% sound studies like that of Jonathan Sterne might be useful here. 
+% His book “MP3 the meaning of a format” might be an interesting read before the defense, but after you finish your dissertation.
+
+
+
+
+%
+%
+%
+%	analysis
+%
+
+
+
+% but ariza starts with a single sound and ends with a databse of relationships
+
+
