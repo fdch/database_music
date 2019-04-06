@@ -23,7 +23,7 @@ Database Art 172
 		Intersections 3751 150%
 Database Aesthetics 795
 	Listening Databases 0
-		The Resonance of a Return 1463 58%
+		The Resonance of a Return 1320 52%
 		Resonant Network 1501 60%
 		The Unworking Network 1353 54%
 	Databases and Memory 0

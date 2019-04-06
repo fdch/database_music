@@ -390,12 +390,12 @@ and Mary Williamson, who inspired and nurtured my interest in observation and cl
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN chapter*: Abstract
+%	BEGIN part*: Abstract
 %
 %------------------------------------------------------------------------------
-\chapter*{Abstract}
-\label{chapter:Abstract}
-\addcontentsline{toc}{chapter}{Abstract}
+\part*{Abstract}
+\label{part:Abstract}
+\addcontentsline{toc}{part}{Abstract}
 The aim of this dissertation is to understand the aesthetic agency of the database in music composition. I place my dissertation in relation to existing scholarship, artists, and developers working in the fields of music composition, computer science, affect, and ontology, with emphasis on the ubiquity of databases and on the need to reflect on their practice, particularly in relation to databasing and music composition. There is a database everywhere, anytime, always already affecting our lives; it is an agent in our aesthetic and political lives just as much as we are agents in its composition and performance. Database music lives in between computers and sound. My argument is that in order to conceptualize the agency of the database in music composition, we need to trace the history of the practice, in both its technical and its artistic use, so as to find nodes of action that have an effect on the resulting aesthetics. Therefore, this dissertation is composed of two main sections.
 
 In the first section, I trace a history of database practices from three points of view. The first is from new media theory, emphasizing certain aspects of embodied theory which relate to the intersection between the database and the body. The second is from the history of the database in computer science, giving a panoramic view of the tools and concepts behind database systems, models, structures. The third is from their use in sound practices, describing different approaches to databasing from the fields of music information retrieval, sonification and computer music. 
@@ -406,18 +406,18 @@ As an appendix, I develop an open-source library for multimedia composition that
 
 %------------------------------------------------------------------------------
 %
-%	END chapter*: Abstract
+%	END part*: Abstract
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN chapter*: Introduction
+%	BEGIN part*: Introduction
 %
 %------------------------------------------------------------------------------
-\chapter*{Introduction}
-\label{chapter:Introduction}
-\addcontentsline{toc}{chapter}{Introduction}
+\part*{Introduction}
+\label{part:Introduction}
+\addcontentsline{toc}{part}{Introduction}
 %-----------------------------------------------------------------------------
 %-----------------------------------------------------------------------------
 %-----------------------------------------------------------------------------
@@ -641,46 +641,46 @@ Chapter 1 serves to contextualize the database historically and technically. Fir
 
 %------------------------------------------------------------------------------
 %
-%	END chapter*: Introduction
+%	END part*: Introduction
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN chapter: Database Art
+%	BEGIN part: Database Art
 %
 %------------------------------------------------------------------------------
-\chapter{Database Art}
-\label{chapter:Database_Art}
+\part{Database Art}
+\label{part:Database_Art}
 In order to define and contextualize database practices, I engage with the existing literature on data-driven art. Drawing mostly from media theory, I provide a sample of a variety of authors who have studied the use of databases in art. Specifically, I emphasize certain aspects of affect theory which relate to the intersection between the database and the body, in order to link database practice with sound and performance practices. 
 
 Therefore, in `databasing music,' I describe different approaches to music practices ---computer music, sonification, music information retrieval--- and their interrelation with software design, to show how some of the major breakthroughs of these practices are related to changes in data structures. In the last section of the chapter, I describe all layers of the concept of the database, from lower ---data structures--- to higher ---databases--- levels, and describe the basic algorithmic designs in between. Specifically, I argue that all of these layers constitute what I call the performativity of the database, which is what is incorporated in the practice of database music.
 %------------------------------------------------------------------------------
 %
-%	END chapter: Database Art
+%	END part: Database Art
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN section: The Database In New Media Theory
+%	BEGIN chapter: The Database In New Media Theory
 %
 %------------------------------------------------------------------------------
-\section{The Database In New Media Theory}
-\label{section:The_Database_In_New_Media_Theory}
+\chapter{The Database In New Media Theory}
+\label{chapter:The_Database_In_New_Media_Theory}
 % In this section I engage with the existing literature on data-driven art. In relation to new media, Manovich first considered the Database to be a new `symbolic form' of art \parencite{Man01:The}. The database became a term related to `internet' and `digital' art, and as such it was conceptualized in relation to interface design and interactivity. Hansen provided further insight to Database practices through theories of embodiment \parencite{Han04:New}. He claimed that since Manovich's theorizations did not take into account the Body as an active agent, human-computer interaction so far fell short of reaching its aesthetic potential. Vesna, Daniel and Lovejoy proposed a theorization of context within Database Art \parencite{Ves07:See,Dan07:The,Pau07:The,Kle07:Wai}. In their theorizations of interactivity in Database Art, they reassessed authorship in Digital Art. These authors later provided a panoramic view of database practices within the digital art world, and arrived at the broader term \textit{Database Aesthetics}. Since then, studies on database aesthetics have only been present in the existing literature in terms of data practices.
 %------------------------------------------------------------------------------
 %
-%	END section: The Database In New Media Theory
+%	END chapter: The Database In New Media Theory
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Database As Form
+%	BEGIN section: Database As Form
 %
 %------------------------------------------------------------------------------
-\subsection{Database As Form}
+\section{Database As Form}
 \label{new_media}
 \begin{quote}
 	The world appears to us as an endless and unstructured collection of images, texts, and other data records, it is only appropriate that we will be moved to model it as a database ---but it is also appropriate that we would want to develop the poetics, aesthetics, and ethics of this database. \parencite[219]{Man01:The}
@@ -692,16 +692,16 @@ In the artworld of the 1990s, the increasing availability of personal desktop co
 
 %------------------------------------------------------------------------------
 %
-%	END subsection: Database As Form
+%	END section: Database As Form
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: A Semiotic Trap
+%	BEGIN section: A Semiotic Trap
 %
 %------------------------------------------------------------------------------
-\subsection{A Semiotic Trap}
+\section{A Semiotic Trap}
 \label{semiotics}
 \img{one-to-many}{png}{0.3}{
 	Top: syntagm, paradigm, and their relation.
@@ -717,16 +717,16 @@ For example, consider the case of the typical timeline-view of a video editor.\f
 I consider this reversal to be valid, only on a certain quality of the relation itself, that is, as a shift from one-to-many to many-to-one \fsee{one-to-many}. The question of the materiality of the database and of the pointers depends on the materiality of data. Links or pointers have, for Manovich, a different (absent-like) status in relation to stored memory itself. This is because of a distinction between pointers and data on the basis of their use: pointers are of a different nature since they do not store data directly. Instead, they refer to the address in memory where a specific stored data begins. However, the mutual binary condition of pointers and data, and the fact that they are both stored in the same memory, reveal Manovich's reversal to be grounded on an equivocation. Pointers are, however functionally different, another data type. This fact comes from the Von Neumann architecture on which computers are constructed \see{programming}. If one understands them as moving bodies, it follows that pointers are `lighter' and travel much faster than other data types, which are `heavier' and slower to move. However, data types are not moving bodies at all, and thinking of them as such interlocks us in a semiotic trap: accepting this reversal means accepting the materiality of data.
 %------------------------------------------------------------------------------
 %
-%	END subsection: A Semiotic Trap
+%	END section: A Semiotic Trap
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Digital Convergence
+%	BEGIN section: Digital Convergence
 %
 %------------------------------------------------------------------------------
-\subsection{Digital Convergence}
+\section{Digital Convergence}
 \label{convergence}
 \begin{quote}
 	A mere `byproduct' of pleasure, entertainment is a hangover from the media epoch: a function that caters to our (\textit{soon to become obsolescent}) need for imaginary materialization through technology [which, in turn,] serves as a diversion to keep us ignorant of the operative level at which information, and hence reality, is programmed. \im \parencite[59]{Han02:Cin}
@@ -741,16 +741,16 @@ Media theorist Mark Poster defines technological determinism as the ``anxiety at
 
 %------------------------------------------------------------------------------
 %
-%	END subsection: Digital Convergence
+%	END section: Digital Convergence
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Bodiless Information
+%	BEGIN section: Bodiless Information
 %
 %------------------------------------------------------------------------------
-\subsection{Bodiless Information}
+\section{Bodiless Information}
 \label{bodiless_information}
 \begin{quote}
 	The disembodiment of information was not inevitable, any more than it is inevitable we continue to accept the idea that we are essentially informational patterns. \parencite[22]{Hay99:How}
@@ -774,16 +774,16 @@ While her work is focused on the literary narratives that were built in parallel
 
 %------------------------------------------------------------------------------
 %
-%	END subsection: Bodiless Information
+%	END section: Bodiless Information
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Embodying Databasing
+%	BEGIN section: Embodying Databasing
 %
 %------------------------------------------------------------------------------
-\subsection{Embodying Databasing}
+\section{Embodying Databasing}
 \label{embodiment}
 As I describe above, Manovich arrives at this notion of the interface-as-artwork by opposing database and narrative on the semiotic grounds of the reversal of the paradigm and syntagm. In turn, media theorist Mark B. N. Hansen \parencite{Han04:New} notes that the interface-as-artwork constitutes a disembodied ``image-interface'' to information in which the process of information itself (in-formation, giving form) is overlooked. Hansen locates the source of this disembodied conception in Manovich's implicit ---but nonetheless evident--- premise of the overarching dominance of cinema in contemporary culture, which results in a ``disturbing linearity [with] hints of technical determinism'' \parencite[36]{Han04:New}.
 
@@ -796,16 +796,16 @@ In opposition to this passivity of the body, Hansen describes images as somethin
 
 %------------------------------------------------------------------------------
 %
-%	END subsection: Embodying Databasing
+%	END section: Embodying Databasing
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Filtering And Framing
+%	BEGIN section: Filtering And Framing
 %
 %------------------------------------------------------------------------------
-\subsection{Filtering And Framing}
+\section{Filtering And Framing}
 \label{framing}
 \begin{quote}
 	The activity in the receiver's internal structure generates symbolic structures that serve to frame stimuli and thus to \textit{in-form} information: this activity converts regularities in the flux of stimuli into \textit{patterns} of information. \parencite[76]{Han02:Cin}
@@ -827,16 +827,16 @@ Therefore, in the context of Kittler's digital convergence, framing prevents the
 
 %------------------------------------------------------------------------------
 %
-%	END subsection: Filtering And Framing
+%	END section: Filtering And Framing
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Database As Aesthetics
+%	BEGIN section: Database As Aesthetics
 %
 %------------------------------------------------------------------------------
-\subsection{Database As Aesthetics}
+\section{Database As Aesthetics}
 \label{database_aesthetics}
 
 The Internet is a place of unlimited access, it is a database in continuous and exponential growth, that reconfigures the grounds on which art has traditionally been built on. One of these grounds is the role of the author. The collaborative approach in the work of media artist Sharon Daniel \parencite{Dan07:The}, is an example of a different kind of authorial reconfiguration. Daniel raises questions about authority and politics in collaborative art by means of a social model based on the concepts of emergence and \textit{cellular automata}. Cellular automata are systems that reveal emergent (global) behavior from (local) rules. That is to say, each automaton changes states according to its surrounding neighborhood, resulting on an emergent behavior on the global level that precludes top-down behavior. Brought to the social plane, cellular automata result in an inverted hierarchic system: instead of a top-down authority, there exists an emergent, bottom-up behavior. Daniel thus removes her authorial role as artist granting participants a shared authority with the work itself at every stage. Differing from Klein's blurring of the authorial roles, Sharon's participants engage in performative actions that shape the outcome of the artwork in ways she could not anticipate. Therefore, authority is decentered, that is, it does not sediment itself in a single unity. 
@@ -848,16 +848,16 @@ The Internet is a place of unlimited access, it is a database in continuous and 
 
 %------------------------------------------------------------------------------
 %
-%	END subsection: Database As Aesthetics
+%	END section: Database As Aesthetics
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Databasing: Database As Performance
+%	BEGIN section: Databasing: Database As Performance
 %
 %------------------------------------------------------------------------------
-\subsection{Databasing: Database As Performance}
+\section{Databasing: Database As Performance}
 \label{generated}
 \begin{quote}
 	Data creators have to collect data and organize it, or create it from scratch. Texts need to be written, photographs need to be taken, video and audio need to be recorded. Or they need to be digitized from already existing media\dots Once digitized, the data has to be cleaned up, organized, and indexed. \parencite[224]{Man01:The}
@@ -883,31 +883,31 @@ While Manovich calls for an ``info-aesthetics'' \parencite[217]{Man01:The}, as w
 
 %------------------------------------------------------------------------------
 %
-%	END subsection: Databasing: Database As Performance
+%	END section: Databasing: Database As Performance
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN section: Databasing And The History Of Databases
+%	BEGIN chapter: Databasing And The History Of Databases
 %
 %------------------------------------------------------------------------------
-\section{Databasing And The History Of Databases}
-\label{section:Databasing_And_The_History_Of_Databases}
+\chapter{Databasing And The History Of Databases}
+\label{chapter:Databasing_And_The_History_Of_Databases}
 % This is why I now focus on Database practices before entering the `age of information' (McLuhan 1964, Chion 1994, Manovich 2001, Simons 2002, Vesna 2007, Paul 2008, van Dijck 2017). I define two precursors of the database as `statistics' and `archival practices.' First, I contextualize briefly the practice of statistics, and describe the notions of `sampling' and `data collection,' in order to provide a glance on what I consider the origin of data-based practices. Then, I begin relating the concept of the Archive ---as presented by Derrida (Archive Fever, 1995)---, so as to deepen the understanding of the principles involved in archival practices. I describe the main technical concepts behind Database Navigation and provide use cases from both appendices A and B, the former relating to joint image and audio databases, and the latter to text databases. I then reflect on the quality of this navigation in relation to the type of navigation and results that they obtain.
 
 %------------------------------------------------------------------------------
 %
-%	END section: Databasing And The History Of Databases
+%	END chapter: Databasing And The History Of Databases
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Databasing: The Performance Of The Database
+%	BEGIN section: Databasing: The Performance Of The Database
 %
 %------------------------------------------------------------------------------
-\subsection{Databasing: The Performance Of The Database}
+\section{Databasing: The Performance Of The Database}
 \label{databasing}
 \begin{quote}
 	The first step in working with a database is the collection and assembly of the data\dots. Sorting determines the sequence of presentation, while filtering gives rules for admission into the set presented [,] resulting in a database that is a subset of the ``shot material'' database. Editing is selecting from the database and sequencing the selections\dots. To go further: for a filmmaker the term ``cutting,'' as ``editing,'' loses its meaning, and ``sorting,'' ``assembling,'' and ``mapping'' become more apt metaphors for the activity of composition. \parencite[71]{Wei07:Oce}
@@ -980,16 +980,16 @@ In order to understand how databases have changed the way we think of earlier ty
 
 %------------------------------------------------------------------------------
 %
-%	END subsection: Databasing: The Performance Of The Database
+%	END section: Databasing: The Performance Of The Database
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: A Database Tree
+%	BEGIN section: A Database Tree
 %
 %------------------------------------------------------------------------------
-\subsection{A Database Tree}
+\section{A Database Tree}
 \label{programming}
 The common use of the word `database' within computer science came around the 1960s, when computers became available to companies throughout the United States of America. For the purpose of data processing, software developers began designing \gls{dbms}, which are still used in great demand by multiple contemporary companies. The computer's capability for data processing and storage is inherent in the constitution of database systems. In fields such as \gls{cac}, working with computers meant being part of a system. The human operator has been regarded, for example, as a co-operator \parencite{Mat63:The}. A further approach understands humans operating with computers as another component of complex systems \parencite{Vag01:Som}. In this section, I describe the different levels of database systems as a tree \fsee{dbtree}, starting from basic data structures to more elaborate database systems, and then present a brief history of how databases were designed.
 
@@ -1027,16 +1027,16 @@ Combining networked databases with computer clusters forms what is known as clou
 
 %------------------------------------------------------------------------------
 %
-%	END subsection: A Database Tree
+%	END section: A Database Tree
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: The Realm Of Data Structures
+%	BEGIN section: The Realm Of Data Structures
 %
 %------------------------------------------------------------------------------
-\subsection{The Realm Of Data Structures}
+\section{The Realm Of Data Structures}
 \label{models}
 Data structures are the building blocks upon which the entire database model is designed. A data structure is a way to organize data so that a set of element operations are possible, such as \texttt{ADD}, \texttt{REMOVE}, \texttt{GET}, \texttt{SET}, \texttt{FIND}, etc. Data structures can be thought of in two ways: either implemented or as interfaces, what is also known as \textit{abstract data types}:
 
@@ -1060,16 +1060,16 @@ One important technical shift in the use of data structures came with the concep
 
 %------------------------------------------------------------------------------
 %
-%	END subsection: The Realm Of Data Structures
+%	END section: The Realm Of Data Structures
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: A Brief History Of Database Models
+%	BEGIN section: A Brief History Of Database Models
 %
 %------------------------------------------------------------------------------
-\subsection{A Brief History Of Database Models}
+\section{A Brief History Of Database Models}
 \label{descriptions}
 I propose now to extend the concept of \textit{abstract data types} to the concept of database \textit{models}. Database models are the realm of data structures. These models, to be described below, constitute the abstract ways in which data can be organized within a database system. \gls{dbms}s, in turn, are a specific type of software aimed at organizations, website design, server architectures, company management, among other uses in the business sector. Since an analysis of these systems falls outside the scope of this study, I provide a glimpse of the structure of the models without entering in their implementation. Figure \ref{tab:dbmodels} shows a development timeline that serves as a context for the appearance of these models. Their emergence over the years goes hand in hand with hardware and programming language development. Further, several implementations of these models depended on specific language development such as \gls{ddl} for structural specification of data, and a \gls{dml} for accessing and updating data \parencite[4]{DBLP:books/aw/AbiteboulHV95}. 
 
@@ -1250,17 +1250,17 @@ J. Minker; L. Kuhns
 \end{landscape}
 %------------------------------------------------------------------------------
 %
-%	END subsection: A Brief History Of Database Models
+%	END section: A Brief History Of Database Models
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN section: Databasing Sound: Applications Of Databases In Sound
+%	BEGIN chapter: Databasing Sound: Applications Of Databases In Sound
 %
 %------------------------------------------------------------------------------
-\section{Databasing Sound: Applications Of Databases In Sound}
-\label{section:Databasing_Sound:_Applications_Of_Databases_In_Sound}
+\chapter{Databasing Sound: Applications Of Databases In Sound}
+\label{chapter:Databasing_Sound:_Applications_Of_Databases_In_Sound}
 \img{mir_comp_sonif_interaction}{png}{1}{
 	Database performance in relation to computer music practices and their interdisciplinary feedback. The arrows between databases (cylinders) and computers (squares) represent data flow. Left: the database is `visibly next' to the computer, as is the case with \gls{mir}; the two bottom arrows indicate the intervention of the human operator. Right: the database is `visibly below' the computer as is the case with Sonification; the database feeds the computer from an external source (right arrow). Middle: the database is `invisibly behind' the computer, within the softwares used for (and as) music works. The arrows in between the practices represent interdisciplinary feedback.
 }
@@ -1268,16 +1268,16 @@ J. Minker; L. Kuhns
 Having discussed the current state of new media theory and the theory of databases and data structures, in this section I theorize the use of databases in relation to sound. To a certain extent, ever since the first computers were used to make music the database has been an invisible partner in the music literature. I argue that by sheding some light to this inherent aspect of computers we can arrive at a clearer notion of how databases sound. Praticularly, by placing the database along a visibility continuum, we may find a reverse relation with audibility: the more invisible the database, the more present its sound. By this I do not argue in favor of neither loudness or quietness. I am only addressing the different possibilities that come from multiple access points to computers. Here I will use the words `database' and `computer' somewhat interchangeably. This decision comes from the fact, as I described in earlier sections, that computers cannot exist without databases. From this, we can further ask ourselves if all computer music is database music. As I hope to demonstrate, there are overt and covert uses of the database, but the database is ubiquitous in all computer practices \fsee{mir_comp_sonif_interaction}. The various disciplines at the intersection of music and computers take each a different approach to databases and, thus, to database performance. In this sense I describe and discuss the scope of actions that comprise database performance within three practices using computers and sound: \gls{mir}, sonification, and computer music.
 %------------------------------------------------------------------------------
 %
-%	END section: Databasing Sound: Applications Of Databases In Sound
+%	END chapter: Databasing Sound: Applications Of Databases In Sound
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Music Information Retrieval
+%	BEGIN section: Music Information Retrieval
 %
 %------------------------------------------------------------------------------
-\subsection{Music Information Retrieval}
+\section{Music Information Retrieval}
 \label{mir}
 %you might want to include at some point the idea that databases in general are used to teach computers about the world, and to get them to to do things that humans can do, but not computers.
 
@@ -1337,16 +1337,16 @@ Before sound and audio descriptor databases, however, music notation databases h
 For further reference, the following citations point to different audio databases which have been created over the years: \textcites{DBLP:conf/ismir/GotoHNO02}{DBLP:conf/ismir/GotoHNO03}{DBLP:conf/ismir/WustC04}{DBLP:conf/ismir/MaxwellE08}{DBLP:conf/ismir/Bertin-MahieuxEWL11}{DBLP:conf/ismir/Karaosmanoglu12}{Jaimovich:2012}{Mital:2013}{bbortz:2015}{jjaimovich:2015,Nort2016}{ DBLP:conf/ismir/DefferrardBVB17}{DBLP:conf/ismir/VigliensoniF17}{DBLP:conf/ismir/Meseguer-Brocal18}{DBLP:conf/ismir/DonahueMM18}{DBLP:conf/ismir/XiBPYB18}{DBLP:conf/ismir/WilkinsSWP18}.
 %------------------------------------------------------------------------------
 %
-%	END subsection: Music Information Retrieval
+%	END section: Music Information Retrieval
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Sonification
+%	BEGIN section: Sonification
 %
 %------------------------------------------------------------------------------
-\subsection{Sonification}
+\section{Sonification}
 \label{sonification}
 \img{sonif}{png}{0.3}{
 	Diagram of database performance in sonification practices. The database is visibly below the computer, and it feeds the computer from an external source represented by the right-most arrow.
@@ -1449,16 +1449,16 @@ For further sonification software, see \gls{sondata} and the following reference
 
 %------------------------------------------------------------------------------
 %
-%	END subsection: Sonification
+%	END section: Sonification
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Computer Music
+%	BEGIN section: Computer Music
 %
 %------------------------------------------------------------------------------
-\subsection{Computer Music}
+\section{Computer Music}
 \label{computer_music}
 Computer music software is computer music's playground. Composing and programming blend into different forms of play that can be understood by a closer look of the playground's design. A key aspect of software design is delimiting constraints to data structures. The first choice is generally the programming language, after which the database tree unfolds its way up to the leaves. Among these leaves is where computer music programs reside. At this level of `leaves' software users are certainly aware that there is a `tree' in front of them. However, their awareness does not necessarily extend to the branches, trunk, or roots of the tree. There is endless music that can be made with leaves just as it can with paper. However, neither music quantity nor music quality are the point here. My argument is that working with data structures changes how we think and perform music making. I claim that composers using these leaves of computer music software are working indirectly with data structures, and unless they engage with programming, they remain unaware of data structures and their constraints. `Indirectly,' because the twigs and branches connect the leaf to the trunk, but these connections become invisible to the non-programmer composer \textit{by design}. Like a phantom limb of the tree, the database remains invisibly \textit{behind}. In this section, I present different approaches from composers and programmers that show how music concepts change with the presence and performance of the database. By database performance I mean neither the quality of musical output, nor the dexterity of the programming activity. Database performance in music composition is the activity of the databaser: databasing to make music.
 
@@ -1594,16 +1594,16 @@ What notation software is most often criticised for is the way in which sonic fe
 
 %------------------------------------------------------------------------------
 %
-%	END subsection: Computer Music
+%	END section: Computer Music
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Intersections
+%	BEGIN section: Intersections
 %
 %------------------------------------------------------------------------------
-\subsection{Intersections}
+\section{Intersections}
 \label{applications}
 The computer music software race that took place at the level of data structures has moved from music to media in an attempt to generalize applicability by maximizing stylistic potentials. To a certain extent, this motion can be understood as an axis between sound and music data structures. On one hand there is music tradition with its notational baggage. On the other, sound synthesis and programming, with its multi-stylistic promise grounded on the more general use of media. In any case, the shape that this motion takes is given by the composer-programmer's needs, ideas, and implementations. The computer music scene today builds on these struggles, and continues to propose novel approaches that reconfigure the practice.
 
@@ -1681,17 +1681,17 @@ The simplicity of this diagram is intentional, to avoid any attempt to quantize 
 
 %------------------------------------------------------------------------------
 %
-%	END subsection: Intersections
+%	END section: Intersections
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN chapter: Database Aesthetics
+%	BEGIN part: Database Aesthetics
 %
 %------------------------------------------------------------------------------
-\chapter{Database Aesthetics}
-\label{chapter:Database_Aesthetics}
+\part{Database Aesthetics}
+\label{part:Database_Aesthetics}
 Delineating the agency of the Database in the practice of music composition, I discuss the aesthetics of Database Music, developing the concepts of listening, memory, and performance. 
 
 First, I analyze the extent to which the Database can be a listening subject which promotes illusions of style and authority. I consider style and authority as central aspects of the sphere of aesthetic agency of the Database. I then focus on a form of collective `listening' and I arrive at my conception of the Database as an inherently deterministic system. This system is shaped as a network of nonhuman agents, whose `resonance' is fundamental to its definition. I use this resonant network to further analyze the agency of the Database, in terms of how authorial qualities percolate through the network. I use Jean-Luc Nancy's ontology of sound to understand how the database can be a listening subject. In Brian Kane's reading \parencite[143-144]{Gra15:The} of Nancy's work \parencite{Nan07:Lis}, he presents the this ontology ---i.e., what Nancy calls \textit{resonance}---, considering it as a process constitutive of a phenomenology of the self. 
@@ -1716,17 +1716,17 @@ Finally, I present my view on collaboration, and propose a redefinition of the t
 
 %------------------------------------------------------------------------------
 %
-%	END chapter: Database Aesthetics
+%	END part: Database Aesthetics
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN section: Listening Databases
+%	BEGIN chapter: Listening Databases
 %
 %------------------------------------------------------------------------------
-\section{Listening Databases}
-\label{section:Listening_Databases}
+\chapter{Listening Databases}
+\label{chapter:Listening_Databases}
 
 % In this chapter, I analyze resonant networks in order to assess the extent to which databasing can be reconfigured by listening, and viceversa. The following questions will be revised: To what extent is the listening subject present within database music? How is the notion of listening subject reconfigured by way of the database? To what extent can the database be thought of as a listening subject, and, if so, to what extent does the agency of the database as listening subject resonate aesthetically?
 
@@ -1738,51 +1738,80 @@ Finally, I present my view on collaboration, and propose a redefinition of the t
 
 %------------------------------------------------------------------------------
 %
-%	END section: Listening Databases
+%	END chapter: Listening Databases
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: The Resonance Of A Return
+%	BEGIN section: The Resonance Of A Return
 %
 %------------------------------------------------------------------------------
-\subsection{The Resonance Of A Return}
+\section{The Resonance Of A Return}
 \label{resonance_of_a_return}
 \begin{quote}
 	To be listening is thus to enter into tension and to be on the lookout for a relation to self: \textit{not} it should be emphasized, a relationship to `me' (the supposedly given subject), or to the `self' or the other (the speaker, the musician, also supposedly given, with his subjectivity), but to the \textit{relationship in self}, so to speak, as it forms a `self' or a `to itself' in general, and if something like that ever does reach the end of its formation. Consequently, listening is passing over to the register of presence to self, it being understood that the `self' is precisely nothing available (substantial or subsistent) to which one can be `present,' but precisely the resonance of a return [\textit{renvoi}]. \parencite[12]{Nan07:Lis}
 \end{quote} % 11/22/2017 17:40:13
 
 \paragraph{Sonorous presence}
-Jean-Luc Nancy \parencite{Nan07:Lis} brings forth an ontology of sound that is based on the performativity of listening. Linking an embodied theory of listening with a phenomenology of the self, this ontology begins by defining the `sonorous presence.' For Brian Kane \parencite{Gra15:The}, Nancy's `sonorous presence' is given by the combination of both the listening body as being part of the medium and the body's sense perception linked to that medium. I understand medium here as the transmission medium upon which sound propagates, such as a space filled with gas, liquid, or solid particles of matter. Under this definition, all bodies are part of media, that is, both human and nonhuman bodies. Sound reaches, enters, and traverses bodies within media. Thus, for Nancy, sound immerses all bodies within itself. This means that sound includes all bodies within its oscillation, making listeners vibrate. Therefore, the listening subject, understood as the one that is listening (a singular listener) is always already part of sound. 
+Philosopher \textcite{Nan07:Lis} brings forth an ontology of sound that is based on a performativity of listening that links an embodied theory of listening with a phenomenology of the self. For \textcite{Gra15:The}, Nancy’s `sonorous presence’ is built on the premises that the listening body is part of the medium through which sound propagates and that the body's sense perception is immersed within that medium. Medium here refers to the matter through which sound propagates, such as a space filled with gas, liquid, or solid particles of matter including human and nonhuman bodies. Sound reaches, enters, and traverses bodies. This means that sound, in its most basic and general form makes listeners vibrate and therefore, the listening subject is always already part of the listened sound.
 
 \paragraph{An a priori filter}
-In being already part of sound, bodies change sound even before listening. On a mechanical level, the body is an a priori physical filter. Sound is filtered differently and uniquely within each body: my body changes the incoming sound for me, just as well it does for others. For instance, a longitudinal wave passing through a body affects how it will arrive at other points in space. Sound propagation is conditioned by the qualities of the medium. That is to say, while the combination of density, pressure, temperature, and motion affect its speed, viscosity within media affects its attenuation rate. This means that within hot and humid climates sound will move slower, and if there is wind blowing in the same direction of a sound it will travel faster. What is important here, is that this also means the listening body changes how sound moves both inside and outside of itself. On the one hand, bodies filter sounds towards one another. On the other, even before longitudinal waves reach the tympan, the same body already affects their movement. Waves change direction by way of reflection or refraction, and they fade out by way of attenuation. This means that waves are affected in different ways according to different media, some being more (concert halls) or less reflective (anechoic chambers). Since the listener's body itself refracts, reflects, and attenuates waves, the singular filter that is the body changes wave propagation not only for itself and its own listening experience, also for the listening experience of other subjects in different places in space. This explains why empty concert halls sound more reverberant than filled concert halls.
+Being part of sound, bodies change sound even before listening. On a mechanical level, the body is an a priori physical filter. Sound is filtered differently and uniquely within each body: my body changes the incoming sound for me, just as it does for others. For instance, a longitudinal wave passing through a body affects how it will arrive at other points in space. Sound propagation is conditioned by the qualities of the medium. That is to say, while the combination of density, pressure, temperature, and motion affect sound speed, a medium’s viscosity affects its attenuation rate. This means that within hot and humid climates sound will move slower, and if there is wind blowing in the same direction of a sound it will travel faster, but it also means the listening body changes how sound moves both inside and outside of itself. Waves change direction by way of reflection or refraction, and they fade out by way of attenuation. This means that waves are affected in different ways by different media, some being more (concert halls) or less reflective (anechoic chambers). Therefore, bodies filter sounds for other bodies while affecting sound waves before they reach the tympani. That is to say, since the listener’s body itself refracts, reflects, and attenuates waves, the singular filter that is the body changes wave propagation not only for itself and its own listening experience, also for the listening experience of others. This explains why empty concert halls sound more reverberant than filled concert halls. Most importantly, the filtering qualities of the listening body reveal the extent to which listening as such is a singular experience.
 
 \paragraph{Sonorous presence in an attack}
-Sonorous presence, therefore, can be understood as follows. Since listeners are singularities in the presence of sound, and since sound itself is the singularly exposed presence, the sonorous presence is an exposition of an in-between-ness, or a resonant state of a self being exposed to itself and to one another. The experience of this exposure, however, points to the presence of sound as a sensing experience in itself (the body listening to itself listen), and not to what a given sound might signify. As Kane writes, to be listening in the sonorous present constitutes ``a mode of listening that exposes itself to sense'' \parencite[143-144]{Gra15:The}. This means that in the sonorous present, the listening body emerges as a creation of itself as sense. Therefore, in the sonorous present the first image is that of the body. In this sense, the body is given form by itself: it is self-in-formed during the sonorous present. Furthermore, the duration of this sonorous presence is none other than an instant, or what Nancy refers to as an `attack.' All mechanical waves require an initial energy input. In the case of sound, particularly in musical contexts, this input is generally referred to as attack. Nancy, however, takes this notion of the attack to another plane. He refers to it as the exact moment when a sound arrives and simultaneously leaves the body: the instantaneous appearance of sound within the body. An attack therefore instantiates the sonorous presence.
+The sonorous presence exposes listeners to themselves and to one another. The duration of this exposure is always an instant. Nancy refers to this instant as an `attack.' All mechanical waves require an initial energy input and in the case of sound, particularly in musical contexts, this input is generally referred to as an attack. Instead, Nancy uses this term to describe the exact moment when a sound arrives and simultaneously leaves the body: the instantaneous appearance of sound within the body. An attack therefore instantiates the sonorous presence. The experience of this exposure points to the presence of sound as a sensing experience in itself and not to what a given sound might signify. As Kane writes, to be listening in the sonorous present constitutes ``a mode of listening that exposes itself to sense'' \parencite[143-144]{Gra15:The}. This means that in the sonorous present, the listening body emerges as a creation of itself as sense.
+
+
+This means that in the sonorous present, the listening body emerges as a creation of itself as sense. 
+
+Therefore, in the sonorous present the first image is that of the body. In this sense, the body is given form by itself: it is self-in-formed during the sonorous present. Furthermore, the duration of this sonorous presence is none other than an instant, or what Nancy refers to as an `attack.' All mechanical waves require an initial energy input. In the case of sound, particularly in musical contexts, this input is generally referred to as attack. Nancy, however, takes this notion of the attack to another plane. He refers to it as the exact moment when a sound arrives and simultaneously leaves the body: the instantaneous appearance of sound within the body. An attack therefore instantiates the sonorous presence.
 
 \paragraph{Referrals and Deferrals}
-The structure of the listening experience is one of infinite referrals and deferrals.\footnote{This structure comprises Nancy's reading of Jacques Derrida's concept of \textit{différance} and will be analyzed in the following section. For a commentary on this concept, see \parencite[71-72]{Gra15:The}; for Derrida's original essay on the matter, see \parencite{Der78:Wri,Der82:Mar}} Inasmuch as the sensing body is aware of its own multiplicity of sense, this multiplicity is itself dislocated spatially and temporally. Thus, the distances in both time and space, between all points of the listening experience, of the singular listener and the plurality of listeners, create a web of references that is instantiated in the attack of the sonorous presence. By way of listening, Nancy approaches the notion of meaning. That is to say, for him, meaning ``is made of a totality of referrals: from sign to a thing, from a state of things to a quality, from a subject to another subject or to itself, all simultaneously'' \parencite[4-9]{Nan07:Lis}. Therefore, since sound  ``is also made of referrals: it spreads in space, where it resounds while still resounding `in me'' \parencite[4-9]{Nan07:Lis}, the result is an understanding of listening as a process that intertwines sense and signification. As a consequence of meaning within the listening experience, the self comes along resounding, emerging out of a resonating plurality.
+Kane finds Nancy's ontology of sound as ``a structure of infinite referrals and deferrals'' \parencite[143]{Gra15:The}, that is, what Nancy refers to as `resonance.' This structure comprises, for Kane, Nancy's reading of Jacques Derrida's concept of \textit{différance} \see{human}.\footnote{For a commentary on this concept, see \parencite[71-72]{Gra15:The}; for Derrida's original essay on the matter, see \parencite{Der78:Wri,Der82:Mar}} Resonance, in this terms, can be understood as an activity that takes place in 
+
+Inasmuch as the sensing body is aware of its own multiplicity of sense, this multiplicity is itself dislocated spatially and temporally. 
+
+Thus, the distances in both time and space, between all points of the listening experience, of the singular listener and the plurality of listeners, create a web of references that is instantiated in the attack of the sonorous presence. By way of listening, Nancy approaches the notion of meaning. That is to say, for him, meaning ``is made of a totality of referrals: from sign to a thing, from a state of things to a quality, from a subject to another subject or to itself, all simultaneously'' \parencite[4-9]{Nan07:Lis}. Therefore, since sound  ``is also made of referrals: it spreads in space, where it resounds while still resounding `in me'' \parencite[4-9]{Nan07:Lis}, the result is an understanding of listening as a process that intertwines sense and signification. As a consequence of meaning within the listening experience, the self comes along resounding, emerging out of a resonating plurality.
 
 \paragraph{A Loop}
-The condition of repetition, oscillation, or circularity explains the `infinite' quality that Nancy gives to the structure. To put this differently, the constant oscillatory motion that is present throughout the listening experience has the structure of a feedback circuit, or a loop. For example, I listen to myself as resonant subject, while creating meaning from a certain quality of a sound. I do this in simultaneity with another subject, who is also creating itself while giving meaning to other sound waves. In listening, the vibrating link in between ourselves is also simultaneously changing the way we are listening. Thus, every singularity is in a state of being exposed to one other, that is, in resonance or in touch with on other. Within this loop, not only sound enters and leaves the body, also the sensing body and the resonant self emerge and re-emerge infinitely. Therefore, this infinitude becomes the presence of the self, in the sense that the self becomes present to itself. 
+The condition of repetition, oscillation, or circularity explains the `infinite' quality that Nancy gives to the structure of the listening experience. For Nancy, the constant oscillatory motion that is present throughout the listening experience has the structure of a feedback circuit, or a loop. For example, I listen to myself as resonant subject, while creating meaning from a certain quality of a sound. I do this in simultaneity with another subject, who is also creating itself while giving meaning to other sound waves. In listening, the vibrating link in between ourselves is also simultaneously changing the way we are listening. Thus, every singular listening subject is in a state of being exposed to every other listening subject, that is, in resonance or in touch with one other. 
 
 \paragraph{An Approach to Self}
-It is important to note that the self resonates to itself coming \textit{in}. This must be distinguished from the self understood as an expressive substance inherent to bodies, or already \textit{in} the body, as if it were some originary essence that appears out of resonance. Quite the contrary, for Nancy, the phenomenality of the self comes as a result of the resonance, in the form of a return. In other words, the self is something that appears to itself, at the limit of itself, very much like sound does. This is why, for Nancy, to be listening [\textit{être à l'écoute}] engages resonant subjects with an approach to self. This approach, however, is neither to the self, not to the self of another, but to the structure of resonance as understood in terms of a \textit{relationship in self} from itself. The quote at the beginning of this section (``if something like that ever does reach the end of its formation'') points precisely to the infinite resonant process with which Nancy builds his concept of listening, but specifically, it is how he sets forth an image of a self coming from this ontology of sound.\footnote{In this sense, Nancy is one of the first philosophers of the self to propose such a theorization of the self as resonance, extending his speculations to, for example, considering if the philosophical truth could be something listened to, as opposed to something seen: ``\dots shouldn't truth `itself,' as transitivity and incessant transition of a continual coming and going, be listened to rather than seen?'' \parencite[4]{Nan07:Lis}}
+
+In this context, the self is not an expressive substance inherent to bodies, or already in the body, as if it were some originary essence that appears out of resonance. On the contrary, for Nancy, the self comes as a result of the resonance, in the form of a return. 
+
+
+
+% In other words, the self is something that appears to itself, at the limit of itself, very much like sound does. 
+
+% This is why, for Nancy, to be listening [\textit{être à l'écoute}] engages resonant subjects with an approach to self. This approach, however, is neither to the self, not to the self of another, but to the structure of resonance as understood in terms of a \textit{relationship in self} from itself. The quote at the beginning of this section (``if something like that ever does reach the end of its formation'') points precisely to the infinite resonant process with which Nancy builds his concept of listening, but specifically, it is how he sets forth an image of a self coming from this ontology of sound.
+
+
+\footnote{In this sense, Nancy is one of the first philosophers of the self to propose such a theorization of the self as resonance, extending his speculations to, for example, considering if the philosophical truth could be something listened to, as opposed to something seen: ``\dots shouldn't truth `itself,' as transitivity and incessant transition of a continual coming and going, be listened to rather than seen?'' \parencite[4]{Nan07:Lis}}
+
+
+
+ % you could probably benefit from an example to make things less abstract? perhaps a reference to the composers you mention below might be good?
+
+
+
+
+
+
 
 %------------------------------------------------------------------------------
 %
-%	END subsection: The Resonance Of A Return
+%	END section: The Resonance Of A Return
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Resonant Network
+%	BEGIN section: Resonant Network
 %
 %------------------------------------------------------------------------------
-\subsection{Resonant Network}
+\section{Resonant Network}
 \label{network}
 \begin{quote}
 	\dots there is an actor whose definition of the world outlines, traces, delineate, limn, describe, shadow forth, inscroll, file, list, record, mark, or tag a trajectory that is called a network. \textit{No net exists independently of the very act of tracing it, and no tracing is done by an actor exterior to the net. A network is not a thing but the recorded movement of a thing}. \im \parencite[14]{Lat90:On}
@@ -1816,16 +1845,16 @@ The notion of network is to a certain extent mathematical. The spatial metaphors
 
 %------------------------------------------------------------------------------
 %
-%	END subsection: Resonant Network
+%	END section: Resonant Network
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: The Unworking Network
+%	BEGIN section: The Unworking Network
 %
 %------------------------------------------------------------------------------
-\subsection{The Unworking Network}
+\section{The Unworking Network}
 \label{inoperativity}
 \begin{quote}
 	Community necessarily takes place in what Blanchot has called `unworking,' referring to that which, before or beyond the work, withdraws from the work, and which, no longer having to do either with production or with completion, encounters interruption, fragmentation, suspension. Community is made of the interruption of singularities, or of the suspension that singular beings are. Community is not the work of singular beings, nor can it claim them as it works, just as communication is not a work or even an operation of singular beings, for community is simply their being ---their being suspended upon its limit. \textit{Communication is the unworking of work that is social, economic, technical, and institutional}. \im \parencite[31]{Nan91:The} 
@@ -1864,17 +1893,17 @@ The resistance of the skin represents, thus, the resistance of connectivity itse
 
 %------------------------------------------------------------------------------
 %
-%	END subsection: The Unworking Network
+%	END section: The Unworking Network
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN section: Databases And Memory
+%	BEGIN chapter: Databases And Memory
 %
 %------------------------------------------------------------------------------
-\section{Databases And Memory}
-\label{section:Databases_And_Memory}
+\chapter{Databases And Memory}
+\label{chapter:Databases_And_Memory}
 % There is yet another substitution that can be ammended to Latour's definition of the network. If the network is `recorded movement,' that is, a trace, a trajectory, this means that its existance is evidenced by way of not only motion in itself, in the sense that the very same oscillatory motion of reference in between the nodes creates its defining gesture. It is also the case that the recollection of movement constitutes an structurally inseparable part of the definition of the network. Therefore, in this chapter, I understand the database in its relation with memory, understanding memory from three points of view: the human, the nonhuman, and the spectral.
 
 % In section one, I analyze memory as process of embodiment and relate it to resonant networks.
@@ -1895,16 +1924,16 @@ The resistance of the skin represents, thus, the resistance of connectivity itse
 
 %------------------------------------------------------------------------------
 %
-%	END section: Databases And Memory
+%	END chapter: Databases And Memory
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Interlude: Embodied Memory
+%	BEGIN section: Interlude: Embodied Memory
 %
 %------------------------------------------------------------------------------
-\subsection{Interlude: Embodied Memory}
+\section{Interlude: Embodied Memory}
 \label{funeslude}
 
 % EH:
@@ -1951,16 +1980,16 @@ Less than focusing on literary analysis, in this interlude I take the concept of
 
 %------------------------------------------------------------------------------
 %
-%	END subsection: Interlude: Embodied Memory
+%	END section: Interlude: Embodied Memory
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: The Effraction Of The Trace
+%	BEGIN section: The Effraction Of The Trace
 %
 %------------------------------------------------------------------------------
-\subsection{The Effraction Of The Trace}
+\section{The Effraction Of The Trace}
 \label{human}
 \begin{quote}
 	Lo cierto es que vivimos postergando todo lo postergable; tal vez todos sabemos profundamente que somos inmortales y que tarde o temprano, todo hombre hará todas las cosas y sabrá todo.\footnote{Anthony Kerrigan translated this fragment as: ``The truth is that we all live by leaving behind; no doubt we all profoundly know that we are immortal and that sooner or later every man will do all things and know everything.'' In a more literal translation of the first sentence, it reads: ``What is certain is that we live deferring all that can be deferred.''} \parencite{Bor42:Fun}
@@ -1992,16 +2021,16 @@ Therefore, if this resonating self can only emerge out of this system ---or bett
 
 %------------------------------------------------------------------------------
 %
-%	END subsection: The Effraction Of The Trace
+%	END section: The Effraction Of The Trace
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: The Archontic Principle
+%	BEGIN section: The Archontic Principle
 %
 %------------------------------------------------------------------------------
-\subsection{The Archontic Principle}
+\section{The Archontic Principle}
 \label{archontic}
 
 \paragraph{Archives and Memory}
@@ -2062,16 +2091,16 @@ This comparison between \texttt{destructor}s and forgetting serves as a starting
 
 %------------------------------------------------------------------------------
 %
-%	END subsection: The Archontic Principle
+%	END section: The Archontic Principle
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: The Spectral Database
+%	BEGIN section: The Spectral Database
 %
 %------------------------------------------------------------------------------
-\subsection{The Spectral Database}
+\section{The Spectral Database}
 \label{spectrality}
 \begin{quote}
 	The structure of the archive is \textit{spectral}. It is spectral \textit{a priori}: neither present nor absent ``in the flesh,'' neither visible nor invisible, a trace always referring to another whose eyes can never be met\dots
@@ -2116,17 +2145,17 @@ In what follows, a crucial aspect of the database will be addressed, one that de
 
 %------------------------------------------------------------------------------
 %
-%	END subsection: The Spectral Database
+%	END section: The Spectral Database
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN section: Performativity Of Databases
+%	BEGIN chapter: Performativity Of Databases
 %
 %------------------------------------------------------------------------------
-\section{Performativity Of Databases}
-\label{section:Performativity_Of_Databases}
+\chapter{Performativity Of Databases}
+\label{chapter:Performativity_Of_Databases}
 % In this section, I draw from performance and gender studies to analyze database practice as a performative activity. I use Judith Butler's concept of gender \parencite{But88:Per} to analyze the extent to which authority in database practices can be understood in terms of style.  The databaser, which is the human subject in this case, begins resonating with the database, the nonhuman subject, in a form of feedback loop. This resonant loop is only possible through the performance of the database. I thus locate the origin of the database as listening subject the moment its performance begins. In this moment of performance, both human and nonhuman listening subjects are resounded upon their limit. I consider this limit to be a surface in between the human and the nonhuman, and I like to think of it as the `skin' of the database. I argue that this skin of the database is the possibility condition for illusions of style ---as in the style that is visible in one's clothes, or in one's decoration of the skin--- and authority ---as in the appearance of a subject who has some sort of power: the subject of the listening database. I thus analyze these illusions as belonging to the sphere of Agency that the Database presents, and assess the extent to which they affect the aesthetics of Database practice.
 %
 % EH:
@@ -2135,16 +2164,16 @@ In what follows, a crucial aspect of the database will be addressed, one that de
 % My argument is that since the aesthetics of the database presents itself through performance --designial and navigational--, I claim that the resonance of each agent in this system can be delineated as a feedback loop traversing all the nodes in the network, in any direction and in any instance. For example, a programming decision can change the sonic outcome of a music work with the same ease as the design of a photo sensor can influence the spatialization technique used in a multimedia work.
 %------------------------------------------------------------------------------
 %
-%	END section: Performativity Of Databases
+%	END chapter: Performativity Of Databases
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Gendered Database
+%	BEGIN section: Gendered Database
 %
 %------------------------------------------------------------------------------
-\subsection{Gendered Database}
+\section{Gendered Database}
 \label{gender}
 \begin{quote}
 	Gender is not passively scripted on the body, and neither is it determined by nature, language, the symbolic, or the overwhelming history of patriarchy. Gender is what is put on, invariably, under constraint, daily and incessantly, with anxiety and pleasure, but if this continuous act is mistaken for a natural or linguistic given, power is relinquished to expand the cultural field bodily through subversive performances of various kinds. \parencite[531]{But88:Per}
@@ -2177,16 +2206,16 @@ The database is a collection of facts. It is facticity itself. This is what Butl
 
 %------------------------------------------------------------------------------
 %
-%	END subsection: Gendered Database
+%	END section: Gendered Database
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Towards The Limits
+%	BEGIN section: Towards The Limits
 %
 %------------------------------------------------------------------------------
-\subsection{Towards The Limits}
+\section{Towards The Limits}
 \label{limits}
 
 \paragraph{Exposure}
@@ -2202,16 +2231,16 @@ The limit of the database, as performative, spectral skin, is the condition for 
 Database models tend to reside next to each other, either within a single database system or within an interconnected networked system. With this plurality of the model, databasers have access to the many features that each model offers, focusing on those features that are suitable for their needs.  The skin of the database is as fluid as the constitution of gender, and if this is true, then the fluidity of databasing itself comes to represent the constitution of gender through the performativity of databasers. By resonating in such performativity, databasers approach (but do not reach) the limit of the database. This approach to the skin of the database exposes simultaneously the skin of the databaser to the database. What this exposure amounts to is not, however, an opposition of forces. It results in the fragmented state of community that resides in the different degrees of this exposure. In other words, this exposure is of a hybrid plurality that resonates at the limit. Engaging with the touch of the spectral database means reconfiguring, resounding, and remembering our own sense of touch, just as well as our own sense of self.
 %------------------------------------------------------------------------------
 %
-%	END subsection: Towards The Limits
+%	END section: Towards The Limits
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Contingencies Of Style
+%	BEGIN section: Contingencies Of Style
 %
 %------------------------------------------------------------------------------
-\subsection{Contingencies Of Style}
+\section{Contingencies Of Style}
 \label{style}
 \begin{quote}
 	\dots style, supplementing timbre, tends to repeat the event of pure presence, the singularity of the source present in what it produces, supposing again that the unity of a timbre ---immediately it is identifiable--- ever has the purity of an event\dots The timbre of my voice, the style of my writing are that which for (a) me never will have been present. I neither hear nor recognize the timbre of my voice. If my style marks itself, it is only on a surface which remains invisible and illegible for me. \parencite[296]{Der82:Mar}
@@ -2255,16 +2284,16 @@ However, if style is understood as inoperative, that is, as the unfolding of the
 
 %------------------------------------------------------------------------------
 %
-%	END subsection: Contingencies Of Style
+%	END section: Contingencies Of Style
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: A Specter Of Authority
+%	BEGIN section: A Specter Of Authority
 %
 %------------------------------------------------------------------------------
-\subsection{A Specter Of Authority}
+\section{A Specter Of Authority}
 \label{authority}
 \begin{quote}
 	Gender is instituted through the stylization of the body and, hence, must be understood as the mundane way in which bodily gestures, movements, and enactments of various kinds \textit{constitute the illusion of an abiding gendered self}. \im \parencite[519]{But88:Per}
@@ -2328,30 +2357,30 @@ Instead of being on the rule-based programming of formalization processes alone 
 
 %------------------------------------------------------------------------------
 %
-%	END subsection: A Specter Of Authority
+%	END section: A Specter Of Authority
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN section: Rethinking Composition
+%	BEGIN chapter: Rethinking Composition
 %
 %------------------------------------------------------------------------------
-\section{Rethinking Composition}
-\label{section:Rethinking_Composition}
+\chapter{Rethinking Composition}
+\label{chapter:Rethinking_Composition}
 % The concepts exposed in \nameref{chapter:Database_Aesthetics} affect and reconfigure transversally the practices of composition and databasing. Traditionally, music composition was considered a single author practice, in which the composer's technique or aesthetic intuition is the sole agent, romanticizing the artist as an ``involuntary vessel through which inspiration flows'' \parencite{Bor95:Rat}. As I have outlined in , this is no longer the case, since understood in terms of its resonance and of its performativity, composition explodes the name of the composer, leaving as many spectral remains of its trace as can be imagined. Conversely, databasing is already embedded in a networked structure that only allows partial and temporary allocation of authors (databaser), since in the structural database tree exist multi-authored branches that renew themselves, outgrowing themselves in perpetual difference and instability. The notions of stability and authority can only be related to snapshots in the history of a software. However, the institutional quality of both databasing and composition is still at play, namely in the many cases of proprietary software and in the composer's name, that is, in the commercial release and the objectification of music work. Less than focusing on general criticism, in this section I argue that, since the agency of the database reveals itself as aesthetic experience, then it is the dynamics of this agency need to be addressed. I claim that this agency, when contextualized within music composition, specifically composing with computers, it has the form and the politics of a music listening to itself. 
 %------------------------------------------------------------------------------
 %
-%	END section: Rethinking Composition
+%	END chapter: Rethinking Composition
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Interlude: Hyperbolic Reactions
+%	BEGIN section: Interlude: Hyperbolic Reactions
 %
 %------------------------------------------------------------------------------
-\subsection{Interlude: Hyperbolic Reactions}
+\section{Interlude: Hyperbolic Reactions}
 \label{performance}
 % How does thinking of database music affect the practice of music composition? One would have to begin at the origin, start at the beginning of composition, that is, at the moment of performative action that I am calling databasing. Identifying music composition with databasing would mean to interpret both practices under the scope of computer practices. That is, not just databasing, but computer-based databasing; and, likewise, not just composition, but computer-based composition. 
 
@@ -2371,16 +2400,16 @@ Composing with or without computers cannot be seen as poles on a continuum upon 
 The same applies to databasing itself. Removing computers altogether from databasing takes us to the world of libraries, encyclopedias, collectors, gatherers. Most important, it takes us to the place databasing occupies within society: to museums, but also to the dynamics of civilization, to church, put simply: to institutionalization itself. That is to say, it relates performance with the archontic, with the oedipal drive to re-place \see{archontic}, to an infinite return that the structure of the archive imposes upon us. So, if we imagine a computer-less census, we'd have to picture a gatherer of names walking around town, asking out loud for each person's name and place of residence. Getting rid of networks which might have computers ---as in the case of the above painted computer-less composer---, it is clear that the only suitable person for the job would be Irineo Funes \see{funeslude}, and the only possible storage medium would be his memory. Hopefully, the reader would consider this resort to hyperbolic fictions less as a means of justification of the hybrid condition of composition and databasing, and more as an absurd parenthesis that brings nothing of criticism to the ---still valid--- efforts of working `outside' the digital. These efforts are not questioned in regards of their validity, only in terms of their definition, which, for the purposes of this text, is understood as built upon organicist notions of the human: the human as the one, indivisible, complete whole. These notions are precisely those that help reify the image of the composer in its essentiality.
 %------------------------------------------------------------------------------
 %
-%	END subsection: Interlude: Hyperbolic Reactions
+%	END section: Interlude: Hyperbolic Reactions
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Working Composition
+%	BEGIN section: Working Composition
 %
 %------------------------------------------------------------------------------
-\subsection{Working Composition}
+\section{Working Composition}
 \label{organic}
 \begin{quote}
 	And the listening in question here is not that of a given listener, or of a category of listeners one has to take into account; it is rather structural listening in Adorno's sense ---or even, beyond Adorno, a \textit{listening without listener in which the work listens to itself}. \dots we hear an organicist concept of the work being strongly articulated [by Schoenberg] (where the work is a whole that doesn't allow any cuts) and a regime of listening whose ultimate, ideal aim is the absorption or resorption of the listener in the work. A listener who is somewhat distracted, inattentive, who would skip over a few tracks daydreaming ---\textit{such a listener could fall away like a dead limb}. \textit{Useless}. Bringing nothing to the great corpus of the work. This organicism, in the radical (or structural) tendency that Schoenberg gives it, forms the cornerstone of the construction of a modernist regime of listening. \im \parencite[127]{Sze08:Lis}
@@ -2404,16 +2433,16 @@ I would like to add to this worldview another concept brought by Szendy, that of
 
 %------------------------------------------------------------------------------
 %
-%	END subsection: Working Composition
+%	END section: Working Composition
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: The Composer As Navigator
+%	BEGIN section: The Composer As Navigator
 %
 %------------------------------------------------------------------------------
-\subsection{The Composer As Navigator}
+\section{The Composer As Navigator}
 \label{practice}
 \begin{quote}
 	I am motivated to present this architecture, which is linked to antiquity and doubtless to other cultures, because it is an elegant and lively witness to what I have tried to define as an outside-time category, \textit{algebra}, or structure of music, as opposed to its other two categories, in-time and temporal. \im \parencite[192]{Xen92:For}
@@ -2450,16 +2479,16 @@ Codd's and Xenakis' propositions were abstractions deeply rooted in and contextu
 
 %------------------------------------------------------------------------------
 %
-%	END subsection: The Composer As Navigator
+%	END section: The Composer As Navigator
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: The Database As Performer
+%	BEGIN section: The Database As Performer
 %
 %------------------------------------------------------------------------------
-\subsection{The Database As Performer}
+\section{The Database As Performer}
 \label{improv}
 I would like to take an improvisational turn that would make Xenakis fall off his armchair. Xenakis' fall would be contemplated against the spirit of the later discussions on interaction that came with George Lewis and \textit{Voyager} \parencite{Lew93:Put, Lew99:Int, Lew00:Too}. Lewis called his approach ``a improvisational, nonhierarchical, subject-subject model of discourse, rather than a stimulus/response setup'' \parencite[104]{Lew99:Int}. Thus, the activity of the composer was reconfigured in networked relation \textit{with} the computer. That is to say, Xenakis' metaphor of the computer as pilot, would be turned upside down, altogether reconfiguring the navigational metaphor: the ship begins to navigate itself.
 
@@ -2525,16 +2554,16 @@ Understood as a listener, \textit{Voyager} engages not only with signal processi
 
 %------------------------------------------------------------------------------
 %
-%	END subsection: The Database As Performer
+%	END section: The Database As Performer
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: The Severed Object Of Music
+%	BEGIN section: The Severed Object Of Music
 %
 %------------------------------------------------------------------------------
-\subsection{The Severed Object Of Music}
+\section{The Severed Object Of Music}
 \label{music}
 \begin{quote}
 	[The] Heideggerian `work of art’ is able to present a unified picture that may be used for political purposes [it] is only what it is in the world that it opens\dots Nancy is seeking a `workless’ or `unworking’ work, \textit{a work that refuses to create itself as a total work}. Hence, Nancy proposes an artwork that would offer itself as a permanently open whole, the concept of art remaining undecided and lacking anything that might unify it. \im \parencite{Gra15:The}
@@ -2591,16 +2620,16 @@ Therefore, within these dynamics of work, what results is a function of the pred
 
 %------------------------------------------------------------------------------
 %
-%	END subsection: The Severed Object Of Music
+%	END section: The Severed Object Of Music
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Anarchy And The Unwork
+%	BEGIN section: Anarchy And The Unwork
 %
 %------------------------------------------------------------------------------
-\subsection{Anarchy And The Unwork}
+\section{Anarchy And The Unwork}
 \label{anarchy}
 What characterizes the aesthetic dimension in the severed music object of the composition that does not impose its own listening is inoperativity. In this sense, the practice of music composition can be understood in terms of Nancy's positive, active force of unworking. The condition of unworking in relation to works of art is exposed by a certain resistance present in the unwork of art. This resistance is a force of interruption and suspension that prevents the notion of a whole to reach completion. The case is quite different from that of the `open' work, since the work never reaches completion.
 
@@ -2638,16 +2667,16 @@ Defining anarchy as a paradoxically productive force ---a form of destruction wh
 
 %------------------------------------------------------------------------------
 %
-%	END subsection: Anarchy And The Unwork
+%	END section: Anarchy And The Unwork
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: [Wip] Work In Progress
+%	BEGIN section: [Wip] Work In Progress
 %
 %------------------------------------------------------------------------------
-\subsection{[Wip] Work In Progress}
+\section{[Wip] Work In Progress}
 \label{worker}
 \begin{flushleft}
 \small
@@ -2720,25 +2749,25 @@ typedef struct working {
 
 %------------------------------------------------------------------------------
 %
-%	END subsection: [Wip] Work In Progress
+%	END section: [Wip] Work In Progress
 %
 %------------------------------------------------------------------------------
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN chapter*: Conclusion
+%	BEGIN part*: Conclusion
 %
 %------------------------------------------------------------------------------
-\chapter*{Conclusion}
-\label{chapter:Conclusion}
-\addcontentsline{toc}{chapter}{Conclusion}
+\part*{Conclusion}
+\label{part:Conclusion}
+\addcontentsline{toc}{part}{Conclusion}
 \dots
 placeholder for conclusion abstract
 \dots
 
 %------------------------------------------------------------------------------
 %
-%	END chapter*: Conclusion
+%	END part*: Conclusion
 %
 %------------------------------------------------------------------------------
 \appendix
