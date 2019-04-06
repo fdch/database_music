@@ -17,10 +17,10 @@ Database Art 172
 		The Realm of Data Structures 542 21%
 		A Brief History of Database Models 2379 95%
 	Databasing Sound: Applications of databases in sound 359
-		Music Information Retrieval 935 37%
+		Music Information Retrieval 934 37%
 		Sonification 2041 81%
 		Computer Music 5382 215%
-		Intersections 3233 129%
+		Intersections 3751 150%
 Database Aesthetics 795
 	Listening Databases 0
 		The Resonance of a Return 1463 58%

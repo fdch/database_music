@@ -20,10 +20,10 @@ STRUCT=(
 "subsection" content/part-2/section-2/sub/models.tex "The Realm Of Data Structures" 542
 "subsection" content/part-2/section-2/sub/descriptions.tex "A Brief History Of Database Models" 2379
 "section" content/part-2/section-3/sub/abstract.tex "Databasing Sound: Applications Of Databases In Sound" 359
-"subsection" content/part-2/section-3/sub/mir.tex "Music Information Retrieval" 935
+"subsection" content/part-2/section-3/sub/mir.tex "Music Information Retrieval" 934
 "subsection" content/part-2/section-3/sub/sonification.tex "Sonification" 2041
 "subsection" content/part-2/section-3/sub/computer_music.tex "Computer Music" 5382
-"subsection" content/part-2/section-3/sub/applications.tex "Intersections" 3233
+"subsection" content/part-2/section-3/sub/applications.tex "Intersections" 3751
 "chapter" content/part-3/abstract.tex "Database Aesthetics" 795
 "section" content/part-3/section-1/sub/abstract.tex "Listening Databases" 0
 "subsection" content/part-3/section-1/sub/resonance_of_a_return.tex "The Resonance Of A Return" 1463
