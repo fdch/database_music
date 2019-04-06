@@ -315,7 +315,7 @@
 %------------------------------------------------------------------------------
 \thispagestyle{empty}
 \addtocontents{toc}{\protect\thispagestyle{empty}}
-\includegraphics[width=1\textwidth]{/Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/dbtree.jpg}
+\includegraphics[width=1\textwidth]{/Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/dbtree.png}
 \newpage
 
 %------------------------------------------------------------------------------
@@ -375,6 +375,27 @@ and Mary Williamson, who inspired and nurtured my interest in observation and cl
 
 %------------------------------------------------------------------------------
 %
+%	BEGIN chapter*: Abstract
+%
+%------------------------------------------------------------------------------
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+The aim of this dissertation is to understand the aesthetic agency of the database in music composition. I place my dissertation in relation to existing scholarship, artists, and developers working in the fields of music composition, computer science, affect, and ontology, with emphasis on the ubiquity of databases and on the need to reflect on their practice, particularly in relation to databasing and music composition. There is a database everywhere, anytime, always already affecting our lives; it is an agent in our aesthetic and political lives just as much as we are agents in its composition and performance. Database music lives in between computers and sound. My argument is that in order to conceptualize the agency of the database in music composition, we need to trace the history of the practice, in both its technical and its artistic use, so as to find nodes of action that have an effect on the resulting aesthetics. Therefore, this dissertation is composed of two main sections.
+
+In the first section, I trace a history of database practices from three points of view. The first is from new media theory, emphasizing certain aspects of embodied theory which relate to the intersection between the database and the body. The second is from the history of the database in computer science, giving a panoramic view of the tools and concepts behind database systems, models, structures. The third is from their use in sound practices, describing different approaches to databasing from the fields of music information retrieval, sonification and computer music. 
+
+In the second section, I discuss this agency under the broader concepts of sound, self, and community. These three axes are addressed in four sections, each with a different perspective. First I focus on listening, delineating Jean-Luc Nancy's ontology of sound in order to present the database as a resonant subject in a networked relation and community with the human. Second, I focus on memory, comparing human memory and writing with digital information storing, thus relating databasing and composition with memory, archives and their spectrality. Third, I analyze the performativity of databasing, understanding the database as gendered, in its temporality, repetition, and in its contingent appearance as style, skin, and timbre. Finally, I revise the notion of music work, reflecting on the consequences of the anarchic and the inoperative in the community of database music.
+
+As an appendix, I develop an open-source library for multimedia composition that combines computer vision and timbre analysis algorithms to generate a database of descriptors, interpreting them as nodes in a network suitable for automated navigation.
+
+%------------------------------------------------------------------------------
+%
+%	END chapter*: Abstract
+%
+%------------------------------------------------------------------------------
+
+%------------------------------------------------------------------------------
+%
 %	TABLE OF CONTENTS
 %
 %------------------------------------------------------------------------------
@@ -413,29 +434,7 @@ and Mary Williamson, who inspired and nurtured my interest in observation and cl
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN chapter*: Abstract
-%
-%------------------------------------------------------------------------------
-\chapter*{Abstract}
-\label{chapter:Abstract}
-\addcontentsline{toc}{chapter}{Abstract}
-The aim of this dissertation is to understand the aesthetic agency of the database in music composition. I place my dissertation in relation to existing scholarship, artists, and developers working in the fields of music composition, computer science, affect, and ontology, with emphasis on the ubiquity of databases and on the need to reflect on their practice, particularly in relation to databasing and music composition. There is a database everywhere, anytime, always already affecting our lives; it is an agent in our aesthetic and political lives just as much as we are agents in its composition and performance. Database music lives in between computers and sound. My argument is that in order to conceptualize the agency of the database in music composition, we need to trace the history of the practice, in both its technical and its artistic use, so as to find nodes of action that have an effect on the resulting aesthetics. Therefore, this dissertation is composed of two main sections.
-
-In the first section, I trace a history of database practices from three points of view. The first is from new media theory, emphasizing certain aspects of embodied theory which relate to the intersection between the database and the body. The second is from the history of the database in computer science, giving a panoramic view of the tools and concepts behind database systems, models, structures. The third is from their use in sound practices, describing different approaches to databasing from the fields of music information retrieval, sonification and computer music. 
-
-In the second section, I discuss this agency under the broader concepts of sound, self, and community. These three axes are addressed in four sections, each with a different perspective. First I focus on listening, delineating Jean-Luc Nancy's ontology of sound in order to present the database as a resonant subject in a networked relation and community with the human. Second, I focus on memory, comparing human memory and writing with digital information storing, thus relating databasing and composition with memory, archives and their spectrality. Third, I analyze the performativity of databasing, understanding the database as gendered, in its temporality, repetition, and in its contingent appearance as style, skin, and timbre. Finally, I revise the notion of music work, reflecting on the consequences of the anarchic and the inoperative in the community of database music.
-
-As an appendix, I develop an open-source library for multimedia composition that combines computer vision and timbre analysis algorithms to generate a database of descriptors, interpreting them as nodes in a network suitable for automated navigation.
-
-%------------------------------------------------------------------------------
-%
-%	END chapter*: Abstract
-%
-%------------------------------------------------------------------------------
-
-%------------------------------------------------------------------------------
-%
-%	BEGIN chapter*: Introduction
+%	BEGIN chapter*: Introduction ----
 %
 %------------------------------------------------------------------------------
 \chapter*{Introduction}
@@ -670,7 +669,7 @@ Chapter 1 serves to contextualize the database historically and technically. Fir
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN chapter: Database Art
+%	BEGIN chapter: Database Art ----
 %
 %------------------------------------------------------------------------------
 \chapter{Database Art}
@@ -686,7 +685,7 @@ Therefore, in `databasing music,' I describe different approaches to music pract
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN section: The Database In New Media Theory
+%	BEGIN section: The Database In New Media Theory ----
 %
 %------------------------------------------------------------------------------
 \section{The Database In New Media Theory}
@@ -700,7 +699,7 @@ Therefore, in `databasing music,' I describe different approaches to music pract
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Database As Form
+%	BEGIN subsection: Database As Form ----
 %
 %------------------------------------------------------------------------------
 \subsection{Database As Form}
@@ -721,7 +720,7 @@ In the artworld of the 1990s, the increasing availability of personal desktop co
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: A Semiotic Trap
+%	BEGIN subsection: A Semiotic Trap ----
 %
 %------------------------------------------------------------------------------
 \subsection{A Semiotic Trap}
@@ -746,7 +745,7 @@ I consider this reversal to be valid, only on a certain quality of the relation 
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Digital Convergence
+%	BEGIN subsection: Digital Convergence ----
 %
 %------------------------------------------------------------------------------
 \subsection{Digital Convergence}
@@ -770,7 +769,7 @@ Media theorist Mark Poster defines technological determinism as the ``anxiety at
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Bodiless Information
+%	BEGIN subsection: Bodiless Information ----
 %
 %------------------------------------------------------------------------------
 \subsection{Bodiless Information}
@@ -803,7 +802,7 @@ While her work is focused on the literary narratives that were built in parallel
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Embodying Databasing
+%	BEGIN subsection: Embodying Databasing ----
 %
 %------------------------------------------------------------------------------
 \subsection{Embodying Databasing}
@@ -825,7 +824,7 @@ In opposition to this passivity of the body, Hansen describes images as somethin
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Filtering And Framing
+%	BEGIN subsection: Filtering And Framing ----
 %
 %------------------------------------------------------------------------------
 \subsection{Filtering And Framing}
@@ -856,7 +855,7 @@ Therefore, in the context of Kittler's digital convergence, framing prevents the
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Database As Aesthetics
+%	BEGIN subsection: Database As Aesthetics ----
 %
 %------------------------------------------------------------------------------
 \subsection{Database As Aesthetics}
@@ -877,7 +876,7 @@ The Internet is a place of unlimited access, it is a database in continuous and 
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Databasing: Database As Performance
+%	BEGIN subsection: Databasing: Database As Performance ----
 %
 %------------------------------------------------------------------------------
 \subsection{Databasing: Database As Performance}
@@ -912,7 +911,7 @@ While Manovich calls for an ``info-aesthetics'' \parencite[217]{Man01:The}, as w
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN section: Databasing And The History Of Databases
+%	BEGIN section: Databasing And The History Of Databases ----
 %
 %------------------------------------------------------------------------------
 \section{Databasing And The History Of Databases}
@@ -927,7 +926,7 @@ While Manovich calls for an ``info-aesthetics'' \parencite[217]{Man01:The}, as w
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Databasing: The Performance Of The Database
+%	BEGIN subsection: Databasing: The Performance Of The Database ----
 %
 %------------------------------------------------------------------------------
 \subsection{Databasing: The Performance Of The Database}
@@ -1009,7 +1008,7 @@ In order to understand how databases have changed the way we think of earlier ty
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: A Database Tree
+%	BEGIN subsection: A Database Tree ----
 %
 %------------------------------------------------------------------------------
 \subsection{A Database Tree}
@@ -1056,7 +1055,7 @@ Combining networked databases with computer clusters forms what is known as clou
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: The Realm Of Data Structures
+%	BEGIN subsection: The Realm Of Data Structures ----
 %
 %------------------------------------------------------------------------------
 \subsection{The Realm Of Data Structures}
@@ -1089,7 +1088,7 @@ One important technical shift in the use of data structures came with the concep
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: A Brief History Of Database Models
+%	BEGIN subsection: A Brief History Of Database Models ----
 %
 %------------------------------------------------------------------------------
 \subsection{A Brief History Of Database Models}
@@ -1289,7 +1288,7 @@ J. Minker; L. Kuhns
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN section: Databasing Sound: Applications Of Databases In Sound
+%	BEGIN section: Databasing Sound: Applications Of Databases In Sound ----
 %
 %------------------------------------------------------------------------------
 \section{Databasing Sound: Applications Of Databases In Sound}
@@ -1307,7 +1306,7 @@ Having discussed the current state of new media theory and the theory of databas
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Music Information Retrieval
+%	BEGIN subsection: Music Information Retrieval ----
 %
 %------------------------------------------------------------------------------
 \subsection{Music Information Retrieval}
@@ -1376,7 +1375,7 @@ For further reference, the following citations point to different audio database
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Sonification
+%	BEGIN subsection: Sonification ----
 %
 %------------------------------------------------------------------------------
 \subsection{Sonification}
@@ -1488,7 +1487,7 @@ For further sonification software, see \gls{sondata} and the following reference
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Computer Music
+%	BEGIN subsection: Computer Music ----
 %
 %------------------------------------------------------------------------------
 \subsection{Computer Music}
@@ -1633,7 +1632,7 @@ What notation software is most often criticised for is the way in which sonic fe
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Intersections
+%	BEGIN subsection: Intersections ----
 %
 %------------------------------------------------------------------------------
 \subsection{Intersections}
@@ -1720,7 +1719,7 @@ The simplicity of this diagram is intentional, to avoid any attempt to quantize 
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN chapter: Database Aesthetics
+%	BEGIN chapter: Database Aesthetics ----
 %
 %------------------------------------------------------------------------------
 \chapter{Database Aesthetics}
@@ -1755,7 +1754,7 @@ Finally, I present my view on collaboration, and propose a redefinition of the t
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN section: Listening Databases
+%	BEGIN section: Listening Databases ----
 %
 %------------------------------------------------------------------------------
 \section{Listening Databases}
@@ -1777,7 +1776,7 @@ Finally, I present my view on collaboration, and propose a redefinition of the t
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: The Resonance Of A Return
+%	BEGIN subsection: The Resonance Of A Return ----
 %
 %------------------------------------------------------------------------------
 \subsection{The Resonance Of A Return}
@@ -1841,7 +1840,7 @@ In this context, the self is not an expressive substance inherent to bodies, or 
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Resonant Network
+%	BEGIN subsection: Resonant Network ----
 %
 %------------------------------------------------------------------------------
 \subsection{Resonant Network}
@@ -1884,7 +1883,7 @@ The notion of network is to a certain extent mathematical. The spatial metaphors
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: The Unworking Network
+%	BEGIN subsection: The Unworking Network ----
 %
 %------------------------------------------------------------------------------
 \subsection{The Unworking Network}
@@ -1932,7 +1931,7 @@ The resistance of the skin represents, thus, the resistance of connectivity itse
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN section: Databases And Memory
+%	BEGIN section: Databases And Memory ----
 %
 %------------------------------------------------------------------------------
 \section{Databases And Memory}
@@ -1963,7 +1962,7 @@ The resistance of the skin represents, thus, the resistance of connectivity itse
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Interlude: Embodied Memory
+%	BEGIN subsection: Interlude: Embodied Memory ----
 %
 %------------------------------------------------------------------------------
 \subsection{Interlude: Embodied Memory}
@@ -2019,7 +2018,7 @@ Less than focusing on literary analysis, in this interlude I take the concept of
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: The Effraction Of The Trace
+%	BEGIN subsection: The Effraction Of The Trace ----
 %
 %------------------------------------------------------------------------------
 \subsection{The Effraction Of The Trace}
@@ -2060,7 +2059,7 @@ Therefore, if this resonating self can only emerge out of this system ---or bett
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: The Archontic Principle
+%	BEGIN subsection: The Archontic Principle ----
 %
 %------------------------------------------------------------------------------
 \subsection{The Archontic Principle}
@@ -2130,7 +2129,7 @@ This comparison between \texttt{destructor}s and forgetting serves as a starting
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: The Spectral Database
+%	BEGIN subsection: The Spectral Database ----
 %
 %------------------------------------------------------------------------------
 \subsection{The Spectral Database}
@@ -2184,7 +2183,7 @@ In what follows, a crucial aspect of the database will be addressed, one that de
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN section: Performativity Of Databases
+%	BEGIN section: Performativity Of Databases ----
 %
 %------------------------------------------------------------------------------
 \section{Performativity Of Databases}
@@ -2203,7 +2202,7 @@ In what follows, a crucial aspect of the database will be addressed, one that de
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Gendered Database
+%	BEGIN subsection: Gendered Database ----
 %
 %------------------------------------------------------------------------------
 \subsection{Gendered Database}
@@ -2245,7 +2244,7 @@ The database is a collection of facts. It is facticity itself. This is what Butl
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Towards The Limits
+%	BEGIN subsection: Towards The Limits ----
 %
 %------------------------------------------------------------------------------
 \subsection{Towards The Limits}
@@ -2270,7 +2269,7 @@ Database models tend to reside next to each other, either within a single databa
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Contingencies Of Style
+%	BEGIN subsection: Contingencies Of Style ----
 %
 %------------------------------------------------------------------------------
 \subsection{Contingencies Of Style}
@@ -2323,7 +2322,7 @@ However, if style is understood as inoperative, that is, as the unfolding of the
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: A Specter Of Authority
+%	BEGIN subsection: A Specter Of Authority ----
 %
 %------------------------------------------------------------------------------
 \subsection{A Specter Of Authority}
@@ -2396,7 +2395,7 @@ Instead of being on the rule-based programming of formalization processes alone 
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN section: Rethinking Composition
+%	BEGIN section: Rethinking Composition ----
 %
 %------------------------------------------------------------------------------
 \section{Rethinking Composition}
@@ -2410,7 +2409,7 @@ Instead of being on the rule-based programming of formalization processes alone 
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Interlude: Hyperbolic Reactions
+%	BEGIN subsection: Interlude: Hyperbolic Reactions ----
 %
 %------------------------------------------------------------------------------
 \subsection{Interlude: Hyperbolic Reactions}
@@ -2439,7 +2438,7 @@ The same applies to databasing itself. Removing computers altogether from databa
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Working Composition
+%	BEGIN subsection: Working Composition ----
 %
 %------------------------------------------------------------------------------
 \subsection{Working Composition}
@@ -2472,7 +2471,7 @@ I would like to add to this worldview another concept brought by Szendy, that of
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: The Composer As Navigator
+%	BEGIN subsection: The Composer As Navigator ----
 %
 %------------------------------------------------------------------------------
 \subsection{The Composer As Navigator}
@@ -2518,7 +2517,7 @@ Codd's and Xenakis' propositions were abstractions deeply rooted in and contextu
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: The Database As Performer
+%	BEGIN subsection: The Database As Performer ----
 %
 %------------------------------------------------------------------------------
 \subsection{The Database As Performer}
@@ -2593,7 +2592,7 @@ Understood as a listener, \textit{Voyager} engages not only with signal processi
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: The Severed Object Of Music
+%	BEGIN subsection: The Severed Object Of Music ----
 %
 %------------------------------------------------------------------------------
 \subsection{The Severed Object Of Music}
@@ -2659,7 +2658,7 @@ Therefore, within these dynamics of work, what results is a function of the pred
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: Anarchy And The Unwork
+%	BEGIN subsection: Anarchy And The Unwork ----
 %
 %------------------------------------------------------------------------------
 \subsection{Anarchy And The Unwork}
@@ -2706,14 +2705,14 @@ Defining anarchy as a paradoxically productive force ---a form of destruction wh
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection: [Wip] Work In Progress
+%	BEGIN subsection: [Wip] Work In Progress ----
 %
 %------------------------------------------------------------------------------
 \subsection{[Wip] Work In Progress}
 \label{worker}
 \begin{flushleft}
 \footnotesize
-\begin{lstlisting}[caption={Working Pd Class},captionpos=b,language=C]
+\begin{lstlisting}[caption={Pure Data working class},captionpos=b,language=C]
 // code for the "working" pd class. 
 // it does nothing.
 
@@ -2788,7 +2787,7 @@ typedef struct working {
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN chapter*: Conclusion
+%	BEGIN chapter*: Conclusion ----
 %
 %------------------------------------------------------------------------------
 \chapter*{Conclusion}
@@ -2807,7 +2806,7 @@ placeholder for conclusion abstract
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN chapter*: Appendices
+%	BEGIN chapter*: Appendices ----
 %
 %------------------------------------------------------------------------------
 \chapter*{Appendices}
@@ -2822,7 +2821,7 @@ abstract of appendices
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN section*: DIANA: Database for Image and Audio Navigation
+%	BEGIN section*: DIANA: Database for Image and Audio Navigation ----
 %
 %------------------------------------------------------------------------------
 \section*{DIANA: Database for Image and Audio Navigation}
@@ -2838,7 +2837,7 @@ I use William Brent's \obj{timbreID} ---timbre description algorithms--- and Ant
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection*: A Database Model
+%	BEGIN subsection*: A Database Model ----
 %
 %------------------------------------------------------------------------------
 \subsection*{A Database Model}
@@ -2868,7 +2867,7 @@ I use Timbre Analysis literature to briefly introduce and describe the most usef
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN section*: ABBY: An Online Environment for Annotated Bibliographies
+%	BEGIN section*: ABBY: An Online Environment for Annotated Bibliographies ----
 %
 %------------------------------------------------------------------------------
 \section*{ABBY: An Online Environment for Annotated Bibliographies}
@@ -2886,7 +2885,7 @@ In order to write this dissertation, I have developed ``Abby'' an online Text Da
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN subsection*: A Text Database
+%	BEGIN subsection*: A Text Database ----
 %
 %------------------------------------------------------------------------------
 \subsection*{A Text Database}

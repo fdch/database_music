@@ -251,8 +251,12 @@ function make_from_arrays()
 		name=${arr[$((i+2))]}
 		file=`basename $path .tex`
 
-		if ! grep -q "abstract/" <<< "$path"
+		if grep -q "Abstract" <<< "$name"
 		then
+			write_comment "BEGIN $type: $name"
+			printf "%s\n" "\\$type{$name}"
+			printf "%s\n" "\addcontentsline{toc}{${type//\*}}{$name}"
+		else
 			#	IT IS NO LONGER THE ABSTRACT SECTION, PRINT LABELS
 			if [[ $printmainmatter == 0 ]]
 			then
@@ -262,7 +266,7 @@ function make_from_arrays()
 				printf "%s\n" "\pagenumbering{arabic}"
 				printmainmatter=1
 			fi
-			write_comment "BEGIN $type: $name"
+			write_comment "BEGIN $type: $name ----"
 			printf "%s\n" "\\$type{$name}"
 			# 	CUSTOMIZE LABELS
 			if ! grep -q "abstract" <<< "$file"
@@ -276,15 +280,7 @@ function make_from_arrays()
 			if grep -q "*" <<< "$type"; then
 				printf "%s\n" "\addcontentsline{toc}{${type//\*}}{$name}"
 			fi
-		else		
-			if grep -q "Abstract" <<< "$name"
-			then
-				write_comment "BEGIN $type: $name"
-				printf "%s\n" "\\$type{$name}"
-				printf "%s\n" "\addcontentsline{toc}{${type//\*}}{$name}"
-			fi
 		fi
-		
 
 		#	DUMP FILE CONTENTS TO OUTPUT
 		cat $path

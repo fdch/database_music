@@ -1,25 +1,25 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [1] Config.pm:307> INFO - Logfile is 'main.blg'
-[68] biber-darwin:315> INFO - === Sat Apr  6, 2019, 22:06:24
-[109] Biber.pm:371> INFO - Reading 'main.bcf'
-[594] Biber.pm:889> INFO - Found 297 citekeys in bib section 0
-[615] Biber.pm:4093> INFO - Processing section 0
-[631] Biber.pm:4254> INFO - Looking for bibtex format file 'main.bib' for section 0
-[937] bibtex.pm:1523> INFO - LaTeX decoding ...
-[8127] bibtex.pm:1340> INFO - Found BibTeX data source 'main.bib'
-[8153] Utils.pm:193> WARN - Duplicate entry key: 'Wil96:Lis' in file 'main.bib', skipping ...
-[8161] Utils.pm:193> WARN - Duplicate entry key: 'Mat63:The' in file 'main.bib', skipping ...
-[8728] Utils.pm:193> WARN - month field 'July' in entry 'Tza02:Mus' is not an integer - this will probably not sort properly.
-[8818] Utils.pm:193> WARN - month field 'Aug' in entry '2018arXiv180802848P' is not an integer - this will probably not sort properly.
-[8887] Utils.pm:193> WARN - month field 'May' in entry '2010NJPh:12e3030C' is not an integer - this will probably not sort properly.
-[9115] Utils.pm:193> WARN - month field 'Feb' in entry '2018arXiv180204208D' is not an integer - this will probably not sort properly.
-[9486] Utils.pm:193> WARN - month field 'September' in entry 'connes:shapes' is not an integer - this will probably not sort properly.
-[9710] Utils.pm:193> WARN - ISBN '031330632X, 9780313306327' in entry 'laske_otto_1999' is invalid - run biber with '--validate_datamodel' for details.
-[11281] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[11282] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[11282] Biber.pm:3921> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[11283] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[11721] bbl.pm:636> INFO - Writing 'main.bbl' with encoding 'ascii'
-[11722] bbl.pm:637> INFO - Converting UTF-8 to TeX macros on output to .bbl
-[12333] bbl.pm:739> INFO - Output to main.bbl
-[12333] Biber.pm:110> INFO - WARNINGS: 8
+[55] biber-darwin:315> INFO - === Sat Apr  6, 2019, 22:21:47
+[92] Biber.pm:371> INFO - Reading 'main.bcf'
+[584] Biber.pm:889> INFO - Found 297 citekeys in bib section 0
+[604] Biber.pm:4093> INFO - Processing section 0
+[618] Biber.pm:4254> INFO - Looking for bibtex format file 'main.bib' for section 0
+[925] bibtex.pm:1523> INFO - LaTeX decoding ...
+[7783] bibtex.pm:1340> INFO - Found BibTeX data source 'main.bib'
+[7813] Utils.pm:193> WARN - Duplicate entry key: 'Wil96:Lis' in file 'main.bib', skipping ...
+[7820] Utils.pm:193> WARN - Duplicate entry key: 'Mat63:The' in file 'main.bib', skipping ...
+[8393] Utils.pm:193> WARN - month field 'July' in entry 'Tza02:Mus' is not an integer - this will probably not sort properly.
+[8479] Utils.pm:193> WARN - month field 'Aug' in entry '2018arXiv180802848P' is not an integer - this will probably not sort properly.
+[8543] Utils.pm:193> WARN - month field 'May' in entry '2010NJPh:12e3030C' is not an integer - this will probably not sort properly.
+[8767] Utils.pm:193> WARN - month field 'Feb' in entry '2018arXiv180204208D' is not an integer - this will probably not sort properly.
+[9098] Utils.pm:193> WARN - month field 'September' in entry 'connes:shapes' is not an integer - this will probably not sort properly.
+[9303] Utils.pm:193> WARN - ISBN '031330632X, 9780313306327' in entry 'laske_otto_1999' is invalid - run biber with '--validate_datamodel' for details.
+[10804] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[10804] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[10805] Biber.pm:3921> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[10805] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[11208] bbl.pm:636> INFO - Writing 'main.bbl' with encoding 'ascii'
+[11208] bbl.pm:637> INFO - Converting UTF-8 to TeX macros on output to .bbl
+[11790] bbl.pm:739> INFO - Output to main.bbl
+[11791] Biber.pm:110> INFO - WARNINGS: 8

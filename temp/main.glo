@@ -1,467 +1,467 @@
-\glossaryentry{Music information retrieval?\glossentry{gls-mir}|setentrycounter[]{page}\glsnumberformat}{ix}
-\glossaryentry{MUSIC-11?\glossentry{music-11}|setentrycounter[]{page}\glsnumberformat}{ix}
-\glossaryentry{Database Managemet System?\glossentry{gls-dbms}|setentrycounter[]{page}\glsnumberformat}{31}
-\glossaryentry{MySQL?\glossentry{mysql}|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{PostgreSQL?\glossentry{postgresql}|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{Non or Not only SQL?\glossentry{gls-nosql}|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{Appache Couch Database?\glossentry{gls-couchdb}|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{MongoDB?\glossentry{mongodb}|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{MySQL?\glossentry{mysql}|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{Internet Protocol?\glossentry{gls-ip}|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{Structured Sound Synthesis Project?\glossentry{gls-sssp}|setentrycounter[]{page}\glsnumberformat}{35}
-\glossaryentry{Computer Assisted Music Project?\glossentry{gls-camp}|setentrycounter[]{page}\glsnumberformat}{35}
-\glossaryentry{Data Definition Language?\glossentry{gls-ddl}|setentrycounter[]{page}\glsnumberformat}{36}
-\glossaryentry{data manipulation language?\glossentry{gls-dml}|setentrycounter[]{page}\glsnumberformat}{36}
-\glossaryentry{Computer-Aided Algorithmic Composition?\glossentry{gls-caac}|setentrycounter[]{page}\glsnumberformat}{37}
-\glossaryentry{International Business Machines Corporation?\glossentry{gls-ibm}|setentrycounter[]{page}\glsnumberformat}{38}
-\glossaryentry{National Aeronautics and Space Administration?\glossentry{gls-nasa}|setentrycounter[]{page}\glsnumberformat}{38}
-\glossaryentry{Information Management System?\glossentry{gls-ims}|setentrycounter[]{page}\glsnumberformat}{38}
-\glossaryentry{Conference/Committee on Data Systems Languages?\glossentry{gls-codasyl}|setentrycounter[]{page}\glsnumberformat}{38}
-\glossaryentry{Common Business Oriented Language?\glossentry{gls-cobol}|setentrycounter[]{page}\glsnumberformat}{39}
-\glossaryentry{Integrated Data Store?\glossentry{gls-ids}|setentrycounter[]{page}\glsnumberformat}{39}
-\glossaryentry{Document Object Model?\glossentry{gls-dom}|setentrycounter[]{page}\glsnumberformat}{40}
-\glossaryentry{Structured Query Language?\glossentry{gls-sql}|setentrycounter[]{page}\glsnumberformat}{40}
-\glossaryentry{SQLObject?\glossentry{sqlobject}|setentrycounter[]{page}\glsnumberformat}{40}
-\glossaryentry{Extensible Markup Language?\glossentry{gls-xml}|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{YAML Ain't Markup Language?\glossentry{gls-yaml}|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{JavaScript Object Notation?\glossentry{gls-json}|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{MAX/MSP?\glossentry{max/msp}|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{Graphical User Interface?\glossentry{gls-gui}|setentrycounter[]{page}\glsnumberformat}{43}
-\glossaryentry{Transmission Control Protocol / Internet Protocol?\glossentry{gls-tcp/ip}|setentrycounter[]{page}\glsnumberformat}{44}
-\glossaryentry{Hewlett Packard?\glossentry{gls-hp}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{United Information Systems?\glossentry{gls-unisys}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{Integrated Database Management System?\glossentry{gls-idms}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{Raima Database Manager?\glossentry{gls-rdm}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{TurboIMAGE?\glossentry{turboimage}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{Unisys OS 2200 databases?\glossentry{gls-os_2200}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{Apache?\glossentry{apache}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{Sparsity?\glossentry{sparsity}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{MongoDB?\glossentry{mongodb}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{Redis?\glossentry{redis}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{Cassandra?\glossentry{cassandra}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{Sparksee?\glossentry{sparksee}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{MySQL?\glossentry{mysql}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{Oracle Corporation?\glossentry{gls-oracle}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{PostgreSQL?\glossentry{postgresql}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{Microsoft Access?\glossentry{gls-access}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{Structured Query Language Lite?\glossentry{gls-sqlite}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{XPlain?\glossentry{xplain}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{Apache?\glossentry{apache}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{Neo4j?\glossentry{neo4j}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{ArangoDB?\glossentry{arangodb}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{Boost Software Library?\glossentry{gls-boost}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{NetworkX?\glossentry{gls-networkx}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{Apache?\glossentry{apache}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{Smalltalk?\glossentry{smalltalk}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{LISt Processor?\glossentry{gls-lisp}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{SQLObject?\glossentry{sqlobject}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{Sedna?\glossentry{sedna}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{Adaptive Server Enterprise?\glossentry{gls-ase}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{High Performance Analytics Appliance?\glossentry{gls-sap_hana}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{Information Retrieval?\glossentry{gls-ir}|setentrycounter[]{page}\glsnumberformat}{47}
-\glossaryentry{International Society for Music Information Retrieval?\glossentry{gls-ismir}|setentrycounter[]{page}\glsnumberformat}{47}
-\glossaryentry{Freesound?\glossentry{freesound}|setentrycounter[]{page}\glsnumberformat}{48}
-\glossaryentry{Looperman.com?\glossentry{gls-looperman}|setentrycounter[]{page}\glsnumberformat}{48}
-\glossaryentry{Centre des Musiques Arabes et Mediterraneennes?\glossentry{gls-cmam}|setentrycounter[]{page}\glsnumberformat}{48}
-\glossaryentry{Telemeta?\glossentry{telemeta}|setentrycounter[]{page}\glsnumberformat}{48}
-\glossaryentry{Freesound?\glossentry{freesound}|setentrycounter[]{page}\glsnumberformat}{48}
-\glossaryentry{UbuWeb?\glossentry{ubuweb}|setentrycounter[]{page}\glsnumberformat}{48}
-\glossaryentry{Essen Associative Code?\glossentry{gls-esac}|setentrycounter[]{page}\glsnumberformat}{48}
-\glossaryentry{MuseData?\glossentry{musedata}|setentrycounter[]{page}\glsnumberformat}{48}
-\glossaryentry{Repertoire International des Sources Musicales?\glossentry{gls-rism}|setentrycounter[]{page}\glsnumberformat}{48}
-\glossaryentry{Massachusetts Institute of Technology?\glossentry{gls-mit}|setentrycounter[]{page}\glsnumberformat}{48}
-\glossaryentry{Music21?\glossentry{music21}|setentrycounter[]{page}\glsnumberformat}{48}
-\glossaryentry{Music Analysis, Retrieval and Synthesis for Audio Signals?\glossentry{gls-marsyas}|setentrycounter[]{page}\glsnumberformat}{48}
-\glossaryentry{Essentia?\glossentry{essentia}|setentrycounter[]{page}\glsnumberformat}{48}
-\glossaryentry{Musical Instrument Museums Online?\glossentry{gls-mimo}|setentrycounter[]{page}\glsnumberformat}{48}
-\glossaryentry{generative theory of tonal music?\glossentry{gls-gttm}|setentrycounter[]{page}\glsnumberformat}{49}
-\glossaryentry{regions of interest?\glossentry{gls-roi}|setentrycounter[]{page}\glsnumberformat}{52}
-\glossaryentry{QCD-Audio?\glossentry{qcd-audio}|setentrycounter[]{page}\glsnumberformat}{53}
-\glossaryentry{Institute of Electronic Music and Acoustics?\glossentry{gls-iem}|setentrycounter[]{page}\glsnumberformat}{53}
-\glossaryentry{Quantuum Electrodynamics?\glossentry{gls-qed}|setentrycounter[]{page}\glsnumberformat}{53}
-\glossaryentry{Coastal Data Information Program?\glossentry{gls-cdip}|setentrycounter[]{page}\glsnumberformat}{54}
-\glossaryentry{gigabyte?\glossentry{gls-gb}|setentrycounter[]{page}\glsnumberformat}{54}
-\glossaryentry{Human Metabolome Database?\glossentry{gls-hmdb}|setentrycounter[]{page}\glsnumberformat}{54}
-\glossaryentry{Nuclear magnetic resonance?\glossentry{gls-nmr}|setentrycounter[]{page}\glsnumberformat}{54}
-\glossaryentry{International Computer Music Conference?\glossentry{gls-icmc}|setentrycounter[]{page}\glsnumberformat}{54}
-\glossaryentry{New Interfaces for Musical Expression?\glossentry{gls-nime}|setentrycounter[]{page}\glsnumberformat}{55}
-\glossaryentry{Hypertext Transfer Protocol?\glossentry{gls-http}|setentrycounter[]{page}\glsnumberformat}{55}
-\glossaryentry{Center for Network-Centric Cognition and Information Fusion?\glossentry{gls-nc2if}|setentrycounter[]{page}\glsnumberformat}{55}
-\glossaryentry{Incorporated Research Institutions for Seismology?\glossentry{gls-iris}|setentrycounter[]{page}\glsnumberformat}{55}
-\glossaryentry{Frequency Modulation?\glossentry{gls-fm}|setentrycounter[]{page}\glsnumberformat}{55}
-\glossaryentry{Graphics Processing Unit?\glossentry{gls-gpu}|setentrycounter[]{page}\glsnumberformat}{56}
-\glossaryentry{central processing unit?\glossentry{gls-cpu}|setentrycounter[]{page}\glsnumberformat}{56}
-\glossaryentry{SonART?\glossentry{sonart}|setentrycounter[]{page}\glsnumberformat}{56}
-\glossaryentry{Open Sound Control?\glossentry{gls-osc}|setentrycounter[]{page}\glsnumberformat}{57}
-\glossaryentry{MAX/MSP?\glossentry{max/msp}|setentrycounter[]{page}\glsnumberformat}{57}
-\glossaryentry{Automatic Flow for Materials Discovery?\glossentry{gls-aflowlib}|setentrycounter[]{page}\glsnumberformat}{57}
-\glossaryentry{madBPM?\glossentry{madbpm}|setentrycounter[]{page}\glsnumberformat}{57}
-\glossaryentry{Comma Separated Values?\glossentry{gls-csv}|setentrycounter[]{page}\glsnumberformat}{57}
-\glossaryentry{OpenFrameworks?\glossentry{gls-ofx}|setentrycounter[]{page}\glsnumberformat}{57}
-\glossaryentry{Domain Specific Language?\glossentry{gls-dsl}|setentrycounter[]{page}\glsnumberformat}{58}
-\glossaryentry{Sonifying Data?\glossentry{gls-sondata}|setentrycounter[]{page}\glsnumberformat}{58}
-\glossaryentry{Human Computer Interaction?\glossentry{gls-hci}|setentrycounter[]{page}\glsnumberformat}{59}
+\glossaryentry{Music information retrieval?\glossentry{gls-mir}|setentrycounter[]{page}\glsnumberformat}{xi}
+\glossaryentry{MUSIC-11?\glossentry{music-11}|setentrycounter[]{page}\glsnumberformat}{xi}
+\glossaryentry{Database Managemet System?\glossentry{gls-dbms}|setentrycounter[]{page}\glsnumberformat}{29}
+\glossaryentry{MySQL?\glossentry{mysql}|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{PostgreSQL?\glossentry{postgresql}|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{Non or Not only SQL?\glossentry{gls-nosql}|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{Appache Couch Database?\glossentry{gls-couchdb}|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{MongoDB?\glossentry{mongodb}|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{MySQL?\glossentry{mysql}|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{Internet Protocol?\glossentry{gls-ip}|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{Structured Sound Synthesis Project?\glossentry{gls-sssp}|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{Computer Assisted Music Project?\glossentry{gls-camp}|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{Data Definition Language?\glossentry{gls-ddl}|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{data manipulation language?\glossentry{gls-dml}|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{Computer-Aided Algorithmic Composition?\glossentry{gls-caac}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{International Business Machines Corporation?\glossentry{gls-ibm}|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{National Aeronautics and Space Administration?\glossentry{gls-nasa}|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{Information Management System?\glossentry{gls-ims}|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{Conference/Committee on Data Systems Languages?\glossentry{gls-codasyl}|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{Common Business Oriented Language?\glossentry{gls-cobol}|setentrycounter[]{page}\glsnumberformat}{37}
+\glossaryentry{Integrated Data Store?\glossentry{gls-ids}|setentrycounter[]{page}\glsnumberformat}{37}
+\glossaryentry{Document Object Model?\glossentry{gls-dom}|setentrycounter[]{page}\glsnumberformat}{38}
+\glossaryentry{Structured Query Language?\glossentry{gls-sql}|setentrycounter[]{page}\glsnumberformat}{38}
+\glossaryentry{SQLObject?\glossentry{sqlobject}|setentrycounter[]{page}\glsnumberformat}{38}
+\glossaryentry{Extensible Markup Language?\glossentry{gls-xml}|setentrycounter[]{page}\glsnumberformat}{39}
+\glossaryentry{YAML Ain't Markup Language?\glossentry{gls-yaml}|setentrycounter[]{page}\glsnumberformat}{39}
+\glossaryentry{JavaScript Object Notation?\glossentry{gls-json}|setentrycounter[]{page}\glsnumberformat}{39}
+\glossaryentry{MAX/MSP?\glossentry{max/msp}|setentrycounter[]{page}\glsnumberformat}{39}
+\glossaryentry{Graphical User Interface?\glossentry{gls-gui}|setentrycounter[]{page}\glsnumberformat}{41}
+\glossaryentry{Transmission Control Protocol / Internet Protocol?\glossentry{gls-tcp/ip}|setentrycounter[]{page}\glsnumberformat}{42}
+\glossaryentry{Hewlett Packard?\glossentry{gls-hp}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{United Information Systems?\glossentry{gls-unisys}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{Integrated Database Management System?\glossentry{gls-idms}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{Raima Database Manager?\glossentry{gls-rdm}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{TurboIMAGE?\glossentry{turboimage}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{Unisys OS 2200 databases?\glossentry{gls-os_2200}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{Apache?\glossentry{apache}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{Sparsity?\glossentry{sparsity}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{MongoDB?\glossentry{mongodb}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{Redis?\glossentry{redis}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{Cassandra?\glossentry{cassandra}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{Sparksee?\glossentry{sparksee}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{MySQL?\glossentry{mysql}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{Oracle Corporation?\glossentry{gls-oracle}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{PostgreSQL?\glossentry{postgresql}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{Microsoft Access?\glossentry{gls-access}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{Structured Query Language Lite?\glossentry{gls-sqlite}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{XPlain?\glossentry{xplain}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{Apache?\glossentry{apache}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{Neo4j?\glossentry{neo4j}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{ArangoDB?\glossentry{arangodb}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{Boost Software Library?\glossentry{gls-boost}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{NetworkX?\glossentry{gls-networkx}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{Apache?\glossentry{apache}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{Smalltalk?\glossentry{smalltalk}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{LISt Processor?\glossentry{gls-lisp}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{SQLObject?\glossentry{sqlobject}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{Sedna?\glossentry{sedna}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{Adaptive Server Enterprise?\glossentry{gls-ase}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{High Performance Analytics Appliance?\glossentry{gls-sap_hana}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{Information Retrieval?\glossentry{gls-ir}|setentrycounter[]{page}\glsnumberformat}{45}
+\glossaryentry{International Society for Music Information Retrieval?\glossentry{gls-ismir}|setentrycounter[]{page}\glsnumberformat}{45}
+\glossaryentry{Freesound?\glossentry{freesound}|setentrycounter[]{page}\glsnumberformat}{46}
+\glossaryentry{Looperman.com?\glossentry{gls-looperman}|setentrycounter[]{page}\glsnumberformat}{46}
+\glossaryentry{Centre des Musiques Arabes et Mediterraneennes?\glossentry{gls-cmam}|setentrycounter[]{page}\glsnumberformat}{46}
+\glossaryentry{Telemeta?\glossentry{telemeta}|setentrycounter[]{page}\glsnumberformat}{46}
+\glossaryentry{Freesound?\glossentry{freesound}|setentrycounter[]{page}\glsnumberformat}{46}
+\glossaryentry{UbuWeb?\glossentry{ubuweb}|setentrycounter[]{page}\glsnumberformat}{46}
+\glossaryentry{Essen Associative Code?\glossentry{gls-esac}|setentrycounter[]{page}\glsnumberformat}{46}
+\glossaryentry{MuseData?\glossentry{musedata}|setentrycounter[]{page}\glsnumberformat}{46}
+\glossaryentry{Repertoire International des Sources Musicales?\glossentry{gls-rism}|setentrycounter[]{page}\glsnumberformat}{46}
+\glossaryentry{Massachusetts Institute of Technology?\glossentry{gls-mit}|setentrycounter[]{page}\glsnumberformat}{46}
+\glossaryentry{Music21?\glossentry{music21}|setentrycounter[]{page}\glsnumberformat}{46}
+\glossaryentry{Music Analysis, Retrieval and Synthesis for Audio Signals?\glossentry{gls-marsyas}|setentrycounter[]{page}\glsnumberformat}{46}
+\glossaryentry{Essentia?\glossentry{essentia}|setentrycounter[]{page}\glsnumberformat}{46}
+\glossaryentry{Musical Instrument Museums Online?\glossentry{gls-mimo}|setentrycounter[]{page}\glsnumberformat}{46}
+\glossaryentry{generative theory of tonal music?\glossentry{gls-gttm}|setentrycounter[]{page}\glsnumberformat}{47}
+\glossaryentry{regions of interest?\glossentry{gls-roi}|setentrycounter[]{page}\glsnumberformat}{50}
+\glossaryentry{QCD-Audio?\glossentry{qcd-audio}|setentrycounter[]{page}\glsnumberformat}{51}
+\glossaryentry{Institute of Electronic Music and Acoustics?\glossentry{gls-iem}|setentrycounter[]{page}\glsnumberformat}{51}
+\glossaryentry{Quantuum Electrodynamics?\glossentry{gls-qed}|setentrycounter[]{page}\glsnumberformat}{51}
+\glossaryentry{Coastal Data Information Program?\glossentry{gls-cdip}|setentrycounter[]{page}\glsnumberformat}{52}
+\glossaryentry{gigabyte?\glossentry{gls-gb}|setentrycounter[]{page}\glsnumberformat}{52}
+\glossaryentry{Human Metabolome Database?\glossentry{gls-hmdb}|setentrycounter[]{page}\glsnumberformat}{52}
+\glossaryentry{Nuclear magnetic resonance?\glossentry{gls-nmr}|setentrycounter[]{page}\glsnumberformat}{52}
+\glossaryentry{International Computer Music Conference?\glossentry{gls-icmc}|setentrycounter[]{page}\glsnumberformat}{52}
+\glossaryentry{New Interfaces for Musical Expression?\glossentry{gls-nime}|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{Hypertext Transfer Protocol?\glossentry{gls-http}|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{Center for Network-Centric Cognition and Information Fusion?\glossentry{gls-nc2if}|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{Incorporated Research Institutions for Seismology?\glossentry{gls-iris}|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{Frequency Modulation?\glossentry{gls-fm}|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{Graphics Processing Unit?\glossentry{gls-gpu}|setentrycounter[]{page}\glsnumberformat}{54}
+\glossaryentry{central processing unit?\glossentry{gls-cpu}|setentrycounter[]{page}\glsnumberformat}{54}
+\glossaryentry{SonART?\glossentry{sonart}|setentrycounter[]{page}\glsnumberformat}{54}
+\glossaryentry{Open Sound Control?\glossentry{gls-osc}|setentrycounter[]{page}\glsnumberformat}{55}
+\glossaryentry{MAX/MSP?\glossentry{max/msp}|setentrycounter[]{page}\glsnumberformat}{55}
+\glossaryentry{Automatic Flow for Materials Discovery?\glossentry{gls-aflowlib}|setentrycounter[]{page}\glsnumberformat}{55}
+\glossaryentry{madBPM?\glossentry{madbpm}|setentrycounter[]{page}\glsnumberformat}{55}
+\glossaryentry{Comma Separated Values?\glossentry{gls-csv}|setentrycounter[]{page}\glsnumberformat}{55}
+\glossaryentry{OpenFrameworks?\glossentry{gls-ofx}|setentrycounter[]{page}\glsnumberformat}{55}
+\glossaryentry{Domain Specific Language?\glossentry{gls-dsl}|setentrycounter[]{page}\glsnumberformat}{56}
+\glossaryentry{Sonifying Data?\glossentry{gls-sondata}|setentrycounter[]{page}\glsnumberformat}{56}
+\glossaryentry{Human Computer Interaction?\glossentry{gls-hci}|setentrycounter[]{page}\glsnumberformat}{57}
+\glossaryentry{SCRIVA?\glossentry{scriva}|setentrycounter[]{page}\glsnumberformat}{58}
 \glossaryentry{SCRIVA?\glossentry{scriva}|setentrycounter[]{page}\glsnumberformat}{60}
-\glossaryentry{SCRIVA?\glossentry{scriva}|setentrycounter[]{page}\glsnumberformat}{62}
-\glossaryentry{Musical Instrument Digital Interface?\glossentry{gls-midi}|setentrycounter[]{page}\glsnumberformat}{63}
-\glossaryentry{MusicXML?\glossentry{gls-musicxml}|setentrycounter[]{page}\glsnumberformat}{65}
-\glossaryentry{GUIDO Music Notation Format?\glossentry{gls-guido}|setentrycounter[]{page}\glsnumberformat}{65}
-\glossaryentry{Digital Alternate Representation of Musical Scores?\glossentry{gls-darms}|setentrycounter[]{page}\glsnumberformat}{65}
+\glossaryentry{Musical Instrument Digital Interface?\glossentry{gls-midi}|setentrycounter[]{page}\glsnumberformat}{61}
+\glossaryentry{MusicXML?\glossentry{gls-musicxml}|setentrycounter[]{page}\glsnumberformat}{63}
+\glossaryentry{GUIDO Music Notation Format?\glossentry{gls-guido}|setentrycounter[]{page}\glsnumberformat}{63}
+\glossaryentry{Digital Alternate Representation of Musical Scores?\glossentry{gls-darms}|setentrycounter[]{page}\glsnumberformat}{63}
+\glossaryentry{SCORE?\glossentry{score}|setentrycounter[]{page}\glsnumberformat}{63}
+\glossaryentry{SCORE?\glossentry{score}|setentrycounter[]{page}\glsnumberformat}{63}
+\glossaryentry{MUSIC-V?\glossentry{music-v}|setentrycounter[]{page}\glsnumberformat}{63}
+\glossaryentry{SCORE?\glossentry{score}|setentrycounter[]{page}\glsnumberformat}{64}
+\glossaryentry{MUSIC-V?\glossentry{music-v}|setentrycounter[]{page}\glsnumberformat}{64}
+\glossaryentry{SCORE?\glossentry{score}|setentrycounter[]{page}\glsnumberformat}{64}
+\glossaryentry{SCORE?\glossentry{score}|setentrycounter[]{page}\glsnumberformat}{64}
+\glossaryentry{MUSIC-11?\glossentry{music-11}|setentrycounter[]{page}\glsnumberformat}{64}
+\glossaryentry{MUSIC-11?\glossentry{music-11}|setentrycounter[]{page}\glsnumberformat}{64}
+\glossaryentry{MUSIC-N?\glossentry{music-n}|setentrycounter[]{page}\glsnumberformat}{64}
+\glossaryentry{Center for Computer Research in Music and Acoustics?\glossentry{gls-ccrma}|setentrycounter[]{page}\glsnumberformat}{64}
+\glossaryentry{Smalltalk?\glossentry{smalltalk}|setentrycounter[]{page}\glsnumberformat}{65}
+\glossaryentry{Objective-C?\glossentry{objective-c}|setentrycounter[]{page}\glsnumberformat}{65}
+\glossaryentry{NeXT?\glossentry{next}|setentrycounter[]{page}\glsnumberformat}{65}
 \glossaryentry{SCORE?\glossentry{score}|setentrycounter[]{page}\glsnumberformat}{65}
-\glossaryentry{SCORE?\glossentry{score}|setentrycounter[]{page}\glsnumberformat}{65}
-\glossaryentry{MUSIC-V?\glossentry{music-v}|setentrycounter[]{page}\glsnumberformat}{65}
-\glossaryentry{SCORE?\glossentry{score}|setentrycounter[]{page}\glsnumberformat}{66}
-\glossaryentry{MUSIC-V?\glossentry{music-v}|setentrycounter[]{page}\glsnumberformat}{66}
-\glossaryentry{SCORE?\glossentry{score}|setentrycounter[]{page}\glsnumberformat}{66}
-\glossaryentry{SCORE?\glossentry{score}|setentrycounter[]{page}\glsnumberformat}{66}
 \glossaryentry{MUSIC-11?\glossentry{music-11}|setentrycounter[]{page}\glsnumberformat}{66}
 \glossaryentry{MUSIC-11?\glossentry{music-11}|setentrycounter[]{page}\glsnumberformat}{66}
-\glossaryentry{MUSIC-N?\glossentry{music-n}|setentrycounter[]{page}\glsnumberformat}{66}
-\glossaryentry{Center for Computer Research in Music and Acoustics?\glossentry{gls-ccrma}|setentrycounter[]{page}\glsnumberformat}{66}
-\glossaryentry{Smalltalk?\glossentry{smalltalk}|setentrycounter[]{page}\glsnumberformat}{67}
-\glossaryentry{Objective-C?\glossentry{objective-c}|setentrycounter[]{page}\glsnumberformat}{67}
-\glossaryentry{NeXT?\glossentry{next}|setentrycounter[]{page}\glsnumberformat}{67}
-\glossaryentry{SCORE?\glossentry{score}|setentrycounter[]{page}\glsnumberformat}{67}
-\glossaryentry{MUSIC-11?\glossentry{music-11}|setentrycounter[]{page}\glsnumberformat}{68}
-\glossaryentry{MUSIC-11?\glossentry{music-11}|setentrycounter[]{page}\glsnumberformat}{68}
-\glossaryentry{Institut de Recherche et Coordination Acoustique/Musique?\glossentry{gls-ircam}|setentrycounter[]{page}\glsnumberformat}{68}
-\glossaryentry{Max?\glossentry{max}|setentrycounter[]{page}\glsnumberformat}{68}
+\glossaryentry{Institut de Recherche et Coordination Acoustique/Musique?\glossentry{gls-ircam}|setentrycounter[]{page}\glsnumberformat}{66}
+\glossaryentry{Max?\glossentry{max}|setentrycounter[]{page}\glsnumberformat}{66}
+\glossaryentry{Max?\glossentry{max}|setentrycounter[]{page}\glsnumberformat}{67}
+\glossaryentry{Computer Based Education Research Laboratory?\glossentry{gls-cerl}|setentrycounter[]{page}\glsnumberformat}{67}
+\glossaryentry{Hierarchical Music Specification Language?\glossentry{gls-hmsl}|setentrycounter[]{page}\glsnumberformat}{68}
+\glossaryentry{MUSIC-V?\glossentry{music-v}|setentrycounter[]{page}\glsnumberformat}{68}
 \glossaryentry{Max?\glossentry{max}|setentrycounter[]{page}\glsnumberformat}{69}
-\glossaryentry{Computer Based Education Research Laboratory?\glossentry{gls-cerl}|setentrycounter[]{page}\glsnumberformat}{69}
-\glossaryentry{Hierarchical Music Specification Language?\glossentry{gls-hmsl}|setentrycounter[]{page}\glsnumberformat}{70}
-\glossaryentry{MUSIC-V?\glossentry{music-v}|setentrycounter[]{page}\glsnumberformat}{70}
-\glossaryentry{Max?\glossentry{max}|setentrycounter[]{page}\glsnumberformat}{71}
-\glossaryentry{MAX/MSP?\glossentry{max/msp}|setentrycounter[]{page}\glsnumberformat}{71}
-\glossaryentry{Max?\glossentry{max}|setentrycounter[]{page}\glsnumberformat}{71}
-\glossaryentry{Max?\glossentry{max}|setentrycounter[]{page}\glsnumberformat}{71}
-\glossaryentry{Max?\glossentry{max}|setentrycounter[]{page}\glsnumberformat}{72}
-\glossaryentry{Realtime Cmix?\glossentry{gls-rtcmix}|setentrycounter[]{page}\glsnumberformat}{73}
-\glossaryentry{Cmix?\glossentry{cmix}|setentrycounter[]{page}\glsnumberformat}{73}
-\glossaryentry{Cmix?\glossentry{cmix}|setentrycounter[]{page}\glsnumberformat}{73}
-\glossaryentry{MAX/MSP?\glossentry{max/msp}|setentrycounter[]{page}\glsnumberformat}{74}
-\glossaryentry{Short Time Fourier Transform?\glossentry{gls-stft}|setentrycounter[]{page}\glsnumberformat}{76}
-\glossaryentry{Real-Time Corpus-Based Concatenative Synthesis?\glossentry{gls-catart}|setentrycounter[]{page}\glsnumberformat}{77}
-\glossaryentry{MAX/MSP?\glossentry{max/msp}|setentrycounter[]{page}\glsnumberformat}{77}
-\glossaryentry{AudioGuide?\glossentry{audioguide}|setentrycounter[]{page}\glsnumberformat}{77}
-\glossaryentry{Freesound?\glossentry{freesound}|setentrycounter[]{page}\glsnumberformat}{77}
-\glossaryentry{Content Based Unified Interfaces and Descriptors for Audio/music Databases available Online?\glossentry{gls-cuidado}|setentrycounter[]{page}\glsnumberformat}{77}
-\glossaryentry{Disk Jockey?\glossentry{gls-dj}|setentrycounter[]{page}\glsnumberformat}{77}
-\glossaryentry{MAX/MSP?\glossentry{max/msp}|setentrycounter[]{page}\glsnumberformat}{78}
-\glossaryentry{Linear Predictive Coding?\glossentry{gls-lpc}|setentrycounter[]{page}\glsnumberformat}{79}
-\glossaryentry{Galvanic Skin Response?\glossentry{gls-gsr}|setentrycounter[]{page}\glsnumberformat}{80}
-\glossaryentry{MySQL?\glossentry{mysql}|setentrycounter[]{page}\glsnumberformat}{80}
-\glossaryentry{I Operating System?\glossentry{gls-ios}|setentrycounter[]{page}\glsnumberformat}{81}
-\glossaryentry{Application Programming Interface?\glossentry{gls-api}|setentrycounter[]{page}\glsnumberformat}{81}
-\glossaryentry{Center for New Music and Audio Technologies?\glossentry{gls-cnmat}|setentrycounter[]{page}\glsnumberformat}{82}
-\glossaryentry{PostgreSQL?\glossentry{postgresql}|setentrycounter[]{page}\glsnumberformat}{82}
-\glossaryentry{MetriX in Extensible Markup Language?\glossentry{gls-metrixml}|setentrycounter[]{page}\glsnumberformat}{83}
-\glossaryentry{Videoalive Indexer Extracted Closed Captions and Metadata?\glossentry{gls-ixd}|setentrycounter[]{page}\glsnumberformat}{83}
-\glossaryentry{Sound Description Interchange Format?\glossentry{gls-sdif}|setentrycounter[]{page}\glsnumberformat}{84}
-\glossaryentry{Gesture Description Interchange Format?\glossentry{gls-gdif}|setentrycounter[]{page}\glsnumberformat}{84}
-\glossaryentry{Sinusoidal Partial Editing Analysis and Resynthesis?\glossentry{gls-spear}|setentrycounter[]{page}\glsnumberformat}{84}
-\glossaryentry{Creative Commons?\glossentry{gls-cc}|setentrycounter[]{page}\glsnumberformat}{84}
-\glossaryentry{Freesound?\glossentry{freesound}|setentrycounter[]{page}\glsnumberformat}{84}
-\glossaryentry{Electronic dance music?\glossentry{gls-edm}|setentrycounter[]{page}\glsnumberformat}{85}
-\glossaryentry{Random Access Memory?\glossentry{gls-ram}|setentrycounter[]{page}\glsnumberformat}{96}
-\glossaryentry{Experiments in Music Intelligence?\glossentry{gls-emi}|setentrycounter[]{page}\glsnumberformat}{133}
-\glossaryentry{Automatic Computer Assisted Design?\glossentry{gls-autocad}|setentrycounter[]{page}\glsnumberformat}{138}
-\glossaryentry{IBM-7090?\glossentry{ibm-7090}|setentrycounter[]{page}\glsnumberformat}{144}
-\glossaryentry{IBM-7090?\glossentry{ibm-7090}|setentrycounter[]{page}\glsnumberformat}{144}
-\glossaryentry{MUsic SImulator-Interpreter for COMpositional Procedures?\glossentry{gls-musicomp}|setentrycounter[]{page}\glsnumberformat}{144}
-\glossaryentry{IBM-7090?\glossentry{ibm-7090}|setentrycounter[]{page}\glsnumberformat}{144}
-\glossaryentry{IBM-7090?\glossentry{ibm-7090}|setentrycounter[]{page}\glsnumberformat}{144}
-\glossaryentry{IBM-7090?\glossentry{ibm-7090}|setentrycounter[]{page}\glsnumberformat}{144}
-\glossaryentry{IBM-7090?\glossentry{ibm-7090}|setentrycounter[]{page}\glsnumberformat}{144}
-\glossaryentry{IBM-7090?\glossentry{ibm-7090}|setentrycounter[]{page}\glsnumberformat}{144}
-\glossaryentry{IBM-7090?\glossentry{ibm-7090}|setentrycounter[]{page}\glsnumberformat}{145}
-\glossaryentry{IBM-7090?\glossentry{ibm-7090}|setentrycounter[]{page}\glsnumberformat}{145}
+\glossaryentry{MAX/MSP?\glossentry{max/msp}|setentrycounter[]{page}\glsnumberformat}{69}
+\glossaryentry{Max?\glossentry{max}|setentrycounter[]{page}\glsnumberformat}{69}
+\glossaryentry{Max?\glossentry{max}|setentrycounter[]{page}\glsnumberformat}{69}
+\glossaryentry{Max?\glossentry{max}|setentrycounter[]{page}\glsnumberformat}{70}
+\glossaryentry{Realtime Cmix?\glossentry{gls-rtcmix}|setentrycounter[]{page}\glsnumberformat}{71}
+\glossaryentry{Cmix?\glossentry{cmix}|setentrycounter[]{page}\glsnumberformat}{71}
+\glossaryentry{Cmix?\glossentry{cmix}|setentrycounter[]{page}\glsnumberformat}{71}
+\glossaryentry{MAX/MSP?\glossentry{max/msp}|setentrycounter[]{page}\glsnumberformat}{72}
+\glossaryentry{Short Time Fourier Transform?\glossentry{gls-stft}|setentrycounter[]{page}\glsnumberformat}{74}
+\glossaryentry{Real-Time Corpus-Based Concatenative Synthesis?\glossentry{gls-catart}|setentrycounter[]{page}\glsnumberformat}{75}
+\glossaryentry{MAX/MSP?\glossentry{max/msp}|setentrycounter[]{page}\glsnumberformat}{75}
+\glossaryentry{AudioGuide?\glossentry{audioguide}|setentrycounter[]{page}\glsnumberformat}{75}
+\glossaryentry{Freesound?\glossentry{freesound}|setentrycounter[]{page}\glsnumberformat}{75}
+\glossaryentry{Content Based Unified Interfaces and Descriptors for Audio/music Databases available Online?\glossentry{gls-cuidado}|setentrycounter[]{page}\glsnumberformat}{75}
+\glossaryentry{Disk Jockey?\glossentry{gls-dj}|setentrycounter[]{page}\glsnumberformat}{75}
+\glossaryentry{MAX/MSP?\glossentry{max/msp}|setentrycounter[]{page}\glsnumberformat}{76}
+\glossaryentry{Linear Predictive Coding?\glossentry{gls-lpc}|setentrycounter[]{page}\glsnumberformat}{77}
+\glossaryentry{Galvanic Skin Response?\glossentry{gls-gsr}|setentrycounter[]{page}\glsnumberformat}{78}
+\glossaryentry{MySQL?\glossentry{mysql}|setentrycounter[]{page}\glsnumberformat}{78}
+\glossaryentry{I Operating System?\glossentry{gls-ios}|setentrycounter[]{page}\glsnumberformat}{79}
+\glossaryentry{Application Programming Interface?\glossentry{gls-api}|setentrycounter[]{page}\glsnumberformat}{79}
+\glossaryentry{Center for New Music and Audio Technologies?\glossentry{gls-cnmat}|setentrycounter[]{page}\glsnumberformat}{80}
+\glossaryentry{PostgreSQL?\glossentry{postgresql}|setentrycounter[]{page}\glsnumberformat}{80}
+\glossaryentry{MetriX in Extensible Markup Language?\glossentry{gls-metrixml}|setentrycounter[]{page}\glsnumberformat}{81}
+\glossaryentry{Videoalive Indexer Extracted Closed Captions and Metadata?\glossentry{gls-ixd}|setentrycounter[]{page}\glsnumberformat}{81}
+\glossaryentry{Sound Description Interchange Format?\glossentry{gls-sdif}|setentrycounter[]{page}\glsnumberformat}{82}
+\glossaryentry{Gesture Description Interchange Format?\glossentry{gls-gdif}|setentrycounter[]{page}\glsnumberformat}{82}
+\glossaryentry{Sinusoidal Partial Editing Analysis and Resynthesis?\glossentry{gls-spear}|setentrycounter[]{page}\glsnumberformat}{82}
+\glossaryentry{Creative Commons?\glossentry{gls-cc}|setentrycounter[]{page}\glsnumberformat}{82}
+\glossaryentry{Freesound?\glossentry{freesound}|setentrycounter[]{page}\glsnumberformat}{82}
+\glossaryentry{Electronic dance music?\glossentry{gls-edm}|setentrycounter[]{page}\glsnumberformat}{83}
+\glossaryentry{Random Access Memory?\glossentry{gls-ram}|setentrycounter[]{page}\glsnumberformat}{94}
+\glossaryentry{Experiments in Music Intelligence?\glossentry{gls-emi}|setentrycounter[]{page}\glsnumberformat}{131}
+\glossaryentry{Automatic Computer Assisted Design?\glossentry{gls-autocad}|setentrycounter[]{page}\glsnumberformat}{136}
+\glossaryentry{IBM-7090?\glossentry{ibm-7090}|setentrycounter[]{page}\glsnumberformat}{142}
+\glossaryentry{IBM-7090?\glossentry{ibm-7090}|setentrycounter[]{page}\glsnumberformat}{142}
+\glossaryentry{MUsic SImulator-Interpreter for COMpositional Procedures?\glossentry{gls-musicomp}|setentrycounter[]{page}\glsnumberformat}{142}
+\glossaryentry{IBM-7090?\glossentry{ibm-7090}|setentrycounter[]{page}\glsnumberformat}{142}
+\glossaryentry{IBM-7090?\glossentry{ibm-7090}|setentrycounter[]{page}\glsnumberformat}{142}
+\glossaryentry{IBM-7090?\glossentry{ibm-7090}|setentrycounter[]{page}\glsnumberformat}{142}
+\glossaryentry{IBM-7090?\glossentry{ibm-7090}|setentrycounter[]{page}\glsnumberformat}{142}
+\glossaryentry{IBM-7090?\glossentry{ibm-7090}|setentrycounter[]{page}\glsnumberformat}{142}
+\glossaryentry{IBM-7090?\glossentry{ibm-7090}|setentrycounter[]{page}\glsnumberformat}{143}
+\glossaryentry{IBM-7090?\glossentry{ibm-7090}|setentrycounter[]{page}\glsnumberformat}{143}
+\glossaryentry{MUSIC-V?\glossentry{music-v}|setentrycounter[]{page}\glsnumberformat}{145}
+\glossaryentry{MUSIC-V?\glossentry{music-v}|setentrycounter[]{page}\glsnumberformat}{146}
 \glossaryentry{MUSIC-V?\glossentry{music-v}|setentrycounter[]{page}\glsnumberformat}{147}
-\glossaryentry{MUSIC-V?\glossentry{music-v}|setentrycounter[]{page}\glsnumberformat}{148}
-\glossaryentry{MUSIC-V?\glossentry{music-v}|setentrycounter[]{page}\glsnumberformat}{149}
-\glossaryentry{Max?\glossentry{max}|setentrycounter[]{page}\glsnumberformat}{150}
-\glossaryentry{Max?\glossentry{max}|setentrycounter[]{page}\glsnumberformat}{150}
-\glossaryentry{Max?\glossentry{max}|setentrycounter[]{page}\glsnumberformat}{151}
-\glossaryentry{Max?\glossentry{max}|setentrycounter[]{page}\glsnumberformat}{151}
-\glossaryentry{MAX/MSP?\glossentry{max/msp}|setentrycounter[]{page}\glsnumberformat}{158}
-\glossaryentry{Automatic Flow for Materials Discovery?\glossentry{gls-aflowlib}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Application Programming Interface?\glossentry{gls-api}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{ArangoDB?\glossentry{arangodb}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Adaptive Server Enterprise?\glossentry{gls-ase}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Apache Software Foundation?\glossentry{gls-asf}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Automatic Computer Assisted Design?\glossentry{gls-autocad}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Computer Aided Design?\glossentry{gls-cad}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Computer Assisted Music Project?\glossentry{gls-camp}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Computer Aided Software Engineering?\glossentry{gls-case}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Creative Commons?\glossentry{gls-cc}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Center for Computer Research in Music and Acoustics?\glossentry{gls-ccrma}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Coastal Data Information Program?\glossentry{gls-cdip}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Computer Based Education Research Laboratory?\glossentry{gls-cerl}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Cmix?\glossentry{cmix}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Center for New Music and Audio Technologies?\glossentry{gls-cnmat}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Common Business Oriented Language?\glossentry{gls-cobol}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Conference/Committee on Data Systems Languages?\glossentry{gls-codasyl}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Composition Path?\glossentry{gls-compath}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{central processing unit?\glossentry{gls-cpu}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Comma Separated Values?\glossentry{gls-csv}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Content Based Unified Interfaces and Descriptors for Audio/music Databases available Online?\glossentry{gls-cuidado}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Cluster Weighted Modeling?\glossentry{gls-cwm}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Digital Alternate Representation of Musical Scores?\glossentry{gls-darms}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Database Managemet System?\glossentry{gls-dbms}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Data Definition Language?\glossentry{gls-ddl}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Disk Jockey?\glossentry{gls-dj}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{data manipulation language?\glossentry{gls-dml}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Document Object Model?\glossentry{gls-dom}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Domain Specific Language?\glossentry{gls-dsl}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Electronic dance music?\glossentry{gls-edm}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Entity Relationship?\glossentry{gls-er}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Exasol AG?\glossentry{exasol_ag}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Frequency Modulation?\glossentry{gls-fm}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{FORMES?\glossentry{formes}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Formula Translation?\glossentry{gls-fortran}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{gigabyte?\glossentry{gls-gb}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Gesture Description Interchange Format?\glossentry{gls-gdif}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Graphics Processing Unit?\glossentry{gls-gpu}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Galvanic Skin Response?\glossentry{gls-gsr}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{generative theory of tonal music?\glossentry{gls-gttm}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Human Computer Interaction?\glossentry{gls-hci}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Human Metabolome Database?\glossentry{gls-hmdb}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Hewlett Packard?\glossentry{gls-hp}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Hypertext Markup Language?\glossentry{gls-html}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Hypertext Transfer Protocol?\glossentry{gls-http}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{International Business Machines Corporation?\glossentry{gls-ibm}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{ICloud?\glossentry{icloud}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{International Computer Music Conference?\glossentry{gls-icmc}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Integrated Database Management System?\glossentry{gls-idms}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Integrated Data Store?\glossentry{gls-ids}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Institute of Electronic Music and Acoustics?\glossentry{gls-iem}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{In Memory Data Bases?\glossentry{gls-imdbs}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Information Management System?\glossentry{gls-ims}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{I Operating System?\glossentry{gls-ios}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Internet Protocol?\glossentry{gls-ip}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Information Retrieval?\glossentry{gls-ir}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Institut de Recherche et Coordination Acoustique/Musique?\glossentry{gls-ircam}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Incorporated Research Institutions for Seismology?\glossentry{gls-iris}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{International Society for Music Information Retrieval?\glossentry{gls-ismir}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Videoalive Indexer Extracted Closed Captions and Metadata?\glossentry{gls-ixd}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{JavaScript Object Notation?\glossentry{gls-json}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Local Boundaries Detection Model?\glossentry{gls-lbdm}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{LISt Processor?\glossentry{gls-lisp}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Linear Predictive Coding?\glossentry{gls-lpc}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{madBPM?\glossentry{madbpm}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Max?\glossentry{max}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{MAX/MSP?\glossentry{max/msp}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{MetriX in Extensible Markup Language?\glossentry{gls-metrixml}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Musical Instrument Digital Interface?\glossentry{gls-midi}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Music information retrieval?\glossentry{gls-mir}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Massachusetts Institute of Technology?\glossentry{gls-mit}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{MongoDB?\glossentry{mongodb}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{MUSIC-11?\glossentry{music-11}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{MUSIC-V?\glossentry{music-v}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{MUSIC-IV?\glossentry{music-iv}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{MUSIC-N?\glossentry{music-n}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{MySQL?\glossentry{mysql}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{National Aeronautics and Space Administration?\glossentry{gls-nasa}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Neo4j?\glossentry{neo4j}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{net.loadbang-SQL?\glossentry{net.loadbang-sql}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{NeXT?\glossentry{next}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{New Interfaces for Musical Expression?\glossentry{gls-nime}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Nuclear magnetic resonance?\glossentry{gls-nmr}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Non or Not only SQL?\glossentry{gls-nosql}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{New York University?\glossentry{gls-nyu}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Oracle Corporation?\glossentry{gls-oracle}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Unisys OS 2200 databases?\glossentry{gls-os_2200}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Open Sound Control?\glossentry{gls-osc}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{PostgreSQL?\glossentry{postgresql}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Phase Vocoder?\glossentry{gls-pvc}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{QCD-Audio?\glossentry{qcd-audio}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Quantuum Electrodynamics?\glossentry{gls-qed}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Random Access Memory?\glossentry{gls-ram}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Raima Database Manager?\glossentry{gls-rdm}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Relational Model/Tasmania?\glossentry{gls-rm/t}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{regions of interest?\glossentry{gls-roi}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Realtime Cmix?\glossentry{gls-rtcmix}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Real World Computing Music Database?\glossentry{gls-rwc}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{High Performance Analytics Appliance?\glossentry{gls-sap_hana}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{SCORE?\glossentry{score}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{SCRIVA?\glossentry{scriva}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Sound Description Interchange Format?\glossentry{gls-sdif}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Synchronized Multimedia Integration Language?\glossentry{gls-smil}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{SonART?\glossentry{sonart}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Sinusoidal Partial Editing Analysis and Resynthesis?\glossentry{gls-spear}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Structured Query Language?\glossentry{gls-sql}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Structured Query Language Lite?\glossentry{gls-sqlite}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Structured Sound Synthesis Project?\glossentry{gls-sssp}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Short Time Fourier Transform?\glossentry{gls-stft}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Speech Transformation and Representation using Adaptive Interpolation of weiGHTed spectrogram?\glossentry{gls-straight}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Sybase?\glossentry{sybase}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Transmission Control Protocol / Internet Protocol?\glossentry{gls-tcp/ip}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Timbre Identification?\glossentry{gls-timbreid}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{TimesTen?\glossentry{timesten}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{TurboIMAGE?\glossentry{turboimage}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Uniform Resource Identifier?\glossentry{gls-uri}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Uniform Resource Locator?\glossentry{gls-url}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{VMWare?\glossentry{vmware}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{WebDNA?\glossentry{webdna}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Extensible Markup Language?\glossentry{gls-xml}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{XPlain?\glossentry{xplain}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{YAML Ain't Markup Language?\glossentry{gls-yaml}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Microsoft Access?\glossentry{gls-access}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Apache?\glossentry{apache}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{AudioGuide?\glossentry{audioguide}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Boost Software Library?\glossentry{gls-boost}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Computer-Aided Algorithmic Composition?\glossentry{gls-caac}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Cassandra?\glossentry{cassandra}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Real-Time Corpus-Based Concatenative Synthesis?\glossentry{gls-catart}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Centre des Musiques Arabes et Mediterraneennes?\glossentry{gls-cmam}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Appache Couch Database?\glossentry{gls-couchdb}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Experiments in Music Intelligence?\glossentry{gls-emi}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Essen Associative Code?\glossentry{gls-esac}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Essentia?\glossentry{essentia}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Freesound?\glossentry{freesound}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Graphical User Interface?\glossentry{gls-gui}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{GUIDO Music Notation Format?\glossentry{gls-guido}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Hierarchical Music Specification Language?\glossentry{gls-hmsl}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{IBM-7090?\glossentry{ibm-7090}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Looperman.com?\glossentry{gls-looperman}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Music Analysis, Retrieval and Synthesis for Audio Signals?\glossentry{gls-marsyas}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Musical Instrument Museums Online?\glossentry{gls-mimo}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{MuseData?\glossentry{musedata}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Music21?\glossentry{music21}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{MUsic SImulator-Interpreter for COMpositional Procedures?\glossentry{gls-musicomp}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{MusicXML?\glossentry{gls-musicxml}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Center for Network-Centric Cognition and Information Fusion?\glossentry{gls-nc2if}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{NetworkX?\glossentry{gls-networkx}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Objective-C?\glossentry{objective-c}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{OpenFrameworks?\glossentry{gls-ofx}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{OMax?\glossentry{omax}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Redis?\glossentry{redis}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Repertoire International des Sources Musicales?\glossentry{gls-rism}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Sedna?\glossentry{sedna}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Smalltalk?\glossentry{smalltalk}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Sonifying Data?\glossentry{gls-sondata}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Sparksee?\glossentry{sparksee}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Sparsity?\glossentry{sparsity}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{SQLObject?\glossentry{sqlobject}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{Telemeta?\glossentry{telemeta}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{UbuWeb?\glossentry{ubuweb}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{United Information Systems?\glossentry{gls-unisys}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{MUSIC-IV?\glossentry{music-iv}|setentrycounter[]{page}\glsnumberformat}{181}
-\glossaryentry{MUSIC-N?\glossentry{music-n}|setentrycounter[]{page}\glsnumberformat}{181}
-\glossaryentry{MUSIC-N?\glossentry{music-n}|setentrycounter[]{page}\glsnumberformat}{181}
-\glossaryentry{Uniform Resource Identifier?\glossentry{gls-uri}|setentrycounter[]{page}\glsnumberformat}{187}
-\glossaryentry{Microsoft Access?\glossentry{gls-access}|setentrycounter[]{page}\glsnumberformat}{189}
-\glossaryentry{Automatic Flow for Materials Discovery?\glossentry{gls-aflowlib}|setentrycounter[]{page}\glsnumberformat}{189}
-\glossaryentry{Application Programming Interface?\glossentry{gls-api}|setentrycounter[]{page}\glsnumberformat}{189}
-\glossaryentry{Adaptive Server Enterprise?\glossentry{gls-ase}|setentrycounter[]{page}\glsnumberformat}{189}
-\glossaryentry{Apache Software Foundation?\glossentry{gls-asf}|setentrycounter[]{page}\glsnumberformat}{189}
-\glossaryentry{Automatic Computer Assisted Design?\glossentry{gls-autocad}|setentrycounter[]{page}\glsnumberformat}{189}
-\glossaryentry{Boost Software Library?\glossentry{gls-boost}|setentrycounter[]{page}\glsnumberformat}{189}
-\glossaryentry{Computer-Aided Algorithmic Composition?\glossentry{gls-caac}|setentrycounter[]{page}\glsnumberformat}{189}
-\glossaryentry{Computer Aided Design?\glossentry{gls-cad}|setentrycounter[]{page}\glsnumberformat}{189}
-\glossaryentry{Computer Assisted Music Project?\glossentry{gls-camp}|setentrycounter[]{page}\glsnumberformat}{189}
-\glossaryentry{Computer Aided Software Engineering?\glossentry{gls-case}|setentrycounter[]{page}\glsnumberformat}{189}
-\glossaryentry{Real-Time Corpus-Based Concatenative Synthesis?\glossentry{gls-catart}|setentrycounter[]{page}\glsnumberformat}{189}
-\glossaryentry{Creative Commons?\glossentry{gls-cc}|setentrycounter[]{page}\glsnumberformat}{189}
-\glossaryentry{Center for Computer Research in Music and Acoustics?\glossentry{gls-ccrma}|setentrycounter[]{page}\glsnumberformat}{190}
-\glossaryentry{Coastal Data Information Program?\glossentry{gls-cdip}|setentrycounter[]{page}\glsnumberformat}{190}
-\glossaryentry{Computer Based Education Research Laboratory?\glossentry{gls-cerl}|setentrycounter[]{page}\glsnumberformat}{190}
-\glossaryentry{Centre des Musiques Arabes et Mediterraneennes?\glossentry{gls-cmam}|setentrycounter[]{page}\glsnumberformat}{190}
-\glossaryentry{Center for New Music and Audio Technologies?\glossentry{gls-cnmat}|setentrycounter[]{page}\glsnumberformat}{190}
-\glossaryentry{Common Business Oriented Language?\glossentry{gls-cobol}|setentrycounter[]{page}\glsnumberformat}{190}
-\glossaryentry{Conference/Committee on Data Systems Languages?\glossentry{gls-codasyl}|setentrycounter[]{page}\glsnumberformat}{190}
-\glossaryentry{Composition Path?\glossentry{gls-compath}|setentrycounter[]{page}\glsnumberformat}{190}
-\glossaryentry{Appache Couch Database?\glossentry{gls-couchdb}|setentrycounter[]{page}\glsnumberformat}{190}
-\glossaryentry{central processing unit?\glossentry{gls-cpu}|setentrycounter[]{page}\glsnumberformat}{190}
-\glossaryentry{Comma Separated Values?\glossentry{gls-csv}|setentrycounter[]{page}\glsnumberformat}{190}
-\glossaryentry{Content Based Unified Interfaces and Descriptors for Audio/music Databases available Online?\glossentry{gls-cuidado}|setentrycounter[]{page}\glsnumberformat}{190}
-\glossaryentry{Cluster Weighted Modeling?\glossentry{gls-cwm}|setentrycounter[]{page}\glsnumberformat}{190}
-\glossaryentry{Digital Alternate Representation of Musical Scores?\glossentry{gls-darms}|setentrycounter[]{page}\glsnumberformat}{190}
-\glossaryentry{Database Managemet System?\glossentry{gls-dbms}|setentrycounter[]{page}\glsnumberformat}{190}
-\glossaryentry{Data Definition Language?\glossentry{gls-ddl}|setentrycounter[]{page}\glsnumberformat}{190}
-\glossaryentry{Disk Jockey?\glossentry{gls-dj}|setentrycounter[]{page}\glsnumberformat}{190}
-\glossaryentry{data manipulation language?\glossentry{gls-dml}|setentrycounter[]{page}\glsnumberformat}{190}
-\glossaryentry{Document Object Model?\glossentry{gls-dom}|setentrycounter[]{page}\glsnumberformat}{190}
-\glossaryentry{Domain Specific Language?\glossentry{gls-dsl}|setentrycounter[]{page}\glsnumberformat}{191}
-\glossaryentry{Electronic dance music?\glossentry{gls-edm}|setentrycounter[]{page}\glsnumberformat}{191}
-\glossaryentry{Experiments in Music Intelligence?\glossentry{gls-emi}|setentrycounter[]{page}\glsnumberformat}{191}
-\glossaryentry{Entity Relationship?\glossentry{gls-er}|setentrycounter[]{page}\glsnumberformat}{191}
-\glossaryentry{Essen Associative Code?\glossentry{gls-esac}|setentrycounter[]{page}\glsnumberformat}{191}
-\glossaryentry{Frequency Modulation?\glossentry{gls-fm}|setentrycounter[]{page}\glsnumberformat}{191}
-\glossaryentry{Formula Translation?\glossentry{gls-fortran}|setentrycounter[]{page}\glsnumberformat}{191}
-\glossaryentry{gigabyte?\glossentry{gls-gb}|setentrycounter[]{page}\glsnumberformat}{191}
-\glossaryentry{Gesture Description Interchange Format?\glossentry{gls-gdif}|setentrycounter[]{page}\glsnumberformat}{191}
-\glossaryentry{Graphics Processing Unit?\glossentry{gls-gpu}|setentrycounter[]{page}\glsnumberformat}{191}
-\glossaryentry{Galvanic Skin Response?\glossentry{gls-gsr}|setentrycounter[]{page}\glsnumberformat}{191}
-\glossaryentry{generative theory of tonal music?\glossentry{gls-gttm}|setentrycounter[]{page}\glsnumberformat}{191}
-\glossaryentry{Graphical User Interface?\glossentry{gls-gui}|setentrycounter[]{page}\glsnumberformat}{191}
-\glossaryentry{GUIDO Music Notation Format?\glossentry{gls-guido}|setentrycounter[]{page}\glsnumberformat}{191}
-\glossaryentry{Human Computer Interaction?\glossentry{gls-hci}|setentrycounter[]{page}\glsnumberformat}{191}
-\glossaryentry{Human Metabolome Database?\glossentry{gls-hmdb}|setentrycounter[]{page}\glsnumberformat}{191}
-\glossaryentry{Hierarchical Music Specification Language?\glossentry{gls-hmsl}|setentrycounter[]{page}\glsnumberformat}{191}
-\glossaryentry{Hewlett Packard?\glossentry{gls-hp}|setentrycounter[]{page}\glsnumberformat}{191}
-\glossaryentry{Hypertext Markup Language?\glossentry{gls-html}|setentrycounter[]{page}\glsnumberformat}{191}
-\glossaryentry{Hypertext Transfer Protocol?\glossentry{gls-http}|setentrycounter[]{page}\glsnumberformat}{191}
-\glossaryentry{International Business Machines Corporation?\glossentry{gls-ibm}|setentrycounter[]{page}\glsnumberformat}{191}
-\glossaryentry{International Computer Music Conference?\glossentry{gls-icmc}|setentrycounter[]{page}\glsnumberformat}{191}
-\glossaryentry{Integrated Database Management System?\glossentry{gls-idms}|setentrycounter[]{page}\glsnumberformat}{192}
-\glossaryentry{Integrated Data Store?\glossentry{gls-ids}|setentrycounter[]{page}\glsnumberformat}{192}
-\glossaryentry{Institute of Electronic Music and Acoustics?\glossentry{gls-iem}|setentrycounter[]{page}\glsnumberformat}{192}
-\glossaryentry{In Memory Data Bases?\glossentry{gls-imdbs}|setentrycounter[]{page}\glsnumberformat}{192}
-\glossaryentry{Information Management System?\glossentry{gls-ims}|setentrycounter[]{page}\glsnumberformat}{192}
-\glossaryentry{I Operating System?\glossentry{gls-ios}|setentrycounter[]{page}\glsnumberformat}{192}
-\glossaryentry{Internet Protocol?\glossentry{gls-ip}|setentrycounter[]{page}\glsnumberformat}{192}
-\glossaryentry{Information Retrieval?\glossentry{gls-ir}|setentrycounter[]{page}\glsnumberformat}{192}
-\glossaryentry{Institut de Recherche et Coordination Acoustique/Musique?\glossentry{gls-ircam}|setentrycounter[]{page}\glsnumberformat}{192}
-\glossaryentry{Incorporated Research Institutions for Seismology?\glossentry{gls-iris}|setentrycounter[]{page}\glsnumberformat}{192}
-\glossaryentry{International Society for Music Information Retrieval?\glossentry{gls-ismir}|setentrycounter[]{page}\glsnumberformat}{192}
-\glossaryentry{Videoalive Indexer Extracted Closed Captions and Metadata?\glossentry{gls-ixd}|setentrycounter[]{page}\glsnumberformat}{192}
-\glossaryentry{JavaScript Object Notation?\glossentry{gls-json}|setentrycounter[]{page}\glsnumberformat}{192}
-\glossaryentry{Local Boundaries Detection Model?\glossentry{gls-lbdm}|setentrycounter[]{page}\glsnumberformat}{192}
-\glossaryentry{LISt Processor?\glossentry{gls-lisp}|setentrycounter[]{page}\glsnumberformat}{192}
-\glossaryentry{Looperman.com?\glossentry{gls-looperman}|setentrycounter[]{page}\glsnumberformat}{192}
-\glossaryentry{Linear Predictive Coding?\glossentry{gls-lpc}|setentrycounter[]{page}\glsnumberformat}{192}
-\glossaryentry{Music Analysis, Retrieval and Synthesis for Audio Signals?\glossentry{gls-marsyas}|setentrycounter[]{page}\glsnumberformat}{192}
-\glossaryentry{MetriX in Extensible Markup Language?\glossentry{gls-metrixml}|setentrycounter[]{page}\glsnumberformat}{193}
-\glossaryentry{Musical Instrument Digital Interface?\glossentry{gls-midi}|setentrycounter[]{page}\glsnumberformat}{193}
-\glossaryentry{Musical Instrument Museums Online?\glossentry{gls-mimo}|setentrycounter[]{page}\glsnumberformat}{193}
-\glossaryentry{Music information retrieval?\glossentry{gls-mir}|setentrycounter[]{page}\glsnumberformat}{193}
-\glossaryentry{Massachusetts Institute of Technology?\glossentry{gls-mit}|setentrycounter[]{page}\glsnumberformat}{193}
-\glossaryentry{MUsic SImulator-Interpreter for COMpositional Procedures?\glossentry{gls-musicomp}|setentrycounter[]{page}\glsnumberformat}{193}
-\glossaryentry{MusicXML?\glossentry{gls-musicxml}|setentrycounter[]{page}\glsnumberformat}{193}
-\glossaryentry{National Aeronautics and Space Administration?\glossentry{gls-nasa}|setentrycounter[]{page}\glsnumberformat}{193}
-\glossaryentry{Center for Network-Centric Cognition and Information Fusion?\glossentry{gls-nc2if}|setentrycounter[]{page}\glsnumberformat}{193}
-\glossaryentry{NetworkX?\glossentry{gls-networkx}|setentrycounter[]{page}\glsnumberformat}{193}
-\glossaryentry{New Interfaces for Musical Expression?\glossentry{gls-nime}|setentrycounter[]{page}\glsnumberformat}{193}
-\glossaryentry{Nuclear magnetic resonance?\glossentry{gls-nmr}|setentrycounter[]{page}\glsnumberformat}{193}
-\glossaryentry{Non or Not only SQL?\glossentry{gls-nosql}|setentrycounter[]{page}\glsnumberformat}{193}
-\glossaryentry{New York University?\glossentry{gls-nyu}|setentrycounter[]{page}\glsnumberformat}{193}
-\glossaryentry{OpenFrameworks?\glossentry{gls-ofx}|setentrycounter[]{page}\glsnumberformat}{193}
-\glossaryentry{Oracle Corporation?\glossentry{gls-oracle}|setentrycounter[]{page}\glsnumberformat}{193}
-\glossaryentry{Unisys OS 2200 databases?\glossentry{gls-os_2200}|setentrycounter[]{page}\glsnumberformat}{193}
-\glossaryentry{Open Sound Control?\glossentry{gls-osc}|setentrycounter[]{page}\glsnumberformat}{193}
-\glossaryentry{Phase Vocoder?\glossentry{gls-pvc}|setentrycounter[]{page}\glsnumberformat}{193}
-\glossaryentry{Quantuum Electrodynamics?\glossentry{gls-qed}|setentrycounter[]{page}\glsnumberformat}{193}
-\glossaryentry{Random Access Memory?\glossentry{gls-ram}|setentrycounter[]{page}\glsnumberformat}{194}
-\glossaryentry{Raima Database Manager?\glossentry{gls-rdm}|setentrycounter[]{page}\glsnumberformat}{194}
-\glossaryentry{Repertoire International des Sources Musicales?\glossentry{gls-rism}|setentrycounter[]{page}\glsnumberformat}{194}
-\glossaryentry{Relational Model/Tasmania?\glossentry{gls-rm/t}|setentrycounter[]{page}\glsnumberformat}{194}
-\glossaryentry{regions of interest?\glossentry{gls-roi}|setentrycounter[]{page}\glsnumberformat}{194}
-\glossaryentry{Realtime Cmix?\glossentry{gls-rtcmix}|setentrycounter[]{page}\glsnumberformat}{194}
-\glossaryentry{Real World Computing Music Database?\glossentry{gls-rwc}|setentrycounter[]{page}\glsnumberformat}{194}
-\glossaryentry{High Performance Analytics Appliance?\glossentry{gls-sap_hana}|setentrycounter[]{page}\glsnumberformat}{194}
-\glossaryentry{Sound Description Interchange Format?\glossentry{gls-sdif}|setentrycounter[]{page}\glsnumberformat}{194}
-\glossaryentry{Synchronized Multimedia Integration Language?\glossentry{gls-smil}|setentrycounter[]{page}\glsnumberformat}{194}
-\glossaryentry{Sonifying Data?\glossentry{gls-sondata}|setentrycounter[]{page}\glsnumberformat}{194}
-\glossaryentry{Sinusoidal Partial Editing Analysis and Resynthesis?\glossentry{gls-spear}|setentrycounter[]{page}\glsnumberformat}{194}
-\glossaryentry{Structured Query Language?\glossentry{gls-sql}|setentrycounter[]{page}\glsnumberformat}{194}
-\glossaryentry{Structured Query Language Lite?\glossentry{gls-sqlite}|setentrycounter[]{page}\glsnumberformat}{194}
-\glossaryentry{Structured Sound Synthesis Project?\glossentry{gls-sssp}|setentrycounter[]{page}\glsnumberformat}{194}
-\glossaryentry{Short Time Fourier Transform?\glossentry{gls-stft}|setentrycounter[]{page}\glsnumberformat}{194}
-\glossaryentry{Speech Transformation and Representation using Adaptive Interpolation of weiGHTed spectrogram?\glossentry{gls-straight}|setentrycounter[]{page}\glsnumberformat}{194}
-\glossaryentry{Transmission Control Protocol / Internet Protocol?\glossentry{gls-tcp/ip}|setentrycounter[]{page}\glsnumberformat}{194}
-\glossaryentry{Timbre Identification?\glossentry{gls-timbreid}|setentrycounter[]{page}\glsnumberformat}{195}
-\glossaryentry{United Information Systems?\glossentry{gls-unisys}|setentrycounter[]{page}\glsnumberformat}{195}
-\glossaryentry{Uniform Resource Identifier?\glossentry{gls-uri}|setentrycounter[]{page}\glsnumberformat}{195}
-\glossaryentry{Uniform Resource Locator?\glossentry{gls-url}|setentrycounter[]{page}\glsnumberformat}{195}
-\glossaryentry{Extensible Markup Language?\glossentry{gls-xml}|setentrycounter[]{page}\glsnumberformat}{195}
-\glossaryentry{YAML Ain't Markup Language?\glossentry{gls-yaml}|setentrycounter[]{page}\glsnumberformat}{195}
+\glossaryentry{Max?\glossentry{max}|setentrycounter[]{page}\glsnumberformat}{148}
+\glossaryentry{Max?\glossentry{max}|setentrycounter[]{page}\glsnumberformat}{148}
+\glossaryentry{Max?\glossentry{max}|setentrycounter[]{page}\glsnumberformat}{149}
+\glossaryentry{Max?\glossentry{max}|setentrycounter[]{page}\glsnumberformat}{149}
+\glossaryentry{MAX/MSP?\glossentry{max/msp}|setentrycounter[]{page}\glsnumberformat}{156}
+\glossaryentry{Automatic Flow for Materials Discovery?\glossentry{gls-aflowlib}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Application Programming Interface?\glossentry{gls-api}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{ArangoDB?\glossentry{arangodb}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Adaptive Server Enterprise?\glossentry{gls-ase}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Apache Software Foundation?\glossentry{gls-asf}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Automatic Computer Assisted Design?\glossentry{gls-autocad}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Computer Aided Design?\glossentry{gls-cad}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Computer Assisted Music Project?\glossentry{gls-camp}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Computer Aided Software Engineering?\glossentry{gls-case}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Creative Commons?\glossentry{gls-cc}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Center for Computer Research in Music and Acoustics?\glossentry{gls-ccrma}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Coastal Data Information Program?\glossentry{gls-cdip}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Computer Based Education Research Laboratory?\glossentry{gls-cerl}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Cmix?\glossentry{cmix}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Center for New Music and Audio Technologies?\glossentry{gls-cnmat}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Common Business Oriented Language?\glossentry{gls-cobol}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Conference/Committee on Data Systems Languages?\glossentry{gls-codasyl}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Composition Path?\glossentry{gls-compath}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{central processing unit?\glossentry{gls-cpu}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Comma Separated Values?\glossentry{gls-csv}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Content Based Unified Interfaces and Descriptors for Audio/music Databases available Online?\glossentry{gls-cuidado}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Cluster Weighted Modeling?\glossentry{gls-cwm}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Digital Alternate Representation of Musical Scores?\glossentry{gls-darms}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Database Managemet System?\glossentry{gls-dbms}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Data Definition Language?\glossentry{gls-ddl}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Disk Jockey?\glossentry{gls-dj}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{data manipulation language?\glossentry{gls-dml}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Document Object Model?\glossentry{gls-dom}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Domain Specific Language?\glossentry{gls-dsl}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Electronic dance music?\glossentry{gls-edm}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Entity Relationship?\glossentry{gls-er}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Exasol AG?\glossentry{exasol_ag}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Frequency Modulation?\glossentry{gls-fm}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{FORMES?\glossentry{formes}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Formula Translation?\glossentry{gls-fortran}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{gigabyte?\glossentry{gls-gb}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Gesture Description Interchange Format?\glossentry{gls-gdif}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Graphics Processing Unit?\glossentry{gls-gpu}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Galvanic Skin Response?\glossentry{gls-gsr}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{generative theory of tonal music?\glossentry{gls-gttm}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Human Computer Interaction?\glossentry{gls-hci}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Human Metabolome Database?\glossentry{gls-hmdb}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Hewlett Packard?\glossentry{gls-hp}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Hypertext Markup Language?\glossentry{gls-html}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Hypertext Transfer Protocol?\glossentry{gls-http}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{International Business Machines Corporation?\glossentry{gls-ibm}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{ICloud?\glossentry{icloud}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{International Computer Music Conference?\glossentry{gls-icmc}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Integrated Database Management System?\glossentry{gls-idms}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Integrated Data Store?\glossentry{gls-ids}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Institute of Electronic Music and Acoustics?\glossentry{gls-iem}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{In Memory Data Bases?\glossentry{gls-imdbs}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Information Management System?\glossentry{gls-ims}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{I Operating System?\glossentry{gls-ios}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Internet Protocol?\glossentry{gls-ip}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Information Retrieval?\glossentry{gls-ir}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Institut de Recherche et Coordination Acoustique/Musique?\glossentry{gls-ircam}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Incorporated Research Institutions for Seismology?\glossentry{gls-iris}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{International Society for Music Information Retrieval?\glossentry{gls-ismir}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Videoalive Indexer Extracted Closed Captions and Metadata?\glossentry{gls-ixd}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{JavaScript Object Notation?\glossentry{gls-json}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Local Boundaries Detection Model?\glossentry{gls-lbdm}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{LISt Processor?\glossentry{gls-lisp}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Linear Predictive Coding?\glossentry{gls-lpc}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{madBPM?\glossentry{madbpm}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Max?\glossentry{max}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{MAX/MSP?\glossentry{max/msp}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{MetriX in Extensible Markup Language?\glossentry{gls-metrixml}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Musical Instrument Digital Interface?\glossentry{gls-midi}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Music information retrieval?\glossentry{gls-mir}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Massachusetts Institute of Technology?\glossentry{gls-mit}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{MongoDB?\glossentry{mongodb}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{MUSIC-11?\glossentry{music-11}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{MUSIC-V?\glossentry{music-v}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{MUSIC-IV?\glossentry{music-iv}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{MUSIC-N?\glossentry{music-n}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{MySQL?\glossentry{mysql}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{National Aeronautics and Space Administration?\glossentry{gls-nasa}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Neo4j?\glossentry{neo4j}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{net.loadbang-SQL?\glossentry{net.loadbang-sql}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{NeXT?\glossentry{next}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{New Interfaces for Musical Expression?\glossentry{gls-nime}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Nuclear magnetic resonance?\glossentry{gls-nmr}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Non or Not only SQL?\glossentry{gls-nosql}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{New York University?\glossentry{gls-nyu}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Oracle Corporation?\glossentry{gls-oracle}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Unisys OS 2200 databases?\glossentry{gls-os_2200}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Open Sound Control?\glossentry{gls-osc}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{PostgreSQL?\glossentry{postgresql}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Phase Vocoder?\glossentry{gls-pvc}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{QCD-Audio?\glossentry{qcd-audio}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Quantuum Electrodynamics?\glossentry{gls-qed}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Random Access Memory?\glossentry{gls-ram}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Raima Database Manager?\glossentry{gls-rdm}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Relational Model/Tasmania?\glossentry{gls-rm/t}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{regions of interest?\glossentry{gls-roi}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Realtime Cmix?\glossentry{gls-rtcmix}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Real World Computing Music Database?\glossentry{gls-rwc}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{High Performance Analytics Appliance?\glossentry{gls-sap_hana}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{SCORE?\glossentry{score}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{SCRIVA?\glossentry{scriva}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Sound Description Interchange Format?\glossentry{gls-sdif}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Synchronized Multimedia Integration Language?\glossentry{gls-smil}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{SonART?\glossentry{sonart}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Sinusoidal Partial Editing Analysis and Resynthesis?\glossentry{gls-spear}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Structured Query Language?\glossentry{gls-sql}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Structured Query Language Lite?\glossentry{gls-sqlite}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Structured Sound Synthesis Project?\glossentry{gls-sssp}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Short Time Fourier Transform?\glossentry{gls-stft}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Speech Transformation and Representation using Adaptive Interpolation of weiGHTed spectrogram?\glossentry{gls-straight}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Sybase?\glossentry{sybase}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Transmission Control Protocol / Internet Protocol?\glossentry{gls-tcp/ip}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Timbre Identification?\glossentry{gls-timbreid}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{TimesTen?\glossentry{timesten}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{TurboIMAGE?\glossentry{turboimage}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Uniform Resource Identifier?\glossentry{gls-uri}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Uniform Resource Locator?\glossentry{gls-url}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{VMWare?\glossentry{vmware}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{WebDNA?\glossentry{webdna}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Extensible Markup Language?\glossentry{gls-xml}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{XPlain?\glossentry{xplain}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{YAML Ain't Markup Language?\glossentry{gls-yaml}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Microsoft Access?\glossentry{gls-access}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Apache?\glossentry{apache}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{AudioGuide?\glossentry{audioguide}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Boost Software Library?\glossentry{gls-boost}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Computer-Aided Algorithmic Composition?\glossentry{gls-caac}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Cassandra?\glossentry{cassandra}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Real-Time Corpus-Based Concatenative Synthesis?\glossentry{gls-catart}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Centre des Musiques Arabes et Mediterraneennes?\glossentry{gls-cmam}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Appache Couch Database?\glossentry{gls-couchdb}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Experiments in Music Intelligence?\glossentry{gls-emi}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Essen Associative Code?\glossentry{gls-esac}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Essentia?\glossentry{essentia}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Freesound?\glossentry{freesound}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Graphical User Interface?\glossentry{gls-gui}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{GUIDO Music Notation Format?\glossentry{gls-guido}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Hierarchical Music Specification Language?\glossentry{gls-hmsl}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{IBM-7090?\glossentry{ibm-7090}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Looperman.com?\glossentry{gls-looperman}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Music Analysis, Retrieval and Synthesis for Audio Signals?\glossentry{gls-marsyas}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Musical Instrument Museums Online?\glossentry{gls-mimo}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{MuseData?\glossentry{musedata}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Music21?\glossentry{music21}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{MUsic SImulator-Interpreter for COMpositional Procedures?\glossentry{gls-musicomp}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{MusicXML?\glossentry{gls-musicxml}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Center for Network-Centric Cognition and Information Fusion?\glossentry{gls-nc2if}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{NetworkX?\glossentry{gls-networkx}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Objective-C?\glossentry{objective-c}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{OpenFrameworks?\glossentry{gls-ofx}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{OMax?\glossentry{omax}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Redis?\glossentry{redis}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Repertoire International des Sources Musicales?\glossentry{gls-rism}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Sedna?\glossentry{sedna}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Smalltalk?\glossentry{smalltalk}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Sonifying Data?\glossentry{gls-sondata}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Sparksee?\glossentry{sparksee}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Sparsity?\glossentry{sparsity}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{SQLObject?\glossentry{sqlobject}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{Telemeta?\glossentry{telemeta}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{UbuWeb?\glossentry{ubuweb}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{United Information Systems?\glossentry{gls-unisys}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{MUSIC-IV?\glossentry{music-iv}|setentrycounter[]{page}\glsnumberformat}{179}
+\glossaryentry{MUSIC-N?\glossentry{music-n}|setentrycounter[]{page}\glsnumberformat}{179}
+\glossaryentry{MUSIC-N?\glossentry{music-n}|setentrycounter[]{page}\glsnumberformat}{179}
+\glossaryentry{Uniform Resource Identifier?\glossentry{gls-uri}|setentrycounter[]{page}\glsnumberformat}{185}
+\glossaryentry{Microsoft Access?\glossentry{gls-access}|setentrycounter[]{page}\glsnumberformat}{187}
+\glossaryentry{Automatic Flow for Materials Discovery?\glossentry{gls-aflowlib}|setentrycounter[]{page}\glsnumberformat}{187}
+\glossaryentry{Application Programming Interface?\glossentry{gls-api}|setentrycounter[]{page}\glsnumberformat}{187}
+\glossaryentry{Adaptive Server Enterprise?\glossentry{gls-ase}|setentrycounter[]{page}\glsnumberformat}{187}
+\glossaryentry{Apache Software Foundation?\glossentry{gls-asf}|setentrycounter[]{page}\glsnumberformat}{187}
+\glossaryentry{Automatic Computer Assisted Design?\glossentry{gls-autocad}|setentrycounter[]{page}\glsnumberformat}{187}
+\glossaryentry{Boost Software Library?\glossentry{gls-boost}|setentrycounter[]{page}\glsnumberformat}{187}
+\glossaryentry{Computer-Aided Algorithmic Composition?\glossentry{gls-caac}|setentrycounter[]{page}\glsnumberformat}{187}
+\glossaryentry{Computer Aided Design?\glossentry{gls-cad}|setentrycounter[]{page}\glsnumberformat}{187}
+\glossaryentry{Computer Assisted Music Project?\glossentry{gls-camp}|setentrycounter[]{page}\glsnumberformat}{187}
+\glossaryentry{Computer Aided Software Engineering?\glossentry{gls-case}|setentrycounter[]{page}\glsnumberformat}{187}
+\glossaryentry{Real-Time Corpus-Based Concatenative Synthesis?\glossentry{gls-catart}|setentrycounter[]{page}\glsnumberformat}{187}
+\glossaryentry{Creative Commons?\glossentry{gls-cc}|setentrycounter[]{page}\glsnumberformat}{187}
+\glossaryentry{Center for Computer Research in Music and Acoustics?\glossentry{gls-ccrma}|setentrycounter[]{page}\glsnumberformat}{188}
+\glossaryentry{Coastal Data Information Program?\glossentry{gls-cdip}|setentrycounter[]{page}\glsnumberformat}{188}
+\glossaryentry{Computer Based Education Research Laboratory?\glossentry{gls-cerl}|setentrycounter[]{page}\glsnumberformat}{188}
+\glossaryentry{Centre des Musiques Arabes et Mediterraneennes?\glossentry{gls-cmam}|setentrycounter[]{page}\glsnumberformat}{188}
+\glossaryentry{Center for New Music and Audio Technologies?\glossentry{gls-cnmat}|setentrycounter[]{page}\glsnumberformat}{188}
+\glossaryentry{Common Business Oriented Language?\glossentry{gls-cobol}|setentrycounter[]{page}\glsnumberformat}{188}
+\glossaryentry{Conference/Committee on Data Systems Languages?\glossentry{gls-codasyl}|setentrycounter[]{page}\glsnumberformat}{188}
+\glossaryentry{Composition Path?\glossentry{gls-compath}|setentrycounter[]{page}\glsnumberformat}{188}
+\glossaryentry{Appache Couch Database?\glossentry{gls-couchdb}|setentrycounter[]{page}\glsnumberformat}{188}
+\glossaryentry{central processing unit?\glossentry{gls-cpu}|setentrycounter[]{page}\glsnumberformat}{188}
+\glossaryentry{Comma Separated Values?\glossentry{gls-csv}|setentrycounter[]{page}\glsnumberformat}{188}
+\glossaryentry{Content Based Unified Interfaces and Descriptors for Audio/music Databases available Online?\glossentry{gls-cuidado}|setentrycounter[]{page}\glsnumberformat}{188}
+\glossaryentry{Cluster Weighted Modeling?\glossentry{gls-cwm}|setentrycounter[]{page}\glsnumberformat}{188}
+\glossaryentry{Digital Alternate Representation of Musical Scores?\glossentry{gls-darms}|setentrycounter[]{page}\glsnumberformat}{188}
+\glossaryentry{Database Managemet System?\glossentry{gls-dbms}|setentrycounter[]{page}\glsnumberformat}{188}
+\glossaryentry{Data Definition Language?\glossentry{gls-ddl}|setentrycounter[]{page}\glsnumberformat}{188}
+\glossaryentry{Disk Jockey?\glossentry{gls-dj}|setentrycounter[]{page}\glsnumberformat}{188}
+\glossaryentry{data manipulation language?\glossentry{gls-dml}|setentrycounter[]{page}\glsnumberformat}{188}
+\glossaryentry{Document Object Model?\glossentry{gls-dom}|setentrycounter[]{page}\glsnumberformat}{188}
+\glossaryentry{Domain Specific Language?\glossentry{gls-dsl}|setentrycounter[]{page}\glsnumberformat}{189}
+\glossaryentry{Electronic dance music?\glossentry{gls-edm}|setentrycounter[]{page}\glsnumberformat}{189}
+\glossaryentry{Experiments in Music Intelligence?\glossentry{gls-emi}|setentrycounter[]{page}\glsnumberformat}{189}
+\glossaryentry{Entity Relationship?\glossentry{gls-er}|setentrycounter[]{page}\glsnumberformat}{189}
+\glossaryentry{Essen Associative Code?\glossentry{gls-esac}|setentrycounter[]{page}\glsnumberformat}{189}
+\glossaryentry{Frequency Modulation?\glossentry{gls-fm}|setentrycounter[]{page}\glsnumberformat}{189}
+\glossaryentry{Formula Translation?\glossentry{gls-fortran}|setentrycounter[]{page}\glsnumberformat}{189}
+\glossaryentry{gigabyte?\glossentry{gls-gb}|setentrycounter[]{page}\glsnumberformat}{189}
+\glossaryentry{Gesture Description Interchange Format?\glossentry{gls-gdif}|setentrycounter[]{page}\glsnumberformat}{189}
+\glossaryentry{Graphics Processing Unit?\glossentry{gls-gpu}|setentrycounter[]{page}\glsnumberformat}{189}
+\glossaryentry{Galvanic Skin Response?\glossentry{gls-gsr}|setentrycounter[]{page}\glsnumberformat}{189}
+\glossaryentry{generative theory of tonal music?\glossentry{gls-gttm}|setentrycounter[]{page}\glsnumberformat}{189}
+\glossaryentry{Graphical User Interface?\glossentry{gls-gui}|setentrycounter[]{page}\glsnumberformat}{189}
+\glossaryentry{GUIDO Music Notation Format?\glossentry{gls-guido}|setentrycounter[]{page}\glsnumberformat}{189}
+\glossaryentry{Human Computer Interaction?\glossentry{gls-hci}|setentrycounter[]{page}\glsnumberformat}{189}
+\glossaryentry{Human Metabolome Database?\glossentry{gls-hmdb}|setentrycounter[]{page}\glsnumberformat}{189}
+\glossaryentry{Hierarchical Music Specification Language?\glossentry{gls-hmsl}|setentrycounter[]{page}\glsnumberformat}{189}
+\glossaryentry{Hewlett Packard?\glossentry{gls-hp}|setentrycounter[]{page}\glsnumberformat}{189}
+\glossaryentry{Hypertext Markup Language?\glossentry{gls-html}|setentrycounter[]{page}\glsnumberformat}{189}
+\glossaryentry{Hypertext Transfer Protocol?\glossentry{gls-http}|setentrycounter[]{page}\glsnumberformat}{189}
+\glossaryentry{International Business Machines Corporation?\glossentry{gls-ibm}|setentrycounter[]{page}\glsnumberformat}{189}
+\glossaryentry{International Computer Music Conference?\glossentry{gls-icmc}|setentrycounter[]{page}\glsnumberformat}{189}
+\glossaryentry{Integrated Database Management System?\glossentry{gls-idms}|setentrycounter[]{page}\glsnumberformat}{190}
+\glossaryentry{Integrated Data Store?\glossentry{gls-ids}|setentrycounter[]{page}\glsnumberformat}{190}
+\glossaryentry{Institute of Electronic Music and Acoustics?\glossentry{gls-iem}|setentrycounter[]{page}\glsnumberformat}{190}
+\glossaryentry{In Memory Data Bases?\glossentry{gls-imdbs}|setentrycounter[]{page}\glsnumberformat}{190}
+\glossaryentry{Information Management System?\glossentry{gls-ims}|setentrycounter[]{page}\glsnumberformat}{190}
+\glossaryentry{I Operating System?\glossentry{gls-ios}|setentrycounter[]{page}\glsnumberformat}{190}
+\glossaryentry{Internet Protocol?\glossentry{gls-ip}|setentrycounter[]{page}\glsnumberformat}{190}
+\glossaryentry{Information Retrieval?\glossentry{gls-ir}|setentrycounter[]{page}\glsnumberformat}{190}
+\glossaryentry{Institut de Recherche et Coordination Acoustique/Musique?\glossentry{gls-ircam}|setentrycounter[]{page}\glsnumberformat}{190}
+\glossaryentry{Incorporated Research Institutions for Seismology?\glossentry{gls-iris}|setentrycounter[]{page}\glsnumberformat}{190}
+\glossaryentry{International Society for Music Information Retrieval?\glossentry{gls-ismir}|setentrycounter[]{page}\glsnumberformat}{190}
+\glossaryentry{Videoalive Indexer Extracted Closed Captions and Metadata?\glossentry{gls-ixd}|setentrycounter[]{page}\glsnumberformat}{190}
+\glossaryentry{JavaScript Object Notation?\glossentry{gls-json}|setentrycounter[]{page}\glsnumberformat}{190}
+\glossaryentry{Local Boundaries Detection Model?\glossentry{gls-lbdm}|setentrycounter[]{page}\glsnumberformat}{190}
+\glossaryentry{LISt Processor?\glossentry{gls-lisp}|setentrycounter[]{page}\glsnumberformat}{190}
+\glossaryentry{Looperman.com?\glossentry{gls-looperman}|setentrycounter[]{page}\glsnumberformat}{190}
+\glossaryentry{Linear Predictive Coding?\glossentry{gls-lpc}|setentrycounter[]{page}\glsnumberformat}{190}
+\glossaryentry{Music Analysis, Retrieval and Synthesis for Audio Signals?\glossentry{gls-marsyas}|setentrycounter[]{page}\glsnumberformat}{190}
+\glossaryentry{MetriX in Extensible Markup Language?\glossentry{gls-metrixml}|setentrycounter[]{page}\glsnumberformat}{191}
+\glossaryentry{Musical Instrument Digital Interface?\glossentry{gls-midi}|setentrycounter[]{page}\glsnumberformat}{191}
+\glossaryentry{Musical Instrument Museums Online?\glossentry{gls-mimo}|setentrycounter[]{page}\glsnumberformat}{191}
+\glossaryentry{Music information retrieval?\glossentry{gls-mir}|setentrycounter[]{page}\glsnumberformat}{191}
+\glossaryentry{Massachusetts Institute of Technology?\glossentry{gls-mit}|setentrycounter[]{page}\glsnumberformat}{191}
+\glossaryentry{MUsic SImulator-Interpreter for COMpositional Procedures?\glossentry{gls-musicomp}|setentrycounter[]{page}\glsnumberformat}{191}
+\glossaryentry{MusicXML?\glossentry{gls-musicxml}|setentrycounter[]{page}\glsnumberformat}{191}
+\glossaryentry{National Aeronautics and Space Administration?\glossentry{gls-nasa}|setentrycounter[]{page}\glsnumberformat}{191}
+\glossaryentry{Center for Network-Centric Cognition and Information Fusion?\glossentry{gls-nc2if}|setentrycounter[]{page}\glsnumberformat}{191}
+\glossaryentry{NetworkX?\glossentry{gls-networkx}|setentrycounter[]{page}\glsnumberformat}{191}
+\glossaryentry{New Interfaces for Musical Expression?\glossentry{gls-nime}|setentrycounter[]{page}\glsnumberformat}{191}
+\glossaryentry{Nuclear magnetic resonance?\glossentry{gls-nmr}|setentrycounter[]{page}\glsnumberformat}{191}
+\glossaryentry{Non or Not only SQL?\glossentry{gls-nosql}|setentrycounter[]{page}\glsnumberformat}{191}
+\glossaryentry{New York University?\glossentry{gls-nyu}|setentrycounter[]{page}\glsnumberformat}{191}
+\glossaryentry{OpenFrameworks?\glossentry{gls-ofx}|setentrycounter[]{page}\glsnumberformat}{191}
+\glossaryentry{Oracle Corporation?\glossentry{gls-oracle}|setentrycounter[]{page}\glsnumberformat}{191}
+\glossaryentry{Unisys OS 2200 databases?\glossentry{gls-os_2200}|setentrycounter[]{page}\glsnumberformat}{191}
+\glossaryentry{Open Sound Control?\glossentry{gls-osc}|setentrycounter[]{page}\glsnumberformat}{191}
+\glossaryentry{Phase Vocoder?\glossentry{gls-pvc}|setentrycounter[]{page}\glsnumberformat}{191}
+\glossaryentry{Quantuum Electrodynamics?\glossentry{gls-qed}|setentrycounter[]{page}\glsnumberformat}{191}
+\glossaryentry{Random Access Memory?\glossentry{gls-ram}|setentrycounter[]{page}\glsnumberformat}{192}
+\glossaryentry{Raima Database Manager?\glossentry{gls-rdm}|setentrycounter[]{page}\glsnumberformat}{192}
+\glossaryentry{Repertoire International des Sources Musicales?\glossentry{gls-rism}|setentrycounter[]{page}\glsnumberformat}{192}
+\glossaryentry{Relational Model/Tasmania?\glossentry{gls-rm/t}|setentrycounter[]{page}\glsnumberformat}{192}
+\glossaryentry{regions of interest?\glossentry{gls-roi}|setentrycounter[]{page}\glsnumberformat}{192}
+\glossaryentry{Realtime Cmix?\glossentry{gls-rtcmix}|setentrycounter[]{page}\glsnumberformat}{192}
+\glossaryentry{Real World Computing Music Database?\glossentry{gls-rwc}|setentrycounter[]{page}\glsnumberformat}{192}
+\glossaryentry{High Performance Analytics Appliance?\glossentry{gls-sap_hana}|setentrycounter[]{page}\glsnumberformat}{192}
+\glossaryentry{Sound Description Interchange Format?\glossentry{gls-sdif}|setentrycounter[]{page}\glsnumberformat}{192}
+\glossaryentry{Synchronized Multimedia Integration Language?\glossentry{gls-smil}|setentrycounter[]{page}\glsnumberformat}{192}
+\glossaryentry{Sonifying Data?\glossentry{gls-sondata}|setentrycounter[]{page}\glsnumberformat}{192}
+\glossaryentry{Sinusoidal Partial Editing Analysis and Resynthesis?\glossentry{gls-spear}|setentrycounter[]{page}\glsnumberformat}{192}
+\glossaryentry{Structured Query Language?\glossentry{gls-sql}|setentrycounter[]{page}\glsnumberformat}{192}
+\glossaryentry{Structured Query Language Lite?\glossentry{gls-sqlite}|setentrycounter[]{page}\glsnumberformat}{192}
+\glossaryentry{Structured Sound Synthesis Project?\glossentry{gls-sssp}|setentrycounter[]{page}\glsnumberformat}{192}
+\glossaryentry{Short Time Fourier Transform?\glossentry{gls-stft}|setentrycounter[]{page}\glsnumberformat}{192}
+\glossaryentry{Speech Transformation and Representation using Adaptive Interpolation of weiGHTed spectrogram?\glossentry{gls-straight}|setentrycounter[]{page}\glsnumberformat}{192}
+\glossaryentry{Transmission Control Protocol / Internet Protocol?\glossentry{gls-tcp/ip}|setentrycounter[]{page}\glsnumberformat}{192}
+\glossaryentry{Timbre Identification?\glossentry{gls-timbreid}|setentrycounter[]{page}\glsnumberformat}{193}
+\glossaryentry{United Information Systems?\glossentry{gls-unisys}|setentrycounter[]{page}\glsnumberformat}{193}
+\glossaryentry{Uniform Resource Identifier?\glossentry{gls-uri}|setentrycounter[]{page}\glsnumberformat}{193}
+\glossaryentry{Uniform Resource Locator?\glossentry{gls-url}|setentrycounter[]{page}\glsnumberformat}{193}
+\glossaryentry{Extensible Markup Language?\glossentry{gls-xml}|setentrycounter[]{page}\glsnumberformat}{193}
+\glossaryentry{YAML Ain't Markup Language?\glossentry{gls-yaml}|setentrycounter[]{page}\glsnumberformat}{193}

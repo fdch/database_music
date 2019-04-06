@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.17)  6 APR 2019 22:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.17)  6 APR 2019 22:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1120,16 +1120,27 @@ File: omsptm.fd
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 306.
  [1]
-</Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/dbtree.jpg, id
-=252, 2128.95375pt x 2349.77875pt>
-File: /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/dbtree.jp
-g Graphic file (type jpg)
-<use /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/dbtree.jpg
->
-Package pdftex.def Info: /Users/federicocamarahalac/Documents/fd_work/text/wave
-s/bin/img/dbtree.jpg  used on input line 318.
-(pdftex.def)             Requested size: 469.75502pt x 518.45883pt.
 
+LaTeX Warning: File `/Users/federicocamarahalac/Documents/fd_work/text/waves/bi
+n/img/dbtree.png' not found on input line 318.
+
+
+./main.tex:318: Package pdftex.def Error: File `/Users/federicocamarahalac/Docu
+ments/fd_work/text/waves/bin/img/dbtree.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.318 ...ts/fd_work/text/waves/bin/img/dbtree.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 318.
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
 Overfull \hbox (46.98853pt too wide) in paragraph at lines 318--319
 [][] 
  []
@@ -1139,8 +1150,7 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.319 \newpage
-               [2 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/
-img/dbtree.jpg>]
+               [2]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 344.
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
@@ -1155,21 +1165,23 @@ l.346 \newpage
 
 ] [3
 
-] [4] [5] (./main.toc
+] [4] [5] [6
+
+] [7] (./main.toc
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 10.
- [6
+ [8
 
-] [7])
+] [9])
 \tf@toc=\write8
 \openout8 = `main.toc'.
 
- [8] (./main.lof)
+ [10]
+(./main.lof)
 \tf@lof=\write9
 \openout9 = `main.lof'.
 
-
-[9
+ [11
 
 
 
@@ -1177,45 +1189,39 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 \tf@lot=\write10
 \openout10 = `main.lot'.
 
- [10
+ [12
 
 
 
 ] [1
 
 
-] [2] [3
-
-] [4] [5] [6]
-Overfull \hbox (6.37332pt too wide) in paragraph at lines 564--565
+] [2] [3] [4]
+Overfull \hbox (6.37332pt too wide) in paragraph at lines 563--564
 []\T1/ptm/m/n/12 The databaser, which is the hu-man sub-ject in this case, be-g
 ins res-onat-ing with the database,
  []
 
-[7] [8] [9]
+[5] [6] [7]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 611.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 611.
- (/usr/local/texlive/2016basic/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 610.
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 611.
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 610.
 
-Overfull \hbox (12.83656pt too wide) in paragraph at lines 611--612
+Overfull \hbox (12.83656pt too wide) in paragraph at lines 610--611
 []\T1/ptm/m/n/12 I use William Brent's [] ---timbre de-scrip-tion algorithms---
  and An-toine Villeret's
  []
 
-[10] [11]
+[8] [9]
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 692.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 691.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 706.
-[12
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 705.
+[10
 
-] [13]
+] [11]
 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/one-to-many.pn
 g, id=487, 241.90375pt x 276.03125pt>
 File: /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/one-to-ma
@@ -1223,44 +1229,44 @@ ny.png Graphic file (type png)
 <use /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/one-to-man
 y.png>
 Package pdftex.def Info: /Users/federicocamarahalac/Documents/fd_work/text/wave
-s/bin/img/one-to-many.png  used on input line 732.
+s/bin/img/one-to-many.png  used on input line 731.
 (pdftex.def)             Requested size: 140.92793pt x 160.81424pt.
- [14 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/one-to-ma
-ny.png>] [15] [16] [17] [18] [19] [20] [21] [22] [23]
+ [12 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/one-to-ma
+ny.png>] [13] [14] [15] [16] [17] [18] [19] [20] [21]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 893.
- [24] [25]
-[26] [27] [28] [29] [30]
+nput line 892.
+ [22] [23]
+[24] [25] [26] [27] [28]
 
 LaTeX Warning: File `/Users/federicocamarahalac/Documents/fd_work/text/waves/bi
-n/img/dbtree.png' not found on input line 1021.
+n/img/dbtree.png' not found on input line 1020.
 
 
-./main.tex:1021: Package pdftex.def Error: File `/Users/federicocamarahalac/Doc
+./main.tex:1020: Package pdftex.def Error: File `/Users/federicocamarahalac/Doc
 uments/fd_work/text/waves/bin/img/dbtree.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1021 }
+l.1020 }
         
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./main.tex:1021: Missing number, treated as zero.
+./main.tex:1020: Missing number, treated as zero.
 <to be read again> 
                    j
-l.1021 }
+l.1020 }
         
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./main.tex:1021: Illegal unit of measure (pt inserted).
+./main.tex:1020: Illegal unit of measure (pt inserted).
 <to be read again> 
                    j
-l.1021 }
+l.1020 }
         
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1269,19 +1275,19 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./main.tex:1021: Missing number, treated as zero.
+./main.tex:1020: Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.1021 }
+l.1020 }
         
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./main.tex:1021: Illegal unit of measure (pt inserted).
+./main.tex:1020: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.1021 }
+l.1020 }
         
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1290,19 +1296,19 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./main.tex:1021: Missing number, treated as zero.
+./main.tex:1020: Missing number, treated as zero.
 <to be read again> 
                    j
-l.1021 }
+l.1020 }
         
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./main.tex:1021: Illegal unit of measure (pt inserted).
+./main.tex:1020: Illegal unit of measure (pt inserted).
 <to be read again> 
                    j
-l.1021 }
+l.1020 }
         
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1311,19 +1317,19 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./main.tex:1021: Missing number, treated as zero.
+./main.tex:1020: Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.1021 }
+l.1020 }
         
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./main.tex:1021: Illegal unit of measure (pt inserted).
+./main.tex:1020: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.1021 }
+l.1020 }
         
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1332,285 +1338,285 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-[31] [32] [33] [34] [35] [36]
+[29] [30] [31] [32] [33] [34]
 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/hierarchical.p
-ng, id=758, 212.795pt x 147.55125pt>
+ng, id=757, 212.795pt x 147.55125pt>
 File: /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/hierarchi
 cal.png Graphic file (type png)
 <use /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/hierarchic
 al.png>
 Package pdftex.def Info: /Users/federicocamarahalac/Documents/fd_work/text/wave
-s/bin/img/hierarchical.png  used on input line 1120.
+s/bin/img/hierarchical.png  used on input line 1119.
 (pdftex.def)             Requested size: 93.94957pt x 65.14563pt.
- [37 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/hierarchi
+ [35 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/hierarchi
 cal.png>]
 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/network.png, i
-d=772, 181.67876pt x 201.75375pt>
+d=771, 181.67876pt x 201.75375pt>
 File: /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/network.p
 ng Graphic file (type png)
 <use /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/network.pn
 g>
 Package pdftex.def Info: /Users/federicocamarahalac/Documents/fd_work/text/wave
-s/bin/img/network.png  used on input line 1131.
+s/bin/img/network.png  used on input line 1130.
 (pdftex.def)             Requested size: 93.94957pt x 104.33379pt.
- [38 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/network.p
-ng>] [39]
+ [36 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/network.p
+ng>] [37]
 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/relational.png
-, id=801, 200.75pt x 132.495pt>
+, id=800, 200.75pt x 132.495pt>
 File: /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/relationa
 l.png Graphic file (type png)
 <use /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/relational
 .png>
 Package pdftex.def Info: /Users/federicocamarahalac/Documents/fd_work/text/wave
-s/bin/img/relational.png  used on input line 1144.
+s/bin/img/relational.png  used on input line 1143.
 (pdftex.def)             Requested size: 93.94957pt x 62.0078pt.
- [40 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/relationa
+ [38 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/relationa
 l.png>]
 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/object.png, id
-=826, 242.9075pt x 245.91875pt>
+=825, 242.9075pt x 245.91875pt>
 File: /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/object.pn
 g Graphic file (type png)
 <use /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/object.png
 >
 Package pdftex.def Info: /Users/federicocamarahalac/Documents/fd_work/text/wave
-s/bin/img/object.png  used on input line 1163.
+s/bin/img/object.png  used on input line 1162.
 (pdftex.def)             Requested size: 93.94957pt x 95.11241pt.
- [41]
+ [39]
 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/semistructured
-.png, id=841, 609.27625pt x 328.22626pt>
+.png, id=840, 609.27625pt x 328.22626pt>
 File: /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/semistruc
 tured.png Graphic file (type png)
 <use /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/semistruct
 ured.png>
 Package pdftex.def Info: /Users/federicocamarahalac/Documents/fd_work/text/wave
-s/bin/img/semistructured.png  used on input line 1172.
+s/bin/img/semistructured.png  used on input line 1171.
 (pdftex.def)             Requested size: 140.92793pt x 75.91615pt.
- [42 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/object.pn
+ [40 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/object.pn
 g> </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/semistructu
-red.png>] [43]
-[44]
-Overfull \hbox (2.39763pt too wide) in paragraph at lines 1203--1204
+red.png>] [41]
+[42]
+Overfull \hbox (2.39763pt too wide) in paragraph at lines 1202--1203
 []\T1/ptm/m/n/12 Hierarchical
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1211--1212
+Underfull \hbox (badness 10000) in paragraph at lines 1210--1211
 []\T1/ptm/m/n/12 Network;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1211--1212
+Underfull \hbox (badness 10000) in paragraph at lines 1210--1211
 \T1/ptm/m/n/12 Nav-i-ga-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1211--1212
+Underfull \hbox (badness 10000) in paragraph at lines 1210--1211
 \T1/ptm/m/n/12 tional
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1212--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1211--1212
 [][][]\T1/ptm/m/n/12 CODASYL[]; Gen-eral
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1226--1227
+Underfull \hbox (badness 10000) in paragraph at lines 1225--1226
 []\T1/ptm/m/n/12 Non-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1226--1227
+Underfull \hbox (badness 10000) in paragraph at lines 1225--1226
 \T1/ptm/m/n/12 relational
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1242--1243
+Underfull \hbox (badness 10000) in paragraph at lines 1241--1242
 []\T1/ptm/m/n/12 Semantic
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 1243--1244
+Underfull \hbox (badness 1231) in paragraph at lines 1242--1243
 []\T1/ptm/m/n/12 U.S. Air force; J.H. ter
  []
 
 
-Underfull \hbox (badness 3977) in paragraph at lines 1259--1260
+Underfull \hbox (badness 3977) in paragraph at lines 1258--1259
 \T1/ptm/m/n/12 In-stru-ments; Bell Labs;
  []
 
 
-Underfull \hbox (badness 2990) in paragraph at lines 1260--1261
+Underfull \hbox (badness 2990) in paragraph at lines 1259--1260
 []\T1/ptm/m/n/12 GemStone ([][]Smalltalk[]); Gbase ([][]LISt Pro-ces-sor[] (LIS
 P)[]); [][]CouchDB[];
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1266--1267
+Underfull \hbox (badness 10000) in paragraph at lines 1265--1266
 []\T1/ptm/m/n/12 Semi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1266--1267
+Underfull \hbox (badness 10000) in paragraph at lines 1265--1266
 \T1/ptm/m/n/12 Structured
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1274--1275
+Underfull \hbox (badness 10000) in paragraph at lines 1273--1274
 []\T1/ptm/m/n/12 In-Memory
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 1275--1276
+Underfull \hbox (badness 2961) in paragraph at lines 1274--1275
 []\T1/ptm/m/n/12 Oracle; Sybase; Ex-a-sol
  []
 
 
-Overfull \hbox (5.97523pt too wide) in paragraph at lines 1192--1279
+Overfull \hbox (5.97523pt too wide) in paragraph at lines 1191--1278
 [][] 
  []
 
-[45]
+[43]
 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/mir_comp_sonif
-_interaction.png, id=947, 834.11626pt x 163.61125pt>
+_interaction.png, id=946, 834.11626pt x 163.61125pt>
 File: /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/mir_comp_
 sonif_interaction.png Graphic file (type png)
 <use /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/mir_comp_s
 onif_interaction.png>
 Package pdftex.def Info: /Users/federicocamarahalac/Documents/fd_work/text/wave
-s/bin/img/mir_comp_sonif_interaction.png  used on input line 1299.
+s/bin/img/mir_comp_sonif_interaction.png  used on input line 1298.
 (pdftex.def)             Requested size: 469.75502pt x 92.14343pt.
- [46
+ [44
 
 
  </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/mir_comp_soni
 f_interaction.png>]
 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/mir.png, id=95
-9, 216.81pt x 113.42375pt>
+8, 216.81pt x 113.42375pt>
 File: /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/mir.png G
 raphic file (type png)
 <use /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/mir.png>
 Package pdftex.def Info: /Users/federicocamarahalac/Documents/fd_work/text/wave
-s/bin/img/mir.png  used on input line 1321.
+s/bin/img/mir.png  used on input line 1320.
 (pdftex.def)             Requested size: 140.92793pt x 73.72974pt.
 
-./main.tex:1325: Illegal parameter number in definition of \abx@field@title.
+./main.tex:1324: Illegal parameter number in definition of \abx@field@title.
 <to be read again> 
                    n
-l.1325 ...-0812-4235}{asmita_poddar_2018_1422565},
+l.1324 ...-0812-4235}{asmita_poddar_2018_1422565},
                                                    track separation or instr...
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-[47 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/mir.png>]
-[48] [49]
-Overfull \hbox (3.22183pt too wide) in paragraph at lines 1370--1376
+[45 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/mir.png>]
+[46] [47]
+Overfull \hbox (3.22183pt too wide) in paragraph at lines 1369--1375
 \T1/ptm/m/n/12 have been cre-ated over the years: []Goto, Hashiguchi, Nishimura
 , and Oka ([]2002[]), [] Goto, Hashiguchi,
  []
 
 
-Overfull \hbox (1.12213pt too wide) in paragraph at lines 1370--1376
+Overfull \hbox (1.12213pt too wide) in paragraph at lines 1369--1375
 \T1/ptm/m/n/12 Jaimovich and Knapp ([]2015[][]), Nort, Jarvis, and Palumbo ([]2
 016[]), [] Def-fer-rard, Benzi, Van-dergheynst,
  []
 
 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/sonif.png, id=
-1139, 159.59625pt x 148.555pt>
+1138, 159.59625pt x 148.555pt>
 File: /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/sonif.png
  Graphic file (type png)
 <use /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/sonif.png>
 
 Package pdftex.def Info: /Users/federicocamarahalac/Documents/fd_work/text/wave
-s/bin/img/sonif.png  used on input line 1386.
+s/bin/img/sonif.png  used on input line 1385.
 (pdftex.def)             Requested size: 140.92793pt x 131.17987pt.
-[50] [51 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/sonif
-.png>] [52] [53] [54] [55] [56] [57]
+[48] [49 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/sonif
+.png>] [50] [51] [52] [53] [54] [55]
 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/comp.png, id=1
-372, 93.34875pt x 68.255pt>
+371, 93.34875pt x 68.255pt>
 File: /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/comp.png 
 Graphic file (type png)
 <use /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/comp.png>
 Package pdftex.def Info: /Users/federicocamarahalac/Documents/fd_work/text/wave
-s/bin/img/comp.png  used on input line 1500.
+s/bin/img/comp.png  used on input line 1499.
 (pdftex.def)             Requested size: 93.94957pt x 68.69745pt.
- [58] [59 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/comp
-.png>] [60] [61] [62]
+ [56] [57 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/comp
+.png>] [58] [59] [60]
 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/truax_generali
-ty_b.png, id=1472, 840.13875pt x 550.055pt>
+ty_b.png, id=1471, 840.13875pt x 550.055pt>
 File: /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/truax_gen
 erality_b.png Graphic file (type png)
 <use /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/truax_gene
 rality_b.png>
 Package pdftex.def Info: /Users/federicocamarahalac/Documents/fd_work/text/wave
-s/bin/img/truax_generality_b.png  used on input line 1544.
+s/bin/img/truax_generality_b.png  used on input line 1543.
 (pdftex.def)             Requested size: 328.82707pt x 215.28436pt.
- [63] [64 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/trua
+ [61] [62 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/trua
 x_generality_b.png>]
-[65] [66] [67]
+[63] [64] [65]
 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/realtime.png, 
-id=1592, 771.88374pt x 233.87375pt>
+id=1591, 771.88374pt x 233.87375pt>
 File: /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/realtime.
 png Graphic file (type png)
 <use /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/realtime.p
 ng>
 Package pdftex.def Info: /Users/federicocamarahalac/Documents/fd_work/text/wave
-s/bin/img/realtime.png  used on input line 1576.
+s/bin/img/realtime.png  used on input line 1575.
 (pdftex.def)             Requested size: 422.77664pt x 128.09564pt.
- [68 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/realtime.
-png>] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78]
-Overfull \hbox (6.01671pt too wide) in paragraph at lines 1675--1676
+ [66 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/realtime.
+png>] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76]
+Overfull \hbox (6.01671pt too wide) in paragraph at lines 1674--1675
 \T1/ptm/m/n/12 brows-ing, or surf-ing the In-ter-net, database travers-ing is a
  form of nav-i-ga-tion across the \T1/ptm/m/it/12 n\T1/ptm/m/n/12 -dimentional
  []
 
-[79] [80] [81] [82] [83] [84]
+[77] [78] [79] [80] [81] [82]
 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/intersections.
-png, id=2021, 297.11pt x 192.72pt>
+png, id=2020, 297.11pt x 192.72pt>
 File: /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/intersect
 ions.png Graphic file (type png)
 <use /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/intersecti
 ons.png>
 Package pdftex.def Info: /Users/federicocamarahalac/Documents/fd_work/text/wave
-s/bin/img/intersections.png  used on input line 1711.
+s/bin/img/intersections.png  used on input line 1710.
 (pdftex.def)             Requested size: 234.8775pt x 152.35886pt.
- [85] [86 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/inte
+ [83] [84 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/inte
 rsections.png>]
 Chapter 2.
-[87
+[85
 
-] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101]
-[102] [103] [104] [105]
+] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99]
+[100] [101] [102] [103]
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 2040.
- [106] [107] [108] [109] [110] [111] [112] [113]
-[114] [115] [116] [117] [118] [119] [120] [121] [122] [123] [124] [125]
-[126] [127] [128]
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 2039.
+ [104] [105] [106] [107] [108] [109] [110] [111]
+[112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122] [123]
+[124] [125] [126]
 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/lorenz_plotter
-.png, id=2437, 1284.8pt x 803.0pt>
+.png, id=2436, 1284.8pt x 803.0pt>
 File: /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/lorenz_pl
 otter.png Graphic file (type png)
 <use /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/lorenz_plo
 tter.png>
 Package pdftex.def Info: /Users/federicocamarahalac/Documents/fd_work/text/wave
-s/bin/img/lorenz_plotter.png  used on input line 2300.
+s/bin/img/lorenz_plotter.png  used on input line 2299.
 (pdftex.def)             Requested size: 328.82707pt x 205.51584pt.
- [129 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/lorenz_p
-lotter.png>] [130] [131] [132] [133] [134] [135] [136]
-[137] [138] [139] [140] [141] [142] [143]
-Overfull \hbox (0.17247pt too wide) in paragraph at lines 2492--2493
+ [127 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/lorenz_p
+lotter.png>] [128] [129] [130] [131] [132] [133] [134]
+[135] [136] [137] [138] [139] [140] [141]
+Overfull \hbox (0.17247pt too wide) in paragraph at lines 2491--2492
  []\T1/ptm/b/n/12 Sound Syn-the-sis Paren-the-sis[] \T1/ptm/m/n/12 (Be-fore con
 -tin-u-ing, a sound syn-the-sis paren-the-sis must be opened.
  []
 
-[144] [145] [146] [147] [148] [149] [150] [151] [152] [153] [154] [155]
+[142] [143] [144] [145] [146] [147] [148] [149] [150] [151] [152] [153]
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2018/09/02 1.7 listings language file
 )
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2018/09/02 1.7 listings language file
 )
-[156] [157] [158] [159] [160] [161] [162] [163] [164]
+[154] [155] [156] [157] [158] [159] [160] [161] [162]
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2018/09/02 1.7 listings language file
 )
@@ -1618,18 +1624,18 @@ File: lstlang1.sty 2018/09/02 1.7 listings language file
 File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 2720.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 2719.
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2723.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2722.
 
 
-[165] [166] [167
+[163] [164] [165
 
-] [168
+] [166
 
-] [169] [170] (./main.gls [171
+] [167] [168] (./main.gls [169
 
-] [172
+] [170
 
 
 ]
@@ -1642,12 +1648,12 @@ Overfull \hbox (11.37546pt too wide) in paragraph at lines 43--46
 []\T1/ptm/m/n/12 The Cen-ter for Network-Centric
  []
 
-[173]
+[171]
 Overfull \hbox (1.79924pt too wide) in paragraph at lines 52--54
 []\T1/ptm/m/n/12 The Cen-tre for Arab and Mediter-ranean Mu-
  []
 
-[174]
+[172]
 Overfull \hbox (15.09895pt too wide) in paragraph at lines 81--84
 \T1/ptm/m/n/12 tion, these sys-tems are of-ten di-verse and in-no-va-tive, brea
 k-ing with tra-di-tional mu-si-cal paradigms
@@ -1669,17 +1675,17 @@ Overfull \hbox (2.59088pt too wide) in paragraph at lines 103--106
 []\T1/ptm/m/n/12 The DARMS project started in 1963 by Ste-
  []
 
-[175] [176]
+[173] [174]
 Overfull \hbox (13.01028pt too wide) in paragraph at lines 137--142
 \T1/ptm/m/n/12 pe-cially suited to nu-meric com-pu-ta-tion and sci-en-tific com
 -put-ing. See also: []$https : / / en . wikipedia .
  []
 
 
-LaTeX Warning: Citation 'Jensenius2006a' on page 177 undefined on input line 15
+LaTeX Warning: Citation 'Jensenius2006a' on page 175 undefined on input line 15
 5.
 
-[177]
+[175]
 Overfull \hbox (8.44711pt too wide) in paragraph at lines 177--180
 []\T1/ptm/m/n/12 an in-memory, column-oriented, re-la-tional database man-
  []
@@ -1690,14 +1696,14 @@ Overfull \hbox (26.59502pt too wide) in paragraph at lines 183--185
 ikipedia . org / wiki / Human _ Metabolome _
  []
 
-[178]
+[176]
 Overfull \hbox (2.92647pt too wide) in paragraph at lines 211--214
 []\T1/ptm/m/n/12 a French in-sti-tute for sci-ence about
  []
 
-[179]
+[177]
 
-LaTeX Warning: Citation 'DBLP:conf/icmc/Cambouropoulos01' on page 180 undefined
+LaTeX Warning: Citation 'DBLP:conf/icmc/Cambouropoulos01' on page 178 undefined
  on input line 245.
 
 
@@ -1723,7 +1729,7 @@ Overfull \hbox (2.74661pt too wide) in paragraph at lines 278--281
 fied as a NoSQL database
  []
 
-[180]
+[178]
 Overfull \hbox (2.15039pt too wide) in paragraph at lines 287--290
 \T1/ptm/m/n/12 tion, com-pu-ta-tional in-tel-li-gence or some com-bi-na-tion of
  these. See also: []$https : / / en . wikipedia .
@@ -1735,7 +1741,7 @@ Overfull \hbox (31.41385pt too wide) in paragraph at lines 313--316
 . See also: []$http : / / www . mimo-[]international .
  []
 
-[181] [182]
+[179] [180]
 Overfull \hbox (5.21861pt too wide) in paragraph at lines 377--377
 []\T1/ptm/m/n/12 In par-ti-cle physics, quan-tum elec-tro-dy-nam-ics is the rel
 -a-tivis-tic quan-
@@ -1753,14 +1759,14 @@ Overfull \hbox (3.89984pt too wide) in paragraph at lines 381--384
 signed
  []
 
-[183]
+[181]
 Overfull \hbox (2.17123pt too wide) in paragraph at lines 403--403
 []\T1/ptm/m/n/12 The In-ter-na-tional In-ven-tory of Mu-si-cal Sources
  []
 
-[184]
+[182]
 
-LaTeX Warning: Citation 'icmc/bbp2372.1999.411' on page 185 undefined on input 
+LaTeX Warning: Citation 'icmc/bbp2372.1999.411' on page 183 undefined on input 
 line 441.
 
 
@@ -1768,7 +1774,7 @@ Overfull \hbox (48.02286pt too wide) in paragraph at lines 441--445
 []
  []
 
-[185]
+[183]
 Overfull \hbox (1.8719pt too wide) in paragraph at lines 458--458
 []\T1/ptm/m/n/12 a World Wide Web Con-sor-tium rec-om-mended
  []
@@ -1779,125 +1785,125 @@ Overfull \hbox (2.27069pt too wide) in paragraph at lines 458--458
 ki / Synchronized _ Multimedia _ Integration _
  []
 
-[186] [187]) (./main.acr [188]
+[184] [185]) (./main.acr [186]
 Overfull \hbox (6.7435pt too wide) in paragraph at lines 64--68
-[]\T1/ptm/m/n/12 Real-Time Corpus-Based Con-cate-na-tive Syn-the-sis[]. []76[],
- []171[], \T1/ptm/m/it/12 Glos-sary: []\T1/ptm/m/n/12 Real-Time Corpus-
+[]\T1/ptm/m/n/12 Real-Time Corpus-Based Con-cate-na-tive Syn-the-sis[]. []74[],
+ []169[], \T1/ptm/m/it/12 Glos-sary: []\T1/ptm/m/n/12 Real-Time Corpus-
  []
 
-[189
+[187
 
 
 ]
 Overfull \hbox (8.00334pt too wide) in paragraph at lines 85--89
-[]\T1/ptm/m/n/12 Centre des Musiques Arabes et Mediter-ra-neennes[]. []48[], []
-171[], \T1/ptm/m/it/12 Glos-sary: []\T1/ptm/m/n/12 Cen-tre des Musiques
+[]\T1/ptm/m/n/12 Centre des Musiques Arabes et Mediter-ra-neennes[]. []46[], []
+169[], \T1/ptm/m/it/12 Glos-sary: []\T1/ptm/m/n/12 Cen-tre des Musiques
  []
 
-[190] [191] [192] [193]
+[188] [189] [190] [191]
 Overfull \hbox (9.88765pt too wide) in paragraph at lines 508--508
 []\T1/ptm/m/n/12 Speech Trans-for-ma-tion and Rep-re-sen-ta-tion us-ing Adap-ti
 ve In-ter-po-la-tion of weiGHTed
  []
 
-[194]) [195] [196
+[192]) [193] [194
 
-] [197]
-Overfull \hbox (10.80641pt too wide) in paragraph at lines 2910--2910
+] [195]
+Overfull \hbox (10.80641pt too wide) in paragraph at lines 2909--2909
 \T1/ptm/m/n/12 Louisiana, USA: Louisiana State Uni-ver-sity. Re-trieved from []
 $http : / / www . nime . org / proceedings /
  []
 
-[198] [199] [200] [201] [202]
-Overfull \hbox (13.96663pt too wide) in paragraph at lines 2910--2910
+[196] [197] [198] [199] [200]
+Overfull \hbox (13.96663pt too wide) in paragraph at lines 2909--2909
 \T1/ptm/m/n/12 for au-to-matic chord tran-scrip-tion and corpus-based re-search
 . In E. Gómez, X. Hu, E. Humphrey,
  []
 
 
-Overfull \hbox (4.39261pt too wide) in paragraph at lines 2910--2910
+Overfull \hbox (4.39261pt too wide) in paragraph at lines 2909--2909
 []\T1/ptm/m/n/12 Fonseca, E., Pons, J., Fa-vory, X., Font, F., Bog-danov, D., F
 er-raro, A., ... Serra, X. (2017). Freesound
  []
 
-[203] [204]
-Overfull \hbox (10.80641pt too wide) in paragraph at lines 2910--2910
+[201] [202]
+Overfull \hbox (10.80641pt too wide) in paragraph at lines 2909--2909
 \T1/ptm/m/n/12 Louisiana, USA: Louisiana State Uni-ver-sity. Re-trieved from []
 $http : / / www . nime . org / proceedings /
  []
 
-[205] [206]
-Overfull \hbox (8.07442pt too wide) in paragraph at lines 2910--2910
+[203] [204]
+Overfull \hbox (8.07442pt too wide) in paragraph at lines 2909--2909
 []\T1/ptm/m/n/12 Latour, B. (1993). \T1/ptm/m/it/12 We have never been mod-ern\
 T1/ptm/m/n/12 . Har-vard Uni-ver-sity Press Cam-bridge, Mas-sachusetts. 
  []
 
-[207] [208] [209]
-Overfull \hbox (11.96437pt too wide) in paragraph at lines 2910--2910
+[205] [206] [207]
+Overfull \hbox (11.96437pt too wide) in paragraph at lines 2909--2909
 \T1/ptm/m/n/12 Shapes of MIMO database. \T1/ptm/m/it/12 arXiv e-prints\T1/ptm/m
 /n/12 , arXiv:1808.02848. arXiv: []$1808 . 02848$ \T1/pcr/m/n/12 [stat.AP][] 
  []
 
-./main.tex:2910: Illegal parameter number in definition of \abx@field@title.
+./main.tex:2909: Illegal parameter number in definition of \abx@field@title.
 <to be read again> 
                    n
-l.2910 \addcontentsline
+l.2909 \addcontentsline
                        {toc}{chapter}{Bibliography}
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-./main.tex:2910: Illegal parameter number in definition of \@tempa.
+./main.tex:2909: Illegal parameter number in definition of \@tempa.
 <to be read again> 
                    n
-l.2910 \addcontentsline
+l.2909 \addcontentsline
                        {toc}{chapter}{Bibliography}
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-./main.tex:2910: Illegal parameter number in definition of \blx@tempa.
+./main.tex:2909: Illegal parameter number in definition of \blx@tempa.
 <to be read again> 
                    n
-l.2910 \addcontentsline
+l.2909 \addcontentsline
                        {toc}{chapter}{Bibliography}
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-./main.tex:2910: You can't use `macro parameter character #' in horizontal mode
+./main.tex:2909: You can't use `macro parameter character #' in horizontal mode
 .
 \blx@tempa ->\endgroup {##
                           nowplaying-RS: A New Benchmark Dataset for Buildin...
-l.2910 \addcontentsline
+l.2909 \addcontentsline
                        {toc}{chapter}{Bibliography}
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-[210] [211] [212]
-Overfull \hbox (0.17679pt too wide) in paragraph at lines 2910--2910
+[208] [209] [210]
+Overfull \hbox (0.17679pt too wide) in paragraph at lines 2909--2909
 []\T1/ptm/m/n/12 Schwarz, D., & Schnell, N. (2009). Sound Search by Content-bas
 ed Nav-i-ga-tion in Large Databases.
  []
 
-[213] [214] [215]
-Overfull \hbox (0.32774pt too wide) in paragraph at lines 2910--2910
+[211] [212] [213]
+Overfull \hbox (0.32774pt too wide) in paragraph at lines 2909--2909
 []\T1/ptm/m/n/12 Yang, C. (2001). \T1/ptm/m/it/12 Mu-sic database re-trieval ba
 sed on spec-tral sim-i-lar-ity \T1/ptm/m/n/12 (Tech-ni-cal Re-port No. 2001-
  []
 
-[216]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2912.
- [217]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2912.
+[214]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2911.
+ [215]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2911.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2912.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2912.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2911.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2911.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 784C8E913A9609C2F99081E083EA1D46;10066.
+(rerunfilecheck)             Checksum: 94C2D4CC0CB859E7C7A09A4BAA0B708F;10066.
 
 
 LaTeX Warning: There were undefined references.
@@ -1910,13 +1916,13 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2912.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2911.
  ) 
 Here is how much of TeX's memory you used:
- 44332 strings out of 494062
- 782105 string characters out of 6163057
- 1762474 words of memory out of 5000000
- 46425 multiletter control sequences out of 15000+600000
+ 44326 strings out of 494062
+ 781763 string characters out of 6163057
+ 1763377 words of memory out of 5000000
+ 46420 multiletter control sequences out of 15000+600000
  586020 words of font info for 80 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  69i,10n,107p,4027b,3993s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2066,10 +2072,10 @@ usr/local/texlive/2016basic/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/l
 ocal/texlive/2016basic/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local
 /texlive/2016basic/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texl
 ive/2016basic/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (230 pages, 1460620 bytes).
+Output written on main.pdf (230 pages, 1188472 bytes).
 PDF statistics:
- 4873 PDF objects out of 5155 (max. 8388607)
+ 4872 PDF objects out of 5155 (max. 8388607)
  4566 compressed objects within 46 object streams
  1228 named destinations out of 1440 (max. 500000)
- 548 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 543 words of extra memory for PDF output out of 10000 (max. 10000000)
 
