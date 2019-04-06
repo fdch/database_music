@@ -53,7 +53,7 @@
 \glossentry{gls-cwm}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{169}}}%
 \glossentry{cmix}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{70\delimN 71}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{71}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{169}}}%
 \glossentry{gls-cdip}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{52}\delimN 
@@ -403,7 +403,8 @@
 		\setentrycounter[]{page}\glsnumberformat{169}}}\glsgroupskip
 \glsgroupheading{S}\relax \glsresetentrylist %
 \glossentry{score}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{63\delimN 64}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{63}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{65}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{169}}}%
 \glossentry{scriva}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{57}\delimN 

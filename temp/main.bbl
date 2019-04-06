@@ -2060,6 +2060,58 @@
       \verb http://hdl.handle.net/2027/spo.bbp2372.1978.031
       \endverb
     \endentry
+    \entry{DBLP:conf/icmc/BuxtonPRB80}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=c4f80e71867ede3ef70425f350e10ab4}{%
+           family={Buxton},
+           familyi={B\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9612af6fdd333606d679f5015b95a1da}{%
+           family={Patel},
+           familyi={P\bibinitperiod},
+           given={Sanand},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e9b0515a5dbfa9003daf1b383cea0332}{%
+           family={Reeves},
+           familyi={R\bibinitperiod},
+           given={William\bibnamedelima T.},
+           giveni={W\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=58012f0ea81d1d43beed3e2eace0fad6}{%
+           family={Baecker},
+           familyi={B\bibinitperiod},
+           given={Ronald},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Michigan Publishing}%
+      }
+      \strng{namehash}{3ce07bcbab40fae524d5f5a8217a76ca}
+      \strng{fullhash}{a933be17db2b3176d7fee28c8bdf2d87}
+      \strng{bibnamehash}{a933be17db2b3176d7fee28c8bdf2d87}
+      \strng{authorbibnamehash}{a933be17db2b3176d7fee28c8bdf2d87}
+      \strng{authornamehash}{3ce07bcbab40fae524d5f5a8217a76ca}
+      \strng{authorfullhash}{a933be17db2b3176d7fee28c8bdf2d87}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 1980 International Computer Music Conference, {ICMC} 1980, New York City, USA, 1980}
+      \field{title}{"OBJED" and the Design of Timbral Resources}
+      \field{year}{1980}
+      \verb{urlraw}
+      \verb http://hdl.handle.net/2027/spo.bbp2372.1980.006
+      \endverb
+      \verb{url}
+      \verb http://hdl.handle.net/2027/spo.bbp2372.1980.006
+      \endverb
+    \endentry
     \entry{icmc/bbp2372.1978.012}{inproceedings}{}
       \name{author}{4}{uniquelist=2}{%
         {{uniquename=0,uniquepart=base,hash=c4f80e71867ede3ef70425f350e10ab4}{%

@@ -286,7 +286,7 @@
 		\setentrycounter[]{page}\glsnumberformat{169}\delimN 
 		\glsseeformat[Glossary:]{gls-ir}{Z}}}%
 \glossentry{ircam}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{65\delimN 66}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{66}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{70}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{73}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{75}\delimN 
@@ -364,7 +364,7 @@
 \glossentry{mit}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{46}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{57}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{65}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{66}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{69}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{169}\delimN 
 		\glsseeformat[Glossary:]{gls-mit}{Z}}}%
@@ -454,7 +454,7 @@
 		\setentrycounter[]{page}\glsnumberformat{169}\delimN 
 		\glsseeformat[Glossary:]{gls-roi}{Z}}}%
 \glossentry{rtcmix}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{70\delimN 71}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{70\delimR 72}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{169}\delimN 
 		\glsseeformat[Glossary:]{gls-rtcmix}{Z}}}%
 \glossentry{rwc}{\glossaryentrynumbers{\relax 
@@ -494,7 +494,8 @@
 		\glsseeformat[Glossary:]{gls-sqlite}{Z}}}%
 \glossentry{sssp}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{33}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{57\delimR 60}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{57\delimN 58}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{60}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{64}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{69}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{169}\delimN 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.17)  6 APR 2019 22:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.17)  6 APR 2019 22:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1083,19 +1083,19 @@ Package biblatex Info: Input encoding 'ascii' forced by
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl
-./main.bbl:8817: Illegal parameter number in definition of \NewValue.
+./main.bbl:8869: Illegal parameter number in definition of \NewValue.
 <to be read again> 
                    n
-l.8817 ...ontext-Aware Music Recommender Systems}}
+l.8869 ...ontext-Aware Music Recommender Systems}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-./main.bbl:8828: Illegal parameter number in definition of \abx@field@title.
+./main.bbl:8880: Illegal parameter number in definition of \abx@field@title.
 <to be read again> 
                    n
-l.8828     \endentry
+l.8880     \endentry
                     
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1543,7 +1543,7 @@ s/bin/img/comp.png  used on input line 1499.
  [56] [57 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/comp
 .png>] [58] [59] [60]
 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/truax_generali
-ty_b.png, id=1471, 840.13875pt x 550.055pt>
+ty_b.png, id=1474, 840.13875pt x 550.055pt>
 File: /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/truax_gen
 erality_b.png Graphic file (type png)
 <use /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/truax_gene
@@ -1555,7 +1555,7 @@ s/bin/img/truax_generality_b.png  used on input line 1543.
 x_generality_b.png>]
 [63] [64] [65]
 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/realtime.png, 
-id=1591, 771.88374pt x 233.87375pt>
+id=1594, 771.88374pt x 233.87375pt>
 File: /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/realtime.
 png Graphic file (type png)
 <use /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/realtime.p
@@ -1572,7 +1572,7 @@ Overfull \hbox (6.01671pt too wide) in paragraph at lines 1674--1675
 
 [77] [78] [79] [80] [81] [82]
 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/intersections.
-png, id=2020, 297.11pt x 192.72pt>
+png, id=2023, 297.11pt x 192.72pt>
 File: /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/intersect
 ions.png Graphic file (type png)
 <use /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/intersecti
@@ -1593,7 +1593,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
 [112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122] [123]
 [124] [125] [126]
 </Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/lorenz_plotter
-.png, id=2436, 1284.8pt x 803.0pt>
+.png, id=2439, 1284.8pt x 803.0pt>
 File: /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/lorenz_pl
 otter.png Graphic file (type png)
 <use /Users/federicocamarahalac/Documents/fd_work/text/waves/bin/img/lorenz_plo
@@ -1675,22 +1675,23 @@ Overfull \hbox (2.59088pt too wide) in paragraph at lines 103--106
 []\T1/ptm/m/n/12 The DARMS project started in 1963 by Ste-
  []
 
-[173] [174]
+[173]
 Overfull \hbox (13.01028pt too wide) in paragraph at lines 137--142
 \T1/ptm/m/n/12 pe-cially suited to nu-meric com-pu-ta-tion and sci-en-tific com
 -put-ing. See also: []$https : / / en . wikipedia .
  []
 
+[174]
 
 LaTeX Warning: Citation 'Jensenius2006a' on page 175 undefined on input line 15
 5.
 
-[175]
+
 Overfull \hbox (8.44711pt too wide) in paragraph at lines 177--180
 []\T1/ptm/m/n/12 an in-memory, column-oriented, re-la-tional database man-
  []
 
-
+[175]
 Overfull \hbox (26.59502pt too wide) in paragraph at lines 183--185
 \T1/ptm/m/n/12 Project funded by Genome Canada. See also: []$https : / / en . w
 ikipedia . org / wiki / Human _ Metabolome _
@@ -1767,20 +1768,20 @@ Overfull \hbox (2.17123pt too wide) in paragraph at lines 403--403
 [182]
 
 LaTeX Warning: Citation 'icmc/bbp2372.1999.411' on page 183 undefined on input 
-line 441.
+line 442.
 
 
-Overfull \hbox (48.02286pt too wide) in paragraph at lines 441--445
+Overfull \hbox (48.02286pt too wide) in paragraph at lines 442--446
 []
  []
 
 [183]
-Overfull \hbox (1.8719pt too wide) in paragraph at lines 458--458
+Overfull \hbox (1.8719pt too wide) in paragraph at lines 459--459
 []\T1/ptm/m/n/12 a World Wide Web Con-sor-tium rec-om-mended
  []
 
 
-Overfull \hbox (2.27069pt too wide) in paragraph at lines 458--458
+Overfull \hbox (2.27069pt too wide) in paragraph at lines 459--459
 \T1/ptm/m/n/12 other things. See also: []$https : / / en . wikipedia . org / wi
 ki / Synchronized _ Multimedia _ Integration _
  []
@@ -1801,7 +1802,7 @@ Overfull \hbox (8.00334pt too wide) in paragraph at lines 85--89
  []
 
 [188] [189] [190] [191]
-Overfull \hbox (9.88765pt too wide) in paragraph at lines 508--508
+Overfull \hbox (9.88765pt too wide) in paragraph at lines 509--509
 []\T1/ptm/m/n/12 Speech Trans-for-ma-tion and Rep-re-sen-ta-tion us-ing Adap-ti
 ve In-ter-po-la-tion of weiGHTed
  []
@@ -1919,10 +1920,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2911.
  ) 
 Here is how much of TeX's memory you used:
- 44326 strings out of 494062
- 781763 string characters out of 6163057
- 1763377 words of memory out of 5000000
- 46420 multiletter control sequences out of 15000+600000
+ 44330 strings out of 494062
+ 781950 string characters out of 6163057
+ 1764814 words of memory out of 5000000
+ 46423 multiletter control sequences out of 15000+600000
  586020 words of font info for 80 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  69i,10n,107p,4027b,3993s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2072,10 +2073,10 @@ usr/local/texlive/2016basic/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/l
 ocal/texlive/2016basic/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local
 /texlive/2016basic/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texl
 ive/2016basic/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (230 pages, 1188472 bytes).
+Output written on main.pdf (230 pages, 1188983 bytes).
 PDF statistics:
- 4872 PDF objects out of 5155 (max. 8388607)
- 4566 compressed objects within 46 object streams
- 1228 named destinations out of 1440 (max. 500000)
+ 4876 PDF objects out of 5155 (max. 8388607)
+ 4570 compressed objects within 46 object streams
+ 1229 named destinations out of 1440 (max. 500000)
  543 words of extra memory for PDF output out of 10000 (max. 10000000)
 
