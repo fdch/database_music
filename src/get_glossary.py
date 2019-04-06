@@ -34,7 +34,7 @@ with open("./glossary/definitions.tex", "w") as g:
 		except:
 			print "Malformed abbreviation:",abb
 		try:
-			lng=k["gsx$expansion"]["$t"].encode("utf8").title()
+			lng=k["gsx$expansion"]["$t"].encode("utf8")  #.title()
 		except:
 			lng=abb
 			# print "Malformed expansion:",lng
