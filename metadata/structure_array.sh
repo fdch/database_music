@@ -2,8 +2,8 @@
 #	Automatically Generated from:
 #	<distree.py>
 STRUCT=(
-"partchapter*" content/part-0/abstract.tex "Abstract" 425
-"partchapter*" content/part-1/abstract.tex "Introduction" 3149
+"chapter*" content/part-0/abstract.tex "Abstract" 425
+"chapter*" content/part-1/abstract.tex "Introduction" 3149
 "part" content/part-2/abstract.tex "Database Art" 172
 "chapter" content/part-2/section-1/sub/abstract.tex "The Database In New Media Theory" 0
 "section" content/part-2/section-1/sub/new_media.tex "Database As Form" 415
@@ -47,5 +47,5 @@ STRUCT=(
 "section" content/part-3/section-4/sub/music.tex "The Severed Object Of Music" 1974
 "section" content/part-3/section-4/sub/anarchy.tex "Anarchy And The Unwork" 1924
 "section" content/part-3/section-4/sub/worker.tex "[Wip] Work In Progress" 347
-"partchapter*" content/part-4/abstract.tex "Conclusion" 4
+"chapter*" content/part-4/abstract.tex "Conclusion" 4
 )

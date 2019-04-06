@@ -69,7 +69,7 @@ def traverse_structures(file,target,outline,contentdir):
 			sectype="chapter"
 			ssetype="section"
 			if chtitl in s:
-				chatype+="chapter*"
+				chatype="chapter*"
 				sectype+="*"
 				ssetype+="*"
 			try:	
