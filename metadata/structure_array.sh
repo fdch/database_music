@@ -16,14 +16,14 @@ STRUCT=(
 "subsection" content/part-2/section-1/sub/generated.tex "Databasing: Database As Performance" 295
 "section" content/part-2/section-2/sub/abstract.tex "Databasing And The History Of Databases" 0
 "subsection" content/part-2/section-2/sub/databasing.tex "Databasing: The Performance Of The Database" 2067
-"subsection" content/part-2/section-2/sub/programming.tex "A Database Tree" 925
-"subsection" content/part-2/section-2/sub/models.tex "The Realm Of Data Structures" 541
-"subsection" content/part-2/section-2/sub/descriptions.tex "A Brief History Of Database Models" 2381
+"subsection" content/part-2/section-2/sub/programming.tex "A Database Tree" 924
+"subsection" content/part-2/section-2/sub/models.tex "The Realm Of Data Structures" 542
+"subsection" content/part-2/section-2/sub/descriptions.tex "A Brief History Of Database Models" 2379
 "section" content/part-2/section-3/sub/abstract.tex "Databasing Sound: Applications Of Databases In Sound" 359
-"subsection" content/part-2/section-3/sub/mir.tex "Music Information Retrieval" 988
+"subsection" content/part-2/section-3/sub/mir.tex "Music Information Retrieval" 935
 "subsection" content/part-2/section-3/sub/sonification.tex "Sonification" 2041
-"subsection" content/part-2/section-3/sub/computer_music.tex "Computer Music" 5392
-"subsection" content/part-2/section-3/sub/applications.tex "Applications" 3130
+"subsection" content/part-2/section-3/sub/computer_music.tex "Computer Music" 5382
+"subsection" content/part-2/section-3/sub/applications.tex "Intersections" 3189
 "chapter" content/part-3/abstract.tex "Database Aesthetics" 795
 "section" content/part-3/section-1/sub/abstract.tex "Listening Databases" 0
 "subsection" content/part-3/section-1/sub/resonance_of_a_return.tex "The Resonance Of A Return" 1463
