@@ -20,7 +20,7 @@ Database Art 172
 		Music Information Retrieval 935 37%
 		Sonification 2041 81%
 		Computer Music 5382 215%
-		Intersections 3189 127%
+		Intersections 3233 129%
 Database Aesthetics 795
 	Listening Databases 0
 		The Resonance of a Return 1463 58%
