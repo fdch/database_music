@@ -62,16 +62,14 @@ def traverse_structures(file,target,outline,contentdir):
 			sefile=se['filename']
 			setitl=se['title']
 			spath=chpath+"/"+sefile
-			#
-			#	assign section hierarchy here
-			#
-			chatype="part"
-			sectype="chapter"
-			ssetype="section"
 			if chtitl in s:
+				sectype="section*"
 				chatype="chapter*"
-				sectype+="*"
-				ssetype+="*"
+				ssetype="subsection*"
+			else:
+				sectype="section"
+				chatype="chapter"
+				ssetype="subsection"
 			try:	
 				subsection = csv_dict_list(file,spath)
 				sectar=int(float(chtarg)/float(chlen))				
@@ -86,7 +84,7 @@ def traverse_structures(file,target,outline,contentdir):
 							sstitl=setitl
 							w=check_and_write(texf,sstitl,sectype,target)
 							outline.write("\t"+sstitl+" "+w+"\n")
-							print "\tCHAPTER: "+sstitl+" "+w
+							print "\tSECTION: "+sstitl+" "+w
 						else:
 							sslen=len(ss)-1
 							sstar=int(float(sectar)/float(seclen))
@@ -96,7 +94,7 @@ def traverse_structures(file,target,outline,contentdir):
 							sumarray.append(div)
 							per=str(int(div*100.))+"%"
 							outline.write("\t\t"+sstitl+" "+w+" "+per+"\n")
-							print "\t\tSECTION: "+sstitl+" "+per
+							print "\t\tSUBSECTION: "+sstitl+" "+per
 					except:
 						errormess(texf,"sections")
 			except:
@@ -105,7 +103,7 @@ def traverse_structures(file,target,outline,contentdir):
 					texf=spath+".tex"
 					w=check_and_write(texf,chtitl,chatype,target)
 					outline.write(chtitl+" "+w+"\n")
-					print "PART: "+chtitl+" "+w
+					print "CHAPTER: "+chtitl+" "+w
 				except:
 					errormess(texf,"chapters")
 	return sumarray

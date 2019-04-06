@@ -1,6 +1,6 @@
-\img{sonif}{png}{0.3}{
-	Diagram of database performance in sonification practices. The database is visibly below the computer, and it feeds the computer from an external source represented by the right-most arrow.
-}
+\img{sonif}{0.3}{
+	The database is visibly below the computer, and it feeds the computer from an external source represented by the right-most arrow.
+}{Diagram of database performance in sonification practices.}
 
 The database is the ground floor of sonification. The sonified data is very likely to be digital,\footnote{There are cases where sonification is entirely analog, such as the first sonification tool ever created: the Geiger counter} which means that data needs to be stored in a structured way for fast access by computers, and the role of the sonifier is to acoustically translate the database's inner relationships \parencite[9]{WalkerNees2011-TOS}.
 
@@ -10,7 +10,7 @@ Sonification depends on databases, on the interaction between databases, and on 
 
 In what follows, I present some instances of sonification practices as described by their authors.
 
-\subsection{Parameter mapping}
+\subsubsection{Parameter mapping}
 \label{sonification:parametermapping}
 
 \paragraph{DOW}
@@ -22,13 +22,13 @@ In what follows, I present some instances of sonification practices as described
 % \paragraph{Geolocations}
 % \citeauthor{icmc/bbp2372.2010.002} \parencite{icmc/bbp2372.2010.002} created an interface called \gls{compath} which enabled users to draw paths on a map, sonifying data points which represented information (e.g., traffic, weather, culture events) along the points of the path. They used major commercial web services such as Amazon, Google, and Yahoo that offered public \glspl{api} so that each geo-location inputted on the path acted as a database query. The returned data from these services was then mixed together and mapped with a virtual synthesized via \gls{midi}.
 
-\subsection{Model-based sonification}
+\subsubsection{Model-based sonification}
 \label{sonification:model}
 
 \paragraph{Space}
 One example of model-based sonification is the \textit{Data Listening Space} installation by the \gls{qcd-audio} project at the \gls{iem} of the University of Music and Performing Arts in Graz \parencite{icmc/bbp2372.2012.096}. Within this installation, they proposed a three dimensional, navigable space holding a Monte Carlo simulation of the theory of \gls{qed}. Within this \gls{qed} \textit{lattice}, a walking participant holding sensors ---$x$, $y$, and $z$ coordinates--- could explore the simulated data by way of sonification.
 
-\subsection{Artistic sonification}
+\subsubsection{Artistic sonification}
 \label{sonification:artistic}
 
 \paragraph{Wolves}
@@ -51,7 +51,7 @@ One example of model-based sonification is the \textit{Data Listening Space} ins
 \paragraph{Gender Distribution}
 \textcite{Fri17:Son} derived a database of gender distribution by applying the python module \texttt{genderize} to author names in three main computer music conference proceedings databases: \gls{icmc}, \gls{nime}, and \gls{smc}. By assigning polar frequency ranges for each group (male and female), her sonification emphasizes the significant inequality of gender in the resulting acoustic stream segregation into male backround (continuous drone-like sound) and female foreground (fewer and sparser sounds). Her conclusion, therefore, is that ``there is a need for analysis of the existing environments and social relations that surround music technology and computer music. If we identify the challenges that women are facing in our research community, we will be able to create more initiatives towards changing practices'' \parencite[238]{Fri17:Son}.
 
-\subsection{Sonification Installations}
+\subsubsection{Sonification Installations}
 \label{sonification:installations}
 
 % 
@@ -72,7 +72,7 @@ One example of model-based sonification is the \textit{Data Listening Space} ins
 \paragraph{Ucanny Faces}
 \textcite{fdch/installation/spectral} designed \textit{Hally}, an installation based on face tracking and real-time sonification of spectral features present in both pixel information containing the face, and the $x$ and $y$ coordinates of the moving data points of the face mesh used for tracking. Furthermore, by video-based audio convolution, \textit{Hally} aims to simulate a theory of perception based on \gls{ift} \parencite{connes:shapes}. Parting from previous work by \textcite{Sch07:How} on simultaneous sonification and visualization, \textit{Hally} explores the role of both sound and image in the definition of the self, by immersing the participant in an uncanny spectrality \parencite{fdch/papers/spectral}.
 
-% \subsection{Affective Sonification}
+% \subsubsection{Affective Sonification}
 % \label{sonification:affective} 
 
 % \paragraph{Telematic Electroacoustic Music}
@@ -82,7 +82,7 @@ One example of model-based sonification is the \textit{Data Listening Space} ins
 
 
 
-\subsection{Sonification Software}
+\subsubsection{Sonification Software}
 \label{sonification:software}
 
 \paragraph{SonArt}

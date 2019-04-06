@@ -1,0 +1,2229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns:bcf="https://sourceforge.net/projects/biblatex" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <element name="bcf:controlfile">
+      <!--
+        This is usually the same as the biblatex version string but not necessarily.
+        Sometimes the BCF format version doesn't change between biblatex releases
+      -->
+      <attribute name="version">
+        <data type="string">
+          <param name="minLength">1</param>
+        </data>
+      </attribute>
+      <attribute name="bltxversion">
+        <data type="string">
+          <param name="minLength">1</param>
+        </data>
+      </attribute>
+      <!--
+        "Global" Biber options. It's not clear what a non-global biber option
+        would be but just in case, we have the option ...
+      -->
+      <element name="bcf:options">
+        <attribute name="component">
+          <value>biber</value>
+        </attribute>
+        <attribute name="type">
+          <value>global</value>
+        </attribute>
+        <ref name="output_encoding"/>
+        <ref name="input_encoding"/>
+        <ref name="debug"/>
+        <ref name="mincrossrefs"/>
+        <ref name="minxrefs"/>
+        <ref name="sortcase"/>
+        <ref name="sortupper"/>
+      </element>
+      <!--
+        Global BibLaTeX options. That is, options that apply to all
+        entrytypes (unless a more specifically scoped option is specified)
+      -->
+      <element name="bcf:options">
+        <attribute name="component">
+          <value>biblatex</value>
+        </attribute>
+        <attribute name="type">
+          <value>global</value>
+        </attribute>
+        <ref name="alphaothers"/>
+        <ref name="labelalpha"/>
+        <ref name="labelnamespec"/>
+        <ref name="labeltitle"/>
+        <ref name="labeltitlespec"/>
+        <ref name="labeltitleyear"/>
+        <ref name="labeldateparts"/>
+        <ref name="labeldatespec"/>
+        <ref name="julian"/>
+        <ref name="gregorianstart"/>
+        <ref name="maxalphanames"/>
+        <ref name="maxbibnames"/>
+        <ref name="maxcitenames"/>
+        <ref name="maxsortnames"/>
+        <ref name="maxitems"/>
+        <ref name="minalphanames"/>
+        <ref name="minbibnames"/>
+        <ref name="mincitenames"/>
+        <ref name="minsortnames"/>
+        <ref name="minitems"/>
+        <ref name="singletitle"/>
+        <optional>
+          <ref name="sortalphaothers"/>
+        </optional>
+        <ref name="sortlocale"/>
+        <ref name="sortingtemplatename"/>
+        <ref name="sortsets"/>
+        <ref name="uniquelist"/>
+        <ref name="uniquename"/>
+        <ref name="uniqueprimaryauthor"/>
+        <ref name="uniquetitle"/>
+        <ref name="uniquebaretitle"/>
+        <ref name="uniquework"/>
+        <ref name="useprefix"/>
+        <ref name="usenames"/>
+      </element>
+      <zeroOrMore>
+        <!-- Per-entrytype BibLaTeX options -->
+        <element name="bcf:options">
+          <attribute name="component">
+            <value>biblatex</value>
+          </attribute>
+          <attribute name="type"/>
+          <optional>
+            <ref name="alphaothers"/>
+          </optional>
+          <optional>
+            <ref name="labelalpha"/>
+          </optional>
+          <optional>
+            <ref name="labelnamespec"/>
+          </optional>
+          <optional>
+            <ref name="labeltitle"/>
+          </optional>
+          <optional>
+            <ref name="labeltitlespec"/>
+          </optional>
+          <optional>
+            <ref name="labeltitleyear"/>
+          </optional>
+          <optional>
+            <ref name="labeldateparts"/>
+          </optional>
+          <optional>
+            <ref name="labeldatespec"/>
+          </optional>
+          <optional>
+            <ref name="maxalphanames"/>
+          </optional>
+          <optional>
+            <ref name="maxbibnames"/>
+          </optional>
+          <optional>
+            <ref name="maxcitenames"/>
+          </optional>
+          <optional>
+            <ref name="maxsortnames"/>
+          </optional>
+          <optional>
+            <ref name="maxitems"/>
+          </optional>
+          <optional>
+            <ref name="minalphanames"/>
+          </optional>
+          <optional>
+            <ref name="minbibnames"/>
+          </optional>
+          <optional>
+            <ref name="mincitenames"/>
+          </optional>
+          <optional>
+            <ref name="minsortnames"/>
+          </optional>
+          <optional>
+            <ref name="minitems"/>
+          </optional>
+          <optional>
+            <ref name="singletitle"/>
+          </optional>
+          <optional>
+            <ref name="skipbib"/>
+          </optional>
+          <optional>
+            <ref name="skiplab"/>
+          </optional>
+          <optional>
+            <ref name="skipbiblist"/>
+          </optional>
+          <optional>
+            <ref name="skiplos"/>
+          </optional>
+          <optional>
+            <ref name="sortalphaothers"/>
+          </optional>
+          <optional>
+            <ref name="uniquelist"/>
+          </optional>
+          <optional>
+            <ref name="uniquename"/>
+          </optional>
+          <optional>
+            <ref name="uniquetitle"/>
+          </optional>
+          <optional>
+            <ref name="uniquebaretitle"/>
+          </optional>
+          <optional>
+            <ref name="uniquework"/>
+          </optional>
+          <optional>
+            <ref name="useprefix"/>
+          </optional>
+          <optional>
+            <ref name="usenames"/>
+          </optional>
+        </element>
+      </zeroOrMore>
+      <zeroOrMore>
+        <!-- Option scope -->
+        <element name="bcf:optionscope">
+          <attribute name="type">
+            <choice>
+              <value>GLOBAL</value>
+              <value>ENTRYTYPE</value>
+              <value>ENTRY</value>
+              <value>NAMELIST</value>
+              <value>NAME</value>
+            </choice>
+          </attribute>
+          <oneOrMore>
+            <element name="bcf:option">
+              <attribute name="datatype">
+                <choice>
+                  <value>boolean</value>
+                  <value>integer</value>
+                  <value>string</value>
+                  <value>xml</value>
+                </choice>
+              </attribute>
+              <data type="string"/>
+            </element>
+          </oneOrMore>
+        </element>
+      </zeroOrMore>
+      <oneOrMore>
+        <!-- datafield sets -->
+        <element name="bcf:datafieldset">
+          <attribute name="name"/>
+          <oneOrMore>
+            <element name="bcf:member">
+              <choice>
+                <group>
+                  <optional>
+                    <attribute name="fieldtype">
+                      <ref name="dmfieldtype"/>
+                    </attribute>
+                  </optional>
+                  <optional>
+                    <attribute name="datatype">
+                      <ref name="dmdatatype"/>
+                    </attribute>
+                  </optional>
+                </group>
+                <optional>
+                  <attribute name="field"/>
+                </optional>
+              </choice>
+              <empty/>
+            </element>
+          </oneOrMore>
+        </element>
+      </oneOrMore>
+      <optional>
+        <!-- user field/entrytype mapping -->
+        <element name="bcf:sourcemap">
+          <oneOrMore>
+            <element name="bcf:maps">
+              <attribute name="datatype">
+                <choice>
+                  <value>bibtex</value>
+                  <value>biblatexml</value>
+                </choice>
+              </attribute>
+              <optional>
+                <attribute name="map_overwrite">
+                  <choice>
+                    <value>0</value>
+                    <value>1</value>
+                  </choice>
+                </attribute>
+              </optional>
+              <optional>
+                <attribute name="level">
+                  <choice>
+                    <value>user</value>
+                    <value>style</value>
+                    <value>driver</value>
+                  </choice>
+                </attribute>
+              </optional>
+              <oneOrMore>
+                <ref name="map"/>
+              </oneOrMore>
+            </element>
+          </oneOrMore>
+        </element>
+      </optional>
+      <oneOrMore>
+        <!-- labelalphanametemplate specification -->
+        <element name="bcf:labelalphanametemplate">
+          <optional>
+            <attribute name="name">
+              <data type="string"/>
+            </attribute>
+          </optional>
+          <oneOrMore>
+            <element name="bcf:namepart">
+              <attribute name="order">
+                <data type="integer"/>
+              </attribute>
+              <optional>
+                <attribute name="use">
+                  <choice>
+                    <value>0</value>
+                    <value>1</value>
+                  </choice>
+                </attribute>
+              </optional>
+              <optional>
+                <attribute name="pre">
+                  <choice>
+                    <value>0</value>
+                    <value>1</value>
+                  </choice>
+                </attribute>
+              </optional>
+              <optional>
+                <attribute name="substring_width">
+                  <data type="integer"/>
+                </attribute>
+              </optional>
+              <optional>
+                <attribute name="substring_compound">
+                  <choice>
+                    <value>0</value>
+                    <value>1</value>
+                  </choice>
+                </attribute>
+              </optional>
+              <optional>
+                <attribute name="substring_side">
+                  <choice>
+                    <value>left</value>
+                    <value>right</value>
+                  </choice>
+                </attribute>
+              </optional>
+              <text/>
+            </element>
+          </oneOrMore>
+        </element>
+      </oneOrMore>
+      <oneOrMore>
+        <!-- labelalpha template specification -->
+        <element name="bcf:labelalphatemplate">
+          <optional>
+            <attribute name="type">
+              <data type="string"/>
+            </attribute>
+          </optional>
+          <oneOrMore>
+            <!-- per-type? -->
+            <element name="bcf:labelelement">
+              <attribute name="order">
+                <data type="integer"/>
+              </attribute>
+              <oneOrMore>
+                <element name="bcf:labelpart">
+                  <optional>
+                    <attribute name="final">
+                      <choice>
+                        <value>0</value>
+                        <value>1</value>
+                      </choice>
+                    </attribute>
+                  </optional>
+                  <optional>
+                    <attribute name="pad_char">
+                      <data type="string">
+                        <param name="minLength">1</param>
+                      </data>
+                    </attribute>
+                  </optional>
+                  <optional>
+                    <attribute name="pad_side">
+                      <choice>
+                        <value>left</value>
+                        <value>right</value>
+                      </choice>
+                    </attribute>
+                  </optional>
+                  <optional>
+                    <attribute name="substring_width">
+                      <choice>
+                        <data type="integer"/>
+                        <value>v</value>
+                        <value>vf</value>
+                        <value>l</value>
+                      </choice>
+                    </attribute>
+                  </optional>
+                  <optional>
+                    <attribute name="substring_fixed_threshold">
+                      <data type="integer"/>
+                    </attribute>
+                  </optional>
+                  <optional>
+                    <attribute name="substring_width_max">
+                      <data type="integer"/>
+                    </attribute>
+                  </optional>
+                  <optional>
+                    <attribute name="substring_side">
+                      <choice>
+                        <value>left</value>
+                        <value>right</value>
+                      </choice>
+                    </attribute>
+                  </optional>
+                  <optional>
+                    <attribute name="ifnames"/>
+                  </optional>
+                  <optional>
+                    <attribute name="names"/>
+                  </optional>
+                  <optional>
+                    <attribute name="namessep">
+                      <data type="string" datatypeLibrary=""/>
+                    </attribute>
+                  </optional>
+                  <optional>
+                    <attribute name="noalphaothers">
+                      <choice>
+                        <value>0</value>
+                        <value>1</value>
+                      </choice>
+                    </attribute>
+                  </optional>
+                  <data type="string"/>
+                </element>
+              </oneOrMore>
+            </element>
+          </oneOrMore>
+        </element>
+      </oneOrMore>
+      <!-- Extradate specification -->
+      <element name="bcf:extradatespec">
+        <oneOrMore>
+          <!-- Scope of extradate tracking - an ordered set of fields to try -->
+          <element name="bcf:scope">
+            <oneOrMore>
+              <!-- A field used to track extradate -->
+              <element name="bcf:field">
+                <attribute name="order">
+                  <data type="integer"/>
+                </attribute>
+                <text/>
+              </element>
+            </oneOrMore>
+          </element>
+        </oneOrMore>
+      </element>
+      <!-- Cross-reference inheritance specifications -->
+      <element name="bcf:inheritance">
+        <!-- Defaults -->
+        <element name="bcf:defaults">
+          <!-- Whether to inherit all fields -->
+          <attribute name="inherit_all">
+            <choice>
+              <value>true</value>
+              <value>false</value>
+            </choice>
+          </attribute>
+          <!-- Should we overwrite the target field if it exists? -->
+          <attribute name="override_target">
+            <choice>
+              <value>true</value>
+              <value>false</value>
+            </choice>
+          </attribute>
+          <optional>
+            <!-- ignore of uniqueness tracking -->
+            <attribute name="ignore"/>
+          </optional>
+          <zeroOrMore>
+            <!-- Default inherit_all and override_target settings for entrytype source/target pairs -->
+            <element name="bcf:type_pair">
+              <attribute name="source">
+                <choice>
+                  <value>*</value>
+                  <data type="string">
+                    <param name="minLength">1</param>
+                  </data>
+                </choice>
+              </attribute>
+              <attribute name="target">
+                <choice>
+                  <value>*</value>
+                  <data type="string">
+                    <param name="minLength">1</param>
+                  </data>
+                </choice>
+              </attribute>
+              <optional>
+                <attribute name="inherit_all">
+                  <choice>
+                    <value>true</value>
+                    <value>false</value>
+                  </choice>
+                </attribute>
+              </optional>
+              <optional>
+                <attribute name="override_target">
+                  <choice>
+                    <value>true</value>
+                    <value>false</value>
+                  </choice>
+                </attribute>
+              </optional>
+              <optional>
+                <attribute name="suppress"/>
+              </optional>
+              <empty/>
+            </element>
+          </zeroOrMore>
+        </element>
+        <zeroOrMore>
+          <!-- An inheritance specification -->
+          <element name="bcf:inherit">
+            <optional>
+              <!-- ignore of uniqueness tracking -->
+              <attribute name="ignore"/>
+            </optional>
+            <oneOrMore>
+              <!-- applies to these pairs of source/target entrytypes -->
+              <element name="bcf:type_pair">
+                <attribute name="source">
+                  <choice>
+                    <value>*</value>
+                    <data type="string">
+                      <param name="minLength">1</param>
+                    </data>
+                  </choice>
+                </attribute>
+                <attribute name="target">
+                  <choice>
+                    <value>*</value>
+                    <data type="string">
+                      <param name="minLength">1</param>
+                    </data>
+                  </choice>
+                </attribute>
+                <empty/>
+              </element>
+            </oneOrMore>
+            <oneOrMore>
+              <!-- and here are the field specifications -->
+              <element name="bcf:field">
+                <choice>
+                  <!--
+                    either a "skip this field" specification
+                    so we can say inherit all except certain fields OR ...
+                  -->
+                  <group>
+                    <attribute name="source">
+                      <data type="string"/>
+                    </attribute>
+                    <attribute name="skip">
+                      <choice>
+                        <value>true</value>
+                        <value>false</value>
+                      </choice>
+                    </attribute>
+                  </group>
+                  <!-- ... a source and target field with an optional override attribute -->
+                  <group>
+                    <attribute name="source">
+                      <data type="string">
+                        <param name="minLength">1</param>
+                      </data>
+                    </attribute>
+                    <attribute name="target">
+                      <data type="string">
+                        <param name="minLength">1</param>
+                      </data>
+                    </attribute>
+                    <optional>
+                      <attribute name="override_target">
+                        <choice>
+                          <value>true</value>
+                          <value>false</value>
+                        </choice>
+                      </attribute>
+                    </optional>
+                  </group>
+                </choice>
+                <empty/>
+              </element>
+            </oneOrMore>
+          </element>
+        </zeroOrMore>
+      </element>
+      <optional>
+        <!-- noinit specification -->
+        <element name="bcf:noinits">
+          <oneOrMore>
+            <element name="bcf:noinit">
+              <attribute name="value">
+                <data type="string"/>
+              </attribute>
+              <empty/>
+            </element>
+          </oneOrMore>
+        </element>
+      </optional>
+      <optional>
+        <!-- nolabel specification -->
+        <element name="bcf:nolabels">
+          <oneOrMore>
+            <element name="bcf:nolabel">
+              <attribute name="value">
+                <data type="string"/>
+              </attribute>
+              <empty/>
+            </element>
+          </oneOrMore>
+        </element>
+      </optional>
+      <optional>
+        <!-- nosort specification -->
+        <element name="bcf:nosorts">
+          <oneOrMore>
+            <element name="bcf:nosort">
+              <attribute name="field">
+                <data type="string"/>
+              </attribute>
+              <attribute name="value">
+                <data type="string"/>
+              </attribute>
+              <empty/>
+            </element>
+          </oneOrMore>
+        </element>
+      </optional>
+      <zeroOrMore>
+        <!-- Transliteration specification(s) -->
+        <ref name="translit"/>
+      </zeroOrMore>
+      <oneOrMore>
+        <!-- Uniquename template -->
+        <ref name="uniquenametemplate"/>
+      </oneOrMore>
+      <oneOrMore>
+        <!-- Sorting name key specification -->
+        <ref name="sortingnamekeytemplate"/>
+      </oneOrMore>
+      <oneOrMore>
+        <!-- presort default strings for different entry types -->
+        <element name="bcf:presort">
+          <optional>
+            <attribute name="type"/>
+          </optional>
+          <text/>
+        </element>
+      </oneOrMore>
+      <zeroOrMore>
+        <!-- excludes of certain fields for sorting for specified types -->
+        <element name="bcf:sortexclusion">
+          <attribute name="type"/>
+          <oneOrMore>
+            <element name="bcf:exclusion">
+              <text/>
+            </element>
+          </oneOrMore>
+        </element>
+      </zeroOrMore>
+      <zeroOrMore>
+        <!-- forcibly includes certain fields excluded by sortexclusion for sorting for specified types -->
+        <element name="bcf:sortinclusion">
+          <attribute name="type"/>
+          <oneOrMore>
+            <element name="bcf:inclusion">
+              <text/>
+            </element>
+          </oneOrMore>
+        </element>
+      </zeroOrMore>
+      <optional>
+        <!-- Data model specification -->
+        <element name="bcf:datamodel">
+          <!-- Constants -->
+          <element name="bcf:constants">
+            <oneOrMore>
+              <element name="bcf:constant">
+                <optional>
+                  <attribute name="type">
+                    <choice>
+                      <value>string</value>
+                      <value>list</value>
+                    </choice>
+                  </attribute>
+                </optional>
+                <attribute name="name"/>
+                <text/>
+              </element>
+            </oneOrMore>
+          </element>
+          <!-- Valid entrytypes -->
+          <element name="bcf:entrytypes">
+            <oneOrMore>
+              <element name="bcf:entrytype">
+                <optional>
+                  <!-- Some entrytypes should be completely skipped on output (XDATA etc.) -->
+                  <attribute name="skip_output">
+                    <value>true</value>
+                  </attribute>
+                </optional>
+                <text/>
+              </element>
+            </oneOrMore>
+          </element>
+          <!--
+            BibLaTeX field types. Biber uses this to determine how to output various types
+            to the .bbl
+          -->
+          <element name="bcf:fields">
+            <oneOrMore>
+              <element name="bcf:field">
+                <!-- fieldtype is "field" or "list" -->
+                <attribute name="fieldtype">
+                  <ref name="dmfieldtype"/>
+                </attribute>
+                <optional>
+                  <!--
+                    format is a specification of the format of the field. If not specified, field contents
+                    are just as is. 
+                  -->
+                  <attribute name="format">
+                    <value>xsv</value>
+                  </attribute>
+                </optional>
+                <!-- datatype of field content -->
+                <attribute name="datatype">
+                  <ref name="dmdatatype"/>
+                </attribute>
+                <optional>
+                  <!-- Are we allowed to output a null field value to the .bbl for this field? -->
+                  <attribute name="nullok">
+                    <value>true</value>
+                  </attribute>
+                </optional>
+                <optional>
+                  <!-- Should this field be skipped and not output to the .bbl? -->
+                  <attribute name="skip_output">
+                    <value>true</value>
+                  </attribute>
+                </optional>
+                <optional>
+                  <!-- Field can be used as a label? This auto-generates some defaults in biblatex -->
+                  <attribute name="label">
+                    <value>true</value>
+                  </attribute>
+                </optional>
+                <text/>
+              </element>
+            </oneOrMore>
+          </element>
+          <oneOrMore>
+            <!--
+              Allowable fields for entrytypes
+              Only one specification per entrytype: even though it might be nice to have several 
+              so that one could share information, this would be hard to manage and confusing as it
+              not be visible in one place which fields were valid for an entrytype.
+            -->
+            <element name="bcf:entryfields">
+              <zeroOrMore>
+                <element name="bcf:entrytype">
+                  <text/>
+                </element>
+              </zeroOrMore>
+              <oneOrMore>
+                <element name="bcf:field">
+                  <text/>
+                </element>
+              </oneOrMore>
+            </element>
+          </oneOrMore>
+          <oneOrMore>
+            <!-- Constraints on field (co-)existence and format -->
+            <element name="bcf:constraints">
+              <zeroOrMore>
+                <!--
+                  Set of entrytypes that this constraint applies to
+                  An entrytype can be specified in multiple constraints
+                  
+                -->
+                <element name="bcf:entrytype">
+                  <text/>
+                </element>
+              </zeroOrMore>
+              <zeroOrMore>
+                <!-- A constraint specification -->
+                <element name="bcf:constraint">
+                  <choice>
+                    <!--
+                      Conditional constraints have an antecedent and consequent
+                      both of which have a quantifier. This allows you to enforce
+                      constraints like:
+                      
+                      if field a,b,c are all present then one of x,y,z must be
+                      if one of field a,b,c are present then none of x,y,z must be
+                      etc.
+                    -->
+                    <group>
+                      <attribute name="type">
+                        <value>conditional</value>
+                      </attribute>
+                      <element name="bcf:antecedent">
+                        <attribute name="quant">
+                          <choice>
+                            <value>all</value>
+                            <value>one</value>
+                            <value>none</value>
+                          </choice>
+                        </attribute>
+                        <oneOrMore>
+                          <element name="bcf:field">
+                            <text/>
+                          </element>
+                        </oneOrMore>
+                      </element>
+                      <element name="bcf:consequent">
+                        <attribute name="quant">
+                          <choice>
+                            <value>all</value>
+                            <value>one</value>
+                            <value>none</value>
+                          </choice>
+                        </attribute>
+                        <oneOrMore>
+                          <element name="bcf:field">
+                            <text/>
+                          </element>
+                        </oneOrMore>
+                      </element>
+                    </group>
+                    <!-- Datatype and format constraints -->
+                    <group>
+                      <attribute name="type">
+                        <value>data</value>
+                      </attribute>
+                      <optional>
+                        <!-- range* attributes are for limiting integer type range -->
+                        <attribute name="datatype">
+                          <choice>
+                            <value>integer</value>
+                            <value>isbn</value>
+                            <value>issn</value>
+                            <value>ismn</value>
+                            <value>date</value>
+                            <value>pattern</value>
+                          </choice>
+                        </attribute>
+                      </optional>
+                      <optional>
+                        <attribute name="rangemin">
+                          <data type="int"/>
+                        </attribute>
+                      </optional>
+                      <optional>
+                        <attribute name="rangemax">
+                          <data type="int"/>
+                        </attribute>
+                      </optional>
+                      <optional>
+                        <attribute name="pattern"/>
+                      </optional>
+                      <oneOrMore>
+                        <element name="bcf:field">
+                          <text/>
+                        </element>
+                      </oneOrMore>
+                    </group>
+                    <!-- Mandatoriness constraints which say which fields must appear -->
+                    <group>
+                      <attribute name="type">
+                        <value>mandatory</value>
+                      </attribute>
+                      <oneOrMore>
+                        <choice>
+                          <element name="bcf:field">
+                            <text/>
+                          </element>
+                          <!--
+                            An XOR set of fields so you can enforce:
+                            
+                            One (but not more) of fields a,b,c must exist
+                          -->
+                          <element name="bcf:fieldxor">
+                            <oneOrMore>
+                              <element name="bcf:field">
+                                <text/>
+                              </element>
+                            </oneOrMore>
+                          </element>
+                          <!--
+                            An OR set of fields so you can enforce:
+                            
+                            One (possibly more) of fields a,b,c must exist
+                          -->
+                          <element name="bcf:fieldor">
+                            <oneOrMore>
+                              <element name="bcf:field">
+                                <text/>
+                              </element>
+                            </oneOrMore>
+                          </element>
+                        </choice>
+                      </oneOrMore>
+                    </group>
+                  </choice>
+                </element>
+              </zeroOrMore>
+            </element>
+          </oneOrMore>
+        </element>
+      </optional>
+      <oneOrMore>
+        <!-- Section specifications -->
+        <ref name="secspec"/>
+      </oneOrMore>
+      <oneOrMore>
+        <ref name="sorting"/>
+      </oneOrMore>
+      <oneOrMore>
+        <ref name="listspec"/>
+      </oneOrMore>
+    </element>
+  </start>
+  <define name="listspec">
+    <zeroOrMore>
+      <element name="bcf:datalist">
+        <attribute name="section">
+          <data type="integer"/>
+        </attribute>
+        <attribute name="type">
+          <choice>
+            <value>entry</value>
+            <value>list</value>
+          </choice>
+        </attribute>
+        <attribute name="sortingtemplatename">
+          <data type="string">
+            <param name="minLength">1</param>
+          </data>
+        </attribute>
+        <attribute name="sortingnamekeytemplatename">
+          <data type="string">
+            <param name="minLength">1</param>
+          </data>
+        </attribute>
+        <attribute name="labelprefix">
+          <data type="string"/>
+        </attribute>
+        <attribute name="uniquenametemplatename">
+          <data type="string"/>
+        </attribute>
+        <attribute name="labelalphanametemplatename">
+          <data type="string"/>
+        </attribute>
+        <!-- name is only needed for list types -->
+        <attribute name="name">
+          <data type="string">
+            <param name="minLength">1</param>
+          </data>
+        </attribute>
+        <zeroOrMore>
+          <choice>
+            <ref name="filter"/>
+            <ref name="filteror"/>
+          </choice>
+        </zeroOrMore>
+      </element>
+    </zeroOrMore>
+  </define>
+  <define name="translit">
+    <element name="bcf:transliteration">
+      <attribute name="entrytype">
+        <choice>
+          <value>*</value>
+          <data type="string">
+            <param name="minLength">1</param>
+          </data>
+        </choice>
+      </attribute>
+      <oneOrMore>
+        <element name="bcf:translit">
+          <optional>
+            <attribute name="langids">
+              <data type="string">
+                <param name="minLength">1</param>
+              </data>
+            </attribute>
+          </optional>
+          <attribute name="target">
+            <choice>
+              <value>*</value>
+              <data type="string">
+                <param name="minLength">1</param>
+              </data>
+            </choice>
+          </attribute>
+          <attribute name="from">
+            <data type="string">
+              <param name="minLength">1</param>
+            </data>
+          </attribute>
+          <attribute name="to">
+            <data type="string">
+              <param name="minLength">1</param>
+            </data>
+          </attribute>
+        </element>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="uniquenametemplate">
+    <element name="bcf:uniquenametemplate">
+      <attribute name="name">
+        <data type="string">
+          <param name="minLength">1</param>
+        </data>
+      </attribute>
+      <oneOrMore>
+        <element name="bcf:namepart">
+          <attribute name="order">
+            <data type="integer"/>
+          </attribute>
+          <optional>
+            <attribute name="use">
+              <choice>
+                <value>0</value>
+                <value>1</value>
+              </choice>
+            </attribute>
+          </optional>
+          <optional>
+            <attribute name="base">
+              <choice>
+                <value>0</value>
+                <value>1</value>
+              </choice>
+            </attribute>
+          </optional>
+          <optional>
+            <attribute name="disambiguation">
+              <choice>
+                <value>none</value>
+                <value>init</value>
+                <value>initorfull</value>
+                <value>full</value>
+              </choice>
+            </attribute>
+          </optional>
+          <text/>
+        </element>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="sortingnamekeytemplate">
+    <oneOrMore>
+      <element name="bcf:sortingnamekeytemplate">
+        <attribute name="name"/>
+        <oneOrMore>
+          <element name="bcf:keypart">
+            <attribute name="order">
+              <data type="integer"/>
+            </attribute>
+            <oneOrMore>
+              <element name="bcf:part">
+                <attribute name="type">
+                  <choice>
+                    <value>namepart</value>
+                    <value>literal</value>
+                  </choice>
+                </attribute>
+                <attribute name="order">
+                  <data type="integer"/>
+                </attribute>
+                <optional>
+                  <attribute name="use">
+                    <choice>
+                      <value>0</value>
+                      <value>1</value>
+                    </choice>
+                  </attribute>
+                </optional>
+                <optional>
+                  <attribute name="inits">
+                    <choice>
+                      <value>0</value>
+                      <value>1</value>
+                    </choice>
+                  </attribute>
+                </optional>
+                <text/>
+              </element>
+            </oneOrMore>
+          </element>
+        </oneOrMore>
+      </element>
+    </oneOrMore>
+  </define>
+  <define name="sorting">
+    <element name="bcf:sortingtemplate">
+      <!-- sorting template name -->
+      <attribute name="name">
+        <data type="string">
+          <param name="minLength">1</param>
+        </data>
+      </attribute>
+      <optional>
+        <!-- locale for entire sorting specification -->
+        <attribute name="locale">
+          <data type="string">
+            <param name="minLength">1</param>
+          </data>
+        </attribute>
+      </optional>
+      <oneOrMore>
+        <ref name="sort"/>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="sort">
+    <oneOrMore>
+      <!-- sort specification -->
+      <element name="bcf:sort">
+        <!-- order of this specification in the set of all sort specifications -->
+        <attribute name="order">
+          <data type="integer"/>
+        </attribute>
+        <optional>
+          <!-- Should we stop generating sorting information after this item? -->
+          <attribute name="final">
+            <value>1</value>
+          </attribute>
+        </optional>
+        <optional>
+          <!-- Sort ascending or descending -->
+          <attribute name="sort_direction">
+            <choice>
+              <value>ascending</value>
+              <value>descending</value>
+            </choice>
+          </attribute>
+        </optional>
+        <optional>
+          <!-- Sort case sensitive or not? -->
+          <attribute name="sortcase">
+            <choice>
+              <value>0</value>
+              <value>1</value>
+            </choice>
+          </attribute>
+        </optional>
+        <optional>
+          <!-- Sort upper before lower? -->
+          <attribute name="sortupper">
+            <choice>
+              <value>0</value>
+              <value>1</value>
+            </choice>
+          </attribute>
+        </optional>
+        <optional>
+          <!-- sortset specific override for locale -->
+          <attribute name="locale">
+            <data type="string">
+              <param name="minLength">1</param>
+            </data>
+          </attribute>
+        </optional>
+        <oneOrMore>
+          <!-- A sort item specification - a field or pseudo-field to get sort information from -->
+          <element name="bcf:sortitem">
+            <!-- order of this item in the set of all other item specifications -->
+            <attribute name="order">
+              <data type="integer"/>
+            </attribute>
+            <optional>
+              <!-- Just use a part of the item information for sorting? -->
+              <attribute name="substring_side">
+                <choice>
+                  <value>left</value>
+                  <value>right</value>
+                </choice>
+              </attribute>
+            </optional>
+            <optional>
+              <attribute name="substring_width">
+                <data type="integer"/>
+              </attribute>
+            </optional>
+            <optional>
+              <!-- Pad the item information when sorting with it? -->
+              <attribute name="pad_side">
+                <choice>
+                  <value>left</value>
+                  <value>right</value>
+                </choice>
+              </attribute>
+            </optional>
+            <optional>
+              <attribute name="pad_width">
+                <data type="integer"/>
+              </attribute>
+            </optional>
+            <optional>
+              <attribute name="pad_char">
+                <data type="string">
+                  <param name="minLength">1</param>
+                  <param name="maxLength">1</param>
+                </data>
+              </attribute>
+            </optional>
+            <text/>
+          </element>
+        </oneOrMore>
+      </element>
+    </oneOrMore>
+  </define>
+  <!-- Section specification -->
+  <define name="secspec">
+    <optional>
+      <!-- data sources -->
+      <element name="bcf:bibdata">
+        <!-- which sections the datafiles are for -->
+        <attribute name="section">
+          <data type="integer"/>
+        </attribute>
+        <zeroOrMore>
+          <element name="bcf:datasource">
+            <attribute name="type">
+              <value>file</value>
+            </attribute>
+            <optional>
+              <attribute name="datatype">
+                <choice>
+                  <value>bibtex</value>
+                  <value>biblatexml</value>
+                </choice>
+              </attribute>
+            </optional>
+            <data type="anyURI"/>
+          </element>
+        </zeroOrMore>
+      </element>
+    </optional>
+    <!-- citekeys or citekey sets in each section -->
+    <element name="bcf:section">
+      <attribute name="number">
+        <data type="integer"/>
+      </attribute>
+      <zeroOrMore>
+        <element name="bcf:citekey">
+          <choice>
+            <group>
+              <attribute name="type">
+                <value>set</value>
+              </attribute>
+              <attribute name="members">
+                <data type="string">
+                  <param name="minLength">1</param>
+                </data>
+              </attribute>
+              <data type="string">
+                <param name="minLength">1</param>
+              </data>
+            </group>
+            <group>
+              <attribute name="order">
+                <data type="integer"/>
+              </attribute>
+              <optional>
+                <attribute name="nocite">
+                  <data type="boolean"/>
+                </attribute>
+              </optional>
+              <data type="string">
+                <param name="minLength">1</param>
+              </data>
+            </group>
+          </choice>
+        </element>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="filteror">
+    <element name="bcf:filteror">
+      <oneOrMore>
+        <ref name="filter"/>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="filter">
+    <element name="bcf:filter">
+      <attribute name="type">
+        <choice>
+          <value>type</value>
+          <value>nottype</value>
+          <value>subtype</value>
+          <value>notsubtype</value>
+          <value>keyword</value>
+          <value>notkeyword</value>
+          <value>field</value>
+          <value>notfield</value>
+        </choice>
+      </attribute>
+      <data type="string">
+        <param name="minLength">1</param>
+      </data>
+    </element>
+  </define>
+  <!--
+    option definitions
+    use<name> options are dynamically determined from data model
+  -->
+  <define name="usenames">
+    <oneOrMore>
+      <element name="bcf:option">
+        <attribute name="type">
+          <value>singlevalued</value>
+        </attribute>
+        <element name="bcf:key">
+          <data type="string">
+            <param name="pattern">use.*</param>
+          </data>
+        </element>
+        <element name="bcf:value">
+          <choice>
+            <value>0</value>
+            <value>1</value>
+          </choice>
+        </element>
+      </element>
+    </oneOrMore>
+  </define>
+  <define name="useprefix">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>useprefix</value>
+      </element>
+      <element name="bcf:value">
+        <choice>
+          <value>0</value>
+          <value>1</value>
+        </choice>
+      </element>
+    </element>
+  </define>
+  <define name="labelalpha">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>labelalpha</value>
+      </element>
+      <element name="bcf:value">
+        <choice>
+          <value>0</value>
+          <value>1</value>
+        </choice>
+      </element>
+    </element>
+  </define>
+  <define name="labeltitle">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>labeltitle</value>
+      </element>
+      <element name="bcf:value">
+        <choice>
+          <value>0</value>
+          <value>1</value>
+        </choice>
+      </element>
+    </element>
+  </define>
+  <define name="labeltitlespec">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>multivalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>labeltitlespec</value>
+      </element>
+      <oneOrMore>
+        <element name="bcf:value">
+          <attribute name="order">
+            <data type="integer"/>
+          </attribute>
+          <optional>
+            <attribute name="lang"/>
+          </optional>
+          <text/>
+        </element>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="labeltitleyear">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>labeltitleyear</value>
+      </element>
+      <element name="bcf:value">
+        <choice>
+          <value>0</value>
+          <value>1</value>
+        </choice>
+      </element>
+    </element>
+  </define>
+  <define name="labeldateparts">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>labeldateparts</value>
+      </element>
+      <element name="bcf:value">
+        <choice>
+          <value>0</value>
+          <value>1</value>
+        </choice>
+      </element>
+    </element>
+  </define>
+  <define name="labeldatespec">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>multivalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>labeldatespec</value>
+      </element>
+      <oneOrMore>
+        <element name="bcf:value">
+          <attribute name="order">
+            <data type="integer"/>
+          </attribute>
+          <attribute name="type">
+            <choice>
+              <value>field</value>
+              <value>string</value>
+            </choice>
+          </attribute>
+          <text/>
+        </element>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="singletitle">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>singletitle</value>
+      </element>
+      <element name="bcf:value">
+        <choice>
+          <value>0</value>
+          <value>1</value>
+        </choice>
+      </element>
+    </element>
+  </define>
+  <define name="skipbib">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>skipbib</value>
+      </element>
+      <element name="bcf:value">
+        <choice>
+          <value>0</value>
+          <value>1</value>
+        </choice>
+      </element>
+    </element>
+  </define>
+  <define name="skiplab">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>skiplab</value>
+      </element>
+      <element name="bcf:value">
+        <choice>
+          <value>0</value>
+          <value>1</value>
+        </choice>
+      </element>
+    </element>
+  </define>
+  <define name="skiplos">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>skiplos</value>
+      </element>
+      <element name="bcf:value">
+        <choice>
+          <value>0</value>
+          <value>1</value>
+        </choice>
+      </element>
+    </element>
+  </define>
+  <define name="skipbiblist">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>skipbiblist</value>
+      </element>
+      <element name="bcf:value">
+        <choice>
+          <value>0</value>
+          <value>1</value>
+        </choice>
+      </element>
+    </element>
+  </define>
+  <!--
+    0 = do not provide uniquelist information
+    1 = disambiguate lists regardless of year
+    2 = disambiguate lists only when year is the same
+  -->
+  <define name="uniquelist">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>uniquelist</value>
+      </element>
+      <element name="bcf:value">
+        <choice>
+          <value>0</value>
+          <value>1</value>
+          <value>2</value>
+        </choice>
+      </element>
+    </element>
+  </define>
+  <!--
+    0 = do not provide uniquename information
+    1 = disambiguate with initials, only up to maxcitenames/uniquelist
+    2 = disambiguate with full name or initials, only up to maxcitenames/uniquelist
+    3 = disambiguate with initials, ignore maxcitenames/uniquelist
+    4 = disambiguate with full name or initials, ignore maxcitenames/uniquelist
+    5 = disambiguate with initials, only between identical lists in different entries
+    6 = disambiguate with full name or initials, only between identical lists in different entries
+  -->
+  <define name="uniquename">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>uniquename</value>
+      </element>
+      <element name="bcf:value">
+        <choice>
+          <value>0</value>
+          <value>1</value>
+          <value>2</value>
+          <value>3</value>
+          <value>4</value>
+          <value>5</value>
+          <value>6</value>
+        </choice>
+      </element>
+    </element>
+  </define>
+  <define name="uniqueprimaryauthor">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>uniqueprimaryauthor</value>
+      </element>
+      <element name="bcf:value">
+        <choice>
+          <value>0</value>
+          <value>1</value>
+        </choice>
+      </element>
+    </element>
+  </define>
+  <define name="uniquetitle">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>uniquetitle</value>
+      </element>
+      <element name="bcf:value">
+        <choice>
+          <value>0</value>
+          <value>1</value>
+        </choice>
+      </element>
+    </element>
+  </define>
+  <define name="uniquebaretitle">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>uniquebaretitle</value>
+      </element>
+      <element name="bcf:value">
+        <choice>
+          <value>0</value>
+          <value>1</value>
+        </choice>
+      </element>
+    </element>
+  </define>
+  <define name="uniquework">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>uniquework</value>
+      </element>
+      <element name="bcf:value">
+        <choice>
+          <value>0</value>
+          <value>1</value>
+        </choice>
+      </element>
+    </element>
+  </define>
+  <define name="julian">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>julian</value>
+      </element>
+      <element name="bcf:value">
+        <choice>
+          <value>0</value>
+          <value>1</value>
+        </choice>
+      </element>
+    </element>
+  </define>
+  <define name="gregorianstart">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>gregorianstart</value>
+      </element>
+      <element name="bcf:value">
+        <text/>
+      </element>
+    </element>
+  </define>
+  <define name="maxitems">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>maxitems</value>
+      </element>
+      <element name="bcf:value">
+        <data type="integer"/>
+      </element>
+    </element>
+  </define>
+  <define name="maxbibnames">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>maxbibnames</value>
+      </element>
+      <element name="bcf:value">
+        <data type="integer"/>
+      </element>
+    </element>
+  </define>
+  <define name="maxalphanames">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>maxalphanames</value>
+      </element>
+      <element name="bcf:value">
+        <data type="integer"/>
+      </element>
+    </element>
+  </define>
+  <define name="maxcitenames">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>maxcitenames</value>
+      </element>
+      <element name="bcf:value">
+        <data type="integer"/>
+      </element>
+    </element>
+  </define>
+  <define name="maxsortnames">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>maxsortnames</value>
+      </element>
+      <element name="bcf:value">
+        <data type="integer"/>
+      </element>
+    </element>
+  </define>
+  <define name="minitems">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>minitems</value>
+      </element>
+      <element name="bcf:value">
+        <data type="integer"/>
+      </element>
+    </element>
+  </define>
+  <define name="minbibnames">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>minbibnames</value>
+      </element>
+      <element name="bcf:value">
+        <data type="integer"/>
+      </element>
+    </element>
+  </define>
+  <define name="minalphanames">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>minalphanames</value>
+      </element>
+      <element name="bcf:value">
+        <data type="integer"/>
+      </element>
+    </element>
+  </define>
+  <define name="mincitenames">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>mincitenames</value>
+      </element>
+      <element name="bcf:value">
+        <data type="integer"/>
+      </element>
+    </element>
+  </define>
+  <define name="minsortnames">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>minsortnames</value>
+      </element>
+      <element name="bcf:value">
+        <data type="integer"/>
+      </element>
+    </element>
+  </define>
+  <define name="sortlocale">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>sortlocale</value>
+      </element>
+      <element name="bcf:value">
+        <text/>
+      </element>
+    </element>
+  </define>
+  <define name="sortingtemplatename">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>sortingtemplatename</value>
+      </element>
+      <element name="bcf:value">
+        <text/>
+      </element>
+    </element>
+  </define>
+  <define name="sortsets">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>sortsets</value>
+      </element>
+      <element name="bcf:value">
+        <choice>
+          <value>0</value>
+          <value>1</value>
+        </choice>
+      </element>
+    </element>
+  </define>
+  <define name="labelnamespec">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>multivalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>labelnamespec</value>
+      </element>
+      <oneOrMore>
+        <element name="bcf:value">
+          <attribute name="order">
+            <data type="integer"/>
+          </attribute>
+          <optional>
+            <attribute name="lang"/>
+          </optional>
+          <text/>
+        </element>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="mincrossrefs">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>mincrossrefs</value>
+      </element>
+      <element name="bcf:value">
+        <data type="integer"/>
+      </element>
+    </element>
+  </define>
+  <define name="minxrefs">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>minxrefs</value>
+      </element>
+      <element name="bcf:value">
+        <data type="integer"/>
+      </element>
+    </element>
+  </define>
+  <define name="debug">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>debug</value>
+      </element>
+      <element name="bcf:value">
+        <choice>
+          <value>0</value>
+          <value>1</value>
+        </choice>
+      </element>
+    </element>
+  </define>
+  <define name="wrapline">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>wrapline</value>
+      </element>
+      <element name="bcf:value">
+        <data type="integer"/>
+      </element>
+    </element>
+  </define>
+  <define name="output_encoding">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>output_encoding</value>
+      </element>
+      <element name="bcf:value">
+        <text/>
+      </element>
+    </element>
+  </define>
+  <define name="input_encoding">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>input_encoding</value>
+      </element>
+      <element name="bcf:value">
+        <text/>
+      </element>
+    </element>
+  </define>
+  <define name="sortcase">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>sortcase</value>
+      </element>
+      <element name="bcf:value">
+        <choice>
+          <value>0</value>
+          <value>1</value>
+        </choice>
+      </element>
+    </element>
+  </define>
+  <define name="alphaothers">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>alphaothers</value>
+      </element>
+      <element name="bcf:value">
+        <data type="normalizedString">
+          <param name="pattern">\S+</param>
+        </data>
+      </element>
+    </element>
+  </define>
+  <define name="sortupper">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>sortupper</value>
+      </element>
+      <element name="bcf:value">
+        <choice>
+          <value>0</value>
+          <value>1</value>
+        </choice>
+      </element>
+    </element>
+  </define>
+  <define name="sortalphaothers">
+    <element name="bcf:option">
+      <attribute name="type">
+        <value>singlevalued</value>
+      </attribute>
+      <element name="bcf:key">
+        <value>sortalphaothers</value>
+      </element>
+      <element name="bcf:value">
+        <data type="normalizedString">
+          <param name="pattern">\S+</param>
+        </data>
+      </element>
+    </element>
+  </define>
+  <define name="map">
+    <element name="bcf:map">
+      <optional>
+        <attribute name="map_overwrite">
+          <choice>
+            <value>0</value>
+            <value>1</value>
+          </choice>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="map_foreach">
+          <data type="string">
+            <param name="minLength">1</param>
+          </data>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="refsection">
+          <data type="integer"/>
+        </attribute>
+      </optional>
+      <zeroOrMore>
+        <element name="bcf:per_datasource">
+          <data type="string">
+            <param name="minLength">1</param>
+          </data>
+        </element>
+      </zeroOrMore>
+      <zeroOrMore>
+        <element name="bcf:per_type">
+          <data type="string">
+            <param name="minLength">1</param>
+          </data>
+        </element>
+      </zeroOrMore>
+      <oneOrMore>
+        <element name="bcf:map_step">
+          <choice>
+            <attribute name="map_entry_clone">
+              <data type="string">
+                <param name="minLength">1</param>
+              </data>
+            </attribute>
+            <group>
+              <attribute name="map_entry_new">
+                <data type="string">
+                  <param name="minLength">1</param>
+                </data>
+              </attribute>
+              <attribute name="map_entry_newtype">
+                <data type="string">
+                  <param name="minLength">1</param>
+                </data>
+              </attribute>
+            </group>
+            <group>
+              <optional>
+                <attribute name="map_type_source">
+                  <data type="string">
+                    <param name="minLength">1</param>
+                  </data>
+                </attribute>
+              </optional>
+              <optional>
+                <attribute name="map_type_target">
+                  <data type="string">
+                    <param name="minLength">1</param>
+                  </data>
+                </attribute>
+              </optional>
+              <optional>
+                <attribute name="map_field_source">
+                  <data type="string">
+                    <param name="minLength">1</param>
+                  </data>
+                </attribute>
+              </optional>
+              <optional>
+                <attribute name="map_notfield">
+                  <data type="string">
+                    <param name="minLength">1</param>
+                  </data>
+                </attribute>
+              </optional>
+              <optional>
+                <attribute name="map_field_target">
+                  <data type="string">
+                    <param name="minLength">1</param>
+                  </data>
+                </attribute>
+              </optional>
+              <optional>
+                <attribute name="map_entrytarget">
+                  <data type="string">
+                    <param name="minLength">1</param>
+                  </data>
+                </attribute>
+              </optional>
+              <optional>
+                <attribute name="map_field_set">
+                  <data type="string">
+                    <param name="minLength">1</param>
+                  </data>
+                </attribute>
+              </optional>
+              <optional>
+                <attribute name="map_entry_null">
+                  <value>1</value>
+                </attribute>
+              </optional>
+              <optional>
+                <attribute name="map_append">
+                  <value>1</value>
+                </attribute>
+              </optional>
+              <optional>
+                <attribute name="map_final">
+                  <value>1</value>
+                </attribute>
+              </optional>
+              <optional>
+                <attribute name="map_match">
+                  <data type="string">
+                    <param name="minLength">1</param>
+                  </data>
+                </attribute>
+              </optional>
+              <optional>
+                <attribute name="map_matchi">
+                  <data type="string">
+                    <param name="minLength">1</param>
+                  </data>
+                </attribute>
+              </optional>
+              <optional>
+                <attribute name="map_notmatch">
+                  <data type="string">
+                    <param name="minLength">1</param>
+                  </data>
+                </attribute>
+              </optional>
+              <optional>
+                <attribute name="map_notmatchi">
+                  <data type="string">
+                    <param name="minLength">1</param>
+                  </data>
+                </attribute>
+              </optional>
+              <optional>
+                <attribute name="map_replace">
+                  <data type="string"/>
+                </attribute>
+              </optional>
+              <optional>
+                <choice>
+                  <attribute name="map_null">
+                    <value>1</value>
+                  </attribute>
+                  <attribute name="map_origfield">
+                    <value>1</value>
+                  </attribute>
+                  <attribute name="map_origfieldval">
+                    <value>1</value>
+                  </attribute>
+                  <attribute name="map_origentrytype">
+                    <value>1</value>
+                  </attribute>
+                  <attribute name="map_field_value">
+                    <data type="string">
+                      <param name="minLength">1</param>
+                    </data>
+                  </attribute>
+                </choice>
+              </optional>
+            </group>
+          </choice>
+          <empty/>
+        </element>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="dmfieldtype">
+    <choice>
+      <value>field</value>
+      <value>list</value>
+    </choice>
+  </define>
+  <define name="dmdatatype">
+    <choice>
+      <value>literal</value>
+      <value>name</value>
+      <value>key</value>
+      <value>entrykey</value>
+      <value>date</value>
+      <value>verbatim</value>
+      <value>integer</value>
+      <value>range</value>
+      <value>code</value>
+      <value>uri</value>
+      <value>datepart</value>
+      <value>keyword</value>
+      <value>option</value>
+    </choice>
+  </define>
+</grammar>
+<!-- Copyright 2009-2018 François Charette and Philip Kime, all rights reserved. -->
+<!--
+  This code is free software.  You can redistribute it and/or
+  modify it under the terms of the Artistic License 2.0.
+-->
+<!--
+  This program is distributed in the hope that it will be useful,
+  but without any warranty; without even the implied warranty of
+  merchantability or fitness for a particular purpose.
+-->

@@ -1,0 +1,486 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\thispagestyle {empty}
+\defcounter {refsection}{0}\relax 
+\thispagestyle {empty}
+\defcounter {refsection}{0}\relax 
+\thispagestyle {empty}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Dedication}{i}{chapter*.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Acknowledgements}{ii}{chapter*.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Preface}{iii}{chapter*.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Figures}{ix}{section*.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Tables}{x}{section*.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Abstract}{1}{chapter*.9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Introduction}{3}{chapter*.10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Database Art}{12}{chapter.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}The Database In New Media Theory}{13}{section.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.1}Database As Form}{13}{subsection.1.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.2}A Semiotic Trap}{14}{subsection.1.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.3}Digital Convergence}{17}{subsection.1.1.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.4}Bodiless Information}{18}{subsection.1.1.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.5}Embodying Databasing}{20}{subsection.1.1.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.6}Filtering And Framing}{22}{subsection.1.1.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.7}Database As Aesthetics}{23}{subsection.1.1.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.8}Databasing: Database As Performance}{23}{subsection.1.1.8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Databasing And The History Of Databases}{25}{section.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.1}Databasing: The Performance Of The Database}{25}{subsection.1.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Data types and structures}{25}{section*.11}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Temporality of Databasing}{26}{section*.12}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Databasing and Writing}{28}{section*.13}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{The Von Neumann Architecture}{29}{section*.14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.2}A Database Tree}{31}{subsection.1.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Ground}{31}{section*.15}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Roots}{32}{section*.16}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Macros}{32}{section*.17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Trunk}{32}{section*.18}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Branches}{32}{section*.19}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Twigs}{33}{section*.20}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Leaves}{33}{section*.21}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Networks}{33}{section*.22}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Clouds}{34}{section*.23}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.3}The Realm Of Data Structures}{34}{subsection.1.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Array data structure}{35}{section*.24}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Linked Lists}{35}{section*.25}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Sequences}{35}{section*.26}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.4}A Brief History Of Database Models}{36}{subsection.1.2.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Hierarchical}{37}{section*.27}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Network}{38}{section*.28}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Navigational Paradigm}{39}{section*.29}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Relational}{40}{section*.30}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Non-Relational}{41}{section*.31}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Graph}{41}{section*.32}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Object}{41}{section*.33}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Semi-structured}{42}{section*.34}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Pure Data as Database System}{43}{section*.35}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Databasing Sound: Applications Of Databases In Sound}{46}{section.1.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.1}Music Information Retrieval}{47}{subsection.1.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.2}Sonification}{50}{subsection.1.3.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Parameter mapping}{52}{section*.36}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{DOW}{52}{section*.37}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Medical Images}{52}{section*.38}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Model-based sonification}{53}{section*.39}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Space}{53}{section*.40}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Artistic sonification}{53}{section*.41}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Wolves}{53}{section*.42}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Selva}{54}{section*.43}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Ocean}{54}{section*.44}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Molecules}{54}{section*.45}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Gender Distribution}{54}{section*.46}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Sonification Installations}{55}{section*.47}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{IP-based soundscape}{55}{section*.48}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Earthquakes}{55}{section*.49}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{GPU-based waveforms}{56}{section*.50}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Ucanny Faces}{56}{section*.51}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Sonification Software}{56}{section*.52}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{SonArt}{56}{section*.53}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{DataPlayer}{57}{section*.54}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{madBPM}{57}{section*.55}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.3}Computer Music}{58}{subsection.1.3.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Hierarchical environments}{59}{section*.56}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Reducing cognitive burden}{59}{section*.57}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{A Hierarchical Representation}{60}{section*.58}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Black-boxing}{61}{section*.59}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Generality and Portability}{62}{section*.60}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Simplification}{63}{section*.61}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Balance}{63}{figure.1.12}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Music Notation Software}{65}{section*.63}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{DARMS and SCORE}{65}{section*.64}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{From Staves to Speakers}{66}{section*.65}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Theoretical Performance}{67}{section*.66}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Enter Objects}{68}{section*.67}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Max}{68}{section*.68}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Kyma}{69}{section*.69}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Pure Data}{71}{section*.70}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Graphic Scores}{71}{section*.71}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{OpenMusic}{73}{section*.72}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Heaps and Nodes}{73}{section*.73}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.4}Intersections}{74}{subsection.1.3.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Corpus-based Approaches}{75}{section*.74}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Concatenative Synthesis}{75}{section*.75}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Other approaches}{76}{section*.76}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Software Libraries}{76}{section*.77}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Querying Methods}{77}{section*.78}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Query-by-content}{77}{section*.79}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Similarity-based}{78}{section*.80}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Hybrid Queries}{78}{section*.81}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Traversing Methods}{79}{section*.82}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Sensorial Networks}{79}{section*.83}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Involuntary Navigation}{80}{section*.84}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Networked Collaborations}{80}{section*.85}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Mobile Devices}{81}{section*.86}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Resource Sharing}{82}{section*.87}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Multimodal Datasets}{82}{section*.88}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Formats}{83}{section*.89}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Live Coding}{84}{section*.90}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Closing Remarks}{85}{section*.91}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Database Aesthetics}{87}{chapter.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Listening Databases}{89}{section.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}The Resonance Of A Return}{89}{subsection.2.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Sonorous presence}{89}{section*.92}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{An a priori filter}{90}{section*.93}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Sonorous presence in an attack}{91}{section*.94}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Referrals and Deferrals}{91}{section*.95}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{A Loop}{92}{section*.96}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{An Approach to Self}{92}{section*.97}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.2}Resonant Network}{93}{subsection.2.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{An Illusory Violin}{93}{section*.98}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Virtuality}{94}{section*.99}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Performativity of Networks}{94}{section*.100}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{A Resonant Movement of a Thing}{95}{section*.101}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Positive Feedback}{96}{section*.102}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{The Work of Actors}{96}{section*.103}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.3}The Unworking Network}{97}{subsection.2.1.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Community as unwork}{97}{section*.104}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Resonant Inoperativity}{98}{section*.105}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Space of Community}{98}{section*.106}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{At the Limit}{99}{section*.107}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Reticulated Skin}{99}{section*.108}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Resistance in Database Music}{100}{section*.109}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Databases And Memory}{101}{section.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Interlude: Embodied Memory}{101}{subsection.2.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}The Effraction Of The Trace}{105}{subsection.2.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Memory as Breaching}{106}{section*.110}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Breaching and \textit {diff\IeC {\'e}rance}}{106}{section*.111}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Hypomnesis and the Mystic Pad}{107}{section*.112}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Nonhuman Authors}{108}{section*.113}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Database as Agents}{109}{section*.114}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.3}The Archontic Principle}{109}{subsection.2.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Archives and Memory}{109}{section*.115}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Hierarchies}{110}{section*.116}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Archontic Principle}{110}{section*.117}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Patriarchy}{111}{section*.118}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Institutional Passage}{111}{section*.119}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Authorities}{112}{section*.120}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Anarchic Memory}{113}{section*.121}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Collective Memory}{113}{section*.122}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Writing Code}{114}{section*.123}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Anarchic Computer Memory}{114}{section*.124}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.4}The Spectral Database}{115}{subsection.2.2.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Computer Memory and Writing}{115}{section*.125}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Memory Replacement}{115}{section*.126}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Anarchic Records}{116}{section*.127}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Memory and Framing}{117}{section*.128}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Nonhuman Tympans}{117}{section*.129}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Spectrality of Archives}{118}{section*.130}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Spectrality of Databases}{119}{section*.131}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Agency of the Uncanny}{120}{section*.132}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Performativity Of Databases}{121}{section.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Gendered Database}{121}{subsection.2.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Skin of the Database}{121}{section*.133}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Expressing Nothing}{122}{section*.134}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{A Historical Situation}{122}{section*.135}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Subversive Repetition}{123}{section*.136}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Gendered Database}{123}{section*.137}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Towards The Limits}{124}{subsection.2.3.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Exposure}{124}{section*.138}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Anarchic Touch}{125}{section*.139}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Communities of Skin}{125}{section*.140}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Hybrid Pluralities}{126}{section*.141}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.3}Contingencies Of Style}{127}{subsection.2.3.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Style and Timbre}{127}{section*.142}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Endless Databases}{128}{section*.143}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Database and Chaos}{128}{section*.144}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Fractality}{129}{section*.145}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{A Music Work as a Singularity}{130}{section*.146}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Arbitrariness}{131}{section*.147}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Inoperative Style}{131}{section*.148}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.4}A Specter Of Authority}{132}{subsection.2.3.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{The Name}{133}{section*.149}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Dictionaries}{133}{section*.150}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Artistry}{134}{section*.151}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{The Work of Mice}{135}{section*.152}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Rethinking Composition}{136}{section.2.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.1}Interlude: Hyperbolic Reactions}{136}{subsection.2.4.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Imagining Composers}{136}{section*.153}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Composers and Technology}{136}{section*.154}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Playing with Shadows}{137}{section*.155}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Composers Without Computers}{137}{section*.156}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Databasing Without Computers}{138}{section*.157}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.2}Working Composition}{139}{subsection.2.4.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{The Work Problem}{140}{section*.158}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Working Rules}{140}{section*.159}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{A Space of Difference}{141}{section*.160}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{A Severed Work}{142}{section*.161}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Absorbption}{142}{section*.162}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.3}The Composer As Navigator}{143}{subsection.2.4.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Querying the Sieves}{143}{section*.163}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Sound Synthesis Parenthesis}{144}{section*.164}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Algebraic Abstractions for Freedom}{145}{section*.165}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{A Cosmic Vessel and an Armchair}{146}{section*.166}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.4}The Database As Performer}{147}{subsection.2.4.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{The Computer as a Musical Instrument}{147}{section*.167}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{A Minor Liberty}{148}{section*.168}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{The Computer as a Player}{149}{section*.169}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Programming Decisions}{150}{section*.170}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Anachronic Composers}{150}{section*.171}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\framebox {{\relax \fontsize {10.95}{13.6}\selectfont \abovedisplayskip 11\p@ plus3\p@ minus6\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \textbf {\texttt {bang}}}}}{151}{section*.172}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Nonhuman composers}{152}{section*.173}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Fractured Works}{153}{section*.174}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Databasing Vessel}{154}{section*.175}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.5}The Severed Object Of Music}{155}{subsection.2.4.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{An Incomplete Object}{155}{section*.176}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Remains of Listening}{155}{section*.177}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Sources and Sorcerers}{156}{section*.178}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Naming}{157}{section*.179}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Dynamics}{158}{section*.180}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Masterwork}{159}{section*.181}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Architecture of Obedience}{159}{section*.182}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.6}Anarchy And The Unwork}{160}{subsection.2.4.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Place in Common}{160}{section*.183}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Disintegrated Imperative}{161}{section*.184}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Blind Experimentation}{161}{section*.185}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Doctoring the Glitch}{162}{section*.186}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Unnecessary Blindfolds}{162}{section*.187}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Spectral Remains}{163}{section*.188}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Macroforma}{163}{section*.189}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Overfitting}{164}{section*.190}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.7}[Wip] Work In Progress}{165}{subsection.2.4.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Conclusion}{167}{chapter*.191}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Appendices}{168}{appendix*.192}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{DIANA: Database for Image and Audio Navigation}{168}{section*.193}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{A Database Model}{168}{section*.194}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{ABBY: An Online Environment for Annotated Bibliographies}{169}{section*.195}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{A Text Database}{170}{section*.196}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Glossary}{172}{section*.197}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Acronyms}{189}{section*.199}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{217}{appendix*.202}% 

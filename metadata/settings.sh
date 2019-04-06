@@ -1,7 +1,7 @@
 class=book
 paper=letterpaper
 side=oneside
-
+defimgfmt=png # default image format
 fontsize=12pt #10pt #14pt
 fontface=times #courier
 size= #Large (this radically changes the fontsize)
@@ -99,9 +99,10 @@ newcommands=(
 "
 \\begin{figure}[!htbp]
 \\centering
-\\includegraphics[width=#3\\textwidth]{$IMGDIR/#1.#2}
+\\includegraphics[width=#2\\textwidth]{$IMGDIR/#1.$defimgfmt}
 \\caption{#4}
 \\label{img:#1}
+#3
 \\end{figure}
 \\FloatBarrier
 "

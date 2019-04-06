@@ -207,6 +207,36 @@ function make_frontmatter()
 
 }
 
+function make_tocs()
+{
+	write_comment "TABLE OF CONTENTS"
+	
+	printf "%s\n" "\tableofcontents"
+	
+	# https://tex.stackexchange.com/questions/48509/insert-list-of-figures-in-the-table-of-contents
+	write_comment "LIST OF FIGURES"
+
+	printf "%s\n" "\cleardoublepage"
+	printf "%s\n" "\phantomsection"
+	printf "%s\n" "\addcontentsline{toc}{chapter}{List of Figures}"
+	printf "%s\n" "\cleardoublepage"
+	printf "%s\n" "\listoffigures"
+	
+
+	write_comment "LIST OF TABLES"
+
+	printf "%s\n" "\cleardoublepage"
+	printf "%s\n" "\phantomsection"
+	printf "%s\n" "\addcontentsline{toc}{chapter}{List of Tables}"
+	printf "%s\n" "\cleardoublepage"
+	printf "%s\n" "\listoftables"
+	
+	printf "%s\n" "\newpage"
+	
+	write_comment "END FRONTMATTER"
+}
+
+
 #	this is here so that \mainmatter is printed only once
 printmainmatter=0
 
@@ -226,10 +256,8 @@ function make_from_arrays()
 			#	IT IS NO LONGER THE ABSTRACT SECTION, PRINT LABELS
 			if [[ $printmainmatter == 0 ]]
 			then
-				write_comment "TABLE OF CONTENTS"
-				printf "%s\n" "\tableofcontents"
-				printf "%s\n" "\newpage"
-				write_comment "END FRONTMATTER"
+				# make the table of contents first
+				make_tocs
 				printf "%s\n" "\mainmatter"
 				printf "%s\n" "\pagenumbering{arabic}"
 				printmainmatter=1

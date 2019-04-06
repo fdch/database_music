@@ -1,10 +1,10 @@
 Computer music software is computer music's playground. Composing and programming blend into different forms of play that can be understood by a closer look of the playground's design. A key aspect of software design is delimiting constraints to data structures. The first choice is generally the programming language, after which the database tree unfolds its way up to the leaves. Among these leaves is where computer music programs reside. At this level of `leaves' software users are certainly aware that there is a `tree' in front of them. However, their awareness does not necessarily extend to the branches, trunk, or roots of the tree. There is endless music that can be made with leaves just as it can with paper. However, neither music quantity nor music quality are the point here. My argument is that working with data structures changes how we think and perform music making. I claim that composers using these leaves of computer music software are working indirectly with data structures, and unless they engage with programming, they remain unaware of data structures and their constraints. `Indirectly,' because the twigs and branches connect the leaf to the trunk, but these connections become invisible to the non-programmer composer \textit{by design}. Like a phantom limb of the tree, the database remains invisibly \textit{behind}. In this section, I present different approaches from composers and programmers that show how music concepts change with the presence and performance of the database. By database performance I mean neither the quality of musical output, nor the dexterity of the programming activity. Database performance in music composition is the activity of the databaser: databasing to make music.
 
-\img{comp}{png}{0.2}{
-	Diagram of database performance in computer music practices. The database is invisibly behind the computer, within the softwares used to create musical works. 
-}
+\img{comp}{0.2}{
+	The database is invisibly behind the computer, within the softwares used to create musical works. 
+}{Diagram of database performance in computer music practices.}
 
-\subsection{Hierarchical environments}
+\subsubsection{Hierarchical environments}
 \label{computer:sssp}
 
 	\begin{quote}
@@ -44,9 +44,9 @@ Computer music software is computer music's playground. Composing and programmin
 	\paragraph{Balance}
 	\label{computer:balance}
 
-	\img{truax_generality_b}{png}{0.7}{
+	\img{truax_generality_b}{0.7}{
 		Barry Truax' ``Inverse Relation Between Generality and Strength'' \parencite[51]{Tru80:The}. Another version of this graph can be found in \parencite[38]{laske_otto_1999}.
-	}
+	}{Generality vs. Strength}
 
 	\begin{quote}
 		\dots all computer music systems both \textit{explicitly and implicitly embody a model of the musical processes that may be inferred from the program and data structure of the system}, and from the behavior of user working with the system. The inference of this model is independent of whether the system designer(s) claim that the system reflects such a model, or is simply a tool. \im \parencite[230-231]{Tru76:ACo}
@@ -60,7 +60,7 @@ Computer music software is computer music's playground. Composing and programmin
 
 	Truax's notion of balance speaks of a `meeting halfway' between the system and the user regarding the programmer's capability to embed a more complex conception of hierarchy in the system. What provides this balance is a certain flexibility among data structuresm which would enable them to adapt to the different hierarchical contexts with which music is understood. That is to say, since data structures can embody models of musical processes, they have an effect on the composer's overall performance of the database, and by extension, on the resulting music. 
 
-\subsection{Music Notation Software}
+\subsubsection{Music Notation Software}
 \label{applications:notation}
 
 Music representation has occupied an important area of research within the programming community. Formats and specifications such as \gls{midi}, \gls{musicxml}, the Humdrum \texttt{**kern} data format \parencite{DBLP:conf/ismir/Sapp05}, \gls{guido}, to name a few, have appeared over the years in conjunction with music engraving software. An extensive guide on musical representations can be seen in \textcite{Selfridge-Field:1997:BMH:275928}. In this section, I point to certain aspects of music notation software development that reveal different approaches towards data structures, and the possibilities that arise henceforth.
@@ -74,11 +74,11 @@ Other programming approaches stemming from \gls{darms} and \gls{score} were deve
 \paragraph{Theoretical Performance}
 What notation software is most often criticised for is the way in which sonic feedback often comes to be equiparated to (human) music performance. When Leeland Smith presented \gls{score} as ``not a `performer's' instrument, but rather a `musician's' instrument,'' for example, he claimed that ``theoretically, any performance, clearly conceived in the mind, can be realized on [the computer]'' \parencite[14]{smith1971}. It is indeed a fact that computers can offer automated tasks to an unimaginable extent. However, to translate this type of automation into music composition and performance, results in a disembodied music conception. In other words, an algorithmically generated stream of notes may result in physically impossible tasks for a performer, or for the listener. This is the point of inflexion when envisioning goes beyond the threshold of embodiment. It can be argued, however, that further developments in musical performance techniques can be achieved by pushing the limits of bodily skills. Nonetheless, what I am stressing here is the extent to which music composition can be reconfigured by the possibilities data structures have brought to the field. Furthermore, what is at stake with notation-based music software is yet another musical concern that governed most of music software development during the 1980s: style.
 
-\subsection{Enter Objects}
+\subsubsection{Enter Objects}
 
-\img{realtime}{png}{0.9}{
-	A bodyless abstract published at the \gls{icmc} (1981) stating that a real-time version of MUSIC-11 was ``near completion'' by a group at MIT \parencite{DBLP:conf/icmc/PucketteVS81}.
-}
+\img{realtime}{0.9}{
+	A bodyless abstract published at the \gls{icmc} (1981) stating that a real-time version of \gls{music-11} was ``near completion'' by a group at MIT \parencite{DBLP:conf/icmc/PucketteVS81}.
+}{A real-time version of \gls{music-11}.}
 
 	\paragraph{Max}
 	\label{computer:real-time}
