@@ -65,12 +65,12 @@ def traverse_structures(file,target,outline,contentdir):
 			#
 			#	assign section hierarchy here
 			#
-			sectype="chapter"
 			chatype="part"
+			sectype="chapter"
 			ssetype="section"
 			if chtitl in s:
+				chatype+="chapter*"
 				sectype+="*"
-				chatype+="*"
 				ssetype+="*"
 			try:	
 				subsection = csv_dict_list(file,spath)
