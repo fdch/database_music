@@ -16,7 +16,7 @@ TMPDIR=$ROOTDIR/temp
 OUTDIR=$ROOTDIR/output
 #	FILES
 WCFILE=$ROOTDIR/main.csv
-FRONTIMG=$IMGDIR/dbtree.jpg
+FRONTIMG=$IMGDIR/dbtree.png
 #	SERVER
 REPO=https://github.com/fdch/database_music
 ONLINE=https://fdch.github.io/database_music

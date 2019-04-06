@@ -7,7 +7,7 @@ STRUCT=(
 "chapter" content/part-2/abstract.tex "Database Art" 172
 "section" content/part-2/section-1/sub/abstract.tex "The Database In New Media Theory" 0
 "subsection" content/part-2/section-1/sub/new_media.tex "Database As Form" 415
-"subsection" content/part-2/section-1/sub/semiotics.tex "A Semiotic Trap" 905
+"subsection" content/part-2/section-1/sub/semiotics.tex "A Semiotic Trap" 908
 "subsection" content/part-2/section-1/sub/convergence.tex "Digital Convergence" 553
 "subsection" content/part-2/section-1/sub/bodiless_information.tex "Bodiless Information" 638
 "subsection" content/part-2/section-1/sub/embodiment.tex "Embodying Databasing" 580
@@ -18,15 +18,15 @@ STRUCT=(
 "subsection" content/part-2/section-2/sub/databasing.tex "Databasing: The Performance Of The Database" 2067
 "subsection" content/part-2/section-2/sub/programming.tex "A Database Tree" 924
 "subsection" content/part-2/section-2/sub/models.tex "The Realm Of Data Structures" 542
-"subsection" content/part-2/section-2/sub/descriptions.tex "A Brief History Of Database Models" 2379
-"section" content/part-2/section-3/sub/abstract.tex "Databasing Sound: Applications Of Databases In Sound" 359
-"subsection" content/part-2/section-3/sub/mir.tex "Music Information Retrieval" 934
-"subsection" content/part-2/section-3/sub/sonification.tex "Sonification" 2041
-"subsection" content/part-2/section-3/sub/computer_music.tex "Computer Music" 5382
-"subsection" content/part-2/section-3/sub/applications.tex "Intersections" 3751
+"subsection" content/part-2/section-2/sub/descriptions.tex "A Brief History Of Database Models" 2384
+"section" content/part-2/section-3/sub/abstract.tex "Databasing Sound: Applications Of Databases In Sound" 351
+"subsection" content/part-2/section-3/sub/mir.tex "Music Information Retrieval" 933
+"subsection" content/part-2/section-3/sub/sonification.tex "Sonification" 2040
+"subsection" content/part-2/section-3/sub/computer_music.tex "Computer Music" 5387
+"subsection" content/part-2/section-3/sub/applications.tex "Intersections" 3752
 "chapter" content/part-3/abstract.tex "Database Aesthetics" 795
 "section" content/part-3/section-1/sub/abstract.tex "Listening Databases" 0
-"subsection" content/part-3/section-1/sub/resonance_of_a_return.tex "The Resonance Of A Return" 1320
+"subsection" content/part-3/section-1/sub/resonance_of_a_return.tex "The Resonance Of A Return" 1319
 "subsection" content/part-3/section-1/sub/network.tex "Resonant Network" 1501
 "subsection" content/part-3/section-1/sub/inoperativity.tex "The Unworking Network" 1353
 "section" content/part-3/section-2/sub/abstract.tex "Databases And Memory" 0
@@ -37,7 +37,7 @@ STRUCT=(
 "section" content/part-3/section-3/sub/abstract.tex "Performativity Of Databases" 0
 "subsection" content/part-3/section-3/sub/gender.tex "Gendered Database" 1236
 "subsection" content/part-3/section-3/sub/limits.tex "Towards The Limits" 892
-"subsection" content/part-3/section-3/sub/style.tex "Contingencies Of Style" 1964
+"subsection" content/part-3/section-3/sub/style.tex "Contingencies Of Style" 1965
 "subsection" content/part-3/section-3/sub/authority.tex "A Specter Of Authority" 1249
 "section" content/part-3/section-4/sub/abstract.tex "Rethinking Composition" 0
 "subsection" content/part-3/section-4/sub/performance.tex "Interlude: Hyperbolic Reactions" 1232

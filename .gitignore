@@ -1,0 +1,11 @@
+# Directories
+temp
+
+# Files
+img/*
+!*.png
+
+*.log
+
+# MacOS stuff
+.DS_Store

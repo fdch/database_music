@@ -4,7 +4,7 @@ Introduction 3149
 Database Art 172
 	The Database in New Media Theory 0
 		Database as Form 415 33%
-		A Semiotic Trap 905 72%
+		A Semiotic Trap 908 72%
 		Digital Convergence 553 44%
 		Bodiless Information 638 51%
 		Embodying Databasing 580 46%
@@ -15,15 +15,15 @@ Database Art 172
 		Databasing: the performance of the database 2067 82%
 		A Database Tree 924 36%
 		The Realm of Data Structures 542 21%
-		A Brief History of Database Models 2379 95%
-	Databasing Sound: Applications of databases in sound 359
-		Music Information Retrieval 934 37%
-		Sonification 2041 81%
-		Computer Music 5382 215%
-		Intersections 3751 150%
+		A Brief History of Database Models 2384 95%
+	Databasing Sound: Applications of databases in sound 351
+		Music Information Retrieval 933 37%
+		Sonification 2040 81%
+		Computer Music 5387 215%
+		Intersections 3752 150%
 Database Aesthetics 795
 	Listening Databases 0
-		The Resonance of a Return 1320 52%
+		The Resonance of a Return 1319 52%
 		Resonant Network 1501 60%
 		The Unworking Network 1353 54%
 	Databases and Memory 0
@@ -34,7 +34,7 @@ Database Aesthetics 795
 	Performativity of Databases 0
 		Gendered Database 1236 65%
 		Towards the Limits 892 47%
-		Contingencies of Style 1964 104%
+		Contingencies of Style 1965 104%
 		A Specter of Authority 1249 66%
 	Rethinking Composition 0
 		Interlude: Hyperbolic Reactions 1232 115%
