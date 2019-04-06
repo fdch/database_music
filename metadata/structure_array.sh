@@ -21,7 +21,7 @@ STRUCT=(
 "subsection" content/part-2/section-2/sub/descriptions.tex "A Brief History Of Database Models" 2381
 "section" content/part-2/section-3/sub/abstract.tex "Databasing Sound: Applications Of Databases In Sound" 359
 "subsection" content/part-2/section-3/sub/mir.tex "Music Information Retrieval" 988
-"subsection" content/part-2/section-3/sub/sonification.tex "Sonification" 2017
+"subsection" content/part-2/section-3/sub/sonification.tex "Sonification" 2041
 "subsection" content/part-2/section-3/sub/computer_music.tex "Computer Music" 5392
 "subsection" content/part-2/section-3/sub/applications.tex "Applications" 3130
 "chapter" content/part-3/abstract.tex "Database Aesthetics" 795

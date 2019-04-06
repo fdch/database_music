@@ -1,13 +1,24 @@
 #!/usr/bin/python
 import json, sys, requests, os, csv
+try:
+	with open("../litrev","r") as ss:
+		sheetid=ss.readline()
+except:
+	print "Need to update sheed id file"
+	quit(1)
+
 domain="https://spreadsheets.google.com/feeds/list/"
-sheetid="1tMkdssQlN_wbGS1SjfORS7AOBspKvvun7_AvzxctMrE/"
 sheetnum=6
 altjson="/public/values?alt=json"
 query=domain+sheetid+str(sheetnum)+altjson
 
-r = requests.get(query)
-data = r.json()
+try:
+	r = requests.get(query)
+	data = r.json()
+except:
+	print "Couldn't make request."
+	quit(1)
+
 
 #	WRITE REQUEST FOR LATER USE
 
@@ -36,9 +47,7 @@ with open("./glossary/definitions.tex", "w") as g:
 		try:
 			lng=k["gsx$expansion"]["$t"].encode("utf8")  #.title()
 		except:
-			lng=abb
-			# print "Malformed expansion:",lng
-		
+			print "Malformed expansion:",lng
 		try:
 			url=k["gsx$url"]["$t"].encode("utf8") # .replace("#","##")
 			url="See also: \\url{"+url+"}"
@@ -50,21 +59,32 @@ with open("./glossary/definitions.tex", "w") as g:
 			print "Malformed cit:",cit
 		try:
 			des=k["gsx$description"]["$t"].encode("utf8")
-			if url:
-				if cit:
-					des=des+" "+url+" "+cit
-				else:
-					des=des+" "+url
 		except:
-			print lab,"has no description........................"
-			des="\\dots"
-			if url:
-				if cit:
-					des=url+" "+cit
-				else:
-					des=url
+			print lab,"Malformed description",des
+		if des: # it has a description, therefore it has a glossary entry
+			#DUALENTRY
+			if lng: # it has a 'long' form, therefore it is an acronym
+				if url: # it has a 'url'
+					if cit: # it has a \cite command
+						des=des+" "+url+" "+cit
+					else: # no \cite
+						des=des+" "+url
+				entry="\\newdualentry{"+lab+"}{"+abb+"}\n\t{"+lng+"}\n\t{"+des+"}\n"
+			else: #it does not have a 'long' form, it is not an acronym
+			#GLOSSARY ENTRY
+				entry="\\newglossaryentry{"+lab+"}{\n\tname={"+abb+"},\n\tdescription={"+des+"}\n}\n"
+		else:
+			# it does not have description
+			#ACRONYM
+			# des="\\dots"
+			# if url:
+			# 	if cit:
+			# 		des=url+" "+cit
+			# 	else:
+			# 		des=url
+			entry="\\newacronym{"+lab+"}{"+abb+"}{"+lng+"}\n"
+
 		ldata.append([abb,lab])
-		entry="\\newdualentry{"+lab+"}{"+abb+"}\n\t{"+lng+"}\n\t{"+des+"}\n"
 		try:
 			g.write(entry.encode("utf8"))
 		except:
