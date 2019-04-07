@@ -6,25 +6,25 @@ Database Art 172
 		Database as Form 415 33%
 		A Semiotic Trap 908 72%
 		Digital Convergence 553 44%
-		Bodiless Information 638 51%
+		Bodiless Information 642 51%
 		Embodying Databasing 580 46%
 		Filtering and Framing 313 25%
 		Database as Aesthetics 211 16%
 		Databasing: Database as Performance 295 23%
 	Databasing and the History of Databases 0
-		Databasing: the performance of the database 2067 82%
+		Databasing: the performance of the database 2059 82%
 		A Database Tree 924 36%
 		The Realm of Data Structures 542 21%
-		A Brief History of Database Models 2384 95%
+		A Brief History of Database Models 2410 96%
 	Databasing Sound: Applications of databases in sound 351
 		Music Information Retrieval 933 37%
 		Sonification 2040 81%
-		Computer Music 5387 215%
+		Computer Music 5388 215%
 		Intersections 3752 150%
 Database Aesthetics 795
 	Listening Databases 0
-		The Resonance of a Return 1319 52%
-		Resonant Network 1501 60%
+		The Resonance of a Return 1269 50%
+		Resonant Network 469 18%
 		The Unworking Network 1353 54%
 	Databases and Memory 0
 		Interlude: Embodied Memory 1685 89%
@@ -41,7 +41,7 @@ Database Aesthetics 795
 		Working Composition 1603 149%
 		The Composer as Navigator 1418 132%
 		The Database as Performer 2785 260%
-		The severed object of music 1974 184%
+		The severed object of music 1970 183%
 		Anarchy and the unwork 1924 179%
 		[WIP] work in progress 347 32%
 Conclusion 4
