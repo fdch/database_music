@@ -1,0 +1,53 @@
+#!/bin/sh
+#-----------------------------------------------------------------------------
+#
+#	<backup.sh> - A backup utility
+#
+#	Usage: from <bin> directory, run 
+#
+#	$ sh backup.sh
+#
+#-----------------------------------------------------------------------------
+
+#	Directory holding backups
+BAKDIR=backup
+
+#	<bin> directory holding all you need to backup
+BINDIR=bin
+
+#	Help
+BAKHELP="
+This backup utility is meant to ease the creation of backups
+as your project gets bigger and bigger.	This backup utility resides 
+in the root folder (aka. <projec_name>) with links created on each working <bin>. 
+
+Usage:
+	$ cd bin
+	$ sh backup
+
+All your backups are created in the <$BAKDIR> directory	with increasing indeces.
+
+Enjoy and if you have any issues, please contact me at <fdch.github.io>
+"
+
+if [[ $1 ]]; then
+	echo "$BAKHELP"
+	exit
+fi
+
+#	Find next backup item nubmer
+i=1
+
+if [[ -d ../$BAKDIR/${BINDIR}_1 ]] ; then
+	for dirs in ../$BAKDIR/* ; do 
+		((i++))
+	done
+fi
+
+BAKFILE=${BINDIR}_${i}
+
+rsync -aP --exclude backup --exclude temp ../$BINDIR/* ../$BAKDIR/$BAKFILE
+
+echo "Backing up $BINDIR into $BAKDIR/$BAKFILE ..."
+
+exit
