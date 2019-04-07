@@ -1,0 +1,237 @@
+\chapter{Dedication}
+\chapter{Acknowledgements}
+\chapter{Preface}
+\chapter*{Abstract}
+\chapter*{Introduction}
+\chapter{Database Art}
+\section{The Database In New Media Theory}
+\subsection{Database As Form}
+\subsection{A Semiotic Trap}
+\subsection{Digital Convergence}
+\subsection{Bodiless Information}
+\subsection{Embodying Databasing}
+\subsection{Filtering And Framing}
+\subsection{Database As Aesthetics}
+\subsection{Databasing: Database As Performance}
+\section{Databasing And The History Of Databases}
+\subsection{Databasing: The Performance Of The Database}
+\subsubsection{Data types and structures}
+\subsubsection{Temporality of Databasing}
+\subsubsection{Databasing and Writing}
+\subsubsection{The Von Neumann Architecture}
+\subsection{A Database Tree}
+\paragraph{Ground}
+\paragraph{Roots}
+\paragraph{Macros}
+\paragraph{Trunk}
+\paragraph{Branches}
+\paragraph{Twigs}
+\paragraph{Leaves}
+\paragraph{Networks}
+\paragraph{Clouds}
+\subsection{The Realm Of Data Structures}
+\paragraph{Array data structure}
+\paragraph{Linked Lists}
+\paragraph{Sequences}
+\subsection{A Brief History Of Database Models}
+\subsubsection{Hierarchical}
+\subsubsection{Network}
+\paragraph{Navigational Paradigm}  The advent of disk-based database systems, in contrast to magnetic tape or punched card systems, enabled a different way of thinking database navigation. Working for General Electric's \gls{ids}, \textcite{Bachman:1973:PN:355611.362534} later conceptualized and implemented a navigational paradigm within the networked model. Abandoning the ``memory-centered view'' of database system development, Bachman called for programmers ``to accept the challenge and opportunity of navigation within an \textit{n}-dimensional data space'' \parencite[657]{Bachman:1973:PN:355611.362534}. Therefore, he proposed data records and attributes as \textit{n}-dimensional space. This means that a database can be traversed not only by accessing the first element and then moving sequentially to the `next' record. Secondary data keys could be made into sets for navigation starting from any of its members. In other words, given a database with records and attributes, all attributes can become a new dimension thus making retrieval times much more efficient. Navigating through a database within this paradigm is achieved by following record relationships instead of record order in physical storage. Therefore, with the navigational paradigm, a new level of abstraction was thus given to database management systems, resulting in better and more efficient database retrieval.
+\subsubsection{Relational}
+\subsubsection{Non-Relational}
+\subsubsection{Graph}
+\subsubsection{Object}
+\subsubsection{Semi-structured}
+\subsubsection{Pure Data as Database System}
+\section{Databasing Sound: Applications Of Databases In Sound}
+\subsection{Music Information Retrieval}
+\subsection{Sonification}
+\subsubsection{Parameter mapping}
+\paragraph{DOW}
+\paragraph{Medical Images}
+% \paragraph{Geolocations}
+\subsubsection{Model-based sonification}
+\paragraph{Space}
+\subsubsection{Artistic sonification}
+\paragraph{Wolves}
+\paragraph{Selva}
+\paragraph{Ocean}
+\paragraph{Molecules}
+% \paragraph{Rivers and Molecules}
+\paragraph{Gender Distribution}
+\subsubsection{Sonification Installations}
+\paragraph{IP-based soundscape}
+\paragraph{Earthquakes}
+\paragraph{GPU-based waveforms}
+\paragraph{Ucanny Faces}
+% \subsubsection{Affective Sonification}
+% \paragraph{Telematic Electroacoustic Music}
+\subsubsection{Sonification Software}
+\paragraph{SonArt}
+\paragraph{DataPlayer}
+\paragraph{madBPM}
+\subsection{Computer Music}
+\subsubsection{Hierarchical environments}
+	\paragraph{Reducing cognitive burden}
+	\paragraph{A Hierarchical Representation}
+	\paragraph{Black-boxing}
+	\paragraph{Generality and Portability}
+	\paragraph{Simplification}
+	\paragraph{Balance}
+\subsubsection{Music Notation Software}
+\paragraph{DARMS and SCORE}
+\paragraph{From Staves to Speakers}
+\paragraph{Theoretical Performance}
+\subsubsection{Enter Objects}
+	\paragraph{Max}
+	\paragraph{Kyma}
+	\paragraph{Pure Data}
+	\paragraph{Graphic Scores}
+	\paragraph{OpenMusic}
+	\paragraph{Heaps and Nodes}
+\subsection{Intersections}
+\subsubsection{Corpus-based Approaches}
+	\paragraph{Concatenative Synthesis}
+	\paragraph{Other approaches}
+	\paragraph{Software Libraries}
+\subsubsection{Querying Methods}
+	\paragraph{Query-by-content}
+	\paragraph{Similarity-based}
+	\paragraph{Hybrid Queries}
+\subsubsection{Traversing Methods}
+	\paragraph{Sensorial Networks}
+	\paragraph{Involuntary Navigation}
+	\paragraph{Networked Collaborations}
+	\paragraph{Mobile Devices}
+\subsubsection{Resource Sharing}
+	\paragraph{Multimodal Datasets}
+	\paragraph{Formats}
+	\paragraph{Live Coding}
+\subsubsection{Closing Remarks}
+\chapter{Database Aesthetics}
+\section{Listening Databases}
+\subsection{The Resonance Of A Return}
+\paragraph{A Reverb}
+\paragraph{A Filter}
+\paragraph{A Loop}
+\paragraph{An Attack}
+\paragraph{An Sampler}
+\paragraph{A Texture}
+\paragraph{A Return}
+\subsection{Resonant Network}
+\paragraph{The Recorded Movement of a Thing}
+% \paragraph{The Work of Actors}
+\paragraph{The Resonant Movement of a Thing}
+% \paragraph{Positive Feedback}
+\subsection{The Unworking Network}
+\paragraph{Community as unwork}
+\paragraph{Resonant Inoperativity}
+\paragraph{Space of Community}
+\paragraph{At the Limit}
+\paragraph{Reticulated Skin}
+\paragraph{Database Community}
+\section{Databases And Memory}
+\subsection{Interlude: Embodied Memory}
+\subsection{The Effraction Of The Trace}
+\paragraph{Memory as Breaching}
+\paragraph{Breaching and \textit{différance}}
+\paragraph{Hypomnesis and the Mystic Pad}
+\paragraph{Nonhuman Authors}
+\paragraph{Database as Agents}
+\subsection{The Archontic Principle}
+\paragraph{Archives and Memory}
+\paragraph{Hierarchies}
+\paragraph{Archontic Principle}
+\paragraph{Patriarchy}
+\paragraph{Institutional Passage}
+\paragraph{Authorities}
+\paragraph{Anarchic Memory}
+\paragraph{Collective Memory}
+\paragraph{Writing Code}
+\paragraph{Anarchic Computer Memory}
+\subsection{The Spectral Database}
+\paragraph{Computer Memory and Writing}
+\paragraph{Memory Replacement}
+\paragraph{Anarchic Records}
+\paragraph{Memory and Framing}
+\paragraph{Nonhuman Tympans}
+\paragraph{Spectrality of Archives}
+\paragraph{Spectrality of Databases}
+\paragraph{Agency of the Uncanny}
+\section{Performativity Of Databases}
+\subsection{Gendered Database}
+\paragraph{Skin of the Database}
+\paragraph{Expressing Nothing}
+\paragraph{A Historical Situation}
+\paragraph{Subversive Repetition}
+\paragraph{Gendered Database}
+\subsection{Towards The Limits}
+\paragraph{Exposure}
+\paragraph{Anarchic Touch}
+\paragraph{Communities of Skin}
+\paragraph{Hybrid Pluralities}
+\subsection{Contingencies Of Style}
+\paragraph{Style and Timbre}
+\paragraph{Endless Databases}
+\paragraph{Database and Chaos}
+\paragraph{Fractality}
+\paragraph{A Music Work as a Singularity}
+\paragraph{Arbitrariness}
+\paragraph{Inoperative Style}
+\subsection{A Specter Of Authority}
+\paragraph{The Name}
+\paragraph{Dictionaries}
+\paragraph{Artistry}
+\paragraph{The Work of Mice}
+\section{Rethinking Composition}
+\subsection{Interlude: Hyperbolic Reactions}
+\paragraph{Imagining Composers}
+\paragraph{Composers and Technology}
+\paragraph{Playing with Shadows}
+\paragraph{Composers Without Computers}
+\paragraph{Databasing Without Computers}
+\subsection{Working Composition}
+\paragraph{The Work Problem}
+\paragraph{Working Rules}
+\paragraph{A Space of Difference}
+\paragraph{A Severed Work}
+\paragraph{Absorbption}
+\subsection{The Composer As Navigator}
+\paragraph{Querying the Sieves}
+\paragraph{Sound Synthesis Parenthesis}
+\paragraph{Algebraic Abstractions for Freedom}
+\paragraph{A Cosmic Vessel and an Armchair}
+\subsection{The Database As Performer}
+\paragraph{The Computer as a Musical Instrument}
+\paragraph{A Minor Liberty}
+\paragraph{The Computer as a Player}
+\paragraph{Programming Decisions}
+\paragraph{Anachronic Composers}
+\paragraph{\obj{bang}}
+\paragraph{Nonhuman composers}
+\paragraph{Fractured Works}
+\paragraph{Databasing Vessel}
+\subsection{The Severed Object Of Music}
+\paragraph{An Incomplete Object}
+\paragraph{Remains of Listening}
+\paragraph{Sources and Sorcerers}
+\paragraph{Naming}
+\paragraph{Dynamics}
+\paragraph{Masterwork}
+\paragraph{Architecture of Obedience}
+\subsection{Anarchy And The Unwork}
+\paragraph{Place in Common}
+\paragraph{Disintegrated Imperative}
+\paragraph{Blind Experimentation}
+\paragraph{Doctoring the Glitch}
+\paragraph{Unnecessary Blindfolds}
+\paragraph{Spectral Remains}
+\paragraph{Macroforma}
+\paragraph{Overfitting}
+\subsection{[Wip] Work In Progress}
+\chapter*{Conclusion}
+\chapter*{Appendices}
+\section*{DIANA: Database for Image and Audio Navigation}
+\subsection*{A Database Model}
+\section*{ABBY: An Online Environment for Annotated Bibliographies}
+\subsection*{A Text Database}

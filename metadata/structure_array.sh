@@ -26,14 +26,14 @@ STRUCT=(
 "subsection" content/part-2/section-3/sub/applications.tex "Intersections" 3752
 "chapter" content/part-3/abstract.tex "Database Aesthetics" 795
 "section" content/part-3/section-1/sub/abstract.tex "Listening Databases" 0
-"subsection" content/part-3/section-1/sub/resonance_of_a_return.tex "The Resonance Of A Return" 1269
-"subsection" content/part-3/section-1/sub/network.tex "Resonant Network" 469
-"subsection" content/part-3/section-1/sub/inoperativity.tex "The Unworking Network" 1353
+"subsection" content/part-3/section-1/sub/resonance_of_a_return.tex "The Resonance Of A Return" 1533
+"subsection" content/part-3/section-1/sub/network.tex "Resonant Network" 491
+"subsection" content/part-3/section-1/sub/inoperativity.tex "The Unworking Network" 1245
 "section" content/part-3/section-2/sub/abstract.tex "Databases And Memory" 0
-"subsection" content/part-3/section-2/sub/funeslude.tex "Interlude: Embodied Memory" 1685
+"subsection" content/part-3/section-2/sub/funeslude.tex "Interlude: Embodied Memory" 1667
 "subsection" content/part-3/section-2/sub/human.tex "The Effraction Of The Trace" 1561
 "subsection" content/part-3/section-2/sub/archontic.tex "The Archontic Principle" 1810
-"subsection" content/part-3/section-2/sub/spectrality.tex "The Spectral Database" 2309
+"subsection" content/part-3/section-2/sub/spectrality.tex "The Spectral Database" 2325
 "section" content/part-3/section-3/sub/abstract.tex "Performativity Of Databases" 0
 "subsection" content/part-3/section-3/sub/gender.tex "Gendered Database" 1236
 "subsection" content/part-3/section-3/sub/limits.tex "Towards The Limits" 892

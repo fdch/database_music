@@ -23,14 +23,14 @@ Database Art 172
 		Intersections 3752 150%
 Database Aesthetics 795
 	Listening Databases 0
-		The Resonance of a Return 1269 50%
-		Resonant Network 469 18%
-		The Unworking Network 1353 54%
+		The Resonance of a Return 1533 61%
+		Resonant Network 491 19%
+		The Unworking Network 1245 49%
 	Databases and Memory 0
-		Interlude: Embodied Memory 1685 89%
+		Interlude: Embodied Memory 1667 88%
 		The Effraction of the Trace 1561 83%
 		The Archontic Principle 1810 96%
-		The Spectral Database 2309 123%
+		The Spectral Database 2325 124%
 	Performativity of Databases 0
 		Gendered Database 1236 65%
 		Towards the Limits 892 47%
