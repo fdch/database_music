@@ -26,8 +26,9 @@ STRUCT=(
 "subsection" content/part-2/section-3/sub/applications.tex "Intersections" 3752
 "chapter" content/part-3/abstract.tex "Database Aesthetics" 0
 "section" content/part-3/section-1/sub/abstract.tex "Listening Databases" 0
+"subsection" content/part-3/section-1/sub/lucierlude.tex "Interlude: I Am Sitting In A Room\Dots" 220
 "subsection" content/part-3/section-1/sub/resonance_of_a_return.tex "The Resonance Of A Return" 1527
-"subsection" content/part-3/section-1/sub/network.tex "Resonant Network" 1067
+"subsection" content/part-3/section-1/sub/network.tex "Resonant Network" 1136
 "subsection" content/part-3/section-1/sub/inoperativity.tex "The Unworking Network" 1245
 "section" content/part-3/section-2/sub/abstract.tex "Databases And Memory" 0
 "subsection" content/part-3/section-2/sub/funeslude.tex "Interlude: Embodied Memory" 1667
