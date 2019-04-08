@@ -1,7 +1,7 @@
 words,title,path
-425   	Abstract            	content/part-0/abstract.tex
-3149  	Introduction        	content/part-1/abstract.tex
-172   	Database Art        	content/part-2/abstract.tex
+389   	Abstract            	content/part-0/abstract.tex
+1194  	Introduction        	content/part-1/abstract.tex
+0     	Database Art        	content/part-2/abstract.tex
 0     	The Database In New Media Theory	content/part-2/section-1/sub/abstract.tex
 415   	Database As Form    	content/part-2/section-1/sub/new_media.tex
 908   	A Semiotic Trap     	content/part-2/section-1/sub/semiotics.tex
@@ -21,10 +21,10 @@ words,title,path
 2040  	Sonification        	content/part-2/section-3/sub/sonification.tex
 5388  	Computer Music      	content/part-2/section-3/sub/computer_music.tex
 3752  	Intersections       	content/part-2/section-3/sub/applications.tex
-795   	Database Aesthetics 	content/part-3/abstract.tex
+0     	Database Aesthetics 	content/part-3/abstract.tex
 0     	Listening Databases 	content/part-3/section-1/sub/abstract.tex
-1533  	The Resonance Of A Return	content/part-3/section-1/sub/resonance_of_a_return.tex
-491   	Resonant Network    	content/part-3/section-1/sub/network.tex
+1527  	The Resonance Of A Return	content/part-3/section-1/sub/resonance_of_a_return.tex
+1067  	Resonant Network    	content/part-3/section-1/sub/network.tex
 1245  	The Unworking Network	content/part-3/section-1/sub/inoperativity.tex
 0     	Databases And Memory	content/part-3/section-2/sub/abstract.tex
 1667  	Interlude: Embodied Memory	content/part-3/section-2/sub/funeslude.tex

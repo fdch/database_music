@@ -1,7 +1,7 @@
 Dissertation Outline
-Abstract 425
-Introduction 3149
-Database Art 172
+Abstract 389
+Introduction 1194
+Database Art 0
 	The Database in New Media Theory 0
 		Database as Form 415 33%
 		A Semiotic Trap 908 72%
@@ -21,10 +21,10 @@ Database Art 172
 		Sonification 2040 81%
 		Computer Music 5388 215%
 		Intersections 3752 150%
-Database Aesthetics 795
+Database Aesthetics 0
 	Listening Databases 0
-		The Resonance of a Return 1533 61%
-		Resonant Network 491 19%
+		The Resonance of a Return 1527 61%
+		Resonant Network 1067 42%
 		The Unworking Network 1245 49%
 	Databases and Memory 0
 		Interlude: Embodied Memory 1667 88%
