@@ -98,7 +98,7 @@ newcommands=(
 	"im" 		"0"			"[emphasis added] "
 	"obj"		"1"			"\\framebox{{\\small\\textbf{\\texttt{#1}}}}"
 	"poscite"   "1"         "\\citeauthor{#1}'s (\\citeyear{#1})"
-	"inspire"   "1"         "{{\\small\\textit{inspire} (#1)} \\par}"
+	"inspire"   "1"         "{{\\small\\textit{inhale} (#1)} \\par}"
 	"img"       "4"         
 "
 \\begin{figure}[!htbp]
