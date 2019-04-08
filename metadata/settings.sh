@@ -96,6 +96,7 @@ newcommands=(
 	"im" 		"0"			"[emphasis added] "
 	"obj"		"1"			"\\framebox{{\\small\\textbf{\\texttt{#1}}}}"
 	"img"       "4"         
+	"poscite"  "1"         "\\citeauthor{#1}'s (\citeyear{#1})"
 "
 \\begin{figure}[!htbp]
 \\centering
