@@ -74,6 +74,7 @@ packages=(
 	"etoolbox"   ""
 	"setspace"	 ""
 	"ulem" 		 "normalem"
+	"cancel"	 ""
 )
 
 backmatter=(
