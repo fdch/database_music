@@ -3,7 +3,7 @@
 #	<distree.py>
 STRUCT=(
 "chapter*" content/part-0/abstract.tex "Abstract" 389
-"chapter*" content/part-1/abstract.tex "Introduction" 1194
+"chapter*" content/part-1/abstract.tex "Introduction" 1213
 "chapter" content/part-2/abstract.tex "Database Art" 0
 "section" content/part-2/section-1/sub/abstract.tex "The Database In New Media Theory" 0
 "subsection" content/part-2/section-1/sub/new_media.tex "Database As Form" 415
@@ -28,8 +28,8 @@ STRUCT=(
 "section" content/part-3/section-1/sub/abstract.tex "Listening Databases" 0
 "subsection" content/part-3/section-1/sub/lucierlude.tex "Interlude: I Am Sitting In A Room\Dots" 142
 "subsection" content/part-3/section-1/sub/resonance_of_a_return.tex "The Resonance Of A Return" 1545
-"subsection" content/part-3/section-1/sub/network.tex "Resonant Network" 1412
-"subsection" content/part-3/section-1/sub/inoperativity.tex "The Unworking Network" 410
+"subsection" content/part-3/section-1/sub/network.tex "Resonant Network" 1447
+"subsection" content/part-3/section-1/sub/inoperativity.tex "The Unworking Network" 936
 "section" content/part-3/section-2/sub/abstract.tex "Databases And Memory" 0
 "subsection" content/part-3/section-2/sub/funeslude.tex "Interlude: Embodied Memory" 1667
 "subsection" content/part-3/section-2/sub/human.tex "The Effraction Of The Trace" 1561

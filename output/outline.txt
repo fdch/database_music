@@ -1,6 +1,6 @@
 Dissertation Outline
 Abstract 389
-Introduction 1194
+Introduction 1213
 Database Art 0
 	The Database in New Media Theory 0
 		Database as Form 415 33%
@@ -25,8 +25,8 @@ Database Aesthetics 0
 	Listening Databases 0
 		Interlude: I am sitting in a room\dots 142 7%
 		The Resonance of a Return 1545 82%
-		Resonant Network 1412 75%
-		The Unworking Network 410 21%
+		Resonant Network 1447 77%
+		The Unworking Network 936 49%
 	Databases and Memory 0
 		Interlude: Embodied Memory 1667 88%
 		The Effraction of the Trace 1561 83%
