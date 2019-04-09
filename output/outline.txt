@@ -26,7 +26,7 @@ Database Aesthetics 0
 		Interlude: I am sitting in a room\dots 142 7%
 		The Resonance of a Return 1545 82%
 		Resonant Network 1412 75%
-		The Unworking Network 1566 83%
+		The Unworking Network 410 21%
 	Databases and Memory 0
 		Interlude: Embodied Memory 1667 88%
 		The Effraction of the Trace 1561 83%
