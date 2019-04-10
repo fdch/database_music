@@ -410,7 +410,7 @@ function make_readme()
 	printf "\n%s\n" "---"
 	printf "\n%s\n" "## Read"
 	printf "\n%s\n" "### Versions"
-	printf "%s\n" "- [website (html)]($ONLINE/online)"
+	printf "%s\n" "- [website (html)]($ONLINE/online) $WEBNOTE"
 	printf "%s\n" "- [print (pdf)](output/$pdf)"
 	printf "%s\n" "- [print (docx)](output/$doc)"
 	printf "%s\n" "- [code repository]($REPO)"

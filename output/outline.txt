@@ -20,13 +20,13 @@ Database Art 0
 		Music Information Retrieval 933 37%
 		Sonification 2040 81%
 		Computer Music 5388 215%
-		Intersections 3864 154%
+		Intersections 3903 156%
 Database Aesthetics 0
 	Listening Databases 0
 		Interlude: I am sitting in a room\dots 142 7%
 		The Resonance of a Return 1542 82%
-		Resonant Network 1413 75%
-		The Unworking Network 2058 109%
+		Resonant Network 1411 75%
+		The Unworking Network 2098 111%
 	Databases and Memory 0
 		Interlude: Embodied Memory 1667 88%
 		The Effraction of the Trace 1561 83%
