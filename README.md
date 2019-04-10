@@ -27,7 +27,7 @@ Jaime Oliver La Rosa
 ## Read
 
 ### Versions
-- [website (html)](https://fdch.github.io/database_music/online)
+- [website (html)](https://fdch.github.io/database_music/online) NOTE: The website version (html) does not display correctly: acronyms; glossary entries; some inline references (which might look weird); and the transcribed text score. Please, open/download the .pdf to see how these things actually look like :)
 - [print (pdf)](output/main.pdf)
 - [print (docx)](output/main.docx)
 - [code repository](https://github.com/fdch/database_music)
@@ -38,4 +38,4 @@ Jaime Oliver La Rosa
 
 ### Log
 - Word count: 53252 (802)
-- Last updated: Wed Apr 10 17:28:36 CEST 2019
+- Last updated: Wed Apr 10 17:34:28 CEST 2019

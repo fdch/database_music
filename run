@@ -8,7 +8,7 @@ done
 
 #	LOAD ROUTINES
 source $SRCDIR/routines.sh
-
+WEBNOTE="NOTE: The website version (html) does not display correctly: acronyms; glossary entries; some inline references (which might look weird); and the transcribed text score. Please, open/download the .pdf to see how these things actually look like :)"
 #	ARGUMENT CHECK
 function _main_()
 {
