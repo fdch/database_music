@@ -10,7 +10,7 @@ PANDOCFLAGS="\
 
 -s --wrap=none \
 
---mathjax
+--mathml
 
 --toc --toc-depth=4 \
 
