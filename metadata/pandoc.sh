@@ -10,6 +10,8 @@ PANDOCFLAGS="\
 
 -s --wrap=none \
 
+--mathjax
+
 --toc --toc-depth=4 \
 
 --bibliography=$MAINBIB \
