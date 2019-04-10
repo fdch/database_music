@@ -10,7 +10,7 @@ PANDOCFLAGS="\
 
 -s --wrap=none \
 
---mathml
+--katex
 
 --toc --toc-depth=4 \
 
