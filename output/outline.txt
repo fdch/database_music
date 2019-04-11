@@ -15,23 +15,23 @@ Database Art 0
 		Databasing: the performance of the database 2059 82%
 		A Database Tree 924 36%
 		The Realm of Data Structures 542 21%
-		A Brief History of Database Models 2410 96%
+		A Brief History of Database Models 2411 96%
 	Databasing Sound: Applications of databases in sound 351
-		Music Information Retrieval 933 37%
+		Music Information Retrieval 934 37%
 		Sonification 2040 81%
-		Computer Music 5388 215%
-		Intersections 3903 156%
+		Computer Music 5389 215%
+		Intersections 3904 156%
 Database Aesthetics 0
 	Listening Databases 0
 		Interlude: I am sitting in a room\dots 142 7%
 		The Resonance of a Return 1542 82%
-		Resonant Network 1411 75%
-		The Unworking Network 2098 111%
+		Resonant Network 1477 78%
+		The Unworking Network 2093 111%
 	Databases and Memory 0
-		Interlude: Embodied Memory 1667 88%
-		The Effraction of the Trace 1561 83%
-		The Archontic Principle 1810 96%
-		The Spectral Database 2325 124%
+		Interlude: Embodied Memory 2164 115%
+		The Effraction of the Trace 2073 110%
+		The Archontic Principle 1806 96%
+		The Spectral Database 2323 123%
 	Performativity of Databases 0
 		Gendered Database 1236 65%
 		Towards the Limits 892 47%

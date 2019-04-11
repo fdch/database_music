@@ -243,6 +243,11 @@ printmainmatter=0
 function make_from_arrays()
 {
 	local arr=("$@")
+	local type=''
+	local path=''	
+	local name=''	
+	local file=''
+	local prev=''
 
 	for ((i = 0; i < ${#arr[@]}; i+=4))
 	do
@@ -250,6 +255,8 @@ function make_from_arrays()
 		path=${arr[$((i+1))]}
 		name=${arr[$((i+2))]}
 		file=`basename $path .tex`
+		prev=`dirname "$path"`
+
 
 		if grep -q "Abstract" <<< "$name"
 		then
@@ -273,7 +280,7 @@ function make_from_arrays()
 			then
 				label=$file
 			else
-				label="${type//\*}:${name//' '/_}"
+				label="${type//\*}:${name/ /_}"
 			fi
 			printf "%s\n" "\label{$label}"
 			# 	CHECK (*) AND ADD LINE TO TOC FOR UNOREDERED SECTIONS
