@@ -13,7 +13,7 @@ words,title,path
 295   	Databasing: Database As Performance	content/part-2/section-1/sub/generated.tex
 0     	Databasing And The History Of Databases	content/part-2/section-2/sub/abstract.tex
 2059  	Databasing: The Performance Of The Database	content/part-2/section-2/sub/databasing.tex
-924   	A Database Tree     	content/part-2/section-2/sub/programming.tex
+926   	A Database Tree     	content/part-2/section-2/sub/programming.tex
 542   	The Realm Of Data Structures	content/part-2/section-2/sub/models.tex
 2411  	A Brief History Of Database Models	content/part-2/section-2/sub/descriptions.tex
 351   	Databasing Sound: Applications Of Databases In Sound	content/part-2/section-3/sub/abstract.tex
@@ -23,7 +23,7 @@ words,title,path
 3904  	Intersections       	content/part-2/section-3/sub/applications.tex
 0     	Database Aesthetics 	content/part-3/abstract.tex
 0     	Listening Databases 	content/part-3/section-1/sub/abstract.tex
-142   	Interlude: I Am Sitting In A Room\Dots	content/part-3/section-1/sub/lucierlude.tex
+222   	Interlude: I Am Sitting In A Room\Dots	content/part-3/section-1/sub/lucierlude.tex
 1542  	The Resonance Of A Return	content/part-3/section-1/sub/resonance_of_a_return.tex
 1477  	Resonant Network    	content/part-3/section-1/sub/network.tex
 2093  	The Unworking Network	content/part-3/section-1/sub/inoperativity.tex

@@ -13,7 +13,7 @@ Database Art 0
 		Databasing: Database as Performance 295 23%
 	Databasing and the History of Databases 0
 		Databasing: the performance of the database 2059 82%
-		A Database Tree 924 36%
+		A Database Tree 926 37%
 		The Realm of Data Structures 542 21%
 		A Brief History of Database Models 2411 96%
 	Databasing Sound: Applications of databases in sound 351
@@ -23,7 +23,7 @@ Database Art 0
 		Intersections 3904 156%
 Database Aesthetics 0
 	Listening Databases 0
-		Interlude: I am sitting in a room\dots 142 7%
+		Interlude: I am sitting in a room\dots 222 11%
 		The Resonance of a Return 1542 82%
 		Resonant Network 1477 78%
 		The Unworking Network 2093 111%
