@@ -28,9 +28,9 @@ Database Aesthetics 0
 		Resonant Network 1477 78%
 		The Unworking Network 2093 111%
 	Databases and Memory 0
-		Interlude: Embodied Memory 2164 115%
-		The Effraction of the Trace 2073 110%
-		The Archontic Principle 1806 96%
+		Interlude: Embodied Memory 2145 114%
+		The Effraction of the Trace 1562 83%
+		The Archontic Principle 1521 81%
 		The Spectral Database 2323 123%
 	Performativity of Databases 0
 		Gendered Database 1236 65%

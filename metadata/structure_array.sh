@@ -31,9 +31,9 @@ STRUCT=(
 "subsection" content/part-3/section-1/sub/network.tex "Resonant Network" 1477
 "subsection" content/part-3/section-1/sub/inoperativity.tex "The Unworking Network" 2093
 "section" content/part-3/section-2/sub/abstract.tex "Databases And Memory" 0
-"subsection" content/part-3/section-2/sub/funeslude.tex "Interlude: Embodied Memory" 2164
-"subsection" content/part-3/section-2/sub/human.tex "The Effraction Of The Trace" 2073
-"subsection" content/part-3/section-2/sub/archontic.tex "The Archontic Principle" 1806
+"subsection" content/part-3/section-2/sub/funeslude.tex "Interlude: Embodied Memory" 2145
+"subsection" content/part-3/section-2/sub/human.tex "The Effraction Of The Trace" 1562
+"subsection" content/part-3/section-2/sub/archontic.tex "The Archontic Principle" 1521
 "subsection" content/part-3/section-2/sub/spectrality.tex "The Spectral Database" 2323
 "section" content/part-3/section-3/sub/abstract.tex "Performativity Of Databases" 0
 "subsection" content/part-3/section-3/sub/gender.tex "Gendered Database" 1236
