@@ -13,7 +13,7 @@ STRUCT=(
 "subsection" content/part-2/section-1/sub/embodiment.tex "Embodying Databasing" 580
 "subsection" content/part-2/section-1/sub/framing.tex "Filtering And Framing" 313
 "subsection" content/part-2/section-1/sub/funeslude.tex "An Embodied Database" 1909
-"subsection" content/part-2/section-1/sub/generated.tex "Closing Remarks" 274
+"subsection" content/part-2/section-1/sub/generated.tex "Closing Remarks" 354
 "section" content/part-2/section-2/sub/abstract.tex "Databasing And The History Of Databases" 0
 "subsection" content/part-2/section-2/sub/databasing.tex "Databasing: The Performance Of The Database" 2059
 "subsection" content/part-2/section-2/sub/programming.tex "A Database Tree" 926
@@ -29,7 +29,7 @@ STRUCT=(
 "subsection" content/part-3/section-4/sub/lucierlude.tex "Interlude: I Am Sitting In A Room\Dots" 222
 "subsection" content/part-3/section-4/sub/resonance_of_a_return.tex "The Resonance Of A Return" 1542
 "subsection" content/part-3/section-4/sub/network.tex "Resonant Network" 1479
-"subsection" content/part-3/section-4/sub/inoperativity.tex "The Unworking Network" 2093
+"subsection" content/part-3/section-4/sub/inoperativity.tex "The Unworking Network" 2108
 "section" content/part-3/section-5/sub/abstract.tex "Databases And Memory" 0
 "subsection" content/part-3/section-5/sub/human.tex "The Effraction Of The Trace" 1791
 "subsection" content/part-3/section-5/sub/archontic.tex "The Archontic Principle" 1220
