@@ -9,8 +9,8 @@ words,title,path
 642   	Bodiless Information	content/part-2/section-1/sub/bodiless_information.tex
 580   	Embodying Databasing	content/part-2/section-1/sub/embodiment.tex
 313   	Filtering And Framing	content/part-2/section-1/sub/framing.tex
-211   	Database As Aesthetics	content/part-2/section-1/sub/database_aesthetics.tex
-295   	Databasing: Database As Performance	content/part-2/section-1/sub/generated.tex
+1909  	An Embodied Database	content/part-2/section-1/sub/funeslude.tex
+274   	Closing Remarks     	content/part-2/section-1/sub/generated.tex
 0     	Databasing And The History Of Databases	content/part-2/section-2/sub/abstract.tex
 2059  	Databasing: The Performance Of The Database	content/part-2/section-2/sub/databasing.tex
 926   	A Database Tree     	content/part-2/section-2/sub/programming.tex
@@ -20,29 +20,28 @@ words,title,path
 934   	Music Information Retrieval	content/part-2/section-3/sub/mir.tex
 2040  	Sonification        	content/part-2/section-3/sub/sonification.tex
 5389  	Computer Music      	content/part-2/section-3/sub/computer_music.tex
-3904  	Intersections       	content/part-2/section-3/sub/applications.tex
+3907  	Intersections       	content/part-2/section-3/sub/applications.tex
 0     	Database Aesthetics 	content/part-3/abstract.tex
-0     	Listening Databases 	content/part-3/section-1/sub/abstract.tex
-222   	Interlude: I Am Sitting In A Room\Dots	content/part-3/section-1/sub/lucierlude.tex
-1542  	The Resonance Of A Return	content/part-3/section-1/sub/resonance_of_a_return.tex
-1477  	Resonant Network    	content/part-3/section-1/sub/network.tex
-2093  	The Unworking Network	content/part-3/section-1/sub/inoperativity.tex
-0     	Databases And Memory	content/part-3/section-2/sub/abstract.tex
-2145  	Interlude: Embodied Memory	content/part-3/section-2/sub/funeslude.tex
-1562  	The Effraction Of The Trace	content/part-3/section-2/sub/human.tex
-1521  	The Archontic Principle	content/part-3/section-2/sub/archontic.tex
-2323  	The Spectral Database	content/part-3/section-2/sub/spectrality.tex
-0     	Performativity Of Databases	content/part-3/section-3/sub/abstract.tex
-1236  	Gendered Database   	content/part-3/section-3/sub/gender.tex
-892   	Towards The Limits  	content/part-3/section-3/sub/limits.tex
-1965  	Contingencies Of Style	content/part-3/section-3/sub/style.tex
-1249  	A Specter Of Authority	content/part-3/section-3/sub/authority.tex
-0     	Rethinking Composition	content/part-3/section-4/sub/abstract.tex
-1232  	Interlude: Hyperbolic Reactions	content/part-3/section-4/sub/performance.tex
-1603  	Working Composition 	content/part-3/section-4/sub/organic.tex
-1418  	The Composer As Navigator	content/part-3/section-4/sub/practice.tex
-2785  	The Database As Performer	content/part-3/section-4/sub/improv.tex
-1970  	The Severed Object Of Music	content/part-3/section-4/sub/music.tex
-1924  	Anarchy And The Unwork	content/part-3/section-4/sub/anarchy.tex
-347   	[Wip] Work In Progress	content/part-3/section-4/sub/worker.tex
+0     	Listening Databases 	content/part-3/section-4/sub/abstract.tex
+222   	Interlude: I Am Sitting In A Room\Dots	content/part-3/section-4/sub/lucierlude.tex
+1542  	The Resonance Of A Return	content/part-3/section-4/sub/resonance_of_a_return.tex
+1479  	Resonant Network    	content/part-3/section-4/sub/network.tex
+2093  	The Unworking Network	content/part-3/section-4/sub/inoperativity.tex
+0     	Databases And Memory	content/part-3/section-5/sub/abstract.tex
+1791  	The Effraction Of The Trace	content/part-3/section-5/sub/human.tex
+1220  	The Archontic Principle	content/part-3/section-5/sub/archontic.tex
+2323  	The Spectral Database	content/part-3/section-5/sub/spectrality.tex
+0     	Performativity Of Databases	content/part-3/section-6/sub/abstract.tex
+1236  	Gendered Database   	content/part-3/section-6/sub/gender.tex
+892   	Towards The Limits  	content/part-3/section-6/sub/limits.tex
+1965  	Contingencies Of Style	content/part-3/section-6/sub/style.tex
+1249  	A Specter Of Authority	content/part-3/section-6/sub/authority.tex
+0     	Rethinking Composition	content/part-3/section-7/sub/abstract.tex
+1232  	Interlude: Hyperbolic Reactions	content/part-3/section-7/sub/performance.tex
+1603  	Working Composition 	content/part-3/section-7/sub/organic.tex
+1418  	The Composer As Navigator	content/part-3/section-7/sub/practice.tex
+2785  	The Database As Performer	content/part-3/section-7/sub/improv.tex
+1970  	The Severed Object Of Music	content/part-3/section-7/sub/music.tex
+1924  	Anarchy And The Unwork	content/part-3/section-7/sub/anarchy.tex
+347   	[Wip] Work In Progress	content/part-3/section-7/sub/worker.tex
 4     	Conclusion          	content/part-4/abstract.tex
