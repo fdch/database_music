@@ -29,12 +29,12 @@ Database Aesthetics 0
 		The Unworking Network 2108 112%
 	Databases and Memory 0
 		The Effraction of the Trace 1791 95%
-		The Archontic Principle 1220 65%
-		The Spectral Database 2323 123%
+		The Archontic Principle 1768 94%
+		The Spectral Database 1627 86%
 	Performativity of Databases 0
-		Gendered Database 1236 65%
-		Towards the Limits 892 47%
-		Contingencies of Style 1965 104%
+		Gendered Database 1223 65%
+		Towards the Limits 870 46%
+		Contingencies of Style 1952 104%
 		A Specter of Authority 1249 66%
 	Rethinking Composition 0
 		Interlude: Hyperbolic Reactions 1232 115%

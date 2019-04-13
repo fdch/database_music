@@ -32,12 +32,12 @@ STRUCT=(
 "subsection" content/part-3/section-4/sub/inoperativity.tex "The Unworking Network" 2108
 "section" content/part-3/section-5/sub/abstract.tex "Databases And Memory" 0
 "subsection" content/part-3/section-5/sub/human.tex "The Effraction Of The Trace" 1791
-"subsection" content/part-3/section-5/sub/archontic.tex "The Archontic Principle" 1220
-"subsection" content/part-3/section-5/sub/spectrality.tex "The Spectral Database" 2323
+"subsection" content/part-3/section-5/sub/archontic.tex "The Archontic Principle" 1768
+"subsection" content/part-3/section-5/sub/spectrality.tex "The Spectral Database" 1627
 "section" content/part-3/section-6/sub/abstract.tex "Performativity Of Databases" 0
-"subsection" content/part-3/section-6/sub/gender.tex "Gendered Database" 1236
-"subsection" content/part-3/section-6/sub/limits.tex "Towards The Limits" 892
-"subsection" content/part-3/section-6/sub/style.tex "Contingencies Of Style" 1965
+"subsection" content/part-3/section-6/sub/gender.tex "Gendered Database" 1223
+"subsection" content/part-3/section-6/sub/limits.tex "Towards The Limits" 870
+"subsection" content/part-3/section-6/sub/style.tex "Contingencies Of Style" 1952
 "subsection" content/part-3/section-6/sub/authority.tex "A Specter Of Authority" 1249
 "section" content/part-3/section-7/sub/abstract.tex "Rethinking Composition" 0
 "subsection" content/part-3/section-7/sub/performance.tex "Interlude: Hyperbolic Reactions" 1232
