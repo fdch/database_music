@@ -29,7 +29,7 @@ Database Aesthetics 148
 		The Unworking Network 2108 112%
 	Databases and Memory 0
 		The Effraction of the Trace 1791 95%
-		The Archontic Principle 1767 94%
+		The Archontic Principle 1768 94%
 		The Spectral Database 1627 86%
 	Performativity of Databases 0
 		Gendered Database 1370 73%
@@ -37,11 +37,11 @@ Database Aesthetics 148
 		Contingencies of Style 2064 110%
 		A Specter of Authority 1271 67%
 	Rethinking Composition 0
-		Interlude: Hyperbolic Reactions 1220 113%
-		Working Composition 1487 138%
-		The Composer as Navigator 1418 132%
-		The Database as Performer 2785 260%
-		The severed object of music 1970 183%
-		Anarchy and the unwork 1924 179%
+		Interlude: Hyperbolic Reactions 1210 112%
+		Working Composition 1489 139%
+		The Composer as Navigator 1399 130%
+		The Database as Performer 2759 257%
+		The severed object of music 1954 182%
+		Anarchy and the unwork 1848 172%
 		[WIP] work in progress 347 32%
 Afterword 793

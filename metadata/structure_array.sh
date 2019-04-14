@@ -32,7 +32,7 @@ STRUCT=(
 "subsection" content/part-3/section-4/sub/inoperativity.tex "The Unworking Network" 2108
 "section" content/part-3/section-5/sub/abstract.tex "Databases And Memory" 0
 "subsection" content/part-3/section-5/sub/human.tex "The Effraction Of The Trace" 1791
-"subsection" content/part-3/section-5/sub/archontic.tex "The Archontic Principle" 1767
+"subsection" content/part-3/section-5/sub/archontic.tex "The Archontic Principle" 1768
 "subsection" content/part-3/section-5/sub/spectrality.tex "The Spectral Database" 1627
 "section" content/part-3/section-6/sub/abstract.tex "Performativity Of Databases" 0
 "subsection" content/part-3/section-6/sub/gender.tex "Gendered Database" 1370
@@ -40,12 +40,12 @@ STRUCT=(
 "subsection" content/part-3/section-6/sub/style.tex "Contingencies Of Style" 2064
 "subsection" content/part-3/section-6/sub/authority.tex "A Specter Of Authority" 1271
 "section" content/part-3/section-7/sub/abstract.tex "Rethinking Composition" 0
-"subsection" content/part-3/section-7/sub/performance.tex "Interlude: Hyperbolic Reactions" 1220
-"subsection" content/part-3/section-7/sub/organic.tex "Working Composition" 1487
-"subsection" content/part-3/section-7/sub/practice.tex "The Composer As Navigator" 1418
-"subsection" content/part-3/section-7/sub/improv.tex "The Database As Performer" 2785
-"subsection" content/part-3/section-7/sub/music.tex "The Severed Object Of Music" 1970
-"subsection" content/part-3/section-7/sub/anarchy.tex "Anarchy And The Unwork" 1924
+"subsection" content/part-3/section-7/sub/performance.tex "Interlude: Hyperbolic Reactions" 1210
+"subsection" content/part-3/section-7/sub/organic.tex "Working Composition" 1489
+"subsection" content/part-3/section-7/sub/practice.tex "The Composer As Navigator" 1399
+"subsection" content/part-3/section-7/sub/improv.tex "The Database As Performer" 2759
+"subsection" content/part-3/section-7/sub/music.tex "The Severed Object Of Music" 1954
+"subsection" content/part-3/section-7/sub/anarchy.tex "Anarchy And The Unwork" 1848
 "subsection" content/part-3/section-7/sub/worker.tex "[Wip] Work In Progress" 347
 "chapter*" content/part-4/abstract.tex "Afterword" 793
 )
