@@ -80,7 +80,7 @@ packages=(
 backmatter=(
 	"backmatter"
 	"singlespacing"
-	"glsaddall"
+	# "glsaddall"
 	"printglossaries"
 	"phantomsection"
 	"setlength{\\parskip}{4em}"

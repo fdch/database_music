@@ -356,8 +356,8 @@ function make_latex()
 	#
 	#	APPENDIX
 	#
-	printf "%s\n" "\appendix"				>> $m
-	make_from_arrays "${APPENDIX[@]}" 		>> $m
+	# printf "%s\n" "\appendix"				>> $m
+	# make_from_arrays "${APPENDIX[@]}" 		>> $m
 
 	#
 	#	BACKMATTER
