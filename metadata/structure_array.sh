@@ -36,12 +36,12 @@ STRUCT=(
 "subsection" content/part-3/section-5/sub/spectrality.tex "The Spectral Database" 1627
 "section" content/part-3/section-6/sub/abstract.tex "Performativity Of Databases" 0
 "subsection" content/part-3/section-6/sub/gender.tex "Gendered Database" 1370
-"subsection" content/part-3/section-6/sub/limits.tex "Towards The Limits" 869
-"subsection" content/part-3/section-6/sub/style.tex "Contingencies Of Style" 1952
-"subsection" content/part-3/section-6/sub/authority.tex "A Specter Of Authority" 1249
+"subsection" content/part-3/section-6/sub/limits.tex "Towards The Limits" 443
+"subsection" content/part-3/section-6/sub/style.tex "Contingencies Of Style" 2064
+"subsection" content/part-3/section-6/sub/authority.tex "A Specter Of Authority" 1271
 "section" content/part-3/section-7/sub/abstract.tex "Rethinking Composition" 0
-"subsection" content/part-3/section-7/sub/performance.tex "Interlude: Hyperbolic Reactions" 1232
-"subsection" content/part-3/section-7/sub/organic.tex "Working Composition" 1603
+"subsection" content/part-3/section-7/sub/performance.tex "Interlude: Hyperbolic Reactions" 1220
+"subsection" content/part-3/section-7/sub/organic.tex "Working Composition" 1487
 "subsection" content/part-3/section-7/sub/practice.tex "The Composer As Navigator" 1418
 "subsection" content/part-3/section-7/sub/improv.tex "The Database As Performer" 2785
 "subsection" content/part-3/section-7/sub/music.tex "The Severed Object Of Music" 1970
