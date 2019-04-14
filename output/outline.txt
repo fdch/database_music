@@ -32,8 +32,8 @@ Database Aesthetics 0
 		The Archontic Principle 1767 94%
 		The Spectral Database 1627 86%
 	Performativity of Databases 0
-		Gendered Database 1223 65%
-		Towards the Limits 870 46%
+		Gendered Database 1370 73%
+		Towards the Limits 869 46%
 		Contingencies of Style 1952 104%
 		A Specter of Authority 1249 66%
 	Rethinking Composition 0

@@ -35,8 +35,8 @@ STRUCT=(
 "subsection" content/part-3/section-5/sub/archontic.tex "The Archontic Principle" 1767
 "subsection" content/part-3/section-5/sub/spectrality.tex "The Spectral Database" 1627
 "section" content/part-3/section-6/sub/abstract.tex "Performativity Of Databases" 0
-"subsection" content/part-3/section-6/sub/gender.tex "Gendered Database" 1223
-"subsection" content/part-3/section-6/sub/limits.tex "Towards The Limits" 870
+"subsection" content/part-3/section-6/sub/gender.tex "Gendered Database" 1370
+"subsection" content/part-3/section-6/sub/limits.tex "Towards The Limits" 869
 "subsection" content/part-3/section-6/sub/style.tex "Contingencies Of Style" 1952
 "subsection" content/part-3/section-6/sub/authority.tex "A Specter Of Authority" 1249
 "section" content/part-3/section-7/sub/abstract.tex "Rethinking Composition" 0

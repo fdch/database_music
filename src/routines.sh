@@ -462,7 +462,7 @@ function make_html()
 function make_docx()
 {
 	print_comment "make_docx(): Making docx..."
-	pandoc $MAINTEX $PANDOCFLAGS -f latex -t docx -o ${ROOTDIR}/${NAME}.docx
+	pandoc $STLDIR/extramacro.tex $MAINTEX $PANDOCFLAGS -f latex -t docx -o ${ROOTDIR}/${NAME}.docx
 	# pandoc ${NAME}.html -f html -t docx -o ${ROOTDIR}/${NAME}.docx
 	mv ${NAME}.html $TMPDIR # just place original html file on the temp dir
 }
