@@ -2,7 +2,7 @@
 #	Automatically Generated from:
 #	<distree.py>
 STRUCT=(
-"chapter*" content/part-0/abstract.tex "Abstract" 389
+"chapter*" content/part-0/abstract.tex "Abstract" 392
 "chapter*" content/part-1/abstract.tex "Introduction" 1214
 "chapter" content/part-2/abstract.tex "Database Art" 0
 "section" content/part-2/section-1/sub/abstract.tex "The Database In New Media Theory" 0

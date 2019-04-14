@@ -289,6 +289,8 @@ function make_from_arrays()
 			fi
 		fi
 
+		#	RESET GLOSSARY ENTRIES
+		printf "\n%s\n" "\glsresetall"
 		#	DUMP FILE CONTENTS TO OUTPUT
 		cat $path
 		
