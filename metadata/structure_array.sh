@@ -3,7 +3,7 @@
 #	<distree.py>
 STRUCT=(
 "chapter*" content/part-0/abstract.tex "Abstract" 389
-"chapter*" content/part-1/abstract.tex "Introduction" 1215
+"chapter*" content/part-1/abstract.tex "Introduction" 1214
 "chapter" content/part-2/abstract.tex "Database Art" 0
 "section" content/part-2/section-1/sub/abstract.tex "The Database In New Media Theory" 0
 "subsection" content/part-2/section-1/sub/new_media.tex "Database As Form" 415
@@ -24,7 +24,7 @@ STRUCT=(
 "subsection" content/part-2/section-3/sub/sonification.tex "Sonification" 2040
 "subsection" content/part-2/section-3/sub/computer_music.tex "Computer Music" 5389
 "subsection" content/part-2/section-3/sub/applications.tex "Intersections" 3907
-"chapter" content/part-3/abstract.tex "Database Aesthetics" 0
+"chapter" content/part-3/abstract.tex "Database Aesthetics" 148
 "section" content/part-3/section-4/sub/abstract.tex "Listening Databases" 0
 "subsection" content/part-3/section-4/sub/lucierlude.tex "Interlude: I Am Sitting In A Room\Dots" 222
 "subsection" content/part-3/section-4/sub/resonance_of_a_return.tex "The Resonance Of A Return" 1542
@@ -47,5 +47,5 @@ STRUCT=(
 "subsection" content/part-3/section-7/sub/music.tex "The Severed Object Of Music" 1970
 "subsection" content/part-3/section-7/sub/anarchy.tex "Anarchy And The Unwork" 1924
 "subsection" content/part-3/section-7/sub/worker.tex "[Wip] Work In Progress" 347
-"chapter*" content/part-4/abstract.tex "Conclusion" 4
+"chapter" content/part-4/abstract.tex "Afterword" 442
 )

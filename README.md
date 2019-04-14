@@ -37,5 +37,5 @@ Jaime Oliver La Rosa
 - [toc (csv)](output/main.csv)
 
 ### Log
-- Word count: 52676 (-274)
-- Last updated: Sun Apr 14 15:31:57 CEST 2019
+- Word count: 53261 (311)
+- Last updated: Sun Apr 14 17:33:21 CEST 2019

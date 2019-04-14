@@ -1,6 +1,6 @@
 Dissertation Outline
 Abstract 389
-Introduction 1215
+Introduction 1214
 Database Art 0
 	The Database in New Media Theory 0
 		Database as Form 415 33%
@@ -21,7 +21,7 @@ Database Art 0
 		Sonification 2040 81%
 		Computer Music 5389 215%
 		Intersections 3907 156%
-Database Aesthetics 0
+Database Aesthetics 148
 	Listening Databases 0
 		Interlude: I am sitting in a room\dots 222 11%
 		The Resonance of a Return 1542 82%
@@ -44,4 +44,4 @@ Database Aesthetics 0
 		The severed object of music 1970 183%
 		Anarchy and the unwork 1924 179%
 		[WIP] work in progress 347 32%
-Conclusion 4
+Afterword 442

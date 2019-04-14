@@ -1,6 +1,6 @@
 words,title,path
 389   	Abstract            	content/part-0/abstract.tex
-1215  	Introduction        	content/part-1/abstract.tex
+1214  	Introduction        	content/part-1/abstract.tex
 0     	Database Art        	content/part-2/abstract.tex
 0     	The Database In New Media Theory	content/part-2/section-1/sub/abstract.tex
 415   	Database As Form    	content/part-2/section-1/sub/new_media.tex
@@ -21,7 +21,7 @@ words,title,path
 2040  	Sonification        	content/part-2/section-3/sub/sonification.tex
 5389  	Computer Music      	content/part-2/section-3/sub/computer_music.tex
 3907  	Intersections       	content/part-2/section-3/sub/applications.tex
-0     	Database Aesthetics 	content/part-3/abstract.tex
+148   	Database Aesthetics 	content/part-3/abstract.tex
 0     	Listening Databases 	content/part-3/section-4/sub/abstract.tex
 222   	Interlude: I Am Sitting In A Room\Dots	content/part-3/section-4/sub/lucierlude.tex
 1542  	The Resonance Of A Return	content/part-3/section-4/sub/resonance_of_a_return.tex
@@ -44,4 +44,4 @@ words,title,path
 1970  	The Severed Object Of Music	content/part-3/section-7/sub/music.tex
 1924  	Anarchy And The Unwork	content/part-3/section-7/sub/anarchy.tex
 347   	[Wip] Work In Progress	content/part-3/section-7/sub/worker.tex
-4     	Conclusion          	content/part-4/abstract.tex
+442   	Afterword           	content/part-4/abstract.tex
