@@ -14,7 +14,7 @@ import subprocess	 		#	TO CALL wctex.sh (TEX FILE WORD COUNT UTIL)
 
 
 #	UNNNUMBERED SECTIONS
-s=["Introduction","Conclusion","Appendices","Abstract"]
+s=["Introduction","Conclusion","Appendices","Abstract","Afterword"]
 
 
 def csv_dict_list(file,path):

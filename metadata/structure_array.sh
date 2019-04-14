@@ -47,5 +47,5 @@ STRUCT=(
 "subsection" content/part-3/section-7/sub/music.tex "The Severed Object Of Music" 1970
 "subsection" content/part-3/section-7/sub/anarchy.tex "Anarchy And The Unwork" 1924
 "subsection" content/part-3/section-7/sub/worker.tex "[Wip] Work In Progress" 347
-"chapter" content/part-4/abstract.tex "Afterword" 442
+"chapter*" content/part-4/abstract.tex "Afterword" 793
 )
