@@ -9,8 +9,8 @@ Database Art 0
 		Bodiless Information 642 51%
 		Embodying Databasing 580 46%
 		Filtering and Framing 313 25%
-		An Embodied Database 1909 152%
-		Closing Remarks 354 28%
+		An Embodied Database 1908 152%
+		Closing Remarks 353 28%
 	Databasing and the History of Databases 0
 		Databasing: the performance of the database 2059 82%
 		A Database Tree 926 37%
@@ -23,16 +23,16 @@ Database Art 0
 		Intersections 3907 156%
 Database Aesthetics 148
 	Listening Databases 0
-		Interlude: I am sitting in a room\dots 222 11%
+		Interlude: I am sitting in a room... 222 11%
 		The Resonance of a Return 1542 82%
 		Resonant Network 1479 78%
 		The Unworking Network 2107 112%
 	Databases and Memory 0
 		The Effraction of the Trace 1791 71%
-		The Archontic Principle 1769 70%
+		The Archontic Principle 1768 70%
 		The Spectral Database 1627 65%
 	Performativity of Databases 0
-		Gendered Database 1369 73%
+		Gendered Database 1368 72%
 		Towards the Limits 435 23%
 		Contingencies of Style 2064 110%
 		A Specter of Authority 1271 67%

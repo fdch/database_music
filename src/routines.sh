@@ -248,6 +248,7 @@ function make_from_arrays()
 	local name=''	
 	local file=''
 	local prev=''
+	local bn=''
 
 	for ((i = 0; i < ${#arr[@]}; i+=4))
 	do
@@ -278,9 +279,18 @@ function make_from_arrays()
 			# 	CUSTOMIZE LABELS
 			if ! grep -q "abstract" <<< "$file"
 			then
+				# it is a subsection
 				label=$file
 			else
-				label="${type//\*}:${name/ /_}"
+				if ! grep -q "sub" <<< "$prev"
+				then
+					# it is a chapter
+					bn=`basename $prev`
+				else
+					# it is a section
+					bn=`dirname $prev`
+				fi
+				label=`basename $bn`
 			fi
 			printf "%s\n" "\label{$label}"
 			# 	CHECK (*) AND ADD LINE TO TOC FOR UNOREDERED SECTIONS
