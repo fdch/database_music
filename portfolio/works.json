@@ -1,0 +1,3125 @@
+{
+    "feed": {
+        "category": [
+            {
+                "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                "scheme": "http://schemas.google.com/spreadsheets/2006"
+            }
+        ], 
+        "updated": {
+            "$t": "2019-02-08T10:22:07.490Z"
+        }, 
+        "xmlns": "http://www.w3.org/2005/Atom", 
+        "xmlns$gsx": "http://schemas.google.com/spreadsheets/2006/extended", 
+        "title": {
+            "$t": "worksOrdered", 
+            "type": "text"
+        }, 
+        "author": [
+            {
+                "name": {
+                    "$t": "camarafede"
+                }, 
+                "email": {
+                    "$t": "camarafede@gmail.com"
+                }
+            }
+        ], 
+        "openSearch$startIndex": {
+            "$t": "1"
+        }, 
+        "link": [
+            {
+                "href": "https://docs.google.com/spreadsheets/d/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/pubhtml", 
+                "type": "application/atom+xml", 
+                "rel": "alternate"
+            }, 
+            {
+                "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values", 
+                "type": "application/atom+xml", 
+                "rel": "http://schemas.google.com/g/2005#feed"
+            }, 
+            {
+                "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values", 
+                "type": "application/atom+xml", 
+                "rel": "http://schemas.google.com/g/2005#post"
+            }, 
+            {
+                "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values?alt=json", 
+                "type": "application/atom+xml", 
+                "rel": "self"
+            }
+        ], 
+        "xmlns$openSearch": "http://a9.com/-/spec/opensearchrss/1.0/", 
+        "entry": [
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Relaciones de Nube"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "Anywhere"
+                }, 
+                "title": {
+                    "$t": "12/6/2018 19:45:06", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "Estas reglas est\u00e1n destinadas al mayor grado posible de incumplimiento, pero al menor grado posible de autoridad. La obra es open source, y el c\u00f3digo puede verse o editarse ac\u00e1: github.com/fdch/rdn."
+                }, 
+                "gsx$duration": {
+                    "$t": "13"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://github.com/fdch/rdn"
+                }, 
+                "gsx$category": {
+                    "$t": "Multimedia, Quartet, Live electronics"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "12/6/2018 19:45:06"
+                }, 
+                "content": {
+                    "$t": "title: Relaciones de Nube, category: Multimedia, Quartet, Live electronics, performers: (string) quartet, date: 3/14/2019, description: For quartet with cellphones, programnotes: Estas reglas est\u00e1n destinadas al mayor grado posible de incumplimiento, pero al menor grado posible de autoridad. La obra es open source, y el c\u00f3digo puede verse o editarse ac\u00e1: github.com/fdch/rdn., imageurl: https://camo.githubusercontent.com/e8bf5bc0d55b55c3ddb71c6e5a3396cdef34e2ef/68747470733a2f2f666463682e6769746875622e696f2f72646e2f6469616772616d2f6d61696e2e706e67, scoreurl: https://github.com/fdch/rdn, location: Anywhere, duration: 13", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/cokwr", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://camo.githubusercontent.com/e8bf5bc0d55b55c3ddb71c6e5a3396cdef34e2ef/68747470733a2f2f666463682e6769746875622e696f2f72646e2f6469616772616d2f6d61696e2e706e67"
+                }, 
+                "gsx$date": {
+                    "$t": "3/14/2019"
+                }, 
+                "gsx$performers": {
+                    "$t": "(string) quartet"
+                }, 
+                "gsx$audiourl": {
+                    "$t": ""
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/cokwr"
+                }, 
+                "gsx$videourl": {
+                    "$t": ""
+                }, 
+                "gsx$description": {
+                    "$t": "For quartet with cellphones"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Recursive Shapes and Oscillators"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "Berlin, Germany"
+                }, 
+                "title": {
+                    "$t": "12/6/2018 19:48:48", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "In this 20 minute video I am exploring the use of randomness applied to very simple recursive curves. Because each point of the curve is read by an oscillator, the resulting sound is a phased out oscillator bank that flows between each shape."
+                }, 
+                "gsx$duration": {
+                    "$t": "20"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": ""
+                }, 
+                "gsx$category": {
+                    "$t": "Fixed media, Graphic Score"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "12/6/2018 19:48:48"
+                }, 
+                "content": {
+                    "$t": "title: Recursive Shapes and Oscillators, category: Fixed media, Graphic Score, performers: Computer, date: 11/30/2018, description: For bezier curves and table lookup oscillators, programnotes: In this 20 minute video I am exploring the use of randomness applied to very simple recursive curves. Because each point of the curve is read by an oscillator, the resulting sound is a phased out oscillator bank that flows between each shape., imageurl: https://raw.githubusercontent.com/fdch/fdch.github.io/master/img/recursive_shapes.png, videourl: https://vimeo.com/300566098, location: Berlin, Germany, duration: 20", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/cpzh4", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://raw.githubusercontent.com/fdch/fdch.github.io/master/img/recursive_shapes.png"
+                }, 
+                "gsx$date": {
+                    "$t": "11/30/2018"
+                }, 
+                "gsx$performers": {
+                    "$t": "Computer"
+                }, 
+                "gsx$audiourl": {
+                    "$t": ""
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/cpzh4"
+                }, 
+                "gsx$videourl": {
+                    "$t": "https://vimeo.com/300566098"
+                }, 
+                "gsx$description": {
+                    "$t": "For bezier curves and table lookup oscillators"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Say Under"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "Tehran, Iran"
+                }, 
+                "title": {
+                    "$t": "9/29/2018 6:32:19", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "say under\n\nback into those speak about\nmean between those\nabout without to\nbut outside\n\nso around form lead\nfar than\nwithin become\nwho such speak or speed a speak\n\nrather he need these\nmake become speed a make\nsince back after sea come\naround before but\n\nwill we at\n\n---\n\"say under\" is based on chaotic poetry, turbulent ink and images of an unnamed city at the second Tehran International Electronic Music Festival held in Tehran, Iran, on September 1-9, 2018. I am very greatful to have been selected for this performance by the Offborders Festival for Electroactoustic music, visual, and performing arts from Greece\n\noffborders.org/\nyarava.com/fa/"
+                }, 
+                "gsx$duration": {
+                    "$t": "08:45"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": ""
+                }, 
+                "gsx$category": {
+                    "$t": "Multimedia, Fixed media"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "9/29/2018 6:32:19"
+                }, 
+                "content": {
+                    "$t": "title: Say Under, category: Multimedia, Fixed media, performers: Fede Camara Halac, date: 9/4/2018, description: Electroacoustic Video, programnotes: say under\n\nback into those speak about\nmean between those\nabout without to\nbut outside\n\nso around form lead\nfar than\nwithin become\nwho such speak or speed a speak\n\nrather he need these\nmake become speed a make\nsince back after sea come\naround before but\n\nwill we at\n\n---\n\"say under\" is based on chaotic poetry, turbulent ink and images of an unnamed city at the second Tehran International Electronic Music Festival held in Tehran, Iran, on September 1-9, 2018. I am very greatful to have been selected for this performance by the Offborders Festival for Electroactoustic music, visual, and performing arts from Greece\n\noffborders.org/\nyarava.com/fa/, imageurl: https://raw.githubusercontent.com/fdch/fdch.github.io/master/img/sayunder.jpg, videourl: https://vimeo.com/287104806, location: Tehran, Iran, duration: 08:45", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/cre1l", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://raw.githubusercontent.com/fdch/fdch.github.io/master/img/sayunder.jpg"
+                }, 
+                "gsx$date": {
+                    "$t": "9/4/2018"
+                }, 
+                "gsx$performers": {
+                    "$t": "Fede Camara Halac"
+                }, 
+                "gsx$audiourl": {
+                    "$t": ""
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/cre1l"
+                }, 
+                "gsx$videourl": {
+                    "$t": "https://vimeo.com/287104806"
+                }, 
+                "gsx$description": {
+                    "$t": "Electroacoustic Video"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Un-titled2"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "Mykonos, Greece"
+                }, 
+                "title": {
+                    "$t": "9/29/2018 4:49:49", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "Immersed on a digital environment, ``untitled2'' lives on the limit between field recording and synthesis, music composition and sound art. This liminality aims to resonate its way into the complex difference between art and life.\n\nIt was composed and premiered during the ``Delian Academy for New Music'' held in Mikonos, Greece, in June 2018"
+                }, 
+                "gsx$duration": {
+                    "$t": "09:53.46"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://github.com/fdch/untitled2"
+                }, 
+                "gsx$category": {
+                    "$t": "Fixed media, Live electronics, Generative, Acousmatic, Multichannel"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "9/29/2018 4:49:49"
+                }, 
+                "content": {
+                    "$t": "title: Un-titled2, category: Fixed media, Live electronics, Generative, Acousmatic, Multichannel, performers: Fede Camara Halac, date: 6/16/2018, description: Multichannel work for Laptop Performer, programnotes: Immersed on a digital environment, ``untitled2'' lives on the limit between field recording and synthesis, music composition and sound art. This liminality aims to resonate its way into the complex difference between art and life.\n\nIt was composed and premiered during the ``Delian Academy for New Music'' held in Mikonos, Greece, in June 2018, imageurl: https://raw.githubusercontent.com/fdch/fdch.github.io/master/img/untitled2.jpg, audiourl: https://soundcloud.com/ffddcchh/untitled2-stereo, scoreurl: https://github.com/fdch/untitled2, location: Mykonos, Greece, duration: 09:53.46", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/chk2m", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://raw.githubusercontent.com/fdch/fdch.github.io/master/img/untitled2.jpg"
+                }, 
+                "gsx$date": {
+                    "$t": "6/16/2018"
+                }, 
+                "gsx$performers": {
+                    "$t": "Fede Camara Halac"
+                }, 
+                "gsx$audiourl": {
+                    "$t": "https://soundcloud.com/ffddcchh/untitled2-stereo"
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/chk2m"
+                }, 
+                "gsx$videourl": {
+                    "$t": ""
+                }, 
+                "gsx$description": {
+                    "$t": "Multichannel work for Laptop Performer"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Untitled"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "NYU Bobst Immersion Lab"
+                }, 
+                "title": {
+                    "$t": "7/8/2018 8:58:32", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "\"Untitled\" is a question regarding creativity, unpredictability and mechanical determinism. The audio consists of random and chaos generators in real-time synthesis. The video contains images of turbulence taken from a river in Cordoba (Argentina), cellular automata noise, and randomized nouns. The score has ordered sections made out of randomized variables, and the last section requires some human action. Sounds and images were made with Pure Data for the Immersion Lab at NYU Bobst Library."
+                }, 
+                "gsx$duration": {
+                    "$t": "12"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://fdch.github.io/untitled/"
+                }, 
+                "gsx$category": {
+                    "$t": "Multimedia, Live electronics, Multichannel"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "7/8/2018 8:58:32"
+                }, 
+                "content": {
+                    "$t": "title: Untitled, category: Multimedia, Live electronics, Multichannel, performers: Fede C\u00e1mara Halac, date: 11/15/2017, description: For Laptop Performer, Live Video and Multichannel Audio, programnotes: \"Untitled\" is a question regarding creativity, unpredictability and mechanical determinism. The audio consists of random and chaos generators in real-time synthesis. The video contains images of turbulence taken from a river in Cordoba (Argentina), cellular automata noise, and randomized nouns. The score has ordered sections made out of randomized variables, and the last section requires some human action. Sounds and images were made with Pure Data for the Immersion Lab at NYU Bobst Library., imageurl: https://raw.githubusercontent.com/fdch/untitled/master/img/cover.jpg, scoreurl: https://fdch.github.io/untitled/, location: NYU Bobst Immersion Lab, duration: 12", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/ciyn3", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://raw.githubusercontent.com/fdch/untitled/master/img/cover.jpg"
+                }, 
+                "gsx$date": {
+                    "$t": "11/15/2017"
+                }, 
+                "gsx$performers": {
+                    "$t": "Fede C\u00e1mara Halac"
+                }, 
+                "gsx$audiourl": {
+                    "$t": ""
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/ciyn3"
+                }, 
+                "gsx$videourl": {
+                    "$t": ""
+                }, 
+                "gsx$description": {
+                    "$t": "For Laptop Performer, Live Video and Multichannel Audio"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Hearing The Self: A Spectral Experience"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "Xuhui Art Museum, Shanghai, China"
+                }, 
+                "title": {
+                    "$t": "11/4/2017 15:30:05", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "This interactive, audio/visual installation simulates the process by which the human brain perceives the world. From a mechanical point of view, it has been suggested that the human brain is a machine that performs an inverse Fourier Transform through which it constructs a geometric image from correlations of reflections of light. While a significant component of the installation is visual, the audio acts via sonification to extend the perception beyond just what the eye can see. The audience is invited to experience spectral properties outside of the more familiar visible wavelengths. This piece simultaneously addresses that the mechanical component of perception, even when perceiving one's own self, is only a part of a complex process shaped by many external stimuli, one of the strongest being societal.\n\n\nFede Camara Halac, Matias G Delgadino, Lucia D Simonelli\n"
+                }, 
+                "gsx$duration": {
+                    "$t": "1440"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://fdch.github.io/specexp"
+                }, 
+                "gsx$category": {
+                    "$t": "Multimedia, Live electronics, Interactive"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "11/4/2017 15:30:05"
+                }, 
+                "content": {
+                    "$t": "title: Hearing The Self: A Spectral Experience, category: Multimedia, Live electronics, Interactive, performers: Participants, date: 10/15/2017, description: For 2 PS3 Eyecams, multichannel audio, screens and participants., programnotes: This interactive, audio/visual installation simulates the process by which the human brain perceives the world. From a mechanical point of view, it has been suggested that the human brain is a machine that performs an inverse Fourier Transform through which it constructs a geometric image from correlations of reflections of light. While a significant component of the installation is visual, the audio acts via sonification to extend the perception beyond just what the eye can see. The audience is invited to experience spectral properties outside of the more familiar visible wavelengths. This piece simultaneously addresses that the mechanical component of perception, even when perceiving one's own self, is only a part of a complex process shaped by many external stimuli, one of the strongest being societal.\n\n\nFede Camara Halac, Matias G Delgadino, Lucia D Simonelli\n, imageurl: https://raw.githubusercontent.com/fdch/specexp/master/media/vid-000.jpg, scoreurl: https://fdch.github.io/specexp, location: Xuhui Art Museum, Shanghai, China, duration: 1440", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/ckd7g", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://raw.githubusercontent.com/fdch/specexp/master/media/vid-000.jpg"
+                }, 
+                "gsx$date": {
+                    "$t": "10/15/2017"
+                }, 
+                "gsx$performers": {
+                    "$t": "Participants"
+                }, 
+                "gsx$audiourl": {
+                    "$t": ""
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/ckd7g"
+                }, 
+                "gsx$videourl": {
+                    "$t": ""
+                }, 
+                "gsx$description": {
+                    "$t": "For 2 PS3 Eyecams, multichannel audio, screens and participants."
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Lorenz Variations"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "Virginia Tech Cube Fest 2017"
+                }, 
+                "title": {
+                    "$t": "8/5/2017 4:16:37", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "Lorenz Variations is the result of the Spatial Music Workshop during the Cube Fest 2017 at Virginia Tech, in Blacksburg, VA.</p><p>Together with 6 other participants, we developed site specific research and compositions for the Cube, which consists of 149 speakers in a series of rings that go from the stage up to 30m ceiling surrounding the entire space. It is a unique instrument and we were honored to spend time in such a vortex for sound.  </p><p>My research focused on the different interpretations of the Lorenz System, both as signal and control generator, exploring its patterns and deviations in several time-scales. The piece has 3 sections, each of which has it's own texture and treatment but is linked in some way by the use of this system. Towards the end, there's a single gesture which simultaneously moves from space to pitch-space, and from computational stability to overload and saturation, resulting in a drastic sonic change.  </p><p>Click on \"Score\" to see the performance patch."
+                }, 
+                "gsx$duration": {
+                    "$t": "12"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "http://github.com/fdch/lorenzvariations"
+                }, 
+                "gsx$category": {
+                    "$t": "Fixed media, Live electronics"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "8/5/2017 4:16:37"
+                }, 
+                "content": {
+                    "$t": "title: Lorenz Variations, category: Fixed media, Live electronics, performers: Fede Camara Halac, date: 8/3/2017, description: For Laptop performer (and a Cube of 149 HDLAs), programnotes: Lorenz Variations is the result of the Spatial Music Workshop during the Cube Fest 2017 at Virginia Tech, in Blacksburg, VA.</p><p>Together with 6 other participants, we developed site specific research and compositions for the Cube, which consists of 149 speakers in a series of rings that go from the stage up to 30m ceiling surrounding the entire space. It is a unique instrument and we were honored to spend time in such a vortex for sound.  </p><p>My research focused on the different interpretations of the Lorenz System, both as signal and control generator, exploring its patterns and deviations in several time-scales. The piece has 3 sections, each of which has it's own texture and treatment but is linked in some way by the use of this system. Towards the end, there's a single gesture which simultaneously moves from space to pitch-space, and from computational stability to overload and saturation, resulting in a drastic sonic change.  </p><p>Click on \"Score\" to see the performance patch., imageurl: https://raw.githubusercontent.com/fdch/lorenzvariations/master/screenshot.png, scoreurl: http://github.com/fdch/lorenzvariations, location: Virginia Tech Cube Fest 2017, duration: 12", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/clrrx", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://raw.githubusercontent.com/fdch/lorenzvariations/master/screenshot.png"
+                }, 
+                "gsx$date": {
+                    "$t": "8/3/2017"
+                }, 
+                "gsx$performers": {
+                    "$t": "Fede Camara Halac"
+                }, 
+                "gsx$audiourl": {
+                    "$t": ""
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/clrrx"
+                }, 
+                "gsx$videourl": {
+                    "$t": ""
+                }, 
+                "gsx$description": {
+                    "$t": "For Laptop performer (and a Cube of 149 HDLAs)"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Electroacoustic Improvisations"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "NYU Waverly Labs r.220, NYC"
+                }, 
+                "title": {
+                    "$t": "6/22/2017 10:49:29", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "Joan Mart\u00ed-Frasquier, baritone saxophone; <br>\nKyle Motl, bass; <br>\nJoan Bag\u00e9s i Rub\u00ed, electronics; <br>\nFede Camara Halac, electronics, live visuals; <br>\nBernardo Barros, electronics <br>\n\nMonday June 19th, 7pm, 24 Waverly Place, NYU Room 220<br>\n\n<a href=\"http://www.llull.cat/offices/ny/noticies_detall.cfm?id=34464&url=morphosis-duo-and-kyle-motl-electroacoustic-improvisations.html\" target=_blank>more info</a>\n"
+                }, 
+                "gsx$duration": {
+                    "$t": "60"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": ""
+                }, 
+                "gsx$category": {
+                    "$t": "Multimedia, Small Ensemble, Live electronics, Generative, Improvisation"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/22/2017 10:49:29"
+                }, 
+                "content": {
+                    "$t": "title: Electroacoustic Improvisations, category: Multimedia, Small Ensemble, Live electronics, Generative, Improvisation, performers: Joan Bages i Rubi, Bernardo Barros, Kyle Motl, Joan Marti Frasquier, Fede Camara Halac, date: 6/19/2017, description: Live electronics and visuals, programnotes: Joan Mart\u00ed-Frasquier, baritone saxophone; <br>\nKyle Motl, bass; <br>\nJoan Bag\u00e9s i Rub\u00ed, electronics; <br>\nFede Camara Halac, electronics, live visuals; <br>\nBernardo Barros, electronics <br>\n\nMonday June 19th, 7pm, 24 Waverly Place, NYU Room 220<br>\n\n<a href=\"http://www.llull.cat/offices/ny/noticies_detall.cfm?id=34464&url=morphosis-duo-and-kyle-motl-electroacoustic-improvisations.html\" target=_blank>more info</a>\n, imageurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLRXpwODNxTl9EWk0, videourl: https://www.youtube.com/embed/hXONutQ_vYc?rel=0&amp;controls=0&amp;showinfo=0, location: NYU Waverly Labs r.220, NYC, duration: 60", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/cyevm", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLRXpwODNxTl9EWk0"
+                }, 
+                "gsx$date": {
+                    "$t": "6/19/2017"
+                }, 
+                "gsx$performers": {
+                    "$t": "Joan Bages i Rubi, Bernardo Barros, Kyle Motl, Joan Marti Frasquier, Fede Camara Halac"
+                }, 
+                "gsx$audiourl": {
+                    "$t": ""
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/cyevm"
+                }, 
+                "gsx$videourl": {
+                    "$t": "https://www.youtube.com/embed/hXONutQ_vYc?rel=0&amp;controls=0&amp;showinfo=0"
+                }, 
+                "gsx$description": {
+                    "$t": "Live electronics and visuals"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "a.le.a"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "The Dimenna Center for Classical Music, NYC"
+                }, 
+                "title": {
+                    "$t": "6/21/2017 17:51:28", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "This music was generated using the a.le.a library for Pure Data (Pd) written and played by the composer. The library uses an algorithm for swarm behavior together with the Lorenz attractor in such a way that five boids follow the famous chaotic attractor.\n</p><p>\nThe a.le.a library provides an interface to monitor and interact with both the Lorenz and the boids paths, thus adding to the influence of the boids' movements a human element - that of the player of the meta-score (the composer). The interface captures the results of the interaction of the trio (player, boids, attractor) and outputs the data to both a video file and a text file. The video is used for part of the visual aspect of the performance. The text is used to generate a set of four meta-scores which indicate curves of transition between three elements (in this case, the electronics, the instrumental and the visual).\n</p><p>\nThis algorithmic absurdity in a.le.a aims at being not a 'mapping' of the motion of the birds into musical structures, but as the triggering of events and transitions based on some properties of the line that goes through all the boids. The instrumental score is then interpreted from this output into hand-crafted gestural snippets of Lilypond code (via the [notes] external for puredata) which belong to each of the six instruments of the ensemble. This interpretation produces four fullscores (one for each meta-score).\n</p><p>\nFor this performance, the composer hand-trimmed and re-interpreted some absurdly incoherent blobs of ink on the page into absurdly incoherent musical gestures, choosing from all of the four fullscores arriving at a final score.\n</p><p>\nThe electronics and the video are generated live. They both take the third -human- element from the live analysis of the player's signals, and they both consist of spectra transformations and granular synthesis.\n</p><p>a.le.a is not a work, it is the unworking of a work. It is not only the performative result in itself, but also the path of its unworking. The audience is invited to listen for these traces."
+                }, 
+                "gsx$duration": {
+                    "$t": "8"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLN2VYbTl4UENmeWM"
+                }, 
+                "gsx$category": {
+                    "$t": "Multimedia, Small Ensemble, Live electronics, Generative, Instrumental"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/21/2017 17:51:28"
+                }, 
+                "content": {
+                    "$t": "title: a.le.a, category: Multimedia, Small Ensemble, Live electronics, Generative, Instrumental, performers: Talea Ensemble, date: 4/7/2017, description: Flute, Clarinet (Bb), Violin, Cello, Percussion, Piano, programnotes: This music was generated using the a.le.a library for Pure Data (Pd) written and played by the composer. The library uses an algorithm for swarm behavior together with the Lorenz attractor in such a way that five boids follow the famous chaotic attractor.\n</p><p>\nThe a.le.a library provides an interface to monitor and interact with both the Lorenz and the boids paths, thus adding to the influence of the boids' movements a human element - that of the player of the meta-score (the composer). The interface captures the results of the interaction of the trio (player, boids, attractor) and outputs the data to both a video file and a text file. The video is used for part of the visual aspect of the performance. The text is used to generate a set of four meta-scores which indicate curves of transition between three elements (in this case, the electronics, the instrumental and the visual).\n</p><p>\nThis algorithmic absurdity in a.le.a aims at being not a 'mapping' of the motion of the birds into musical structures, but as the triggering of events and transitions based on some properties of the line that goes through all the boids. The instrumental score is then interpreted from this output into hand-crafted gestural snippets of Lilypond code (via the [notes] external for puredata) which belong to each of the six instruments of the ensemble. This interpretation produces four fullscores (one for each meta-score).\n</p><p>\nFor this performance, the composer hand-trimmed and re-interpreted some absurdly incoherent blobs of ink on the page into absurdly incoherent musical gestures, choosing from all of the four fullscores arriving at a final score.\n</p><p>\nThe electronics and the video are generated live. They both take the third -human- element from the live analysis of the player's signals, and they both consist of spectra transformations and granular synthesis.\n</p><p>a.le.a is not a work, it is the unworking of a work. It is not only the performative result in itself, but also the path of its unworking. The audience is invited to listen for these traces., imageurl: https://raw.githubusercontent.com/fdch/a.le.a/master/img/alea-10.jpg, videourl: https://player.vimeo.com/video/222588421?title=0&byline=0&portrait=0, audiourl: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/317397970&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true, scoreurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLN2VYbTl4UENmeWM, location: The Dimenna Center for Classical Music, NYC, duration: 8", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/cztg3", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://raw.githubusercontent.com/fdch/a.le.a/master/img/alea-10.jpg"
+                }, 
+                "gsx$date": {
+                    "$t": "4/7/2017"
+                }, 
+                "gsx$performers": {
+                    "$t": "Talea Ensemble"
+                }, 
+                "gsx$audiourl": {
+                    "$t": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/317397970&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/cztg3"
+                }, 
+                "gsx$videourl": {
+                    "$t": "https://player.vimeo.com/video/222588421?title=0&byline=0&portrait=0"
+                }, 
+                "gsx$description": {
+                    "$t": "Flute, Clarinet (Bb), Violin, Cello, Percussion, Piano"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Inverted city"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "ShapeShifter Lab, BKLN, NY"
+                }, 
+                "title": {
+                    "$t": "6/21/2017 0:12:20", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "Ciudad Invertida / Inverted City is a work that seeks to raise questions about chance and interactivity in the multiplicity of the media involved, in relation to inverted images of systems that emerge from the concert experience. Performers read with hyperreal accuracy a hand-written proportional score composed with an essentially incorrect implementation of a zero order markov chain (i.e. an expressionistic interpolation of absurdly distributed Puckette-PRNG sequences). The live signal from one performer triggers sample capturingand resynthesis of the other performer (and viceversa), while also triggering images and image transformations projected over the body of both performers. This work is made completely with puredata and GEM, with one pre-recorded soundscape and 1025 abstracted images that were taken in transit, from vantage points and in different locations of the city of Cordoba, Argentina. The work was premiered in Cordoba during the B3CIM (2015) and it was given a NY premiere during the PdCon16~ (2016) by Rage Thormbones."
+                }, 
+                "gsx$duration": {
+                    "$t": "12"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLWDA3YVBwb2h1TjQ"
+                }, 
+                "gsx$category": {
+                    "$t": "Multimedia, Trio, Live electronics, Generative, Interactive"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/21/2017 0:12:20"
+                }, 
+                "content": {
+                    "$t": "title: Inverted city, category: Multimedia, Trio, Live electronics, Generative, Interactive, performers: RAGE THORMBONES and Fede Camara Halac, date: 11/22/2016, description: For 2 trombones, live video and electronics., programnotes: Ciudad Invertida / Inverted City is a work that seeks to raise questions about chance and interactivity in the multiplicity of the media involved, in relation to inverted images of systems that emerge from the concert experience. Performers read with hyperreal accuracy a hand-written proportional score composed with an essentially incorrect implementation of a zero order markov chain (i.e. an expressionistic interpolation of absurdly distributed Puckette-PRNG sequences). The live signal from one performer triggers sample capturingand resynthesis of the other performer (and viceversa), while also triggering images and image transformations projected over the body of both performers. This work is made completely with puredata and GEM, with one pre-recorded soundscape and 1025 abstracted images that were taken in transit, from vantage points and in different locations of the city of Cordoba, Argentina. The work was premiered in Cordoba during the B3CIM (2015) and it was given a NY premiere during the PdCon16~ (2016) by Rage Thormbones., imageurl: https://drive.google.com/uc?id=0B5NfIswhTYqxVGdWcVAtX3ZBcGc, videourl: https://www.youtube.com/embed/GA0_ieFjpuM?rel=0&amp;controls=0&amp;showinfo=0, scoreurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLWDA3YVBwb2h1TjQ, location: ShapeShifter Lab, BKLN, NY, duration: 12", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/d180g", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://drive.google.com/uc?id=0B5NfIswhTYqxVGdWcVAtX3ZBcGc"
+                }, 
+                "gsx$date": {
+                    "$t": "11/22/2016"
+                }, 
+                "gsx$performers": {
+                    "$t": "RAGE THORMBONES and Fede Camara Halac"
+                }, 
+                "gsx$audiourl": {
+                    "$t": ""
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/d180g"
+                }, 
+                "gsx$videourl": {
+                    "$t": "https://www.youtube.com/embed/GA0_ieFjpuM?rel=0&amp;controls=0&amp;showinfo=0"
+                }, 
+                "gsx$description": {
+                    "$t": "For 2 trombones, live video and electronics."
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "i[n"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "Waverly Project, NYU r.220, NYC"
+                }, 
+                "title": {
+                    "$t": "6/21/2017 16:05:10", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "The proportions of the music in \"i[n\" come from an interpretation of Wittgentsein's famous \"Tractatus logico-philosophicus\", the Edward Lorenz equations, a comb, the internal logic of saxophone fingerings and some random decisions by the composer. It was the result of Scapegoat's residency in NYU during the Waverly Project Visiting Artist 2016 series. "
+                }, 
+                "gsx$duration": {
+                    "$t": "16"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLRnRfNTlJNmlkaTQ"
+                }, 
+                "gsx$category": {
+                    "$t": "Duo, Instrumental"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/21/2017 16:05:10"
+                }, 
+                "content": {
+                    "$t": "title: i[n, category: Duo, Instrumental, performers: Scapegoat, date: 10/25/2016, description: For Tenor Saxophone and Amplified Percussion, programnotes: The proportions of the music in \"i[n\" come from an interpretation of Wittgentsein's famous \"Tractatus logico-philosophicus\", the Edward Lorenz equations, a comb, the internal logic of saxophone fingerings and some random decisions by the composer. It was the result of Scapegoat's residency in NYU during the Waverly Project Visiting Artist 2016 series. , imageurl: https://i1.sndcdn.com/artworks-000217515935-oj2bcq-t500x500.jpg, audiourl: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/290558207&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;visual=true, scoreurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLRnRfNTlJNmlkaTQ, location: Waverly Project, NYU r.220, NYC, duration: 16", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/d2mkx", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://i1.sndcdn.com/artworks-000217515935-oj2bcq-t500x500.jpg"
+                }, 
+                "gsx$date": {
+                    "$t": "10/25/2016"
+                }, 
+                "gsx$performers": {
+                    "$t": "Scapegoat"
+                }, 
+                "gsx$audiourl": {
+                    "$t": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/290558207&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;visual=true"
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/d2mkx"
+                }, 
+                "gsx$videourl": {
+                    "$t": ""
+                }, 
+                "gsx$description": {
+                    "$t": "For Tenor Saxophone and Amplified Percussion"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Opening Portals"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "ShapeShifter Lab, Brooklyn, NY"
+                }, 
+                "title": {
+                    "$t": "6/22/2017 10:39:09", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "Jessica Rosen, a multimedia artist based in Sao Paolo asked me to perform with her while she opened a portal, performed 108 chants of the \"om\" and constructed a mandala live for the wonderful audience at ShapeShifter Lab. Here are some pix. You'll se the marvellous Joe Snape performing his \"Tired Music\", an ode to recursion using sines, subs and octaved voice."
+                }, 
+                "gsx$duration": {
+                    "$t": "12"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": ""
+                }, 
+                "gsx$category": {
+                    "$t": "Multimedia, Improvisation"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/22/2017 10:39:09"
+                }, 
+                "content": {
+                    "$t": "title: Opening Portals, category: Multimedia, Improvisation, performers: Jessica Rosen, Fede Camara Halac, date: 10/11/2016, description: For Potentiomenters, Laptop and Improviser, programnotes: Jessica Rosen, a multimedia artist based in Sao Paolo asked me to perform with her while she opened a portal, performed 108 chants of the \"om\" and constructed a mandala live for the wonderful audience at ShapeShifter Lab. Here are some pix. You'll se the marvellous Joe Snape performing his \"Tired Music\", an ode to recursion using sines, subs and octaved voice., imageurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLR2V1WGQyZmVlMUE, videourl: https://youtu.be/YadJsb6bMTA, location: ShapeShifter Lab, Brooklyn, NY, duration: 12", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/cssly", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLR2V1WGQyZmVlMUE"
+                }, 
+                "gsx$date": {
+                    "$t": "10/11/2016"
+                }, 
+                "gsx$performers": {
+                    "$t": "Jessica Rosen, Fede Camara Halac"
+                }, 
+                "gsx$audiourl": {
+                    "$t": ""
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/cssly"
+                }, 
+                "gsx$videourl": {
+                    "$t": "https://youtu.be/YadJsb6bMTA"
+                }, 
+                "gsx$description": {
+                    "$t": "For Potentiomenters, Laptop and Improviser"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "sk"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "Waverly Project, NYU r.220, NYC"
+                }, 
+                "title": {
+                    "$t": "6/21/2017 17:27:01", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "\"sk\" is a multimedia work written for TAK ensemble. "
+                }, 
+                "gsx$duration": {
+                    "$t": "10"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLcnFqNmprTHNnQ28"
+                }, 
+                "gsx$category": {
+                    "$t": "Multimedia, Small Ensemble, Live electronics, Generative, Interactive, Instrumental, Graphic Score"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/21/2017 17:27:01"
+                }, 
+                "content": {
+                    "$t": "title: sk, category: Multimedia, Small Ensemble, Live electronics, Generative, Interactive, Instrumental, Graphic Score, performers: Tak Ensamble, date: 9/29/2016, description: For Soprano, Clarinet (Eb), Violin, Alto Flute, programnotes: \"sk\" is a multimedia work written for TAK ensemble. , imageurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLcXQ0Rzhra1VfS28, videourl: https://player.vimeo.com/video/189384117?byline=0&portrait=0, scoreurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLcnFqNmprTHNnQ28, location: Waverly Project, NYU r.220, NYC, duration: 10", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/cu76f", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLcXQ0Rzhra1VfS28"
+                }, 
+                "gsx$date": {
+                    "$t": "9/29/2016"
+                }, 
+                "gsx$performers": {
+                    "$t": "Tak Ensamble"
+                }, 
+                "gsx$audiourl": {
+                    "$t": ""
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/cu76f"
+                }, 
+                "gsx$videourl": {
+                    "$t": "https://player.vimeo.com/video/189384117?byline=0&portrait=0"
+                }, 
+                "gsx$description": {
+                    "$t": "For Soprano, Clarinet (Eb), Violin, Alto Flute"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "fa[r"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "Cordoba, Argentina"
+                }, 
+                "title": {
+                    "$t": "6/23/2017 0:38:46", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "The three parts composing this video are made of shots of birds, an eye and a hand, representing three different characters, moods and destinies. The music is a guitar melody processed through chaotic delay lines that circunvent forming bursts, mimicking the way in which the three characters relate to esch other."
+                }, 
+                "gsx$duration": {
+                    "$t": "5"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": ""
+                }, 
+                "gsx$category": {
+                    "$t": "Instrumental, Video"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/23/2017 0:38:46"
+                }, 
+                "content": {
+                    "$t": "title: fa[r, category: Instrumental, Video, performers: Fede Camara Halac, date: 8/15/2016, description: A triptic video, programnotes: The three parts composing this video are made of shots of birds, an eye and a hand, representing three different characters, moods and destinies. The music is a guitar melody processed through chaotic delay lines that circunvent forming bursts, mimicking the way in which the three characters relate to esch other., imageurl: https://raw.githubusercontent.com/fdch/fdch.github.io/master/img/far.png, videourl: https://vimeo.com/189537568, location: Cordoba, Argentina, duration: 5", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/cvlqs", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://raw.githubusercontent.com/fdch/fdch.github.io/master/img/far.png"
+                }, 
+                "gsx$date": {
+                    "$t": "8/15/2016"
+                }, 
+                "gsx$performers": {
+                    "$t": "Fede Camara Halac"
+                }, 
+                "gsx$audiourl": {
+                    "$t": ""
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/cvlqs"
+                }, 
+                "gsx$videourl": {
+                    "$t": "https://vimeo.com/189537568"
+                }, 
+                "gsx$description": {
+                    "$t": "A triptic video"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "far[o"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "Ft Washington Park"
+                }, 
+                "title": {
+                    "$t": "6/23/2017 0:31:08", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "We were inspired by the little lighthous and we shot this mock of one of Seventh Seal's most stunning scenes. The music is chaotic noise."
+                }, 
+                "gsx$duration": {
+                    "$t": "3"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": ""
+                }, 
+                "gsx$category": {
+                    "$t": "Fixed media, Video"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/23/2017 0:31:08"
+                }, 
+                "content": {
+                    "$t": "title: far[o, category: Fixed media, Video, performers: Aye Savid and Fede Camara Halac, date: 8/10/2016, description: An isolated scene, programnotes: We were inspired by the little lighthous and we shot this mock of one of Seventh Seal's most stunning scenes. The music is chaotic noise., imageurl: https://raw.githubusercontent.com/fdch/fdch.github.io/master/img/faro.png, videourl: https://vimeo.com/189548950, location: Ft Washington Park, duration: 3", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/cx0b9", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://raw.githubusercontent.com/fdch/fdch.github.io/master/img/faro.png"
+                }, 
+                "gsx$date": {
+                    "$t": "8/10/2016"
+                }, 
+                "gsx$performers": {
+                    "$t": "Aye Savid and Fede Camara Halac"
+                }, 
+                "gsx$audiourl": {
+                    "$t": ""
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/cx0b9"
+                }, 
+                "gsx$videourl": {
+                    "$t": "https://vimeo.com/189548950"
+                }, 
+                "gsx$description": {
+                    "$t": "An isolated scene"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Canon"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "CC Graciela Carena, CBA, ARG"
+                }, 
+                "title": {
+                    "$t": "6/21/2017 10:37:25", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "All players have one instrument and one potentiometer. The players follow the score performing both with their potentiometer and with their instrument. The data obtained from the potentiometers is then interpreted as the speed at which a [lorenz] system is iterated (which is between 0.001 and 1 every sample, at a given samplerate, e.g 44100 Hz). The output (X,Y,Z) from each system is interpreted in two ways: first, it is read as a signal and added altogether; second, it is parsed through [siginfo] to obtain slope changes, which are as well read as signals and added altogether. Finally, the distance obtained from [siginfo] serves as gain for the final signal. One player can be given a midi input to trigger randomized variables for all (or each) lorenz system(s), generating divergence among the randomized systems. Within this midi input, one note (MIDI Note 72) serves as on/off switch for the patch. A timer is provided on the screen. The whole work lasts at least 6 minutes, but the duration bends when there are CPU overloads. It is encouraged to \"surf\" in and out of those CPU overloads by simply changing the potentiometer to a value closer to 1, or to 0 in case there is a need to stop all iterations from the potentiometer involved.  Premiered by Proyecto[Red]Ensamble at Centro Cultural Graciela Carena, CBA, ARG"
+                }, 
+                "gsx$duration": {
+                    "$t": "8"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://fdch.github.io/canon/"
+                }, 
+                "gsx$category": {
+                    "$t": "Multimedia, Small Ensemble, Live electronics, Generative, Interactive"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/21/2017 10:37:25"
+                }, 
+                "content": {
+                    "$t": "title: Canon, category: Multimedia, Small Ensemble, Live electronics, Generative, Interactive, performers: Proyecto[Red]Ensamble, date: 8/6/2016, description: For 5 players with instruments and potentiometers, programnotes: All players have one instrument and one potentiometer. The players follow the score performing both with their potentiometer and with their instrument. The data obtained from the potentiometers is then interpreted as the speed at which a [lorenz] system is iterated (which is between 0.001 and 1 every sample, at a given samplerate, e.g 44100 Hz). The output (X,Y,Z) from each system is interpreted in two ways: first, it is read as a signal and added altogether; second, it is parsed through [siginfo] to obtain slope changes, which are as well read as signals and added altogether. Finally, the distance obtained from [siginfo] serves as gain for the final signal. One player can be given a midi input to trigger randomized variables for all (or each) lorenz system(s), generating divergence among the randomized systems. Within this midi input, one note (MIDI Note 72) serves as on/off switch for the patch. A timer is provided on the screen. The whole work lasts at least 6 minutes, but the duration bends when there are CPU overloads. It is encouraged to \"surf\" in and out of those CPU overloads by simply changing the potentiometer to a value closer to 1, or to 0 in case there is a need to stop all iterations from the potentiometer involved.  Premiered by Proyecto[Red]Ensamble at Centro Cultural Graciela Carena, CBA, ARG, imageurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLTVlRc2dyNjBncVk, audiourl: https://drive.google.com/uc?id=0B-mcBjKPCfPLbXI2VXc1bmxrb1U, scoreurl: https://fdch.github.io/canon/, location: CC Graciela Carena, CBA, ARG, duration: 8", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/d9ney", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLTVlRc2dyNjBncVk"
+                }, 
+                "gsx$date": {
+                    "$t": "8/6/2016"
+                }, 
+                "gsx$performers": {
+                    "$t": "Proyecto[Red]Ensamble"
+                }, 
+                "gsx$audiourl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLbXI2VXc1bmxrb1U"
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/d9ney"
+                }, 
+                "gsx$videourl": {
+                    "$t": ""
+                }, 
+                "gsx$description": {
+                    "$t": "For 5 players with instruments and potentiometers"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "INOPERA"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "The Dimenna Center for Classical Music, NYC"
+                }, 
+                "title": {
+                    "$t": "6/21/2017 16:12:51", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "\u201cCommunity necessarily takes place in what Blanchot has called \u201cunworking\u201d, referring to that which, before or beyond the work, withdraws from the work, and which, no longer having to do either with production or with completion, encounters interruption, fragmentation, suspension. Community is made of the interruption of singularities, or of the suspension that singular beings are. Community is not the work of singular beings, nor can it claim them as it works, just as communication is not a work or even an operation of singular beings, for community is simply their being -their being suspended upon its limit. Communication is the unworking of work that is social, economic, technical, and institutional.\u201d</p><p>Jean-Luc Nancy, \u201cThe Inoperative Community\u201d (La communaut\u00e9 d\u00e9soeuvr\u00e9e, 1986), Ed. Peter Connor. Theory and History of Literature, Volume 76. University of Minnesota Press, Minneapolis and Oxford (1991).</p>\n<h6>Program Notes:</h6>\n<p>INOPERA this consists of a 40 minute long multimedia experiment involving is fixed and live video, electronics and performance. It questions not the role of the unwork of art and of the artist as real producer."
+                }, 
+                "gsx$duration": {
+                    "$t": "43"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLampKdzZpU2lvSUk"
+                }, 
+                "gsx$category": {
+                    "$t": "Multimedia, Quartet, Fixed media, Live electronics, Generative, Interactive, Instrumental, Graphic Score"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/21/2017 16:12:51"
+                }, 
+                "content": {
+                    "$t": "title: INOPERA, category: Multimedia, Quartet, Fixed media, Live electronics, Generative, Interactive, Instrumental, Graphic Score, performers: Loadbang, date: 4/20/2016, description: For Baritone, Trumpet (Bb), Tenor Trombone, Bass Clarinet, live video and electronics, programnotes: \u201cCommunity necessarily takes place in what Blanchot has called \u201cunworking\u201d, referring to that which, before or beyond the work, withdraws from the work, and which, no longer having to do either with production or with completion, encounters interruption, fragmentation, suspension. Community is made of the interruption of singularities, or of the suspension that singular beings are. Community is not the work of singular beings, nor can it claim them as it works, just as communication is not a work or even an operation of singular beings, for community is simply their being -their being suspended upon its limit. Communication is the unworking of work that is social, economic, technical, and institutional.\u201d</p><p>Jean-Luc Nancy, \u201cThe Inoperative Community\u201d (La communaut\u00e9 d\u00e9soeuvr\u00e9e, 1986), Ed. Peter Connor. Theory and History of Literature, Volume 76. University of Minnesota Press, Minneapolis and Oxford (1991).</p>\n<h6>Program Notes:</h6>\n<p>INOPERA this consists of a 40 minute long multimedia experiment involving is fixed and live video, electronics and performance. It questions not the role of the unwork of art and of the artist as real producer., imageurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLcTNkcnhrakFSbVE, videourl: https://player.vimeo.com/video/168692629?byline=0&portrait=0, scoreurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLampKdzZpU2lvSUk, location: The Dimenna Center for Classical Music, NYC, duration: 43", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/db1zf", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLcTNkcnhrakFSbVE"
+                }, 
+                "gsx$date": {
+                    "$t": "4/20/2016"
+                }, 
+                "gsx$performers": {
+                    "$t": "Loadbang"
+                }, 
+                "gsx$audiourl": {
+                    "$t": ""
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/db1zf"
+                }, 
+                "gsx$videourl": {
+                    "$t": "https://player.vimeo.com/video/168692629?byline=0&portrait=0"
+                }, 
+                "gsx$description": {
+                    "$t": "For Baritone, Trumpet (Bb), Tenor Trombone, Bass Clarinet, live video and electronics"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Ciudad Invertida 2015"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "B3CIM, CePIA, UNC, CBA"
+                }, 
+                "title": {
+                    "$t": "6/21/2017 15:45:01", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "Ciudad Invertida es una obra que busca generar preguntas sobre el azar y la interactividad en la multiplicidad de medios involucrados. De la misma forma que la electr\u00f3nica en vivo propaga m\u00faltiples extensiones de las acciones de los trombonistas, un algoritmo fue construido como generador de material y de forma durante la composici\u00f3n de la partitura. El video se proyecta sobre el cuerpo de los trombonistas y est\u00e1 controlado en vivo por la se\u00f1al de audio que ellos mismos producen. Las im\u00e1genes son abstracciones, tanto de los instrumentistas como de la ciudad de C\u00f3rdoba que rodea a esta sala."
+                }, 
+                "gsx$duration": {
+                    "$t": "12"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLWDA3YVBwb2h1TjQ"
+                }, 
+                "gsx$category": {
+                    "$t": "Multimedia, Duo, Trio, Live electronics, Generative, Interactive, Graphic Score"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/21/2017 15:45:01"
+                }, 
+                "content": {
+                    "$t": "title: Ciudad Invertida 2015, category: Multimedia, Duo, Trio, Live electronics, Generative, Interactive, Graphic Score, performers: Manuel Pastrana and Rocio Elizalde, date: 8/20/2015, description: For 2 trombones, live electronics and video, programnotes: Ciudad Invertida es una obra que busca generar preguntas sobre el azar y la interactividad en la multiplicidad de medios involucrados. De la misma forma que la electr\u00f3nica en vivo propaga m\u00faltiples extensiones de las acciones de los trombonistas, un algoritmo fue construido como generador de material y de forma durante la composici\u00f3n de la partitura. El video se proyecta sobre el cuerpo de los trombonistas y est\u00e1 controlado en vivo por la se\u00f1al de audio que ellos mismos producen. Las im\u00e1genes son abstracciones, tanto de los instrumentistas como de la ciudad de C\u00f3rdoba que rodea a esta sala., imageurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLYjRKX21rOWoxNDA, videourl: https://player.vimeo.com/video/137084409?byline=0&portrait=0, audiourl: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/220292896%3Fsecret_token%3Ds-t5oP1&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true, scoreurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLWDA3YVBwb2h1TjQ, location: B3CIM, CePIA, UNC, CBA, duration: 12", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/dcgjs", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLYjRKX21rOWoxNDA"
+                }, 
+                "gsx$date": {
+                    "$t": "8/20/2015"
+                }, 
+                "gsx$performers": {
+                    "$t": "Manuel Pastrana and Rocio Elizalde"
+                }, 
+                "gsx$audiourl": {
+                    "$t": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/220292896%3Fsecret_token%3Ds-t5oP1&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/dcgjs"
+                }, 
+                "gsx$videourl": {
+                    "$t": "https://player.vimeo.com/video/137084409?byline=0&portrait=0"
+                }, 
+                "gsx$description": {
+                    "$t": "For 2 trombones, live electronics and video"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Flesh"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "Waverly Project Festival, Clemente Soto Velez CC, NYC"
+                }, 
+                "title": {
+                    "$t": "6/21/2017 15:51:21", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "\"Flesh / Carne\" is the third and last part of the \"Songs for the Dead\" cycle. Time and activity within this cycle come from different expressions of randomness applied to different sets of sounds, resulting in similar stationary states. The nervous iridescence of the gestures contrasted by extremely slow processes result in a kind of formal stasis, a motion leading nowhere and anywhere at the same time, moving inwardly and outwardly but remaining in the same place. "
+                }, 
+                "gsx$duration": {
+                    "$t": "8"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLX04wVkxDSk1YNFk"
+                }, 
+                "gsx$category": {
+                    "$t": "Small Ensemble, Instrumental"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/21/2017 15:51:21"
+                }, 
+                "content": {
+                    "$t": "title: Flesh, category: Small Ensemble, Instrumental, performers: ensemble mise-en, date: 4/18/2015, description: For Bass Clarinet (Bb), Cello, Double Bass, Percussion and Piano, programnotes: \"Flesh / Carne\" is the third and last part of the \"Songs for the Dead\" cycle. Time and activity within this cycle come from different expressions of randomness applied to different sets of sounds, resulting in similar stationary states. The nervous iridescence of the gestures contrasted by extremely slow processes result in a kind of formal stasis, a motion leading nowhere and anywhere at the same time, moving inwardly and outwardly but remaining in the same place. , imageurl: https://raw.githubusercontent.com/fdch/fdch.github.io/master/img/ciudad_invertida_cba.png, videourl: https://player.vimeo.com/video/128082938?byline=0&portrait=0, audiourl: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/207390182&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true, scoreurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLX04wVkxDSk1YNFk, location: Waverly Project Festival, Clemente Soto Velez CC, NYC, duration: 8", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/ddv49", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://raw.githubusercontent.com/fdch/fdch.github.io/master/img/ciudad_invertida_cba.png"
+                }, 
+                "gsx$date": {
+                    "$t": "4/18/2015"
+                }, 
+                "gsx$performers": {
+                    "$t": "ensemble mise-en"
+                }, 
+                "gsx$audiourl": {
+                    "$t": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/207390182&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/ddv49"
+                }, 
+                "gsx$videourl": {
+                    "$t": "https://player.vimeo.com/video/128082938?byline=0&portrait=0"
+                }, 
+                "gsx$description": {
+                    "$t": "For Bass Clarinet (Bb), Cello, Double Bass, Percussion and Piano"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Bones"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "Clemente Soto Velez CC, NYC"
+                }, 
+                "title": {
+                    "$t": "6/21/2017 10:26:48", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "HUESOS / BONES is the first part of the \"Songs for the Dead\" cycle. Time and activity within this cycle come from different expressions of randomness applied to different sets of sounds, resulting in similar stationary states. Within this percussion piece, the players engage with sound mostly through the bones of their hands and arms, exploring the notion of space between surface and body, both of the player who is in contact with the sound source and of the listener who experiences sound through the air in the room."
+                }, 
+                "gsx$duration": {
+                    "$t": "18"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLcnk5ejlSeGJ2bzA"
+                }, 
+                "gsx$category": {
+                    "$t": "Quartet, Instrumental"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/21/2017 10:26:48"
+                }, 
+                "content": {
+                    "$t": "title: Bones, category: Quartet, Instrumental, performers: Iktus Percussion, date: 4/17/2015, description: For Percussion Quartet, programnotes: HUESOS / BONES is the first part of the \"Songs for the Dead\" cycle. Time and activity within this cycle come from different expressions of randomness applied to different sets of sounds, resulting in similar stationary states. Within this percussion piece, the players engage with sound mostly through the bones of their hands and arms, exploring the notion of space between surface and body, both of the player who is in contact with the sound source and of the listener who experiences sound through the air in the room., imageurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLd21leTlzZWltdjg, videourl: https://player.vimeo.com/video/135750747?byline=0&portrait=0, audiourl: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/207697806&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true, scoreurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLcnk5ejlSeGJ2bzA, location: Clemente Soto Velez CC, NYC, duration: 18", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/d415a", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLd21leTlzZWltdjg"
+                }, 
+                "gsx$date": {
+                    "$t": "4/17/2015"
+                }, 
+                "gsx$performers": {
+                    "$t": "Iktus Percussion"
+                }, 
+                "gsx$audiourl": {
+                    "$t": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/207697806&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/d415a"
+                }, 
+                "gsx$videourl": {
+                    "$t": "https://player.vimeo.com/video/135750747?byline=0&portrait=0"
+                }, 
+                "gsx$description": {
+                    "$t": "For Percussion Quartet"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Veins"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "NYU Waverly Labs, r.365, NYC"
+                }, 
+                "title": {
+                    "$t": "6/21/2017 17:36:09", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "Written in response to a commission by ensemble mise-en, VENAS / VEINS is the second part of the cycle titled \u201cSongs for the Dead\u201d. Time and activity within the cycle are drawn from different expressions of randomness applied to different sets of sounds, resulting in similar stationary states.The live video results from a probabilistic interaction with both the electronic and the live input from the performer\u2019s microphone, and it is built with 256 still images (hands, hair, and china ink drawings made by the composer) together with changing color mattes and a live capture of the performer."
+                }, 
+                "gsx$duration": {
+                    "$t": "10"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLZ1d3akc0R0g3Y2c"
+                }, 
+                "gsx$category": {
+                    "$t": "Multimedia, Solo, Live electronics, Interactive, Instrumental, Graphic Score"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/21/2017 17:36:09"
+                }, 
+                "content": {
+                    "$t": "title: Veins, category: Multimedia, Solo, Live electronics, Interactive, Instrumental, Graphic Score, performers: Adrian Sandi, Samuel Marques, date: 4/1/2015, description: For Bass Clarinet, live electronics and video, programnotes: Written in response to a commission by ensemble mise-en, VENAS / VEINS is the second part of the cycle titled \u201cSongs for the Dead\u201d. Time and activity within the cycle are drawn from different expressions of randomness applied to different sets of sounds, resulting in similar stationary states.The live video results from a probabilistic interaction with both the electronic and the live input from the performer\u2019s microphone, and it is built with 256 still images (hands, hair, and china ink drawings made by the composer) together with changing color mattes and a live capture of the performer., imageurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLSkFPS1hCZGlPU0U, videourl: https://player.vimeo.com/video/128763368?byline=0&portrait=0, audiourl: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/207383138&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;visual=true, scoreurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLZ1d3akc0R0g3Y2c, location: NYU Waverly Labs, r.365, NYC, duration: 10", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/d5fpr", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLSkFPS1hCZGlPU0U"
+                }, 
+                "gsx$date": {
+                    "$t": "4/1/2015"
+                }, 
+                "gsx$performers": {
+                    "$t": "Adrian Sandi, Samuel Marques"
+                }, 
+                "gsx$audiourl": {
+                    "$t": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/207383138&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;visual=true"
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/d5fpr"
+                }, 
+                "gsx$videourl": {
+                    "$t": "https://player.vimeo.com/video/128763368?byline=0&portrait=0"
+                }, 
+                "gsx$description": {
+                    "$t": "For Bass Clarinet, live electronics and video"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "The Impossible Line of the Horizon"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "Merkin Hall, NYC"
+                }, 
+                "title": {
+                    "$t": "6/21/2017 17:52:02", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "The mood of this music is contemplative, as if the floating, suspended time it suggests depicts an ongoing sunset in which clouds and different hues appear over an infinite horizon."
+                }, 
+                "gsx$duration": {
+                    "$t": "8"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLcGRacG1sZjlqcDg"
+                }, 
+                "gsx$category": {
+                    "$t": "Large Ensemble, Graphic Score"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/21/2017 17:52:02"
+                }, 
+                "content": {
+                    "$t": "title: The Impossible Line of the Horizon, category: Large Ensemble, Graphic Score, performers: Orchestra of the League of Composers, date: 5/5/2014, description: For Large Ensemble, programnotes: The mood of this music is contemplative, as if the floating, suspended time it suggests depicts an ongoing sunset in which clouds and different hues appear over an infinite horizon., imageurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLRzk1RmJqSzZZZmM, videourl: https://player.vimeo.com/video/103288412?byline=0&portrait=0, scoreurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLcGRacG1sZjlqcDg, location: Merkin Hall, NYC, duration: 8", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/d6ua4", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLRzk1RmJqSzZZZmM"
+                }, 
+                "gsx$date": {
+                    "$t": "5/5/2014"
+                }, 
+                "gsx$performers": {
+                    "$t": "Orchestra of the League of Composers"
+                }, 
+                "gsx$audiourl": {
+                    "$t": ""
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/d6ua4"
+                }, 
+                "gsx$videourl": {
+                    "$t": "https://player.vimeo.com/video/103288412?byline=0&portrait=0"
+                }, 
+                "gsx$description": {
+                    "$t": "For Large Ensemble"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Talita"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "NYU Wavelry Labs, r.220, NYC"
+                }, 
+                "title": {
+                    "$t": "6/21/2017 17:30:54", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "This work is about the mirroring space and the imaging of gestures in music and in ink. The audience is invited to contemplate subtle and abrupt movements in different topologies and to engage with the uncanny sensation of acoustic displacement. The title of this work comes from Julio Cortazar's Rayuela (Hopscotch). Talita and Traveler -Horacio Oliveira's friends- live in Buenos Aires and they constitute an image of Horacio and La Maga, who live in Paris. Throughout the novel, places and characters are misteriously interchangeable, just like the order in which you can read the chapters of the book, and the sequences and spatializations in\nthis composition."
+                }, 
+                "gsx$duration": {
+                    "$t": "14"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLX2ZkdEM3Y2NheEE"
+                }, 
+                "gsx$category": {
+                    "$t": "Multimedia, Quartet, Live electronics, Instrumental, Graphic Score"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/21/2017 17:30:54"
+                }, 
+                "content": {
+                    "$t": "title: Talita, category: Multimedia, Quartet, Live electronics, Instrumental, Graphic Score, performers: Momenta Quartet, date: 4/14/2014, description: For String Quartet, live electronics and video, programnotes: This work is about the mirroring space and the imaging of gestures in music and in ink. The audience is invited to contemplate subtle and abrupt movements in different topologies and to engage with the uncanny sensation of acoustic displacement. The title of this work comes from Julio Cortazar's Rayuela (Hopscotch). Talita and Traveler -Horacio Oliveira's friends- live in Buenos Aires and they constitute an image of Horacio and La Maga, who live in Paris. Throughout the novel, places and characters are misteriously interchangeable, just like the order in which you can read the chapters of the book, and the sequences and spatializations in\nthis composition., imageurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLMzJUNzRlVXZYbHM, videourl: https://player.vimeo.com/video/93202065?byline=0&portrait=0, scoreurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLX2ZkdEM3Y2NheEE, location: NYU Wavelry Labs, r.220, NYC, duration: 14", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/d88ul", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLMzJUNzRlVXZYbHM"
+                }, 
+                "gsx$date": {
+                    "$t": "4/14/2014"
+                }, 
+                "gsx$performers": {
+                    "$t": "Momenta Quartet"
+                }, 
+                "gsx$audiourl": {
+                    "$t": ""
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/d88ul"
+                }, 
+                "gsx$videourl": {
+                    "$t": "https://player.vimeo.com/video/93202065?byline=0&portrait=0"
+                }, 
+                "gsx$description": {
+                    "$t": "For String Quartet, live electronics and video"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Cloud Relations"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "Brooklyn, NY"
+                }, 
+                "title": {
+                    "$t": "6/22/2017 9:46:32", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "Violin 1 and 2 should be placed on the two extremes of the stage, with the Violoncello at the center and back of the stage. They remain seated. Viola should be able to sit behind the audience, with enough room to stand up and move around. Two speakers must be placed behind the violins, and the stereo must be audible. The room should remain dark the whole time, except for stopwatches that illuminate the players. If stopwatches have no light, there should be individual, portable lights facing each player. Relations last 15- 30 seconds long. The whole piece should last around 13 minutes. The players -and not the electroacoustic track- must end the piece. The overall dynamic of the piece is slow and quiet."
+                }, 
+                "gsx$duration": {
+                    "$t": "15"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLN2J4UGxMWVk5SWs"
+                }, 
+                "gsx$category": {
+                    "$t": "Multimedia, Quartet, Fixed media, Graphic Score"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/22/2017 9:46:32"
+                }, 
+                "content": {
+                    "$t": "title: Cloud Relations, category: Multimedia, Quartet, Fixed media, Graphic Score, performers: unperformed, date: 10/8/2013, description: For String Quartet and Tape, programnotes: Violin 1 and 2 should be placed on the two extremes of the stage, with the Violoncello at the center and back of the stage. They remain seated. Viola should be able to sit behind the audience, with enough room to stand up and move around. Two speakers must be placed behind the violins, and the stereo must be audible. The room should remain dark the whole time, except for stopwatches that illuminate the players. If stopwatches have no light, there should be individual, portable lights facing each player. Relations last 15- 30 seconds long. The whole piece should last around 13 minutes. The players -and not the electroacoustic track- must end the piece. The overall dynamic of the piece is slow and quiet., scoreurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLN2J4UGxMWVk5SWs, location: Brooklyn, NY, duration: 15", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/dkvya", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": ""
+                }, 
+                "gsx$date": {
+                    "$t": "10/8/2013"
+                }, 
+                "gsx$performers": {
+                    "$t": "unperformed"
+                }, 
+                "gsx$audiourl": {
+                    "$t": ""
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/dkvya"
+                }, 
+                "gsx$videourl": {
+                    "$t": ""
+                }, 
+                "gsx$description": {
+                    "$t": "For String Quartet and Tape"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "El Alargamiento de las Sombras"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "CePIA, UNC, CBA"
+                }, 
+                "title": {
+                    "$t": "6/21/2017 10:17:43", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "The ensemble reads from a Graphic Score and follows a stopwatch. Each staff is stretched in time in different proportions, and the music within mimics the play of shadows in the changing light of day."
+                }, 
+                "gsx$duration": {
+                    "$t": "11"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLb2Fpd1NFU3FkeVk"
+                }, 
+                "gsx$category": {
+                    "$t": "Small Ensemble, Graphic Score"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/21/2017 10:17:43"
+                }, 
+                "content": {
+                    "$t": "title: El Alargamiento de las Sombras, category: Small Ensemble, Graphic Score, performers: Projecto[Red]ensamble, date: 11/13/2012, description: For small ensemble, programnotes: The ensemble reads from a Graphic Score and follows a stopwatch. Each staff is stretched in time in different proportions, and the music within mimics the play of shadows in the changing light of day., imageurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLeDFWU2otcXB5QWc, videourl: https://www.youtube.com/embed/Pp7PDRTqS7Q?rel=0&amp;controls=0&amp;showinfo=0, audiourl: https://www.youtube.com/embed/cD3gfYrlpsc?rel=0&amp;controls=0&amp;showinfo=0, scoreurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLb2Fpd1NFU3FkeVk, location: CePIA, UNC, CBA, duration: 11", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/dmair", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLeDFWU2otcXB5QWc"
+                }, 
+                "gsx$date": {
+                    "$t": "11/13/2012"
+                }, 
+                "gsx$performers": {
+                    "$t": "Projecto[Red]ensamble"
+                }, 
+                "gsx$audiourl": {
+                    "$t": "https://www.youtube.com/embed/cD3gfYrlpsc?rel=0&amp;controls=0&amp;showinfo=0"
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/dmair"
+                }, 
+                "gsx$videourl": {
+                    "$t": "https://www.youtube.com/embed/Pp7PDRTqS7Q?rel=0&amp;controls=0&amp;showinfo=0"
+                }, 
+                "gsx$description": {
+                    "$t": "For small ensemble"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Aponia"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "Brooklyn, NY"
+                }, 
+                "title": {
+                    "$t": "6/22/2017 9:41:51", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "This work was never performed."
+                }, 
+                "gsx$duration": {
+                    "$t": "10"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLcTZEZHlHVWpoQ3M"
+                }, 
+                "gsx$category": {
+                    "$t": "Small Ensemble, Instrumental"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/22/2017 9:41:51"
+                }, 
+                "content": {
+                    "$t": "title: Aponia, category: Small Ensemble, Instrumental, performers: unperformed, date: 10/1/2012, description: For Choir and Piano, programnotes: This work was never performed., scoreurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLcTZEZHlHVWpoQ3M, location: Brooklyn, NY, duration: 10", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/dnp34", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": ""
+                }, 
+                "gsx$date": {
+                    "$t": "10/1/2012"
+                }, 
+                "gsx$performers": {
+                    "$t": "unperformed"
+                }, 
+                "gsx$audiourl": {
+                    "$t": ""
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/dnp34"
+                }, 
+                "gsx$videourl": {
+                    "$t": ""
+                }, 
+                "gsx$description": {
+                    "$t": "For Choir and Piano"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Memorias para Estar"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "B2CIM, CePIA, UNC, CBA"
+                }, 
+                "title": {
+                    "$t": "6/21/2017 17:12:22", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "Performed during B2CIM, the second biennial in Composition and Musical Research."
+                }, 
+                "gsx$duration": {
+                    "$t": "6"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": ""
+                }, 
+                "gsx$category": {
+                    "$t": "Solo, Instrumental, Graphic Score"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/21/2017 17:12:22"
+                }, 
+                "content": {
+                    "$t": "title: Memorias para Estar, category: Solo, Instrumental, Graphic Score, performers: Fede Camara Halac, date: 8/23/2012, description: For Solo Piano, programnotes: Performed during B2CIM, the second biennial in Composition and Musical Research., imageurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLOHNWeHZRZHBQVm8, audiourl: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/58235123&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true, location: B2CIM, CePIA, UNC, CBA, duration: 6", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/dp3nl", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLOHNWeHZRZHBQVm8"
+                }, 
+                "gsx$date": {
+                    "$t": "8/23/2012"
+                }, 
+                "gsx$performers": {
+                    "$t": "Fede Camara Halac"
+                }, 
+                "gsx$audiourl": {
+                    "$t": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/58235123&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/dp3nl"
+                }, 
+                "gsx$videourl": {
+                    "$t": ""
+                }, 
+                "gsx$description": {
+                    "$t": "For Solo Piano"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Piano, Bassoon and Guitar"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "B2CIM, CePIA, UNC, CBA"
+                }, 
+                "title": {
+                    "$t": "6/21/2017 17:17:41", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "Piano, Bassoon and Guitar is an intimate chamber work built on the sutileness of silence and quiet sounds. As the dynamics of the piece mantains pianissimo almost throughout the whole piece, a particular effect is generated. First, the sensation of letany occurs both physically -due to the low intensities of sounds- and aesthetically -the methaphor of a space that is not where the sound source actually is-. Secondly, this letany is balanced with another attitude the listener takes: he gets \"closer\" by listening harder. This utopic interaction (greek for: \"u\" -ther is no- \"topic\" -place-) is what interested me the most of the work, because the same thing occurs with time -the relation between its flow and its instants- and therefore, with life itself."
+                }, 
+                "gsx$duration": {
+                    "$t": "11"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLSW1DMzRDTjktcGM"
+                }, 
+                "gsx$category": {
+                    "$t": "Trio, Instrumental, Graphic Score"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/21/2017 17:17:41"
+                }, 
+                "content": {
+                    "$t": "title: Piano, Bassoon and Guitar, category: Trio, Instrumental, Graphic Score, performers: Pablo Behm, Anahi Vilte, Fede Camara Halac, date: 8/23/2012, description: For Piano, Bassoon and Guitar, programnotes: Piano, Bassoon and Guitar is an intimate chamber work built on the sutileness of silence and quiet sounds. As the dynamics of the piece mantains pianissimo almost throughout the whole piece, a particular effect is generated. First, the sensation of letany occurs both physically -due to the low intensities of sounds- and aesthetically -the methaphor of a space that is not where the sound source actually is-. Secondly, this letany is balanced with another attitude the listener takes: he gets \"closer\" by listening harder. This utopic interaction (greek for: \"u\" -ther is no- \"topic\" -place-) is what interested me the most of the work, because the same thing occurs with time -the relation between its flow and its instants- and therefore, with life itself., imageurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLVklwTG5aQkFBNmc, audiourl: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/58226301&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true, scoreurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLSW1DMzRDTjktcGM, location: B2CIM, CePIA, UNC, CBA, duration: 11", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/df9om", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLVklwTG5aQkFBNmc"
+                }, 
+                "gsx$date": {
+                    "$t": "8/23/2012"
+                }, 
+                "gsx$performers": {
+                    "$t": "Pablo Behm, Anahi Vilte, Fede Camara Halac"
+                }, 
+                "gsx$audiourl": {
+                    "$t": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/58226301&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/df9om"
+                }, 
+                "gsx$videourl": {
+                    "$t": ""
+                }, 
+                "gsx$description": {
+                    "$t": "For Piano, Bassoon and Guitar"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "A Time in Utopia"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "CePIA, UNC, CBA"
+                }, 
+                "title": {
+                    "$t": "6/21/2017 17:43:09", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "Conductor: Hernando Varela.\nPerformers: Juan Otero (Fl.) - Julia Mas (Ob.) - Romina Genari (Cl.) - Leandro Frana (B.Cl.) - Emilia Fadul (Fg.) - Romina Mendez (S) - Luciana Giron Sheridan (S) - Angi Laurin (A) - Ayelen Heredia (A) - Agustin Avarece (T) - Mariano Abrate (T) - Ariel Ramirez (B) - Federico Ragessi (B) - Emilio Chavesta (Pno.) - Diego Diaz (Perc.) - Javier Mazzucchelli (Vib.) - Mauricio Facundo Pregot (Vn. 1) - Florencia Veronese (Vn. 2) - Rosario Ocampo (Va.) - Eugenia Alvarez Caturelli (Vc.)"
+                }, 
+                "gsx$duration": {
+                    "$t": "18"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLbHdZeTlpSUl6Y1k"
+                }, 
+                "gsx$category": {
+                    "$t": "Large Ensemble, Choir"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/21/2017 17:43:09"
+                }, 
+                "content": {
+                    "$t": "title: A Time in Utopia, category: Large Ensemble, Choir, performers: Hernando Varela, date: 5/15/2012, description: For Choir and Large Ensemble, programnotes: Conductor: Hernando Varela.\nPerformers: Juan Otero (Fl.) - Julia Mas (Ob.) - Romina Genari (Cl.) - Leandro Frana (B.Cl.) - Emilia Fadul (Fg.) - Romina Mendez (S) - Luciana Giron Sheridan (S) - Angi Laurin (A) - Ayelen Heredia (A) - Agustin Avarece (T) - Mariano Abrate (T) - Ariel Ramirez (B) - Federico Ragessi (B) - Emilio Chavesta (Pno.) - Diego Diaz (Perc.) - Javier Mazzucchelli (Vib.) - Mauricio Facundo Pregot (Vn. 1) - Florencia Veronese (Vn. 2) - Rosario Ocampo (Va.) - Eugenia Alvarez Caturelli (Vc.), imageurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLSVpLUkNHcjhKSGM, audiourl: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/56810522&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true, scoreurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLbHdZeTlpSUl6Y1k, location: CePIA, UNC, CBA, duration: 18", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/dgo93", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLSVpLUkNHcjhKSGM"
+                }, 
+                "gsx$date": {
+                    "$t": "5/15/2012"
+                }, 
+                "gsx$performers": {
+                    "$t": "Hernando Varela"
+                }, 
+                "gsx$audiourl": {
+                    "$t": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/56810522&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/dgo93"
+                }, 
+                "gsx$videourl": {
+                    "$t": ""
+                }, 
+                "gsx$description": {
+                    "$t": "For Choir and Large Ensemble"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "11 Variations"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "CePIA, UNC, CBA"
+                }, 
+                "title": {
+                    "$t": "6/21/2017 9:58:47", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "Premiered by the composer at Auditorio CePIA, UNC, on December 2011, during the Final Concert of the Composition III class."
+                }, 
+                "gsx$duration": {
+                    "$t": "12"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLVHE5V1g5SEZraFU"
+                }, 
+                "gsx$category": {
+                    "$t": "Solo, Instrumental"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/21/2017 9:58:47"
+                }, 
+                "content": {
+                    "$t": "title: 11 Variations, category: Solo, Instrumental, performers: Fede Camara Halac, date: 12/11/2011, description: For Solo Piano, programnotes: Premiered by the composer at Auditorio CePIA, UNC, on December 2011, during the Final Concert of the Composition III class., imageurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLZHpGTjdEOUtyOFE, videourl: https://www.youtube.com/embed/dCJaP1PBixA?rel=0&amp;controls=0&amp;showinfo=0, audiourl: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/19599154&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true, scoreurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLVHE5V1g5SEZraFU, location: CePIA, UNC, CBA, duration: 12", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/di2tg", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLZHpGTjdEOUtyOFE"
+                }, 
+                "gsx$date": {
+                    "$t": "12/11/2011"
+                }, 
+                "gsx$performers": {
+                    "$t": "Fede Camara Halac"
+                }, 
+                "gsx$audiourl": {
+                    "$t": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/19599154&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/di2tg"
+                }, 
+                "gsx$videourl": {
+                    "$t": "https://www.youtube.com/embed/dCJaP1PBixA?rel=0&amp;controls=0&amp;showinfo=0"
+                }, 
+                "gsx$description": {
+                    "$t": "For Solo Piano"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Lagos"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "Pabellon Argentina, UNC, CBA"
+                }, 
+                "title": {
+                    "$t": "6/21/2017 16:33:21", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "Lakes is the first work composed within the frame of the Final Thesis of the Licentiate in Music Composition degree. It is the first draft of a stylistic search based on a conception of music as an acoustic experience of pleasure: music as a form of pleasure. The pleasure in Lakes emerges out of the contemplation of a lake, turns into an aesthetic experience and leaves its resonance in the depths of feeling, as a metaphor of the ephemeral movement of the soul."
+                }, 
+                "gsx$duration": {
+                    "$t": "12"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLWkdwWS04RHpYczA"
+                }, 
+                "gsx$category": {
+                    "$t": "Orchestra"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/21/2017 16:33:21"
+                }, 
+                "content": {
+                    "$t": "title: Lagos, category: Orchestra, performers: UNC Symphony Orchestra, date: 12/6/2011, description: For Large Orchestra, programnotes: Lakes is the first work composed within the frame of the Final Thesis of the Licentiate in Music Composition degree. It is the first draft of a stylistic search based on a conception of music as an acoustic experience of pleasure: music as a form of pleasure. The pleasure in Lakes emerges out of the contemplation of a lake, turns into an aesthetic experience and leaves its resonance in the depths of feeling, as a metaphor of the ephemeral movement of the soul., imageurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLQWVNbUxDcWRiTG8, audiourl: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/28407420&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true, scoreurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLWkdwWS04RHpYczA, location: Pabellon Argentina, UNC, CBA, duration: 12", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/djhdx", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLQWVNbUxDcWRiTG8"
+                }, 
+                "gsx$date": {
+                    "$t": "12/6/2011"
+                }, 
+                "gsx$performers": {
+                    "$t": "UNC Symphony Orchestra"
+                }, 
+                "gsx$audiourl": {
+                    "$t": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/28407420&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/djhdx"
+                }, 
+                "gsx$videourl": {
+                    "$t": ""
+                }, 
+                "gsx$description": {
+                    "$t": "For Large Orchestra"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Solo Viola"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "CEIBO, BsAs"
+                }, 
+                "title": {
+                    "$t": "6/22/2017 10:06:55", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "This work was composed during the Generac.ciones (CEIBO) festival in Buenos Aires, and it was never performed."
+                }, 
+                "gsx$duration": {
+                    "$t": "8"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLcGFCcjV4eUxfRHc"
+                }, 
+                "gsx$category": {
+                    "$t": "Solo, Instrumental, Graphic Score"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/22/2017 10:06:55"
+                }, 
+                "content": {
+                    "$t": "title: Solo Viola, category: Solo, Instrumental, Graphic Score, performers: unperformed, date: 7/11/2011, description: For Solo Viola, programnotes: This work was composed during the Generac.ciones (CEIBO) festival in Buenos Aires, and it was never performed., scoreurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLcGFCcjV4eUxfRHc, location: CEIBO, BsAs, duration: 8", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/dw4je", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": ""
+                }, 
+                "gsx$date": {
+                    "$t": "7/11/2011"
+                }, 
+                "gsx$performers": {
+                    "$t": "unperformed"
+                }, 
+                "gsx$audiourl": {
+                    "$t": ""
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/dw4je"
+                }, 
+                "gsx$videourl": {
+                    "$t": ""
+                }, 
+                "gsx$description": {
+                    "$t": "For Solo Viola"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Instantaneas"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "CePIA, UNC, CBA"
+                }, 
+                "title": {
+                    "$t": "6/21/2017 16:25:48", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "The title references the instantaneous gestures upon which this music was built. Originating from several tiny composition exercises from Composition III in UNC, \"Instantaneas\" developed into a music form composed by distinguishable moments in time. These moments were arranged together in such a way that the sensation of time begins to stretch more and more culminating in a moment of stasis, repetition and fusion of sound, material and time."
+                }, 
+                "gsx$duration": {
+                    "$t": "7"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLYUd3RXVlcFlyZ1U"
+                }, 
+                "gsx$category": {
+                    "$t": "Small Ensemble, Instrumental"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/21/2017 16:25:48"
+                }, 
+                "content": {
+                    "$t": "title: Instantaneas, category: Small Ensemble, Instrumental, performers: Proyecto[Red]Ensamble, date: 11/12/2010, description: For Soprano and Ensemble, programnotes: The title references the instantaneous gestures upon which this music was built. Originating from several tiny composition exercises from Composition III in UNC, \"Instantaneas\" developed into a music form composed by distinguishable moments in time. These moments were arranged together in such a way that the sensation of time begins to stretch more and more culminating in a moment of stasis, repetition and fusion of sound, material and time., imageurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLLVZMTy1mM0FrWXM, audiourl: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/19599153&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true, scoreurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLYUd3RXVlcFlyZ1U, location: CePIA, UNC, CBA, duration: 7", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/dxj3v", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLLVZMTy1mM0FrWXM"
+                }, 
+                "gsx$date": {
+                    "$t": "11/12/2010"
+                }, 
+                "gsx$performers": {
+                    "$t": "Proyecto[Red]Ensamble"
+                }, 
+                "gsx$audiourl": {
+                    "$t": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/19599153&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/dxj3v"
+                }, 
+                "gsx$videourl": {
+                    "$t": ""
+                }, 
+                "gsx$description": {
+                    "$t": "For Soprano and Ensemble"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Three to Nine from Slap!"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "CePIA, UNC, CBA"
+                }, 
+                "title": {
+                    "$t": "6/22/2017 10:31:32", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "Concierto final de la C\u00e1tedra de Composici\u00f3n II en la Escuela de Artes de la Facultad de Filosof\u00eda y Humanidades, Universidad Nacional de C\u00f3rdoba.\n<br>\nEl Ensemble de Vientos de La Colmena interpreta bajo la direcci\u00f3n de Nicol\u00e1s Mazza una obra de Federico C\u00e1mara Halac.\n<br>\nLa obra es resultado de un encargo del director Nicol\u00e1s Mazza, de realizar una adaptaci\u00f3n para su ensemble de la Obra para Quinteto de Ca\u00f1as Slap!\n<br>\n</p><h6>Ensemble:</h6><p>\nFlauta: Eva Arce - Sergio Arg\u00fcello<br>\nTrompeta: Leonardo Ricciardino - Germ\u00e1n Reccitelli - Emiliano Marino <br>\nSaxo Alto: Santiago Serena - Gabriela Grad<br>\nSaxo Tenor: Mariano Campanella - Rodrgio Lescano<br>\n<br>\nDirector: Nicol\u00e1s Mazza"
+                }, 
+                "gsx$duration": {
+                    "$t": "6"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": ""
+                }, 
+                "gsx$category": {
+                    "$t": "Small Ensemble, Instrumental, Graphic Score"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/22/2017 10:31:32"
+                }, 
+                "content": {
+                    "$t": "title: Three to Nine from Slap!, category: Small Ensemble, Instrumental, Graphic Score, performers: Nicolas Mazza, date: 11/12/2009, description: For Wind Ensemble, programnotes: Concierto final de la C\u00e1tedra de Composici\u00f3n II en la Escuela de Artes de la Facultad de Filosof\u00eda y Humanidades, Universidad Nacional de C\u00f3rdoba.\n<br>\nEl Ensemble de Vientos de La Colmena interpreta bajo la direcci\u00f3n de Nicol\u00e1s Mazza una obra de Federico C\u00e1mara Halac.\n<br>\nLa obra es resultado de un encargo del director Nicol\u00e1s Mazza, de realizar una adaptaci\u00f3n para su ensemble de la Obra para Quinteto de Ca\u00f1as Slap!\n<br>\n</p><h6>Ensemble:</h6><p>\nFlauta: Eva Arce - Sergio Arg\u00fcello<br>\nTrompeta: Leonardo Ricciardino - Germ\u00e1n Reccitelli - Emiliano Marino <br>\nSaxo Alto: Santiago Serena - Gabriela Grad<br>\nSaxo Tenor: Mariano Campanella - Rodrgio Lescano<br>\n<br>\nDirector: Nicol\u00e1s Mazza, imageurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLbWU1VGFYUzZHTmM, videourl: https://www.youtube.com/embed/N6K2GnY94h0?rel=0&amp;controls=0&amp;showinfo=0, location: CePIA, UNC, CBA, duration: 6", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/dyxo8", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLbWU1VGFYUzZHTmM"
+                }, 
+                "gsx$date": {
+                    "$t": "11/12/2009"
+                }, 
+                "gsx$performers": {
+                    "$t": "Nicolas Mazza"
+                }, 
+                "gsx$audiourl": {
+                    "$t": ""
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/dyxo8"
+                }, 
+                "gsx$videourl": {
+                    "$t": "https://www.youtube.com/embed/N6K2GnY94h0?rel=0&amp;controls=0&amp;showinfo=0"
+                }, 
+                "gsx$description": {
+                    "$t": "For Wind Ensemble"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Three for Slap!"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "CePIA, UNC, CBA"
+                }, 
+                "title": {
+                    "$t": "6/22/2017 10:25:59", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "This piece was written during Quinteto Slap!'s residency at UNC in August 2009. It was performed later that year in the Sala Jorge Diaz, CePIA and again the following year, during the 1st Biennial in Music Composition and Education. "
+                }, 
+                "gsx$duration": {
+                    "$t": "5"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLUlJDa0lEak5jZUE"
+                }, 
+                "gsx$category": {
+                    "$t": "Small Ensemble, Instrumental, Graphic Score"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/22/2017 10:25:59"
+                }, 
+                "content": {
+                    "$t": "title: Three for Slap!, category: Small Ensemble, Instrumental, Graphic Score, performers: Quinteto Slap!, date: 8/10/2009, description: For Reed Quintet, programnotes: This piece was written during Quinteto Slap!'s residency at UNC in August 2009. It was performed later that year in the Sala Jorge Diaz, CePIA and again the following year, during the 1st Biennial in Music Composition and Education. , imageurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLUkZjbDlrT2llU1E, videourl: https://www.youtube.com/embed/p3faFllUXGI?rel=0&amp;controls=0&amp;showinfo=0, audiourl: https://drive.google.com/uc?id=0B-mcBjKPCfPLRG5WMHpLQW5FQUk, scoreurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLUlJDa0lEak5jZUE, location: CePIA, UNC, CBA, duration: 5", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/e0c8p", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLUkZjbDlrT2llU1E"
+                }, 
+                "gsx$date": {
+                    "$t": "8/10/2009"
+                }, 
+                "gsx$performers": {
+                    "$t": "Quinteto Slap!"
+                }, 
+                "gsx$audiourl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLRG5WMHpLQW5FQUk"
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/e0c8p"
+                }, 
+                "gsx$videourl": {
+                    "$t": "https://www.youtube.com/embed/p3faFllUXGI?rel=0&amp;controls=0&amp;showinfo=0"
+                }, 
+                "gsx$description": {
+                    "$t": "For Reed Quintet"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "She dwelt among the untrodden ways"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "CePIA, UNC, CBA"
+                }, 
+                "title": {
+                    "$t": "6/22/2017 10:04:11", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "Song written to a poem by William Wordsworth:  <br>\nShe dwelt among the untrodden ways <br>\nBeside the springs of Dove,  <br>\nA Maid whom there were none to praise <br> \nAnd very few to love:  <br>\n <br>\nA violet by a mossy stone  <br>\nHalf hidden from the eye!  <br>\n\u2014Fair as a star, when only one  <br>\nIs shining in the sky.  <br>\n <br>\nShe lived unknown, and few could know  <br>\nWhen Lucy ceased to be;  <br>\nBut she is in her grave, and, oh,  <br>\nThe difference to me!  <br>"
+                }, 
+                "gsx$duration": {
+                    "$t": "3"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLWmxtdU9BLXc1TkE"
+                }, 
+                "gsx$category": {
+                    "$t": "Duo"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/22/2017 10:04:11"
+                }, 
+                "content": {
+                    "$t": "title: She dwelt among the untrodden ways, category: Duo, performers: Fede and Flor Camara Halac, date: 12/8/2008, description: For Voice and Piano, programnotes: Song written to a poem by William Wordsworth:  <br>\nShe dwelt among the untrodden ways <br>\nBeside the springs of Dove,  <br>\nA Maid whom there were none to praise <br> \nAnd very few to love:  <br>\n <br>\nA violet by a mossy stone  <br>\nHalf hidden from the eye!  <br>\n\u2014Fair as a star, when only one  <br>\nIs shining in the sky.  <br>\n <br>\nShe lived unknown, and few could know  <br>\nWhen Lucy ceased to be;  <br>\nBut she is in her grave, and, oh,  <br>\nThe difference to me!  <br>, imageurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLeWEwb01IRG5kc1k, videourl: https://www.youtube.com/embed/Sfs8sP8vnqE, audiourl: https://drive.google.com/uc?id=0B-mcBjKPCfPLV25rS0NrZ1h0Uzg, scoreurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLWmxtdU9BLXc1TkE, location: CePIA, UNC, CBA, duration: 3", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/dqi9q", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLeWEwb01IRG5kc1k"
+                }, 
+                "gsx$date": {
+                    "$t": "12/8/2008"
+                }, 
+                "gsx$performers": {
+                    "$t": "Fede and Flor Camara Halac"
+                }, 
+                "gsx$audiourl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLV25rS0NrZ1h0Uzg"
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/dqi9q"
+                }, 
+                "gsx$videourl": {
+                    "$t": "https://www.youtube.com/embed/Sfs8sP8vnqE"
+                }, 
+                "gsx$description": {
+                    "$t": "For Voice and Piano"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Sixty"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "CePIA, UNC, CBA"
+                }, 
+                "title": {
+                    "$t": "6/22/2017 10:13:04", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "Composed during Composition II at UNC, this work stems from the circular motion of an imaginary clock that as it gets closer to the next minute, it never seems to reach it and so time begins to slow down."
+                }, 
+                "gsx$duration": {
+                    "$t": "2"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": ""
+                }, 
+                "gsx$category": {
+                    "$t": "Solo, Instrumental"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/22/2017 10:13:04"
+                }, 
+                "content": {
+                    "$t": "title: Sixty, category: Solo, Instrumental, performers: Gisele Tobares, date: 12/8/2008, description: For Solo Piano, programnotes: Composed during Composition II at UNC, this work stems from the circular motion of an imaginary clock that as it gets closer to the next minute, it never seems to reach it and so time begins to slow down., imageurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLT2lYUk1sRWNYVGM, audiourl: https://drive.google.com/uc?id=0B-mcBjKPCfPLLWM1MG51RUdTOVE, location: CePIA, UNC, CBA, duration: 2", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/drwu7", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLT2lYUk1sRWNYVGM"
+                }, 
+                "gsx$date": {
+                    "$t": "12/8/2008"
+                }, 
+                "gsx$performers": {
+                    "$t": "Gisele Tobares"
+                }, 
+                "gsx$audiourl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLLWM1MG51RUdTOVE"
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/drwu7"
+                }, 
+                "gsx$videourl": {
+                    "$t": ""
+                }, 
+                "gsx$description": {
+                    "$t": "For Solo Piano"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Movil-in-Movil"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "CePIA, UNC; CCEC; CBA"
+                }, 
+                "title": {
+                    "$t": "6/21/2017 17:07:16", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "Versi\u00f3n estrenada por los percusionistas Javier Mu\u00f1oz y Javier Mazzucchelli, bajo la direcci\u00f3n del propio compositor, en Noviembre 2010, con puesta en escena de Luisina Couto. Auditorio CePIA UNC, C\u00f3rdoba, Argentina.</p><p>Versi\u00f3n grabada en estudios \"Para\u00edso Music Pro\", por cortes\u00eda de Jorge Nazar, diciembre 2010: <a href=\"https://www.youtube.com/embed/Y2fR1F32_Og?rel=0&amp;controls=0&amp;showinfo=0\" target=\"_blank\">Click Here</a>  </p><p>Versi\u00f3n tocada por los percusionistas Javier Mu\u00f1oz y Javier Mazzucchelli, bajo la direcci\u00f3n de Hernando Varela, en el Centro Cultural Espa\u00f1a Cordoba.</p><p>Version completa realizada la Sala Luis Tejeda del Teatro San Martin, CBA: <a href=\"https://www.youtube.com/embed/2L1T8fgMOB4?rel=0&amp;controls=0&amp;showinfo=0\" target=\"_blank\">Click Here</a>"
+                }, 
+                "gsx$duration": {
+                    "$t": "8"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLNm9NZ2JHN05QMmM"
+                }, 
+                "gsx$category": {
+                    "$t": "Multimedia, Trio, Fixed media"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/21/2017 17:07:16"
+                }, 
+                "content": {
+                    "$t": "title: Movil-in-Movil, category: Multimedia, Trio, Fixed media, performers: Ensamble Buenas Salenas, date: 11/4/2008, description: For Percussion Duo, Piano and Electronics, programnotes: Versi\u00f3n estrenada por los percusionistas Javier Mu\u00f1oz y Javier Mazzucchelli, bajo la direcci\u00f3n del propio compositor, en Noviembre 2010, con puesta en escena de Luisina Couto. Auditorio CePIA UNC, C\u00f3rdoba, Argentina.</p><p>Versi\u00f3n grabada en estudios \"Para\u00edso Music Pro\", por cortes\u00eda de Jorge Nazar, diciembre 2010: <a href=\"https://www.youtube.com/embed/Y2fR1F32_Og?rel=0&amp;controls=0&amp;showinfo=0\" target=\"_blank\">Click Here</a>  </p><p>Versi\u00f3n tocada por los percusionistas Javier Mu\u00f1oz y Javier Mazzucchelli, bajo la direcci\u00f3n de Hernando Varela, en el Centro Cultural Espa\u00f1a Cordoba.</p><p>Version completa realizada la Sala Luis Tejeda del Teatro San Martin, CBA: <a href=\"https://www.youtube.com/embed/2L1T8fgMOB4?rel=0&amp;controls=0&amp;showinfo=0\" target=\"_blank\">Click Here</a>, imageurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLck9fY2UwZ1dBWUk, videourl: https://www.youtube.com/embed/kR0icfCNHYw?rel=0&amp;controls=0&amp;showinfo=0, audiourl: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/19677660&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=truehttps://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/19677660&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=truehttps://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/19677660&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true, scoreurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLNm9NZ2JHN05QMmM, location: CePIA, UNC; CCEC; CBA, duration: 8", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/dtbek", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLck9fY2UwZ1dBWUk"
+                }, 
+                "gsx$date": {
+                    "$t": "11/4/2008"
+                }, 
+                "gsx$performers": {
+                    "$t": "Ensamble Buenas Salenas"
+                }, 
+                "gsx$audiourl": {
+                    "$t": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/19677660&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=truehttps://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/19677660&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=truehttps://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/19677660&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/dtbek"
+                }, 
+                "gsx$videourl": {
+                    "$t": "https://www.youtube.com/embed/kR0icfCNHYw?rel=0&amp;controls=0&amp;showinfo=0"
+                }, 
+                "gsx$description": {
+                    "$t": "For Percussion Duo, Piano and Electronics"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Canci\u00f3n de Junio"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "Pabellon Mexico, UNC, CBA"
+                }, 
+                "title": {
+                    "$t": "6/22/2017 9:44:13", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "This study for choir was performed in a recording session at Pabell\u00f3n M\u00e9xico, Universidad Nacional de C\u00f3rdoba"
+                }, 
+                "gsx$duration": {
+                    "$t": "4"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": " https://drive.google.com/uc?id=0B-mcBjKPCfPLbXl3ajEwaWhocFE"
+                }, 
+                "gsx$category": {
+                    "$t": "Choir"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/22/2017 9:44:13"
+                }, 
+                "content": {
+                    "$t": "title: Canci\u00f3n de Junio, category: Choir, performers: Rehearsed, date: 10/7/2008, description: For SATB Choir, programnotes: This study for choir was performed in a recording session at Pabell\u00f3n M\u00e9xico, Universidad Nacional de C\u00f3rdoba, scoreurl:  https://drive.google.com/uc?id=0B-mcBjKPCfPLbXl3ajEwaWhocFE, location: Pabellon Mexico, UNC, CBA, duration: 4", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/dupz1", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": ""
+                }, 
+                "gsx$date": {
+                    "$t": "10/7/2008"
+                }, 
+                "gsx$performers": {
+                    "$t": "Rehearsed"
+                }, 
+                "gsx$audiourl": {
+                    "$t": ""
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/dupz1"
+                }, 
+                "gsx$videourl": {
+                    "$t": ""
+                }, 
+                "gsx$description": {
+                    "$t": "For SATB Choir"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "2 Movements"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "Pabellon Mexico, UNC, CBA"
+                }, 
+                "title": {
+                    "$t": "6/21/2017 9:55:09", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "This study for string quartet was performed in a recording session at Pabell\u00f3n M\u00e9xico, Universidad Nacional de C\u00f3rdoba"
+                }, 
+                "gsx$duration": {
+                    "$t": "7"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLWDBEZ0RGYW5Lenc"
+                }, 
+                "gsx$category": {
+                    "$t": "Quartet, Instrumental"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/21/2017 9:55:09"
+                }, 
+                "content": {
+                    "$t": "title: 2 Movements, category: Quartet, Instrumental, performers: String Quartet, date: 9/3/2008, description: For String Quartet, programnotes: This study for string quartet was performed in a recording session at Pabell\u00f3n M\u00e9xico, Universidad Nacional de C\u00f3rdoba, scoreurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLWDBEZ0RGYW5Lenc, location: Pabellon Mexico, UNC, CBA, duration: 7", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/e7d2q", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": ""
+                }, 
+                "gsx$date": {
+                    "$t": "9/3/2008"
+                }, 
+                "gsx$performers": {
+                    "$t": "String Quartet"
+                }, 
+                "gsx$audiourl": {
+                    "$t": ""
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/e7d2q"
+                }, 
+                "gsx$videourl": {
+                    "$t": ""
+                }, 
+                "gsx$description": {
+                    "$t": "For String Quartet"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Suite"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "CePIA, UNC, CBA"
+                }, 
+                "title": {
+                    "$t": "6/22/2017 10:14:37", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "Composed during Introduction to Composition II."
+                }, 
+                "gsx$duration": {
+                    "$t": "10"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": ""
+                }, 
+                "gsx$category": {
+                    "$t": "Duo"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/22/2017 10:14:37"
+                }, 
+                "content": {
+                    "$t": "title: Suite, category: Duo, performers: Patricio Franciulli and Fede Camara Halac, date: 12/7/2007, description: For Violin and Piano, programnotes: Composed during Introduction to Composition II., videourl: https://www.youtube.com/embed/sIItzWoQyAg, location: CePIA, UNC, CBA, duration: 10", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/e8rn7", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": ""
+                }, 
+                "gsx$date": {
+                    "$t": "12/7/2007"
+                }, 
+                "gsx$performers": {
+                    "$t": "Patricio Franciulli and Fede Camara Halac"
+                }, 
+                "gsx$audiourl": {
+                    "$t": ""
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/e8rn7"
+                }, 
+                "gsx$videourl": {
+                    "$t": "https://www.youtube.com/embed/sIItzWoQyAg"
+                }, 
+                "gsx$description": {
+                    "$t": "For Violin and Piano"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Keys"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "Pabellon Mexico, UNC, CBA"
+                }, 
+                "title": {
+                    "$t": "6/22/2017 9:48:41", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "Performance by Juan Otero (Fl.) during a recording session at Pabell\u00f3n M\u00e9xico, Universidad Nacional de C\u00f3rdoba"
+                }, 
+                "gsx$duration": {
+                    "$t": "3"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": ""
+                }, 
+                "gsx$category": {
+                    "$t": "Duo, Instrumental"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/22/2017 9:48:41"
+                }, 
+                "content": {
+                    "$t": "title: Keys, category: Duo, Instrumental, performers: Juan Otero, Fede Camara Halac, date: 8/20/2007, description: For Flute and Prepared Piano, programnotes: Performance by Juan Otero (Fl.) during a recording session at Pabell\u00f3n M\u00e9xico, Universidad Nacional de C\u00f3rdoba, audiourl:  https://drive.google.com/uc?id=0B-mcBjKPCfPLcUU4QzFsajUwV2M, location: Pabellon Mexico, UNC, CBA, duration: 3", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/ea67k", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": ""
+                }, 
+                "gsx$date": {
+                    "$t": "8/20/2007"
+                }, 
+                "gsx$performers": {
+                    "$t": "Juan Otero, Fede Camara Halac"
+                }, 
+                "gsx$audiourl": {
+                    "$t": " https://drive.google.com/uc?id=0B-mcBjKPCfPLcUU4QzFsajUwV2M"
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/ea67k"
+                }, 
+                "gsx$videourl": {
+                    "$t": ""
+                }, 
+                "gsx$description": {
+                    "$t": "For Flute and Prepared Piano"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Meditation"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "CePIA, UNC, CBA"
+                }, 
+                "title": {
+                    "$t": "6/22/2017 9:56:08", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "</p> <video autoplayfullscreen=0 loop=1 muted><source src=\"https://drive.google.com/uc?id=0B-mcBjKPCfPLRGxyMGxvR0RncEU\" type=\"video/mp4\"></video><audio controls class=audio-object>\n<source src=\"https://drive.google.com/uc?id=0B-mcBjKPCfPLYmFTZHA5YlR1RVE\" type=\"audio/mpeg\"></audio> <p>This work was composed during the Taller Experimental II course at UNC."
+                }, 
+                "gsx$duration": {
+                    "$t": "3"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLSXkwcmQtZ3o0bE0"
+                }, 
+                "gsx$category": {
+                    "$t": "Solo"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/22/2017 9:56:08"
+                }, 
+                "content": {
+                    "$t": "title: Meditation, category: Solo, performers: Maria de los Angeles Triay, date: 8/10/2007, description: For Mezzo-Soprano, programnotes: </p> <video autoplayfullscreen=0 loop=1 muted><source src=\"https://drive.google.com/uc?id=0B-mcBjKPCfPLRGxyMGxvR0RncEU\" type=\"video/mp4\"></video><audio controls class=audio-object>\n<source src=\"https://drive.google.com/uc?id=0B-mcBjKPCfPLYmFTZHA5YlR1RVE\" type=\"audio/mpeg\"></audio> <p>This work was composed during the Taller Experimental II course at UNC., scoreurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLSXkwcmQtZ3o0bE0, location: CePIA, UNC, CBA, duration: 3", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/ebks1", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": ""
+                }, 
+                "gsx$date": {
+                    "$t": "8/10/2007"
+                }, 
+                "gsx$performers": {
+                    "$t": "Maria de los Angeles Triay"
+                }, 
+                "gsx$audiourl": {
+                    "$t": ""
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/ebks1"
+                }, 
+                "gsx$videourl": {
+                    "$t": ""
+                }, 
+                "gsx$description": {
+                    "$t": "For Mezzo-Soprano"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Tensions"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "Cordoba, Argentina"
+                }, 
+                "title": {
+                    "$t": "6/22/2017 10:16:11", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "This work was never performed."
+                }, 
+                "gsx$duration": {
+                    "$t": ""
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLcFdSdThMUWtlQUE"
+                }, 
+                "gsx$category": {
+                    "$t": "Solo"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/22/2017 10:16:11"
+                }, 
+                "content": {
+                    "$t": "title: Tensions, category: Solo, performers: unperformed, date: 7/8/2007, description: for Solo Percussion, programnotes: This work was never performed., scoreurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLcFdSdThMUWtlQUE, location: Cordoba, Argentina", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/e1qt2", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": ""
+                }, 
+                "gsx$date": {
+                    "$t": "7/8/2007"
+                }, 
+                "gsx$performers": {
+                    "$t": "unperformed"
+                }, 
+                "gsx$audiourl": {
+                    "$t": ""
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/e1qt2"
+                }, 
+                "gsx$videourl": {
+                    "$t": ""
+                }, 
+                "gsx$description": {
+                    "$t": "for Solo Percussion"
+                }
+            }, 
+            {
+                "category": [
+                    {
+                        "term": "http://schemas.google.com/spreadsheets/2006#list", 
+                        "scheme": "http://schemas.google.com/spreadsheets/2006"
+                    }
+                ], 
+                "gsx$title": {
+                    "$t": "Golden Fog"
+                }, 
+                "updated": {
+                    "$t": "2019-02-08T10:22:07.490Z"
+                }, 
+                "gsx$location": {
+                    "$t": "Cordoba, Argentina"
+                }, 
+                "title": {
+                    "$t": "6/22/2017 9:58:24", 
+                    "type": "text"
+                }, 
+                "gsx$programnotes": {
+                    "$t": "This work was never performed."
+                }, 
+                "gsx$duration": {
+                    "$t": "12"
+                }, 
+                "gsx$scoreurl": {
+                    "$t": "https://drive.google.com/uc?id=0B-mcBjKPCfPLWlU3OEdhem1udzA"
+                }, 
+                "gsx$category": {
+                    "$t": "Small Ensemble, Instrumental"
+                }, 
+                "gsx$timestamp": {
+                    "$t": "6/22/2017 9:58:24"
+                }, 
+                "content": {
+                    "$t": "title: Golden Fog, category: Small Ensemble, Instrumental, performers: unperformed, date: 2/1/2007, description: For Soprano and Ensemble, based on texts from \"\u00c1rbol de Diana\", by Alejandra Pizarnik, programnotes: This work was never performed., scoreurl: https://drive.google.com/uc?id=0B-mcBjKPCfPLWlU3OEdhem1udzA, location: Cordoba, Argentina, duration: 12", 
+                    "type": "text"
+                }, 
+                "link": [
+                    {
+                        "href": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/e35dj", 
+                        "type": "application/atom+xml", 
+                        "rel": "self"
+                    }
+                ], 
+                "gsx$imageurl": {
+                    "$t": ""
+                }, 
+                "gsx$date": {
+                    "$t": "2/1/2007"
+                }, 
+                "gsx$performers": {
+                    "$t": "unperformed"
+                }, 
+                "gsx$audiourl": {
+                    "$t": ""
+                }, 
+                "id": {
+                    "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values/e35dj"
+                }, 
+                "gsx$videourl": {
+                    "$t": ""
+                }, 
+                "gsx$description": {
+                    "$t": "For Soprano and Ensemble, based on texts from \"\u00c1rbol de Diana\", by Alejandra Pizarnik"
+                }
+            }
+        ], 
+        "openSearch$totalResults": {
+            "$t": "45"
+        }, 
+        "id": {
+            "$t": "https://spreadsheets.google.com/feeds/list/1e5dh1sZX1QuFFioC-1ofcPIPhwU9i-lvUzOzn4_3SLQ/1/public/values"
+        }
+    }, 
+    "version": "1.0", 
+    "encoding": "UTF-8"
+}
