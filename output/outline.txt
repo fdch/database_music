@@ -8,33 +8,33 @@ Database Art 0
 		Digital Convergence 553 44%
 		Bodiless Information 642 51%
 		Embodying Databasing 580 46%
-		Filtering and Framing 438 35%
+		Filtering and Framing 434 34%
 		Interlude: An Embodied Database 1908 152%
 		Closing Remarks 354 28%
 	Databasing and the History of Databases 0
 		Databasing: the performance of the database 2059 82%
 		A Database Tree 926 37%
 		The Realm of Data Structures 542 21%
-		A Brief History of Database Models 2411 96%
+		A Brief History of Database Models 2409 96%
 	Databasing Sound: Applications of databases in sound 351
 		Music Information Retrieval 934 37%
 		Sonification 2040 81%
-		Computer Music 5389 215%
+		Computer Music 5385 215%
 		Intersections 3907 156%
 Database Aesthetics 148
 	Listening Databases 0
 		Interlude: I am sitting in a room... 222 11%
-		The Resonance of a Return 1542 82%
+		The Resonance of a Return 1506 80%
 		Resonant Network 1479 78%
 		The Unworking Network 2107 112%
 	Databases and Memory 0
 		The Effraction of the Trace 1791 71%
-		The Archontic Principle 1768 70%
+		The Archontic Principle 1896 75%
 		The Spectral Database 1627 65%
 	Performativity of Databases 0
 		Gendered Database 1368 72%
 		Towards the Limits 435 23%
-		Contingencies of Style 2064 110%
+		Contingencies of Style 2059 109%
 		A Specter of Authority 1271 67%
 	Rethinking Composition 0
 		Interlude: Hyperbolic Reactions 1207 112%
