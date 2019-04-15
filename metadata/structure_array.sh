@@ -29,20 +29,20 @@ STRUCT=(
 "subsection" content/part-3/section-4/sub/lucierlude.tex "Interlude: I Am Sitting In A Room\Dots" 222
 "subsection" content/part-3/section-4/sub/resonance_of_a_return.tex "The Resonance Of A Return" 1542
 "subsection" content/part-3/section-4/sub/network.tex "Resonant Network" 1479
-"subsection" content/part-3/section-4/sub/inoperativity.tex "The Unworking Network" 2108
+"subsection" content/part-3/section-4/sub/inoperativity.tex "The Unworking Network" 2107
 "section" content/part-3/section-5/sub/abstract.tex "Databases And Memory" 0
 "subsection" content/part-3/section-5/sub/human.tex "The Effraction Of The Trace" 1791
-"subsection" content/part-3/section-5/sub/archontic.tex "The Archontic Principle" 1768
+"subsection" content/part-3/section-5/sub/archontic.tex "The Archontic Principle" 1769
 "subsection" content/part-3/section-5/sub/spectrality.tex "The Spectral Database" 1627
 "section" content/part-3/section-6/sub/abstract.tex "Performativity Of Databases" 0
-"subsection" content/part-3/section-6/sub/gender.tex "Gendered Database" 1370
-"subsection" content/part-3/section-6/sub/limits.tex "Towards The Limits" 443
+"subsection" content/part-3/section-6/sub/gender.tex "Gendered Database" 1369
+"subsection" content/part-3/section-6/sub/limits.tex "Towards The Limits" 435
 "subsection" content/part-3/section-6/sub/style.tex "Contingencies Of Style" 2064
 "subsection" content/part-3/section-6/sub/authority.tex "A Specter Of Authority" 1271
 "section" content/part-3/section-7/sub/abstract.tex "Rethinking Composition" 0
-"subsection" content/part-3/section-7/sub/performance.tex "Interlude: Hyperbolic Reactions" 1210
+"subsection" content/part-3/section-7/sub/performance.tex "Interlude: Hyperbolic Reactions" 1207
 "subsection" content/part-3/section-7/sub/organic.tex "Working Composition" 1508
-"subsection" content/part-3/section-7/sub/practice.tex "The Composer As Navigator" 1399
+"subsection" content/part-3/section-7/sub/practice.tex "The Composer As Navigator" 1391
 "subsection" content/part-3/section-7/sub/improv.tex "The Database As Performer" 2721
 "subsection" content/part-3/section-7/sub/music.tex "The Severed Object Of Music" 1773
 "subsection" content/part-3/section-7/sub/anarchy.tex "Anarchy And The Unwork" 1718

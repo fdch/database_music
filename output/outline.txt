@@ -26,20 +26,20 @@ Database Aesthetics 148
 		Interlude: I am sitting in a room\dots 222 11%
 		The Resonance of a Return 1542 82%
 		Resonant Network 1479 78%
-		The Unworking Network 2108 112%
+		The Unworking Network 2107 112%
 	Databases and Memory 0
-		The Effraction of the Trace 1791 95%
-		The Archontic Principle 1768 94%
-		The Spectral Database 1627 86%
+		The Effraction of the Trace 1791 71%
+		The Archontic Principle 1769 70%
+		The Spectral Database 1627 65%
 	Performativity of Databases 0
-		Gendered Database 1370 73%
-		Towards the Limits 443 23%
+		Gendered Database 1369 73%
+		Towards the Limits 435 23%
 		Contingencies of Style 2064 110%
 		A Specter of Authority 1271 67%
 	Rethinking Composition 0
-		Interlude: Hyperbolic Reactions 1210 112%
+		Interlude: Hyperbolic Reactions 1207 112%
 		Working Composition 1508 140%
-		The Composer as Navigator 1399 130%
+		The Composer as Navigator 1391 129%
 		The Database as Performer 2721 254%
 		The severed object of music 1773 165%
 		Anarchy and the unwork 1718 160%
