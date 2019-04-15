@@ -53,10 +53,10 @@ with open("./glossary/definitions.tex", "w") as g:
 			url="See also: \\url{"+url+"}"
 		except:
 			print "Malformed url:",url
-		try:
-			cit=k["gsx$cite"]["$t"].encode("utf8")
-		except:
-			print "Malformed cit:",cit
+		# try:
+		# 	cit=k["gsx$cite"]["$t"].encode("utf8")
+		# except:
+		# 	print "Malformed cit:",cit
 		try:
 			des=k["gsx$description"]["$t"].encode("utf8")
 		except:
@@ -65,11 +65,16 @@ with open("./glossary/definitions.tex", "w") as g:
 			#DUALENTRY
 			if lng: # it has a 'long' form, therefore it is an acronym
 				if url: # it has a 'url'
-					if cit: # it has a \cite command
-						des=des+" "+url+" "+cit
-					else: # no \cite
+					# if cit: # it has a \cite command
+					# 	des=des+" "+url+" "+cit
+					# else: # no \cite
 						des=des+" "+url
-				entry="\\newdualentry{"+lab+"}{"+abb+"}\n\t{"+lng+"}\n\t{"+des+"}\n"
+				# entry="\\newdualentry{"+lab+"}{"+abb+"}\n\t{"+lng+"}\n\t{"+des+"}\n"
+				entry="\\newglossaryentry{gls-"+lab+"}{\n\tname={"+abb+"},\n\tdescription={"+des+"}\n}\n"
+				entry+="\\makeglossaries"
+				entry+="\\newacronym[see={[Glossary:]{gls-"+lab+"}}]{"+lab+"}{"+abb+"}{"+lng+"\\glsadd{gls-"+lab+"}}\n"
+# \newacronym[see={[Glossary:]{gls-OWD}}]{OWD}{OWD}{One-Way Delay\glsadd{gls-OWD}}
+
 			else: #it does not have a 'long' form, it is not an acronym
 			#GLOSSARY ENTRY
 				entry="\\newglossaryentry{"+lab+"}{\n\tname={"+abb+"},\n\tdescription={"+des+"}\n}\n"

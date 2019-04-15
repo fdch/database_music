@@ -156,23 +156,23 @@ extrasettings="
 	\\if@nobreak\\vspace*{-\\topskip}\\fi
 	\\singlespacing}
 \\makeatother
-
-
-%	MAKE GLOSSARY DUAL ENTRIES WITH ACRONYMS
-
-
-\\DeclareDocumentCommand{\\newdualentry}{ O{} O{} m m m m } {
-  \\newglossaryentry{gls-#3}{name={#5},text={#5\\glsadd{#3}},
-    description={#6},
-    #1
-  }
-  \\makeglossaries
-  \\newacronym[see={[Glossary:]{gls-#3}},#2]{#3}{#4}{#5\\glsadd{gls-#3}}
-}
-
-
-
 "
+
+# %	MAKE GLOSSARY DUAL ENTRIES WITH ACRONYMS
+
+
+# \\DeclareDocumentCommand{\\newdualentry}{ O{} O{} m m m m } {
+#   \\newglossaryentry{gls-#3}{name={#5},text={#5\\glsadd{#3}},
+#     description={#6},
+#     #1
+#   }
+#   \\makeglossaries
+#   \\newacronym[see={[Glossary:]{gls-#3}},#2]{#3}{#4}{#5\\glsadd{gls-#3}}
+# }
+
+
+
+# "
 
 
 
