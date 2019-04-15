@@ -1,16 +1,16 @@
 Dissertation Outline
-Abstract 392
-Introduction 1214
+Abstract 387
+Introduction 1318
 Database Art 0
 	The Database in New Media Theory 0
 		Database as Form 415 33%
-		A Semiotic Trap 908 72%
+		A Semiotic Trap 844 67%
 		Digital Convergence 553 44%
 		Bodiless Information 642 51%
 		Embodying Databasing 580 46%
-		Filtering and Framing 313 25%
-		An Embodied Database 1908 152%
-		Closing Remarks 353 28%
+		Filtering and Framing 438 35%
+		Interlude: An Embodied Database 1908 152%
+		Closing Remarks 354 28%
 	Databasing and the History of Databases 0
 		Databasing: the performance of the database 2059 82%
 		A Database Tree 926 37%
@@ -42,6 +42,6 @@ Database Aesthetics 148
 		The Composer as Navigator 1391 129%
 		The Database as Performer 2721 254%
 		The severed object of music 1773 165%
-		Anarchy and the unwork 1718 160%
+		Anarchy and the unwork 1704 159%
 		[WIP] work in progress 347 32%
-Afterword 793
+Afterword 787

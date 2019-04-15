@@ -2,18 +2,18 @@
 #	Automatically Generated from:
 #	<distree.py>
 STRUCT=(
-"chapter*" content/part-0/abstract.tex "Abstract" 392
-"chapter*" content/part-1/abstract.tex "Introduction" 1214
+"chapter*" content/part-0/abstract.tex "Abstract" 387
+"chapter*" content/part-1/abstract.tex "Introduction" 1318
 "chapter" content/part-2/abstract.tex "Database Art" 0
 "section" content/part-2/section-1/sub/abstract.tex "The Database In New Media Theory" 0
 "subsection" content/part-2/section-1/sub/new_media.tex "Database As Form" 415
-"subsection" content/part-2/section-1/sub/semiotics.tex "A Semiotic Trap" 908
+"subsection" content/part-2/section-1/sub/semiotics.tex "A Semiotic Trap" 844
 "subsection" content/part-2/section-1/sub/convergence.tex "Digital Convergence" 553
 "subsection" content/part-2/section-1/sub/bodiless_information.tex "Bodiless Information" 642
 "subsection" content/part-2/section-1/sub/embodiment.tex "Embodying Databasing" 580
-"subsection" content/part-2/section-1/sub/framing.tex "Filtering And Framing" 313
-"subsection" content/part-2/section-1/sub/funeslude.tex "An Embodied Database" 1908
-"subsection" content/part-2/section-1/sub/generated.tex "Closing Remarks" 353
+"subsection" content/part-2/section-1/sub/framing.tex "Filtering And Framing" 438
+"subsection" content/part-2/section-1/sub/funeslude.tex "Interlude: An Embodied Database" 1908
+"subsection" content/part-2/section-1/sub/generated.tex "Closing Remarks" 354
 "section" content/part-2/section-2/sub/abstract.tex "Databasing And The History Of Databases" 0
 "subsection" content/part-2/section-2/sub/databasing.tex "Databasing: The Performance Of The Database" 2059
 "subsection" content/part-2/section-2/sub/programming.tex "A Database Tree" 926
@@ -45,7 +45,7 @@ STRUCT=(
 "subsection" content/part-3/section-7/sub/practice.tex "The Composer As Navigator" 1391
 "subsection" content/part-3/section-7/sub/improv.tex "The Database As Performer" 2721
 "subsection" content/part-3/section-7/sub/music.tex "The Severed Object Of Music" 1773
-"subsection" content/part-3/section-7/sub/anarchy.tex "Anarchy And The Unwork" 1718
+"subsection" content/part-3/section-7/sub/anarchy.tex "Anarchy And The Unwork" 1704
 "subsection" content/part-3/section-7/sub/worker.tex "[Wip] Work In Progress" 347
-"chapter*" content/part-4/abstract.tex "Afterword" 793
+"chapter*" content/part-4/abstract.tex "Afterword" 787
 )

@@ -1,16 +1,16 @@
 words,title,path
-392   	Abstract            	content/part-0/abstract.tex
-1214  	Introduction        	content/part-1/abstract.tex
+387   	Abstract            	content/part-0/abstract.tex
+1318  	Introduction        	content/part-1/abstract.tex
 0     	Database Art        	content/part-2/abstract.tex
 0     	The Database In New Media Theory	content/part-2/section-1/sub/abstract.tex
 415   	Database As Form    	content/part-2/section-1/sub/new_media.tex
-908   	A Semiotic Trap     	content/part-2/section-1/sub/semiotics.tex
+844   	A Semiotic Trap     	content/part-2/section-1/sub/semiotics.tex
 553   	Digital Convergence 	content/part-2/section-1/sub/convergence.tex
 642   	Bodiless Information	content/part-2/section-1/sub/bodiless_information.tex
 580   	Embodying Databasing	content/part-2/section-1/sub/embodiment.tex
-313   	Filtering And Framing	content/part-2/section-1/sub/framing.tex
-1908  	An Embodied Database	content/part-2/section-1/sub/funeslude.tex
-353   	Closing Remarks     	content/part-2/section-1/sub/generated.tex
+438   	Filtering And Framing	content/part-2/section-1/sub/framing.tex
+1908  	Interlude: An Embodied Database	content/part-2/section-1/sub/funeslude.tex
+354   	Closing Remarks     	content/part-2/section-1/sub/generated.tex
 0     	Databasing And The History Of Databases	content/part-2/section-2/sub/abstract.tex
 2059  	Databasing: The Performance Of The Database	content/part-2/section-2/sub/databasing.tex
 926   	A Database Tree     	content/part-2/section-2/sub/programming.tex
@@ -42,6 +42,6 @@ words,title,path
 1391  	The Composer As Navigator	content/part-3/section-7/sub/practice.tex
 2721  	The Database As Performer	content/part-3/section-7/sub/improv.tex
 1773  	The Severed Object Of Music	content/part-3/section-7/sub/music.tex
-1718  	Anarchy And The Unwork	content/part-3/section-7/sub/anarchy.tex
+1704  	Anarchy And The Unwork	content/part-3/section-7/sub/anarchy.tex
 347   	[Wip] Work In Progress	content/part-3/section-7/sub/worker.tex
-793   	Afterword           	content/part-4/abstract.tex
+787   	Afterword           	content/part-4/abstract.tex
