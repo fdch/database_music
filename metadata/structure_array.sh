@@ -41,11 +41,11 @@ STRUCT=(
 "subsection" content/part-3/section-6/sub/authority.tex "A Specter Of Authority" 1271
 "section" content/part-3/section-7/sub/abstract.tex "Rethinking Composition" 0
 "subsection" content/part-3/section-7/sub/performance.tex "Interlude: Hyperbolic Reactions" 1210
-"subsection" content/part-3/section-7/sub/organic.tex "Working Composition" 1489
+"subsection" content/part-3/section-7/sub/organic.tex "Working Composition" 1508
 "subsection" content/part-3/section-7/sub/practice.tex "The Composer As Navigator" 1399
-"subsection" content/part-3/section-7/sub/improv.tex "The Database As Performer" 2759
-"subsection" content/part-3/section-7/sub/music.tex "The Severed Object Of Music" 1954
-"subsection" content/part-3/section-7/sub/anarchy.tex "Anarchy And The Unwork" 1848
+"subsection" content/part-3/section-7/sub/improv.tex "The Database As Performer" 2721
+"subsection" content/part-3/section-7/sub/music.tex "The Severed Object Of Music" 1773
+"subsection" content/part-3/section-7/sub/anarchy.tex "Anarchy And The Unwork" 1718
 "subsection" content/part-3/section-7/sub/worker.tex "[Wip] Work In Progress" 347
 "chapter*" content/part-4/abstract.tex "Afterword" 793
 )

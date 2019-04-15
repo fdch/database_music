@@ -38,10 +38,10 @@ Database Aesthetics 148
 		A Specter of Authority 1271 67%
 	Rethinking Composition 0
 		Interlude: Hyperbolic Reactions 1210 112%
-		Working Composition 1489 139%
+		Working Composition 1508 140%
 		The Composer as Navigator 1399 130%
-		The Database as Performer 2759 257%
-		The severed object of music 1954 182%
-		Anarchy and the unwork 1848 172%
+		The Database as Performer 2721 254%
+		The severed object of music 1773 165%
+		Anarchy and the unwork 1718 160%
 		[WIP] work in progress 347 32%
 Afterword 793
