@@ -1,5 +1,6 @@
-\contentsline {part}{Untitled2}{2}{part*.1}% 
-\contentsline {part}{Hearing The Self}{5}{part*.3}% 
-\contentsline {part}{Inverted city}{8}{part*.5}% 
-\contentsline {part}{Inopera}{11}{part*.7}% 
-\contentsline {part}{Biography}{14}{part*.9}% 
+\contentsline {part}{Untitled2}{3}{part*.2}% 
+\contentsline {part}{Hearing The Self}{6}{part*.4}% 
+\contentsline {part}{a.le.a}{9}{part*.6}% 
+\contentsline {part}{Inverted city}{12}{part*.8}% 
+\contentsline {part}{Inopera}{15}{part*.10}% 
+\contentsline {part}{Biography}{18}{part*.12}% 

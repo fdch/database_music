@@ -58,6 +58,7 @@
 \maketitle
 
 
+\tableofcontents
 
 
 \part*{Untitled2}
@@ -94,12 +95,51 @@
 	\item Category:  Multimedia, Live electronics, Interactive
 	\item Date:   10/15/2017
 	\item Location:   Xuhui Art Museum, Shanghai, China
-	\item Code:   \url{https://fdch.github.io/specexp}
+	\item Documentation:   \url{https://fdch.github.io/specexp}
 \end{itemize}
 \newpage
 
 \section*{Program Notes}
 {This interactive, audio/visual installation simulates the process by which the human brain perceives the world. From a mechanical point of view, it has been suggested that the human brain is a machine that performs an inverse Fourier Transform through which it constructs a geometric image from correlations of reflections of light. While a significant component of the installation is visual, the audio acts via sonification to extend the perception beyond just what the eye can see. The audience is invited to experience spectral properties outside of the more familiar visible wavelengths. This piece simultaneously addresses that the mechanical component of perception, even when perceiving one's own self, is only a part of a complex process shaped by many external stimuli, one of the strongest being societal. Authors: Lucia D Simonelli, Matias G Delgadino, Hally, Fede Camara Halac}
+
+
+\part*{a.le.a}
+\addcontentsline{toc}{part}{a.le.a}
+
+\img{alea}{Long exposure photos on an airport used for a.le.a}
+
+
+\begin{itemize}
+	\item Description: Flute, Clarinet (Bb), Violin, Cello, Percussion, Piano, and live electronics
+	\item Duration:  8 minutes
+	\item Category:  Multimedia, Small Ensemble, Live electronics, Generative, Instrumental
+	\item Date:   4/7/2017
+	\item Location:   The Dimenna Center for Classical Music, NYC
+	\item Performers: Talea Ensemble
+	\item Video: \url{https://player.vimeo.com/video/222588421} (password: \texttt{a.le.a})
+	\item Audio: \url{https://soundcloud.com/ffddcchh/alea}
+	\item Documentation: \url{https://github.com/fdch/a.le.a}
+	\item Score: \href{https://doc-08-7g-docs.googleusercontent.com/docs/securesc/gh251mh23b531o2ik0kvncqm7cfsk498/m24eka4dgcco8bp9pfj4g8eob927td8p/1555344000000/14838610272939224163/08327717046301529486/0B-mcBjKPCfPLN2VYbTl4UENmeWM}{click here}
+\end{itemize}
+
+\section*{Program Notes}
+
+This music was generated using the a.le.a library for Pure Data (Pd) written and played by the composer. The library uses an algorithm for swarm behavior together with the Lorenz attractor in such a way that five `boids' follow the famous chaotic attractor.
+
+The a.le.a library provides an interface to monitor and interact with both the Lorenz and the boids paths, thus adding to the influence of the boids' movements a human element ---that of the player of the meta-score (the composer). The interface captures the results of the interaction of the trio (player, boids, attractor) and outputs the data to both a video file and a text file. The video is used for part of the visual aspect of the performance. The text is used to generate a set of four meta-scores which indicate curves of transition between three elements (in this case, the electronics, the instrumental and the visual).
+
+This algorithmic absurdity in a.le.a aims at being not a `mapping' of the motion of the birds into musical structures, but as the triggering of events and transitions based on some properties of the line that goes through all the boids. The instrumental score is then interpreted from this output into hand-crafted gestural snippets of Lilypond code (via the [notes] external for puredata) which belong to each of the six instruments of the ensemble. This interpretation produces four fullscores (one for each meta-score).
+
+For this performance, the composer hand-trimmed and re-interpreted some absurdly incoherent blobs of ink on the page into absurdly incoherent musical gestures, choosing from all of the four fullscores arriving at a final score.
+
+The electronics and the video are generated live. They both take the third ---human--- element from the live analysis of the player's signals, and they both consist of spectral transformations and granular synthesis.
+
+a.le.a is not a work, it is the unworking of a work. It is not only the performative result in itself, but also the path of its unworking. The audience is invited to listen for these traces.
+
+
+
+
+
 
 
 
@@ -162,6 +202,5 @@ Fede Cámara Halac estudió Licenciatura en Composición Musical en La Universid
 
 \section*{Website}
 \url{https://fdch.github.io}
-\tableofcontents
 
 \end{document}
