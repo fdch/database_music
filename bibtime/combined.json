@@ -1,0 +1,3060 @@
+[
+    {
+        "titl": "Sound unseen: Acousmatic sound in theory and practice", 
+        "freq": [
+            "510"
+        ], 
+        "id": "Kan14:Sou", 
+        "auth": "Kane", 
+        "year": "2014"
+    }, 
+    {
+        "titl": "The audible past : Cultural origins of sound reproduction", 
+        "freq": [
+            "504", 
+            "505"
+        ], 
+        "id": "Ste03:Aud", 
+        "auth": "Sterne", 
+        "year": "2003"
+    }, 
+    {
+        "titl": "Of grammatology.", 
+        "freq": [
+            "65", 
+            "66", 
+            "67", 
+            "68", 
+            "69", 
+            "444", 
+            "478", 
+            "479", 
+            "480", 
+            "482"
+        ], 
+        "id": "Der76:Of", 
+        "auth": "Derrida", 
+        "year": "1976"
+    }, 
+    {
+        "titl": "Ficciones", 
+        "freq": [
+            "476"
+        ], 
+        "id": "Ker94:Fun", 
+        "auth": "Borges", 
+        "year": "1994"
+    }, 
+    {
+        "titl": "The mano controller: A video based hand tracking system", 
+        "freq": [
+            "374", 
+            "465", 
+            "466"
+        ], 
+        "id": "DBLP:conf/icmc/OliverJ10", 
+        "auth": "Oliver", 
+        "year": "2010"
+    }, 
+    {
+        "titl": "The silent drum controller: A new percussive gestural interface", 
+        "freq": [
+            "370", 
+            "371", 
+            "372", 
+            "373", 
+            "455", 
+            "463"
+        ], 
+        "id": "DBLP:conf/icmc/OliverJ08", 
+        "auth": "Oliver", 
+        "year": "2008"
+    }, 
+    {
+        "titl": "I am sitting in a room", 
+        "freq": [
+            "418", 
+            "437", 
+            "438", 
+            "439"
+        ], 
+        "id": "Luc70:Iam", 
+        "auth": "Lucier", 
+        "year": "1970"
+    }, 
+    {
+        "titl": "Acoustic feedbacks in sound reinforcement systems: Investigating the larsen effect", 
+        "freq": [
+            "441"
+        ], 
+        "id": "Kro11:Aco", 
+        "auth": "Kroher", 
+        "year": "2011"
+    }, 
+    {
+        "titl": "Viva la selva", 
+        "freq": [
+            "203", 
+            "204"
+        ], 
+        "id": "Bar20:Viv", 
+        "auth": "Barrett", 
+        "year": "2000"
+    }, 
+    {
+        "titl": "The wolves of bays mountain", 
+        "freq": [
+            "198", 
+            "199", 
+            "201"
+        ], 
+        "id": "Kle98:The", 
+        "auth": "Klein", 
+        "year": "1998"
+    }, 
+    {
+        "titl": "On my compositional approach", 
+        "freq": [
+            "200"
+        ], 
+        "id": "Kle17:Lec", 
+        "auth": "Klein", 
+        "year": "2017"
+    }, 
+    {
+        "titl": "Audiovisual concatenative synthesis", 
+        "freq": [
+            "348", 
+            "349"
+        ], 
+        "id": "DBLP:conf/icmc/Collins07", 
+        "auth": "Collins", 
+        "year": "2007"
+    }, 
+    {
+        "titl": "MP3: The meaning of a format", 
+        "freq": [
+            "400"
+        ], 
+        "id": "Ste12:MP3", 
+        "auth": "Sterne", 
+        "year": "2012"
+    }, 
+    {
+        "titl": "Voices in ruins \u2014 composition with residuals", 
+        "freq": [
+            "378"
+        ], 
+        "id": "Cho00:Voi", 
+        "auth": "Choi", 
+        "year": "2000"
+    }, 
+    {
+        "titl": "MARSYAS: A framework for audio analysis", 
+        "freq": [
+            "120"
+        ], 
+        "id": "tzanetakis_cook_2000", 
+        "auth": "Tzanetakis", 
+        "year": "2000"
+    }, 
+    {
+        "titl": "The ubuweb electronic music corpus: An mir investigation of a historical database", 
+        "freq": [
+            "118"
+        ], 
+        "id": "collins_2015", 
+        "auth": "Collins", 
+        "year": "2015"
+    }, 
+    {
+        "titl": "MATConcat: An application for exploring concatenative sound synthesis using matlab", 
+        "freq": [
+            "354"
+        ], 
+        "id": "Stu04:Mat", 
+        "auth": "Sturm", 
+        "year": "2004"
+    }, 
+    {
+        "titl": "Collected rewritings: Live coding thoughts, 1968-2015.", 
+        "freq": [
+            "610"
+        ], 
+        "id": "Col15:Col", 
+        "auth": "Nilson", 
+        "year": "2016"
+    }, 
+    {
+        "titl": "Towards autonomous agents for live computer music: Realtime machine listening and interactive music systems", 
+        "freq": [
+            "406"
+        ], 
+        "id": "nickcollinsphd", 
+        "auth": "Collins", 
+        "year": "2006"
+    }, 
+    {
+        "titl": "LIVE coding: AN overview", 
+        "freq": [
+            "409"
+        ], 
+        "id": "Zmo15:Liv", 
+        "auth": "zm\u00f6lnig", 
+        "year": "2015"
+    }, 
+    {
+        "titl": "Live coding in laptop performance", 
+        "freq": [
+            "407"
+        ], 
+        "id": "Col03:Liv", 
+        "auth": "Collins", 
+        "year": "2003"
+    }, 
+    {
+        "titl": "On the expressive potential of suboptimal speakers", 
+        "freq": [
+            "391", 
+            "392"
+        ], 
+        "id": "Rya17:OnT", 
+        "auth": "Carter", 
+        "year": "2017"
+    }, 
+    {
+        "titl": "The radio drum as a synthesizer controller", 
+        "freq": [
+            "367"
+        ], 
+        "id": "DBLP:conf/icmc/Boie89", 
+        "auth": "Boie", 
+        "year": "1989"
+    }, 
+    {
+        "titl": "ChucK: A concurrent, on-the-fly, audio programming language", 
+        "freq": [
+            "330"
+        ], 
+        "id": "DBLP:conf/icmc/WangC03", 
+        "auth": "Wang", 
+        "year": "2003"
+    }, 
+    {
+        "titl": "The CHANT project: Modelization and production, an environment for composers including the FORMES language for describing and controlling sound and musical processes", 
+        "freq": [
+            "305"
+        ], 
+        "id": "DBLP:conf/icmc/RodetBCP82", 
+        "auth": "Rodet", 
+        "year": "1982"
+    }, 
+    {
+        "titl": "Java music specification language, an introduction and overview", 
+        "freq": [
+            "309"
+        ], 
+        "id": "DBLP:conf/icmc/DidkovskyB01", 
+        "auth": "Didkovsky", 
+        "year": "2001"
+    }, 
+    {
+        "titl": "The architecture and musical logic of cmix", 
+        "freq": [
+            "324"
+        ], 
+        "id": "DBLP:conf/icmc/Lansky90", 
+        "auth": "Lansky", 
+        "year": "1990"
+    }, 
+    {
+        "titl": "HMSL (hierarchical music specification language): A real-time environment for formal, perceptual and compositional experimentation", 
+        "freq": [
+            "302", 
+            "303"
+        ], 
+        "id": "DBLP:conf/icmc/RosenboomP85", 
+        "auth": "Rosenboom", 
+        "year": "1985"
+    }, 
+    {
+        "titl": "The synthetic performer in the context of live performance", 
+        "freq": [
+            "291"
+        ], 
+        "id": "Ver84:The", 
+        "auth": "Vercoe", 
+        "year": "1984"
+    }, 
+    {
+        "titl": "Something digital", 
+        "freq": [
+            "292"
+        ], 
+        "id": "Puc91:Som", 
+        "auth": "Puckette", 
+        "year": "1991"
+    }, 
+    {
+        "titl": "Musicians make a standard: The midi phenomenon", 
+        "freq": [
+            "290"
+        ], 
+        "id": "Loy85:Mus", 
+        "auth": "Loy", 
+        "year": "1985"
+    }, 
+    {
+        "titl": "ICAD 2004: The 13th meeting of the international conference on auditory display, boston, ma, usa, 6-9 july 2003, proceedings", 
+        "freq": [
+            "230"
+        ], 
+        "id": "DBLP:conf/icad/2003/Walker", 
+        "auth": "Walker", 
+        "year": "2003"
+    }, 
+    {
+        "titl": "ICAD 2004: The 13th meeting of the international conference on auditory display, montreal, canada, june 26-29 2007, proceedings", 
+        "freq": [
+            "229"
+        ], 
+        "id": "DBLP:conf/icad/2007/Worral", 
+        "auth": "Worrall", 
+        "year": "2007"
+    }, 
+    {
+        "titl": "A Sonification System for Process Monitoring as Secondary Task", 
+        "freq": [
+            "228"
+        ], 
+        "id": "Her14:Aso", 
+        "auth": "Hildebrandt", 
+        "year": "2014"
+    }, 
+    {
+        "titl": "Aesthetic sonification toolkit for real-time interaction with data", 
+        "freq": [
+            "227"
+        ], 
+        "id": "Bei09:Aes", 
+        "auth": "Beilharz", 
+        "year": "2009"
+    }, 
+    {
+        "titl": "MUSE: A musical data sonification toolkit", 
+        "freq": [
+            "226"
+        ], 
+        "id": "Lod98:MUS", 
+        "auth": "Lodha", 
+        "year": "1998"
+    }, 
+    {
+        "titl": "Listen: A data sonification toolkit", 
+        "freq": [
+            "224"
+        ], 
+        "id": "Wil96:Lis", 
+        "auth": "Wilson", 
+        "year": "1996"
+    }, 
+    {
+        "titl": "Sonification of women in sound and music computing - the sound of female authorship in icmc, smc and nime proceedings", 
+        "freq": [
+            "207", 
+            "208"
+        ], 
+        "id": "Fri17:Son", 
+        "auth": "Frid", 
+        "year": "2017"
+    }, 
+    {
+        "titl": "Musical genre classification of audio signals", 
+        "freq": [
+            "112", 
+            "127"
+        ], 
+        "id": "Tza02:Mus", 
+        "auth": "Tzanetakis", 
+        "year": "2002"
+    }, 
+    {
+        "titl": "A survey on web multimedia mining", 
+        "freq": [
+            "83"
+        ], 
+        "id": "DBLP:journals/corr/abs-1109-1145", 
+        "auth": "Kamde", 
+        "year": "2011"
+    }, 
+    {
+        "titl": "Adversarial Audio Synthesis", 
+        "freq": [
+            "165"
+        ], 
+        "id": "2018arXiv180204208D", 
+        "auth": "Donahue", 
+        "year": "2018"
+    }, 
+    {
+        "titl": "Client-server multi-task learning from distributed datasets", 
+        "freq": [
+            "113", 
+            "135"
+        ], 
+        "id": "DBLP:journals/corr/abs-0812-4235", 
+        "auth": "Dinuzzo", 
+        "year": "2008"
+    }, 
+    {
+        "titl": "Musical genres: beating to the rhythms of different drums", 
+        "freq": [
+            "134"
+        ], 
+        "id": "2010NJPh:12e3030C", 
+        "auth": "Correa", 
+        "year": "2010"
+    }, 
+    {
+        "titl": "An extensive analysis of query by singing/humming system through query proportion", 
+        "freq": [
+            "163"
+        ], 
+        "id": "DBLP:journals/corr/abs-1301-1894", 
+        "auth": "Nagavi", 
+        "year": "2013"
+    }, 
+    {
+        "titl": "Progressive filtering using multiresolution histograms for query by humming system", 
+        "freq": [
+            "162"
+        ], 
+        "id": "DBLP:journals/corr/NagaviB14", 
+        "auth": "Nagavi", 
+        "year": "2014"
+    }, 
+    {
+        "titl": "Music files search system", 
+        "freq": [
+            "161"
+        ], 
+        "id": "DBLP:journals/corr/Brzezinski-SpiczakDLP13", 
+        "auth": "Brzezinski-Spiczak", 
+        "year": "2013"
+    }, 
+    {
+        "titl": "An efficient feature selection in classification of audio files", 
+        "freq": [
+            "133"
+        ], 
+        "id": "DBLP:journals/corr/MitraS14", 
+        "auth": "Mitra", 
+        "year": "2014"
+    }, 
+    {
+        "titl": "Classical music clustering based on acoustic features", 
+        "freq": [
+            "132"
+        ], 
+        "id": "DBLP:journals/corr/WangH17a", 
+        "auth": "Wang", 
+        "year": "2017"
+    }, 
+    {
+        "titl": "Adversarial semi-supervised audio source separation applied to singing voice extraction", 
+        "freq": [
+            "148"
+        ], 
+        "id": "DBLP:journals/corr/abs-1711-00048", 
+        "auth": "Stoller", 
+        "year": "2017"
+    }, 
+    {
+        "titl": "Music genre classification using spectral analysis and sparse representation of the signals", 
+        "freq": [
+            "131"
+        ], 
+        "id": "DBLP:journals/corr/abs-1803-04652", 
+        "auth": "Dehkordi", 
+        "year": "2018"
+    }, 
+    {
+        "titl": "Real-time corpus-based concatenative synthesis with catart", 
+        "freq": [
+            "355"
+        ], 
+        "id": "Sch06:Rea", 
+        "auth": "Schwarz", 
+        "year": "2006"
+    }, 
+    {
+        "titl": "Concatenative sound synthesis: The early years", 
+        "freq": [
+            "343", 
+            "344"
+        ], 
+        "id": "Sch06:How", 
+        "auth": "Schwarz", 
+        "year": "2006"
+    }, 
+    {
+        "titl": "How musical are images? From sound representation to image sonification: An eco systemic approach", 
+        "freq": [
+            "216"
+        ], 
+        "id": "Sch07:How", 
+        "auth": "Thiebaut", 
+        "year": "2007"
+    }, 
+    {
+        "titl": "The music of shapes", 
+        "freq": [
+            "215"
+        ], 
+        "id": "connes:shapes", 
+        "auth": "Connes", 
+        "year": "2012"
+    }, 
+    {
+        "titl": "Pattern Recognition Approach to Violin Shapes of MIMO database", 
+        "freq": [
+            "123"
+        ], 
+        "id": "2018arXiv180802848P", 
+        "auth": "Peron", 
+        "year": "2018"
+    }, 
+    {
+        "titl": "UNFOLDING the potential of computational musicology", 
+        "freq": [
+            "119"
+        ], 
+        "id": "DBLP:conf/iciso/Yokl11", 
+        "auth": "Yolk", 
+        "year": "2011"
+    }, 
+    {
+        "titl": "Introducing video features and spectral descriptors in the omax improvisation system", 
+        "freq": [
+            "414"
+        ], 
+        "id": "DBLP:conf/icmc/BlochD08", 
+        "auth": "Bloch", 
+        "year": "2008"
+    }, 
+    {
+        "titl": "Guessing the composer\u2019s mind: Applying universal prediction to musical style", 
+        "freq": [
+            "413"
+        ], 
+        "id": "DBLP:conf/icmc/AssayagDD99", 
+        "auth": "Assayag", 
+        "year": "1999"
+    }, 
+    {
+        "titl": "Music mood detection based on audio and lyrics with deep neural net", 
+        "freq": [
+            "140"
+        ], 
+        "id": "DBLP:journals/corr/abs-1809-07276", 
+        "auth": "Delbouys", 
+        "year": "2018"
+    }, 
+    {
+        "titl": "Beyond midi: The handbook of musical codes", 
+        "freq": [
+            "268"
+        ], 
+        "id": "Selfridge-Field:1997:BMH:275928", 
+        "auth": "Selfridge-Field", 
+        "year": "1997"
+    }, 
+    {
+        "titl": "Experiments in music intelligence (EMI)", 
+        "freq": [
+            "534", 
+            "537", 
+            "538"
+        ], 
+        "id": "DBLP:conf/icmc/Cope87", 
+        "auth": "Cope", 
+        "year": "1987"
+    }, 
+    {
+        "titl": "A comunicational approach to computer sound programs", 
+        "freq": [
+            "260", 
+            "262", 
+            "539"
+        ], 
+        "id": "Tru76:ACo", 
+        "auth": "Truax", 
+        "year": "1976"
+    }, 
+    {
+        "titl": "The inverse relation between generality and strength in computer music programs", 
+        "freq": [
+            "258", 
+            "263"
+        ], 
+        "id": "Tru80:The", 
+        "auth": "Truax", 
+        "year": "1980"
+    }, 
+    {
+        "titl": "Otto laske : Navigating new musical horizons", 
+        "freq": [
+            "259"
+        ], 
+        "id": "laske_otto_1999", 
+        "auth": "Laske", 
+        "year": "1999"
+    }, 
+    {
+        "titl": "Machine listening techniques as a complement to video image analysis in forensics", 
+        "freq": [
+            "153"
+        ], 
+        "id": "serizel:hal-01393959", 
+        "auth": "Serizel", 
+        "year": "2016"
+    }, 
+    {
+        "titl": "The language of electroacoustic music", 
+        "freq": [
+            "264", 
+            "265", 
+            "266"
+        ], 
+        "id": "Emm86:The", 
+        "auth": "Emmerson", 
+        "year": "1986"
+    }, 
+    {
+        "titl": "The computer composition: Sound synthesis programs pod4, pod5 and pod6", 
+        "freq": [
+            "241", 
+            "261"
+        ], 
+        "id": "Tru73:The", 
+        "auth": "Truax", 
+        "year": "1973"
+    }, 
+    {
+        "titl": "Interactive music systems: Machine listening and composing", 
+        "freq": [
+            "89", 
+            "412", 
+            "589", 
+            "590", 
+            "591", 
+            "597"
+        ], 
+        "id": "Row92:Int", 
+        "auth": "Rowe", 
+        "year": "1992"
+    }, 
+    {
+        "titl": "An open design for computer-aided algorithmic music composition: AthenaCL", 
+        "freq": [
+            "101", 
+            "102", 
+            "340", 
+            "539", 
+            "561", 
+            "565", 
+            "566", 
+            "567", 
+            "568", 
+            "569", 
+            "586"
+        ], 
+        "id": "Ari05:Ano", 
+        "auth": "Ariza", 
+        "year": "2005"
+    }, 
+    {
+        "titl": "A composer\u2019s introduction to computer music", 
+        "freq": [
+            "233"
+        ], 
+        "id": "Bux77:Aco", 
+        "auth": "Buxton", 
+        "year": "1977"
+    }, 
+    {
+        "titl": "Elements of semiology", 
+        "freq": [
+            "24", 
+            "25", 
+            "26"
+        ], 
+        "id": "Bar68:Ele", 
+        "auth": "Barthes", 
+        "year": "1968"
+    }, 
+    {
+        "titl": "Memoria, olvido y narraci\u00f3n: Funes como ant\u00edtesis del escritor", 
+        "freq": [
+            "58", 
+            "61", 
+            "62", 
+            "64", 
+            "72"
+        ], 
+        "id": "Ovi19:Mem", 
+        "auth": "Oviedo", 
+        "year": "2019"
+    }, 
+    {
+        "titl": "The aesthetics of failure: \u2019Post-digital\u2019 tendencies in contemporary computer music", 
+        "freq": [
+            "14", 
+            "70", 
+            "71", 
+            "612", 
+            "613", 
+            "614", 
+            "615", 
+            "616", 
+            "617", 
+            "618", 
+            "619"
+        ], 
+        "id": "Cas00:The", 
+        "auth": "Cascone", 
+        "year": "2000"
+    }, 
+    {
+        "titl": "Interview with max mathews", 
+        "freq": [
+            "572", 
+            "573"
+        ], 
+        "id": "Roa80:Int", 
+        "auth": "Roads", 
+        "year": "1980"
+    }, 
+    {
+        "titl": "The digital computer as a musical instrument", 
+        "freq": [
+            "81", 
+            "570", 
+            "571", 
+            "580", 
+            "581", 
+            "582", 
+            "583", 
+            "585", 
+            "587"
+        ], 
+        "id": "Mat63:The", 
+        "auth": "Mathews", 
+        "year": "1963"
+    }, 
+    {
+        "titl": "Editor\u2019s notes: Putting max in perspective", 
+        "freq": [
+            "578", 
+            "596", 
+            "600", 
+            "601", 
+            "602", 
+            "603", 
+            "604"
+        ], 
+        "id": "Lew93:Put", 
+        "auth": "Rowe", 
+        "year": "1993"
+    }, 
+    {
+        "titl": "Interacting with latter-day musical automata", 
+        "freq": [
+            "13", 
+            "578", 
+            "579", 
+            "593", 
+            "594", 
+            "595", 
+            "605", 
+            "606", 
+            "607", 
+            "608"
+        ], 
+        "id": "Lew99:Int", 
+        "auth": "Lewis", 
+        "year": "1999"
+    }, 
+    {
+        "titl": "The xenakis sieve as object: A new model and a complete implementation", 
+        "freq": [
+            "563", 
+            "564"
+        ], 
+        "id": "arizaSieves", 
+        "auth": "Ariza", 
+        "year": "2005"
+    }, 
+    {
+        "titl": "Circularity in judgments of relative pitch", 
+        "freq": [
+            "560"
+        ], 
+        "id": "shepard", 
+        "auth": "N. Shepard", 
+        "year": "1964"
+    }, 
+    {
+        "titl": "Calculation of pi to 100,000 decimals", 
+        "freq": [
+            "559", 
+            "577"
+        ], 
+        "id": "picalc", 
+        "auth": "Shanks", 
+        "year": "1962"
+    }, 
+    {
+        "titl": "Noise: The political economy of music", 
+        "freq": [
+            "548"
+        ], 
+        "id": "Att77:Noi", 
+        "auth": "Attali", 
+        "year": "2009"
+    }, 
+    {
+        "titl": "Listen: A history of our ears", 
+        "freq": [
+            "549", 
+            "550", 
+            "551"
+        ], 
+        "id": "Sze08:Lis", 
+        "auth": "Szendy", 
+        "year": "2008"
+    }, 
+    {
+        "titl": "An expert system for computer-assisted composition", 
+        "freq": [
+            "536"
+        ], 
+        "id": "Cop87:AnE", 
+        "auth": "Cope", 
+        "year": "1987"
+    }, 
+    {
+        "titl": "An introduction to horacio vaggione musical-theoretical thought", 
+        "freq": [
+            "542", 
+            "543", 
+            "544"
+        ], 
+        "id": "Sol05:AnI", 
+        "auth": "Solomos", 
+        "year": "2005"
+    }, 
+    {
+        "titl": "On timbre stamps and other frequency-domain filters", 
+        "freq": [
+            "526"
+        ], 
+        "id": "DBLP:conf/icmc/Puckette07", 
+        "auth": "Puckette", 
+        "year": "2007"
+    }, 
+    {
+        "titl": "Some ontological remarks about music composition processes", 
+        "freq": [
+            "12", 
+            "82", 
+            "528", 
+            "530", 
+            "592"
+        ], 
+        "id": "Vag01:Som", 
+        "auth": "Vaggione", 
+        "year": "2001"
+    }, 
+    {
+        "titl": "A brief history of algorithmic composition", 
+        "freq": [
+            "535"
+        ], 
+        "id": "Mau99:Abr", 
+        "auth": "IV", 
+        "year": "1999"
+    }, 
+    {
+        "titl": "Between air and electricity: Microphones and loudspeakers as musical instruments", 
+        "freq": [
+            "506"
+        ], 
+        "id": "Eck13:Bet", 
+        "auth": "Eck", 
+        "year": "2013"
+    }, 
+    {
+        "titl": "Hyperobjects: Philosophy and ecology after the end of the world", 
+        "freq": [
+            "512"
+        ], 
+        "id": "Mor13:Hyp", 
+        "auth": "Morton", 
+        "year": "2013"
+    }, 
+    {
+        "titl": "Digital memory and the archive", 
+        "freq": [
+            "63", 
+            "494", 
+            "495", 
+            "498", 
+            "499", 
+            "500", 
+            "501", 
+            "502", 
+            "503"
+        ], 
+        "id": "Ern13:Dig", 
+        "auth": "Ernst", 
+        "year": "2013"
+    }, 
+    {
+        "titl": "Margins of philosophy", 
+        "freq": [
+            "474", 
+            "524", 
+            "527"
+        ], 
+        "id": "Der82:Mar", 
+        "auth": "Derrida", 
+        "year": "1982"
+    }, 
+    {
+        "titl": "Open data structures", 
+        "freq": [
+            "85", 
+            "86"
+        ], 
+        "id": "ods-cpp", 
+        "auth": "Morin", 
+        "year": "2019"
+    }, 
+    {
+        "titl": "The programmer as navigator", 
+        "freq": [
+            "104", 
+            "105", 
+            "430", 
+            "575"
+        ], 
+        "id": "Bachman:1973:PN:355611.362534", 
+        "auth": "Bachman", 
+        "year": "1973"
+    }, 
+    {
+        "titl": "A relational model of data for large shared data banks", 
+        "freq": [
+            "106"
+        ], 
+        "id": "Codd:1970:RMD:362384.362685", 
+        "auth": "Codd", 
+        "year": "1970"
+    }, 
+    {
+        "titl": "Relational completeness of data base sublanguages", 
+        "freq": [
+            "107", 
+            "558"
+        ], 
+        "id": "Codd72relationalcompleteness", 
+        "auth": "Codd", 
+        "year": "1972"
+    }, 
+    {
+        "titl": "IMS primer", 
+        "freq": [
+            "103"
+        ], 
+        "id": "2000-database-ims", 
+        "auth": "Long", 
+        "year": "2000"
+    }, 
+    {
+        "titl": "Semistructured data", 
+        "freq": [
+            "111"
+        ], 
+        "id": "Buneman:1997:SD:263661.263675", 
+        "auth": "Buneman", 
+        "year": "1997"
+    }, 
+    {
+        "titl": "Querying semi-structured data", 
+        "freq": [
+            "109", 
+            "110"
+        ], 
+        "id": "Abiteboul:semistructured:96", 
+        "auth": "Abiteboul", 
+        "year": "1996"
+    }, 
+    {
+        "titl": "Survey of graph database models", 
+        "freq": [
+            "94", 
+            "95", 
+            "98", 
+            "99", 
+            "100", 
+            "108"
+        ], 
+        "id": "2008:graph/anglesgutierrez/survey", 
+        "auth": "Angles", 
+        "year": "2008"
+    }, 
+    {
+        "titl": "Foundations of databases", 
+        "freq": [
+            "93", 
+            "96", 
+            "97"
+        ], 
+        "id": "DBLP:books/aw/AbiteboulHV95", 
+        "auth": "Abiteboul", 
+        "year": "1995"
+    }, 
+    {
+        "titl": "A toolkit for interactive sonification.", 
+        "freq": [
+            "225"
+        ], 
+        "id": "Pau04:ATo", 
+        "auth": "Pauletto", 
+        "year": "2004"
+    }, 
+    {
+        "titl": "Sonart: The sonification application research toolbox", 
+        "freq": [
+            "218"
+        ], 
+        "id": "icad/2002/ben-tal", 
+        "auth": "Ben-Tal", 
+        "year": "2002"
+    }, 
+    {
+        "titl": "Data analysis through auditory display: Applications in heart rate variability", 
+        "freq": [
+            "210"
+        ], 
+        "id": "Ballora/2000/phdthesis", 
+        "auth": "Ballora", 
+        "year": "2000"
+    }, 
+    {
+        "titl": "An object-oriented metamodel for digital signal processing with a focus on audio and music", 
+        "freq": [
+            "337", 
+            "401"
+        ], 
+        "id": "Amatriain/2004/phdthesis", 
+        "auth": "Amatriain", 
+        "year": "2004"
+    }, 
+    {
+        "titl": "Max at seventeen", 
+        "freq": [
+            "297", 
+            "312", 
+            "313", 
+            "314"
+        ], 
+        "id": "DBLP:journals/comj/Puckette02", 
+        "auth": "Puckette", 
+        "year": "2002"
+    }, 
+    {
+        "titl": "A system for data-driven concatenative sound synthesis", 
+        "freq": [
+            "341"
+        ], 
+        "id": "Schwarz2000", 
+        "auth": "Schwarz", 
+        "year": "2000"
+    }, 
+    {
+        "titl": "Data structures for text sequences", 
+        "freq": [
+            "90", 
+            "91"
+        ], 
+        "id": "crowley98", 
+        "auth": "Crowley", 
+        "year": "1998"
+    }, 
+    {
+        "titl": "\"Vowel recognition in a data base of continuous speech: Experiments with local and global identification principles\"", 
+        "freq": [
+            "332"
+        ], 
+        "id": "Rodet1989", 
+        "auth": "Caraty", 
+        "year": "1989"
+    }, 
+    {
+        "titl": "\"The darms project\": A status report", 
+        "freq": [
+            "270"
+        ], 
+        "id": "10.2307/30204239", 
+        "auth": "Erickson", 
+        "year": "1975"
+    }, 
+    {
+        "titl": "Socializing technology for the mobile human. Keynote, the next web conference, amsterdam/europe.", 
+        "freq": [
+            "245"
+        ], 
+        "id": "youtube/buxton16", 
+        "auth": "Buxton", 
+        "year": "2016"
+    }, 
+    {
+        "titl": "Objed: The sssp sound editing tool", 
+        "freq": [
+            "238"
+        ], 
+        "id": "youtube/buxton10", 
+        "auth": "Buxton", 
+        "year": "2016"
+    }, 
+    {
+        "titl": "Music software", 
+        "freq": [
+            "276"
+        ], 
+        "id": "10.2307/940555", 
+        "auth": "Skinner", 
+        "year": "1990"
+    }, 
+    {
+        "titl": "Music software", 
+        "freq": [
+            "275"
+        ], 
+        "id": "10.2307/941442", 
+        "auth": "Skinner", 
+        "year": "1990"
+    }, 
+    {
+        "titl": "The c programming language", 
+        "freq": [
+            "87"
+        ], 
+        "id": "kernighan_c_1978", 
+        "auth": "Kernighan", 
+        "year": "1978"
+    }, 
+    {
+        "titl": "Formal languages in music theory", 
+        "freq": [
+            "285"
+        ], 
+        "id": "diener1985", 
+        "auth": "Diener", 
+        "year": "1985"
+    }, 
+    {
+        "titl": "Designing interaction for browsing media collections (by similarity)", 
+        "freq": [
+            "361"
+        ], 
+        "id": "Frisson2015", 
+        "auth": "Frisson", 
+        "year": "2015"
+    }, 
+    {
+        "titl": "TTrees: A tool for the compositional environment", 
+        "freq": [
+            "283"
+        ], 
+        "id": "10.2307/3680043", 
+        "auth": "Diener", 
+        "year": "1989"
+    }, 
+    {
+        "titl": "SCORE: A musician\u2019s approach to computer music", 
+        "freq": [
+            "271", 
+            "288"
+        ], 
+        "id": "smith1971", 
+        "auth": "Smith", 
+        "year": "1972"
+    }, 
+    {
+        "titl": "The score music publishing system", 
+        "freq": [
+            "272"
+        ], 
+        "id": "scoremus", 
+        "auth": "Selfridge-Field", 
+        "year": "1997"
+    }, 
+    {
+        "titl": "Original version of the score11 manual", 
+        "freq": [
+            "278"
+        ], 
+        "id": "score11manual", 
+        "auth": "Brinkman", 
+        "year": "1982"
+    }, 
+    {
+        "titl": "Methods of writing csound scores", 
+        "freq": [
+            "279"
+        ], 
+        "id": "csoundMethods", 
+        "auth": "McCurdy", 
+        "year": "2015"
+    }, 
+    {
+        "titl": "This is for young ears: A response to Elsa Justel\u2019s Marelle...", 
+        "freq": [
+            "545"
+        ], 
+        "id": "fdch/papers/elsa", 
+        "auth": "C\u00e1mara Halac", 
+        "year": "2018"
+    }, 
+    {
+        "titl": "Hearing the self: A spectral experience", 
+        "freq": [
+            "214"
+        ], 
+        "id": "fdch/installation/spectral", 
+        "auth": "Simonelli", 
+        "year": "2017"
+    }, 
+    {
+        "titl": "A spectral experience: Self convolution and face tracking", 
+        "freq": [
+            "217", 
+            "588"
+        ], 
+        "id": "fdch/papers/spectral", 
+        "auth": "C\u00e1mara Halac", 
+        "year": "2018"
+    }, 
+    {
+        "titl": "TOWARDS a typology of feedback systems", 
+        "freq": [
+            "440", 
+            "442", 
+            "443"
+        ], 
+        "id": "icmc/bbp2372.2012.006", 
+        "auth": "Valle", 
+        "year": "2012"
+    }, 
+    {
+        "titl": "The use of hierarchy and instance in a data structure for computer music", 
+        "freq": [
+            "232", 
+            "234", 
+            "242", 
+            "243", 
+            "244"
+        ], 
+        "id": "icmc/bbp2372.1978.012", 
+        "auth": "Buxton", 
+        "year": "1978"
+    }, 
+    {
+        "titl": "An overview of the structured sound synthesis project", 
+        "freq": [
+            "236", 
+            "237", 
+            "239"
+        ], 
+        "id": "DBLP:conf/icmc/BuxtonFBRSCM78", 
+        "auth": "Buxton", 
+        "year": "1978"
+    }, 
+    {
+        "titl": "\"OBJED\" and the design of timbral resources", 
+        "freq": [
+            "235"
+        ], 
+        "id": "DBLP:conf/icmc/BuxtonPRB80", 
+        "auth": "Buxton", 
+        "year": "1980"
+    }, 
+    {
+        "titl": "Musical data structures in a multi-use environment", 
+        "freq": [
+            "273"
+        ], 
+        "id": "icmc/bbp2372.1980.020", 
+        "auth": "Clements", 
+        "year": "1980"
+    }, 
+    {
+        "titl": "A real-time music 11 emulator", 
+        "freq": [
+            "289"
+        ], 
+        "id": "DBLP:conf/icmc/PucketteVS81", 
+        "auth": "Puckette", 
+        "year": "1981"
+    }, 
+    {
+        "titl": "Data structures for a music-11 preprocessor", 
+        "freq": [
+            "277"
+        ], 
+        "id": "icmc/bbp2372.1981.018", 
+        "auth": "Brinkman", 
+        "year": "1981"
+    }, 
+    {
+        "titl": "A design for a single pass scanner for the darms music coding language", 
+        "freq": [
+            "269", 
+            "280"
+        ], 
+        "id": "icmc/bbp2372.1983.002", 
+        "auth": "Brinkman", 
+        "year": "1983"
+    }, 
+    {
+        "titl": "A data structure for computer analysis of musical scores", 
+        "freq": [
+            "281"
+        ], 
+        "id": "icmc/bbp2372.1984.033", 
+        "auth": "Brinkman", 
+        "year": "1984"
+    }, 
+    {
+        "titl": "Applications of linked data structures to automated composition", 
+        "freq": [
+            "88"
+        ], 
+        "id": "icmc/bbp2372.1985.040", 
+        "auth": "Ames", 
+        "year": "1985"
+    }, 
+    {
+        "titl": "Adding a graphical user interface to FORMES", 
+        "freq": [
+            "306"
+        ], 
+        "id": "DBLP:conf/icmc/BoyntonDPR86", 
+        "auth": "Boynton", 
+        "year": "1986"
+    }, 
+    {
+        "titl": "Interprocess communication and timing in real-time computer music performance", 
+        "freq": [
+            "293", 
+            "294", 
+            "295", 
+            "296"
+        ], 
+        "id": "DBLP:conf/icmc/Puckette86", 
+        "auth": "Puckette", 
+        "year": "1986"
+    }, 
+    {
+        "titl": "What ever happened to sssp?", 
+        "freq": [
+            "251", 
+            "254"
+        ], 
+        "id": "DBLP:conf/icmc/FreeV86", 
+        "auth": "Free", 
+        "year": "1986"
+    }, 
+    {
+        "titl": "Data structures in the note processor", 
+        "freq": [
+            "274"
+        ], 
+        "id": "icmc/bbp2372.1987.045", 
+        "auth": "Dydo", 
+        "year": "1987"
+    }, 
+    {
+        "titl": "Towards an extensible data structure for the representation of music on computers", 
+        "freq": [
+            "250", 
+            "252"
+        ], 
+        "id": "icmc/bbp2372.1987.046", 
+        "auth": "Free", 
+        "year": "1987"
+    }, 
+    {
+        "titl": "Kyma: An object-oriented language for music composition", 
+        "freq": [
+            "298", 
+            "299", 
+            "300", 
+            "301", 
+            "304", 
+            "307", 
+            "308"
+        ], 
+        "id": "DBLP:conf/icmc/Scaletti87", 
+        "auth": "Scaletti", 
+        "year": "1987"
+    }, 
+    {
+        "titl": "Diphone sound synthesis based on spectral envelopes and harmonic/noise excitation functions", 
+        "freq": [
+            "331"
+        ], 
+        "id": "DBLP:conf/icmc/RodetDP88", 
+        "auth": "Rodet", 
+        "year": "1988"
+    }, 
+    {
+        "titl": "The CAMP music configuration database", 
+        "freq": [
+            "253", 
+            "255", 
+            "256", 
+            "257"
+        ], 
+        "id": "DBLP:conf/icmc/FreeV88", 
+        "auth": "Free", 
+        "year": "1988"
+    }, 
+    {
+        "titl": "TTrees: An active data structure for computer music", 
+        "freq": [
+            "282", 
+            "284", 
+            "286"
+        ], 
+        "id": "icmc/bbp2372.1988.020", 
+        "auth": "Diener", 
+        "year": "1988"
+    }, 
+    {
+        "titl": "ANIMAL-A rapid prototyping environment for computer music systems", 
+        "freq": [
+            "316"
+        ], 
+        "id": "DBLP:conf/icmc/Lindemann90a", 
+        "auth": "Lindemann", 
+        "year": "1990"
+    }, 
+    {
+        "titl": "A visual programming environment for music notation", 
+        "freq": [
+            "287"
+        ], 
+        "id": "DBLP:conf/icmc/Diener92", 
+        "auth": "Diener", 
+        "year": "1992"
+    }, 
+    {
+        "titl": "Generalized diphone control", 
+        "freq": [
+            "333"
+        ], 
+        "id": "DBLP:conf/icmc/DepalleRGE93", 
+        "auth": "Depalle", 
+        "year": "1993"
+    }, 
+    {
+        "titl": "Macintosh graphical interface and improvements to generalized diphone control and synthesis", 
+        "freq": [
+            "334"
+        ], 
+        "id": "DBLP:conf/icmc/RodetL96", 
+        "auth": "Rodet", 
+        "year": "1996"
+    }, 
+    {
+        "titl": "A system for the musical investigation and expression of levels of self-similarity in an arbitrary data stream", 
+        "freq": [
+            "193"
+        ], 
+        "id": "icmc/bbp2372.1996.085", 
+        "auth": "Rossiter", 
+        "year": "1996"
+    }, 
+    {
+        "titl": "SuperCollider, a new real time synthesis language", 
+        "freq": [
+            "328"
+        ], 
+        "id": "DBLP:conf/icmc/McCartney96", 
+        "auth": "McCartney", 
+        "year": "1996"
+    }, 
+    {
+        "titl": "The diphone program: New features, new synthesis methods and experience of musical use", 
+        "freq": [
+            "335"
+        ], 
+        "id": "DBLP:conf/icmc/RodetL97", 
+        "auth": "Rodet", 
+        "year": "1997"
+    }, 
+    {
+        "titl": "RTcmix - using CMIX in real time", 
+        "freq": [
+            "319", 
+            "323", 
+            "325", 
+            "326", 
+            "327"
+        ], 
+        "id": "DBLP:conf/icmc/GartonT97", 
+        "auth": "Garton", 
+        "year": "1997"
+    }, 
+    {
+        "titl": "An object oriented visual environment for musical composition", 
+        "freq": [
+            "320"
+        ], 
+        "id": "DBLP:conf/icmc/AssayagAFH97", 
+        "auth": "Assayag", 
+        "year": "1997"
+    }, 
+    {
+        "titl": "Pure data", 
+        "freq": [
+            "310"
+        ], 
+        "id": "icmc/bbp2372.1997.060", 
+        "auth": "Puckette", 
+        "year": "1997"
+    }, 
+    {
+        "titl": "Data-driven modeling and synthesis of acoustical instruments", 
+        "freq": [
+            "417"
+        ], 
+        "id": "DBLP:conf/icmc/SchonerCDG98", 
+        "auth": "Sch\u00f6ner", 
+        "year": "1998"
+    }, 
+    {
+        "titl": "Continued evolution of the supercollider real time synthesis environment", 
+        "freq": [
+            "329"
+        ], 
+        "id": "DBLP:conf/icmc/McCartney98", 
+        "auth": "McCartney", 
+        "year": "1998"
+    }, 
+    {
+        "titl": "An extensible real-time signal processing environment for max", 
+        "freq": [
+            "311"
+        ], 
+        "id": "DBLP:conf/icmc/Zicarelli98", 
+        "auth": "Zicarelli", 
+        "year": "1998"
+    }, 
+    {
+        "titl": "The use of melodic segmentation for content-based retrieval of musical data", 
+        "freq": [
+            "164"
+        ], 
+        "id": "icmc/bbp2372.1999.355", 
+        "auth": "Melucci", 
+        "year": "1999"
+    }, 
+    {
+        "titl": "A compositional methodology based on data extracted from natural phenomena", 
+        "freq": [
+            "202"
+        ], 
+        "id": "icmc/bbp2372.2000.123", 
+        "auth": "Barrett", 
+        "year": "2000"
+    }, 
+    {
+        "titl": "Embedding a sensory data retrieval system in a movement-sensitive space and a surround sound system", 
+        "freq": [
+            "377", 
+            "379", 
+            "380", 
+            "381", 
+            "382"
+        ], 
+        "id": "icmc/bbp2372.2000.146", 
+        "auth": "Choi", 
+        "year": "2000"
+    }, 
+    {
+        "titl": "A fast data structure for disk-based audio editing", 
+        "freq": [
+            "92"
+        ], 
+        "id": "icmc/bbp2372.2001.051", 
+        "auth": "Mazzoni", 
+        "year": "2001"
+    }, 
+    {
+        "titl": "Data driven identification and computer animation of bowed string model", 
+        "freq": [
+            "369"
+        ], 
+        "id": "icmc/bbp2372.2001.071", 
+        "auth": "Serafin", 
+        "year": "2001"
+    }, 
+    {
+        "titl": "Towards a virtual membrane: New algorithms and technology for analyzing gestural data", 
+        "freq": [
+            "366", 
+            "368"
+        ], 
+        "id": "icmc/bbp2372.2001.103", 
+        "auth": "Schloss", 
+        "year": "2001"
+    }, 
+    {
+        "titl": "Using pd as a score language", 
+        "freq": [
+            "315", 
+            "317", 
+            "318"
+        ], 
+        "id": "DBLP:conf/icmc/Puckette02", 
+        "auth": "Puckette", 
+        "year": "2002"
+    }, 
+    {
+        "titl": "The sound synthesis system \"otkinshi\": Its data structure and graphical user interface", 
+        "freq": [
+            "336"
+        ], 
+        "id": "icmc/bbp2372.2002.039", 
+        "auth": "Osaka", 
+        "year": "2002"
+    }, 
+    {
+        "titl": "The CUIDADO project: New applications based on audio and music content description", 
+        "freq": [
+            "358"
+        ], 
+        "id": "DBLP:conf/icmc/VinetHP02", 
+        "auth": "Vinet", 
+        "year": "2002"
+    }, 
+    {
+        "titl": "Water music: Sonification of ocean buoy spectral data", 
+        "freq": [
+            "205"
+        ], 
+        "id": "icmc/bbp2372.2002.056", 
+        "auth": "Sturm", 
+        "year": "2002"
+    }, 
+    {
+        "titl": "Ornament as data structure: An algorithmic model based on micro-rhythms of csng laments and funeral music", 
+        "freq": [
+            "351", 
+            "352"
+        ], 
+        "id": "icmc/bbp2372.2003.030", 
+        "auth": "Ariza", 
+        "year": "2003"
+    }, 
+    {
+        "titl": "Sound clustering synthesis using spectral data", 
+        "freq": [
+            "347"
+        ], 
+        "id": "icmc/bbp2372.2003.052", 
+        "auth": "Kobayashi", 
+        "year": "2003"
+    }, 
+    {
+        "titl": "New developments in data-driven concatenative sound synthesis", 
+        "freq": [
+            "342"
+        ], 
+        "id": "icmc/bbp2372.2003.099", 
+        "auth": "Schwarz", 
+        "year": "2003"
+    }, 
+    {
+        "titl": "SDIF sound description data representation and manipulation in computer assisted composition", 
+        "freq": [
+            "321", 
+            "403", 
+            "405"
+        ], 
+        "id": "icmc/bbp2372.2004.004", 
+        "auth": "Bresson", 
+        "year": "2004"
+    }, 
+    {
+        "titl": "Real time sonification of stock market data with sMax", 
+        "freq": [
+            "194"
+        ], 
+        "id": "icmc/bbp2372.2004.124", 
+        "auth": "Ciardi", 
+        "year": "2004"
+    }, 
+    {
+        "titl": "SonART: A framework for data sonification, visualization and networked multimedia applications", 
+        "freq": [
+            "219"
+        ], 
+        "id": "icmc/bbp2372.2004.128", 
+        "auth": "Yeo", 
+        "year": "2004"
+    }, 
+    {
+        "titl": "Semi-supervised classification of musical genre using multi-view features", 
+        "freq": [
+            "128"
+        ], 
+        "id": "DBLP:conf/icmc/XuZY05", 
+        "auth": "Xu", 
+        "year": "2005"
+    }, 
+    {
+        "titl": "Application of image sonification methods to music", 
+        "freq": [
+            "220"
+        ], 
+        "id": "DBLP:conf/icmc/YeoB05", 
+        "auth": "Yeo", 
+        "year": "2005"
+    }, 
+    {
+        "titl": "The semantic hifi project", 
+        "freq": [
+            "359"
+        ], 
+        "id": "DBLP:conf/icmc/Vinet05", 
+        "auth": "Vinet", 
+        "year": "2005"
+    }, 
+    {
+        "titl": "Bioinformatic response data as a compositional driver", 
+        "freq": [
+            "383", 
+            "384"
+        ], 
+        "id": "icmc/bbp2372.2006.123", 
+        "auth": "Hamilton", 
+        "year": "2006"
+    }, 
+    {
+        "titl": "A hand drumming dataset for physical modeling", 
+        "freq": [
+            "393", 
+            "394"
+        ], 
+        "id": "DBLP:conf/icmc/JonesLS07", 
+        "auth": "Jones", 
+        "year": "2007"
+    }, 
+    {
+        "titl": "Soundspotter / remix-tv: Fast approximate matching for audio and video performance", 
+        "freq": [
+            "362", 
+            "363"
+        ], 
+        "id": "DBLP:conf/icmc/CaseyG07", 
+        "auth": "Casey", 
+        "year": "2007"
+    }, 
+    {
+        "titl": "DATA jockey, a tool for meta-data enhanced digital djing and active listening", 
+        "freq": [
+            "360"
+        ], 
+        "id": "icmc/bbp2372.2007.117", 
+        "auth": "Norman", 
+        "year": "2007"
+    }, 
+    {
+        "titl": "Efficient gesture storage and retrieval for multiple applications using a relational data model of open sound control", 
+        "freq": [
+            "395"
+        ], 
+        "id": "icmc/bbp2372.2009.005", 
+        "auth": "Schmeder", 
+        "year": "2009"
+    }, 
+    {
+        "titl": "An object oriented model for the representation of temporal data in the integra framework", 
+        "freq": [
+            "402"
+        ], 
+        "id": "icmc/bbp2372.2009.012", 
+        "auth": "Bullock", 
+        "year": "2009"
+    }, 
+    {
+        "titl": "Perception based multi-genre labeling on music data", 
+        "freq": [
+            "130"
+        ], 
+        "id": "icmc/bbp2372.2010.003", 
+        "auth": "Sanden", 
+        "year": "2010"
+    }, 
+    {
+        "titl": "A timbre analysis and classification toolkit for pure data", 
+        "freq": [
+            "356"
+        ], 
+        "id": "icmc/bbp2372.2010.044", 
+        "auth": "Brent", 
+        "year": "2010"
+    }, 
+    {
+        "titl": "Sonification of web log data", 
+        "freq": [
+            "209"
+        ], 
+        "id": "icmc/bbp2372.2010.117", 
+        "auth": "Ballora", 
+        "year": "2010"
+    }, 
+    {
+        "titl": "Processing sound and music description data using openmusic", 
+        "freq": [
+            "322"
+        ], 
+        "id": "icmc/bbp2372.2010.129", 
+        "auth": "Bresson", 
+        "year": "2010"
+    }, 
+    {
+        "titl": "SOUNDS of simulations: DATA listening space", 
+        "freq": [
+            "197"
+        ], 
+        "id": "icmc/bbp2372.2012.096", 
+        "auth": "Vogt", 
+        "year": "2012"
+    }, 
+    {
+        "titl": "Broadening telematic electroacoustic music by affective rendering and embodied real-time data sonification", 
+        "freq": [
+            "195", 
+            "388"
+        ], 
+        "id": "icmc/bbp2372.2014.046", 
+        "auth": "Whalley", 
+        "year": "2014"
+    }, 
+    {
+        "titl": "Sonification of medical images based on statistical descriptors", 
+        "freq": [
+            "196"
+        ], 
+        "id": "DBLP:conf/icmc/CadizCMMATI15", 
+        "auth": "C\u00e1diz", 
+        "year": "2015"
+    }, 
+    {
+        "titl": "Materialssoundmusic: A computer-aided data-driven composition environment for the sonification and dramatization of scientific data streams", 
+        "freq": [
+            "221"
+        ], 
+        "id": "icmc/bbp2372.2015.072", 
+        "auth": "Nardelli", 
+        "year": "2015"
+    }, 
+    {
+        "titl": "Molecular sonification of nuclear magnetic resonance data as a novel tool for sound creation", 
+        "freq": [
+            "206"
+        ], 
+        "id": "icmc/bbp2372.2016.002", 
+        "auth": "Morawitz", 
+        "year": "2016"
+    }, 
+    {
+        "titl": "The things of shapes: Waveform generation using 3D vertex data", 
+        "freq": [
+            "213"
+        ], 
+        "id": "icmc/bbp2372.2016.056", 
+        "auth": "Schlei", 
+        "year": "2016"
+    }, 
+    {
+        "titl": "Pacific bell tower, a sculptural sound installation for live sonification of earthquake data", 
+        "freq": [
+            "211", 
+            "212"
+        ], 
+        "id": "icmc/bbp2372.2017.033", 
+        "auth": "Lindborg", 
+        "year": "2017"
+    }, 
+    {
+        "titl": "MadBPM: A modular multimodal environment for data-Driven composition and sonification", 
+        "freq": [
+            "222", 
+            "223"
+        ], 
+        "id": "icmc/bbp2372.2017.087", 
+        "auth": "Fox", 
+        "year": "2017"
+    }, 
+    {
+        "titl": "Essentia: An audio analysis library for music information retrieval", 
+        "freq": [
+            "121", 
+            "122"
+        ], 
+        "id": "DBLP:conf/ismir/BogdanovWGGHMRSZS13", 
+        "auth": "Bogdanov", 
+        "year": "2013"
+    }, 
+    {
+        "titl": "Online database of scores in the humdrum file format", 
+        "freq": [
+            "267"
+        ], 
+        "id": "DBLP:conf/ismir/Sapp05", 
+        "auth": "Sapp", 
+        "year": "2005"
+    }, 
+    {
+        "titl": "DALI: A large dataset of synchronized audio, lyrics and notes, automatically created using teacher-student machine learning paradigm.", 
+        "freq": [
+            "182"
+        ], 
+        "id": "DBLP:conf/ismir/Meseguer-Brocal18", 
+        "auth": "Meseguer-Brocal", 
+        "year": "2018"
+    }, 
+    {
+        "titl": "VocalSet: A singing voice dataset", 
+        "freq": [
+            "185"
+        ], 
+        "id": "DBLP:conf/ismir/WilkinsSWP18", 
+        "auth": "Wilkins", 
+        "year": "2018"
+    }, 
+    {
+        "titl": "OpenMIC-2018: An open data-set for multiple instrument recognition", 
+        "freq": [
+            "143"
+        ], 
+        "id": "DBLP:conf/ismir/HumphreyDM18", 
+        "auth": "Humphrey", 
+        "year": "2018"
+    }, 
+    {
+        "titl": "The NES music database: A multi-instrumental dataset with expressive performance attributes", 
+        "freq": [
+            "183"
+        ], 
+        "id": "DBLP:conf/ismir/DonahueMM18", 
+        "auth": "Donahue", 
+        "year": "2018"
+    }, 
+    {
+        "titl": "Audio-aligned jazz harmony dataset for automatic chord transcription and corpus-based research", 
+        "freq": [
+            "159"
+        ], 
+        "id": "DBLP:conf/ismir/EremenkoDBS18", 
+        "auth": "Eremenko", 
+        "year": "2018"
+    }, 
+    {
+        "titl": "GuitarSet: A dataset for guitar transcription", 
+        "freq": [
+            "184"
+        ], 
+        "id": "DBLP:conf/ismir/XiBPYB18", 
+        "auth": "Xi", 
+        "year": "2018"
+    }, 
+    {
+        "titl": "The music listening histories dataset", 
+        "freq": [
+            "181"
+        ], 
+        "id": "DBLP:conf/ismir/VigliensoniF17", 
+        "auth": "Vigliensoni", 
+        "year": "2017"
+    }, 
+    {
+        "titl": "A database linking piano and orchestral MIDI scores with application to automatic projective orchestration", 
+        "freq": [
+            "166"
+        ], 
+        "id": "DBLP:conf/ismir/CrestelEHM17", 
+        "auth": "Crestel", 
+        "year": "2017"
+    }, 
+    {
+        "titl": "MedleyDB: A multitrack dataset for annotation-intensive MIR research", 
+        "freq": [
+            "147"
+        ], 
+        "id": "DBLP:conf/ismir/BittnerSTMCB14", 
+        "auth": "Bittner", 
+        "year": "2014"
+    }, 
+    {
+        "titl": "Musical structural analysis database based on GTTM", 
+        "freq": [
+            "155"
+        ], 
+        "id": "DBLP:conf/ismir/HamanakaHT14", 
+        "auth": "Hamanaka", 
+        "year": "2014"
+    }, 
+    {
+        "titl": "The VIS framework: Analyzing counterpoint in large datasets", 
+        "freq": [
+            "156"
+        ], 
+        "id": "DBLP:conf/ismir/AntilaC14", 
+        "auth": "Antila", 
+        "year": "2014"
+    }, 
+    {
+        "titl": "A data set for computational studies of schenkerian analysis", 
+        "freq": [
+            "150"
+        ], 
+        "id": "DBLP:conf/ismir/Kirlin14", 
+        "auth": "Kirlin", 
+        "year": "2014"
+    }, 
+    {
+        "titl": "Introducing a dataset of emotional and color responses to music", 
+        "freq": [
+            "139"
+        ], 
+        "id": "DBLP:conf/ismir/PesekGPSGSPM14", 
+        "auth": "Pesek", 
+        "year": "2014"
+    }, 
+    {
+        "titl": "Freesound datasets: A platform for the creation of open audio datasets", 
+        "freq": [
+            "115"
+        ], 
+        "id": "DBLP:conf/ismir/FonsecaPFFBFOPS17", 
+        "auth": "Fonseca", 
+        "year": "2017"
+    }, 
+    {
+        "titl": "FMA: A dataset for music analysis", 
+        "freq": [
+            "180"
+        ], 
+        "id": "DBLP:conf/ismir/DefferrardBVB17", 
+        "auth": "Defferrard", 
+        "year": "2017"
+    }, 
+    {
+        "titl": "Breathy or resonant - A controlled and curated dataset for phonation mode detection in singing", 
+        "freq": [
+            "157"
+        ], 
+        "id": "DBLP:conf/ismir/ProutskovaRWC12", 
+        "auth": "Proutskova", 
+        "year": "2012"
+    }, 
+    {
+        "titl": "A turkish makam music symbolic database for music information retrieval: SymbTr", 
+        "freq": [
+            "175"
+        ], 
+        "id": "DBLP:conf/ismir/Karaosmanoglu12", 
+        "auth": "Karaosmanoglu", 
+        "year": "2012"
+    }, 
+    {
+        "titl": "Design and creation of a large-scale database of structural annotations", 
+        "freq": [
+            "149"
+        ], 
+        "id": "DBLP:conf/ismir/SmithBFRD11", 
+        "auth": "Smith", 
+        "year": "2011"
+    }, 
+    {
+        "titl": "The million song dataset", 
+        "freq": [
+            "174"
+        ], 
+        "id": "DBLP:conf/ismir/Bertin-MahieuxEWL11", 
+        "auth": "Bertin-Mahieux", 
+        "year": "2011"
+    }, 
+    {
+        "titl": "The million musical tweet dataset - what we can learn from microblogs", 
+        "freq": [
+            "145"
+        ], 
+        "id": "DBLP:conf/ismir/HaugerSKT13", 
+        "auth": "Hauger", 
+        "year": "2013"
+    }, 
+    {
+        "titl": "Two data sets for tempo estimation and key detection in electronic dance music annotated from user corrections", 
+        "freq": [
+            "154"
+        ], 
+        "id": "DBLP:conf/ismir/KneesFHVBHG15", 
+        "auth": "Knees", 
+        "year": "2015"
+    }, 
+    {
+        "titl": "Theme and variation encodings with roman numerals (TAVERN): A new data set for symbolic music analysis", 
+        "freq": [
+            "151"
+        ], 
+        "id": "DBLP:conf/ismir/DevaneyACN15", 
+        "auth": "Devaney", 
+        "year": "2015"
+    }, 
+    {
+        "titl": "A new music database describing deviation information of performance expressions", 
+        "freq": [
+            "136"
+        ], 
+        "id": "DBLP:conf/ismir/HashidaMK08", 
+        "auth": "Hashida", 
+        "year": "2008"
+    }, 
+    {
+        "titl": "The latin music database", 
+        "freq": [
+            "129"
+        ], 
+        "id": "DBLP:conf/ismir/SillaKK08", 
+        "auth": "Jr.", 
+        "year": "2008"
+    }, 
+    {
+        "titl": "A music database and query system for recombinant composition", 
+        "freq": [
+            "173"
+        ], 
+        "id": "DBLP:conf/ismir/MaxwellE08", 
+        "auth": "Maxwell", 
+        "year": "2008"
+    }, 
+    {
+        "titl": "Synthesized polyphonic music database with verifiable ground truth for multiple F0 estimation", 
+        "freq": [
+            "144"
+        ], 
+        "id": "DBLP:conf/ismir/YehBR07", 
+        "auth": "Yeh", 
+        "year": "2007"
+    }, 
+    {
+        "titl": "Song intersection by approximate nearest neighbor search", 
+        "freq": [
+            "364"
+        ], 
+        "id": "DBLP:conf/ismir/CaseyS06", 
+        "auth": "Casey", 
+        "year": "2006"
+    }, 
+    {
+        "titl": "A benchmark dataset for audio classification and clustering", 
+        "freq": [
+            "125"
+        ], 
+        "id": "DBLP:conf/ismir/HomburgMMMW05", 
+        "auth": "Homburg", 
+        "year": "2005"
+    }, 
+    {
+        "titl": "An MPEG-7 database system and application for content-based management and retrieval of music", 
+        "freq": [
+            "172"
+        ], 
+        "id": "DBLP:conf/ismir/WustC04", 
+        "auth": "W\u00fcst", 
+        "year": "2004"
+    }, 
+    {
+        "titl": "RWC music database: Music genre database and musical instrument sound database", 
+        "freq": [
+            "171"
+        ], 
+        "id": "DBLP:conf/ismir/GotoHNO03", 
+        "auth": "Goto", 
+        "year": "2003"
+    }, 
+    {
+        "titl": "The CUIDADO project", 
+        "freq": [
+            "357"
+        ], 
+        "id": "DBLP:conf/ismir/VinetHP02", 
+        "auth": "Vinet", 
+        "year": "2002"
+    }, 
+    {
+        "titl": "RWC music database: Popular, classical and jazz music databases", 
+        "freq": [
+            "170"
+        ], 
+        "id": "DBLP:conf/ismir/GotoHNO02", 
+        "auth": "Goto", 
+        "year": "2002"
+    }, 
+    {
+        "titl": "Beyond VARIATIONS: creating a digital music library", 
+        "freq": [
+            "168"
+        ], 
+        "id": "DBLP:conf/ismir/Dunn00", 
+        "auth": "Dunn", 
+        "year": "2000"
+    }, 
+    {
+        "titl": "Representing music using XML", 
+        "freq": [
+            "169"
+        ], 
+        "id": "DBLP:conf/ismir/Good00", 
+        "auth": "Good", 
+        "year": "2000"
+    }, 
+    {
+        "titl": "Funes el memorioso", 
+        "freq": [
+            "54", 
+            "55", 
+            "477"
+        ], 
+        "id": "Bor42:Fun", 
+        "auth": "Borges", 
+        "year": "1942"
+    }, 
+    {
+        "titl": "Rationalizing culture", 
+        "freq": [
+            "546", 
+            "547"
+        ], 
+        "id": "Bor95:Rat", 
+        "auth": "Born", 
+        "year": "1995"
+    }, 
+    {
+        "titl": "Performative acts and gender constitution: An essay in phenomenology and feminist theory", 
+        "freq": [
+            "11", 
+            "513", 
+            "514", 
+            "515", 
+            "516", 
+            "517", 
+            "518", 
+            "519", 
+            "520", 
+            "521", 
+            "522", 
+            "525", 
+            "532"
+        ], 
+        "id": "But88:Per", 
+        "auth": "Butler", 
+        "year": "1988"
+    }, 
+    {
+        "titl": "The database: An aesthetics of dignity", 
+        "freq": [
+            "533"
+        ], 
+        "id": "Dan07:The", 
+        "auth": "Daniel", 
+        "year": "2007"
+    }, 
+    {
+        "titl": "Archive fever: A freudian impression", 
+        "freq": [
+            "10", 
+            "485", 
+            "486", 
+            "487", 
+            "488", 
+            "489", 
+            "490", 
+            "491", 
+            "492", 
+            "493", 
+            "496", 
+            "497", 
+            "507", 
+            "508", 
+            "509", 
+            "511"
+        ], 
+        "id": "Der95:Arc", 
+        "auth": "Derrida", 
+        "year": "1995"
+    }, 
+    {
+        "titl": "Writing and difference", 
+        "freq": [
+            "9", 
+            "468", 
+            "469", 
+            "470", 
+            "471", 
+            "473", 
+            "475", 
+            "481", 
+            "483", 
+            "484"
+        ], 
+        "id": "Der78:Wri", 
+        "auth": "Derrida", 
+        "year": "1978"
+    }, 
+    {
+        "titl": "The poetics of the open work", 
+        "freq": [
+            "611"
+        ], 
+        "id": "Eco04:The", 
+        "auth": "Eco", 
+        "year": "2004"
+    }, 
+    {
+        "titl": "The nancy dictionary", 
+        "freq": [
+            "420", 
+            "421", 
+            "422", 
+            "426", 
+            "472", 
+            "609"
+        ], 
+        "id": "Gra15:The", 
+        "auth": "Gratton", 
+        "year": "2015"
+    }, 
+    {
+        "titl": "The materiality of informatics", 
+        "freq": [
+            "56", 
+            "57", 
+            "59"
+        ], 
+        "id": "Hay93:The", 
+        "auth": "Hayles", 
+        "year": "1993"
+    }, 
+    {
+        "titl": "Experimental music: Composition with an electronic computer", 
+        "freq": [
+            "539", 
+            "584"
+        ], 
+        "id": "Hil59:Exp", 
+        "auth": "Hiller", 
+        "year": "1959"
+    }, 
+    {
+        "titl": "Waiting for the world to explode: How data convert into a novel", 
+        "freq": [
+            "30", 
+            "31", 
+            "32", 
+            "33"
+        ], 
+        "id": "Kle07:Wai", 
+        "auth": "Klein", 
+        "year": "2007"
+    }, 
+    {
+        "titl": "On actor-network theory. A few clarifications plus more than a few complications", 
+        "freq": [
+            "7", 
+            "427", 
+            "428", 
+            "429", 
+            "431", 
+            "432", 
+            "433", 
+            "434", 
+            "435", 
+            "436", 
+            "450", 
+            "451", 
+            "452", 
+            "453", 
+            "454", 
+            "456", 
+            "457", 
+            "460", 
+            "461", 
+            "464"
+        ], 
+        "id": "Lat90:On", 
+        "auth": "Latour", 
+        "year": "1990"
+    }, 
+    {
+        "titl": "We have never been modern", 
+        "freq": [
+            "427"
+        ], 
+        "id": "Lat93:We", 
+        "auth": "Latour", 
+        "year": "1993"
+    }, 
+    {
+        "titl": "Too many notes: Computers, complexity, and culture in voyager", 
+        "freq": [
+            "578"
+        ], 
+        "id": "Lew00:Too", 
+        "auth": "Lewis", 
+        "year": "2000"
+    }, 
+    {
+        "titl": "The language of new media", 
+        "freq": [
+            "1", 
+            "15", 
+            "16", 
+            "17", 
+            "18", 
+            "21", 
+            "22", 
+            "23", 
+            "47", 
+            "60", 
+            "73", 
+            "74", 
+            "75"
+        ], 
+        "id": "Man01:The", 
+        "auth": "Manovich", 
+        "year": "2001"
+    }, 
+    {
+        "titl": "The inoperative community", 
+        "freq": [
+            "8", 
+            "446", 
+            "447", 
+            "448", 
+            "449", 
+            "458", 
+            "459", 
+            "462", 
+            "467"
+        ], 
+        "id": "Nan91:The", 
+        "auth": "Nancy", 
+        "year": "1991"
+    }, 
+    {
+        "titl": "Listening", 
+        "freq": [
+            "5", 
+            "6", 
+            "419", 
+            "423", 
+            "424", 
+            "425", 
+            "445"
+        ], 
+        "id": "Nan07:Lis", 
+        "auth": "Nancy", 
+        "year": "2007"
+    }, 
+    {
+        "titl": "The database as system and cultural form: Anatomies of cultural narratives", 
+        "freq": [
+            "80"
+        ], 
+        "id": "Pau07:The", 
+        "auth": "Paul", 
+        "year": "2007"
+    }, 
+    {
+        "titl": "Microsound", 
+        "freq": [
+            "540", 
+            "541"
+        ], 
+        "id": "Roa04:Mic", 
+        "auth": "Roads", 
+        "year": "2001"
+    }, 
+    {
+        "titl": "Determinism and the false collective about models of time in early computer-aided composition", 
+        "freq": [
+            "529", 
+            "531"
+        ], 
+        "id": "Vag93:Det", 
+        "auth": "Vaggione", 
+        "year": "1993"
+    }, 
+    {
+        "titl": "The liberation of sound", 
+        "freq": [
+            "598", 
+            "599"
+        ], 
+        "id": "Var04:The", 
+        "auth": "Varese", 
+        "year": "2004"
+    }, 
+    {
+        "titl": "Preliminary discussion of the logical design of an electronic computing instrument", 
+        "freq": [
+            "77", 
+            "78", 
+            "79"
+        ], 
+        "id": "von46:Pre", 
+        "auth": "von Neumann", 
+        "year": "1946"
+    }, 
+    {
+        "titl": "Ocean, database, recut", 
+        "freq": [
+            "19", 
+            "20", 
+            "76"
+        ], 
+        "id": "Wei07:Oce", 
+        "auth": "Weinbren", 
+        "year": "2007"
+    }, 
+    {
+        "titl": "Formalized music: Thought and mathematics in music", 
+        "freq": [
+            "240", 
+            "539", 
+            "552", 
+            "553", 
+            "554", 
+            "555", 
+            "556", 
+            "557", 
+            "562", 
+            "574", 
+            "576"
+        ], 
+        "id": "Xen92:For", 
+        "auth": "Xenakis", 
+        "year": "1992"
+    }, 
+    {
+        "titl": "Into the universe of technical images", 
+        "freq": [
+            "246", 
+            "247", 
+            "248", 
+            "249"
+        ], 
+        "id": "Flu11:Int", 
+        "auth": "Flusser", 
+        "year": "2011"
+    }, 
+    {
+        "titl": "Introduction", 
+        "freq": [
+            "34"
+        ], 
+        "id": "Pos11:Int", 
+        "auth": "Poster", 
+        "year": "2011"
+    }, 
+    {
+        "titl": "New philosophy for new media", 
+        "freq": [
+            "4", 
+            "45", 
+            "46", 
+            "48", 
+            "49"
+        ], 
+        "id": "Han04:New", 
+        "auth": "Hansen", 
+        "year": "2004"
+    }, 
+    {
+        "titl": "Cinema beyond cybernetics, or how to frame the digital image", 
+        "freq": [
+            "27", 
+            "28", 
+            "29", 
+            "50", 
+            "51", 
+            "52", 
+            "53"
+        ], 
+        "id": "Han02:Cin", 
+        "auth": "Hansen", 
+        "year": "2002"
+    }, 
+    {
+        "titl": "How we became posthuman: Virtual bodies in cybernetics, literature, and informatics", 
+        "freq": [
+            "3", 
+            "35", 
+            "36", 
+            "37", 
+            "38", 
+            "39", 
+            "40", 
+            "41", 
+            "42", 
+            "43", 
+            "44", 
+            "523"
+        ], 
+        "id": "Hay99:How", 
+        "auth": "Hayles", 
+        "year": "1999"
+    }, 
+    {
+        "titl": "Database aesthetics: Art in the age of information overflow", 
+        "freq": [
+            "2"
+        ], 
+        "id": "Ves07:Dat", 
+        "auth": "Vesna", 
+        "year": "2007"
+    }, 
+    {
+        "titl": "Circle canon chorus system used to enjoy a musical ensemble singing \"frog round\"", 
+        "freq": [
+            "385", 
+            "386", 
+            "387"
+        ], 
+        "id": "Nakamoto2007", 
+        "auth": "Nakamoto", 
+        "year": "2007"
+    }, 
+    {
+        "titl": "Live coding practice", 
+        "freq": [
+            "408"
+        ], 
+        "id": "Nilson2007", 
+        "auth": "Nilson", 
+        "year": "2007"
+    }, 
+    {
+        "titl": "Bowstroke database : A web-accessible archive of violin bowing data", 
+        "freq": [
+            "396"
+        ], 
+        "id": "Young2007", 
+        "auth": "Young", 
+        "year": "2007"
+    }, 
+    {
+        "titl": "Programming a music synthesizer through data mining", 
+        "freq": [
+            "416"
+        ], 
+        "id": "Loviscach2008", 
+        "auth": "Loviscach", 
+        "year": "2008"
+    }, 
+    {
+        "titl": "Database and mapping design for audiovisual prepared radio set installation", 
+        "freq": [
+            "365"
+        ], 
+        "id": "Price2008", 
+        "auth": "Price", 
+        "year": "2008"
+    }, 
+    {
+        "titl": "Towards a humane graphical user interface for live electronic music", 
+        "freq": [
+            "338"
+        ], 
+        "id": "Bullock2009", 
+        "auth": "Bullock", 
+        "year": "2009"
+    }, 
+    {
+        "titl": "Multimodal musician recognition", 
+        "freq": [
+            "397"
+        ], 
+        "id": "Hochenbaum2010", 
+        "auth": "Hochenbaum", 
+        "year": "2010"
+    }, 
+    {
+        "titl": "Integra live : A new graphical user interface for live electronic music", 
+        "freq": [
+            "339"
+        ], 
+        "id": "Bullock2011", 
+        "auth": "Bullock", 
+        "year": "2011"
+    }, 
+    {
+        "titl": "Sound selection by gestures", 
+        "freq": [
+            "375"
+        ], 
+        "id": "Caramiaux2011", 
+        "auth": "Caramiaux", 
+        "year": "2011"
+    }, 
+    {
+        "titl": "Acquisition and study of blowing pressure profiles in recorder playing", 
+        "freq": [
+            "398"
+        ], 
+        "id": "Garcia2011", 
+        "auth": "Garc\u0131\u0301a", 
+        "year": "2011"
+    }, 
+    {
+        "titl": "The emotion in motion experiment: Using an interactive installation as a means for understanding emotional response to music", 
+        "freq": [
+            "176"
+        ], 
+        "id": "Jaimovich:2012", 
+        "auth": "Jaimovich", 
+        "year": "2012"
+    }, 
+    {
+        "titl": "The sound space as musical instrument: Playing corpus-based concatenative synthesis", 
+        "freq": [
+            "346"
+        ], 
+        "id": "Schwarz:2012", 
+        "auth": "Schwarz", 
+        "year": "2012"
+    }, 
+    {
+        "titl": "Cloud bridge: A data-driven immersive audio-visual software interface", 
+        "freq": [
+            "389"
+        ], 
+        "id": "Liu:2013", 
+        "auth": "Liu", 
+        "year": "2013"
+    }, 
+    {
+        "titl": "Mining unlabeled electronic music databases through 3D interactive visualization of latent component relationships", 
+        "freq": [
+            "177"
+        ], 
+        "id": "Mital:2013", 
+        "auth": "Mital", 
+        "year": "2013"
+    }, 
+    {
+        "titl": "SynthAssist: Querying an audio synthesizer by vocal imitation", 
+        "freq": [
+            "376"
+        ], 
+        "id": "mcartwright:2014", 
+        "auth": "Cartwright", 
+        "year": "2014"
+    }, 
+    {
+        "titl": "Rapid creation and publication of digital musical instruments", 
+        "freq": [
+            "410"
+        ], 
+        "id": "croberts:2014", 
+        "auth": "Roberts", 
+        "year": "2014"
+    }, 
+    {
+        "titl": "Simplified expressive mobile development with nexusui, nexusup, and nexusdrop", 
+        "freq": [
+            "390"
+        ], 
+        "id": "btaylor:2014", 
+        "auth": "Taylor", 
+        "year": "2014"
+    }, 
+    {
+        "titl": "Emotion in motion: A reimagined framework for biomusical/emotional interaction", 
+        "freq": [
+            "178"
+        ], 
+        "id": "bbortz:2015", 
+        "auth": "Bortz", 
+        "year": "2015"
+    }, 
+    {
+        "titl": "Creating biosignal algorithms for musical applications from an extensive physiological database", 
+        "freq": [
+            "179"
+        ], 
+        "id": "jjaimovich:2015", 
+        "auth": "Jaimovich", 
+        "year": "2015"
+    }, 
+    {
+        "titl": "Towards a mappable database of emergent gestural meaning", 
+        "freq": [
+            "179"
+        ], 
+        "id": "Nort2016", 
+        "auth": "Nort", 
+        "year": "2016"
+    }, 
+    {
+        "titl": "An interactive software instrument for real-time rhythmic concatenative synthesis", 
+        "freq": [
+            "350"
+        ], 
+        "id": "Nuannicode225in2016", 
+        "auth": "Nuan\u00e0in", 
+        "year": "2016"
+    }, 
+    {
+        "titl": "A knowledge-based, data-driven method for action-sound mapping", 
+        "freq": [
+            "399"
+        ], 
+        "id": "fvisi:2017", 
+        "auth": "Visi", 
+        "year": "2017"
+    }, 
+    {
+        "titl": "An intelligent drum machine for electronic dance music production and performance", 
+        "freq": [
+            "415"
+        ], 
+        "id": "rvogl:2017", 
+        "auth": "Vogl", 
+        "year": "2017"
+    }, 
+    {
+        "titl": "Live repurposing of sounds: MIR explorations with personal and crowdsourced databases", 
+        "freq": [
+            "411"
+        ], 
+        "id": "nime18-Xambo-b", 
+        "auth": "Xambo", 
+        "year": "2018"
+    }, 
+    {
+        "titl": "Horizontal and Vertical Integration/Segregation in Auditory Streaming: A Voice Separation Algorithm for Symbolic Musical Data", 
+        "freq": [
+            "146"
+        ], 
+        "id": "ioannis_karydis_2007_849469", 
+        "auth": "Karydis", 
+        "year": "2007"
+    }, 
+    {
+        "titl": "Factors in Human Recognition of Timbre Lexicons Generated by Data Clustering", 
+        "freq": [
+            "117"
+        ], 
+        "id": "gerard_roma_2012_850102", 
+        "auth": "Xambo", 
+        "year": "2012"
+    }, 
+    {
+        "titl": "CrestMusePEDB 2nd EDITION: MUSIC PERFORMANCE DATABASE WITH PHRASE INFORMATION", 
+        "freq": [
+            "138"
+        ], 
+        "id": "mitsuyo_hashida_2018_1422503", 
+        "auth": "Hashida", 
+        "year": "2018"
+    }, 
+    {
+        "titl": "AV Clash - Online Tool for Mixing and Visualizing Audio Retrieved From freesound.org Database", 
+        "freq": [
+            "116"
+        ], 
+        "id": "nuno_n_correia_2010_849729", 
+        "auth": "Correia", 
+        "year": "2010"
+    }, 
+    {
+        "titl": "A Toolbox for Storing and Streaming Music-related Data", 
+        "freq": [
+            "404"
+        ], 
+        "id": "kristian_nymoen_2011_849865", 
+        "auth": "Nymoen", 
+        "year": "2011"
+    }, 
+    {
+        "titl": "MX structural metadata as mir tools", 
+        "freq": [
+            "152"
+        ], 
+        "id": "goffredo_haus_2005_849297", 
+        "auth": "Haus", 
+        "year": "2005"
+    }, 
+    {
+        "titl": "\\#nowplaying-RS: A New Benchmark Dataset for Building Context-Aware Music Recommender Systems", 
+        "freq": [
+            "114"
+        ], 
+        "id": "asmita_poddar_2018_1422565", 
+        "auth": "Poddar", 
+        "year": "2018"
+    }, 
+    {
+        "titl": "Modeling Carnatic Rhythm Generation: a Data Driven Approach Based on Rhythmic Analysis", 
+        "freq": [
+            "167"
+        ], 
+        "id": "carlos_guedes_2018_1422615", 
+        "auth": "Guedes", 
+        "year": "2018"
+    }, 
+    {
+        "titl": "Generating Data to Train Convolutional Neural Networks for Classical Music Source Separation", 
+        "freq": [
+            "158"
+        ], 
+        "id": "marius_miron_2017_1401923", 
+        "auth": "Miron", 
+        "year": "2017"
+    }, 
+    {
+        "titl": "Constructing PEDB 2nd Edition: A Music Performance Database with Phrase Information", 
+        "freq": [
+            "137"
+        ], 
+        "id": "mitsuyo_hashida_2017_1401963", 
+        "auth": "Hashida", 
+        "year": "2017"
+    }, 
+    {
+        "titl": "Sound Search by Content-based Navigation in Large Databases", 
+        "freq": [
+            "345"
+        ], 
+        "id": "diemo_schwarz_2009_849679", 
+        "auth": "Schwarz", 
+        "year": "2009"
+    }, 
+    {
+        "titl": "Imitative and Generative Orchestrations Using Pre- analysed Sounds Databases", 
+        "freq": [
+            "353"
+        ], 
+        "id": "gregoire_carpentier_2006_849343", 
+        "auth": "Carpentier", 
+        "year": "2006"
+    }, 
+    {
+        "titl": "A Study on Cross-cultural and Cross-dataset Generalizability of Music Mood Regression Models", 
+        "freq": [
+            "141"
+        ], 
+        "id": "xiao_hu_2014_850795", 
+        "auth": "Hu", 
+        "year": "2014"
+    }, 
+    {
+        "titl": "An Exploration of Mood Classification in the Million Songs Dataset", 
+        "freq": [
+            "142"
+        ], 
+        "id": "humberto_corona_2015_851021", 
+        "auth": "Corona", 
+        "year": "2015"
+    }, 
+    {
+        "titl": "A Java Framework for Data Sonification and 3D Graphic Rendering", 
+        "freq": [
+            "231"
+        ], 
+        "id": "domenico_vicinanza_2006_849321", 
+        "auth": "Vicinanza", 
+        "year": "2006"
+    }, 
+    {
+        "titl": "Relative DTW Embedding for Binary Classification of Audio Data", 
+        "freq": [
+            "126"
+        ], 
+        "id": "marcelo_queiroz_2018_1422585", 
+        "auth": "Queiroz", 
+        "year": "2018"
+    }, 
+    {
+        "titl": "Building a Music Search Database Using Human Computation", 
+        "freq": [
+            "160"
+        ], 
+        "id": "mark_cartwright_2012_850060", 
+        "auth": "Cartwright", 
+        "year": "2012"
+    }, 
+    {
+        "titl": "Theory of sonification", 
+        "freq": [
+            "186", 
+            "187", 
+            "188", 
+            "189", 
+            "190", 
+            "191"
+        ], 
+        "id": "WalkerNees2011-TOS", 
+        "auth": "Walker", 
+        "year": "2011"
+    }, 
+    {
+        "titl": "Psychoacoustics", 
+        "freq": [
+            "192"
+        ], 
+        "id": "Carlile2011-P", 
+        "auth": "Carlile", 
+        "year": "2011"
+    }, 
+    {
+        "titl": "Music database retrieval based on spectral similarity", 
+        "freq": [
+            "124"
+        ], 
+        "id": "ilprints489", 
+        "auth": "Yang", 
+        "year": "2001"
+    }, 
+    {
+        "titl": "Database research: Achievements and opportunities into the 21st century", 
+        "freq": [
+            "84"
+        ], 
+        "id": "ilprints81", 
+        "auth": "Silberschatz", 
+        "year": "1995"
+    }
+]
