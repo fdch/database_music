@@ -71,7 +71,7 @@ with open("./glossary/definitions.tex", "w") as g:
 						des=des+" "+url
 				# entry="\\newdualentry{"+lab+"}{"+abb+"}\n\t{"+lng+"}\n\t{"+des+"}\n"
 				entry="\\newglossaryentry{gls-"+lab+"}{\n\tname={"+abb+"},\n\tdescription={"+des+"}\n}\n"
-				# entry+="\\makeglossaries"
+				entry+="\\makeglossaries"
 				entry+="\\newacronym[see={[Glossary:]{gls-"+lab+"}}]{"+lab+"}{"+abb+"}{"+lng+"\\glsadd{gls-"+lab+"}}\n"
 # \newacronym[see={[Glossary:]{gls-OWD}}]{OWD}{OWD}{One-Way Delay\glsadd{gls-OWD}}
 
