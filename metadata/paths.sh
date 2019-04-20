@@ -14,6 +14,7 @@ FMTDIR=$ROOTDIR/frontmatter
 GLOSSARY=$ROOTDIR/glossary/ # slash needed
 TMPDIR=$ROOTDIR/temp
 OUTDIR=$ROOTDIR/output
+BIBTIME=$ROOTDIR/bibtime
 #	FILES
 WCFILE=$ROOTDIR/main.csv
 FRONTIMG=$IMGDIR/dbtree.png

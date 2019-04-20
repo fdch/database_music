@@ -474,7 +474,7 @@ I have already warned the reader about the aesthetic impulse of a composer writi
 %	BEGIN chapter: Database Art ----
 %
 %------------------------------------------------------------------------------
-\part{Database Art}
+\chapter{Database Art}
 \label{part-2}
 
 \glsresetall
@@ -492,7 +492,7 @@ I have already warned the reader about the aesthetic impulse of a composer writi
 %	BEGIN section: The Database In New Media Theory ----
 %
 %------------------------------------------------------------------------------
-\chapter{The Database In New Media Theory}
+\section{The Database In New Media Theory}
 \label{section-1}
 
 \glsresetall
@@ -751,7 +751,7 @@ While Manovich calls for an ``info-aesthetics'' \parencite[217]{Man01:The}, as w
 %	BEGIN section: Databasing And The History Of Databases ----
 %
 %------------------------------------------------------------------------------
-\chapter{Databasing And The History Of Databases}
+\section{Databasing And The History Of Databases}
 \label{section-2}
 
 \glsresetall
@@ -780,7 +780,7 @@ Like Manovich, Weinbren finds a redefinition in filmmaking impulsed by the selec
 
 Databasing is a term I have chosen that best describes the practice of the database, that is, a term that includes the elements and actions of database practices, together with their temporality. The elements of databasing are the different data types and structures that build more complex database systems. The actions of databasing are, on the one hand, the type of operations that a database allows, and on the other, the bodily activity that occur before and after these operations. That is to say, since the operational level occurs below the perceptual threshold of the body, I consider the actions surrounding the immediacy of computations to be defining aspects of databasing.
 
-\section{Data types and structures}
+\subsubsection{Data types and structures}
 
 Depending on the programming language, data types may or may not be part of a data structure, and they store different types of values such as \texttt{int, float, char}. These types are then interpreted in binary language by the compiler. Grouping these types into larger sets results in \texttt{array}s. For example, in the C programming language, programmers `declare' variables first ---e.g., \texttt{unsigned char age}--- and then `initialize' them with some data ---e.g., \texttt{age=30}. A simple variable like one's `age' needs only one value, and given that the \texttt{unsigned char} data type only stores values from 0-255, it is safe to use in this case: no age can be negative, no human can live longer than 255 years.
 
@@ -796,7 +796,7 @@ typedef struct Person {
 \end{lstlisting}
 \end{flushleft}
 
-\section{Temporality of Databasing}
+\subsubsection{Temporality of Databasing}
 
 At this point it is important to refer to the higher or lower levels of computer software. A software that is `higher' means that its simplest operations are composed of multiple smaller operations. The user can thus `forget' about certain complexities that come from low-level programs, such as memory management. In this sense, low-level programs operate `closer' to hardware, and programmers need to work at a more granular level. While the above data structure contains low-level features such as setting the size of the name array, it releases the programmer from thinking binary conversion. This means that unless you are changing values directly on the memory card (which is unthinkable), there will most likely be an underpinning software layer. 
 
@@ -809,7 +809,7 @@ This is why the temporality of databasing is context-dependent. As Hansen pointe
 What is important to note here, is that these interrelations of what is \textit{already there} in software development can be thought of as resonances colliding their way into stability; a stability that emerges not only as a `stable release' of the code, but also as the condensed multiplicity of worlds that is displaced into a software package. Therefore, data structures are world-making and world-revealing devices that engage with our own capacity for virtuality, and thus they are nodes in our world-making networks.
 
 
-\section{Databasing and Writing}
+\subsubsection{Databasing and Writing}
 
 As with other new media, the terminology used to describe computer memory is often borrowed from earlier media practices like printed text: reading, writing, and erasing. Computer memory thus shares with writing the property of hypomnesis, that is, of displacing the role of human memory with an external non-human device. In the case of the computer memory however, the scale of this displacement is extremely large, both in terms of the amounts of data that can be stored and the speed with which it can be stored. For example, the 40-bit long 4000 numbers that Von Neumann was aiming at for their memory `organ' ---which was more than plenty for the computational purposes required at the time--- represents around 16 Kilobytes, something which today might seem absurd in comparison to current computer storage capabilities that can be found in the case of cloud computing. In light of this fact, we might ask ourselves how is human work transformed through interaction with these massive external memories? Database practice has direct effects on temporality and on memory. Therefore, when designing computer software for art, the way in which data is structured, together with the speed and design of data flow, has significant effects on the temporality of art altogether as a practice. 
 
@@ -828,7 +828,7 @@ iteration {
 \end{flushleft}
 
 
-\section{The Von Neumann Architecture}
+\subsubsection{The Von Neumann Architecture}
 
 \begin{quote}
 	Inasmuch as the completed device will be a general-purpose computing machine it should contain certain main organs relating to arithmetic, memory-storage, control and connection with the human operator. It is intended that the machine be fully automatic in character, i.e. independent of the human operator after the computation starts \parencite[1]{von46:Pre}.
@@ -958,7 +958,7 @@ In essence, all \gls{dbms}s share the same function: provide access to a databas
 
 
 
-\section{Hierarchical}
+\subsubsection{Hierarchical}
 \label{model:hierarchical}
 
 \img{hierarchical}{0.2}{
@@ -969,7 +969,7 @@ The hierarchical model was developed at \gls{ibm} during the early 1960s, in con
 
 This model is useful for nesting structures such as directory trees and path structures in most operating systems today. The relational model eclipsed their use within database systems during the 1980s, but it resurfaced through relational-type implementations of hierarchical models, and with the appearance of semi-structured model in the late 1990s \see{model:semistructured}.
 
-\section{Network}
+\subsubsection{Network}
 \label{model:network}
 
 \img{network}{0.2}{
@@ -983,7 +983,7 @@ The advent of disk-based database systems, in contrast to magnetic tape or punch
 
 The navigational paradigm was implemented not only in network model, also in the hierarchical model, and it is still used today. Like I described with hierarchical databases, the navigational paradigm was eclipsed by the relational model, but after the 1990s, they re-emerged with non-relational databases. For example, since \gls{dom} websites contains a hierarchical structure, they can be accessed using this navigational paradigm.
 
-\section{Relational}
+\subsubsection{Relational}
 \label{model:relational}
 
 \img{relational}{0.2}{
@@ -992,17 +992,17 @@ The navigational paradigm was implemented not only in network model, also in the
 
 The relational model was first designed by \textcites{Codd:1970:RMD:362384.362685}{Codd72relationalcompleteness}. Its main feature is the table-like organization of data, together with a separation between the physical level of data storage and the query language. These features allowed, on the one hand simple data visualizations, and on the other highly complex data manipulations by way of an algebra-based query language. Data is placed into uniquely identified rows (records) which can have multiple columns (attributes). A table thus becomes a relation. The main difference between the navigational and the relational paradigms, can be seen in the way users formulate queries. In the former, users specify which steps need to be made in order to arrive at a certain record. In the latter, users specify what needs to be found in terms of an algebraic expression. The query language developed for relational databases is \gls{sql}. In recent years, object relational database have emerged such as \gls{sqlobject}, interpreting relations as classes in the object-oriented programming paradigm.
 
-\section{Non-Relational}
+\subsubsection{Non-Relational}
 \label{model:nonrelational}
 
 This is a more general type of database models where the internal structure is different from the tabular kind that the relational model presents \see{model:relational}, and they are generally referred to as \gls{nosql}. Within this class or group of non-relational models, some examples can be: Key-Value databases, which are centered on associative arrays (hash tables) such as python dictionaries; semi-structured databases \see{model:semistructured}, also called document-oriented databases such as \gls{xml}, \gls{yaml}, and \gls{json}; graph databases and mixed graph models such as the way in which the World Wide Web convention (W3C) structures websites, with a URL as a `name' and their content as a `graph' \see{model:graph}; object databases \see{model:object}; and database systems using combinations of different models.
 
-\section{Graph}
+\subsubsection{Graph}
 \label{model:graph}
 
 In their survey of graph-modelled databases, Angles and Gutierrez \parencite{2008:graph/anglesgutierrez/survey} date the beginning of graph databases to the early 1980s, in conjunction with object-oriented databases. This model interprets records as `nodes' and connections as `edges.' Therefore, visualizations as graphs, as well as operations stemming from the mathematical theory of graphs, are features of the model. The visual programming paradigm takes advantage of graph representations of their object-oriented programming structure. In this sense, computer music software like OpenMusic, PWGL, Pure Data, \gls{max/msp}, Kyma, among others, present their objects as a directed graph on a canvas.
 
-\section{Object}
+\subsubsection{Object}
 \label{model:object}
 
 \img{object}{0.2}{
@@ -1011,7 +1011,7 @@ In their survey of graph-modelled databases, Angles and Gutierrez \parencite{200
 
 These databases combine the object-oriented programming paradigm with database concepts. On one side, each record is treated as an object, with capability to store variables (attributes) and functions (methods) that the object can perform. This way, when an object is instantiated in the form of a record, all the attributes and methods become available to itself and to other objects, provided these are setup in a `public' way, and so different interactions can occur throughout the database. Some programming languages are directly object-oriented, from which certain databases were created \see{tab:dbmodels}. From 2004, the open source community has been developing open source object databases that are easily accessible in several object-oriented languages.
 
-\section{Semi-structured}
+\subsubsection{Semi-structured}
 \label{model:semistructured}
 
 \img{semistructured}{0.3}{
@@ -1024,7 +1024,7 @@ These databases combine the object-oriented programming paradigm with database c
 
 Abiteboul \parencite{Abiteboul:semistructured:96} comments that given the amount of data that has grown in non-standard structures, a new way of accessing data has emerged. Furthermore, access to data can take place from a variety of different platforms such as browsers, query languages, application-specific interfaces, etc., making the process of obtaining useful information increasingly more difficult since these platforms call for specifically tailored methods and languages. Abiteboul claims, therefore, that first there is a need to extract the non-standard structure from the data, so that it can be traversed afterwards. These databases constitute the semi-structured model. Some examples of this model include \gls{xml} databases, \gls{json} files, \gls{yaml} files, among others \parencite{Buneman:1997:SD:263661.263675}. A well known database of this kind is the \gls{imdb}.
 
-\section{Pure Data as Database System}
+\subsubsection{Pure Data as Database System}
 \label{model:puredata}
 
 While not technically a database system, Pure Data comprises (internally) a limited amount of data structures that are, nonetheless, different between each other. These structures are, in turn, arrays, linked lists, and symbol tables built as a layer of the C programming language. In terms of database models, Pure Data is mostly hierarchical when it comes to canvases. The windowing system that has a `root', and multiple `subcanvases' that can be (almost) infinitely nested. These canvases, while being hierarchic, are traversed as in the navigational model, either for a specific keyword (a query from the `find' menu), or, most importantly, for signal processing. Besides this hierarchical structure, another important aspect of the \gls{gui} level is that it displays visually connected boxes with cords. Therefore, it is quite literally a directed graph where objects are nodes and edges are assigned to a node's inlets and outlets. The \texttt{.pd} file format, written in an application-specific language, is structured in such a way that elements on a graph are listed from top to bottom until the end of the list is reached. After this, the connections between objects inlets and outlets are subsequently listed. This graph model, however, comes out of Pure Data's internal design as an object-oriented program. Its core functionality depends on class instantiation. Every internal and external is a class made of C data structures with its own methods, that can be loaded in memory at run time and instantiated any time afterwards. Furthermore, Pure Data is already a networked environment, since in order to effectively `patch' using the graphical interface, a network is established between Pure Data instance and the Tcl/Tk graphical interface. Added to this, the network capacity that Pure Data comes with, that is, the \texttt{pdsend} and \texttt{pdreceive} objects that support creation of endless \gls{tcp/ip} connection sockets, literally exploding the concept of a hierarchical patch into the non-hierarchic, networked model. 
@@ -1139,7 +1139,7 @@ J. Minker; L. Kuhns
 %	BEGIN section: Databasing Sound: Applications Of Databases In Sound ----
 %
 %------------------------------------------------------------------------------
-\chapter{Databasing Sound: Applications Of Databases In Sound}
+\section{Databasing Sound: Applications Of Databases In Sound}
 \label{section-3}
 
 \glsresetall
@@ -1246,7 +1246,7 @@ Sonification depends on databases, on the interaction between databases, and on 
 
 In what follows, I present some instances of sonification practices as described by their authors.
 
-\section{Parameter mapping}
+\subsubsection{Parameter mapping}
 \label{sonification:parametermapping}
 
 \paragraph{DOW}
@@ -1258,13 +1258,13 @@ In what follows, I present some instances of sonification practices as described
 % \paragraph{Geolocations}
 % \citeauthor{icmc/bbp2372.2010.002} \parencite{icmc/bbp2372.2010.002} created an interface called \gls{compath} which enabled users to draw paths on a map, sonifying data points which represented information (e.g., traffic, weather, culture events) along the points of the path. They used major commercial web services such as Amazon, Google, and Yahoo that offered public \glspl{api} so that each geo-location inputted on the path acted as a database query. The returned data from these services was then mixed together and mapped with a virtual synthesized via \gls{midi}.
 
-\section{Model-based sonification}
+\subsubsection{Model-based sonification}
 \label{sonification:model}
 
 \paragraph{Space}
 One example of model-based sonification is the \textit{Data Listening Space} installation by the \gls{qcd-audio} project at the \gls{iem} of the University of Music and Performing Arts in Graz \parencite{icmc/bbp2372.2012.096}. Within this installation, they proposed a three dimensional, navigable space holding a Monte Carlo simulation of the theory of \gls{qed}. Within this \gls{qed} \textit{lattice}, a walking participant holding sensors ---$x$, $y$, and $z$ coordinates--- could explore the simulated data by way of sonification.
 
-\section{Artistic sonification}
+\subsubsection{Artistic sonification}
 \label{sonification:artistic}
 
 \paragraph{Wolves}
@@ -1287,7 +1287,7 @@ One example of model-based sonification is the \textit{Data Listening Space} ins
 \paragraph{Gender Distribution}
 \textcite{Fri17:Son} derived a database of gender distribution by applying the python module \texttt{genderize} to author names in three main computer music conference proceedings databases: \gls{icmc}, \gls{nime}, and \gls{smc}. By assigning polar frequency ranges for each group (male and female), her sonification emphasizes the significant inequality of gender in the resulting acoustic stream segregation into male background (continuous drone-like sound) and female foreground (fewer and sparser sounds). Her conclusion, therefore, is that ``there is a need for analysis of the existing environments and social relations that surround music technology and computer music. If we identify the challenges that women are facing in our research community, we will be able to create more initiatives towards changing practices'' \parencite[238]{Fri17:Son}.
 
-\section{Sonification Installations}
+\subsubsection{Sonification Installations}
 \label{sonification:installations}
 
 % 
@@ -1308,7 +1308,7 @@ One example of model-based sonification is the \textit{Data Listening Space} ins
 \paragraph{Uncanny Faces}
 \textcite{fdch/installation/spectral} designed \textit{Hally}, an installation based on face tracking and real-time sonification of spectral features present in both pixel information containing the face, and the $x$ and $y$ coordinates of the moving data points of the face mesh used for tracking. Furthermore, by video-based audio convolution, \textit{Hally} aims to simulate a theory of perception based on \gls{ift} \parencite{connes:shapes}. Parting from previous work by \textcite{Sch07:How} on simultaneous sonification and visualization, \textit{Hally} explores the role of both sound and image in the definition of the self, by immersing the participant in an uncanny spectrality \parencite{fdch/papers/spectral}.
 
-% \section{Affective Sonification}
+% \subsubsection{Affective Sonification}
 % \label{sonification:affective} 
 
 % \paragraph{Telematic Electroacoustic Music}
@@ -1318,7 +1318,7 @@ One example of model-based sonification is the \textit{Data Listening Space} ins
 
 
 
-\section{Sonification Software}
+\subsubsection{Sonification Software}
 \label{sonification:software}
 
 \paragraph{SonArt}
@@ -1330,7 +1330,7 @@ In his \gls{caddc} environment called \textit{DataPlayer} programmed as a standa
 \paragraph{madBPM}
 \textcite{icmc/bbp2372.2017.087} devised \gls{madbpm}, a data-ingestion engine suitable for database perceptualization, that is, sonification and visualization. This modular C++ software platform enables data loading from \gls{csv} files, multiple mapping via tagging, several traversing algorithms and units, and networked connectivity to SuperCollider for sound and \gls{ofx} for visual output. Their approach is innovative since they provide features for database behaviors. By `behavior' they mean ways of structuring, traversing and perceptualizing the database. These behaviors define the dual purpose of the software: finding relationships among the inputted data and interpreting them artistically. Furthermore, users can structure and re-structure potentially any type of data set \parencite[504]{icmc/bbp2372.2017.087}. However, in order to design new behavior objects the user needs to implement them in the source code and compile them. Thus, besides real-time data streaming and networking functionality, in their future work the authors aim at designing a \gls{dsl} that would enable extending the functionality of these behaviors in real-time.
 
-For further sonification software, see \gls{sondata} and the following references: \textcites{Wil96:Lis}{pauletto04}{Lod98:MUS}{Bei09:Aes}{Her14:Aso}{DBLP:conf/icad/2007/Worral}{DBLP:conf/icad/2003/Walker}{domenico_vicinanza_2006_849321}
+For further sonification software, see \gls{sondata} and the following references: \textcites{Wil96:Lis}{Pau04:ATo}{Lod98:MUS}{Bei09:Aes}{Her14:Aso}{DBLP:conf/icad/2007/Worral}{DBLP:conf/icad/2003/Walker}{domenico_vicinanza_2006_849321}
 
 
 %------------------------------------------------------------------------------
@@ -1354,7 +1354,7 @@ Computer music software is computer music's playground. Composing and programmin
 	The database is invisibly behind the computer, within the softwares used to create musical works. 
 }{Diagram of database performance in computer music practices.}
 
-\section{Hierarchical environments}
+\subsubsection{Hierarchical environments}
 \label{computer:sssp}
 
 \begin{quote}
@@ -1410,7 +1410,7 @@ Hardware-independence led Free to imagine a general purpose, or \textit{vanilla}
 
 Truax's notion of balance speaks of a `meeting halfway' between the system and the user regarding the programmer's capability to embed a more complex conception of hierarchy in the system. What provides this balance is a certain flexibility among data structures which would enable them to adapt to the different hierarchical contexts with which music is understood. That is to say, since data structures can embody models of musical processes, they have an effect on the composer's overall performance of the database, and by extension, on the resulting music. 
 
-\section{Music Notation Software}
+\subsubsection{Music Notation Software}
 \label{applications:notation}
 
 Music representation has occupied an important area of research within the programming community. Formats and specifications such as \gls{midi}, \gls{musicxml}, the Humdrum \texttt{**kern} data format \parencite{DBLP:conf/ismir/Sapp05}, \gls{guido}, to name a few, have appeared over the years in conjunction with music engraving software. An extensive guide on musical representations can be seen in \textcite{Selfridge-Field:1997:BMH:275928}. In this section, I point to certain aspects of music notation software development that reveal different approaches towards data structures, and the possibilities that arise henceforth.
@@ -1424,7 +1424,7 @@ Other programming approaches stemming from \gls{darms} and \gls{score} were deve
 \paragraph{Theoretical Performance}
 What notation software is most often criticised for is the way in which sonic feedback often comes to be equiparated to (human) music performance. When Leeland Smith presented \gls{score} as ``not a `performer's' instrument, but rather a `musician's' instrument,'' for example, he claimed that ``theoretically, any performance, clearly conceived in the mind, can be realized on [the computer]'' \parencite[14]{smith1971}. It is indeed a fact that computers can offer automated tasks to an unimaginable extent. However, to translate this type of automation into music composition and performance, results in a disembodied music conception. In other words, an algorithmically generated stream of notes may result in physically impossible tasks for a performer, or for the listener. This is the point of inflexion when envisioning goes beyond the threshold of embodiment. It can be argued, however, that further developments in musical performance techniques can be achieved by pushing the limits of bodily skills. Nonetheless, what I am stressing here is the extent to which music composition can be reconfigured by the possibilities data structures have brought to the field. Furthermore, what is at stake with notation-based music software is yet another musical concern that governed most of music software development during the 1980s: style.
 
-\section{Enter Objects}
+\subsubsection{Enter Objects}
 
 \img{realtime}{0.9}{
 A bodiless abstract published at the \gls{icmc} (1981) stating that a real-time version of \gls{music-11} was ``near completion'' by a group at MIT \parencite{DBLP:conf/icmc/PucketteVS81}.
@@ -1499,7 +1499,7 @@ The computer music software race that took place at the level of data structures
 
 In this section, I provide a glimpse of the many shapes that this reconfiguration has taken. I focus on artistic ventures, program extensions, and innovative research that has appeared under four main aspects of database performance: corpus-based approaches, querying methods, traversing methods, and resource sharing. These examples point only to some moments in which data structure design changed computer music.
 
-\section{Corpus-based Approaches}
+\subsubsection{Corpus-based Approaches}
 Modern uses of databases in computer music take the general form of a corpus of sounds from which descriptors are obtained and then used to create sounds. These are known as corpus-based approaches, also known as data-driven approaches. Their difference is a matter of scale. These approaches have emerged in opposition to rule-based ones, highly useful still in many applications. In what follows, I show some implementations of the corpus-based model in sound.
 
 \paragraph{Concatenative Synthesis}
@@ -1511,7 +1511,7 @@ The variety of applications of corpus-based or data-driven is still a fruitful r
 \paragraph{Software Libraries}
 One of the central concepts of the object-oriented programming is extensibility. The list of objects that can be added to the main program tends to grow exponentially as a function of its use. A list covering all extensions would require a research project of its own. However, I would like to focus on those extensions that enable further and more specific use of databases in the context of music composition. \textcite{Stu04:Mat} developed \textit{MATCONCAT}, a concatenative synthesis library for \textit{Matlab}. \textcite{Sch06:Rea} designed \gls{catart} as a concatenative synthesis toolkit both as a standalone application and as a \gls{max/msp} external. Another concatenative synthesis library is Ben Hackbarth's python module \gls{audioguide}. William Brent's research on timbre analysis developed into a timbre description library for Pure Data called \obj{timbreID} \parencite{icmc/bbp2372.2010.044}. Within this library, users are able to analyze sound files using most available timbre descriptors. Since Brent's library enables users not only to analyze sounds and store the resulting descriptors in a database, but also to cluster them within the database, it allows for a variety of applications of which only one of them is concatenative synthesis.
 
-\section{Querying Methods}
+\subsubsection{Querying Methods}
 
 \paragraph{Query-by-content}
 One of the innovations that brought forth \gls{mir} is high-level audio feature analysis. This enabled computers to understand keywords such as `bright', `sharp', `dark', `metallic', etc., that would describe timbral content of audio files. When applied to database querying, these keywords enable `query-by-content' searches. Many online databases such as \gls{freesound} or \gls{looperman} have this type of querying. The \gls{cuidado} project at \gls{ircam} consisted of a database system aimed at content based querying of sound files \parencites{DBLP:conf/ismir/VinetHP02}{DBLP:conf/icmc/VinetHP02}{DBLP:conf/icmc/Vinet05}. This project enabled \glspl{dj} to browse through files, apply beat-synchronized transitions between them, among other automated tasks during performance. \gls{cuidado} later developed into the \textit{Semantic Hi-Fi} project and influenced subsequent software. \textcite{icmc/bbp2372.2007.117} enabled users generation of personalized audio description databases that could also be queried by content in \textit{Data Jockey}.
@@ -1528,7 +1528,7 @@ Concatenative synthesis uses similarity for the purpose of sample concatenation 
 \label{applications:hybrid_queries}
 Some authors have managed to conjugate disparate database uses by hybridizing the queries. The following modal translations represent only some of the many examples in the literature. \textcite{icmc/bbp2372.2001.103} used audio analysis to obtain gesture features from the non-audio signals obtained from the \textit{Radio Drum}, an variant of Max Mathews's \textit{Radio Batton} \parencite{DBLP:conf/icmc/Boie89}. \textcite{icmc/bbp2372.2001.103} searched for peak detection in the incoming signal to determine mallet (air) strokes. At \gls{ccrma}, \textcite{icmc/bbp2372.2001.071} managed to invert the concept of physical modeling by estimating violin bow position, pressure, and speed using \gls{lpc} coefficients of violin audio recordings. \textcite{DBLP:conf/icmc/OliverJ08} presented a controller composed of an elastic head suspended along the rim of an empty drum shell. The player presses the head making different shapes with the hand, fingers, or malletes, and ``these shapes are captured by a video camera that sends these images to the computer, which analyzes them and outputs the tracked parameters'' \parencite[1]{DBLP:conf/icmc/OliverJ08}. This instrument enabled a possibility for ``dissociating gesture with sound'' \parencite[1]{DBLP:conf/icmc/OliverJ08}. That is to say, gestures whose sound could be visually anticipated (the hitting of a drum) were extended by micro-gestures only visible to the camera sensor. Further, in contrast with acoustic drums, with the silent drum ``one can manipulate continuous sounds through a new gestural vocabulary \parencite[1]{DBLP:conf/icmc/OliverJ08}. Oliver La Rosa developed the sensing algorithm into a \gls{gem} external called \obj{pix\_drum}, and later moved on to \obj{pix\_mano}, where he removed the fabric and focused on what he calls ``direct hand-tracking'' \parencite{DBLP:conf/icmc/OliverJ10} \see{inoperativity}. \textcite{Caramiaux2011} proposed gestural input for the query-by-content method. They used gesture-to-sound matching techniques based on the similarities of temporal evolution between the gesture query and the sound target. Another example of hybrid querying is \textcite{mcartwright:2014}, where a database of computer synthesis parameters was queried by vocal input, enabling users to mimic sounds with their voices in order to obtain parameter settings (presets) that would approach the analyzed vocal sound.	
 
-\section{Traversing Methods}
+\subsubsection{Traversing Methods}
 
 Given that querying methods have resulted in novel ways to approach information space within databases, many authors have proposed their own approaches towards navigating this space. Like browsing, or surfing the Internet, database traversing is a form of navigation across the \textit{n}-dimensional space that databases have to offer. Despite their differences, the approaches I refer to now point to the hybrid qualities that data can take when used in performance, specifically in terms of the mixed use of data coming from multiple sensing mechanism, and the networked quality that reconfigures music performance and composition.
 
@@ -1547,7 +1547,7 @@ The mobility that networks enabled can be represented in the work of
 
 These are some of the many examples that point to the many shapes that traversing a database can take. These shapes have given different resonances within the concert and installation spaces, as well as within the performativity of the music involved. Further, the possibilities of these reconfigurations can be seen in terms of a need for sharing resources and experiences through networks.
 
-\section{Resource Sharing}
+\subsubsection{Resource Sharing}
 
 Sharing resources can be interpreted in many ways. On one end, it points to networked environments on which multiple client users connect to a server that provides shared data flow among the network. This is the case of live coding, where multiple users share the same network. Another definition pertains to the data itself, the way that it is formatted, and how to access or edit it: the file format, where users can read the same data. Lastly, the activity of sharing relates to publishing results like in research or academic communities. This is the case of the multiple datasets that exist.\footnote{`Dataset' differs from `database' in terms of scale: multiple datasets may reside in a single database.} In any case, what is common between these forms of sharing is an entropic and endless plurality.
 
@@ -1561,7 +1561,7 @@ While the purpose of a format is to store as much information as possible, using
 Live coding has now a long history and it occupies a fair portion of the computer music scene today. In terms of database performance, the practice of live coding in audio or in video exposes both computer technology and art performance in simultaneity to the cutting edges of both worlds. For a more general overview on live coding, see \parencites{nickcollinsphd}{Col03:Liv}{Nilson2007}{Zmo15:Liv}. In this brief section, I would like to point to the work of \cite{croberts:2014}, who implemented within a real-time live coding web-based environment called \textit{Gibber} a centralized database for the storage and quick access of digital instruments that can be prototyped in the environment. This type of on-the-spot database system enables shared access to sound files that have potential use throughout the performance. By means of a networked database, two or more players can grab and record sounds from different locations. Another case of networked situations in live coding is a system that incorporates content based searches (query-by-humming, query-by-tapping) of various \gls{cc} sound databases such as \gls{freesound} or to user-defined databases \parencite{nime18-Xambo-b}.
 
 
-\section{Closing Remarks}
+\subsubsection{Closing Remarks}
 The many shapes that database performance has taken over the years can be approached with what I have shown so far. Since many applications of the database in music continues to grow, I have only selected a few areas in which the database has had some agency. One area that I have not included above is that of artificial intelligence for music applications, where databases have been used for training models, and other forms of machine learning. For example, in interactive music systems \parencite{Row92:Int}, in improvisation systems \parencites{DBLP:conf/icmc/AssayagDD99}{DBLP:conf/icmc/BlochD08}, to model \gls{edm} patterns \parencite{rvogl:2017}, analog synthesizer parameter settings \parencite{Loviscach2008}. Multimodal datasets have also been used in training \parencite{DBLP:conf/icmc/SchonerCDG98}. Notwithstanding the multiple gaps and omissions that these lines reveal, I believe the plurality of shapes speaks for itself. As I have shown, from bytes to terabytes, from data structures and files to datasets and databases, has had different positions in relation to sound practices. These positions can be summarized in a three-dimensional diagram \fsee{intersections} where the database can be placed along three axes. Visibility of the database can be represented by the sign: positive values indicate visibility and negative indicate invisibility. `Negative' in this context relates only to the sign of the value, and not to any `judgment' whatsoever. If anything, this graph is intended as a metaphor. As I have mentioned earlier, the database is generally the grounds of sonification, so it can be represented by the $y$-axis. In \gls{mir}, the database is next to the databaser, that is, in the $x$-axis. Finally, I mentioned that the database in computer music is behind the databaser, therefore the $z$-axis seems appropriate.
 
 \img{intersections}{0.5}{
@@ -1581,7 +1581,7 @@ The simplicity of this diagram is intentional, to avoid any attempt to quantize 
 %	BEGIN chapter: Database Aesthetics ----
 %
 %------------------------------------------------------------------------------
-\part{Database Aesthetics}
+\chapter{Database Aesthetics}
 \label{part-3}
 
 \glsresetall
@@ -1598,7 +1598,7 @@ A person that encounters a database feels a resonance, recognizes some of her or
 %	BEGIN section: Listening Databases ----
 %
 %------------------------------------------------------------------------------
-\chapter{Listening Databases}
+\section{Listening Databases}
 \label{section-4}
 
 \glsresetall
@@ -1792,7 +1792,7 @@ In a database community, database music can be understood as a hybridly social a
 %	BEGIN section: Databases And Memory ----
 %
 %------------------------------------------------------------------------------
-\chapter{Databases And Memory}
+\section{Databases And Memory}
 \label{section-5}
 
 \glsresetall
@@ -1935,7 +1935,7 @@ This hauntedness can be indeed embodied, not only in the form of authority, as I
 %	BEGIN section: Performativity Of Databases ----
 %
 %------------------------------------------------------------------------------
-\chapter{Performativity Of Databases}
+\section{Performativity Of Databases}
 \label{section-6}
 
 \glsresetall
@@ -2156,7 +2156,7 @@ For Vaggione, instead of relying on the rule-based programming of formalization 
 %	BEGIN section: Rethinking Composition ----
 %
 %------------------------------------------------------------------------------
-\chapter{Rethinking Composition}
+\section{Rethinking Composition}
 \label{section-7}
 
 \glsresetall
@@ -2417,7 +2417,6 @@ The object I am referring to resides in memory, as what remains after the event 
 \paragraph{Sources and Sorcerers}
 % The sounds onstage exist always before and after the staging. 
 The severed object of music is what we as listeners grab from the stage, what we choose to rip from the sounding waves, and also what we cannot help but feeling so much a part of us before noticing it is happening. Severing is yet another way of thinking the aesthetic experience of listening, but it is not as passive as it seems. Severing empowers the listener; it is the tool of listening; the reversed stilus; the inverted mouse; the part of the human that necessarily is nonhuman. With it, we can make the world appear, but only as a fraction, because `it' can never be \textit{completely}. As Brian Kane writes of Nancy's work of art: ``a work that refuses to create itself as a total work'' \parencite[29]{Gra15:The}. The severed object of music is always severed, but never in the same way, since there are as many severings as there are listeners, and as many listenings as there are moments. Composers have been traditionally considered a `source' of this object or, better, the one at the door, the key keeper that has access to the door that opens up the flow of inspiration. The composer, but also the programmer with access to the source code, which unless it is opened, is hidden to the rest; and, unless you know the language, it is complete pseudo-linguistic nonsense with weird punctuation marks, sometimes closer to poetry than it is to extreme formalism. For example, consider the following piece of code that can be read as a simple poem, but when run from a terminal would repeat in a computerized voice a famous line from Gertrude Stein's poem ``Sacred Emily:''\footnote{To run the code (linux or macos shell) simply copy the text onto a plain text file you can name \texttt{gert.sh} and run it with \texttt{sh gert.sh}. Note: it will never stop on its own.}
-\newpage
 
 \begin{flushleft}
 \small
@@ -2500,7 +2499,7 @@ The resonance of a return. This is why the unwork depends so extremely on its ve
 
 \paragraph{Overfitting}
 Anarchy is a paradoxically productive force. As I have outlined before, databasing and composition bring forth their relation to the archive, and by doing so, they are bound to the origin and the rule. Like the name of the composer which is written on the shape of the music, the database has too the potential of becoming a source. Databasing becomes an activity of this source, and thus embeds the databaser with a specter of authority. Claiming, therefore, that composition can be identified with, or understood as, databasing means translating the `archic' not only to the performativity of composition, but also to the product of composing, to the composer and the composed; to the shape of the music and to the singularity of the listened. An unwork, therefore, would be necessarily an an-archic work. It is still a work, however, in the sense that it demands from the composer, from the databaser, and from every node in the scope of its network, an incessant operativity. That is to say, the `un' of the unwork does not come from inactivity, from passivity, from an escape of any form of action. Quite the contrary, it is a result of the constant impression of the work, the accumulated efforts towards the `un' of the thing; an extreme operativity that goes beyond the threshold of its own making so that it reaches a point of inflexion, a bent, an overflow. There is a point in statistics where learning algorithms, given a dataset, tend to adapt themselves too closely to the dataset, thus failing to render future predictions reliably. This is known as overfitting. Despite its uselessness (or, better, because of it) I believe this to be a suitable metaphor for the thinking about the unwork: precisely by overworking the work, one can find some insight into the `un,' and thus, one can begin to approach the anarchic in music composition. However, this approach comes not without its warnings, since it means at once, to eradicate the archic with the `an', which means to introduce a bug in the Oedipal loop that could result in unheard-of musical behaviors.
-\newpage
+
 %------------------------------------------------------------------------------
 %
 %	END subsection: Anarchy And The Unwork
@@ -2596,9 +2595,9 @@ typedef struct working {
 %	BEGIN chapter*: Afterword ----
 %
 %------------------------------------------------------------------------------
-\part*{Afterword}
+\chapter*{Afterword}
 \label{part-4}
-\addcontentsline{toc}{part}{Afterword}
+\addcontentsline{toc}{chapter}{Afterword}
 
 \glsresetall
 % BIG PICTURE
@@ -2613,14 +2612,13 @@ Due to the variety of shapes that database music has taken over the years, I foc
 %	END chapter*: Afterword
 %
 %------------------------------------------------------------------------------
+{
 \backmatter
-
-
 \singlespacing
 \printglossaries
 \phantomsection
 \setlength{\parskip}{4em}
 \printbibliography
 \addcontentsline{toc}{chapter}{Bibliography}
-
+}
 \end{document}

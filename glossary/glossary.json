@@ -7,7 +7,7 @@
             }
         ], 
         "updated": {
-            "$t": "2019-04-15T15:50:08.545Z"
+            "$t": "2019-04-20T08:39:01.954Z"
         }, 
         "xmlns": "http://www.w3.org/2005/Atom", 
         "xmlns$gsx": "http://schemas.google.com/spreadsheets/2006/extended", 
@@ -60,7 +60,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "aflowlib"
@@ -107,7 +107,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "api"
@@ -154,7 +154,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "arangodb"
@@ -201,7 +201,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "ase"
@@ -248,7 +248,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "asf"
@@ -264,7 +264,7 @@
                     "$t": "https://en.wikipedia.org/wiki/The_Apache_Software_Foundation"
                 }, 
                 "content": {
-                    "$t": "expansion: Apache Software Foundation, description: an American non-profit corporation to support Apache software projects, including the Apache HTTP Server. The ASF was formed from the Apache Group and incorporated on March 25, 1999., url: https://en.wikipedia.org/wiki/The_Apache_Software_Foundation, label: asf", 
+                    "$t": "expansion: Apache Software Foundation, description: An American non-profit corporation to support Apache software projects, including the Apache HTTP Server. The ASF was formed from the Apache Group and incorporated on March 25, 1999., url: https://en.wikipedia.org/wiki/The_Apache_Software_Foundation, label: asf", 
                     "type": "text"
                 }, 
                 "link": [
@@ -284,7 +284,7 @@
                     "$t": "ASF"
                 }, 
                 "gsx$description": {
-                    "$t": "an American non-profit corporation to support Apache software projects, including the Apache HTTP Server. The ASF was formed from the Apache Group and incorporated on March 25, 1999."
+                    "$t": "An American non-profit corporation to support Apache software projects, including the Apache HTTP Server. The ASF was formed from the Apache Group and incorporated on March 25, 1999."
                 }
             }, 
             {
@@ -295,7 +295,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "autocad"
@@ -342,7 +342,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "bfcc"
@@ -355,10 +355,10 @@
                     "$t": "Bark Frequency Cepstrum Coefficient"
                 }, 
                 "gsx$url": {
-                    "$t": ""
+                    "$t": "https://essentia.upf.edu/documentation/reference/std_BFCC.html"
                 }, 
                 "content": {
-                    "$t": "expansion: Bark Frequency Cepstrum Coefficient, label: bfcc", 
+                    "$t": "expansion: Bark Frequency Cepstrum Coefficient, description: BFCC are the result of implementing Bark scale instead of Mel scale for perceptual weighting. , url: https://essentia.upf.edu/documentation/reference/std_BFCC.html, label: bfcc", 
                     "type": "text"
                 }, 
                 "link": [
@@ -378,7 +378,7 @@
                     "$t": "BFCC"
                 }, 
                 "gsx$description": {
-                    "$t": ""
+                    "$t": "BFCC are the result of implementing Bark scale instead of Mel scale for perceptual weighting. "
                 }
             }, 
             {
@@ -389,7 +389,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "cac"
@@ -436,7 +436,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "cad"
@@ -452,7 +452,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Computer-aided_design"
                 }, 
                 "content": {
-                    "$t": "expansion: Computer Aided Design, description: the use of computers (or workstations) to aid in the creation, modification, analysis, or optimization of a design., url: https://en.wikipedia.org/wiki/Computer-aided_design, label: cad", 
+                    "$t": "expansion: Computer Aided Design, description: The use of computers (or workstations) to aid in the creation, modification, analysis, or optimization of a design., url: https://en.wikipedia.org/wiki/Computer-aided_design, label: cad", 
                     "type": "text"
                 }, 
                 "link": [
@@ -472,7 +472,7 @@
                     "$t": "CAD"
                 }, 
                 "gsx$description": {
-                    "$t": "the use of computers (or workstations) to aid in the creation, modification, analysis, or optimization of a design."
+                    "$t": "The use of computers (or workstations) to aid in the creation, modification, analysis, or optimization of a design."
                 }
             }, 
             {
@@ -483,7 +483,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "caddc"
@@ -499,7 +499,7 @@
                     "$t": ""
                 }, 
                 "content": {
-                    "$t": "expansion: Computer Aided Data Driven Composition, cite: \\cite{icmc/bbp2372.2015.072}, label: caddc", 
+                    "$t": "expansion: Computer Aided Data Driven Composition, cite: icmc/bbp2372.2015.072, label: caddc", 
                     "type": "text"
                 }, 
                 "link": [
@@ -510,7 +510,7 @@
                     }
                 ], 
                 "gsx$cite": {
-                    "$t": "\\cite{icmc/bbp2372.2015.072}"
+                    "$t": "icmc/bbp2372.2015.072"
                 }, 
                 "id": {
                     "$t": "https://spreadsheets.google.com/feeds/list/1tMkdssQlN_wbGS1SjfORS7AOBspKvvun7_AvzxctMrE/6/public/values/d180g"
@@ -530,7 +530,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "camp"
@@ -546,7 +546,7 @@
                     "$t": ""
                 }, 
                 "content": {
-                    "$t": "expansion: Computer Assisted Music Project, description: A general purpose composition and performance software environment originally based upon William Buxton's SSSP., cite: \\cite{DBLP:conf/icmc/FreeV88}, label: camp", 
+                    "$t": "expansion: Computer Assisted Music Project, description: A general purpose composition and performance software environment originally based upon William Buxton's SSSP., cite: DBLP:conf/icmc/FreeV88, label: camp", 
                     "type": "text"
                 }, 
                 "link": [
@@ -557,7 +557,7 @@
                     }
                 ], 
                 "gsx$cite": {
-                    "$t": "\\cite{DBLP:conf/icmc/FreeV88}"
+                    "$t": "DBLP:conf/icmc/FreeV88"
                 }, 
                 "id": {
                     "$t": "https://spreadsheets.google.com/feeds/list/1tMkdssQlN_wbGS1SjfORS7AOBspKvvun7_AvzxctMrE/6/public/values/d2mkx"
@@ -577,7 +577,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "case"
@@ -593,7 +593,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Computer-aided_software_engineering"
                 }, 
                 "content": {
-                    "$t": "expansion: Computer Aided Software Engineering, description: the domain of software tools used to design and implement applications. CASE tools are similar to and were partly inspired by computer-aided design (CAD) tools used for designing hardware products., url: https://en.wikipedia.org/wiki/Computer-aided_software_engineering, label: case", 
+                    "$t": "expansion: Computer Aided Software Engineering, description: The domain of software tools used to design and implement applications. CASE tools are similar to and were partly inspired by computer-aided design (CAD) tools used for designing hardware products., url: https://en.wikipedia.org/wiki/Computer-aided_software_engineering, label: case", 
                     "type": "text"
                 }, 
                 "link": [
@@ -613,7 +613,7 @@
                     "$t": "CASE"
                 }, 
                 "gsx$description": {
-                    "$t": "the domain of software tools used to design and implement applications. CASE tools are similar to and were partly inspired by computer-aided design (CAD) tools used for designing hardware products."
+                    "$t": "The domain of software tools used to design and implement applications. CASE tools are similar to and were partly inspired by computer-aided design (CAD) tools used for designing hardware products."
                 }
             }, 
             {
@@ -624,7 +624,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "cc"
@@ -640,7 +640,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Creative_Commons"
                 }, 
                 "content": {
-                    "$t": "expansion: Creative Commons, description: an American non-profit organization devoted to expanding the range of creative works available for others to build upon legally and to share., url: https://en.wikipedia.org/wiki/Creative_Commons, label: cc", 
+                    "$t": "expansion: Creative Commons, description: An American non-profit organization devoted to expanding the range of creative works available for others to build upon legally and to share., url: https://en.wikipedia.org/wiki/Creative_Commons, label: cc", 
                     "type": "text"
                 }, 
                 "link": [
@@ -660,7 +660,7 @@
                     "$t": "CC"
                 }, 
                 "gsx$description": {
-                    "$t": "an American non-profit organization devoted to expanding the range of creative works available for others to build upon legally and to share."
+                    "$t": "An American non-profit organization devoted to expanding the range of creative works available for others to build upon legally and to share."
                 }
             }, 
             {
@@ -671,7 +671,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "ccrma"
@@ -687,7 +687,7 @@
                     "$t": "https://ccrma.stanford.edu/"
                 }, 
                 "content": {
-                    "$t": "expansion: Center for Computer Research in Music and Acoustics, description: a multi-disciplinary facility where composers and researchers work together using computer-based technology both as an artistic medium and as a research tool., url: https://ccrma.stanford.edu/, label: ccrma", 
+                    "$t": "expansion: Center for Computer Research in Music and Acoustics, description: A multi-disciplinary facility where composers and researchers work together using computer-based technology both as an artistic medium and as a research tool., url: https://ccrma.stanford.edu/, label: ccrma", 
                     "type": "text"
                 }, 
                 "link": [
@@ -707,7 +707,7 @@
                     "$t": "CCRMA"
                 }, 
                 "gsx$description": {
-                    "$t": "a multi-disciplinary facility where composers and researchers work together using computer-based technology both as an artistic medium and as a research tool."
+                    "$t": "A multi-disciplinary facility where composers and researchers work together using computer-based technology both as an artistic medium and as a research tool."
                 }
             }, 
             {
@@ -718,7 +718,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "cdip"
@@ -734,7 +734,7 @@
                     "$t": "https://cdip.ucsd.edu/"
                 }, 
                 "content": {
-                    "$t": "expansion: Coastal Data Information Program, description: an extensive network for monitoring waves and beaches along the coastlines of the United States. Since its inception in 1975, the program has produced a vast database of publicly-accessible environmental data for use by coastal engineers and planners, scientists, mariners, and marine enthusiasts. , url: https://cdip.ucsd.edu/, label: cdip", 
+                    "$t": "expansion: Coastal Data Information Program, description: An extensive network for monitoring waves and beaches along the coastlines of the United States. Since its inception in 1975, the program has produced a vast database of publicly-accessible environmental data for use by coastal engineers and planners, scientists, mariners, and marine enthusiasts. , url: https://cdip.ucsd.edu/, label: cdip", 
                     "type": "text"
                 }, 
                 "link": [
@@ -754,7 +754,7 @@
                     "$t": "CDIP"
                 }, 
                 "gsx$description": {
-                    "$t": "an extensive network for monitoring waves and beaches along the coastlines of the United States. Since its inception in 1975, the program has produced a vast database of publicly-accessible environmental data for use by coastal engineers and planners, scientists, mariners, and marine enthusiasts. "
+                    "$t": "An extensive network for monitoring waves and beaches along the coastlines of the United States. Since its inception in 1975, the program has produced a vast database of publicly-accessible environmental data for use by coastal engineers and planners, scientists, mariners, and marine enthusiasts. "
                 }
             }, 
             {
@@ -765,7 +765,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "cerl"
@@ -812,7 +812,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "cmix"
@@ -859,7 +859,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "cnmat"
@@ -875,7 +875,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Center_for_New_Music_and_Audio_Technologies"
                 }, 
                 "content": {
-                    "$t": "expansion: Center for New Music and Audio Technologies, description: a multidisciplinary research center within University of California, Berkeley Department of Music. The Center's goal is to provide a common ground where music, cognitive science, computer science, and other disciplines meet to investigate, invent, and implement creative tools for composition, performance, and research. It was founded in the 1980s by composer Richard Felciano., url: https://en.wikipedia.org/wiki/Center_for_New_Music_and_Audio_Technologies, label: cnmat", 
+                    "$t": "expansion: Center for New Music and Audio Technologies, description: A multidisciplinary research center within University of California, Berkeley Department of Music. The Center's goal is to provide a common ground where music, cognitive science, computer science, and other disciplines meet to investigate, invent, and implement creative tools for composition, performance, and research. It was founded in the 1980s by composer Richard Felciano., url: https://en.wikipedia.org/wiki/Center_for_New_Music_and_Audio_Technologies, label: cnmat", 
                     "type": "text"
                 }, 
                 "link": [
@@ -895,7 +895,7 @@
                     "$t": "CNMAT"
                 }, 
                 "gsx$description": {
-                    "$t": "a multidisciplinary research center within University of California, Berkeley Department of Music. The Center's goal is to provide a common ground where music, cognitive science, computer science, and other disciplines meet to investigate, invent, and implement creative tools for composition, performance, and research. It was founded in the 1980s by composer Richard Felciano."
+                    "$t": "A multidisciplinary research center within University of California, Berkeley Department of Music. The Center's goal is to provide a common ground where music, cognitive science, computer science, and other disciplines meet to investigate, invent, and implement creative tools for composition, performance, and research. It was founded in the 1980s by composer Richard Felciano."
                 }
             }, 
             {
@@ -906,7 +906,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "cobol"
@@ -953,7 +953,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "codasyl"
@@ -969,7 +969,7 @@
                     "$t": "https://en.wikipedia.org/wiki/CODASYL"
                 }, 
                 "content": {
-                    "$t": "expansion: Conference/Committee on Data Systems Languages, description: a consortium formed in 1959 to guide the development of a standard programming language that could be used on many computers. This effort led to the development of the programming language COBOL and other technical standards., url: https://en.wikipedia.org/wiki/CODASYL, label: codasyl", 
+                    "$t": "expansion: Conference/Committee on Data Systems Languages, description: A consortium formed in 1959 to guide the development of a standard programming language that could be used on many computers. This effort led to the development of the programming language COBOL and other technical standards., url: https://en.wikipedia.org/wiki/CODASYL, label: codasyl", 
                     "type": "text"
                 }, 
                 "link": [
@@ -989,7 +989,7 @@
                     "$t": "CODASYL"
                 }, 
                 "gsx$description": {
-                    "$t": "a consortium formed in 1959 to guide the development of a standard programming language that could be used on many computers. This effort led to the development of the programming language COBOL and other technical standards."
+                    "$t": "A consortium formed in 1959 to guide the development of a standard programming language that could be used on many computers. This effort led to the development of the programming language COBOL and other technical standards."
                 }
             }, 
             {
@@ -1000,7 +1000,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "compath"
@@ -1047,7 +1047,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "cpu"
@@ -1057,13 +1057,13 @@
                     "type": "text"
                 }, 
                 "gsx$expansion": {
-                    "$t": "central processing unit"
+                    "$t": "Central Processing Unit"
                 }, 
                 "gsx$url": {
                     "$t": "https://en.wikipedia.org/wiki/Central_processing_unit"
                 }, 
                 "content": {
-                    "$t": "expansion: central processing unit, description: the electronic circuitry within a computer that carries out the instructions of a computer program by performing the basic arithmetic, logic, controlling, and input/output (I/O) operations specified by the instructions. , url: https://en.wikipedia.org/wiki/Central_processing_unit, label: cpu", 
+                    "$t": "expansion: Central Processing Unit, description: The electronic circuitry within a computer that carries out the instructions of a computer program by performing the basic arithmetic, logic, controlling, and input/output (I/O) operations specified by the instructions. , url: https://en.wikipedia.org/wiki/Central_processing_unit, label: cpu", 
                     "type": "text"
                 }, 
                 "link": [
@@ -1083,7 +1083,7 @@
                     "$t": "CPU"
                 }, 
                 "gsx$description": {
-                    "$t": "the electronic circuitry within a computer that carries out the instructions of a computer program by performing the basic arithmetic, logic, controlling, and input/output (I/O) operations specified by the instructions. "
+                    "$t": "The electronic circuitry within a computer that carries out the instructions of a computer program by performing the basic arithmetic, logic, controlling, and input/output (I/O) operations specified by the instructions. "
                 }
             }, 
             {
@@ -1094,7 +1094,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "csv"
@@ -1110,7 +1110,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Comma-separated_values"
                 }, 
                 "content": {
-                    "$t": "expansion: Comma Separated Values, description:  a delimited text file that uses a comma to separate values., url: https://en.wikipedia.org/wiki/Comma-separated_values, label: csv", 
+                    "$t": "expansion: Comma Separated Values, description: A delimited text file that uses a comma to separate values., url: https://en.wikipedia.org/wiki/Comma-separated_values, label: csv", 
                     "type": "text"
                 }, 
                 "link": [
@@ -1130,7 +1130,7 @@
                     "$t": "CSV"
                 }, 
                 "gsx$description": {
-                    "$t": " a delimited text file that uses a comma to separate values."
+                    "$t": "A delimited text file that uses a comma to separate values."
                 }
             }, 
             {
@@ -1141,7 +1141,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "cuidado"
@@ -1157,7 +1157,7 @@
                     "$t": ""
                 }, 
                 "content": {
-                    "$t": "expansion: Content Based Unified Interfaces and Descriptors for Audio/music Databases available Online, description: a new chain of applications through the use of audio/music content descriptors, in the spirit of the MPEG-7 standard, cite: \\cite{DBLP:conf/ismir/VinetHP02, DBLP:conf/icmc/VinetHP02}, label: cuidado", 
+                    "$t": "expansion: Content Based Unified Interfaces and Descriptors for Audio/music Databases available Online, description: A new chain of applications through the use of audio/music content descriptors, in the spirit of the MPEG-7 standard, cite: DBLP:conf/ismir/VinetHP02, DBLP:conf/icmc/VinetHP02, label: cuidado", 
                     "type": "text"
                 }, 
                 "link": [
@@ -1168,7 +1168,7 @@
                     }
                 ], 
                 "gsx$cite": {
-                    "$t": "\\cite{DBLP:conf/ismir/VinetHP02, DBLP:conf/icmc/VinetHP02}"
+                    "$t": "DBLP:conf/ismir/VinetHP02, DBLP:conf/icmc/VinetHP02"
                 }, 
                 "id": {
                     "$t": "https://spreadsheets.google.com/feeds/list/1tMkdssQlN_wbGS1SjfORS7AOBspKvvun7_AvzxctMrE/6/public/values/dkvya"
@@ -1177,7 +1177,7 @@
                     "$t": "CUIDADO"
                 }, 
                 "gsx$description": {
-                    "$t": "a new chain of applications through the use of audio/music content descriptors, in the spirit of the MPEG-7 standard"
+                    "$t": "A new chain of applications through the use of audio/music content descriptors, in the spirit of the MPEG-7 standard"
                 }
             }, 
             {
@@ -1188,7 +1188,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "cwm"
@@ -1204,7 +1204,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Cluster-weighted_modeling"
                 }, 
                 "content": {
-                    "$t": "expansion: Cluster Weighted Modeling, description: an algorithm-based approach to non-linear prediction of outputs (dependent variables) from inputs (independent variables) based on density estimation using a set of models (clusters) that are each notionally appropriate in a sub-region of the input space., url: https://en.wikipedia.org/wiki/Cluster-weighted_modeling, label: cwm", 
+                    "$t": "expansion: Cluster Weighted Modeling, description: An algorithm-based approach to non-linear prediction of outputs (dependent variables) from inputs (independent variables) based on density estimation using a set of models (clusters) that are each notionally appropriate in a sub-region of the input space., url: https://en.wikipedia.org/wiki/Cluster-weighted_modeling, label: cwm", 
                     "type": "text"
                 }, 
                 "link": [
@@ -1224,7 +1224,7 @@
                     "$t": "CWM"
                 }, 
                 "gsx$description": {
-                    "$t": "an algorithm-based approach to non-linear prediction of outputs (dependent variables) from inputs (independent variables) based on density estimation using a set of models (clusters) that are each notionally appropriate in a sub-region of the input space."
+                    "$t": "An algorithm-based approach to non-linear prediction of outputs (dependent variables) from inputs (independent variables) based on density estimation using a set of models (clusters) that are each notionally appropriate in a sub-region of the input space."
                 }
             }, 
             {
@@ -1235,7 +1235,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "darms"
@@ -1251,7 +1251,7 @@
                     "$t": ""
                 }, 
                 "content": {
-                    "$t": "expansion: Digital Alternate Representation of Musical Scores, description: The DARMS project started in 1963 by Stefan Bauer-Mengelberg and it is one of the first programming languages for music engraving, cite: \\cite{icmc/bbp2372.1983.002, 10.2307/30204239}, label: darms", 
+                    "$t": "expansion: Digital Alternate Representation of Musical Scores, description: The DARMS project started in 1963 by Stefan Bauer-Mengelberg and it is one of the first programming languages for music engraving, cite: icmc/bbp2372.1983.002, 10.2307/30204239, label: darms", 
                     "type": "text"
                 }, 
                 "link": [
@@ -1262,7 +1262,7 @@
                     }
                 ], 
                 "gsx$cite": {
-                    "$t": "\\cite{icmc/bbp2372.1983.002, 10.2307/30204239}"
+                    "$t": "icmc/bbp2372.1983.002, 10.2307/30204239"
                 }, 
                 "id": {
                     "$t": "https://spreadsheets.google.com/feeds/list/1tMkdssQlN_wbGS1SjfORS7AOBspKvvun7_AvzxctMrE/6/public/values/dnp34"
@@ -1282,7 +1282,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "dbms"
@@ -1298,7 +1298,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Category:Database_management_systems"
                 }, 
                 "content": {
-                    "$t": "expansion: Database Managemet System, description: a computer program (or more typically, a suite of them) designed to manage a database, a large set of structured data, and run operations on the data requested by numerous users. Typical examples of DBMS use include accounting, human resources and customer support systems., url: https://en.wikipedia.org/wiki/Category:Database_management_systems, label: dbms", 
+                    "$t": "expansion: Database Managemet System, description: A computer program (or more typically, a suite of them) designed to manage a database, a large set of structured data, and run operations on the data requested by numerous users. Typical examples of DBMS use include accounting, human resources and customer support systems., url: https://en.wikipedia.org/wiki/Category:Database_management_systems, label: dbms", 
                     "type": "text"
                 }, 
                 "link": [
@@ -1318,7 +1318,7 @@
                     "$t": "DBMS"
                 }, 
                 "gsx$description": {
-                    "$t": "a computer program (or more typically, a suite of them) designed to manage a database, a large set of structured data, and run operations on the data requested by numerous users. Typical examples of DBMS use include accounting, human resources and customer support systems."
+                    "$t": "A computer program (or more typically, a suite of them) designed to manage a database, a large set of structured data, and run operations on the data requested by numerous users. Typical examples of DBMS use include accounting, human resources and customer support systems."
                 }
             }, 
             {
@@ -1329,7 +1329,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "ddl"
@@ -1376,7 +1376,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "dj"
@@ -1392,7 +1392,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Disc_jockey"
                 }, 
                 "content": {
-                    "$t": "expansion: Disk Jockey, description: a person who plays existing recorded music for a live audience. Most common types of DJs include radio DJ, club DJ who performs at a nightclub or music festival and turntablist who uses record players, usually turntables, to manipulate sounds on phonograph records. , url: https://en.wikipedia.org/wiki/Disc_jockey, label: dj", 
+                    "$t": "expansion: Disk Jockey, description: A person who plays existing recorded music for a live audience. Most common types of DJs include radio DJ, club DJ who performs at a nightclub or music festival and turntablist who uses record players, usually turntables, to manipulate sounds on phonograph records. , url: https://en.wikipedia.org/wiki/Disc_jockey, label: dj", 
                     "type": "text"
                 }, 
                 "link": [
@@ -1412,7 +1412,7 @@
                     "$t": "DJ"
                 }, 
                 "gsx$description": {
-                    "$t": "a person who plays existing recorded music for a live audience. Most common types of DJs include radio DJ, club DJ who performs at a nightclub or music festival and turntablist who uses record players, usually turntables, to manipulate sounds on phonograph records. "
+                    "$t": "A person who plays existing recorded music for a live audience. Most common types of DJs include radio DJ, club DJ who performs at a nightclub or music festival and turntablist who uses record players, usually turntables, to manipulate sounds on phonograph records. "
                 }
             }, 
             {
@@ -1423,7 +1423,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "dml"
@@ -1433,13 +1433,13 @@
                     "type": "text"
                 }, 
                 "gsx$expansion": {
-                    "$t": "data manipulation language"
+                    "$t": "Data Manipulation Language"
                 }, 
                 "gsx$url": {
                     "$t": "https://en.wikipedia.org/wiki/Data_manipulation_language"
                 }, 
                 "content": {
-                    "$t": "expansion: data manipulation language, description: A data manipulation language is a computer programming language used for adding, deleting, and modifying data in a database. A DML is often a sublanguage of a broader database language such as SQL, with the DML comprising some of the operators in the language, url: https://en.wikipedia.org/wiki/Data_manipulation_language, label: dml", 
+                    "$t": "expansion: Data Manipulation Language, description: A data manipulation language is a computer programming language used for adding, deleting, and modifying data in a database. A DML is often a sublanguage of a broader database language such as SQL, with the DML comprising some of the operators in the language, url: https://en.wikipedia.org/wiki/Data_manipulation_language, label: dml", 
                     "type": "text"
                 }, 
                 "link": [
@@ -1470,7 +1470,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "dom"
@@ -1486,7 +1486,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Document_Object_Model"
                 }, 
                 "content": {
-                    "$t": "expansion: Document Object Model, description: a cross-platform and language-independent application programming interface that treats an HTML, XHTML, or XML document as a tree structure wherein each node is an object representing a part of the document, url: https://en.wikipedia.org/wiki/Document_Object_Model, label: dom", 
+                    "$t": "expansion: Document Object Model, description: A cross-platform and language-independent application programming interface that treats an HTML, XHTML, or XML document as a tree structure wherein each node is an object representing a part of the document, url: https://en.wikipedia.org/wiki/Document_Object_Model, label: dom", 
                     "type": "text"
                 }, 
                 "link": [
@@ -1506,7 +1506,7 @@
                     "$t": "DOM"
                 }, 
                 "gsx$description": {
-                    "$t": "a cross-platform and language-independent application programming interface that treats an HTML, XHTML, or XML document as a tree structure wherein each node is an object representing a part of the document"
+                    "$t": "A cross-platform and language-independent application programming interface that treats an HTML, XHTML, or XML document as a tree structure wherein each node is an object representing a part of the document"
                 }
             }, 
             {
@@ -1517,7 +1517,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "dsl"
@@ -1533,7 +1533,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Domain-specific_language"
                 }, 
                 "content": {
-                    "$t": "expansion: Domain Specific Language, description: a computer language specialized to a particular application domain. This is in contrast to a general-purpose language, which is broadly applicable across domains., url: https://en.wikipedia.org/wiki/Domain-specific_language, label: dsl", 
+                    "$t": "expansion: Domain Specific Language, description: A computer language specialized to a particular application domain. This is in contrast to a general-purpose language, which is broadly applicable across domains., url: https://en.wikipedia.org/wiki/Domain-specific_language, label: dsl", 
                     "type": "text"
                 }, 
                 "link": [
@@ -1553,7 +1553,7 @@
                     "$t": "DSL"
                 }, 
                 "gsx$description": {
-                    "$t": "a computer language specialized to a particular application domain. This is in contrast to a general-purpose language, which is broadly applicable across domains."
+                    "$t": "A computer language specialized to a particular application domain. This is in contrast to a general-purpose language, which is broadly applicable across domains."
                 }
             }, 
             {
@@ -1564,7 +1564,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "edm"
@@ -1580,7 +1580,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Electronic_dance_music"
                 }, 
                 "content": {
-                    "$t": "expansion: Electronic dance music, description: a broad range of percussive electronic music genres made largely for nightclubs, raves and festivals, url: https://en.wikipedia.org/wiki/Electronic_dance_music, label: edm", 
+                    "$t": "expansion: Electronic dance music, description: A broad range of percussive electronic music genres made largely for nightclubs, raves and festivals, url: https://en.wikipedia.org/wiki/Electronic_dance_music, label: edm", 
                     "type": "text"
                 }, 
                 "link": [
@@ -1600,7 +1600,7 @@
                     "$t": "EDM"
                 }, 
                 "gsx$description": {
-                    "$t": "a broad range of percussive electronic music genres made largely for nightclubs, raves and festivals"
+                    "$t": "A broad range of percussive electronic music genres made largely for nightclubs, raves and festivals"
                 }
             }, 
             {
@@ -1611,7 +1611,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "er"
@@ -1658,7 +1658,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "exasol_ag"
@@ -1705,7 +1705,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "fm"
@@ -1752,7 +1752,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "formes"
@@ -1768,7 +1768,7 @@
                     "$t": ""
                 }, 
                 "content": {
-                    "$t": "description: an object-oriented programming environment for music composition and synthesis, cite: \\cite{DBLP:conf/icmc/BoyntonDPR86, 10.2307/3679811}, label: formes", 
+                    "$t": "description: An object-oriented programming environment for music composition and synthesis, cite: DBLP:conf/icmc/BoyntonDPR86, 10.2307/3679811, label: formes", 
                     "type": "text"
                 }, 
                 "link": [
@@ -1779,7 +1779,7 @@
                     }
                 ], 
                 "gsx$cite": {
-                    "$t": "\\cite{DBLP:conf/icmc/BoyntonDPR86, 10.2307/3679811}"
+                    "$t": "DBLP:conf/icmc/BoyntonDPR86, 10.2307/3679811"
                 }, 
                 "id": {
                     "$t": "https://spreadsheets.google.com/feeds/list/1tMkdssQlN_wbGS1SjfORS7AOBspKvvun7_AvzxctMrE/6/public/values/drwu7"
@@ -1788,7 +1788,7 @@
                     "$t": "FORMES"
                 }, 
                 "gsx$description": {
-                    "$t": "an object-oriented programming environment for music composition and synthesis"
+                    "$t": "An object-oriented programming environment for music composition and synthesis"
                 }
             }, 
             {
@@ -1799,7 +1799,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "fortran"
@@ -1815,7 +1815,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Fortran"
                 }, 
                 "content": {
-                    "$t": "expansion: Formula Translation, description: a general-purpose, compiled imperative programming language that is especially suited to numeric computation and scientific computing., url: https://en.wikipedia.org/wiki/Fortran, label: fortran", 
+                    "$t": "expansion: Formula Translation, description: A general-purpose, compiled imperative programming language that is especially suited to numeric computation and scientific computing., url: https://en.wikipedia.org/wiki/Fortran, label: fortran", 
                     "type": "text"
                 }, 
                 "link": [
@@ -1835,7 +1835,7 @@
                     "$t": "FORTRAN"
                 }, 
                 "gsx$description": {
-                    "$t": "a general-purpose, compiled imperative programming language that is especially suited to numeric computation and scientific computing."
+                    "$t": "A general-purpose, compiled imperative programming language that is especially suited to numeric computation and scientific computing."
                 }
             }, 
             {
@@ -1846,7 +1846,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "gb"
@@ -1856,13 +1856,13 @@
                     "type": "text"
                 }, 
                 "gsx$expansion": {
-                    "$t": "gigabyte"
+                    "$t": "Gigabyte"
                 }, 
                 "gsx$url": {
                     "$t": "https://en.wikipedia.org/wiki/Gigabyte"
                 }, 
                 "content": {
-                    "$t": "expansion: gigabyte, description: a unit of information equal to one thousand million (109) or, strictly, 230 bytes., url: https://en.wikipedia.org/wiki/Gigabyte, label: gb", 
+                    "$t": "expansion: Gigabyte, description: A unit of information equal to one thousand million (109) or, strictly, 230 bytes., url: https://en.wikipedia.org/wiki/Gigabyte, label: gb", 
                     "type": "text"
                 }, 
                 "link": [
@@ -1882,7 +1882,7 @@
                     "$t": "GB"
                 }, 
                 "gsx$description": {
-                    "$t": "a unit of information equal to one thousand million (109) or, strictly, 230 bytes."
+                    "$t": "A unit of information equal to one thousand million (109) or, strictly, 230 bytes."
                 }
             }, 
             {
@@ -1893,7 +1893,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "gdif"
@@ -1909,7 +1909,7 @@
                     "$t": ""
                 }, 
                 "content": {
-                    "$t": "expansion: Gesture Description Interchange Format, description: a format for storing, retrieving and sharing information about music-related gestures., cite: \\cite{Jensenius2006a}, label: gdif", 
+                    "$t": "expansion: Gesture Description Interchange Format, description: A format for storing, retrieving and sharing information about music-related gestures., cite: Jensenius2006a, label: gdif", 
                     "type": "text"
                 }, 
                 "link": [
@@ -1920,7 +1920,7 @@
                     }
                 ], 
                 "gsx$cite": {
-                    "$t": "\\cite{Jensenius2006a}"
+                    "$t": "Jensenius2006a"
                 }, 
                 "id": {
                     "$t": "https://spreadsheets.google.com/feeds/list/1tMkdssQlN_wbGS1SjfORS7AOBspKvvun7_AvzxctMrE/6/public/values/e7d2q"
@@ -1929,7 +1929,7 @@
                     "$t": "GDIF"
                 }, 
                 "gsx$description": {
-                    "$t": "a format for storing, retrieving and sharing information about music-related gestures."
+                    "$t": "A format for storing, retrieving and sharing information about music-related gestures."
                 }
             }, 
             {
@@ -1940,7 +1940,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "gpu"
@@ -1956,7 +1956,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Graphics_processing_unit"
                 }, 
                 "content": {
-                    "$t": "expansion: Graphics Processing Unit, description: a specialized electronic circuit designed to rapidly manipulate and alter memory to accelerate the creation of images in a frame buffer intended for output to a display device. , url: https://en.wikipedia.org/wiki/Graphics_processing_unit, label: gpu", 
+                    "$t": "expansion: Graphics Processing Unit, description: A specialized electronic circuit designed to rapidly manipulate and alter memory to accelerate the creation of images in a frame buffer intended for output to a display device. , url: https://en.wikipedia.org/wiki/Graphics_processing_unit, label: gpu", 
                     "type": "text"
                 }, 
                 "link": [
@@ -1976,7 +1976,7 @@
                     "$t": "GPU"
                 }, 
                 "gsx$description": {
-                    "$t": "a specialized electronic circuit designed to rapidly manipulate and alter memory to accelerate the creation of images in a frame buffer intended for output to a display device. "
+                    "$t": "A specialized electronic circuit designed to rapidly manipulate and alter memory to accelerate the creation of images in a frame buffer intended for output to a display device. "
                 }
             }, 
             {
@@ -1987,7 +1987,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "gsr"
@@ -2003,7 +2003,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Electrodermal_activity"
                 }, 
                 "content": {
-                    "$t": "expansion: Galvanic Skin Response, description: GSR is another name for Electrodermal activity (EDA) is the property of the human body that causes continuous variation in the electrical characteristics of the skin., url: https://en.wikipedia.org/wiki/Electrodermal_activity, label: gsr", 
+                    "$t": "expansion: Galvanic Skin Response, description: GSR is another name for Electrodermal Activity (EDA) is the property of the human body that causes continuous variation in the electrical characteristics of the skin., url: https://en.wikipedia.org/wiki/Electrodermal_activity, label: gsr", 
                     "type": "text"
                 }, 
                 "link": [
@@ -2023,7 +2023,7 @@
                     "$t": "GSR"
                 }, 
                 "gsx$description": {
-                    "$t": "GSR is another name for Electrodermal activity (EDA) is the property of the human body that causes continuous variation in the electrical characteristics of the skin."
+                    "$t": "GSR is another name for Electrodermal Activity (EDA) is the property of the human body that causes continuous variation in the electrical characteristics of the skin."
                 }
             }, 
             {
@@ -2034,7 +2034,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "gttm"
@@ -2044,13 +2044,13 @@
                     "type": "text"
                 }, 
                 "gsx$expansion": {
-                    "$t": "generative theory of tonal music"
+                    "$t": "Generative Theory of Tonal Music"
                 }, 
                 "gsx$url": {
                     "$t": "https://en.wikipedia.org/wiki/Generative_theory_of_tonal_music"
                 }, 
                 "content": {
-                    "$t": "expansion: generative theory of tonal music, description: a theory of music conceived by American composer and music theorist Fred Lerdahl and American linguist Ray Jackendoff and presented in the 1983 book of the same title. , url: https://en.wikipedia.org/wiki/Generative_theory_of_tonal_music, cite: \\cite{DBLP:conf/ismir/HamanakaHT14}, label: gttm", 
+                    "$t": "expansion: Generative Theory of Tonal Music, description: A theory of music conceived by American composer and music theorist Fred Lerdahl and American linguist Ray Jackendoff and presented in the 1983 book of the same title. , url: https://en.wikipedia.org/wiki/Generative_theory_of_tonal_music, cite: DBLP:conf/ismir/HamanakaHT14, label: gttm", 
                     "type": "text"
                 }, 
                 "link": [
@@ -2061,7 +2061,7 @@
                     }
                 ], 
                 "gsx$cite": {
-                    "$t": "\\cite{DBLP:conf/ismir/HamanakaHT14}"
+                    "$t": "DBLP:conf/ismir/HamanakaHT14"
                 }, 
                 "id": {
                     "$t": "https://spreadsheets.google.com/feeds/list/1tMkdssQlN_wbGS1SjfORS7AOBspKvvun7_AvzxctMrE/6/public/values/ebks1"
@@ -2070,7 +2070,7 @@
                     "$t": "GTTM"
                 }, 
                 "gsx$description": {
-                    "$t": "a theory of music conceived by American composer and music theorist Fred Lerdahl and American linguist Ray Jackendoff and presented in the 1983 book of the same title. "
+                    "$t": "A theory of music conceived by American composer and music theorist Fred Lerdahl and American linguist Ray Jackendoff and presented in the 1983 book of the same title. "
                 }
             }, 
             {
@@ -2081,7 +2081,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "hci"
@@ -2128,7 +2128,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "hmdb"
@@ -2144,7 +2144,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Human_Metabolome_Database"
                 }, 
                 "content": {
-                    "$t": "expansion: Human Metabolome Database, description: a comprehensive, high-quality, freely accessible, online database of small molecule metabolites found in the human body. Created by the Human Metabolome Project funded by Genome Canada., url: https://en.wikipedia.org/wiki/Human_Metabolome_Database, label: hmdb", 
+                    "$t": "expansion: Human Metabolome Database, description: A comprehensive, high-quality, freely accessible, online database of small molecule metabolites found in the human body. Created by the Human Metabolome Project funded by Genome Canada., url: https://en.wikipedia.org/wiki/Human_Metabolome_Database, label: hmdb", 
                     "type": "text"
                 }, 
                 "link": [
@@ -2164,7 +2164,7 @@
                     "$t": "HMDB"
                 }, 
                 "gsx$description": {
-                    "$t": "a comprehensive, high-quality, freely accessible, online database of small molecule metabolites found in the human body. Created by the Human Metabolome Project funded by Genome Canada."
+                    "$t": "A comprehensive, high-quality, freely accessible, online database of small molecule metabolites found in the human body. Created by the Human Metabolome Project funded by Genome Canada."
                 }
             }, 
             {
@@ -2175,7 +2175,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "hp"
@@ -2191,7 +2191,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Hewlett-Packard"
                 }, 
                 "content": {
-                    "$t": "expansion: Hewlett Packard, description: an American multinational information technology company headquartered in Palo Alto, California., url: https://en.wikipedia.org/wiki/Hewlett-Packard, label: hp", 
+                    "$t": "expansion: Hewlett Packard, description: An American multinational information technology company headquartered in Palo Alto, California., url: https://en.wikipedia.org/wiki/Hewlett-Packard, label: hp", 
                     "type": "text"
                 }, 
                 "link": [
@@ -2211,7 +2211,7 @@
                     "$t": "HP"
                 }, 
                 "gsx$description": {
-                    "$t": "an American multinational information technology company headquartered in Palo Alto, California."
+                    "$t": "An American multinational information technology company headquartered in Palo Alto, California."
                 }
             }, 
             {
@@ -2222,7 +2222,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "html"
@@ -2238,7 +2238,7 @@
                     "$t": "https://en.wikipedia.org/wiki/HTML"
                 }, 
                 "content": {
-                    "$t": "expansion: Hypertext Markup Language, description: the standard markup language for creating web pages and web applications. With Cascading Style Sheets and JavaScript, it forms a triad of cornerstone technologies for the World Wide Web, url: https://en.wikipedia.org/wiki/HTML, label: html", 
+                    "$t": "expansion: Hypertext Markup Language, description: The standard markup language for creating web pages and web applications. With Cascading Style Sheets and JavaScript, it forms a triad of cornerstone technologies for the World Wide Web, url: https://en.wikipedia.org/wiki/HTML, label: html", 
                     "type": "text"
                 }, 
                 "link": [
@@ -2258,7 +2258,7 @@
                     "$t": "HTML"
                 }, 
                 "gsx$description": {
-                    "$t": "the standard markup language for creating web pages and web applications. With Cascading Style Sheets and JavaScript, it forms a triad of cornerstone technologies for the World Wide Web"
+                    "$t": "The standard markup language for creating web pages and web applications. With Cascading Style Sheets and JavaScript, it forms a triad of cornerstone technologies for the World Wide Web"
                 }
             }, 
             {
@@ -2269,7 +2269,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "http"
@@ -2285,7 +2285,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol"
                 }, 
                 "content": {
-                    "$t": "expansion: Hypertext Transfer Protocol , description: an application protocol for distributed, collaborative, hypermedia information systems., url: https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol, label: http", 
+                    "$t": "expansion: Hypertext Transfer Protocol , description: An application protocol for distributed, collaborative, hypermedia information systems., url: https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol, label: http", 
                     "type": "text"
                 }, 
                 "link": [
@@ -2305,7 +2305,7 @@
                     "$t": "HTTP"
                 }, 
                 "gsx$description": {
-                    "$t": "an application protocol for distributed, collaborative, hypermedia information systems."
+                    "$t": "An application protocol for distributed, collaborative, hypermedia information systems."
                 }
             }, 
             {
@@ -2316,7 +2316,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "ibm"
@@ -2332,7 +2332,7 @@
                     "$t": "https://en.wikipedia.org/wiki/IBM"
                 }, 
                 "content": {
-                    "$t": "expansion: International Business Machines Corporation, description: an American multinational information technology company headquartered in Armonk, New York, with operations in over 170 countries., url: https://en.wikipedia.org/wiki/IBM, label: ibm", 
+                    "$t": "expansion: International Business Machines Corporation, description: An American multinational information technology company headquartered in Armonk, New York, with operations in over 170 countries., url: https://en.wikipedia.org/wiki/IBM, label: ibm", 
                     "type": "text"
                 }, 
                 "link": [
@@ -2352,7 +2352,7 @@
                     "$t": "IBM"
                 }, 
                 "gsx$description": {
-                    "$t": "an American multinational information technology company headquartered in Armonk, New York, with operations in over 170 countries."
+                    "$t": "An American multinational information technology company headquartered in Armonk, New York, with operations in over 170 countries."
                 }
             }, 
             {
@@ -2363,7 +2363,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "icloud"
@@ -2379,7 +2379,7 @@
                     "$t": "https://en.wikipedia.org/wiki/ICloud"
                 }, 
                 "content": {
-                    "$t": "description: cloud storage and cloud computing service from Apple Inc. launched on October 12, 2011. As of February 2016, the service had 782 million users., url: https://en.wikipedia.org/wiki/ICloud, label: icloud", 
+                    "$t": "description: Aloud storage and cloud computing service from Apple Inc. launched on October 12, 2011. As of February 2016, the service had 782 million users., url: https://en.wikipedia.org/wiki/ICloud, label: icloud", 
                     "type": "text"
                 }, 
                 "link": [
@@ -2399,7 +2399,7 @@
                     "$t": "ICloud"
                 }, 
                 "gsx$description": {
-                    "$t": "cloud storage and cloud computing service from Apple Inc. launched on October 12, 2011. As of February 2016, the service had 782 million users."
+                    "$t": "Aloud storage and cloud computing service from Apple Inc. launched on October 12, 2011. As of February 2016, the service had 782 million users."
                 }
             }, 
             {
@@ -2410,7 +2410,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "icmc"
@@ -2426,7 +2426,7 @@
                     "$t": "https://en.wikipedia.org/wiki/International_Computer_Music_Conference"
                 }, 
                 "content": {
-                    "$t": "expansion: International Computer Music Conference, description:  a yearly international conference for computer music researchers and composers. It is the annual conference of the International Computer Music Association (ICMA)., url: https://en.wikipedia.org/wiki/International_Computer_Music_Conference, label: icmc", 
+                    "$t": "expansion: International Computer Music Conference, description: A yearly international conference for computer music researchers and composers. It is the annual conference of the International Computer Music Association (ICMA)., url: https://en.wikipedia.org/wiki/International_Computer_Music_Conference, label: icmc", 
                     "type": "text"
                 }, 
                 "link": [
@@ -2446,7 +2446,7 @@
                     "$t": "ICMC"
                 }, 
                 "gsx$description": {
-                    "$t": " a yearly international conference for computer music researchers and composers. It is the annual conference of the International Computer Music Association (ICMA)."
+                    "$t": "A yearly international conference for computer music researchers and composers. It is the annual conference of the International Computer Music Association (ICMA)."
                 }
             }, 
             {
@@ -2457,7 +2457,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "idms"
@@ -2473,7 +2473,7 @@
                     "$t": "https://en.wikipedia.org/wiki/IDMS"
                 }, 
                 "content": {
-                    "$t": "expansion: Integrated Database Management System, description: a network model database management system for mainframes, url: https://en.wikipedia.org/wiki/IDMS, label: idms", 
+                    "$t": "expansion: Integrated Database Management System, description: A network model database management system for mainframes, url: https://en.wikipedia.org/wiki/IDMS, label: idms", 
                     "type": "text"
                 }, 
                 "link": [
@@ -2493,7 +2493,7 @@
                     "$t": "IDMS"
                 }, 
                 "gsx$description": {
-                    "$t": "a network model database management system for mainframes"
+                    "$t": "A network model database management system for mainframes"
                 }
             }, 
             {
@@ -2504,7 +2504,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "ids"
@@ -2520,7 +2520,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Integrated_Data_Store"
                 }, 
                 "content": {
-                    "$t": "expansion: Integrated Data Store, description: an early network database management system largely used by industry, known for its high performance. IDS became the basis for the CODASYL Data Base Task Group standards., url: https://en.wikipedia.org/wiki/Integrated_Data_Store, label: ids", 
+                    "$t": "expansion: Integrated Data Store, description: An early network database management system largely used by industry, known for its high performance. IDS became the basis for the CODASYL Data Base Task Group standards., url: https://en.wikipedia.org/wiki/Integrated_Data_Store, label: ids", 
                     "type": "text"
                 }, 
                 "link": [
@@ -2540,7 +2540,7 @@
                     "$t": "IDS"
                 }, 
                 "gsx$description": {
-                    "$t": "an early network database management system largely used by industry, known for its high performance. IDS became the basis for the CODASYL Data Base Task Group standards."
+                    "$t": "An early network database management system largely used by industry, known for its high performance. IDS became the basis for the CODASYL Data Base Task Group standards."
                 }
             }, 
             {
@@ -2551,7 +2551,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "iem"
@@ -2567,7 +2567,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Institute_of_Electronic_Music_and_Acoustics"
                 }, 
                 "content": {
-                    "$t": "expansion: Institute of Electronic Music and Acoustics, description:  a multidisciplinary research center within the University of Music and Performing Arts, Graz, (Austria)., url: https://en.wikipedia.org/wiki/Institute_of_Electronic_Music_and_Acoustics, label: iem", 
+                    "$t": "expansion: Institute of Electronic Music and Acoustics, description: A multidisciplinary research center within the University of Music and Performing Arts, Graz, (Austria)., url: https://en.wikipedia.org/wiki/Institute_of_Electronic_Music_and_Acoustics, label: iem", 
                     "type": "text"
                 }, 
                 "link": [
@@ -2587,7 +2587,7 @@
                     "$t": "IEM"
                 }, 
                 "gsx$description": {
-                    "$t": " a multidisciplinary research center within the University of Music and Performing Arts, Graz, (Austria)."
+                    "$t": "A multidisciplinary research center within the University of Music and Performing Arts, Graz, (Austria)."
                 }
             }, 
             {
@@ -2598,7 +2598,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "ift"
@@ -2645,7 +2645,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "imdb"
@@ -2692,7 +2692,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "imdbs"
@@ -2708,7 +2708,7 @@
                     "$t": "https://en.wikipedia.org/wiki/In-memory_database"
                 }, 
                 "content": {
-                    "$t": "expansion: In Memory Data Bases, description: a database management system that primarily relies on main memory for computer data storage. It is contrasted with database management systems that employ a disk storage mechanism., url: https://en.wikipedia.org/wiki/In-memory_database, label: imdbs", 
+                    "$t": "expansion: In Memory Data Bases, description: A database management system that primarily relies on main memory for computer data storage. It is contrasted with database management systems that employ a disk storage mechanism., url: https://en.wikipedia.org/wiki/In-memory_database, label: imdbs", 
                     "type": "text"
                 }, 
                 "link": [
@@ -2728,7 +2728,7 @@
                     "$t": "IMDBs"
                 }, 
                 "gsx$description": {
-                    "$t": "a database management system that primarily relies on main memory for computer data storage. It is contrasted with database management systems that employ a disk storage mechanism."
+                    "$t": "A database management system that primarily relies on main memory for computer data storage. It is contrasted with database management systems that employ a disk storage mechanism."
                 }
             }, 
             {
@@ -2739,7 +2739,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "ims"
@@ -2755,7 +2755,7 @@
                     "$t": "https://en.wikipedia.org/wiki/IBM_Information_Management_System"
                 }, 
                 "content": {
-                    "$t": "expansion: Information Management System, description: the first database model ever created. It was created by IBM during the early 1960s, in conjunction with two other American manufacturing conglomerates (Rockwell and Caterpillar) for NASA's Project Apollo, url: https://en.wikipedia.org/wiki/IBM_Information_Management_System, label: ims", 
+                    "$t": "expansion: Information Management System, description: The first database model ever created. It was created by IBM during the early 1960s, in conjunction with two other American manufacturing conglomerates (Rockwell and Caterpillar) for NASA's Project Apollo, url: https://en.wikipedia.org/wiki/IBM_Information_Management_System, label: ims", 
                     "type": "text"
                 }, 
                 "link": [
@@ -2775,7 +2775,7 @@
                     "$t": "IMS"
                 }, 
                 "gsx$description": {
-                    "$t": "the first database model ever created. It was created by IBM during the early 1960s, in conjunction with two other American manufacturing conglomerates (Rockwell and Caterpillar) for NASA's Project Apollo"
+                    "$t": "The first database model ever created. It was created by IBM during the early 1960s, in conjunction with two other American manufacturing conglomerates (Rockwell and Caterpillar) for NASA's Project Apollo"
                 }
             }, 
             {
@@ -2786,7 +2786,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "ios"
@@ -2802,7 +2802,7 @@
                     "$t": "https://en.wikipedia.org/wiki/IOS"
                 }, 
                 "content": {
-                    "$t": "expansion: I Operating System, description:  a mobile operating system created and developed by Apple Inc. exclusively for its hardware. , url: https://en.wikipedia.org/wiki/IOS, label: ios", 
+                    "$t": "expansion: I Operating System, description: A mobile operating system created and developed by Apple Inc. exclusively for its hardware. , url: https://en.wikipedia.org/wiki/IOS, label: ios", 
                     "type": "text"
                 }, 
                 "link": [
@@ -2822,7 +2822,7 @@
                     "$t": "iOS"
                 }, 
                 "gsx$description": {
-                    "$t": " a mobile operating system created and developed by Apple Inc. exclusively for its hardware. "
+                    "$t": "A mobile operating system created and developed by Apple Inc. exclusively for its hardware. "
                 }
             }, 
             {
@@ -2833,7 +2833,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "ip"
@@ -2849,7 +2849,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Internet_Protocol"
                 }, 
                 "content": {
-                    "$t": "expansion: Internet Protocol, description: the principal communications protocol in the Internet protocol suite for relaying datagrams across network boundaries. Its routing function enables internetworking, and essentially establishes the Internet., url: https://en.wikipedia.org/wiki/Internet_Protocol, label: ip", 
+                    "$t": "expansion: Internet Protocol, description: The principal communications protocol in the Internet protocol suite for relaying datagrams across network boundaries. Its routing function enables internetworking, and essentially establishes the Internet., url: https://en.wikipedia.org/wiki/Internet_Protocol, label: ip", 
                     "type": "text"
                 }, 
                 "link": [
@@ -2869,7 +2869,7 @@
                     "$t": "IP"
                 }, 
                 "gsx$description": {
-                    "$t": "the principal communications protocol in the Internet protocol suite for relaying datagrams across network boundaries. Its routing function enables internetworking, and essentially establishes the Internet."
+                    "$t": "The principal communications protocol in the Internet protocol suite for relaying datagrams across network boundaries. Its routing function enables internetworking, and essentially establishes the Internet."
                 }
             }, 
             {
@@ -2880,7 +2880,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "ir"
@@ -2896,7 +2896,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Information_retrieval"
                 }, 
                 "content": {
-                    "$t": "expansion: Information Retrieval, description: the activity of obtaining information system resources relevant to an information need from a collection of information resources. Searches can be based on full-text or other content-based indexing., url: https://en.wikipedia.org/wiki/Information_retrieval, cite: https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf, label: ir", 
+                    "$t": "expansion: Information Retrieval, description: The activity of obtaining information system resources relevant to an information need from a collection of information resources. Searches can be based on full-text or other content-based indexing., url: https://en.wikipedia.org/wiki/Information_retrieval, label: ir", 
                     "type": "text"
                 }, 
                 "link": [
@@ -2907,7 +2907,7 @@
                     }
                 ], 
                 "gsx$cite": {
-                    "$t": "https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf"
+                    "$t": ""
                 }, 
                 "id": {
                     "$t": "https://spreadsheets.google.com/feeds/list/1tMkdssQlN_wbGS1SjfORS7AOBspKvvun7_AvzxctMrE/6/public/values/epmg7"
@@ -2916,7 +2916,7 @@
                     "$t": "IR"
                 }, 
                 "gsx$description": {
-                    "$t": "the activity of obtaining information system resources relevant to an information need from a collection of information resources. Searches can be based on full-text or other content-based indexing."
+                    "$t": "The activity of obtaining information system resources relevant to an information need from a collection of information resources. Searches can be based on full-text or other content-based indexing."
                 }
             }, 
             {
@@ -2927,7 +2927,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "ircam"
@@ -2943,7 +2943,7 @@
                     "$t": "https://www.ircam.fr/"
                 }, 
                 "content": {
-                    "$t": "expansion: Institut de Recherche et Coordination Acoustique/Musique, description: a French institute for science about music and sound and avant garde electro-acoustical art music., url: https://www.ircam.fr/, label: ircam", 
+                    "$t": "expansion: Institut de Recherche et Coordination Acoustique/Musique, description: A French institute for science about music and sound and avant garde electro-acoustical art music., url: https://www.ircam.fr/, label: ircam", 
                     "type": "text"
                 }, 
                 "link": [
@@ -2963,7 +2963,7 @@
                     "$t": "IRCAM"
                 }, 
                 "gsx$description": {
-                    "$t": "a French institute for science about music and sound and avant garde electro-acoustical art music."
+                    "$t": "A French institute for science about music and sound and avant garde electro-acoustical art music."
                 }
             }, 
             {
@@ -2974,7 +2974,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "iris"
@@ -3021,7 +3021,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "ismir"
@@ -3037,7 +3037,7 @@
                     "$t": "http://ismir.net"
                 }, 
                 "content": {
-                    "$t": "expansion: International Society for Music Information Retrieval, description: an international forum for research on the organization of music-related data., url: http://ismir.net, label: ismir", 
+                    "$t": "expansion: International Society for Music Information Retrieval, description: An international forum for research on the organization of music-related data., url: http://ismir.net, label: ismir", 
                     "type": "text"
                 }, 
                 "link": [
@@ -3057,7 +3057,7 @@
                     "$t": "ISMIR"
                 }, 
                 "gsx$description": {
-                    "$t": "an international forum for research on the organization of music-related data."
+                    "$t": "An international forum for research on the organization of music-related data."
                 }
             }, 
             {
@@ -3068,7 +3068,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "ixd"
@@ -3115,7 +3115,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "json"
@@ -3131,7 +3131,7 @@
                     "$t": "https://www.json.org/"
                 }, 
                 "content": {
-                    "$t": "expansion: JavaScript Object Notation, description: an open-standard file format that uses human-readable text to transmit data objects consisting of attribute-value pairs and array data types (or any other serializable value), url: https://www.json.org/, label: json", 
+                    "$t": "expansion: JavaScript Object Notation, description: An open-standard file format that uses human-readable text to transmit data objects consisting of attribute-value pairs and array data types (or any other serializable value), url: https://www.json.org/, label: json", 
                     "type": "text"
                 }, 
                 "link": [
@@ -3151,7 +3151,7 @@
                     "$t": "JSON"
                 }, 
                 "gsx$description": {
-                    "$t": "an open-standard file format that uses human-readable text to transmit data objects consisting of attribute-value pairs and array data types (or any other serializable value)"
+                    "$t": "An open-standard file format that uses human-readable text to transmit data objects consisting of attribute-value pairs and array data types (or any other serializable value)"
                 }
             }, 
             {
@@ -3162,7 +3162,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "lbdm"
@@ -3178,7 +3178,7 @@
                     "$t": ""
                 }, 
                 "content": {
-                    "$t": "expansion: Local Boundaries Detection Model, description: The Local Boundary Detection Model (LBDM) calculates boundary strength values for each interval of a melodic surface according to the strength of local discontinuities; peaks in the resulting sequence of boundary strengths are taken to be potential local boundaries., cite: \\cite{DBLP:conf/icmc/Cambouropoulos01}, label: lbdm", 
+                    "$t": "expansion: Local Boundaries Detection Model, description: The Local Boundary Detection Model (LBDM) calculates boundary strength values for each interval of a melodic surface according to the strength of local discontinuities; peaks in the resulting sequence of boundary strengths are taken to be potential local boundaries., cite: DBLP:conf/icmc/Cambouropoulos01, label: lbdm", 
                     "type": "text"
                 }, 
                 "link": [
@@ -3189,7 +3189,7 @@
                     }
                 ], 
                 "gsx$cite": {
-                    "$t": "\\cite{DBLP:conf/icmc/Cambouropoulos01}"
+                    "$t": "DBLP:conf/icmc/Cambouropoulos01"
                 }, 
                 "id": {
                     "$t": "https://spreadsheets.google.com/feeds/list/1tMkdssQlN_wbGS1SjfORS7AOBspKvvun7_AvzxctMrE/6/public/values/a9hnd"
@@ -3209,7 +3209,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "lfcc"
@@ -3256,7 +3256,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "lisp"
@@ -3272,7 +3272,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Lisp_(programming_language)"
                 }, 
                 "content": {
-                    "$t": "expansion: LISt Processor, description: a family of computer programming languages with a long history and a distinctive, fully parenthesized prefix notation. Originally specified in 1958, Lisp is the second-oldest high-level programming language in widespread use today. Linked lists are one of Lisp's major data structures, and Lisp source code is made of lists., url: https://en.wikipedia.org/wiki/Lisp_(programming_language), label: lisp", 
+                    "$t": "expansion: LISt Processor, description: A family of computer programming languages with a long history and a distinctive, fully parenthesized prefix notation. Originally specified in 1958, Lisp is the second-oldest high-level programming language in widespread use today. Linked lists are one of Lisp's major data structures, and Lisp source code is made of lists., url: https://en.wikipedia.org/wiki/Lisp_(programming_language), label: lisp", 
                     "type": "text"
                 }, 
                 "link": [
@@ -3292,7 +3292,7 @@
                     "$t": "LISP"
                 }, 
                 "gsx$description": {
-                    "$t": "a family of computer programming languages with a long history and a distinctive, fully parenthesized prefix notation. Originally specified in 1958, Lisp is the second-oldest high-level programming language in widespread use today. Linked lists are one of Lisp's major data structures, and Lisp source code is made of lists."
+                    "$t": "A family of computer programming languages with a long history and a distinctive, fully parenthesized prefix notation. Originally specified in 1958, Lisp is the second-oldest high-level programming language in widespread use today. Linked lists are one of Lisp's major data structures, and Lisp source code is made of lists."
                 }
             }, 
             {
@@ -3303,7 +3303,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "lpc"
@@ -3319,7 +3319,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Linear_predictive_coding"
                 }, 
                 "content": {
-                    "$t": "expansion: Linear Predictive Coding, description:  a tool used mostly in audio signal processing and speech processing for representing the spectral envelope of a digital signal of speech in compressed form, using the information of a linear predictive model, url: https://en.wikipedia.org/wiki/Linear_predictive_coding, label: lpc", 
+                    "$t": "expansion: Linear Predictive Coding, description: A tool used mostly in audio signal processing and speech processing for representing the spectral envelope of a digital signal of speech in compressed form, using the information of a linear predictive model, url: https://en.wikipedia.org/wiki/Linear_predictive_coding, label: lpc", 
                     "type": "text"
                 }, 
                 "link": [
@@ -3339,7 +3339,7 @@
                     "$t": "LPC"
                 }, 
                 "gsx$description": {
-                    "$t": " a tool used mostly in audio signal processing and speech processing for representing the spectral envelope of a digital signal of speech in compressed form, using the information of a linear predictive model"
+                    "$t": "A tool used mostly in audio signal processing and speech processing for representing the spectral envelope of a digital signal of speech in compressed form, using the information of a linear predictive model"
                 }
             }, 
             {
@@ -3350,7 +3350,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "madbpm"
@@ -3366,7 +3366,7 @@
                     "$t": "https://ccrma.stanford.edu/~rob/rpi/madbpm/"
                 }, 
                 "content": {
-                    "$t": "description: A modular C++ software platform serving as a data-ingestion engine suitable for database perceptualization (i.e. sonification and visualization), url: https://ccrma.stanford.edu/~rob/rpi/madbpm/, cite: \\cite{icmc/bbp2372.2017.087}, label: madbpm", 
+                    "$t": "description: A modular C++ software platform serving as a data-ingestion engine suitable for database perceptualization (i.e. sonification and visualization), url: https://ccrma.stanford.edu/~rob/rpi/madbpm/, cite: icmc/bbp2372.2017.087, label: madbpm", 
                     "type": "text"
                 }, 
                 "link": [
@@ -3377,7 +3377,7 @@
                     }
                 ], 
                 "gsx$cite": {
-                    "$t": "\\cite{icmc/bbp2372.2017.087}"
+                    "$t": "icmc/bbp2372.2017.087"
                 }, 
                 "id": {
                     "$t": "https://spreadsheets.google.com/feeds/list/1tMkdssQlN_wbGS1SjfORS7AOBspKvvun7_AvzxctMrE/6/public/values/a3vdp"
@@ -3397,7 +3397,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "max"
@@ -3444,7 +3444,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "max/msp"
@@ -3460,7 +3460,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Max_(software)"
                 }, 
                 "content": {
-                    "$t": "description: also known as Max/MSP/Jitter, is a visual programming language for music and multimedia developed and maintained by San Francisco-based software company Cycling '74. Max (Mathews) + (\"Max Signal Processing\", or the initials Miller Smith Puckette), url: https://en.wikipedia.org/wiki/Max_(software), label: max/msp", 
+                    "$t": "description: Also known as Max/MSP/Jitter, is a visual programming language for music and multimedia developed and maintained by San Francisco-based software company Cycling '74. Max (Mathews) + (\"Max Signal Processing\", or the initials Miller Smith Puckette), url: https://en.wikipedia.org/wiki/Max_(software), label: max/msp", 
                     "type": "text"
                 }, 
                 "link": [
@@ -3480,7 +3480,7 @@
                     "$t": "MAX/MSP"
                 }, 
                 "gsx$description": {
-                    "$t": "also known as Max/MSP/Jitter, is a visual programming language for music and multimedia developed and maintained by San Francisco-based software company Cycling '74. Max (Mathews) + (\"Max Signal Processing\", or the initials Miller Smith Puckette)"
+                    "$t": "Also known as Max/MSP/Jitter, is a visual programming language for music and multimedia developed and maintained by San Francisco-based software company Cycling '74. Max (Mathews) + (\"Max Signal Processing\", or the initials Miller Smith Puckette)"
                 }
             }, 
             {
@@ -3491,7 +3491,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "metrixml"
@@ -3507,7 +3507,7 @@
                     "$t": "https://xamat.github.io/Thesis/html-thesis/"
                 }, 
                 "content": {
-                    "$t": "expansion: MetriX in Extensible Markup Language, description: A computer music synthesis programming language based in the Music-N type., url: https://xamat.github.io/Thesis/html-thesis/, cite: \\cite{Amatriain/2004/phdthesis}, label: metrixml", 
+                    "$t": "expansion: MetriX in Extensible Markup Language, description: A computer music synthesis programming language based in the Music-N type., url: https://xamat.github.io/Thesis/html-thesis/, cite: Amatriain/2004/phdthesis, label: metrixml", 
                     "type": "text"
                 }, 
                 "link": [
@@ -3518,7 +3518,7 @@
                     }
                 ], 
                 "gsx$cite": {
-                    "$t": "\\cite{Amatriain/2004/phdthesis}"
+                    "$t": "Amatriain/2004/phdthesis"
                 }, 
                 "id": {
                     "$t": "https://spreadsheets.google.com/feeds/list/1tMkdssQlN_wbGS1SjfORS7AOBspKvvun7_AvzxctMrE/6/public/values/ajbm8"
@@ -3538,7 +3538,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "midi"
@@ -3554,7 +3554,7 @@
                     "$t": "https://en.wikipedia.org/wiki/MIDI"
                 }, 
                 "content": {
-                    "$t": "expansion: Musical Instrument Digital Interface, description:  a technical standard that describes a communications protocol, digital interface, and electrical connectors that connect a wide variety of electronic musical instruments, computers, and related audio devices., url: https://en.wikipedia.org/wiki/MIDI, label: midi", 
+                    "$t": "expansion: Musical Instrument Digital Interface, description: A technical standard that describes a communications protocol, digital interface, and electrical connectors that connect a wide variety of electronic musical instruments, computers, and related audio devices., url: https://en.wikipedia.org/wiki/MIDI, label: midi", 
                     "type": "text"
                 }, 
                 "link": [
@@ -3574,7 +3574,7 @@
                     "$t": "MIDI"
                 }, 
                 "gsx$description": {
-                    "$t": " a technical standard that describes a communications protocol, digital interface, and electrical connectors that connect a wide variety of electronic musical instruments, computers, and related audio devices."
+                    "$t": "A technical standard that describes a communications protocol, digital interface, and electrical connectors that connect a wide variety of electronic musical instruments, computers, and related audio devices."
                 }
             }, 
             {
@@ -3585,7 +3585,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "mir"
@@ -3595,13 +3595,13 @@
                     "type": "text"
                 }, 
                 "gsx$expansion": {
-                    "$t": "Music information retrieval "
+                    "$t": "Music Information Retrieval "
                 }, 
                 "gsx$url": {
                     "$t": "https://en.wikipedia.org/wiki/Music_information_retrieval"
                 }, 
                 "content": {
-                    "$t": "expansion: Music information retrieval , description: the interdisciplinary science of retrieving information from music. MIR is a small but growing field of research with many real-world applications. Those involved in MIR may have a background in musicology, psychoacoustics, psychology, academic music study, signal processing, informatics, machine learning, optical music recognition, computational intelligence or some combination of these., url: https://en.wikipedia.org/wiki/Music_information_retrieval, label: mir", 
+                    "$t": "expansion: Music Information Retrieval , description: The interdisciplinary science of retrieving information from music. MIR is a small but growing field of research with many real-world applications. Those involved in MIR may have a background in musicology, psychoacoustics, psychology, academic music study, signal processing, informatics, machine learning, optical music recognition, computational intelligence or some combination of these., url: https://en.wikipedia.org/wiki/Music_information_retrieval, label: mir", 
                     "type": "text"
                 }, 
                 "link": [
@@ -3621,7 +3621,7 @@
                     "$t": "MIR"
                 }, 
                 "gsx$description": {
-                    "$t": "the interdisciplinary science of retrieving information from music. MIR is a small but growing field of research with many real-world applications. Those involved in MIR may have a background in musicology, psychoacoustics, psychology, academic music study, signal processing, informatics, machine learning, optical music recognition, computational intelligence or some combination of these."
+                    "$t": "The interdisciplinary science of retrieving information from music. MIR is a small but growing field of research with many real-world applications. Those involved in MIR may have a background in musicology, psychoacoustics, psychology, academic music study, signal processing, informatics, machine learning, optical music recognition, computational intelligence or some combination of these."
                 }
             }, 
             {
@@ -3632,7 +3632,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "mit"
@@ -3648,7 +3648,7 @@
                     "$t": "http://www.mit.edu/"
                 }, 
                 "content": {
-                    "$t": "expansion: Massachusetts Institute of Technology , description:  private research university in Cambridge, Massachusetts., url: http://www.mit.edu/, label: mit", 
+                    "$t": "expansion: Massachusetts Institute of Technology , description: Private research university in Cambridge, Massachusetts., url: http://www.mit.edu/, label: mit", 
                     "type": "text"
                 }, 
                 "link": [
@@ -3668,7 +3668,7 @@
                     "$t": "MIT"
                 }, 
                 "gsx$description": {
-                    "$t": " private research university in Cambridge, Massachusetts."
+                    "$t": "Private research university in Cambridge, Massachusetts."
                 }
             }, 
             {
@@ -3679,7 +3679,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "mongodb"
@@ -3695,7 +3695,7 @@
                     "$t": "https://en.wikipedia.org/wiki/MongoDB"
                 }, 
                 "content": {
-                    "$t": "description: a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemata., url: https://en.wikipedia.org/wiki/MongoDB, label: mongodb", 
+                    "$t": "description: A cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemata., url: https://en.wikipedia.org/wiki/MongoDB, label: mongodb", 
                     "type": "text"
                 }, 
                 "link": [
@@ -3715,7 +3715,7 @@
                     "$t": "MongoDB"
                 }, 
                 "gsx$description": {
-                    "$t": "a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemata."
+                    "$t": "A cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemata."
                 }
             }, 
             {
@@ -3726,7 +3726,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "music-11"
@@ -3773,7 +3773,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "music-v"
@@ -3820,7 +3820,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "music-iv"
@@ -3867,7 +3867,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "music-n"
@@ -3914,7 +3914,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "mysql"
@@ -3930,7 +3930,7 @@
                     "$t": "https://en.wikipedia.org/wiki/MySQL"
                 }, 
                 "content": {
-                    "$t": "description: an open source relational database management system (RDBMS). Its name is a combination of \"My\", the name of co-founder Michael Widenius's daughter, and \"SQL\", the abbreviation for Structured Query Language., url: https://en.wikipedia.org/wiki/MySQL, label: mysql", 
+                    "$t": "description: An open source relational database management system (RDBMS). Its name is a combination of \"My\", the name of co-founder Michael Widenius's daughter, and \"SQL\", the abbreviation for Structured Query Language., url: https://en.wikipedia.org/wiki/MySQL, label: mysql", 
                     "type": "text"
                 }, 
                 "link": [
@@ -3950,7 +3950,7 @@
                     "$t": "MySQL"
                 }, 
                 "gsx$description": {
-                    "$t": "an open source relational database management system (RDBMS). Its name is a combination of \"My\", the name of co-founder Michael Widenius's daughter, and \"SQL\", the abbreviation for Structured Query Language."
+                    "$t": "An open source relational database management system (RDBMS). Its name is a combination of \"My\", the name of co-founder Michael Widenius's daughter, and \"SQL\", the abbreviation for Structured Query Language."
                 }
             }, 
             {
@@ -3961,7 +3961,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "nasa"
@@ -3977,7 +3977,7 @@
                     "$t": "https://www.nasa.gov/"
                 }, 
                 "content": {
-                    "$t": "expansion: National Aeronautics and Space Administration, description: an independent agency of the United States Federal Government responsible for the civilian space program, as well as aeronautics and aerospace research.NASA was established in 1958, succeeding the National Advisory Committee for Aeronautics (NACA)., url: https://www.nasa.gov/, label: nasa", 
+                    "$t": "expansion: National Aeronautics and Space Administration, description: An independent agency of the United States Federal Government responsible for the civilian space program, as well as aeronautics and aerospace research.NASA was established in 1958, succeeding the National Advisory Committee for Aeronautics (NACA)., url: https://www.nasa.gov/, label: nasa", 
                     "type": "text"
                 }, 
                 "link": [
@@ -3997,7 +3997,7 @@
                     "$t": "NASA"
                 }, 
                 "gsx$description": {
-                    "$t": "an independent agency of the United States Federal Government responsible for the civilian space program, as well as aeronautics and aerospace research.NASA was established in 1958, succeeding the National Advisory Committee for Aeronautics (NACA)."
+                    "$t": "An independent agency of the United States Federal Government responsible for the civilian space program, as well as aeronautics and aerospace research.NASA was established in 1958, succeeding the National Advisory Committee for Aeronautics (NACA)."
                 }
             }, 
             {
@@ -4008,7 +4008,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "neo4j"
@@ -4024,7 +4024,7 @@
                     "$t": "https://github.com/neo4j/neo4j"
                 }, 
                 "content": {
-                    "$t": "description:  a graph database management system developed by Neo4j, Inc. , url: https://github.com/neo4j/neo4j, label: neo4j", 
+                    "$t": "description: A graph database management system developed by Neo4j, Inc. , url: https://github.com/neo4j/neo4j, label: neo4j", 
                     "type": "text"
                 }, 
                 "link": [
@@ -4044,7 +4044,7 @@
                     "$t": "Neo4j"
                 }, 
                 "gsx$description": {
-                    "$t": " a graph database management system developed by Neo4j, Inc. "
+                    "$t": "A graph database management system developed by Neo4j, Inc. "
                 }
             }, 
             {
@@ -4055,7 +4055,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "net.loadbang-sql"
@@ -4102,7 +4102,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "next"
@@ -4118,7 +4118,7 @@
                     "$t": "https://en.wikipedia.org/wiki/NeXT"
                 }, 
                 "content": {
-                    "$t": "description: an American computer and software company founded in 1985 by Apple Computer co-founder Steve Jobs., url: https://en.wikipedia.org/wiki/NeXT, label: next", 
+                    "$t": "description: An American computer and software company founded in 1985 by Apple Computer co-founder Steve Jobs., url: https://en.wikipedia.org/wiki/NeXT, label: next", 
                     "type": "text"
                 }, 
                 "link": [
@@ -4138,7 +4138,7 @@
                     "$t": "NeXT"
                 }, 
                 "gsx$description": {
-                    "$t": "an American computer and software company founded in 1985 by Apple Computer co-founder Steve Jobs."
+                    "$t": "An American computer and software company founded in 1985 by Apple Computer co-founder Steve Jobs."
                 }
             }, 
             {
@@ -4149,7 +4149,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "nime"
@@ -4165,7 +4165,7 @@
                     "$t": "https://en.wikipedia.org/wiki/New_Interfaces_for_Musical_Expression"
                 }, 
                 "content": {
-                    "$t": "expansion: New Interfaces for Musical Expression, description: an international conference dedicated to scientific research on the development of new technologies and their role in musical expression and artistic performance. Researchers and musicians from all over the world gather to share their knowledge and late-breaking work on new musical interface design., url: https://en.wikipedia.org/wiki/New_Interfaces_for_Musical_Expression, label: nime", 
+                    "$t": "expansion: New Interfaces for Musical Expression, description: An international conference dedicated to scientific research on the development of new technologies and their role in musical expression and artistic performance. Researchers and musicians from all over the world gather to share their knowledge and late-breaking work on new musical interface design., url: https://en.wikipedia.org/wiki/New_Interfaces_for_Musical_Expression, label: nime", 
                     "type": "text"
                 }, 
                 "link": [
@@ -4185,7 +4185,7 @@
                     "$t": "NIME"
                 }, 
                 "gsx$description": {
-                    "$t": "an international conference dedicated to scientific research on the development of new technologies and their role in musical expression and artistic performance. Researchers and musicians from all over the world gather to share their knowledge and late-breaking work on new musical interface design."
+                    "$t": "An international conference dedicated to scientific research on the development of new technologies and their role in musical expression and artistic performance. Researchers and musicians from all over the world gather to share their knowledge and late-breaking work on new musical interface design."
                 }
             }, 
             {
@@ -4196,7 +4196,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "nmr"
@@ -4212,7 +4212,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance"
                 }, 
                 "content": {
-                    "$t": "expansion: Nuclear magnetic resonance, description: a physical phenomenon in which nuclei in a strong static magnetic field are perturbed by a weak oscillating magnetic field (in the near field and therefore not involving electromagnetic waves) and respond by producing an electromagnetic signal with a frequency characteristic of the magnetic field at the nucleus., url: https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance, label: nmr", 
+                    "$t": "expansion: Nuclear magnetic resonance, description: A physical phenomenon in which nuclei in a strong static magnetic field are perturbed by a weak oscillating magnetic field (in the near field and therefore not involving electromagnetic waves) and respond by producing an electromagnetic signal with a frequency characteristic of the magnetic field at the nucleus., url: https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance, label: nmr", 
                     "type": "text"
                 }, 
                 "link": [
@@ -4232,7 +4232,7 @@
                     "$t": "NMR"
                 }, 
                 "gsx$description": {
-                    "$t": "a physical phenomenon in which nuclei in a strong static magnetic field are perturbed by a weak oscillating magnetic field (in the near field and therefore not involving electromagnetic waves) and respond by producing an electromagnetic signal with a frequency characteristic of the magnetic field at the nucleus."
+                    "$t": "A physical phenomenon in which nuclei in a strong static magnetic field are perturbed by a weak oscillating magnetic field (in the near field and therefore not involving electromagnetic waves) and respond by producing an electromagnetic signal with a frequency characteristic of the magnetic field at the nucleus."
                 }
             }, 
             {
@@ -4243,7 +4243,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "nosql"
@@ -4259,7 +4259,7 @@
                     "$t": "https://en.wikipedia.org/wiki/NoSQL"
                 }, 
                 "content": {
-                    "$t": "expansion: Non or Not only SQL, description: a mechanism for storage and retrieval of data that is modeled in means other than the tabular relations used in relational databases., url: https://en.wikipedia.org/wiki/NoSQL, label: nosql", 
+                    "$t": "expansion: Non or Not only SQL, description: A mechanism for storage and retrieval of data that is modeled in means other than the tabular relations used in relational databases., url: https://en.wikipedia.org/wiki/NoSQL, label: nosql", 
                     "type": "text"
                 }, 
                 "link": [
@@ -4279,7 +4279,7 @@
                     "$t": "NoSQL"
                 }, 
                 "gsx$description": {
-                    "$t": "a mechanism for storage and retrieval of data that is modeled in means other than the tabular relations used in relational databases."
+                    "$t": "A mechanism for storage and retrieval of data that is modeled in means other than the tabular relations used in relational databases."
                 }
             }, 
             {
@@ -4290,7 +4290,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "nyu"
@@ -4306,7 +4306,7 @@
                     "$t": ""
                 }, 
                 "content": {
-                    "$t": "expansion: New York University, description: a private research university spread throughout the world., label: nyu", 
+                    "$t": "expansion: New York University, description: A private research university spread throughout the world., label: nyu", 
                     "type": "text"
                 }, 
                 "link": [
@@ -4326,7 +4326,7 @@
                     "$t": "NYU"
                 }, 
                 "gsx$description": {
-                    "$t": "a private research university spread throughout the world."
+                    "$t": "A private research university spread throughout the world."
                 }
             }, 
             {
@@ -4337,7 +4337,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "oracle"
@@ -4353,7 +4353,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Oracle_Corporation"
                 }, 
                 "content": {
-                    "$t": "expansion: Oracle Corporation, description: an American multinational computer technology corporation headquartered in Redwood Shores, California. , url: https://en.wikipedia.org/wiki/Oracle_Corporation, label: oracle", 
+                    "$t": "expansion: Oracle Corporation, description: An American multinational computer technology corporation headquartered in Redwood Shores, California. , url: https://en.wikipedia.org/wiki/Oracle_Corporation, label: oracle", 
                     "type": "text"
                 }, 
                 "link": [
@@ -4373,7 +4373,7 @@
                     "$t": "Oracle"
                 }, 
                 "gsx$description": {
-                    "$t": "an American multinational computer technology corporation headquartered in Redwood Shores, California. "
+                    "$t": "An American multinational computer technology corporation headquartered in Redwood Shores, California. "
                 }
             }, 
             {
@@ -4384,7 +4384,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "os_2200"
@@ -4431,7 +4431,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "osc"
@@ -4447,7 +4447,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Open_Sound_Control"
                 }, 
                 "content": {
-                    "$t": "expansion: Open Sound Control , description: a protocol for networking sound synthesizers, computers, and other multimedia devices for purposes such as musical performance or show control. OSC's advantages include interoperability, accuracy, flexibility and enhanced organization and documentation., url: https://en.wikipedia.org/wiki/Open_Sound_Control, label: osc", 
+                    "$t": "expansion: Open Sound Control , description: A protocol for networking sound synthesizers, computers, and other multimedia devices for purposes such as musical performance or show control. OSC's advantages include interoperability, accuracy, flexibility and enhanced organization and documentation., url: https://en.wikipedia.org/wiki/Open_Sound_Control, label: osc", 
                     "type": "text"
                 }, 
                 "link": [
@@ -4467,7 +4467,7 @@
                     "$t": "OSC"
                 }, 
                 "gsx$description": {
-                    "$t": "a protocol for networking sound synthesizers, computers, and other multimedia devices for purposes such as musical performance or show control. OSC's advantages include interoperability, accuracy, flexibility and enhanced organization and documentation."
+                    "$t": "A protocol for networking sound synthesizers, computers, and other multimedia devices for purposes such as musical performance or show control. OSC's advantages include interoperability, accuracy, flexibility and enhanced organization and documentation."
                 }
             }, 
             {
@@ -4478,7 +4478,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "postgresql"
@@ -4494,7 +4494,7 @@
                     "$t": "https://en.wikipedia.org/wiki/PostgreSQL"
                 }, 
                 "content": {
-                    "$t": "description: an open source object-relational database management system with an emphasis on extensibility and standards compliance. It can handle workloads ranging from small single-machine applications to large Internet-facing applications with many concurrent users., url: https://en.wikipedia.org/wiki/PostgreSQL, label: postgresql", 
+                    "$t": "description: An open source object-relational database management system with an emphasis on extensibility and standards compliance. It can handle workloads ranging from small single-machine applications to large Internet-facing applications with many concurrent users., url: https://en.wikipedia.org/wiki/PostgreSQL, label: postgresql", 
                     "type": "text"
                 }, 
                 "link": [
@@ -4514,7 +4514,7 @@
                     "$t": "PostgreSQL"
                 }, 
                 "gsx$description": {
-                    "$t": "an open source object-relational database management system with an emphasis on extensibility and standards compliance. It can handle workloads ranging from small single-machine applications to large Internet-facing applications with many concurrent users."
+                    "$t": "An open source object-relational database management system with an emphasis on extensibility and standards compliance. It can handle workloads ranging from small single-machine applications to large Internet-facing applications with many concurrent users."
                 }
             }, 
             {
@@ -4525,7 +4525,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "pvc"
@@ -4541,7 +4541,7 @@
                     "$t": "http://www.cs.princeton.edu/courses/archive/spr99/cs325/koonce.html"
                 }, 
                 "content": {
-                    "$t": "expansion: Phase Vocoder, description: a collection of phase vocoder signal processing routines and accompanying shell scripts for use in the transformation and manipulation of sounds. It is written in C and designed to be used in a UNIX environment., url: http://www.cs.princeton.edu/courses/archive/spr99/cs325/koonce.html, label: pvc", 
+                    "$t": "expansion: Phase Vocoder, description: A collection of phase vocoder signal processing routines and accompanying shell scripts for use in the transformation and manipulation of sounds. It is written in C and designed to be used in a UNIX environment., url: http://www.cs.princeton.edu/courses/archive/spr99/cs325/koonce.html, label: pvc", 
                     "type": "text"
                 }, 
                 "link": [
@@ -4561,7 +4561,7 @@
                     "$t": "PVC"
                 }, 
                 "gsx$description": {
-                    "$t": "a collection of phase vocoder signal processing routines and accompanying shell scripts for use in the transformation and manipulation of sounds. It is written in C and designed to be used in a UNIX environment."
+                    "$t": "A collection of phase vocoder signal processing routines and accompanying shell scripts for use in the transformation and manipulation of sounds. It is written in C and designed to be used in a UNIX environment."
                 }
             }, 
             {
@@ -4572,7 +4572,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "qcd-audio"
@@ -4619,7 +4619,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "qed"
@@ -4666,7 +4666,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "ram"
@@ -4682,7 +4682,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Random-access_memory"
                 }, 
                 "content": {
-                    "$t": "expansion: Random Access Memory , description: a form of computer data storage that stores data and machine code currently being used. A random-access memory device allows data items to be read or written in almost the same amount of time irrespective of the physical location of data inside the memory., url: https://en.wikipedia.org/wiki/Random-access_memory, label: ram", 
+                    "$t": "expansion: Random Access Memory , description: A form of computer data storage that stores data and machine code currently being used. A random-access memory device allows data items to be read or written in almost the same amount of time irrespective of the physical location of data inside the memory., url: https://en.wikipedia.org/wiki/Random-access_memory, label: ram", 
                     "type": "text"
                 }, 
                 "link": [
@@ -4702,7 +4702,7 @@
                     "$t": "RAM"
                 }, 
                 "gsx$description": {
-                    "$t": "a form of computer data storage that stores data and machine code currently being used. A random-access memory device allows data items to be read or written in almost the same amount of time irrespective of the physical location of data inside the memory."
+                    "$t": "A form of computer data storage that stores data and machine code currently being used. A random-access memory device allows data items to be read or written in almost the same amount of time irrespective of the physical location of data inside the memory."
                 }
             }, 
             {
@@ -4713,7 +4713,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "rdm"
@@ -4729,7 +4729,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Raima_Database_Manager"
                 }, 
                 "content": {
-                    "$t": "expansion: Raima Database Manager , description: an ACID-compliant embedded database management system designed for use in embedded systems applications. RDM has been designed to utilize multi-core computers, networking (local or wide area), and on-disk or in-memory storage management., url: https://en.wikipedia.org/wiki/Raima_Database_Manager, label: rdm", 
+                    "$t": "expansion: Raima Database Manager , description: An ACID-compliant embedded database management system designed for use in embedded systems applications. RDM has been designed to utilize multi-core computers, networking (local or wide area), and on-disk or in-memory storage management., url: https://en.wikipedia.org/wiki/Raima_Database_Manager, label: rdm", 
                     "type": "text"
                 }, 
                 "link": [
@@ -4749,7 +4749,7 @@
                     "$t": "RDM"
                 }, 
                 "gsx$description": {
-                    "$t": "an ACID-compliant embedded database management system designed for use in embedded systems applications. RDM has been designed to utilize multi-core computers, networking (local or wide area), and on-disk or in-memory storage management."
+                    "$t": "An ACID-compliant embedded database management system designed for use in embedded systems applications. RDM has been designed to utilize multi-core computers, networking (local or wide area), and on-disk or in-memory storage management."
                 }
             }, 
             {
@@ -4760,7 +4760,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "rm/t"
@@ -4807,7 +4807,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "roi"
@@ -4817,13 +4817,13 @@
                     "type": "text"
                 }, 
                 "gsx$expansion": {
-                    "$t": "regions of interest"
+                    "$t": "Region of Interest"
                 }, 
                 "gsx$url": {
                     "$t": "https://en.wikipedia.org/wiki/Region_of_interest"
                 }, 
                 "content": {
-                    "$t": "expansion: regions of interest, description: samples within a data set identified for a particular purpose. For example, in medical imaging, the boundaries of a tumor may be defined on an image or in a volume, for the purpose of measuring its size., url: https://en.wikipedia.org/wiki/Region_of_interest, label: roi", 
+                    "$t": "expansion: Region of Interest, description: Samples within a data set identified for a particular purpose. For example, in medical imaging, the boundaries of a tumor may be defined on an image or in a volume, for the purpose of measuring its size., url: https://en.wikipedia.org/wiki/Region_of_interest, label: roi", 
                     "type": "text"
                 }, 
                 "link": [
@@ -4843,7 +4843,7 @@
                     "$t": "ROI"
                 }, 
                 "gsx$description": {
-                    "$t": "samples within a data set identified for a particular purpose. For example, in medical imaging, the boundaries of a tumor may be defined on an image or in a volume, for the purpose of measuring its size."
+                    "$t": "Samples within a data set identified for a particular purpose. For example, in medical imaging, the boundaries of a tumor may be defined on an image or in a volume, for the purpose of measuring its size."
                 }
             }, 
             {
@@ -4854,7 +4854,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "rtcmix"
@@ -4870,7 +4870,7 @@
                     "$t": "http://rtcmix.org/"
                 }, 
                 "content": {
-                    "$t": "expansion: Realtime Cmix, description: a real-time software \"language\" for doing digital sound synthesis and signal-processing. It is written in C/C++, and is distributed open-source, free of charge. , url: http://rtcmix.org/, label: rtcmix", 
+                    "$t": "expansion: Realtime Cmix, description: A real-time software \"language\" for doing digital sound synthesis and signal-processing. It is written in C/C++, and is distributed open-source, free of charge. , url: http://rtcmix.org/, label: rtcmix", 
                     "type": "text"
                 }, 
                 "link": [
@@ -4890,7 +4890,7 @@
                     "$t": "RTcmix"
                 }, 
                 "gsx$description": {
-                    "$t": "a real-time software \"language\" for doing digital sound synthesis and signal-processing. It is written in C/C++, and is distributed open-source, free of charge. "
+                    "$t": "A real-time software \"language\" for doing digital sound synthesis and signal-processing. It is written in C/C++, and is distributed open-source, free of charge. "
                 }
             }, 
             {
@@ -4901,7 +4901,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "rwc"
@@ -4917,7 +4917,7 @@
                     "$t": "https://staff.aist.go.jp/m.goto/RWC-MDB/"
                 }, 
                 "content": {
-                    "$t": "expansion: Real World Computing Music Database, description: a copyright-cleared music database (DB) that is available to researchers as a common foundation for research. It was built by the RWC Music Database Sub-Working Group of the Real World Computing Partnership (RWCP) of Japan, url: https://staff.aist.go.jp/m.goto/RWC-MDB/, label: rwc", 
+                    "$t": "expansion: Real World Computing Music Database, description: A copyright-cleared music database (DB) that is available to researchers as a common foundation for research. It was built by the RWC Music Database Sub-Working Group of the Real World Computing Partnership (RWCP) of Japan, url: https://staff.aist.go.jp/m.goto/RWC-MDB/, label: rwc", 
                     "type": "text"
                 }, 
                 "link": [
@@ -4937,7 +4937,7 @@
                     "$t": "RWC"
                 }, 
                 "gsx$description": {
-                    "$t": "a copyright-cleared music database (DB) that is available to researchers as a common foundation for research. It was built by the RWC Music Database Sub-Working Group of the Real World Computing Partnership (RWCP) of Japan"
+                    "$t": "A copyright-cleared music database (DB) that is available to researchers as a common foundation for research. It was built by the RWC Music Database Sub-Working Group of the Real World Computing Partnership (RWCP) of Japan"
                 }
             }, 
             {
@@ -4948,7 +4948,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "sap_hana"
@@ -4964,7 +4964,7 @@
                     "$t": "https://en.wikipedia.org/wiki/SAP_HANA"
                 }, 
                 "content": {
-                    "$t": "expansion: High Performance Analytics Appliance, description: an in-memory, column-oriented, relational database management system developed and marketed by SAP SE, url: https://en.wikipedia.org/wiki/SAP_HANA, label: sap_hana", 
+                    "$t": "expansion: High Performance Analytics Appliance, description: An in-memory, column-oriented, relational database management system developed and marketed by SAP SE, url: https://en.wikipedia.org/wiki/SAP_HANA, label: sap_hana", 
                     "type": "text"
                 }, 
                 "link": [
@@ -4984,7 +4984,7 @@
                     "$t": "SAP HANA"
                 }, 
                 "gsx$description": {
-                    "$t": "an in-memory, column-oriented, relational database management system developed and marketed by SAP SE"
+                    "$t": "An in-memory, column-oriented, relational database management system developed and marketed by SAP SE"
                 }
             }, 
             {
@@ -4995,7 +4995,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "score"
@@ -5011,7 +5011,7 @@
                     "$t": "https://en.wikipedia.org/wiki/SCORE_(software)"
                 }, 
                 "content": {
-                    "$t": "description:  a scorewriter program, written in FORTRAN for DOS by Stanford Professor Leland Smith (1925-2013) with a reputation for producing very high-quality results., url: https://en.wikipedia.org/wiki/SCORE_(software), cite: \\cite{smith1971}, label: score", 
+                    "$t": "description: A scorewriter program, written in FORTRAN for DOS by Stanford Professor Leland Smith (1925-2013) with a reputation for producing very high-quality results., url: https://en.wikipedia.org/wiki/SCORE_(software), cite: smith1971, label: score", 
                     "type": "text"
                 }, 
                 "link": [
@@ -5022,7 +5022,7 @@
                     }
                 ], 
                 "gsx$cite": {
-                    "$t": "\\cite{smith1971}"
+                    "$t": "smith1971"
                 }, 
                 "id": {
                     "$t": "https://spreadsheets.google.com/feeds/list/1tMkdssQlN_wbGS1SjfORS7AOBspKvvun7_AvzxctMrE/6/public/values/bs9tc"
@@ -5031,7 +5031,7 @@
                     "$t": "SCORE"
                 }, 
                 "gsx$description": {
-                    "$t": " a scorewriter program, written in FORTRAN for DOS by Stanford Professor Leland Smith (1925-2013) with a reputation for producing very high-quality results."
+                    "$t": "A scorewriter program, written in FORTRAN for DOS by Stanford Professor Leland Smith (1925-2013) with a reputation for producing very high-quality results."
                 }
             }, 
             {
@@ -5042,7 +5042,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "scriva"
@@ -5058,7 +5058,7 @@
                     "$t": "https://www.billbuxton.com/SSSP.html"
                 }, 
                 "content": {
-                    "$t": "description: notation software for the SSSP, url: https://www.billbuxton.com/SSSP.html, label: scriva", 
+                    "$t": "description: Notation software for the \\gls{sssp}, url: https://www.billbuxton.com/SSSP.html, label: scriva", 
                     "type": "text"
                 }, 
                 "link": [
@@ -5078,7 +5078,7 @@
                     "$t": "SCRIVA"
                 }, 
                 "gsx$description": {
-                    "$t": "notation software for the SSSP"
+                    "$t": "Notation software for the \\gls{sssp}"
                 }
             }, 
             {
@@ -5089,7 +5089,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "sdif"
@@ -5105,7 +5105,7 @@
                     "$t": "https://en.wikipedia.org/wiki/SDIF"
                 }, 
                 "content": {
-                    "$t": "expansion: Sound Description Interchange Format, description: a standard for the well-defined and extensible interchange of a variety of sound descriptions., url: https://en.wikipedia.org/wiki/SDIF, label: sdif", 
+                    "$t": "expansion: Sound Description Interchange Format, description: A standard for the well-defined and extensible interchange of a variety of sound descriptions., url: https://en.wikipedia.org/wiki/SDIF, label: sdif", 
                     "type": "text"
                 }, 
                 "link": [
@@ -5125,7 +5125,7 @@
                     "$t": "SDIF"
                 }, 
                 "gsx$description": {
-                    "$t": "a standard for the well-defined and extensible interchange of a variety of sound descriptions."
+                    "$t": "A standard for the well-defined and extensible interchange of a variety of sound descriptions."
                 }
             }, 
             {
@@ -5136,7 +5136,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "smil"
@@ -5152,7 +5152,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Synchronized_Multimedia_Integration_Language"
                 }, 
                 "content": {
-                    "$t": "expansion: Synchronized Multimedia Integration Language, description: a World Wide Web Consortium recommended Extensible Markup Language markup language to describe multimedia presentations. It defines markup for timing, layout, animations, visual transitions, and media embedding, among other things. , url: https://en.wikipedia.org/wiki/Synchronized_Multimedia_Integration_Language, label: smil", 
+                    "$t": "expansion: Synchronized Multimedia Integration Language, description: A World Wide Web Consortium recommended Extensible Markup Language markup language to describe multimedia presentations. It defines markup for timing, layout, animations, visual transitions, and media embedding, among other things. , url: https://en.wikipedia.org/wiki/Synchronized_Multimedia_Integration_Language, label: smil", 
                     "type": "text"
                 }, 
                 "link": [
@@ -5172,7 +5172,7 @@
                     "$t": "SMIL"
                 }, 
                 "gsx$description": {
-                    "$t": "a World Wide Web Consortium recommended Extensible Markup Language markup language to describe multimedia presentations. It defines markup for timing, layout, animations, visual transitions, and media embedding, among other things. "
+                    "$t": "A World Wide Web Consortium recommended Extensible Markup Language markup language to describe multimedia presentations. It defines markup for timing, layout, animations, visual transitions, and media embedding, among other things. "
                 }
             }, 
             {
@@ -5183,7 +5183,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "sonart"
@@ -5199,7 +5199,7 @@
                     "$t": "https://ccrma.stanford.edu/~woony/software/sonart/index.html"
                 }, 
                 "content": {
-                    "$t": "description: a flexible, multi-purpose multimedia environment that allows for networked collaborative interaction with applications for art, science and industry. It provides an open ended framework for integration of powerful image and audio processing methods with a flexible network features., url: https://ccrma.stanford.edu/~woony/software/sonart/index.html, cite: \\cite{icmc/bbp2372.2004.128}, label: sonart", 
+                    "$t": "description: A flexible, multi-purpose multimedia environment that allows for networked collaborative interaction with applications for art, science and industry. It provides an open ended framework for integration of powerful image and audio processing methods with a flexible network features., url: https://ccrma.stanford.edu/~woony/software/sonart/index.html, cite: icmc/bbp2372.2004.128, label: sonart", 
                     "type": "text"
                 }, 
                 "link": [
@@ -5210,7 +5210,7 @@
                     }
                 ], 
                 "gsx$cite": {
-                    "$t": "\\cite{icmc/bbp2372.2004.128}"
+                    "$t": "icmc/bbp2372.2004.128"
                 }, 
                 "id": {
                     "$t": "https://spreadsheets.google.com/feeds/list/1tMkdssQlN_wbGS1SjfORS7AOBspKvvun7_AvzxctMrE/6/public/values/bmnjo"
@@ -5219,7 +5219,7 @@
                     "$t": "SonART"
                 }, 
                 "gsx$description": {
-                    "$t": "a flexible, multi-purpose multimedia environment that allows for networked collaborative interaction with applications for art, science and industry. It provides an open ended framework for integration of powerful image and audio processing methods with a flexible network features."
+                    "$t": "A flexible, multi-purpose multimedia environment that allows for networked collaborative interaction with applications for art, science and industry. It provides an open ended framework for integration of powerful image and audio processing methods with a flexible network features."
                 }
             }, 
             {
@@ -5230,7 +5230,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "spear"
@@ -5246,7 +5246,7 @@
                     "$t": "http://www.klingbeil.com/spear/"
                 }, 
                 "content": {
-                    "$t": "expansion: Sinusoidal Partial Editing Analysis and Resynthesis, description: an application for audio analysis, editing and synthesis. The analysis procedure (which is based on the traditional McAulay-Quatieri technique) attempts to represent a sound with many individual sinusoidal tracks (partials), each corresponding to a single sinusoidal wave with time varying frequency and amplitude., url: http://www.klingbeil.com/spear/, label: spear", 
+                    "$t": "expansion: Sinusoidal Partial Editing Analysis and Resynthesis, description: An application for audio analysis, editing and synthesis. The analysis procedure (which is based on the traditional McAulay-Quatieri technique) attempts to represent a sound with many individual sinusoidal tracks (partials), each corresponding to a single sinusoidal wave with time varying frequency and amplitude., url: http://www.klingbeil.com/spear/, label: spear", 
                     "type": "text"
                 }, 
                 "link": [
@@ -5266,7 +5266,7 @@
                     "$t": "SPEAR"
                 }, 
                 "gsx$description": {
-                    "$t": "an application for audio analysis, editing and synthesis. The analysis procedure (which is based on the traditional McAulay-Quatieri technique) attempts to represent a sound with many individual sinusoidal tracks (partials), each corresponding to a single sinusoidal wave with time varying frequency and amplitude."
+                    "$t": "An application for audio analysis, editing and synthesis. The analysis procedure (which is based on the traditional McAulay-Quatieri technique) attempts to represent a sound with many individual sinusoidal tracks (partials), each corresponding to a single sinusoidal wave with time varying frequency and amplitude."
                 }
             }, 
             {
@@ -5277,7 +5277,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "sql"
@@ -5293,7 +5293,7 @@
                     "$t": "https://en.wikipedia.org/wiki/SQL"
                 }, 
                 "content": {
-                    "$t": "expansion: Structured Query Language, description: a domain-specific language used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system., url: https://en.wikipedia.org/wiki/SQL, label: sql", 
+                    "$t": "expansion: Structured Query Language, description: A domain-specific language used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system., url: https://en.wikipedia.org/wiki/SQL, label: sql", 
                     "type": "text"
                 }, 
                 "link": [
@@ -5313,7 +5313,7 @@
                     "$t": "SQL"
                 }, 
                 "gsx$description": {
-                    "$t": "a domain-specific language used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system."
+                    "$t": "A domain-specific language used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system."
                 }
             }, 
             {
@@ -5324,7 +5324,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "sqlite"
@@ -5340,7 +5340,7 @@
                     "$t": "https://en.wikipedia.org/wiki/SQLite"
                 }, 
                 "content": {
-                    "$t": "expansion: Structured Query Language Lite, description: a relational database management system contained in a C programming library. In contrast to many other database management systems, SQLite is not a client-server database engine. Rather, it is embedded into the end program. , url: https://en.wikipedia.org/wiki/SQLite, label: sqlite", 
+                    "$t": "expansion: Structured Query Language Lite, description: A relational database management system contained in a C programming library. In contrast to many other database management systems, SQLite is not a client-server database engine. Rather, it is embedded into the end program. , url: https://en.wikipedia.org/wiki/SQLite, label: sqlite", 
                     "type": "text"
                 }, 
                 "link": [
@@ -5360,7 +5360,7 @@
                     "$t": "SQLite"
                 }, 
                 "gsx$description": {
-                    "$t": "a relational database management system contained in a C programming library. In contrast to many other database management systems, SQLite is not a client-server database engine. Rather, it is embedded into the end program. "
+                    "$t": "A relational database management system contained in a C programming library. In contrast to many other database management systems, SQLite is not a client-server database engine. Rather, it is embedded into the end program. "
                 }
             }, 
             {
@@ -5371,7 +5371,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "sssp"
@@ -5387,7 +5387,7 @@
                     "$t": "https://www.billbuxton.com/SSSP.html"
                 }, 
                 "content": {
-                    "$t": "expansion: Structured Sound Synthesis Project, description: an interdisciplinary project whose aim is to conduct research into problems and benefits arising from the use of computers in musical composition, url: https://www.billbuxton.com/SSSP.html, label: sssp", 
+                    "$t": "expansion: Structured Sound Synthesis Project, description: An interdisciplinary project whose aim is to conduct research into problems and benefits arising from the use of computers in musical composition, url: https://www.billbuxton.com/SSSP.html, label: sssp", 
                     "type": "text"
                 }, 
                 "link": [
@@ -5407,7 +5407,7 @@
                     "$t": "SSSP"
                 }, 
                 "gsx$description": {
-                    "$t": "an interdisciplinary project whose aim is to conduct research into problems and benefits arising from the use of computers in musical composition"
+                    "$t": "An interdisciplinary project whose aim is to conduct research into problems and benefits arising from the use of computers in musical composition"
                 }
             }, 
             {
@@ -5418,7 +5418,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "stft"
@@ -5434,7 +5434,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Short-time_Fourier_transform"
                 }, 
                 "content": {
-                    "$t": "expansion: Short Time Fourier Transform, description:  a Fourier-related transform used to determine the sinusoidal frequency and phase content of local sections of a signal as it changes over time., url: https://en.wikipedia.org/wiki/Short-time_Fourier_transform, label: stft", 
+                    "$t": "expansion: Short Time Fourier Transform, description: A Fourier-related transform used to determine the sinusoidal frequency and phase content of local sections of a signal as it changes over time., url: https://en.wikipedia.org/wiki/Short-time_Fourier_transform, label: stft", 
                     "type": "text"
                 }, 
                 "link": [
@@ -5454,7 +5454,7 @@
                     "$t": "STFT"
                 }, 
                 "gsx$description": {
-                    "$t": " a Fourier-related transform used to determine the sinusoidal frequency and phase content of local sections of a signal as it changes over time."
+                    "$t": "A Fourier-related transform used to determine the sinusoidal frequency and phase content of local sections of a signal as it changes over time."
                 }
             }, 
             {
@@ -5465,7 +5465,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "straight"
@@ -5481,7 +5481,7 @@
                     "$t": ""
                 }, 
                 "content": {
-                    "$t": "expansion: Speech Transformation and Representation using Adaptive Interpolation of weiGHTed spectrogram, description: a high-quality vocoder designed for speech analysis, modification, and synthesis, cite: \\cite{icmc/bbp2372.1999.411}, label: straight", 
+                    "$t": "expansion: Speech Transformation and Representation using Adaptive Interpolation of weiGHTed spectrogram, description: A high-quality vocoder designed for speech analysis, modification, and synthesis, cite: icmc/bbp2372.1999.411, label: straight", 
                     "type": "text"
                 }, 
                 "link": [
@@ -5492,7 +5492,7 @@
                     }
                 ], 
                 "gsx$cite": {
-                    "$t": "\\cite{icmc/bbp2372.1999.411}"
+                    "$t": "icmc/bbp2372.1999.411"
                 }, 
                 "id": {
                     "$t": "https://spreadsheets.google.com/feeds/list/1tMkdssQlN_wbGS1SjfORS7AOBspKvvun7_AvzxctMrE/6/public/values/bv2y6"
@@ -5501,7 +5501,7 @@
                     "$t": "STRAIGHT"
                 }, 
                 "gsx$description": {
-                    "$t": "a high-quality vocoder designed for speech analysis, modification, and synthesis"
+                    "$t": "A high-quality vocoder designed for speech analysis, modification, and synthesis"
                 }
             }, 
             {
@@ -5512,7 +5512,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "sybase"
@@ -5528,7 +5528,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Sybase"
                 }, 
                 "content": {
-                    "$t": "description:  an enterprise software and services company that produced software to manage and analyze information in relational databases. , url: https://en.wikipedia.org/wiki/Sybase, label: sybase", 
+                    "$t": "description: An enterprise software and services company that produced software to manage and analyze information in relational databases. , url: https://en.wikipedia.org/wiki/Sybase, label: sybase", 
                     "type": "text"
                 }, 
                 "link": [
@@ -5548,7 +5548,7 @@
                     "$t": "Sybase"
                 }, 
                 "gsx$description": {
-                    "$t": " an enterprise software and services company that produced software to manage and analyze information in relational databases. "
+                    "$t": "An enterprise software and services company that produced software to manage and analyze information in relational databases. "
                 }
             }, 
             {
@@ -5559,7 +5559,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "tcp/ip"
@@ -5606,7 +5606,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "timbreid"
@@ -5622,7 +5622,7 @@
                     "$t": "http://williambrent.conflations.com/pages/research.html"
                 }, 
                 "content": {
-                    "$t": "expansion: Timbre Identification, description: a collection of audio feature analysis externals for [Pd]. The classification extern (timbreID) accepts arbitrary lists of features and attempts to find the best match between an input feature and previously stored instances of training data. Besides doing identification, timbreID is also designed to facilitate real time concatenative synthesis and timbre-based orderings of sound sets. Its usage is fully explained in the accompanying helpfile., url: http://williambrent.conflations.com/pages/research.html, cite: \\cite{icmc/bbp2372.2010.044}, label: timbreid", 
+                    "$t": "expansion: Timbre Identification, description: A collection of audio feature analysis externals for [Pd]. The classification extern (timbreID) accepts arbitrary lists of features and attempts to find the best match between an input feature and previously stored instances of training data. Besides doing identification, timbreID is also designed to facilitate real time concatenative synthesis and timbre-based orderings of sound sets. Its usage is fully explained in the accompanying helpfile., url: http://williambrent.conflations.com/pages/research.html, cite: icmc/bbp2372.2010.044, label: timbreid", 
                     "type": "text"
                 }, 
                 "link": [
@@ -5633,7 +5633,7 @@
                     }
                 ], 
                 "gsx$cite": {
-                    "$t": "\\cite{icmc/bbp2372.2010.044}"
+                    "$t": "icmc/bbp2372.2010.044"
                 }, 
                 "id": {
                     "$t": "https://spreadsheets.google.com/feeds/list/1tMkdssQlN_wbGS1SjfORS7AOBspKvvun7_AvzxctMrE/6/public/values/bzanh"
@@ -5642,7 +5642,7 @@
                     "$t": "timbreID"
                 }, 
                 "gsx$description": {
-                    "$t": "a collection of audio feature analysis externals for [Pd]. The classification extern (timbreID) accepts arbitrary lists of features and attempts to find the best match between an input feature and previously stored instances of training data. Besides doing identification, timbreID is also designed to facilitate real time concatenative synthesis and timbre-based orderings of sound sets. Its usage is fully explained in the accompanying helpfile."
+                    "$t": "A collection of audio feature analysis externals for [Pd]. The classification extern (timbreID) accepts arbitrary lists of features and attempts to find the best match between an input feature and previously stored instances of training data. Besides doing identification, timbreID is also designed to facilitate real time concatenative synthesis and timbre-based orderings of sound sets. Its usage is fully explained in the accompanying helpfile."
                 }
             }, 
             {
@@ -5653,7 +5653,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "timesten"
@@ -5669,7 +5669,7 @@
                     "$t": "https://en.wikipedia.org/wiki/TimesTen"
                 }, 
                 "content": {
-                    "$t": "description: an in-memory, relational database management system with persistence and recoverability., url: https://en.wikipedia.org/wiki/TimesTen, label: timesten", 
+                    "$t": "description: An in-memory, relational database management system with persistence and recoverability., url: https://en.wikipedia.org/wiki/TimesTen, label: timesten", 
                     "type": "text"
                 }, 
                 "link": [
@@ -5689,7 +5689,7 @@
                     "$t": "TimesTen"
                 }, 
                 "gsx$description": {
-                    "$t": "an in-memory, relational database management system with persistence and recoverability."
+                    "$t": "An in-memory, relational database management system with persistence and recoverability."
                 }
             }, 
             {
@@ -5700,7 +5700,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "turboimage"
@@ -5716,7 +5716,7 @@
                     "$t": "https://en.wikipedia.org/wiki/TurboIMAGE"
                 }, 
                 "content": {
-                    "$t": "description: a database developed by Hewlett Packard and included with the HP3000 minicomputer., url: https://en.wikipedia.org/wiki/TurboIMAGE, label: turboimage", 
+                    "$t": "description: A database developed by Hewlett Packard and included with the HP3000 minicomputer., url: https://en.wikipedia.org/wiki/TurboIMAGE, label: turboimage", 
                     "type": "text"
                 }, 
                 "link": [
@@ -5736,7 +5736,7 @@
                     "$t": "TurboIMAGE"
                 }, 
                 "gsx$description": {
-                    "$t": "a database developed by Hewlett Packard and included with the HP3000 minicomputer."
+                    "$t": "A database developed by Hewlett Packard and included with the HP3000 minicomputer."
                 }
             }, 
             {
@@ -5747,7 +5747,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "uri"
@@ -5763,7 +5763,7 @@
                     "$t": "https://en.wikipedia.org/wiki/Uniform_Resource_Identifier"
                 }, 
                 "content": {
-                    "$t": "expansion: Uniform Resource Identifier, description: a string of characters that unambiguously identifies a particular resource. To guarantee uniformity, all URIs follow a predefined set of syntax rules, but also maintain extensibility through a separately defined hierarchical naming scheme., url: https://en.wikipedia.org/wiki/Uniform_Resource_Identifier, label: uri", 
+                    "$t": "expansion: Uniform Resource Identifier, description: A string of characters that unambiguously identifies a particular resource. To guarantee uniformity, all URIs follow a predefined set of syntax rules, but also maintain extensibility through a separately defined hierarchical naming scheme., url: https://en.wikipedia.org/wiki/Uniform_Resource_Identifier, label: uri", 
                     "type": "text"
                 }, 
                 "link": [
@@ -5783,7 +5783,7 @@
                     "$t": "URI"
                 }, 
                 "gsx$description": {
-                    "$t": "a string of characters that unambiguously identifies a particular resource. To guarantee uniformity, all URIs follow a predefined set of syntax rules, but also maintain extensibility through a separately defined hierarchical naming scheme."
+                    "$t": "A string of characters that unambiguously identifies a particular resource. To guarantee uniformity, all URIs follow a predefined set of syntax rules, but also maintain extensibility through a separately defined hierarchical naming scheme."
                 }
             }, 
             {
@@ -5794,7 +5794,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "url"
@@ -5810,7 +5810,7 @@
                     "$t": "https://en.wikipedia.org/wiki/URL"
                 }, 
                 "content": {
-                    "$t": "expansion: Uniform Resource Locator , description: colloquially termed a web address, is a reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it. A URL is a specific type of \\gls{uri} although many people use the two terms interchangeably., url: https://en.wikipedia.org/wiki/URL, label: url", 
+                    "$t": "expansion: Uniform Resource Locator , description: Colloquially termed a web address, is a reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it. A URL is a specific type of \\gls{uri} although many people use the two terms interchangeably., url: https://en.wikipedia.org/wiki/URL, label: url", 
                     "type": "text"
                 }, 
                 "link": [
@@ -5830,7 +5830,7 @@
                     "$t": "URL"
                 }, 
                 "gsx$description": {
-                    "$t": "colloquially termed a web address, is a reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it. A URL is a specific type of \\gls{uri} although many people use the two terms interchangeably."
+                    "$t": "Colloquially termed a web address, is a reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it. A URL is a specific type of \\gls{uri} although many people use the two terms interchangeably."
                 }
             }, 
             {
@@ -5841,7 +5841,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "vmware"
@@ -5888,7 +5888,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "webdna"
@@ -5904,7 +5904,7 @@
                     "$t": "https://en.wikipedia.org/wiki/WebDNA"
                 }, 
                 "content": {
-                    "$t": "description: a server-side scripting, interpreted language with an embedded database system, specifically designed for the World Wide Web. Its primary use is in creating database-driven dynamic web page applications., url: https://en.wikipedia.org/wiki/WebDNA, label: webdna", 
+                    "$t": "description: A server-side scripting, interpreted language with an embedded database system, specifically designed for the World Wide Web. Its primary use is in creating database-driven dynamic web page applications., url: https://en.wikipedia.org/wiki/WebDNA, label: webdna", 
                     "type": "text"
                 }, 
                 "link": [
@@ -5924,7 +5924,7 @@
                     "$t": "WebDNA"
                 }, 
                 "gsx$description": {
-                    "$t": "a server-side scripting, interpreted language with an embedded database system, specifically designed for the World Wide Web. Its primary use is in creating database-driven dynamic web page applications."
+                    "$t": "A server-side scripting, interpreted language with an embedded database system, specifically designed for the World Wide Web. Its primary use is in creating database-driven dynamic web page applications."
                 }
             }, 
             {
@@ -5935,7 +5935,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "xml"
@@ -5951,7 +5951,7 @@
                     "$t": "https://en.wikipedia.org/wiki/XML"
                 }, 
                 "content": {
-                    "$t": "expansion: Extensible Markup Language, description: a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. The W3C's XML 1.0 Specification and several other related specifications-all of them free open standards-define XML, url: https://en.wikipedia.org/wiki/XML, label: xml", 
+                    "$t": "expansion: Extensible Markup Language, description: A markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. The W3C's XML 1.0 Specification and several other related specifications-all of them free open standards-define XML, url: https://en.wikipedia.org/wiki/XML, label: xml", 
                     "type": "text"
                 }, 
                 "link": [
@@ -5971,7 +5971,7 @@
                     "$t": "XML"
                 }, 
                 "gsx$description": {
-                    "$t": "a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. The W3C's XML 1.0 Specification and several other related specifications-all of them free open standards-define XML"
+                    "$t": "A markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. The W3C's XML 1.0 Specification and several other related specifications-all of them free open standards-define XML"
                 }
             }, 
             {
@@ -5982,7 +5982,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "xplain"
@@ -6029,7 +6029,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "yaml"
@@ -6045,7 +6045,7 @@
                     "$t": "https://en.wikipedia.org/wiki/YAML"
                 }, 
                 "content": {
-                    "$t": "expansion: YAML Ain't Markup Language, description: a human-readable data serialization language. It is commonly used for configuration files, but could be used in many applications where data is being stored or transmitted. , url: https://en.wikipedia.org/wiki/YAML, label: yaml", 
+                    "$t": "expansion: YAML Ain't Markup Language, description: A human-readable data serialization language. It is commonly used for configuration files, but could be used in many applications where data is being stored or transmitted. , url: https://en.wikipedia.org/wiki/YAML, label: yaml", 
                     "type": "text"
                 }, 
                 "link": [
@@ -6065,7 +6065,7 @@
                     "$t": "YAML"
                 }, 
                 "gsx$description": {
-                    "$t": "a human-readable data serialization language. It is commonly used for configuration files, but could be used in many applications where data is being stored or transmitted. "
+                    "$t": "A human-readable data serialization language. It is commonly used for configuration files, but could be used in many applications where data is being stored or transmitted. "
                 }
             }, 
             {
@@ -6076,7 +6076,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "access"
@@ -6123,7 +6123,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "apache"
@@ -6170,7 +6170,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "at"
@@ -6217,7 +6217,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "audioguide"
@@ -6264,7 +6264,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "boost"
@@ -6311,7 +6311,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "caac"
@@ -6327,7 +6327,7 @@
                     "$t": ""
                 }, 
                 "content": {
-                    "$t": "expansion: Computer-Aided Algorithmic Composition, description: Unlike software for sequencing, mixing, or notation, these systems are often diverse and innovative, breaking with traditional musical paradigms of meter, part, or score. These systems expand compositional resources, and offer diverse models of compositional design., cite: \\parencite[1]{Ari05:Ano}, label: caac", 
+                    "$t": "expansion: Computer-Aided Algorithmic Composition, description: Unlike software for sequencing, mixing, or notation, these systems are often diverse and innovative, breaking with traditional musical paradigms of meter, part, or score. These systems expand compositional resources, and offer diverse models of compositional design., cite: Ari05:Ano, label: caac", 
                     "type": "text"
                 }, 
                 "link": [
@@ -6338,7 +6338,7 @@
                     }
                 ], 
                 "gsx$cite": {
-                    "$t": "\\parencite[1]{Ari05:Ano}"
+                    "$t": "Ari05:Ano"
                 }, 
                 "id": {
                     "$t": "https://spreadsheets.google.com/feeds/list/1tMkdssQlN_wbGS1SjfORS7AOBspKvvun7_AvzxctMrE/6/public/values/hk5ss"
@@ -6358,7 +6358,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "cassandra"
@@ -6405,7 +6405,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "catart"
@@ -6452,7 +6452,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "cmam"
@@ -6499,7 +6499,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "couchdb"
@@ -6546,7 +6546,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "emi"
@@ -6562,7 +6562,7 @@
                     "$t": "http://artsites.ucsc.edu/faculty/Cope/experiments.htm"
                 }, 
                 "content": {
-                    "$t": "expansion: Experiments in Music Intelligence, description: ``Experiments in Music Intelligence (1984) was developed in order to create an interactive tool for composing\\dots. By applying an augmented transition network parser and an object oriented approach, intervals, through inheritance and message passing, have both local and global impact (non-linear composition)'', url: http://artsites.ucsc.edu/faculty/Cope/experiments.htm, cite:  \\parencite{DBLP:conf/icmc/Cope87}, label: emi", 
+                    "$t": "expansion: Experiments in Music Intelligence, description: ``Experiments in Music Intelligence (1984) was developed in order to create an interactive tool for composing\\dots. By applying an augmented transition network parser and an object oriented approach, intervals, through inheritance and message passing, have both local and global impact (non-linear composition)'', url: http://artsites.ucsc.edu/faculty/Cope/experiments.htm, cite:  DBLP:conf/icmc/Cope87, label: emi", 
                     "type": "text"
                 }, 
                 "link": [
@@ -6573,7 +6573,7 @@
                     }
                 ], 
                 "gsx$cite": {
-                    "$t": " \\parencite{DBLP:conf/icmc/Cope87}"
+                    "$t": " DBLP:conf/icmc/Cope87"
                 }, 
                 "id": {
                     "$t": "https://spreadsheets.google.com/feeds/list/1tMkdssQlN_wbGS1SjfORS7AOBspKvvun7_AvzxctMrE/6/public/values/i2f69"
@@ -6593,7 +6593,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "esac"
@@ -6640,7 +6640,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "essentia"
@@ -6687,7 +6687,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "fdn"
@@ -6703,7 +6703,7 @@
                     "$t": "https://ccrma.stanford.edu/~jos/cfdn/Feedback_Delay_Networks.html"
                 }, 
                 "content": {
-                    "$t": "expansion: Feedback Delay Network, description: ``Structures well suited for artificial reverberation. These structures are characterized by a set of delay lines connected in a feedback loop through a `feedback matrix''', url: https://ccrma.stanford.edu/~jos/cfdn/Feedback_Delay_Networks.html, cite: \\parencites{icmc/bbp2372.1994.099}{icmc/bbp2372.1994.098}{icmc/bbp2372.2015.048}{icmc/bbp23722015.054}, label: fdn", 
+                    "$t": "expansion: Feedback Delay Network, description: ``Structures well suited for artificial reverberation. These structures are characterized by a set of delay lines connected in a feedback loop through a `feedback matrix''', url: https://ccrma.stanford.edu/~jos/cfdn/Feedback_Delay_Networks.html, cite: sicmc/bbp2372.1994.099, icmc/bbp2372.1994.098, icmc/bbp2372.2015.048, icmc/bbp23722015.054, label: fdn", 
                     "type": "text"
                 }, 
                 "link": [
@@ -6714,7 +6714,7 @@
                     }
                 ], 
                 "gsx$cite": {
-                    "$t": "\\parencites{icmc/bbp2372.1994.099}{icmc/bbp2372.1994.098}{icmc/bbp2372.2015.048}{icmc/bbp23722015.054}"
+                    "$t": "sicmc/bbp2372.1994.099, icmc/bbp2372.1994.098, icmc/bbp2372.2015.048, icmc/bbp23722015.054"
                 }, 
                 "id": {
                     "$t": "https://spreadsheets.google.com/feeds/list/1tMkdssQlN_wbGS1SjfORS7AOBspKvvun7_AvzxctMrE/6/public/values/hvec4"
@@ -6734,7 +6734,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "freesound"
@@ -6781,7 +6781,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "gem"
@@ -6828,7 +6828,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "gui"
@@ -6875,7 +6875,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "guido"
@@ -6922,7 +6922,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "hmsl"
@@ -6969,7 +6969,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "ibm-7090"
@@ -7016,7 +7016,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "looperman"
@@ -7063,7 +7063,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "marsyas"
@@ -7110,7 +7110,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "mimo"
@@ -7157,7 +7157,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "musedata"
@@ -7204,7 +7204,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "music21"
@@ -7251,7 +7251,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "musicomp"
@@ -7267,7 +7267,7 @@
                     "$t": ""
                 }, 
                 "content": {
-                    "$t": "expansion: MUsic SImulator-Interpreter for COMpositional Procedures, description: ``Development of MUSICOMP began in the late 1950s, and is considered by Loy as `the granddaddy of all programming systems for automatic music generation' (1989, p. 368) and by Roads as the `first composition language' (1996, p. 815)\\dots. From 1967 to 1969 these tools were used [with John Cage] in the production of HPSCHD'', cite: \\parencite[44]{Ari05:Ano}, label: musicomp", 
+                    "$t": "expansion: MUsic SImulator-Interpreter for COMpositional Procedures, description: ``Development of MUSICOMP began in the late 1950s, and is considered by Loy as `the granddaddy of all programming systems for automatic music generation' (1989, p. 368) and by Roads as the `first composition language' (1996, p. 815)\\dots. From 1967 to 1969 these tools were used [with John Cage] in the production of HPSCHD'', cite: Ari05:Ano, label: musicomp", 
                     "type": "text"
                 }, 
                 "link": [
@@ -7278,7 +7278,7 @@
                     }
                 ], 
                 "gsx$cite": {
-                    "$t": "\\parencite[44]{Ari05:Ano}"
+                    "$t": "Ari05:Ano"
                 }, 
                 "id": {
                     "$t": "https://spreadsheets.google.com/feeds/list/1tMkdssQlN_wbGS1SjfORS7AOBspKvvun7_AvzxctMrE/6/public/values/inhog"
@@ -7298,7 +7298,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "musicxml"
@@ -7345,7 +7345,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "nc2if"
@@ -7392,7 +7392,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "networkx"
@@ -7439,7 +7439,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "objective-c"
@@ -7486,7 +7486,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "ofx"
@@ -7533,7 +7533,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "omax"
@@ -7580,7 +7580,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "redis"
@@ -7627,7 +7627,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "rism"
@@ -7674,7 +7674,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "sedna"
@@ -7721,7 +7721,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "smalltalk"
@@ -7768,7 +7768,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "smc"
@@ -7815,7 +7815,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "sondata"
@@ -7862,7 +7862,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "sparksee"
@@ -7909,7 +7909,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "sparsity"
@@ -7956,7 +7956,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "sqlobject"
@@ -8003,7 +8003,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "telemeta"
@@ -8050,7 +8050,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "ubuweb"
@@ -8097,7 +8097,7 @@
                     }
                 ], 
                 "updated": {
-                    "$t": "2019-04-15T15:50:08.545Z"
+                    "$t": "2019-04-20T08:39:01.954Z"
                 }, 
                 "gsx$label": {
                     "$t": "unisys"

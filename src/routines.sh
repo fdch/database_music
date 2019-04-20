@@ -53,6 +53,7 @@ function make_bib()
 		write_comment "END: $i"						>>	$MAINBIB
 
 	done
+	pandoc-citeproc -j $MAINBIB > $BIBTIME/${NAME}.json
 }
 
 function make_preamble()
