@@ -81,7 +81,7 @@ backmatter=(
 	"backmatter"
 	"singlespacing"
 	# "glsaddall"
-	"printglossaries"
+	"printglossary"
 	"phantomsection"
 	"setlength{\\parskip}{4em}"
 	"printbibliography"
