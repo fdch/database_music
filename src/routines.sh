@@ -98,6 +98,7 @@ function make_preamble()
 	#
 	write_comment "GLOSSARY & ACCRONYM ENTRY:\
 	https://en.wikibooks.org/wiki/LaTeX/Glossary"
+	printf "%s\n" "\makeglossary"
 	printf "%s\n" "\import{$GLOSSARY}{definitions.tex}"
 	#
 	#	BIBLIOGRAPHY
