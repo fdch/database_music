@@ -1,5 +1,27 @@
 [
   {
+    "ISBN": "029597270X, 9780295972701",
+    "author": [
+      {
+        "family": "Lorenz",
+        "given": "Edward N"
+      }
+    ],
+    "id": "Lor93:Ess",
+    "issued": {
+      "date-parts": [
+        [
+          1993
+        ]
+      ]
+    },
+    "keyword": "Chaotic behavior in systems",
+    "publisher": "University of Washington Press",
+    "publisher-place": "Seattle",
+    "title": "The essence of chaos",
+    "type": "book"
+  },
+  {
     "DOI": "10.1109/JPROC.2008.916370",
     "author": [
       {
@@ -5690,10 +5712,8 @@
         "given": "A."
       },
       {
-        "family": "Peter"
-      },
-      {
-        "family": "F."
+        "family": "Peter",
+        "given": "F."
       }
     ],
     "container-title": "Proceedings of the international computer music conference, ICMC 2001",
