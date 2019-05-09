@@ -20,7 +20,8 @@ structure.write("STRUCT=(")
 
 with open("output/outline.txt","w") as outline:
 	outline.write("Dissertation Outline\n")
-	sumarray=dissroutines.traverse_structures("structure.csv",structure,outline,contentdir)
+	sumarray=dissroutines.traverse_structures2("structure.csv",structure,outline,contentdir)
+	# sumarray=dissroutines.traverse_structures("structure.csv",structure,outline,contentdir)
 
 structure.write("\n)\n")
 structure.close()

@@ -155,7 +155,7 @@ function make_copyright()
 	printf "\t%s\n" "\addtocontents{toc}{\protect\thispagestyle{empty}}"
 	printf "\t%s\n" "\pagenumbering{gobble}"
 	printf "\t%s\n" "\setlength{\parskip}{0pt}"
-	printf "\t%s\n" "Copyright \copyright $AUTHOR\par"
+	printf "\t%s\n" "Copyright \copyright{} $AUTHOR\par"
 	printf "\t%s\n" "$COPYRIGHT"
 	printf "%s\n" "\end{center}"
 	printf "%s\n" "\newpage"
@@ -177,10 +177,10 @@ function make_extra()
 	write_comment "BEGIN EXTRAS"
 
 	printf "%s\n" "\pagenumbering{roman}"
-	printf "%s\n" "\setcounter{page}{iv}"
 
 	write_comment "DEDICATION PAGE"
 	printf "\n%s\n" "\chapter{Dedication}"
+	printf "%s\n" "\setcounter{page}{4}"
 	cat $FMTDIR/dedication.tex 
 	printf "\n%s\n" "\newpage"
 
@@ -204,7 +204,7 @@ function make_frontmatter()
 	printf "%s\n" "\frontmatter"
 	make_title
 	make_copyright
-	make_page "FRONTISPIECE" "\\includegraphics[width=1\\textwidth]{$FRONTIMG}"
+	make_page "FRONTISPIECE" "\\centerline{\\includegraphics[width=1\\textwidth]{$FRONTIMG}}"
 	make_page "BLANK" "\\clearpage"
 	make_extra
 

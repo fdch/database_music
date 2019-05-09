@@ -1,6 +1,6 @@
 Dissertation Outline
-Abstract 387
-Introduction 1318
+Abstract 424
+Introduction 1517
 Database Art 0
 	The Database in New Media Theory 0
 		Database as Form 415 33%
@@ -9,39 +9,39 @@ Database Art 0
 		Bodiless Information 642 51%
 		Embodying Databasing 580 46%
 		Filtering and Framing 434 34%
-		Interlude: An Embodied Database 1908 152%
+		Interlude: An Embodied Database 1905 152%
 		Closing Remarks 354 28%
 	Databasing and the History of Databases 0
-		Databasing: the performance of the database 2059 82%
+		Databasing: the performance of the database 2384 95%
 		A Database Tree 926 37%
 		The Realm of Data Structures 542 21%
-		A Brief History of Database Models 2409 96%
-	Databasing Sound: Applications of databases in sound 351
+		A Brief History of Database Models 2410 96%
+	Databasing Sound: Applications of databases in sound 483
 		Music Information Retrieval 934 37%
-		Sonification 2041 81%
-		Computer Music 5385 215%
-		Intersections 3907 156%
-Database Aesthetics 148
+		Sonification 2223 88%
+		Computer Music 5398 215%
+		Intersections 4009 160%
+Database Aesthetics 810
 	Listening Databases 0
 		Interlude: I am sitting in a room... 222 11%
-		The Resonance of a Return 1506 80%
-		Resonant Network 1479 78%
-		The Unworking Network 2107 112%
+		The Resonance of a Return 1515 80%
+		Resonant Network 1480 78%
+		The Unworking Network 2109 112%
 	Databases and Memory 0
 		The Effraction of the Trace 1791 71%
-		The Archontic Principle 1896 75%
-		The Spectral Database 1627 65%
+		The Archontic Principle 1897 75%
+		The Spectral Database 1629 65%
 	Performativity of Databases 0
-		Gendered Database 1368 72%
+		Gendered Database 1386 73%
 		Towards the Limits 435 23%
-		Contingencies of Style 2059 109%
-		A Specter of Authority 1271 67%
+		Contingencies of Style 2076 110%
+		A Specter of Authority 1274 67%
 	Rethinking Composition 0
-		Interlude: Hyperbolic Reactions 1207 112%
-		Working Composition 1508 140%
-		The Composer as Navigator 1391 129%
+		Interlude: Hyperbolic Reactions 1247 116%
+		Working Composition 1509 140%
+		The Composer as Navigator 1467 136%
 		The Database as Performer 2721 254%
 		The severed object of music 1773 165%
 		Anarchy and the unwork 1704 159%
 		[WIP] work in progress 347 32%
-Afterword 787
+Afterword 845
