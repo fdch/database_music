@@ -81,11 +81,11 @@ backmatter=(
 	"backmatter"
 	"singlespacing"
 	# "glsaddall"
-	"printglossaries"
+	"printglossaries[numberedsection]"
 	"phantomsection"
 	"setlength{\\parskip}{4em}"
 	"printbibliography"
-	"addcontentsline{toc}{chapter}{Bibliography}" # this gives an error
+	"addcontentsline{toc}{part}{Bibliography}" # this gives an error
 	# could it be like this?
 	# \addcontentsline{\$}{toc}{chapter}{Bibliography}
 )
