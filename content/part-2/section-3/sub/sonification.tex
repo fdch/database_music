@@ -10,7 +10,7 @@ Sonification depends on databases, on the interaction between databases, and on 
 
 In what follows, I present some instances of sonification practices as described by their authors.
 
-\subsubsection{Parameter mapping}
+\subsection{Parameter mapping}
 \label{sonification:parametermapping}
 
 \paragraph{DOW}
@@ -22,13 +22,13 @@ In what follows, I present some instances of sonification practices as described
 % \paragraph{Geolocations}
 % \citeauthor{icmc/bbp2372.2010.002} \parencite{icmc/bbp2372.2010.002} created an interface called \gls{compath} which enabled users to draw paths on a map, sonifying data points which represented information (e.g., traffic, weather, culture events) along the points of the path. They used major commercial web services such as Amazon, Google, and Yahoo that offered public \glspl{api} so that each geo-location inputted on the path acted as a database query. The returned data from these services was then mixed together and mapped with a virtual synthesized via \gls{midi}.
 
-\subsubsection{Model-based sonification}
+\subsection{Model-based sonification}
 \label{sonification:model}
 
 \paragraph{Space}
 One example of model-based sonification is the \textit{Data Listening Space} installation by the \gls{qcd-audio} project at the \gls{iem} of the University of Music and Performing Arts in Graz \parencite{icmc/bbp2372.2012.096}. Within this installation, they proposed a three dimensional, navigable space holding a Monte Carlo simulation of the theory of \gls{qed}. Within this \gls{qed} \textit{lattice}, a walking participant holding sensors ---$x$, $y$, and $z$ coordinates--- could explore the simulated data by way of sonification.
 
-\subsubsection{Artistic sonification}
+\subsection{Artistic sonification}
 \label{sonification:artistic}
 
 \paragraph{Wolves}
@@ -51,7 +51,7 @@ Falk \textcite{icmc/bbp2372.2016.002} composed \textit{Spin Dynamics} using mole
 \paragraph{Gender Distribution}
 Emma \textcite{Fri17:Son} derived a database of gender distribution by applying the python module \texttt{genderize} to author names in three main computer music conference proceedings databases: \gls{icmc}, \gls{nime}, and \gls{smc}. By assigning polar frequency ranges for each group (male and female), her sonification emphasizes the significant inequality of gender in the resulting acoustic stream segregation into male background (continuous drone-like sound) and female foreground (fewer and sparser sounds). Her conclusion, therefore, is that ``there is a need for analysis of the existing environments and social relations that surround music technology and computer music. If we identify the challenges that women are facing in our research community, we will be able to create more initiatives towards changing practices'' \parencite[238]{Fri17:Son}.
 
-\subsubsection{Sonification Installations}
+\subsection{Sonification Installations}
 \label{sonification:installations}
 
 % 
@@ -73,7 +73,7 @@ Emma \textcite{Fri17:Son} derived a database of gender distribution by applying 
 \label{hearing_the_self}
 \textcite{fdch/installation/spectral} designed \textit{Hally}, an installation based on face tracking and real-time sonification of spectral features present in both pixel information containing the face, and the $x$ and $y$ coordinates of the moving data points of the face mesh used for tracking. Furthermore, by video-based audio convolution, \textit{Hally} aims to simulate a theory of perception based on \gls{ift} \parencite{connes:shapes}. Parting from previous work by \textcite{Sch07:How} on simultaneous sonification and visualization, \textit{Hally} explores the role of both sound and image in the definition of the self, by immersing the participant in an uncanny spectrality \parencite{fdch/papers/spectral}. Among other sounds, there is one drone-like sound produced throughout the installation that comes out of a set of programming decisions which bring into surface certain aspects of the software used in the piece. The \gls{dsp} within Pure Data is scheduled in blocks of samples that the user can set. A certain combination of block size, overlap, and sample rate results in a frequency, in this case, of about 43 Hz \parencite[3]{fdch/installation/spectral}. In fact, these combinations around block size result in a set of octave-spaced pitches that are tethered to Pure Data's only possible block sizes ($2^n$, at least in audio computations). In this sense, when making these pitches audible, the listener can recognize a certain `sound' proper to the internal memory management and computation rate of the software. In this installation, it is the human participant that enters as a filter to the spectrum of this `sound' by the position of their faces on the camera sensing area. Thus, participants change this `sound' with the unique ways in which they behave in front of the sensor.
 
-% \subsubsection{Affective Sonification}
+% \subsection{Affective Sonification}
 % \label{sonification:affective} 
 
 % \paragraph{Telematic Electroacoustic Music}
@@ -83,7 +83,7 @@ Emma \textcite{Fri17:Son} derived a database of gender distribution by applying 
 
 
 
-\subsubsection{Sonification Software}
+\subsection{Sonification Software}
 \label{sonification:software}
 
 \paragraph{SonArt}
