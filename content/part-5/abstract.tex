@@ -231,7 +231,7 @@ Descriptor & Brief explanation & Structure
 
 \subsection{Sorter}
 
-The program \texttt{sorter.sh} has only one function named \texttt{sort\_it()}, which takes a variable number of arguments. The arguments are the field (columns) of a given text file with which to sort the text file. Thus, it enables you to sort the entries file \textbf{A} (\texttt{<entries_file>}) based on any given field, as well as with pairs or sets of fields. It outputs the sorted files into a file with the same name of the original, appended with the \texttt{-sorted.txt} flag to the name. Each line of the \texttt{-sorted.txt} file contains the sorted indices of each image filename. This is useful to load within Pure Data as a text file for use with the live querying system, as an alternative way to generate image sequences besides the query results.
+The program \texttt{sorter.sh} has only one function named \texttt{sort\_it()}, which takes a variable number of arguments. The arguments are the field (columns) of a given text file with which to sort the text file. Thus, it enables you to sort the entries file \textbf{A} (\texttt{<entries\_file>}) based on any given field, as well as with pairs or sets of fields. It outputs the sorted files into a file with the same name of the original, appended with the \texttt{-sorted.txt} flag to the name. Each line of the \texttt{-sorted.txt} file contains the sorted indices of each image filename. This is useful to load within Pure Data as a text file for use with the live querying system, as an alternative way to generate image sequences besides the query results.
 
 
 
@@ -244,7 +244,7 @@ The purpose of this section is to obtain a sound database based on the analyzed 
 
 \texttt{python\ src/colors.py}
 
-First, this script places all data objects \textbf{B} inside an array of objects in one \gls{json} object \textbf{C} (\texttt{<image_data_file>}). Thus, it concatenates a series of \gls{json} files into one. Then, this script gets English names of the clustered colors in the \gls{json} data base \textbf{C}, and outputs a file (\texttt{<color_words_file>}) containing one entry per unique color. The structure is like this: \texttt{name}, \texttt{idlist}, and \texttt{words} (See Table \ref{tab:colorwords}).
+First, this script places all data objects \textbf{B} inside an array of objects in one \gls{json} object \textbf{C} (\texttt{<image\_data\_file>}). Thus, it concatenates a series of \gls{json} files into one. Then, this script gets English names of the clustered colors in the \gls{json} data base \textbf{C}, and outputs a file (\texttt{<color\_words\_file>}) containing one entry per unique color. The structure is like this: \texttt{name}, \texttt{idlist}, and \texttt{words} (See Table \ref{tab:colorwords}).
 
 \begin{table}
 \begin{tabular}{l | l}
@@ -275,7 +275,7 @@ Key     & Value
 
 \subsubsection{Get color sounds}
 
-The \texttt{<color_words_file>} file is then used to query \gls{freesound} and download sounds related to all \texttt{words} and \texttt{name}s using the python script: \texttt{fs\_download.py}. NOTE: Some colors may not result in words that have a related sound to them.
+The \texttt{<color\_words\_file>} file is then used to query \gls{freesound} and download sounds related to all \texttt{words} and \texttt{name}s using the python script: \texttt{fs\_download.py}. NOTE: Some colors may not result in words that have a related sound to them.
 
 
 \subsubsection{Concatenate sounds}
@@ -287,7 +287,7 @@ The script \texttt{concat\_sounds.py} concatenates all downloaded sounds sounds 
 
 
 
-The script \texttt{analyze\_sounds.sh} runs the \texttt{analyze\_sounds.pd} patch in batch mode. It analyzes sounds in a source directory, and places all \texttt{*.timid} files in a target directory. It takes two arguments: a source and a target directory. Optionally, you can analyze only one file by passing an index into the source directory with a 3rd argument. By default, the analysis is outputted both in \texttt{*.timid} and in \texttt{*.json} (using a custom converter found in \texttt{timid2json.py}), and it concatenates all \gls{json} files into one database (\texttt{<audio_data_file>})
+The script \texttt{analyze\_sounds.sh} runs the \texttt{analyze\_sounds.pd} patch in batch mode. It analyzes sounds in a source directory, and places all \texttt{*.timid} files in a target directory. It takes two arguments: a source and a target directory. Optionally, you can analyze only one file by passing an index into the source directory with a 3rd argument. By default, the analysis is outputted both in \texttt{*.timid} and in \texttt{*.json} (using a custom converter found in \texttt{timid2json.py}), and it concatenates all \gls{json} files into one database (\texttt{<audio\_data\_file>})
 
 
 \subsubsection{Instance Structure}
@@ -323,7 +323,7 @@ To open this patch, run the following on four separate terminals:
 \begin{enumerate}
 \item \texttt{bash audio} (for sound playback)
 \item \texttt{bash display} (for image display)
-\item \texttt{python src/live\_query.py <entries_file> <image_data_file> <audio_data_file> <color_words_file> <port number> <host name>} (for the live database to load)
+\item \texttt{python src/live\_query.py <entries\_file> <image\_data\_file> <audio\_data\_file> <color\_words\_file> <port number> <host name>} (for the live database to load)
 \item \texttt{pd live\_query.pd} (for the live querying system interface)
 \end{enumerate}
 
