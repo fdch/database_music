@@ -2765,7 +2765,7 @@ keypoints    & number of keypoints (corners) found
 These files are \gls{json} files containing one object per image file holding the actual data. This data is structured as follows:
 
 \begin{table}
-\begin{tabular}{ l | p{3cm} |   p{2.5cm} }
+\begin{tabular}{ l | p{8cm} |   p{3cm} }
 
 Descriptor & Brief explanation & Structure
 
@@ -2774,10 +2774,10 @@ Descriptor & Brief explanation & Structure
 
 \texttt{mean\_col}  & the array of color clusters of the image \
 & 
-\tabitem \texttt{pct} (percentage over the total image)
-\tabitem \texttt{b} (blue)
-\tabitem \texttt{g} (green)
-\tabitem \texttt{r} (red)
+\texttt{pct} (percentage over the total image), 
+\texttt{b} (blue), 
+\texttt{g} (green), 
+\texttt{r} (red)
 
 \tabularnewline
 \hline
@@ -2790,10 +2790,10 @@ Descriptor & Brief explanation & Structure
 
 \texttt{bodies}     & the sequence of blob information pertaining to found bodies on screen \
 & 
-\tabitem \texttt{x}
-\tabitem \texttt{y}
-\tabitem \texttt{r} (radius)
-\tabitem \texttt{id} 
+\texttt{x}, 
+\texttt{y}, 
+\texttt{r} (radius), 
+\texttt{id}
 
 \tabularnewline
 \hline
@@ -2818,28 +2818,28 @@ Descriptor & Brief explanation & Structure
 
 \texttt{cvblobs}    & the array of blobs recognized in the image \ 
 & 
-\tabitem \texttt{Ycentroid} 
-\tabitem \texttt{Xcentroid} 
-\tabitem \texttt{length} 
-\tabitem \texttt{points} 
-\tabitem \texttt{corners} (4 x-y pairs) 
-\tabitem \texttt{area} 
-\tabitem \texttt{angle} 
-\tabitem \texttt{Ysize} 
-\tabitem \texttt{Xsize} 
-\tabitem \texttt{Ycenter} 
-\tabitem \texttt{Xcenter} 
-\tabitem \texttt{id} 
+\texttt{Ycentroid}, 
+\texttt{Xcentroid}, 
+\texttt{length}, 
+\texttt{points}, 
+\texttt{corners} (4 x-y pairs), 
+\texttt{area}, 
+\texttt{angle}, 
+\texttt{Ysize}, 
+\texttt{Xsize}, 
+\texttt{Ycenter}, 
+\texttt{Xcenter}, 
+\texttt{id}, 
 
 \tabularnewline
 \hline
 
 \texttt{lines}      & the array of lines found on the image \
 & 
-\tabitem \texttt{r} (length) 
-\tabitem \texttt{y} 
-\tabitem \texttt{x} 
-\tabitem \texttt{id}
+\texttt{r} (length), 
+\texttt{y}, 
+\texttt{x}, 
+\texttt{id}
 
 \tabularnewline
 \hline
@@ -2852,9 +2852,9 @@ Descriptor & Brief explanation & Structure
 
 \texttt{keypoints}  & the array of keypoints (corners) found on the image \
 & 
-\tabitem \texttt{y} 
-\tabitem \texttt{x} 
-\tabitem \texttt{id}
+\texttt{y},  
+\texttt{x}, 
+\texttt{id} 
 
 
 \end{tabular}
