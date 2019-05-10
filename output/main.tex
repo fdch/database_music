@@ -2760,95 +2760,106 @@ keypoints    & number of keypoints (corners) found
 \end{table}
 
 
-
-% \begin{enumerate}
-% \singlespacing
-% \item brightness: variance of the image histogram
-% \item bodies : number of bodies found (haarcascades)
-% \item faces : number of faces found (haarcascades)
-% \item cvblobs : number of cvblobs found
-% \item lines : number of hough lines found
-% \item circles : number of hough circles found
-% \item keypoints : number of keypoints (corners) found
-% \end{enumerate}
-
 \subsubsection*{3.B: Data files}
 
 These files are \gls{json} files containing one object per image file holding the actual data. This data is structured as follows:
 
 \begin{table}
-\begin{tabular}{ l | l }
+\begin{tabular}{ l | p{3cm} |   p{2.5cm} }
 
-Descriptor & Brief explanation
-
-\tabularnewline
-\hline
-
-mean\_col  & the array of color clusters of the image. Each color has the following structure: pct (percentage over the total image), b (blue), g (green), and r (red) values.
+Descriptor & Brief explanation & Structure
 
 \tabularnewline
 \hline
 
-histo      & the histogram of the image, stored in an array of fixed size (64 points)
+\texttt{mean\_col}  & the array of color clusters of the image \
+& 
+\tabitem \texttt{pct} (percentage over the total image) \\
+\tabitem \texttt{b} (blue) \\
+\tabitem \texttt{g} (green) \\
+\tabitem \texttt{r} (red)
 
 \tabularnewline
 \hline
 
-bodies     & the sequence of blob information pertaining to found bodies on screen. Each blob has the following structure: x, y, r (radius), and id.
+\texttt{histo}      & the histogram of the image \
+& array of fixed size (64)
 
 \tabularnewline
 \hline
 
-faces      & the sequence of blob information pertaining to found faces on screen (same as bodies).
+\texttt{bodies}     & the sequence of blob information pertaining to found bodies on screen \
+& 
+\tabitem \texttt{x} \\
+\tabitem \texttt{y} \\
+\tabitem \texttt{r} (radius) \\
+\tabitem \texttt{id} 
 
 \tabularnewline
 \hline
 
-blobcount  & the number of blobs detected (length 1)
+\texttt{faces}      & the sequence of blob information pertaining to found faces on screen \
+& (same as \texttt{bodies})
 
 \tabularnewline
 \hline
 
-blobpoints & the total number of points accross all blobs (length 1)
+\texttt{blobcount}  & the number of blobs detected \
+& one value
 
 \tabularnewline
 \hline
 
-cvblobs    & the array of blobs recognized in the image. Each blob has the following structure: Ycentroid, Xcentroid, length, points, corners (4 x-y pairs), area, angle, Ysize, Xsize, Ycenter, Xcenter, and id. 
+\texttt{blobpoints} & the total number of points accross all blobs \
+& one value
 
 \tabularnewline
 \hline
 
-lines      & the array of lines found on the image. Each line has the following structure: r (length), y, x, and id. 
+\texttt{cvblobs}    & the array of blobs recognized in the image \ 
+& 
+\tabitem \texttt{Ycentroid} \\
+\tabitem \texttt{Xcentroid} \\
+\tabitem \texttt{length} \\
+\tabitem \texttt{points} \\
+\tabitem \texttt{corners} (4 x-y pairs) \\
+\tabitem \texttt{area} \\
+\tabitem \texttt{angle} \\
+\tabitem \texttt{Ysize} \\
+\tabitem \texttt{Xsize} \\
+\tabitem \texttt{Ycenter} \\
+\tabitem \texttt{Xcenter} \\
+\tabitem \texttt{id} \\
 
 \tabularnewline
 \hline
 
-circles    & the array of circles found on the image (same as lines).
+\texttt{lines}      & the array of lines found on the image \
+& 
+\tabitem \texttt{r} (length) \\
+\tabitem \texttt{y} \\
+\tabitem \texttt{x} \\
+\tabitem \texttt{id}
 
 \tabularnewline
 \hline
 
-keypoints  & the array of keypoints (corners) found on the image. Each point has the following structure: y, x, and id.
+\texttt{circles}    & the array of circles found on the image \
+& (same as \texttt{lines})
+
+\tabularnewline
+\hline
+
+\texttt{keypoints}  & the array of keypoints (corners) found on the image \
+& 
+\tabitem \texttt{y} \\
+\tabitem \texttt{x} \\
+\tabitem \texttt{id}
 
 
 \end{tabular}
 \end{table}
 
-
-% \begin{itemize}
-% \singlespacing
-% \item mean\_col : the array of color clusters of the image. Each color has the following structure: pct (percentage over the total image), b (blue), g (green), and r (red) values.
-% \item histo : the histogram of the image, stored in an array of fixed size (64 points)
-% \item bodies : the sequence of blob information pertaining to found bodies on screen. Each blob has the following structure: x, y, r (radius), and id.
-% \item faces : the sequence of blob information pertaining to found faces on screen (same as bodies).
-% \item blobcount : the number of blobs detected (length 1)
-% \item blobpoints :  the total number of points accross all blobs (length 1)
-% \item cvblobs : the array of blobs recognized in the image. Each blob has the following structure: Ycentroid, Xcentroid, length, points, corners (4 x-y pairs), area, angle, Ysize, Xsize, Ycenter, Xcenter, and id. 
-% \item lines : the array of lines found on the image. Each line has the following structure: r (length), y, x, and id. 
-% \item circles : the array of circles found on the image (same as lines).
-% \item keypoints : the array of keypoints (corners) found on the image. Each point has the following structure: y, x, and id.
-% \end{itemize}
 
 
 \subsection*{4. Sorter}
