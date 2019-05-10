@@ -2714,16 +2714,35 @@ The output of this program is in two types: an entry file (A) and a data file (B
 \subsubsection*{3.A: Entry file} 
 This entry file is a plain text file that contains one entry per image file holding the following data:
 
-\begin{enumerate}
-\singlespacing
-\item brightness: variance of the image histogram
-\item bodies : number of bodies found (haarcascades)
-\item faces : number of faces found (haarcascades)
-\item cvblobs : number of cvblobs found
-\item lines : number of hough lines found
-\item circles : number of hough circles found
-\item keypoints : number of keypoints (corners) found
-\end{enumerate}
+
+\begin{table}
+\begin{tabular}{ l | l }
+
+Descriptor   & Brief explanation \
+brightness   & variance of the image histogram \
+bodies       & number of bodies found (haarcascades) \
+faces        & number of faces found (haarcascades) \
+cvblobs      & number of cvblobs found \
+lines        & number of hough lines found \
+circles      & number of hough circles found \
+keypoints    & number of keypoints (corners) found \
+
+
+\end{tabular}
+\end{table}
+
+
+
+% \begin{enumerate}
+% \singlespacing
+% \item brightness: variance of the image histogram
+% \item bodies : number of bodies found (haarcascades)
+% \item faces : number of faces found (haarcascades)
+% \item cvblobs : number of cvblobs found
+% \item lines : number of hough lines found
+% \item circles : number of hough circles found
+% \item keypoints : number of keypoints (corners) found
+% \end{enumerate}
 
 \subsubsection*{3.B: Data files}
 
