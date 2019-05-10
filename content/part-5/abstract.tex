@@ -39,9 +39,10 @@ This step needs \href{https://ffmpeg.org/ffmpeg.html}{ffmpeg} and \href{https://
 The program \texttt{analyze.sh} contains a single function \texttt{analyze()}  which takes three arguments:
 
 \begin{enumerate}
-\item 1. files: like multiimage `open` message: path/to/file/base-*.extension
-\item 2. target: prefix to name analysis files
-\item 3. roi-flag 1/0 to set roi defined in roi text
+\singlespacing
+\item files: like multiimage `open' message: path/to/file/base-*.extension
+\item target: prefix to name analysis files
+\item roi-flag 1/0 to set roi defined in roi text
 \end{enumerate}
 
 The core of this program is the Pure Data file \texttt{analyze.pd}, which is run in batch mode, analyzing the specified images, and returning one \gls{json} file per analyzed image. Optionally, you can define a \gls{roi} by opening the \texttt{roi.pd} patch, then adjusting your desired \gls{roi}, and finally setting the \gls{roi} flag to \texttt{1} before running the command line program.
@@ -52,6 +53,7 @@ The output of this program is in two types: an entry file (A) and a data file (B
 This entry file is a plain text file that contains one entry per image file holding the following data:
 
 \begin{enumerate}
+\singlespacing
 \item brightness: variance of the image histogram
 \item bodies : number of bodies found (haarcascades)
 \item faces : number of faces found (haarcascades)
@@ -66,6 +68,7 @@ This entry file is a plain text file that contains one entry per image file hold
 These files are \gls{json} files containing one object per image file holding the actual data. This data is structured as follows:
 
 \begin{itemize}
+\singlespacing
 \item mean\_col : the array of color clusters of the image. Each color has the following structure: pct (percentage over the total image), b (blue), g (green), and r (red) values.
 \item histo : the histogram of the image, stored in an array of fixed size (64 points)
 \item bodies : the sequence of blob information pertaining to found bodies on screen. Each blob has the following structure: x, y, r (radius), and id.
@@ -81,7 +84,7 @@ These files are \gls{json} files containing one object per image file holding th
 
 \subsection*{Sorter}
 
-The program \texttt{sorter.sh} has only one function named \texttt{sort_it()}, which takes a variable number of arguments. The arguments are the field (columns) of a given text file with which to sort the text file. Thus, it enables you to sort the entries file (A) based on any given field, as well as with pairs or sets of fields. It outputs the sorted files into a file with the same name of the original, appended with the \texttt{-sorted.txt} flag to the name. Each line of the \texttt{-sorted.txt} file contains the sorted indices of each image filename. This is useful to load within Pure Data as a text file for use with the live querying system, as an alternative way to generate image sequences besides the query results.
+The program \texttt{sorter.sh} has only one function named \texttt{sort\_it()}, which takes a variable number of arguments. The arguments are the field (columns) of a given text file with which to sort the text file. Thus, it enables you to sort the entries file (A) based on any given field, as well as with pairs or sets of fields. It outputs the sorted files into a file with the same name of the original, appended with the \texttt{-sorted.txt} flag to the name. Each line of the \texttt{-sorted.txt} file contains the sorted indices of each image filename. This is useful to load within Pure Data as a text file for use with the live querying system, as an alternative way to generate image sequences besides the query results.
 
 
 
