@@ -11,6 +11,10 @@ After the analysis is done, the database obtained is divided into two types. The
 Now we can use our audio and image databases to perform a simultaneous query to both, and display this live as an audio/visual stream. The live query is made with a matching matrix that equates certain image descriptors with some audio descriptors. For example, images with faces and bodies will match with audios with pitches on them, and images with many blobs will match with noisier sounds.
 
 
+\img{dataflow}{1}{
+  Data flow needed to obtain a live querying system for images and audio based on feature equivalencies.
+}{Diagram representing each step}
+
 \section*{Steps}
 
 The program is broken down into independent modules that enable you to perform a sequence of tasks that are needed for the live querying system to work. While these steps may be done systematically with an automated script, I chose to keep each module separated by design, so as to provide fine tuning on each part of the process. In this sense, you can better adjust parameters in each step of the way according to the particular datasets that you would use. Most of these steps are run from the command line and they take several arguments. See their help for further information on how to use them. Nonetheless, some of these programs are Pure Data patches run on batch mode, meaning that you can open the respective patches to edit or to change internal parameters according to your needs. 
