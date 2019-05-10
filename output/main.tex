@@ -377,11 +377,11 @@ I would like to thank my advisor, Jaime Oliver La Rosa, for his role in inspirin
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN chapter*: Abstract
+%	BEGIN part*: Abstract
 %
 %------------------------------------------------------------------------------
-\chapter*{Abstract}
-\addcontentsline{toc}{chapter}{Abstract}
+\part*{Abstract}
+\addcontentsline{toc}{part}{Abstract}
 
 \glsresetall
 The aim of this dissertation is to outline a framework to discuss the aesthetic agency of the database in music composition. I place my dissertation in relation to existing scholarship, artists, and developers working in the fields of music composition, computer science, affect, and ontology, with emphasis on the ubiquity of databases and on the need to reflect on their practice, particularly in relation to databasing and music composition. There is a database everywhere, anytime, always already affecting our lives; it is an agent in our aesthetic and political lives just as much as we are agents in its composition and performance. Database music lives in between computers and sound. My argument is that in order to conceptualize the agency of the database in music composition, we need to trace the history of the practice, in both its technical and its artistic use, so as to find nodes of action that have an effect on the resulting aesthetics. Therefore, this dissertation is composed of two main sections.
@@ -394,7 +394,7 @@ As an appendix, I present an open-source library for making and performing a mul
 
 %------------------------------------------------------------------------------
 %
-%	END chapter*: Abstract
+%	END part*: Abstract
 %
 %------------------------------------------------------------------------------
 
@@ -438,12 +438,12 @@ As an appendix, I present an open-source library for making and performing a mul
 
 %------------------------------------------------------------------------------
 %
-%	BEGIN chapter*: Introduction ----
+%	BEGIN part*: Introduction ----
 %
 %------------------------------------------------------------------------------
-\chapter*{Introduction}
+\part*{Introduction}
 \label{part-1}
-\addcontentsline{toc}{chapter}{Introduction}
+\addcontentsline{toc}{part}{Introduction}
 
 \glsresetall
 This dissertation begins with a word, database, and a proposition: Is there something we can call database music? This sudden jump from noun to adjective comes not without its audible retaliation, and I make no attempt to muffle it. The reader would perhaps find it useful to know that my condition of composer has guided my research, and made me jump too quickly at the opportunity to make some sound in this initial gesture. Nevertheless, there is a sound and we can listen to it. %ambiguous, but this might be fine as you are introducing.
@@ -466,7 +466,7 @@ I have already warned the reader about the aesthetic impulse of a composer writi
 
 %------------------------------------------------------------------------------
 %
-%	END chapter*: Introduction
+%	END part*: Introduction
 %
 %------------------------------------------------------------------------------
 
@@ -2632,7 +2632,8 @@ Due to the variety of shapes that database music has taken over the years, I foc
 {
 \backmatter
 \singlespacing
-\printglossaries[numberedsection]
+\setglossarysection{part}
+\printglossaries
 \phantomsection
 \setlength{\parskip}{4em}
 \printbibliography
