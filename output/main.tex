@@ -2869,113 +2869,6 @@ Descriptor & Brief explanation & Structure
 \label{tab:jsondatafiles}
 \end{table}
 
-% \begin{flushleft}
-% \footnotesize
-% \begin{lstlisting}[caption="JSON data file",captionpos=b,language=JavaScript]
-% {
-%     "mean_col": [
-%         {
-%             "pct": 0.4625000059604645
-%             "b": 0.018653959035873413, 
-%             "g": 0.064069963991642, 
-%             "r": 0.1372019499540329, 
-%         }, 
-%         ...
-%     ], 
-    
-%     "histo": [
-%         0.07013537734746933, 
-%         0.0708722397685051, 
-%         ...
-%     ], 
-    
-%     "bodies": [
-%         {
-%             "r": 25, 
-%             "y": 133, 
-%             "x": 30, 
-%             "id": 0
-%         },
-%         ...
-%     ],     
-    
-%     "faces": [
-%         {
-%             "r": 36, 
-%             "y": 103, 
-%             "x": 143, 
-%             "id": 0
-%         },
-%         ...
-%     ], 
-    
-%     "blobcount": 10,
-    
-%     "blobpoints": 164, 
-
-%     "cvblob": [
-%         {
-%             "Ycentroid": 0.8846251964569092, 
-%             "Xcentroid": 0.06873874366283417, 
-%             "length": 78.03446197509766, 
-%             "points": 13, 
-%             "corners": [
-%                 0.07812497764825821, 
-%                 0.9339621663093567, 
-%                 ...
-%             ], 
-%             "area": 0.0015919811557978392, 
-%             "angle": -70.01689910888672, 
-%             "Ysize": 0.055210843682289124, 
-%             "Xsize": 0.06140695884823799, 
-%             "Ycenter": 0.8809735774993896
-%             "Xcenter": 0.07143017649650574, 
-%             "id": 0, 
-%         }, 
-%         ...
-%     ], 
-
-%     "lines": [
-%         {
-%             "y1": 217, 
-%             "x1": 0, 
-%             "y2": 217, 
-%             "x2": 319, 
-%             "d": 385.810791015625, 
-%             "id": 0
-%         }, 
-%         ...
-%     ], 
-
-%     "circles": [
-%         {
-%             "r": 70, 
-%             "y": 125, 
-%             "x": 125, 
-%             "id": 0
-%         }, 
-%         ...
-
-%     ], 
-
-%     "keypoints": [
-%         {
-%             "y": 161, 
-%             "x": 151, 
-%             "id": 0
-%         }, 
-%         ...
-%     ], 
-    
-%     "id": 0, 
-% }
-
-
-% \end{lstlisting}
-% \end{flushleft}
-
-
-
 
 
 
@@ -3021,6 +2914,8 @@ Key     & Value
 \texttt{words}   & nouns related to such color after querying Datamuse, e.g. `sky,' `eyes,' etc.\footnote{\url{https://datamuse.com}} 
 
 \end{tabular}
+\label{tab:colorwords}
+\caption{Description of the `colorwords' \gls{json} file holding one object accessed with the key \texttt{data} which has an array of objects as described above, one object per color name.}
 \end{table}
 
 
@@ -3058,8 +2953,6 @@ By default, the analysis is outputted both in \texttt{*.timid} and in \texttt{*.
 The first nine features are single-valued, so one float each. The last two features default to 50 values each, representing the bins of the bark scale with a filterbank spaced at 0.5. You can edit this and other parameters on the parameters file (open \texttt{analyze\_sounds.pd} to do this). The instance length would change accordingly. The output analysis file is one per each audio file, with the following instance structure:
 
 \begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-  \singlespacing
   \singlespacing
 \tightlist
 \item
@@ -3102,17 +2995,10 @@ This enables you to perform live queries to both images and audio simultaneously
 Run on three separate terminals:
 
 \begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-  \singlespacing
-\tightlist
-\item
-  \texttt{sh\ audio} (for the sounds)
-\item
-  \texttt{sh\ display} (for the images)
-\item
-  Run the live database: \texttt{python\ src/live\_query.py\ ./txt/images-entries.txt\ ./data/images-data.json\ ./data/audio-data.json\ ./data/colorwords.json\ 5011\ localhost}
-\item
-  Now open \texttt{live\_query.pd}
+\item \texttt{sh\ audio} (for the sounds)
+\item \texttt{sh\ display} (for the images)
+\item \texttt{python\ src/live\_query.py\ ./txt/images-entries.txt\ ./data/images-data.json\ ./data/audio-data.json\ ./data/colorwords.json\ 5011\ localhost} (the live database)
+\item \texttt{open live\_query.pd} (the live querying system)
 \end{enumerate}
 
 
@@ -3221,6 +3107,119 @@ Available via Github at \url{https://github.com/fdch/fd_lib}:
 \subsection{Abstractions}
 
 In the \texttt{bin/lib} directory there are some abstractions made for this repo (prepended with a \texttt{\_}. I also have included these together with some other abstractions as well in the \texttt{pdbin} directory that are taken from \obj{fd\_lib} and other places. \texttt{pdbin} might not be necessary if you have already installed all the external libraries mentioned above. NOTE: the \texttt{pdbin} directory is not necessary to load the patches, it is just placed there for convenience. Just declare it with \obj{declare\ -path\ ../pdbin} if you need to use it.
+
+
+
+
+
+
+
+
+% \begin{flushleft}
+% \footnotesize
+% \begin{lstlisting}[caption="JSON data file",captionpos=b,language=JavaScript]
+% {
+%     "mean_col": [
+%         {
+%             "pct": 0.4625000059604645
+%             "b": 0.018653959035873413, 
+%             "g": 0.064069963991642, 
+%             "r": 0.1372019499540329, 
+%         }, 
+%         ...
+%     ], 
+    
+%     "histo": [
+%         0.07013537734746933, 
+%         0.0708722397685051, 
+%         ...
+%     ], 
+    
+%     "bodies": [
+%         {
+%             "r": 25, 
+%             "y": 133, 
+%             "x": 30, 
+%             "id": 0
+%         },
+%         ...
+%     ],     
+    
+%     "faces": [
+%         {
+%             "r": 36, 
+%             "y": 103, 
+%             "x": 143, 
+%             "id": 0
+%         },
+%         ...
+%     ], 
+    
+%     "blobcount": 10,
+    
+%     "blobpoints": 164, 
+
+%     "cvblob": [
+%         {
+%             "Ycentroid": 0.8846251964569092, 
+%             "Xcentroid": 0.06873874366283417, 
+%             "length": 78.03446197509766, 
+%             "points": 13, 
+%             "corners": [
+%                 0.07812497764825821, 
+%                 0.9339621663093567, 
+%                 ...
+%             ], 
+%             "area": 0.0015919811557978392, 
+%             "angle": -70.01689910888672, 
+%             "Ysize": 0.055210843682289124, 
+%             "Xsize": 0.06140695884823799, 
+%             "Ycenter": 0.8809735774993896
+%             "Xcenter": 0.07143017649650574, 
+%             "id": 0, 
+%         }, 
+%         ...
+%     ], 
+
+%     "lines": [
+%         {
+%             "y1": 217, 
+%             "x1": 0, 
+%             "y2": 217, 
+%             "x2": 319, 
+%             "d": 385.810791015625, 
+%             "id": 0
+%         }, 
+%         ...
+%     ], 
+
+%     "circles": [
+%         {
+%             "r": 70, 
+%             "y": 125, 
+%             "x": 125, 
+%             "id": 0
+%         }, 
+%         ...
+
+%     ], 
+
+%     "keypoints": [
+%         {
+%             "y": 161, 
+%             "x": 151, 
+%             "id": 0
+%         }, 
+%         ...
+%     ], 
+    
+%     "id": 0, 
+% }
+
+
+% \end{lstlisting}
+% \end{flushleft}
+
 
 
 %------------------------------------------------------------------------------
