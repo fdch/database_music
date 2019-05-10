@@ -360,33 +360,11 @@ kontrastedness & Irregularity\tabularnewline\hline
 
 \subsection{Reader / Visualizer}
 
-\begin{verbatim}
-cd bin
-pd reader.pd
-\end{verbatim}
+The \texttt{reader.pd} patch can be used to visualize the \gls{json} data files \textbf{B}. This patch is useful to edit your parameters for analysis depending on your particular image dataset. You can isolate each visual feature interactively. For it to load, you need to have already analyzed the images at least once. 
 
-This patch can be used to visualize the \gls{json} data files \textbf{B}
+\subsection{Image Query (non-live)}
 
-
-
-
-\subsection{Image Query (non-realtime)}
-
-\begin{verbatim}
-cd bin
-pd query.pd
-\end{verbatim}
-
-This patch is a gui for \texttt{src/query.py} and can be used to:
-
-\begin{itemize}
-\item perform a query to the \gls{json} database \textbf{C} to get indices, based on multiple descriptors (color, brightness, smoothness, blobiness, etc.),
-\item visualize the queries for live editing with the \texttt{display} program
-\end{itemize}
-
-Both input query and its results are stored on \gls{json} files for later use.
-
-
+The \texttt{query.pd} patch is a gui for \texttt{query.py} and it is a non-live version of the live query patch. It works in a very similar way, therefore, it can be used to perform a query to the \gls{json} database \textbf{C} to get indices, based on multiple descriptors (color, brightness, smoothness, blobiness, etc.), and to  visualize the queries for live editing with the \texttt{display} program. Both input query and its results are stored on \gls{json} files for later use. 
 
 
 \section{Dependencies}
@@ -394,40 +372,11 @@ Both input query and its results are stored on \gls{json} files for later use.
 
 \subsection{Externals}
 
-I have not included binaries within this repo, but you can download the following externals:
-
-Available via \texttt{deken}:
-
-\begin{itemize}
-  \singlespacing
-\tightlist
-\item
-  \obj{Gem}
-\item
-  \obj{pix\_opencv}
-\item
-  \obj{purest\_json}
-\item
-  \obj{ggee}
-\item
-  \obj{timbreID}
-\item
-  \obj{zexy/repack}
-\end{itemize}
-
-Available via Github at \url{https://github.com/fdch/fd_lib}:
-
-\begin{itemize}
-  \singlespacing
-\tightlist
-\item
-  \obj{fd\_lib} for \obj{iterate} and \obj{counter}
-\end{itemize}
-
+I have not included binaries within the repository holding \obj{mmdb}, but you can download the following externals available via \texttt{deken}: \obj{Gem}, \obj{pix\_opencv}, \obj{purest\_json}, \obj{ggee}, \obj{timbreID}, \obj{zexy/repack}. Additionally, you can get \obj{fd\_lib} for \obj{iterate} and \obj{counter} from \url{https://github.com/fdch/fd_lib}.
 
 \subsection{Abstractions}
 
-In the \texttt{bin/lib} directory there are some abstractions made for this repo (prepended with a \texttt{\_}. I also have included these together with some other abstractions as well in the \texttt{pdbin} directory that are taken from \obj{fd\_lib} and other places. \texttt{pdbin} might not be necessary if you have already installed all the external libraries mentioned above. NOTE: the \texttt{pdbin} directory is not necessary to load the patches, it is just placed there for convenience. Just declare it with \obj{declare\ -path\ ../pdbin} if you need to use it.
+In the \texttt{bin/lib} directory there are some abstractions made for this repo (prepended with a \texttt{\_}). I also have included these together with some other abstractions as well in the \texttt{pdbin} directory that are taken from \obj{fd\_lib} and other places. \texttt{pdbin} might not be necessary if you have already installed all the external libraries mentioned above. NOTE: the \texttt{pdbin} directory is not necessary to load the patches, it is just placed there for convenience. Just declare it with \obj{declare\ -path\ ../pdbin} if you need to use it.
 
 
 
