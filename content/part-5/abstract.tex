@@ -1,6 +1,6 @@
 \chapter{mmdb}
 
-\section*{Overview}
+\section{Overview}
 
 \obj{mmdb}\footnote{\url{https://github.com/fdch/mmdb}} is a multimodal database system geared towards live querying of image an audio. It consists of a series of bash and python scripts that surround and aid the performance of Pure Data patches. A multimodal database combines two sensing modes. In this sense, the camera sensor and the microphone.
 
@@ -15,7 +15,7 @@ Now we can use our audio and image databases to perform a simultaneous query to 
   Data flow needed to obtain a live querying system for images and audio based on feature equivalencies.
 }{Diagram representing each step}
 
-\section*{Steps}
+\section{Steps}
 
 The program is broken down into independent modules that enable you to perform a sequence of tasks that are needed for the live querying system to work. While these steps may be done systematically with an automated script, I chose to keep each module separated by design, so as to provide fine tuning on each part of the process. In this sense, you can better adjust parameters in each step of the way according to the particular datasets that you would use. Most of these steps are run from the command line and they take several arguments. See their help for further information on how to use them. Nonetheless, some of these programs are Pure Data patches run on batch mode, meaning that you can open the respective patches to edit or to change internal parameters according to your needs. 
 
@@ -32,11 +32,11 @@ These are the main steps:
   \item Live Query
 \end{enumerate}
 
-\subsection*{1. Download}
+\subsection{Download}
 
 The way this system works is that you must start with a folder with images that you then preprocess and analyze for useful descriptions. Later versions of this program will enable you to start with a folder with audio instead. For now, you need to first download an image dataset of raw, original files into the \texttt{raw} directory. This dataset can be of any type, format, and sizes. In this sense, this directory can contain various images from different sources, either from the web, or made by you.
 
-\subsection*{2. Preprocess}
+\subsection{Preprocess}
 
 The program \texttt{preprocess.sh} preprocesses a directory holding an image/video dataset and outputs the following into three directories:
 
@@ -52,7 +52,7 @@ Additionally, it outputs a \gls{csv} file holding original files and converted f
 This step needs \href{https://ffmpeg.org/ffmpeg.html}{ffmpeg} and \href{https://ss64.com/osx/sips.html}{sips}
 
 
-\subsection*{3. Analyze Images}
+\subsection{Analyze Images}
 
 The program \texttt{analyze.sh} contains a single function \texttt{analyze()}  which takes three arguments:
 
@@ -336,18 +336,18 @@ Descriptor & Brief explanation & Structure
 
 
 
-\subsection*{4. Sorter}
+\subsection{Sorter}
 
 The program \texttt{sorter.sh} has only one function named \texttt{sort\_it()}, which takes a variable number of arguments. The arguments are the field (columns) of a given text file with which to sort the text file. Thus, it enables you to sort the entries file (A) based on any given field, as well as with pairs or sets of fields. It outputs the sorted files into a file with the same name of the original, appended with the \texttt{-sorted.txt} flag to the name. Each line of the \texttt{-sorted.txt} file contains the sorted indices of each image filename. This is useful to load within Pure Data as a text file for use with the live querying system, as an alternative way to generate image sequences besides the query results.
 
 
 
-\subsection*{5. Color Sounds}
+\subsection{Color Sounds}
 
 The purpose of this section is to obtain a sound database based on the analyzed images. It uses the color clusters for this purpose. Since it is a rather large process, this section is broken down in three steps:
 
 
-\subsubsection*{5.1. Get color words}
+\subsubsection{Get color words}
 
 \texttt{python\ src/colors.py}
 
@@ -380,7 +380,7 @@ Key     & Value
 \end{table}
 
 
-\subsubsection*{5.2. Get color sounds:}
+\subsubsection{Get color sounds:}
 
 The file \texttt{./data/colorwords.json} is then used to query \href{https://freesound.org}{Freesound} and download sounds related to all \texttt{words} and \texttt{name}s using:
 
@@ -389,7 +389,7 @@ The file \texttt{./data/colorwords.json} is then used to query \href{https://fre
 NOTE: some colors may not result in words that have a related sound to them.
 
 
-\subsubsection*{5.3. Concatenate sounds:}
+\subsubsection{Concatenate sounds:}
 
 Concatenate color sounds into same files and name the file with the image id:
 
@@ -400,7 +400,7 @@ This script runs \texttt{ffprobe} to ignore files that might not be audio, or th
 
 
 
-\subsection*{6. Analyze Sounds}
+\subsection{Analyze Sounds}
 
 \texttt{sh\ analyze\_sounds.sh}
 
@@ -448,7 +448,7 @@ The default analysis window size is 4096, so in one second of file at 44100, you
 
 
 
-\subsection*{7. Live Query}
+\subsection{Live Query}
 
 This enables you to perform live queries to both images and audio simultaneously, using the same query parameters and a matching matrix.
 
@@ -496,10 +496,10 @@ kontrastedness & Irregularity\tabularnewline
 (*) Not used in the audio query
 
 
-\section*{Extra}
+\section{Extra}
 
 
-\subsection*{Reader / Visualizer}
+\subsection{Reader / Visualizer}
 
 \begin{verbatim}
 cd bin
@@ -511,7 +511,7 @@ This patch can be used to visualize the \gls{json} data files (B)
 
 
 
-\subsection*{Image Query (non-realtime)}
+\subsection{Image Query (non-realtime)}
 
 \begin{verbatim}
 cd bin
@@ -538,10 +538,10 @@ Both input query and its results are stored on \gls{json} files for later use.
 
 
 
-\section*{Dependencies}
+\section{Dependencies}
 
 
-\subsection*{Externals}
+\subsection{Externals}
 
 I have not included binaries within this repo, but you can download the following externals:
 
@@ -574,7 +574,7 @@ Available via Github at \url{https://github.com/fdch/fd_lib}:
 \end{itemize}
 
 
-\subsection*{Abstractions}
+\subsection{Abstractions}
 
 In the \texttt{bin/lib} directory there are some abstractions made for this repo (prepended with a \texttt{\_}. I also have included these together with some other abstractions as well in the \texttt{pdbin} directory that are taken from \obj{fd\_lib} and other places. \texttt{pdbin} might not be necessary if you have already installed all the external libraries mentioned above. NOTE: the \texttt{pdbin} directory is not necessary to load the patches, it is just placed there for convenience. Just declare it with \obj{declare\ -path\ ../pdbin} if you need to use it.
 
