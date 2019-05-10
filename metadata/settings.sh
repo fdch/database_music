@@ -83,8 +83,8 @@ backmatter=(
 	# "glsaddall"
 	"setglossarysection{part}"
 	"printglossaries"
-	"phantomsection"
-	"setlength{\\parskip}{4em}"
+	# "phantomsection"
+	# "setlength{\\parskip}{4em}"
 	"printbibliography"
 	"addcontentsline{toc}{part}{Bibliography}" # this gives an error
 	# could it be like this?
