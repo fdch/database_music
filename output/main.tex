@@ -2886,9 +2886,21 @@ The purpose of this section is to obtain a sound database based on the analyzed 
 
 \subsubsection{Get color words}
 
-\texttt{python\ src/colors.py}
+The \texttt{colors.py} script places first all data objects \textbf{B} inside an array of objects in one \gls{json} object \textbf{C} (\texttt{<image\_data\_file>}). Thus, it concatenates a series of \gls{json} files into one. Then, this script gets English names of the clustered colors in the \gls{json} data base \textbf{C}, and outputs a file (\texttt{<color\_words\_file>}) containing one entry per unique color. The structure is like this: \texttt{name}, \texttt{idlist}, and \texttt{words} (See Table \ref{tab:colorwords}).
 
-First, this script places all data objects \textbf{B} inside an array of objects in one \gls{json} object \textbf{C} (\texttt{<image\_data\_file>}). Thus, it concatenates a series of \gls{json} files into one. Then, this script gets English names of the clustered colors in the \gls{json} data base \textbf{C}, and outputs a file (\texttt{<color\_words\_file>}) containing one entry per unique color. The structure is like this: \texttt{name}, \texttt{idlist}, and \texttt{words} (See Table \ref{tab:colorwords}).
+
+
+\subsubsection{Get color sounds}
+
+The \texttt{<color\_words\_file>} file is then used to query \gls{freesound} and download sounds related to all \texttt{words} and \texttt{name}s using the python script: \texttt{fs\_download.py}. NOTE: Some colors may not result in words that have a related sound to them.
+
+
+\subsubsection{Concatenate sounds}
+
+The script \texttt{concat\_sounds.py} concatenates all downloaded sounds sounds into single files named after their respective colors. This script runs \texttt{ffprobe} to ignore files that might not be audio, or that might be malformed. It then runs \texttt{ffmpeg} to concatenate all the audio related to a color name into a file named with that same color name.
+
+
+
 
 \begin{table}
 \begin{tabular}{l | l}
@@ -2915,16 +2927,6 @@ Key     & Value
 \label{tab:colorwords}
 \caption{Description of the `colorwords' \gls{json} file holding one object accessed with the key \texttt{data} which has an array of objects as described above, one object per color name.}
 \end{table}
-
-
-\subsubsection{Get color sounds}
-
-The \texttt{<color\_words\_file>} file is then used to query \gls{freesound} and download sounds related to all \texttt{words} and \texttt{name}s using the python script: \texttt{fs\_download.py}. NOTE: Some colors may not result in words that have a related sound to them.
-
-
-\subsubsection{Concatenate sounds}
-
-The script \texttt{concat\_sounds.py} concatenates all downloaded sounds sounds into single files named after their respective colors. This script runs \texttt{ffprobe} to ignore files that might not be audio, or that might be malformed. It then runs \texttt{ffmpeg} to concatenate all the audio related to a color name into a file named with that same color name.
 
 
 \subsection{Analyze Sounds}
