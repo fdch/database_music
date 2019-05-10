@@ -2662,6 +2662,7 @@ The program is broken down into independent modules that enable you to perform a
 These are the main steps:
 
 \begin{enumerate}
+  \singlespacing
   \item Download
   \item Preprocess
   \item Analyze Images
@@ -2680,6 +2681,7 @@ The way this system works is that you must start with a folder with images that 
 The program \texttt{preprocess.sh} preprocesses a directory holding an image/video dataset and outputs the following into three directories:
 
 \begin{itemize}
+  \singlespacing
 \item <img> : resized images to defined \texttt{WIDTH}, \texttt{FORMAT}, base name, and \texttt{EXT}ension
 \item <vid> : extracted frames resized to defined \texttt{WIDTH}, base name, and \texttt{EXT}ension
 \item <aud> : extracted audio to defined format in \texttt{AUDEXT}
@@ -2758,6 +2760,9 @@ First, this script places all data objects (B) inside an array of objects in one
 This script gets English names of the clustered colors in the \gls{json} data base (C), and outputs a file \texttt{./data/colorwords.json} containing one entry per unique color. The structure is like this: \texttt{name}, \texttt{idlist}, and \texttt{words}.
 
 \begin{itemize}
+  \singlespacing
+  \singlespacing
+  \singlespacing
 \tightlist
 \item
   \texttt{name} : has the English name of the color, e.g.~`blue'
@@ -2803,6 +2808,8 @@ The first nine features are single-valued, so one float each. The last two featu
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
+  \singlespacing
+  \singlespacing
 \tightlist
 \item
   barkSpecSlope
@@ -2845,6 +2852,7 @@ Run on three separate terminals:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
+  \singlespacing
 \tightlist
 \item
   \texttt{sh\ audio} (for the sounds)
@@ -2908,6 +2916,7 @@ NOTE: This patch is a gui for \texttt{src/query.py}.
 This patch can be used to:
 
 \begin{itemize}
+  \singlespacing
 \tightlist
 \item
   perform a query to the \gls{json} database (C) to get indices, based on
@@ -2932,6 +2941,7 @@ I have not included binaries within this repo, but you can download the followin
 Available via \texttt{deken}:
 
 \begin{itemize}
+  \singlespacing
 \tightlist
 \item
   \obj{Gem}
@@ -2950,6 +2960,7 @@ Available via \texttt{deken}:
 Available via Github at \url{https://github.com/fdch/fd_lib}:
 
 \begin{itemize}
+  \singlespacing
 \tightlist
 \item
   \obj{fd\_lib} for \obj{iterate} and \obj{counter}
