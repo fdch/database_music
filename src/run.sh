@@ -1,7 +1,7 @@
 #!/bin/bash
 ROOT=~/Documents/fd_work/text/waves/bin
 #	LOAD VARIABLES (FIRST AND IN THIS ORDER)
-for i in metadata paths settings pandoc usage structure_array appendix
+for i in metadata paths settings pandoc usage structure_array
 do
 	source $ROOT/metadata/${i}.sh
 done

@@ -1573,7 +1573,7 @@ Live coding has now a long history and it occupies a fair portion of the compute
 The many shapes that database performance has taken over the years can be approached with what I have shown so far. Since many applications of the database in music continues to grow, I have only selected a few areas in which the database has had some agency. One area that I have not included above is that of artificial intelligence for music applications, where databases have been used for training models, and other forms of machine learning. For example, in interactive music systems \parencite{Row92:Int}, in improvisation systems \parencites{DBLP:conf/icmc/AssayagDD99}{DBLP:conf/icmc/BlochD08}, to model \gls{edm} patterns \parencite{rvogl:2017}, analog synthesizer parameter settings \parencite{Loviscach2008}. Multimodal datasets have also been used in training \parencite{DBLP:conf/icmc/SchonerCDG98}. Notwithstanding the multiple gaps and omissions that these lines reveal, I believe the plurality of shapes speaks for itself. As I have shown, from bytes to terabytes, from data structures and files to datasets and databases, has had different positions in relation to sound practices. These positions can be summarized in a three-dimensional diagram \fsee{intersections} where the database can be placed along three axes. Visibility of the database can be represented by the sign: positive values indicate visibility and negative indicate invisibility. `Negative' in this context relates only to the sign of the value, and not to any `judgment' whatsoever. If anything, this graph is intended as a metaphor. As I have mentioned earlier, the database is generally the grounds of sonification, so it can be represented by the $y$-axis. In \gls{mir}, the database is next to the databaser, that is, in the $x$-axis. Finally, I mentioned that the database in computer music is behind the databaser, therefore the $z$-axis seems appropriate.
 
 \img{intersections}{0.5}{
-	Position of the database in terms of visibility among \gls{mir}, Sonification, and Computer Music. Positive values indicate visibility and negative indicate invisibility.
+	A snapshot indicating a possible position of the database in terms of visibility among \gls{mir}, sonification, and computer music. Positive values indicate visibility and negative indicate invisibility. This graph is only one of multiple frames in which we can capture the visibility of the database in relation to the different practices. Despite the fact that the location in which the database can be placed within this graph is reduced to a single point, the database can occupy multiple points simultaneously. Thus, the more complex coreography inherent in databasing escapes the bi-dimensionality of this graph, but it can nonetheless be hinted by it.
 }{Intersection space.}
 
 The simplicity of this diagram is intentional, to avoid any attempt to quantize the actual value that the database represents in the plurality of shapes that I have discussed. There is no percentage that can be drawn from how visible a database can be. Therefore, when practices begin to intersect, as I have shown here, the visibility of the database can thus be understood as in constant motion along these axes. Database performance, in this sense, provides a key to understand the motion of this intersection. Furthermore, there is one dimension not contemplated within this diagram: time. The intersections referenced here are always moving in time, which indicates that the diagram that I have shown here is but one frame in the movement of this database choreography. At each point in time the databaser can pause for a second, analyze the frame, and perhaps describe the motion that the database has taken thus far, and the position that it occupies at that point. And further, perhaps the database occupies two positions at once. The dimensionality reduction carried out when graphing the position of the database should not misguide the reader into thinking that the database is fixed, or that it may have only one position. Quite the contrary, the database is in constant motion and incessant fluidity, and databasers engage in a form of dance that sometimes brings the database to a certain visibility, and other times might veil it beyond layers of code. In any case, this description has been my task until now, and it is safe to say that we have glanced at the database dance. In what follows, I will change the focus and approach the database from a different perspective, one not guided by light, but immersed within sound.
@@ -2629,6 +2629,317 @@ Due to the variety of shapes that database music has taken over the years, I foc
 %------------------------------------------------------------------------------
 %
 %	END part*: Afterword
+%
+%------------------------------------------------------------------------------
+
+%------------------------------------------------------------------------------
+%
+%	BEGIN part*: Appendix ----
+%
+%------------------------------------------------------------------------------
+\part*{Appendix}
+\label{part-5}
+\addcontentsline{toc}{part}{Appendix}
+
+\glsresetall
+\texttt{mmdb}\footnote{\url{https://github.com/fdch/mmdb}} is a multimodal database system geared towards live querying of image an audio. A multimodal database combines two sensing modes. In this sense, the camera sensor and the microphone.
+
+The system here enables you to load a folder with images with various formats and sizes, analyze them, and output a database describing the images with some useful keywords (descriptors). The images can be either taken and collected by you, obtained from the web, or generated by some other means. The analysis is done after normalizing these images to the same size and format in a pre-processing step.
+
+After the analysis is done, the database obtained is divided into two types. The first type is a very small text file with only a handful of values that describe a few things of the image. This file is useful to sort all images based on some or all of these values. The second type is a semi-structured JSON file that includes a lot of data referring to each image. This second file is then used for a set of purposes. On the one hand, we can use this database to perform queries based on those values and obtain desired images. For example, we can ask for bright images, or images with faces or bodies, or images with lots of blobs, etc. On the other, from this database we obtain a set of color words (English color names) of the most present colors on each image. These color words become the link between image and audio in a process that goes as follows. First, we use these color words to query related nouns to those colors using an online database called Datamuse.com. Then, from this query, we obtain another database that has all of these colors and nouns. Finally, this intermediary database that has only text is used to query Freesound.org, to match and download sounds related to those words. Once we have our folder with downloaded audio files from Freesound, we concatenate all of these sounds in sound files named with their respective color words.
+
+Now we can use our audio and image databases to perform a simultaneous query to both, and display this live as an audio/visual stream. The live query is made with a matching matrix that equates certain image descriptors with some audio descriptors. For example, images with faces and bodies will match with audios with pitches on them, and images with many blobs will match with noisier sounds.
+
+
+\subsection{Steps}
+
+\subsubsection{1. Download}
+
+Download image dataset (raw, original files) into \texttt{raw} directory.
+
+
+
+
+\subsubsection{2. Preprocess}
+
+\texttt{sh\ preprocess}
+
+Resize, rename, and/or convert raw images into \texttt{img}, \texttt{vid}, and \texttt{aud} directories. This step needs \href{https://ffmpeg.org/ffmpeg.html}{ffmpeg} and \href{https://ss64.com/osx/sips.html}{sips}
+
+
+
+
+\subsubsection{3. Analyze Images}
+
+
+\texttt{sh\ analyze}
+
+Output two files: an entry file and a data file
+
+\paragraph{A}
+
+Entry file contains one entry per image file holding the following data:
+
+\begin{itemize}
+\tightlist
+\item
+  brightness: variance of the image histogram
+\item
+  bodies : number of bodies found (haarcascades)
+\item
+  faces : number of faces found (haarcascades)
+\item
+  cvblobs : number of cvblobs found
+\item
+  lines : number of hough lines found
+\item
+  circles : number of hough circles found
+\item
+  keypoints : number of keypoints (corners) found
+\end{itemize}
+
+\paragraph{B}
+
+\texttt{JSON} data files contains one entry per image file holding the actual data {[}mean\_col (x), histo (64), bodies (x), faces (x), cvblobs (x), lines (x), circles (x), keypoints (x){]}
+
+
+\paragraph{Optionally:}
+
+Define a ROI using the \texttt{roi.pd} patch, and then set the ROI flag to 1 before running \texttt{sh\ analyze}
+
+
+
+\subsubsection{4. Sorter}
+
+\texttt{sh\ sorter}
+
+Use A to sort files based on any given field, and pairs of fields
+
+Output sorted files into \texttt{*-sorted.txt} where each line contains the sorted inidices of each image filename.
+
+
+
+
+\subsubsection{5. Color Sounds}
+
+Obtain a sound database based on image colors. This is broken down in four steps:
+
+
+\paragraph{5.1. Get color words:}
+
+\texttt{python\ src/colors.py}
+
+First, this script places all data objects (B) inside an array of objects in one \texttt{JSON} object (C) (Concatenates \texttt{JSON} files into one)
+
+This script gets English names of the clustered colors in the \texttt{JSON} data base (C), and outputs a file \texttt{./data/colorwords.json} containing one entry per unique color. The structure is like this: \texttt{name}, \texttt{idlist}, and \texttt{words}.
+
+\begin{itemize}
+\tightlist
+\item
+  \texttt{name} : has the English name of the color, e.g.~`blue'
+\item
+  \texttt{idlist}: has all the image ids that have that color
+\item
+  \texttt{words}: has nouns related to such color. These nouns are obtained by querying \href{https://datamuse.com}{datamuse}, e.g.~`sky, eyes, etc.'
+\end{itemize}
+
+
+\paragraph{5.2. Get color sounds:}
+
+The file \texttt{./data/colorwords.json} is then used to query \href{https://freesound.org}{Freesound} and download sounds related to all \texttt{words} and \texttt{name}s using:
+
+\texttt{python\ src/fs\_download.oy}
+
+NOTE: some colors may not result in words that have a related sound to them.
+
+
+\paragraph{5.3. Concatenate sounds:}
+
+Concatenate color sounds into same files and name the file with the image id:
+
+\texttt{python\ src/concat\_sounds.py}
+
+This script runs \texttt{ffprobe} to ignore files that might not be audio, or that might be malformed. It then runs \texttt{ffmpeg} to concatenate all the audio related to a color name into a file named with that same color name.
+
+
+
+
+\subsubsection{6. Analyze Sounds}
+
+\texttt{sh\ analyze\_sounds.sh}
+
+This script runs the \texttt{analyze\_sounds.pd} file in batch mode. It analyzes sounds in a given directory, and places all \texttt{*.timid} files in a second directory. Optionally, you can analyze only one file by index into the directory with a 3rd argument.
+
+By default, the analysis is outputted both in \texttt{*.timid} and in \texttt{*.json} (using \texttt{timid2json.py}), and it concatenates all \texttt{JSON} files into one database.
+
+
+\paragraph{Instance Structure}
+
+The first nine features are single-valued, so one float each. The last two features default to 50 values each, representing the bins of the bark scale with a filterbank spaced at 0.5. You can edit this and other parameters on the parameters file (open \texttt{analyze\_sounds.pd} to do this). The instance length would change accordingly. The output analysis file is one per each audio file, with the following instance structure:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  barkSpecSlope
+\item
+  barkSpecKurtosis
+\item
+  barkSpecSkewness
+\item
+  barkSpecBrightness
+\item
+  barkSpecFlatness
+\item
+  barkSpecRolloff
+\item
+  barkSpecCentroid
+\item
+  barkSpecSpread
+\item
+  barkSpecIrregularity
+\item
+  bfcc
+\item
+  barkSpec (used for all of the above, internal window size is 512)
+\end{enumerate}
+
+(see help files for \href{https://github.com/wbrent/timbreID}{timbreID})
+
+The default analysis window size is 4096, so in one second of file at 44100, you will have around 10 instances, which is ok for many purposes, but you can change this. On the one hand, you can specify overlaps (default 1, no overlap). On the other, you can define an analysis average factor \textbf{f} (default 8). This factor is used to average several smaller sized analysis into one. To do this, we simply take the mean of \textbf{f} consecutive analysis frames within the larger analysis window size.
+
+
+
+\subsubsection{7. Live Query}
+
+This enables you to perform live queries to both images and audio simultaneously, using the same query parameters and a matching matrix.
+
+
+\paragraph{Instructions to open this patch:}
+
+Run on three separate terminals:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \texttt{sh\ audio} (for the sounds)
+\item
+  \texttt{sh\ display} (for the images)
+\item
+  Run the live database: \texttt{python\ src/live\_query.py\ ./txt/images-entries.txt\ ./data/images-data.json\ ./data/audio-data.json\ ./data/colorwords.json\ 5011\ localhost}
+\item
+  Now open \texttt{live\_query.pd}
+\end{enumerate}
+
+
+\paragraph{Matching matrix}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+Image Feature & Audio Feature\tabularnewline
+\midrule
+\endhead
+thres\_\{R,G,B\} & audio database\tabularnewline
+thres\_C & audio database\tabularnewline
+\{bodies, faces\} & Kurtosis\tabularnewline
+\{bodies, faces\}{[}size{]} & Skewness\tabularnewline
+brightness & Slope\tabularnewline
+smoothness* & grain size (for concatenation)\tabularnewline
+cutness* & grain size (for concatenation)\tabularnewline
+blobiness & Brightness, Flatness, Rolloff\tabularnewline
+skewness* & grain location (for spatialization)\tabularnewline
+boundedness & Centroid, Spread\tabularnewline
+kontrastedness & Irregularity\tabularnewline
+\bottomrule
+\end{longtable}
+
+(*) Not used in the audio query
+
+
+\subsection{Extra}
+
+
+\subsubsection{Reader / Visualizer}
+
+\begin{verbatim}
+cd bin
+pd reader.pd
+\end{verbatim}
+
+This patch can be used to visualize the \texttt{JSON} data files (B)
+
+
+
+
+\subsubsection{Image Query (non-realtime)}
+
+\begin{verbatim}
+cd bin
+pd query.pd
+\end{verbatim}
+
+NOTE: This patch is a gui for \texttt{src/query.py}.
+
+This patch can be used to:
+
+\begin{itemize}
+\tightlist
+\item
+  perform a query to the \texttt{JSON} database (C) to get indices, based on
+\item
+  multiple descriptors (color, brightness, smoothness, blobiness, etc.),
+\item
+  visualize the queries for live editing with the \texttt{sh\ display} program
+\end{itemize}
+
+Both input query and its results are stored on \texttt{JSON} files for later use.
+
+
+
+
+\subsection{Dependencies}
+
+
+\subsubsection{Externals}
+
+I have not included binaries within this repo, but you can download the following externals:
+
+Available via \texttt{deken}:
+
+\begin{itemize}
+\tightlist
+\item
+  Gem
+\item
+  pix\_opencv
+\item
+  purest\_json
+\item
+  ggee
+\item
+  timbreID
+\item
+  zexy/repack
+\end{itemize}
+
+Available via github:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://github.com/fdch/fd_lib}{fd\_lib} for {[}iterate{]}, {[}counter{]}
+\end{itemize}
+
+
+\subsubsection{Abstractions}
+
+In the \texttt{bin/lib} directory there are some abstractions made for this repo (prepended with a \texttt{\_}. I also have included these together with some other abstractions as well in the \texttt{pdbin} directory that are taken from \href{https://github.com/fdch/fd_lib}{fd\_lib} and other places. \texttt{pdbin} might not be necessary if you have already installed all the external libraries mentioned above. NOTE: the \texttt{pdbin} directory is not necessary to load the patches, it is just placed there for convenience. Just declare it with \texttt{{[}declare\ -path\ ../pdbin{]}} if you need to use it.
+
+
+%------------------------------------------------------------------------------
+%
+%	END part*: Appendix
 %
 %------------------------------------------------------------------------------
 {

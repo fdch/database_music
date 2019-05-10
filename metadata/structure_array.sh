@@ -48,4 +48,5 @@ STRUCT=(
 "section" content/part-3/section-7/sub/anarchy.tex "Anarchy And The Unwork" 1704
 "section" content/part-3/section-7/sub/worker.tex "[Wip] Work In Progress" 347
 "part*" content/part-4/abstract.tex "Afterword" 845
+"part*" content/part-5/abstract.tex "Appendix" 845
 )
