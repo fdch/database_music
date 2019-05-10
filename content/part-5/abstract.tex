@@ -93,7 +93,7 @@ The program \texttt{sorter.sh} has only one function named \texttt{sort\_it()}, 
 The purpose of this section is to obtain a sound database based on the analyzed images. It uses the color clusters for this purpose. Since it is a rather large process, this section is broken down in three steps:
 
 
-\subsubsection*{Get color words}
+\subsubsection*{1. Get color words}
 
 \texttt{python\ src/colors.py}
 
@@ -112,7 +112,7 @@ This script gets English names of the clustered colors in the \gls{json} data ba
 \end{itemize}
 
 
-\paragraph{5.2. Get color sounds:}
+\subsubsection*{2. Get color sounds:}
 
 The file \texttt{./data/colorwords.json} is then used to query \href{https://freesound.org}{Freesound} and download sounds related to all \texttt{words} and \texttt{name}s using:
 
@@ -121,7 +121,7 @@ The file \texttt{./data/colorwords.json} is then used to query \href{https://fre
 NOTE: some colors may not result in words that have a related sound to them.
 
 
-\paragraph{5.3. Concatenate sounds:}
+\subsubsection*{3. Concatenate sounds:}
 
 Concatenate color sounds into same files and name the file with the image id:
 
@@ -132,7 +132,7 @@ This script runs \texttt{ffprobe} to ignore files that might not be audio, or th
 
 
 
-\subsubsection*{6. Analyze Sounds}
+\subsection*{Analyze Sounds}
 
 \texttt{sh\ analyze\_sounds.sh}
 
@@ -178,7 +178,7 @@ The default analysis window size is 4096, so in one second of file at 44100, you
 
 
 
-\subsubsection*{7. Live Query}
+\subsection*{7. Live Query}
 
 This enables you to perform live queries to both images and audio simultaneously, using the same query parameters and a matching matrix.
 
@@ -225,10 +225,10 @@ kontrastedness & Irregularity\tabularnewline
 (*) Not used in the audio query
 
 
-\subsection*{Extra}
+\section*{Extra}
 
 
-\subsubsection*{Reader / Visualizer}
+\subsection*{Reader / Visualizer}
 
 \begin{verbatim}
 cd bin
@@ -240,7 +240,7 @@ This patch can be used to visualize the \gls{json} data files (B)
 
 
 
-\subsubsection*{Image Query (non-realtime)}
+\subsection*{Image Query (non-realtime)}
 
 \begin{verbatim}
 cd bin
@@ -266,10 +266,10 @@ Both input query and its results are stored on \gls{json} files for later use.
 
 
 
-\subsection*{Dependencies}
+\section*{Dependencies}
 
 
-\subsubsection*{Externals}
+\subsection*{Externals}
 
 I have not included binaries within this repo, but you can download the following externals:
 
@@ -300,7 +300,7 @@ Available via github:
 \end{itemize}
 
 
-\subsubsection*{Abstractions}
+\subsection*{Abstractions}
 
 In the \texttt{bin/lib} directory there are some abstractions made for this repo (prepended with a \texttt{\_}. I also have included these together with some other abstractions as well in the \texttt{pdbin} directory that are taken from \href{https://github.com/fdch/fd_lib}{fd\_lib} and other places. \texttt{pdbin} might not be necessary if you have already installed all the external libraries mentioned above. NOTE: the \texttt{pdbin} directory is not necessary to load the patches, it is just placed there for convenience. Just declare it with \texttt{{[}declare\ -path\ ../pdbin{]}} if you need to use it.
 
