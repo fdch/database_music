@@ -2875,7 +2875,7 @@ Descriptor & Brief explanation & Structure
 
 \subsection{Sorter}
 
-The program \texttt{sorter.sh} has only one function named \texttt{sort\_it()}, which takes a variable number of arguments. The arguments are the field (columns) of a given text file with which to sort the text file. Thus, it enables you to sort the entries file (A) based on any given field, as well as with pairs or sets of fields. It outputs the sorted files into a file with the same name of the original, appended with the \texttt{-sorted.txt} flag to the name. Each line of the \texttt{-sorted.txt} file contains the sorted indices of each image filename. This is useful to load within Pure Data as a text file for use with the live querying system, as an alternative way to generate image sequences besides the query results.
+The program \texttt{sorter.sh} has only one function named \texttt{sort\_it()}, which takes a variable number of arguments. The arguments are the field (columns) of a given text file with which to sort the text file. Thus, it enables you to sort the entries file \textbf{A} (\texttt{<entries_file>}) based on any given field, as well as with pairs or sets of fields. It outputs the sorted files into a file with the same name of the original, appended with the \texttt{-sorted.txt} flag to the name. Each line of the \texttt{-sorted.txt} file contains the sorted indices of each image filename. This is useful to load within Pure Data as a text file for use with the live querying system, as an alternative way to generate image sequences besides the query results.
 
 
 
@@ -2888,9 +2888,7 @@ The purpose of this section is to obtain a sound database based on the analyzed 
 
 \texttt{python\ src/colors.py}
 
-First, this script places all data objects (B) inside an array of objects in one \gls{json} object (C) (Concatenates \gls{json} files into one)
-
-This script gets English names of the clustered colors in the \gls{json} data base (C), and outputs a file \texttt{./data/colorwords.json} containing one entry per unique color. The structure is like this: \texttt{name}, \texttt{idlist}, and \texttt{words}.
+First, this script places all data objects \textbf{B} inside an array of objects in one \gls{json} object \textbf{C} (\texttt{<image_data_file>}). Thus, it concatenates a series of \gls{json} files into one. Then, this script gets English names of the clustered colors in the \gls{json} data base \textbf{C}, and outputs a file (\texttt{<color_words_file>}) containing one entry per unique color. The structure is like this: \texttt{name}, \texttt{idlist}, and \texttt{words} (See Table \ref{tab:colorwords}).
 
 \begin{table}
 \begin{tabular}{l | l}
@@ -2911,7 +2909,7 @@ Key     & Value
 \tabularnewline
 \hline
 
-\texttt{words}   & nouns related to such color after querying Datamuse, e.g. `sky,' `eyes,' etc.\footnote{\url{https://datamuse.com}} 
+\texttt{words}   & nouns related to such color after querying datamuse.com, e.g. `sky,' `eyes,' etc. 
 
 \end{tabular}
 \label{tab:colorwords}
@@ -2919,111 +2917,86 @@ Key     & Value
 \end{table}
 
 
-\subsubsection{Get color sounds:}
+\subsubsection{Get color sounds}
 
-The file \texttt{./data/colorwords.json} is then used to query \href{https://freesound.org}{Freesound} and download sounds related to all \texttt{words} and \texttt{name}s using:
-
-\texttt{python\ src/fs\_download.oy}
-
-NOTE: some colors may not result in words that have a related sound to them.
+The \texttt{<color_words_file>} file is then used to query \gls{freesound} and download sounds related to all \texttt{words} and \texttt{name}s using the python script: \texttt{fs\_download.py}. NOTE: Some colors may not result in words that have a related sound to them.
 
 
-\subsubsection{Concatenate sounds:}
+\subsubsection{Concatenate sounds}
 
-Concatenate color sounds into same files and name the file with the image id:
-
-\texttt{python\ src/concat\_sounds.py}
-
-This script runs \texttt{ffprobe} to ignore files that might not be audio, or that might be malformed. It then runs \texttt{ffmpeg} to concatenate all the audio related to a color name into a file named with that same color name.
-
-
+The script \texttt{concat\_sounds.py} concatenates all downloaded sounds sounds into single files named after their respective colors. This script runs \texttt{ffprobe} to ignore files that might not be audio, or that might be malformed. It then runs \texttt{ffmpeg} to concatenate all the audio related to a color name into a file named with that same color name.
 
 
 \subsection{Analyze Sounds}
 
-\texttt{sh\ analyze\_sounds.sh}
-
-This script runs the \texttt{analyze\_sounds.pd} file in batch mode. It analyzes sounds in a given directory, and places all \texttt{*.timid} files in a second directory. Optionally, you can analyze only one file by index into the directory with a 3rd argument.
-
-By default, the analysis is outputted both in \texttt{*.timid} and in \texttt{*.json} (using \texttt{timid2json.py}), and it concatenates all \gls{json} files into one database.
 
 
-\paragraph{Instance Structure}
+The script \texttt{analyze\_sounds.sh} runs the \texttt{analyze\_sounds.pd} patch in batch mode. It analyzes sounds in a source directory, and places all \texttt{*.timid} files in a target directory. It takes two arguments: a source and a target directory. Optionally, you can analyze only one file by passing an index into the source directory with a 3rd argument. By default, the analysis is outputted both in \texttt{*.timid} and in \texttt{*.json} (using a custom converter found in \texttt{timid2json.py}), and it concatenates all \gls{json} files into one database (\texttt{<audio_data_file>})
 
-The first nine features are single-valued, so one float each. The last two features default to 50 values each, representing the bins of the bark scale with a filterbank spaced at 0.5. You can edit this and other parameters on the parameters file (open \texttt{analyze\_sounds.pd} to do this). The instance length would change accordingly. The output analysis file is one per each audio file, with the following instance structure:
+
+\subsubsection{Instance Structure}
+
+The first nine features are single-valued, so one float each. The last two features default to 50 values each, representing the bins of the bark scale with a filterbank spaced at 0.5. You can edit this and other parameters on the parameters file (open \texttt{analyze\_sounds.pd} to do this). The instance length would change accordingly. The output analysis file is one per each audio file, with the following instance structure:\footnote{All of these features come from \obj{timbreID}, so their longer explanation I leave to their respective helpfiles.}
 
 \begin{enumerate}
-  \singlespacing
-\tightlist
-\item
-  barkSpecSlope
-\item
-  barkSpecKurtosis
-\item
-  barkSpecSkewness
-\item
-  barkSpecBrightness
-\item
-  barkSpecFlatness
-\item
-  barkSpecRolloff
-\item
-  barkSpecCentroid
-\item
-  barkSpecSpread
-\item
-  barkSpecIrregularity
-\item
-  bfcc
-\item
-  barkSpec (used for all of the above, internal window size is 512)
+\singlespacing
+\item barkSpecSlope
+\item barkSpecKurtosis
+\item barkSpecSkewness
+\item barkSpecBrightness
+\item barkSpecFlatness
+\item barkSpecRolloff
+\item barkSpecCentroid
+\item barkSpecSpread
+\item barkSpecIrregularity
+\item bfcc (bark frequency cepstral coefficients)
+\item barkSpec (used for all of the above, internal window size is 512)
 \end{enumerate}
-
-(see help files for \href{https://github.com/wbrent/timbreID}{timbreID})
 
 The default analysis window size is 4096, so in one second of file at 44100, you will have around 10 instances, which is ok for many purposes, but you can change this. On the one hand, you can specify overlaps (default 1, no overlap). On the other, you can define an analysis average factor \textbf{f} (default 8). This factor is used to average several smaller sized analysis into one. To do this, we simply take the mean of \textbf{f} consecutive analysis frames within the larger analysis window size.
 
-
-
 \subsection{Live Query}
 
-This enables you to perform live queries to both images and audio simultaneously, using the same query parameters and a matching matrix.
+This enables you to perform live queries to both images and audio simultaneously, using the same query parameters and a matching matrix (See Table \ref{tab:matching}).
 
 
-\paragraph{Instructions to open this patch:}
+\subsubsection{Instructions}
 
-Run on three separate terminals:
+To open this patch, run the following on four separate terminals:
 
 \begin{enumerate}
-\item \texttt{sh\ audio} (for the sounds)
-\item \texttt{sh\ display} (for the images)
-\item \texttt{python\ src/live\_query.py\ ./txt/images-entries.txt\ ./data/images-data.json\ ./data/audio-data.json\ ./data/colorwords.json\ 5011\ localhost} (the live database)
-\item \texttt{open live\_query.pd} (the live querying system)
+\item \texttt{bash audio} (for sound playback)
+\item \texttt{bash display} (for image display)
+\item \texttt{python src/live\_query.py <entries_file> <image_data_file> <audio_data_file> <color_words_file> <port number> <host name>} (for the live database to load)
+\item \texttt{pd live\_query.pd} (for the live querying system interface)
 \end{enumerate}
 
 
-\paragraph{Matching matrix}
 
-\begin{longtable}[]{@{}ll@{}}
-\toprule
-Image Feature & Audio Feature\tabularnewline
-\midrule
-\endhead
-thres\_\{R,G,B\} & audio database\tabularnewline
-thres\_C & audio database\tabularnewline
-\{bodies, faces\} & Kurtosis\tabularnewline
-\{bodies, faces\}{[}size{]} & Skewness\tabularnewline
-brightness & Slope\tabularnewline
-smoothness* & grain size (for concatenation)\tabularnewline
-cutness* & grain size (for concatenation)\tabularnewline
-blobiness & Brightness, Flatness, Rolloff\tabularnewline
-skewness* & grain location (for spatialization)\tabularnewline
-boundedness & Centroid, Spread\tabularnewline
-kontrastedness & Irregularity\tabularnewline
-\bottomrule
-\end{longtable}
+\begin{table}
+\begin{tabular}
+Image Feature & Audio Feature Equivalency\tabularnewline\hline
+thres\_\{R,G,B\} & audio database\tabularnewline\hline
+thres\_C & audio database\tabularnewline\hline
+\{bodies, faces\} & Kurtosis\tabularnewline\hline
+\{bodies, faces\}{[}size{]} & Skewness\tabularnewline\hline
+brightness & Slope\tabularnewline\hline
+smoothness & grain size (for concatenation)\tabularnewline\hline
+cutness & grain size (for concatenation)\tabularnewline\hline
+blobiness & Brightness, Flatness, Rolloff\tabularnewline\hline
+skewness & grain location (for spatialization)\tabularnewline\hline
+boundedness & Centroid, Spread\tabularnewline\hline
+kontrastedness & Irregularity\tabularnewline\hline
+\end{tabular}
+\label{tab:matching}
+\caption{Matching Matrix: image and sound descriptor equivalencies.}
+\end{table}
 
-(*) Not used in the audio query
+
+
+
+
+
 
 
 \section{Extra}
@@ -3036,7 +3009,7 @@ cd bin
 pd reader.pd
 \end{verbatim}
 
-This patch can be used to visualize the \gls{json} data files (B)
+This patch can be used to visualize the \gls{json} data files \textbf{B}
 
 
 
@@ -3048,19 +3021,11 @@ cd bin
 pd query.pd
 \end{verbatim}
 
-NOTE: This patch is a gui for \texttt{src/query.py}.
-
-This patch can be used to:
+This patch is a gui for \texttt{src/query.py} and can be used to:
 
 \begin{itemize}
-  \singlespacing
-\tightlist
-\item
-  perform a query to the \gls{json} database (C) to get indices, based on
-\item
-  multiple descriptors (color, brightness, smoothness, blobiness, etc.),
-\item
-  visualize the queries for live editing with the \texttt{sh\ display} program
+\item perform a query to the \gls{json} database \textbf{C} to get indices, based on multiple descriptors (color, brightness, smoothness, blobiness, etc.),
+\item visualize the queries for live editing with the \texttt{display} program
 \end{itemize}
 
 Both input query and its results are stored on \gls{json} files for later use.
