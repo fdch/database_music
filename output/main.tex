@@ -2709,63 +2709,58 @@ The program \texttt{analyze.sh} contains a single function \texttt{analyze()}  w
 
 The core of this program is the Pure Data file \texttt{analyze.pd}, which is run in batch mode, analyzing the specified images, and returning one \gls{json} file per analyzed image. Optionally, you can define a \gls{roi} by opening the \texttt{roi.pd} patch, then adjusting your desired \gls{roi}, and finally setting the \gls{roi} flag to \texttt{1} before running the command line program.
 
-The output of this program is in two types: an entry file (A) and a data file (B)
-
-\subsubsection*{3.A: Entry file} 
-This entry file is a plain text file that contains one entry per image file holding the following data:
+The output of this program is in two types: an entry file \textbf{A} (See Table \ref{tab:textdatafiles}) and a data file \textbf{B} (See Table \ref{tab:jsondatafiles})
 
 
 \begin{table}
-\begin{tabular}{ l | l }
+\begin{tabular}{ l | l | l }
 
-Descriptor   & Brief explanation
-
-\tabularnewline
-\hline
-
-brightness   & variance of the image histogram
+Field & Descriptor  & Brief explanation
 
 \tabularnewline
 \hline
 
-bodies       & number of bodies found (haarcascades)
+1 & brightness   & variance of the image histogram
 
 \tabularnewline
 \hline
 
-faces        & number of faces found (haarcascades)
+2 & bodies       & number of bodies found (haarcascades)
 
 \tabularnewline
 \hline
 
-cvblobs      & number of cvblobs found
+3 & faces        & number of faces found (haarcascades)
 
 \tabularnewline
 \hline
 
-lines        & number of hough lines found
+4 & cvblobs      & number of cvblobs found
 
 \tabularnewline
 \hline
 
-circles      & number of hough circles found
+5 & lines        & number of hough lines found
 
 \tabularnewline
 \hline
 
-keypoints    & number of keypoints (corners) found
+6 & circles      & number of hough circles found
+
+\tabularnewline
+\hline
+
+7 & keypoints    & number of keypoints (corners) found
 
 
 \end{tabular}
+\caption{Description of the `entries' text file. This file is a plain text file that contains one entry (rows) per image file holding the data described above, one value per field (columns)}
+\label{tab:textdatafiles}
 \end{table}
 
 
-\subsubsection*{3.B: Data files}
-
-These files are \gls{json} files containing one object per image file holding the actual data. This data is structured as follows:
-
 \begin{table}
-\begin{tabular}{ l | p{8cm} |   p{3cm} }
+\begin{tabular}{ l | p{6cm} |   p{6cm} }
 
 Descriptor & Brief explanation & Structure
 
@@ -2836,16 +2831,22 @@ Descriptor & Brief explanation & Structure
 
 \texttt{lines}      & the array of lines found on the image \
 & 
-\texttt{r} (length), 
-\texttt{y}, 
-\texttt{x}, 
+\texttt{y1}, 
+\texttt{x1},
+\texttt{y2}, 
+\texttt{x2}, 
+\texttt{d} (length of line), 
 \texttt{id}
 
 \tabularnewline
 \hline
 
 \texttt{circles}    & the array of circles found on the image \
-& (same as \texttt{lines})
+&
+\texttt{r} (radius), 
+\texttt{y}, 
+\texttt{x}, 
+\texttt{id}
 
 \tabularnewline
 \hline
@@ -2856,9 +2857,123 @@ Descriptor & Brief explanation & Structure
 \texttt{x}, 
 \texttt{id} 
 
+\texttt{id}  & the index number of the image file name \
+& one value
+
 
 \end{tabular}
+\caption{Description of the \gls{json} data files. These files are \gls{json} files containing one object per image file holding the data mentioned above. }
+\label{tab:jsondatafiles}
 \end{table}
+
+\begin{flushleft}
+\footnotesize
+\begin{lstlisting}[caption="JSON data file",captionpos=b,language=JavaScript]
+{
+    "mean_col": [
+        {
+            "pct": 0.4625000059604645
+            "b": 0.018653959035873413, 
+            "g": 0.064069963991642, 
+            "r": 0.1372019499540329, 
+        }, 
+        ...
+    ], 
+    
+    "histo": [
+        0.07013537734746933, 
+        0.0708722397685051, 
+        ...
+    ], 
+    
+    "bodies": [
+        {
+            "r": 25, 
+            "y": 133, 
+            "x": 30, 
+            "id": 0
+        },
+        ...
+    ],     
+    
+    "faces": [
+        {
+            "r": 36, 
+            "y": 103, 
+            "x": 143, 
+            "id": 0
+        },
+        ...
+    ], 
+    
+    "blobcount": 10,
+    
+    "blobpoints": 164, 
+
+    "cvblob": [
+        {
+            "Ycentroid": 0.8846251964569092, 
+            "Xcentroid": 0.06873874366283417, 
+            "length": 78.03446197509766, 
+            "points": 13, 
+            "corners": [
+                0.07812497764825821, 
+                0.9339621663093567, 
+                ...
+            ], 
+            "area": 0.0015919811557978392, 
+            "angle": -70.01689910888672, 
+            "Ysize": 0.055210843682289124, 
+            "Xsize": 0.06140695884823799, 
+            "Ycenter": 0.8809735774993896
+            "Xcenter": 0.07143017649650574, 
+            "id": 0, 
+        }, 
+        ...
+    ], 
+
+    "lines": [
+        {
+            "y1": 217, 
+            "x1": 0, 
+            "y2": 217, 
+            "x2": 319, 
+            "d": 385.810791015625, 
+            "id": 0
+        }, 
+        ...
+    ], 
+
+    "circles": [
+        {
+            "r": 70, 
+            "y": 125, 
+            "x": 125, 
+            "id": 0
+        }, 
+        ...
+
+    ], 
+
+    "keypoints": [
+        {
+            "y": 161, 
+            "x": 151, 
+            "id": 0
+        }, 
+        ...
+    ], 
+    
+    "id": 0, 
+}
+
+
+\end{lstlisting}
+\end{flushleft}
+
+
+
+
 
 
 
@@ -2890,17 +3005,17 @@ Key     & Value
 \hline
 
 
-name    & English name of the color, e.g. `blue'
+\texttt{name}    & English name of the color, e.g. `blue'
 
 \tabularnewline
 \hline
 
-idlist  & all the image ids that have that color
+\texttt{idlist}  & all the image ids that have that color
 
 \tabularnewline
 \hline
 
-words   & nouns related to such color after querying Datamuse, e.g. `sky,' `eyes,' etc.\footnote{\url{https://datamuse.com}} 
+\texttt{words}   & nouns related to such color after querying Datamuse, e.g. `sky,' `eyes,' etc.\footnote{\url{https://datamuse.com}} 
 
 \end{tabular}
 \end{table}
