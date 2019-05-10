@@ -324,10 +324,22 @@ To open this patch, run the following on four separate terminals:
 \singlespacing
 \item \texttt{bash} \texttt{audio} (for sound playback)
 \item \texttt{bash} \texttt{display} (for image display)
-\item \texttt{python} \texttt{live\_query.py} \texttt{<entries\_file>} \texttt{<image\_data\_file>} \texttt{<audio\_data\_file>} \texttt{<color\_words\_file>} \texttt{<port number>} \texttt{<host name>} (for the live database to load)
+\item \texttt{python} \texttt{live\_query.py} \texttt{<arguments>} (for the live database to load)
 \item \texttt{pd live\_query.pd} (for the live querying system interface)
 \end{enumerate}
 
+The arguments for the \texttt{live\_query.py} script are:
+
+\begin{enumerate}
+  \footnotesize
+\singlespacing
+  \item \texttt{<entries\_file>} 
+  \item \texttt{<image\_data\_file>} 
+  \item \texttt{<audio\_data\_file>} 
+  \item \texttt{<color\_words\_file>} 
+  \item \texttt{<port number>} [default: \texttt{5011}]
+  \item \texttt{<host name>} [default: \texttt{localhost}]
+\end{enumerate}
 
 
 \begin{table}
