@@ -75,6 +75,7 @@ packages=(
 	"setspace"	 ""
 	"ulem" 		 "normalem"
 	"cancel"	 ""
+	# "tocflat"	 "tocstyle"
 )
 
 backmatter=(

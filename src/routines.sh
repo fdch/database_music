@@ -155,7 +155,7 @@ function make_copyright()
 	printf "\t%s\n" "\addtocontents{toc}{\protect\thispagestyle{empty}}"
 	printf "\t%s\n" "\pagenumbering{gobble}"
 	printf "\t%s\n" "\setlength{\parskip}{0pt}"
-	printf "\t%s\n" "Copyright \copyright{} $AUTHOR\par"
+	printf "\t%s\n" "\copyright{} $AUTHOR\par"
 	printf "\t%s\n" "$COPYRIGHT"
 	printf "%s\n" "\end{center}"
 	printf "%s\n" "\newpage"
@@ -214,7 +214,14 @@ function make_tocs()
 {
 	write_comment "TABLE OF CONTENTS"
 	
+	printf "\t%s\n" "\newpage"
+	printf "\t%s\n" "\pagenumbering{roman}"
+	printf "\t%s\n" "\setcounter{page}{10}"
+	printf "\t%s\n" "\thispagestyle{plain}"
+
 	printf "%s\n" "\tableofcontents"
+	
+	printf "\t%s\n" "\thispagestyle{plain}"
 	
 	# https://tex.stackexchange.com/questions/48509/insert-list-of-figures-in-the-table-of-contents
 	write_comment "LIST OF FIGURES"

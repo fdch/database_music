@@ -291,7 +291,7 @@
 	\addtocontents{toc}{\protect\thispagestyle{empty}}
 	\pagenumbering{gobble}
 	\setlength{\parskip}{0pt}
-	Copyright \copyright{} Federico Nicolás Cámara Halac\par
+	\copyright{} Federico Nicolás Cámara Halac\par
 	All Rights Reserved, 2019
 \end{center}
 \newpage
@@ -403,7 +403,12 @@ As an appendix, I present an open-source library for making and performing a mul
 %	TABLE OF CONTENTS
 %
 %------------------------------------------------------------------------------
+	\newpage
+	\pagenumbering{roman}
+	\setcounter{page}{10}
+	\thispagestyle{plain}
 \tableofcontents
+	\thispagestyle{plain}
 
 %------------------------------------------------------------------------------
 %
