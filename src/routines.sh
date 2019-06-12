@@ -151,9 +151,6 @@ function make_copyright()
 {
 	write_comment "COPYRIGHT PAGE"
 	printf "%s\n" "\begin{center}"
-	printf "\t%s\n" "\thispagestyle{empty}"
-	printf "\t%s\n" "\addtocontents{toc}{\protect\thispagestyle{empty}}"
-	printf "\t%s\n" "\pagenumbering{gobble}"
 	printf "\t%s\n" "\setlength{\parskip}{0pt}"
 	printf "\t%s\n" "\copyright{} $AUTHOR\par"
 	printf "\t%s\n" "$COPYRIGHT"
@@ -165,8 +162,6 @@ function make_copyright()
 function make_page()
 {
 	write_comment "$1 PAGE"
-	printf "%s\n" "\thispagestyle{empty}"
-	printf "%s\n" "\addtocontents{toc}{\protect\thispagestyle{empty}}"
 	printf "%s\n" "$2"
 	printf "%s\n" "\newpage"
 }
@@ -180,7 +175,10 @@ function make_extra()
 
 	write_comment "DEDICATION PAGE"
 	printf "\n%s\n" "\chapter{Dedication}"
+	
+	printf "\n%s\n" "\pagestyle{plain}"
 	printf "%s\n" "\setcounter{page}{4}"
+
 	cat $FMTDIR/dedication.tex 
 	printf "\n%s\n" "\newpage"
 
@@ -214,15 +212,8 @@ function make_tocs()
 {
 	write_comment "TABLE OF CONTENTS"
 	
-	# https://tex.stackexchange.com/questions/495360/adding-page-number-to-table-of-contents?noredirect=1#comment1250549_495360
-	printf "%s\n" "\clearpage"
-	printf "%s\n" "\pagenumbering{gobble}"
-	printf "%s\n" "\pagenumbering{roman}"
-	printf "%s\n" "\setcounter{page}{10}"
 	printf "%s\n" "\tableofcontents"
-	printf "%s\n" "\thispagestyle{plain}"
-	printf "%s\n" "\newpage"
-
+	
 	# https://tex.stackexchange.com/questions/48509/insert-list-of-figures-in-the-table-of-contents
 	write_comment "LIST OF FIGURES"
 
@@ -361,7 +352,9 @@ function make_latex()
 	#
 	#	FRONT MATTER
 	#
+	printf "%s\n" "\pagestyle{empty}" 		>> $m
 	make_frontmatter 						>> $m
+	printf "%s\n" "\pagestyle{plain}" 		>> $m
 	#
 	#	RANDOM \Large COMMAND SO THAT FONT LOOKS NICER...
 	#	LATER: Remove or find a better way to do this

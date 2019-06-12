@@ -73,6 +73,8 @@ packages=(
 	"etoolbox"   ""
 	"setspace"	 ""
 	"cancel"	 ""
+	# Move hyperref to the last, with glossaries after:
+	# https://tex.stackexchange.com/questions/495360/adding-page-number-to-table-of-contents
 	"hyperref"	 "${hyperrefparams}"
 	"glossaries" "${glossariesparams}"
 )
