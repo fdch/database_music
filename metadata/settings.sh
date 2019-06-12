@@ -131,10 +131,6 @@ extrasettings="
 
 \\doublespacing
 
-%	NO HEADINGS, PAGE STYLE AT THE CENTER
-
-\\pagestyle{plain}
-
 %	ADD SPACE BETWEN PAGE NUMBERS AND LAST LINE
 
 \\setlength{\\footskip}{1.5\\baselineskip}
@@ -160,6 +156,7 @@ extrasettings="
 	\\singlespacing}
 \\makeatother
 "
+
 
 # %	MAKE GLOSSARY DUAL ENTRIES WITH ACRONYMS
 
