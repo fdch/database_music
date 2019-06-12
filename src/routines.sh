@@ -214,15 +214,15 @@ function make_tocs()
 {
 	write_comment "TABLE OF CONTENTS"
 	
-	printf "\t%s\n" "\newpage"
-	printf "\t%s\n" "\pagenumbering{roman}"
-	printf "\t%s\n" "\setcounter{page}{10}"
-	printf "\t%s\n" "\thispagestyle{plain}"
-
+	# https://tex.stackexchange.com/questions/495360/adding-page-number-to-table-of-contents?noredirect=1#comment1250549_495360
+	printf "%s\n" "\clearpage"
+	printf "%s\n" "\pagenumbering{gobble}"
+	printf "%s\n" "\pagenumbering{roman}"
+	printf "%s\n" "\setcounter{page}{10}"
 	printf "%s\n" "\tableofcontents"
-	
-	printf "\t%s\n" "\thispagestyle{plain}"
-	
+	printf "%s\n" "\thispagestyle{plain}"
+	printf "%s\n" "\newpage"
+
 	# https://tex.stackexchange.com/questions/48509/insert-list-of-figures-in-the-table-of-contents
 	write_comment "LIST OF FIGURES"
 
