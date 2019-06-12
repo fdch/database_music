@@ -171,12 +171,11 @@ function make_extra()
 {
 	write_comment "BEGIN EXTRAS"
 
-	printf "%s\n" "\pagenumbering{roman}"
+
 
 	write_comment "DEDICATION PAGE"
 	printf "\n%s\n" "\chapter{Dedication}"
 	
-	printf "\n%s\n" "\pagestyle{plain}"
 	printf "%s\n" "\setcounter{page}{4}"
 
 	cat $FMTDIR/dedication.tex 
@@ -199,11 +198,17 @@ function make_extra()
 #	PLACE FRONTMATTER CREATORS IN ONE ROUTINE
 function make_frontmatter()
 {
+	printf "%s\n" "\pagestyle{empty}" 
 	printf "%s\n" "\frontmatter"
+	
 	make_title
 	make_copyright
 	make_page "FRONTISPIECE" "\\centerline{\\includegraphics[width=1\\textwidth]{$FRONTIMG}}"
 	make_page "BLANK" "\\clearpage"
+
+	printf "%s\n" "\pagenumbering{roman}"
+	printf "%s\n" "\pagestyle{plain}"
+	
 	make_extra
 
 }
@@ -352,9 +357,7 @@ function make_latex()
 	#
 	#	FRONT MATTER
 	#
-	printf "%s\n" "\pagestyle{empty}" 		>> $m
 	make_frontmatter 						>> $m
-	printf "%s\n" "\pagestyle{plain}" 		>> $m
 	#
 	#	RANDOM \Large COMMAND SO THAT FONT LOOKS NICER...
 	#	LATER: Remove or find a better way to do this
