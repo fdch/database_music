@@ -55,8 +55,11 @@ biblatexparams="
 packages=(
 	"inputenc"	 "utf8"
 	"fontenc" 	 "T1"
-	"import"     ""
+	"babel"		 "english"
 	"geometry"	 "${geometryparams}"
+	"import"     ""
+	"biblatex"	 "${biblatexparams}"
+	"ulem" 		 "normalem"
 	"xcolor"	 ""
 	"csquotes"	 ""
 	"listings"	 ""
@@ -69,13 +72,9 @@ packages=(
 	"lipsum"	 ""
 	"etoolbox"   ""
 	"setspace"	 ""
-	"ulem" 		 "normalem"
 	"cancel"	 ""
 	"hyperref"	 "${hyperrefparams}"
 	"glossaries" "${glossariesparams}"
-	"babel"		 "english"
-	"biblatex"	 "${biblatexparams}"
-	# "tocflat"	 "tocstyle"
 )
 
 backmatter=(
