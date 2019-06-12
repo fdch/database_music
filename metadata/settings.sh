@@ -58,11 +58,7 @@ packages=(
 	"import"     ""
 	"geometry"	 "${geometryparams}"
 	"xcolor"	 ""
-	"hyperref"	 "${hyperrefparams}"
-	"glossaries" "${glossariesparams}"
-	"babel"		 "english"
 	"csquotes"	 ""
-	"biblatex"	 "${biblatexparams}"
 	"listings"	 ""
 	"$fontface"  ""
 	"lscape"	 ""
@@ -75,6 +71,10 @@ packages=(
 	"setspace"	 ""
 	"ulem" 		 "normalem"
 	"cancel"	 ""
+	"hyperref"	 "${hyperrefparams}"
+	"glossaries" "${glossariesparams}"
+	"babel"		 "english"
+	"biblatex"	 "${biblatexparams}"
 	# "tocflat"	 "tocstyle"
 )
 
