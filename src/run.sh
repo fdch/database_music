@@ -8,7 +8,7 @@ done
 
 #	LOAD ROUTINES
 source $SRCDIR/routines.sh
-
+WEBNOTE="NOTE: The website version (html) does not display correctly: acronyms; glossary entries; some inline references (which might look weird); and the transcribed text score. Please, open/download the .pdf to see how these things actually look like :)"
 #	ARGUMENT CHECK
 function _main_()
 {
@@ -71,6 +71,13 @@ function _main_()
 		fi
 		pdflatex $LATEXFLAGS ${NAME}.tex
 		open ${NAME}.pdf
+	elif [[ $a == "--paper" ]]
+	then
+		make_bib "${PNAME}" "${PAPERBIB}"
+		make_paper
+		compile_paper
+		tidy_up "${PNAME}"
+		open "output/${PNAME}.pdf"
 	else
 		wrong_args
 	fi

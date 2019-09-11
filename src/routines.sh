@@ -40,20 +40,27 @@ function make_bib()
 {
 	#	MAKE ONE HUGE BIBLIOGRAPHY FILE WITH ALL ENTRIES
 	#	...REPLACING THE PREVIOUS ONE...
+	local bib_file=${MAINBIB}
+	local bib_name=${NAME}
+	if [[ $1 ]] && [[ $2 ]]
+	then
+		bib_name=$1
+		bib_file=$2
+	fi
 
-	echo > $MAINBIB
+	echo > $bib_file
 
-	print_comment "make_bib(): Making $MAINBIB..."
-	write_comment "BEGIN: Bibliography"	1			>>	$MAINBIB
+	print_comment "make_bib(): Making '$bib_file' named '$bib_name'"
+	write_comment "BEGIN: Bibliography"	1			>>	$bib_file
 
 	for i in ${BIBPATH}/*
 	do 
-		write_comment "BEGIN: $i"	1				>>	$MAINBIB
-		cat $i 										>>	$MAINBIB 
-		write_comment "END: $i"						>>	$MAINBIB
+		write_comment "BEGIN: $i"	1				>>	$bib_file
+		cat $i 										>>	$bib_file 
+		write_comment "END: $i"						>>	$bib_file
 
 	done
-	pandoc-citeproc -j $MAINBIB > $BIBTIME/${NAME}.json
+	pandoc-citeproc -j $bib_file > $BIBTIME/${bib_name}.json
 }
 
 function make_preamble()
@@ -104,8 +111,12 @@ function make_preamble()
 	#	BIBLIOGRAPHY
 	#
 	write_comment "Bibliography (bitlatex-biber)"
-	printf "%s\n" "\addbibresource{$MAINBIB}"
-
+	if [[ $1 ]]
+	then
+		printf "%s\n" "\addbibresource{$1}"
+	else
+		printf "%s\n" "\addbibresource{$MAINBIB}"
+	fi
 	write_comment "APA style with ibid (apa-ibid.tex)"
 	# printf "%s\n" "\import{$STLDIR/apa-ibid.tex}"
 	cat $STLDIR/apa-ibid.tex
@@ -274,8 +285,11 @@ function make_from_arrays()
 			#	IT IS NO LONGER THE ABSTRACT SECTION, PRINT LABELS
 			if [[ $printmainmatter == 0 ]]
 			then
-				# make the table of contents first
-				make_tocs
+				if [[ $TABLE_DISABLE == 0 ]]
+				then
+					# make the table of contents first
+					make_tocs
+				fi
 				printf "%s\n" "\mainmatter"
 				printf "%s\n" "\pagenumbering{arabic}"
 				printmainmatter=1
@@ -340,6 +354,7 @@ function make_backmatter()
 function make_latex()
 {
 	local m=$MAINTEX
+	TABLE_DISABLE=0
 	print_comment "make_latex(): Making $m..."
 	#
 	#	REPLACE OLD FILE AND BEGIN
@@ -384,7 +399,8 @@ function make_latex()
 
 	printf "%s\n" "\end{document}"			>> $m
 }
-#	COMPILE IT
+
+#	COMPILE main Latex file
 function compile_latex()
 {
 	local m=$MAINTEX
@@ -405,6 +421,47 @@ function compile_latex()
 	print_comment "compile_latex(): pdflatex"
 	pdflatex $LATEXFLAGS "$m"
 }
+
+#	MAKE PAPER FROM SUBSECTION
+function make_paper()
+{
+	local m=${PAPERTEX}
+	TABLE_DISABLE=1
+	print_comment "make_paper(): Making $m..."
+	write_comment "BEGIN: Paper root"		>  $m
+	make_preamble "${PAPERBIB}"				>> $m
+	write_comment "BEGIN: Document"			>> $m
+	printf "%s\n" "\begin{document}" 		>> $m
+	# make_frontmatter 						>> $m
+	make_from_arrays "${STRUCT[@]:((17*4)):((20))}"	>> $m
+	make_backmatter							>> $m
+	printf "%s\n" "\end{document}"			>> $m
+}
+
+#	COMPILE PAPER
+function compile_paper()
+{
+	local m=${PAPERTEX}
+
+	print_comment "compile_paper(): Compiling $m..."
+	#	MAKE FIRST RUN
+	print_comment "compile_paper(): pdflatex"
+	pdflatex $LATEXFLAGS "$m" 				> /tmp/tex-p
+	#	MAKE THE GLOSSARIES
+	print_comment "compile_paper(): makeglossaries"
+	makeglossaries "${PNAME}" 				> /tmp/glo-p
+	#	MAKE THE BIBLIOGRAPHY FOR THE *.AUX FILE
+	print_comment "compile_paper(): biber"	
+	biber "${PNAME}" 						> /tmp/bib-p
+	#	MAKE THE 3RD RUN
+	print_comment "compile_paper(): pdflatex"
+	pdflatex $LATEXFLAGS "$m" 				> /tmp/tex-p
+	#	MAKE THE LAST RUN (VERBOSE)
+	print_comment "compile_paper(): pdflatex"
+	pdflatex $LATEXFLAGS "$m"
+}
+
+
 
 function make_readme()
 {
@@ -487,8 +544,14 @@ function make_docx()
 
 function tidy_up()
 {
-	mv ${ROOTDIR}/${NAME}.{pdf,tex,bib,csv,docx} ${OUTDIR}
-	mv ${ROOTDIR}/${NAME}.* ${TMPDIR}
+	if [[ $1 ]]
+	then
+		mv ${ROOTDIR}/${1}.{pdf,tex,bib,csv,docx} ${OUTDIR}
+		mv ${ROOTDIR}/${1}.* ${TMPDIR}
+	else
+		mv ${ROOTDIR}/${NAME}.{pdf,tex,bib,csv,docx} ${OUTDIR}
+		mv ${ROOTDIR}/${NAME}.* ${TMPDIR}
+	fi
 }
 
 function count_words()

@@ -1,18 +1,30 @@
+
+%------------------------------------------------------------------------------
+%
+%	BEGIN: Paper root
+%
+%------------------------------------------------------------------------------
+
+%------------------------------------------------------------------------------
+%
+%	BEGIN: Preamble
+%
+%------------------------------------------------------------------------------
 \documentclass[
-	% 12pt,
-	% letterpaper,
-	% oneside,
-	% notitlepage
+	12pt,
+	letterpaper,
+	oneside,
+	notitlepage
 ]{book}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[english]{babel}
-% \usepackage[
-	% left=1in,
-	% right=1in,
-	% top=1in,
-	% bottom=1.5in
-% ]{geometry}
+\usepackage[
+	left=1in,
+	right=1in,
+	top=1in,
+	bottom=1.5in
+]{geometry}
 \usepackage{import}
 \usepackage[
 	backend=biber,
@@ -128,7 +140,7 @@
 %	Bibliography (bitlatex-biber)
 %
 %------------------------------------------------------------------------------
-\addbibresource{/Users/federicocamarahalac/Documents/fd_work/text/waves/bin/output/paper_main.bib}
+\addbibresource{main-paper.bib}
 
 %------------------------------------------------------------------------------
 %
@@ -231,15 +243,41 @@
 %
 %------------------------------------------------------------------------------
 \begin{document}
+\mainmatter
+\pagenumbering{arabic}
 
-Since the first computers were used to make music the database has been an invisible partner in music literature. What is this database? Certainly, it is not a single database. I propose to understand the database as the concept of data organization for the purpose of optimizing computer performace. As a structure that lays beneath the surface of software programming, the database has been a focus of silent ---but nonetheless present--- activity in our computer music research comunity. I argue that by shedding some light on this inherent aspect of computers we can arrive at a clearer notion of how a database can sound. The premise is the following: computers cannot exist without databases. Thus, we can ask ourselves if all computer music is not database music.
+%------------------------------------------------------------------------------
+%
+%	BEGIN chapter: Databasing Sound: Applications Of Databases In Sound ----
+%
+%------------------------------------------------------------------------------
+\chapter{Databasing Sound: Applications Of Databases In Sound}
+\label{section-3}
 
- %you might want to include at some point the idea that databases in general are used to teach computers about the world, and to get them to to do things that humans can do, but not computers.
+\glsresetall
+\img{mir_comp_sonif_interaction}{1}{
+	The arrows between databases (cylinders) and computers (squares) represent data flow. Left: the database is `visibly next' to the computer, as is the case with \gls{mir}; the two bottom arrows indicate the intervention of the human operator. Right: the database is `visibly below' the computer as is the case with Sonification; the database feeds the computer from an external source (right arrow). Middle: the database is `invisibly behind' the computer, within the softwares used for (and as) music works. The arrows in between the practices represent interdisciplinary feedback.
+}{Database performance and interdisciplinary feedback.}
 
-There are overt and covert uses of the database, but the database is ubiquitous in all computer practices in general, and in computer music performance in particular. Three practices using computers and sound ---\gls{mir}, sonification, and computer music--- allow us to think database performance in a choreographic way. That is to say, the movement that we as `computer musicians,' as `sonificators,' and as music information `retrievers' (in sum, as databasers), perform in the continuous dance of our practices.
+Having discussed the current state of new media theory and the theory of databases and data structures, in this section I theorize the use of databases in relation to sound. To a certain extent, ever since the first computers were used to make music the database has been an invisible partner in the music literature. I argue that by shedding some light on this inherent aspect of computers we can arrive at a clearer notion of how databases sound. Particularly, by placing the database along a visibility continuum, we may find a reverse relation with audibility: the more invisible the database, the more present its sound. By this I do not argue in favor of either loudness or quietness. I am only addressing the different possibilities that come from multiple access points to computers. Here I will use the words `database' and `computer' somewhat interchangeably. This decision comes from the fact, as I described in earlier sections, that computers cannot exist without databases. From this, we can further ask ourselves if all computer music is database music. 
 
+As I demonstrate, there are overt and covert uses of the database, but the database is ubiquitous in all computer practices. The various disciplines at the intersection of music and computers take each a different approach to databases and, thus, to database performance. In this sense I describe and discuss the scope of actions that comprise database performance within three practices using computers and sound: \gls{mir}, sonification, and computer music. While there may be different ways of representing the position of the database in relation to each practice, I provide a set of figures throught this section that can be used metaphorically to point to the differences with which each practice interacts with databases \fsee{mir_comp_sonif_interaction}. Furthermore, these positions are only fixed within a graph in the form of snapshots. Thus, in no ways I mean to fix a certain position or to priorize one in relation to another. The purpose of these graphs is to describe a motility inherent to database practice that suggests furhter a way of thinking database performance in a choreographic way. By coreography, I mean the movement that we as `computer musicians,' as `sonificators,' and as music information `retrievers' (in sum, as databasers), perform in the continuous dance of our practices. 
+%------------------------------------------------------------------------------
+%
+%	END chapter: Databasing Sound: Applications Of Databases In Sound
+%
+%------------------------------------------------------------------------------
 
-\section{mir}
+%------------------------------------------------------------------------------
+%
+%	BEGIN section: Music Information Retrieval ----
+%
+%------------------------------------------------------------------------------
+\section{Music Information Retrieval}
+\label{mir}
+
+\glsresetall
+%you might want to include at some point the idea that databases in general are used to teach computers about the world, and to get them to to do things that humans can do, but not computers.
 
 In \gls{mir}, the database is \textit{in front} of the programmer, \textit{next} to the computer. This practice combines \gls{ir} with Music Theory, and it has been present in academia for a while, most generally within Electrical Engineering departments. The objective of \gls{mir} is to obtain useful information from the analysis of sound signals. That is, \gls{mir} seeks to represent a complex signal with a small number of data points, thus defining a a navigable `information space,' which is, quite literally, the discretized space of the database.
 
@@ -295,20 +333,26 @@ Before sound and audio descriptor databases, however, music notation databases h
 \end{itemize}
 
 For further reference, the following citations point to different audio databases which have been created over the years: \textcites{DBLP:conf/ismir/GotoHNO02}{DBLP:conf/ismir/GotoHNO03}{DBLP:conf/ismir/WustC04}{DBLP:conf/ismir/MaxwellE08}{DBLP:conf/ismir/Bertin-MahieuxEWL11}{DBLP:conf/ismir/Karaosmanoglu12}{Jaimovich:2012}{Mital:2013}{bbortz:2015}{jjaimovich:2015,Nort2016}{ DBLP:conf/ismir/DefferrardBVB17}{DBLP:conf/ismir/VigliensoniF17}{DBLP:conf/ismir/Meseguer-Brocal18}{DBLP:conf/ismir/DonahueMM18}{DBLP:conf/ismir/XiBPYB18}{DBLP:conf/ismir/WilkinsSWP18}.
+%------------------------------------------------------------------------------
+%
+%	END section: Music Information Retrieval
+%
+%------------------------------------------------------------------------------
 
+%------------------------------------------------------------------------------
+%
+%	BEGIN section: Sonification ----
+%
+%------------------------------------------------------------------------------
+\section{Sonification}
+\label{sonification}
 
-\section{sonification}
-
+\glsresetall
 \img{sonif}{0.3}{
 	The database is visibly below the computer, and it feeds the computer from an external source represented by the right-most arrow.
 }{Diagram of database performance in sonification practices.}
 
-
-
-
 The database is the ground floor of sonification. The sonified data is very likely to be digital,\footnote{There are cases where sonification is entirely analog, such as the first sonification tool ever created: the Geiger counter} which means that data needs to be stored in a structured way for fast access by computers, and the role of the sonifier is to acoustically translate the database's inner relationships \parencite[9]{WalkerNees2011-TOS}.
-
-
 
 According to \textcite{WalkerNees2011-TOS} there are three types of sonification: event-based, model-based, and continuous. I see these types of sonification as ways of performing a database. Continuous sonification (audification) consists of directly translating waveforms of periodic data into sound, that is, reading non-audio data as if it were audio data \parencite[17]{WalkerNees2011-TOS}. Model-based sonification consists of distributing data points in such a way that enables data exploration. Generally, these models are interactive interfaces with which users navigate the database to find relationships \parencite[17]{WalkerNees2011-TOS}. Event-based (parameter mapping) sonification is aimed at representing changes in a database as acoustic saliences or tendencies. In this sense, dimensions of the data need to be translated (mapped) into acoustic parameters (frequency, periodicity, density, etc.), so as to listen how the generated sound behaves over time and interpret these changes within the database \parencite[16]{WalkerNees2011-TOS}.
 
@@ -404,11 +448,21 @@ In his \gls{caddc} environment called \textit{DataPlayer} programmed as a standa
 For further sonification software, see \gls{sondata} and the following references: \textcites{Wil96:Lis}{Pau04:ATo}{Lod98:MUS}{Bei09:Aes}{Her14:Aso}{DBLP:conf/icad/2007/Worral}{DBLP:conf/icad/2003/Walker}{domenico_vicinanza_2006_849321}
 
 
+%------------------------------------------------------------------------------
+%
+%	END section: Sonification
+%
+%------------------------------------------------------------------------------
 
-\section{computer music}
+%------------------------------------------------------------------------------
+%
+%	BEGIN section: Computer Music ----
+%
+%------------------------------------------------------------------------------
+\section{Computer Music}
+\label{computer_music}
 
-
-
+\glsresetall
 Computer music software is computer music's playground. Composing and programming blend into different forms of play that can be understood by a closer look at the playground's design. A key aspect of software design is delimiting constraints to data structures. The first choice is generally the programming language, after which the database tree unfolds its way up to the leaves. Among these leaves is where computer music programs reside. At this level of `leaves' software users are certainly aware that there is a `tree' in front of them. However, their awareness does not necessarily extend to the branches, trunk, or roots of the tree. There is endless music that can be made with leaves just as it can with paper. However, neither music quantity nor music quality are the point here. My argument is that working with data structures changes how we think and perform music making. I claim that composers using these leaves of computer music software are working indirectly with data structures, and unless they engage with programming, they remain unaware of data structures and their constraints. `Indirectly,' because the twigs and branches connect the leaf to the trunk, but these connections become invisible to the non-programmer composer \textit{by design}. Like a phantom limb of the tree, the database remains invisibly \textit{behind}. In this section, I present different approaches from composers and programmers that show how music concepts change with the presence and performance of the database. By database performance I mean neither the quality of musical output, nor the dexterity of the programming activity. Database performance in music composition is the activity of the databaser: databasing to make music.
 
 \img{comp}{0.2}{
@@ -536,7 +590,26 @@ In the same \gls{icmc} 1997 where Pure Data was presented, two object-oriented l
 
 Both \gls{rtcmix} and SuperCollider meant a step forward towards networked musical environments that have resulted in recent forms of music making such as laptop orchestras and live coding, along with new music software such as ChucK \parencite{DBLP:conf/icmc/WangC03}. The literature on computer music software for composition alone would extend beyond the scope of this dissertation. For further reference in other sound synthesis data structures, see: the Diphone synthesis program \parencites{DBLP:conf/icmc/RodetDP88}{Rodet1989}{DBLP:conf/icmc/DepalleRGE93}{DBLP:conf/icmc/RodetL96}{DBLP:conf/icmc/RodetL97}; the Otkinshi system \parencite{icmc/bbp2372.2002.039}. For an overview of existing audio software up to 2004, see Xamat's PhD Dissertation \parencite[Chapter~2]{Amatriain/2004/phdthesis}. See also the Integra project \parencites{Bullock2009}{Bullock2011}, and Ariza's work on python's data structures \parencite{Ari05:Ano}. %, and Rowe's work on interactive music systems \parencite{Row92:Int, Row01:Mac}
 
-\section{intersections}
+
+
+
+
+
+%------------------------------------------------------------------------------
+%
+%	END section: Computer Music
+%
+%------------------------------------------------------------------------------
+
+%------------------------------------------------------------------------------
+%
+%	BEGIN section: Intersections ----
+%
+%------------------------------------------------------------------------------
+\section{Intersections}
+\label{applications}
+
+\glsresetall
 The computer music software race that took place at the level of data structures has moved from music to media in an attempt to generalize applicability by maximizing stylistic potentials. To a certain extent, this motion can be understood as an axis between sound and music data structures. On one hand there is music tradition with its notational baggage. On the other, sound synthesis and programming, with its multi-stylistic promise grounded on the more general use of media. In any case, the shape that this motion takes is given by the composer-programmer's needs, ideas, and implementations. The computer music scene today builds on these struggles, and continues to propose novel approaches that reconfigure the practice.
 
 In this section, I provide a glimpse of the many shapes that this reconfiguration has taken. I focus on artistic ventures, program extensions, and innovative research that has appeared under four main aspects of database performance: corpus-based approaches, querying methods, traversing methods, and resource sharing. These examples point only to some moments in which data structure design changed computer music.
@@ -612,17 +685,11 @@ The many shapes that database performance has taken over the years can be approa
 
 The simplicity of this diagram is intentional, to avoid any attempt to quantize the actual value that the database represents in the plurality of shapes that I have discussed. There is no percentage that can be drawn from how visible a database can be. Therefore, when practices begin to intersect, as I have shown here, the visibility of the database can thus be understood as in constant motion along these axes. Database performance, in this sense, provides a key to understand the motion of this intersection. Furthermore, there is one dimension not contemplated within this diagram: time. The intersections referenced here are always moving in time, which indicates that the diagram that I have shown here is but one frame in the movement of this database choreography. At each point in time the databaser can pause for a second, analyze the frame, and perhaps describe the motion that the database has taken thus far, and the position that it occupies at that point. And further, perhaps the database occupies two positions at once. The dimensionality reduction carried out when graphing the position of the database should not misguide the reader into thinking that the database is fixed, or that it may have only one position. Quite the contrary, the database is in constant motion and incessant fluidity, and databasers engage in a form of dance that sometimes brings the database to a certain visibility, and other times might veil it beyond layers of code. In any case, this description has been my task until now, and it is safe to say that we have glanced at the database dance. In what follows, I will change the focus and approach the database from a different perspective, one not guided by light, but immersed within sound.
 
-
-
-\subsection{Pure Data as Database System}
-\label{model:puredata}
-
-While not technically a database system, Pure Data comprises (internally) a limited amount of data structures that are, nonetheless, different between each other. These structures are, in turn, arrays, linked lists, and symbol tables built as a layer of the C programming language. In terms of database models, Pure Data is mostly hierarchical when it comes to canvases. The windowing system that has a `root', and multiple `subcanvases' that can be (almost) infinitely nested. These canvases, while being hierarchic, are traversed as in the navigational model, either for a specific keyword (a query from the `find' menu), or, most importantly, for signal processing. Besides this hierarchical structure, another important aspect of the \gls{gui} level is that it displays visually connected boxes with cords. Therefore, it is quite literally a directed graph where objects are nodes and edges are assigned to a node's inlets and outlets. The \texttt{.pd} file format, written in an application-specific language, is structured in such a way that elements on a graph are listed from top to bottom until the end of the list is reached. After this, the connections between objects inlets and outlets are subsequently listed. This graph model, however, comes out of Pure Data's internal design as an object-oriented program. Its core functionality depends on class instantiation. Every internal and external is a class made of C data structures with its own methods, that can be loaded in memory at run time and instantiated any time afterwards. Furthermore, Pure Data is already a networked environment, since in order to effectively `patch' using the graphical interface, a network is established between Pure Data instance and the Tcl/Tk graphical interface. Added to this, the network capacity that Pure Data comes with, that is, the \texttt{pdsend} and \texttt{pdreceive} objects that support creation of endless \gls{tcp/ip} connection sockets, literally exploding the concept of a hierarchical patch into the non-hierarchic, networked model. 
-
-A common warning that Pure Data developers have to announce is that if you open a listening port and share your port number, anyone can connect to that port, without any restriction whatsoever.\footnote{Miller Puckette suggested this during an open discussion at \obj{PdCon16}} This internet connectivity exposes users to one another in very direct ways, allowing system modifications that if used maliciously could potentially have detrimental effects. It can be argued that this loophole is a reflection of the internal openness of the source code itself. This openness enables programmers to create and load externals, but also to change the program itself. While changing something from the source code can be detrimental for the overall program, in being open, Pure Data prevents any definition to reach completion. A small gap, therefore, is left opened exposing users to the source, and to each other in a networked community.
-
-Pure Data is just one example of many open and non-open source computer music softwares that expose such a plethora of database models for the user. Database models are what makes the realm of data structures reach any databaser: what touches any computer user that has ever pressed a key.
-
+%------------------------------------------------------------------------------
+%
+%	END section: Intersections
+%
+%------------------------------------------------------------------------------
 {
 \backmatter
 \singlespacing
@@ -632,7 +699,3 @@ Pure Data is just one example of many open and non-open source computer music so
 \addcontentsline{toc}{part}{Bibliography}
 }
 \end{document}
-
-% \img{mir_comp_sonif_interaction}{1}{
-% 	The arrows between databases (cylinders) and computers (squares) represent data flow. Left: the database is `visibly next' to the computer, as is the case with \gls{mir}; the two bottom arrows indicate the intervention of the human operator. Right: the database is `visibly below' the computer as is the case with Sonification; the database feeds the computer from an external source (right arrow). Middle: the database is `invisibly behind' the computer, within the softwares used for (and as) music works. The arrows in between the practices represent interdisciplinary feedback.
-% }{Database performance and interdisciplinary feedback.}
